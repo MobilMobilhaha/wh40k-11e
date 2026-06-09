@@ -197,18 +197,7 @@
           },
           {
             "id": "7f1b-8591-2fcf-d01c",
-            "name": "Keywords",
-            "formatRules": [
-              {
-                "name": "New Format Rule",
-                "id": "4a7b-3b1b-53b9-c459",
-                "hidden": false,
-                "type": "regex",
-                "match": "^$",
-                "replace": "-",
-                "comment": "Empty → -"
-              }
-            ]
+            "name": "Keywords"
           }
         ],
         "id": "f77d-b953-8fa4-b762",
@@ -253,18 +242,7 @@
           },
           {
             "id": "893f-9000-ccf7-648e",
-            "name": "Keywords",
-            "formatRules": [
-              {
-                "name": "New Format Rule",
-                "id": "e612-f1e3-ea03-7e34",
-                "hidden": false,
-                "type": "regex",
-                "match": "^$",
-                "replace": "-",
-                "comment": "Empty → -"
-              }
-            ]
+            "name": "Keywords"
           }
         ],
         "id": "8a40-4aaa-c780-9046",
@@ -1982,6 +1960,11 @@
       {
         "name": "Daemonic Beasts",
         "id": "a783-fe90-2280-47ec",
+        "hidden": false
+      },
+      {
+        "name": "Mobile",
+        "id": "355c-0ee6-3cde-6c71",
         "hidden": false
       }
     ],
