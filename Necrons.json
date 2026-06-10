@@ -18171,7 +18171,26 @@
         "import": true,
         "name": "Overlord",
         "hidden": false,
-        "id": "dbe5-257e-e2bd-1b40"
+        "id": "dbe5-257e-e2bd-1b40",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "bd62-c048-76ec-bb6a",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "profiles": [
@@ -20129,7 +20148,26 @@
         "import": true,
         "name": "Chronomancer",
         "hidden": false,
-        "id": "5b7d-54ea-f7a8-9688"
+        "id": "5b7d-54ea-f7a8-9688",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "categoryLinks": [
@@ -47333,6 +47371,13 @@
             "id": "3ed6-fd84-b6f0-8308",
             "primary": false,
             "name": "Sentry Pylon"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "9028-c244-bd94-1115",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
@@ -47717,6 +47762,13 @@
             "id": "9f0a-dc93-4e8-2dd4",
             "primary": false,
             "name": "Night Shroud"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "5d2c-5081-646c-c7c1",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
@@ -48829,7 +48881,26 @@
         "import": true,
         "name": "Overlord with Translocation Shroud",
         "hidden": false,
-        "id": "2e4-afdd-efdd-c5c8"
+        "id": "2e4-afdd-efdd-c5c8",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "883b-9b05-a6e5-d85",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -50014,7 +50085,26 @@
         "import": true,
         "name": "Canoptek Macrocytes",
         "hidden": false,
-        "id": "97d7-4b22-46b7-dae0"
+        "id": "97d7-4b22-46b7-dae0",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "cd99-d95b-f670-5c59",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "comment": "Macrocytes",
@@ -50222,7 +50312,7 @@
             "type": "max",
             "value": 3,
             "field": "selections",
-            "scope": "roster",
+            "scope": "force",
             "shared": true,
             "id": "1e0d-0128-25e4-1421",
             "includeChildSelections": true
@@ -51002,7 +51092,26 @@
         "import": true,
         "name": "Canoptek Tomb Crawlers",
         "hidden": false,
-        "id": "b7ee-a0fa-5736-b58f"
+        "id": "b7ee-a0fa-5736-b58f",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "1e0d-0128-25e4-1421",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "categoryLinks": [
@@ -51667,7 +51776,26 @@
         "import": true,
         "name": "Geomancer",
         "hidden": false,
-        "id": "92cc-9d54-5d0c-6663"
+        "id": "92cc-9d54-5d0c-6663",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "dd3e-78f4-7bf4-a57e",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "costs": [
@@ -52803,6 +52931,23 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "e8e0-e7a6-437c-d9c0",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "type": "model",
@@ -53301,6 +53446,23 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "d2d5-0932-ef02-c55d",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "type": "model",
@@ -53793,6 +53955,23 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "8499-6e88-0c2a-f790",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "type": "model",
@@ -54006,7 +54185,26 @@
         ],
         "name": "Royal Warden",
         "hidden": false,
-        "id": "162f-bca1-3855-a561"
+        "id": "162f-bca1-3855-a561",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54022,7 +54220,26 @@
         ],
         "name": "Skorpekh Lord",
         "hidden": false,
-        "id": "9773-2011-fe82-ceea"
+        "id": "9773-2011-fe82-ceea",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54038,7 +54255,26 @@
         ],
         "name": "Lokhust Lord",
         "hidden": false,
-        "id": "cfb6-688d-2044-5011"
+        "id": "cfb6-688d-2044-5011",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54054,7 +54290,26 @@
         ],
         "name": "Lord",
         "hidden": false,
-        "id": "98c1-2caa-6883-c8dd"
+        "id": "98c1-2caa-6883-c8dd",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54070,7 +54325,26 @@
         ],
         "name": "Catacomb Command Barge",
         "hidden": false,
-        "id": "ee53-cc83-d667-ceb8"
+        "id": "ee53-cc83-d667-ceb8",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Overlord",
@@ -54091,7 +54365,26 @@
         ],
         "name": "Technomancer",
         "hidden": false,
-        "id": "9947-f17d-e63c-45b9"
+        "id": "9947-f17d-e63c-45b9",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54107,7 +54400,26 @@
         ],
         "name": "Psychomancer",
         "hidden": false,
-        "id": "2f01-10af-20c2-c8db"
+        "id": "2f01-10af-20c2-c8db",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54123,7 +54435,26 @@
         ],
         "name": "Plasmancer",
         "hidden": false,
-        "id": "bb03-a0dc-dc6d-241b"
+        "id": "bb03-a0dc-dc6d-241b",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54139,7 +54470,26 @@
         ],
         "name": "Necron Warriors",
         "hidden": false,
-        "id": "2fd7-338d-d680-5237"
+        "id": "2fd7-338d-d680-5237",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 4,
+            "field": "5b4b-b1f9-af2b-a20",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54155,7 +54505,26 @@
         ],
         "name": "Immortals",
         "hidden": false,
-        "id": "ed42-b203-25cf-a0dd"
+        "id": "ed42-b203-25cf-a0dd",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 4,
+            "field": "5b4b-b1f9-af2b-a20",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54171,7 +54540,26 @@
         ],
         "name": "Reanimator",
         "hidden": false,
-        "id": "721c-7a0-a813-bafa"
+        "id": "721c-7a0-a813-bafa",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Canoptek",
@@ -54192,7 +54580,26 @@
         ],
         "name": "Hexmark Destroyer",
         "hidden": false,
-        "id": "7b20-2f86-bd84-702"
+        "id": "7b20-2f86-bd84-702",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54208,7 +54615,26 @@
         ],
         "name": "Lychguard",
         "hidden": false,
-        "id": "270-5fd8-6b5c-9165"
+        "id": "270-5fd8-6b5c-9165",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "7494-f17a-bbc5-e160",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54224,7 +54650,26 @@
         ],
         "name": "Deathmarks",
         "hidden": false,
-        "id": "687d-6f40-369d-f336"
+        "id": "687d-6f40-369d-f336",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54240,7 +54685,26 @@
         ],
         "name": "Flayed Ones",
         "hidden": false,
-        "id": "388d-6508-7135-c6a9"
+        "id": "388d-6508-7135-c6a9",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54256,7 +54720,26 @@
         ],
         "name": "Cryptothralls",
         "hidden": false,
-        "id": "fe62-becb-cbf6-8327"
+        "id": "fe62-becb-cbf6-8327",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54272,7 +54755,26 @@
         ],
         "name": "Skorpekh Destroyers",
         "hidden": false,
-        "id": "97f2-7658-2cd-8f4b"
+        "id": "97f2-7658-2cd-8f4b",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54288,7 +54790,26 @@
         ],
         "name": "Triarch Stalker",
         "hidden": false,
-        "id": "1124-c60-ce6-631"
+        "id": "1124-c60-ce6-631",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54352,7 +54873,26 @@
         ],
         "name": "Transcendent C'tan",
         "hidden": false,
-        "id": "6f8b-d28b-62f8-b51f"
+        "id": "6f8b-d28b-62f8-b51f",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "ecdd-2754-441c-8e52",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54368,7 +54908,26 @@
         ],
         "name": "Spyders",
         "hidden": false,
-        "id": "ba74-40ae-cbd2-649a"
+        "id": "ba74-40ae-cbd2-649a",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54384,7 +54943,26 @@
         ],
         "name": "Scarab Swarms",
         "hidden": false,
-        "id": "4be6-3c73-e30b-36a1"
+        "id": "4be6-3c73-e30b-36a1",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54400,7 +54978,26 @@
         ],
         "name": "Ophydian Destroyers",
         "hidden": false,
-        "id": "b504-b280-b7f2-37e"
+        "id": "b504-b280-b7f2-37e",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54416,7 +55013,26 @@
         ],
         "name": "Tomb Blades",
         "hidden": false,
-        "id": "4af6-f666-3fa0-e3d"
+        "id": "4af6-f666-3fa0-e3d",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54432,7 +55048,26 @@
         ],
         "name": "Triarch Praetorians",
         "hidden": false,
-        "id": "efd1-9381-2a42-9d2c"
+        "id": "efd1-9381-2a42-9d2c",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54448,7 +55083,26 @@
         ],
         "name": "Wraiths",
         "hidden": false,
-        "id": "a584-e2d5-6c07-afe"
+        "id": "a584-e2d5-6c07-afe",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54464,7 +55118,26 @@
         ],
         "name": "Annihilation Barge",
         "hidden": false,
-        "id": "f733-8fad-fee2-2d31"
+        "id": "f733-8fad-fee2-2d31",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54480,7 +55153,26 @@
         ],
         "name": "Doomsday Ark",
         "hidden": false,
-        "id": "7925-76e2-7700-68e4"
+        "id": "7925-76e2-7700-68e4",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54496,7 +55188,26 @@
         ],
         "name": "Lokhust Destroyers",
         "hidden": false,
-        "id": "55de-834b-6ae-ed50"
+        "id": "55de-834b-6ae-ed50",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54512,7 +55223,26 @@
         ],
         "name": "Lokhust Heavy Destroyers",
         "hidden": false,
-        "id": "587d-d85b-8af-f640"
+        "id": "587d-d85b-8af-f640",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54528,7 +55258,26 @@
         ],
         "name": "Doomstalker",
         "hidden": false,
-        "id": "ff34-233e-9e4-344a"
+        "id": "ff34-233e-9e4-344a",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54544,7 +55293,26 @@
         ],
         "name": "Ghost Ark",
         "hidden": false,
-        "id": "6c94-8c39-5b8-f764"
+        "id": "6c94-8c39-5b8-f764",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 4,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54560,7 +55328,26 @@
         ],
         "name": "Doom Scythe",
         "hidden": false,
-        "id": "85d5-b025-1dec-adf4"
+        "id": "85d5-b025-1dec-adf4",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54576,7 +55363,26 @@
         ],
         "name": "Night Scythe",
         "hidden": false,
-        "id": "5bc7-9e20-85de-af17"
+        "id": "5bc7-9e20-85de-af17",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54592,7 +55398,26 @@
         ],
         "name": "Obelisk",
         "hidden": false,
-        "id": "430f-7c5f-7c00-7e97"
+        "id": "430f-7c5f-7c00-7e97",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54608,7 +55433,26 @@
         ],
         "name": "Tesseract Vault",
         "hidden": false,
-        "id": "f6cb-6287-1d9d-ed48"
+        "id": "f6cb-6287-1d9d-ed48",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54624,7 +55468,26 @@
         ],
         "name": "Monolith",
         "hidden": false,
-        "id": "e379-de-d272-104a"
+        "id": "e379-de-d272-104a",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54656,7 +55519,26 @@
         ],
         "name": "Convergence of Dominion",
         "hidden": false,
-        "id": "d79f-457-30be-69b1"
+        "id": "d79f-457-30be-69b1",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54672,7 +55554,26 @@
         ],
         "name": "Tomb Stalker",
         "hidden": false,
-        "id": "2bab-a022-dfef-2d61"
+        "id": "2bab-a022-dfef-2d61",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54688,7 +55589,26 @@
         ],
         "name": "Tomb Sentinel",
         "hidden": false,
-        "id": "b1a6-e02e-a8ff-1c87"
+        "id": "b1a6-e02e-a8ff-1c87",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54704,7 +55624,26 @@
         ],
         "name": "Acanthrites",
         "hidden": false,
-        "id": "6086-2a43-b9-ecc4"
+        "id": "6086-2a43-b9-ecc4",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54720,7 +55659,26 @@
         ],
         "name": "Tesseract Ark",
         "hidden": false,
-        "id": "6fdd-ca96-ef7-cb5f"
+        "id": "6fdd-ca96-ef7-cb5f",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54736,7 +55694,26 @@
         ],
         "name": "Seraptek Heavy Construct",
         "hidden": false,
-        "id": "34d3-49c7-8658-2127"
+        "id": "34d3-49c7-8658-2127",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4363-bd37-61aa-e46c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54752,7 +55729,26 @@
         ],
         "name": "Gauss Pylon",
         "hidden": false,
-        "id": "56ce-1117-43d7-4bb1"
+        "id": "56ce-1117-43d7-4bb1",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "2fc5-4efe-cb85-8d3f",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54768,7 +55764,26 @@
         ],
         "name": "Sentry Pylon",
         "hidden": false,
-        "id": "8951-a7b6-7fde-10da"
+        "id": "8951-a7b6-7fde-10da",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "2fc5-4efe-cb85-8d3f",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -54784,7 +55799,26 @@
         ],
         "name": "Night Shroud",
         "hidden": false,
-        "id": "3186-f3ec-ffe2-a794"
+        "id": "3186-f3ec-ffe2-a794",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "2fc5-4efe-cb85-8d3f",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Destroyer Cult",
