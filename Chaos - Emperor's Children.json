@@ -21925,6 +21925,13 @@
                     "type": "set",
                     "value": 1,
                     "field": "b762-1429-fa6f-3ef3-max"
+                  },
+                  {
+                    "type": "set",
+                    "value": "2+",
+                    "field": "55a7-5b54-c60d-11dc",
+                    "scope": "parent",
+                    "affects": "self.entries.profiles.Unit"
                   }
                 ],
                 "type": "upgrade",
@@ -35935,23 +35942,16 @@
                 "value": "740a-892c-8958-defa",
                 "field": "category",
                 "scope": "parent"
+              },
+              {
+                "type": "set",
+                "value": "4+",
+                "field": "55a7-5b54-c60d-11dc",
+                "scope": "parent",
+                "affects": "profiles.Unit"
               }
             ],
             "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "This model has a 4+ invulnerable save.",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Invulnerable Save (4+)",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "0cb2-caec-0d16-7050"
-              },
               {
                 "characteristics": [
                   {
