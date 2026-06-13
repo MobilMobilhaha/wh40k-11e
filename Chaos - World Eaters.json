@@ -16196,7 +16196,7 @@
                         "field": "f759-1bc4-cb3a-f0d2",
                         "conditions": [
                           {
-                            "type": "equalTo",
+                            "type": "atLeast",
                             "value": 3,
                             "field": "selections",
                             "scope": "roster",
@@ -16282,7 +16282,7 @@
                         "field": "f759-1bc4-cb3a-f0d2",
                         "conditions": [
                           {
-                            "type": "equalTo",
+                            "type": "atLeast",
                             "value": 3,
                             "field": "selections",
                             "scope": "roster",
@@ -51161,7 +51161,7 @@
                     "field": "f759-1bc4-cb3a-f0d2",
                     "conditions": [
                       {
-                        "type": "equalTo",
+                        "type": "atLeast",
                         "value": 3,
                         "field": "selections",
                         "scope": "roster",
@@ -51314,7 +51314,7 @@
                     "field": "f759-1bc4-cb3a-f0d2",
                     "conditions": [
                       {
-                        "type": "equalTo",
+                        "type": "atLeast",
                         "value": 3,
                         "field": "selections",
                         "scope": "roster",
