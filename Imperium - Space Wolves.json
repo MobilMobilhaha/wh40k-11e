@@ -2290,7 +2290,7 @@
             ],
             "infoLinks": [
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "hidden": false,
                 "type": "rule",
                 "id": "4f3-be1d-805e-3f8a",
@@ -2687,7 +2687,7 @@
             ],
             "infoLinks": [
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "id": "c648-714f-052b-1be2",
                 "hidden": false,
                 "type": "rule",
@@ -4660,7 +4660,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Anti-",
+                        "name": "Anti",
                         "id": "6ada-9109-e196-bebe",
                         "hidden": false,
                         "type": "rule",
@@ -5127,7 +5127,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Anti-",
+                        "name": "Anti",
                         "id": "9838-a9e6-c7bb-427c",
                         "hidden": false,
                         "type": "rule",
@@ -8160,7 +8160,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Anti-",
+            "name": "Anti",
             "hidden": false,
             "type": "rule",
             "id": "ae5d-585e-c511-cc09",
@@ -10238,7 +10238,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Anti-",
+            "name": "Anti",
             "hidden": false,
             "type": "rule",
             "id": "fcbe-e56b-e170-b85e",
@@ -11679,7 +11679,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Anti-",
+            "name": "Anti",
             "hidden": false,
             "type": "rule",
             "id": "d098-3fbc-beaf-a587",
@@ -14238,7 +14238,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Anti-",
+                        "name": "Anti",
                         "hidden": false,
                         "type": "rule",
                         "id": "bd3c-6781-5dd6-1323",
@@ -14350,7 +14350,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Anti-",
+                        "name": "Anti",
                         "hidden": false,
                         "type": "rule",
                         "id": "90f8-c582-aa39-b6b8",
@@ -20331,7 +20331,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Anti-",
+                        "name": "Anti",
                         "hidden": false,
                         "type": "rule",
                         "id": "1e3b-7af6-8bc7-a844",
@@ -33096,24 +33096,6 @@
                 "$text": ""
               }
             ],
-            "modifiers": [
-              {
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "childId": "a2bb-d1e4-4d17-0955",
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ],
-                "type": "increment",
-                "value": 1,
-                "field": "750a-a2ec-90d3-21fe"
-              }
-            ],
             "name": "Wolf Guard Battle Leader",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
@@ -33483,7 +33465,16 @@
                     "import": true,
                     "name": "Storm Shield",
                     "hidden": false,
-                    "id": "a2bb-d1e4-4d17-0955"
+                    "id": "a2bb-d1e4-4d17-0955",
+                    "modifiers": [
+                      {
+                        "type": "increment",
+                        "value": 1,
+                        "field": "750a-a2ec-90d3-21fe",
+                        "scope": "parent",
+                        "affects": "profiles.Unit"
+                      }
+                    ]
                   },
                   {
                     "profiles": [
@@ -34717,7 +34708,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Anti-",
+                        "name": "Anti",
                         "id": "e743-c9d5-8aab-2d04",
                         "hidden": false,
                         "type": "rule",
@@ -34864,7 +34855,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Anti-",
+                        "name": "Anti",
                         "id": "e573-89be-4c8b-d8ca",
                         "hidden": false,
                         "type": "rule",
