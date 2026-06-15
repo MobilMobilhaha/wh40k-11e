@@ -30,39 +30,39 @@
           {
             "characteristics": [
               {
-                "$text": "10\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "10",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "10"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "16",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "16"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "5",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "5"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
             "name": "Battlewagon",
@@ -221,13 +221,6 @@
             "type": "profile",
             "id": "6e3e-1da2-d7d-109c",
             "targetId": "2be6-f2b9-f73c-82b1"
-          },
-          {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "6780-23fd-fcc0-90ac",
-            "targetId": "ae1-4b86-68f7-dd75"
           }
         ],
         "selectionEntryGroups": [
@@ -441,7 +434,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Anti-",
+                        "name": "Anti",
                         "id": "b9c0-1a0c-8fce-c616",
                         "hidden": false,
                         "type": "rule",
@@ -2327,13 +2320,6 @@
             "targetId": "9bf4-280f-bbe2-6fbb"
           },
           {
-            "name": "Invulnerable Save (5+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "bd36-e7ed-e525-f9fc",
-            "targetId": "27f4-7449-a636-ae8c"
-          },
-          {
             "name": "Waaagh!",
             "id": "7774-aaac-7431-97bc",
             "hidden": false,
@@ -2396,51 +2382,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "id": "a385-f911-560f-f64a",
-                "hidden": false,
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "id": "d54d-6769-2ddb-7dce",
-                "hidden": false,
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "id": "4037-bf98-480e-969a",
-                "hidden": false,
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "6",
                 "name": "W",
-                "id": "f0b7-10f9-62b5-f475",
-                "hidden": false,
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "id": "41ab-8f68-13a4-c488",
-                "hidden": false,
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "id": "c197-d845-d16e-50e9",
-                "hidden": false,
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "name": "Beastboss",
@@ -2637,7 +2611,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "id": "99c5-4d34-fd6b-b567",
                     "hidden": false,
                     "type": "rule",
@@ -3452,51 +3426,39 @@
           {
             "characteristics": [
               {
-                "$text": "10\"",
                 "name": "M",
-                "id": "1e12-7700-5da5-cf09",
-                "hidden": false,
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "8",
                 "name": "T",
-                "id": "4a74-814f-8ad2-dac",
-                "hidden": false,
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "id": "e1f1-825b-b4a5-407e",
-                "hidden": false,
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "8",
                 "name": "W",
-                "id": "77a4-b70-2de-3f93",
-                "hidden": false,
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "8"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "id": "6a42-9afa-cf20-6e3e",
-                "hidden": false,
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "id": "390c-dcd7-63af-6a68",
-                "hidden": false,
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "name": "Beastboss on Squigosaur",
@@ -3557,13 +3519,6 @@
             "type": "rule",
             "id": "1101-297e-a4e1-3fde",
             "targetId": "37c-6ef9-277-9091"
-          },
-          {
-            "name": "Invulnerable Save (5+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "b413-4e5-782e-c6d5",
-            "targetId": "27f4-7449-a636-ae8c"
           }
         ],
         "entryLinks": [
@@ -4169,7 +4124,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Anti-",
+            "name": "Anti",
             "hidden": false,
             "type": "rule",
             "id": "cd6a-f1fe-f4d3-2c91",
@@ -7722,39 +7677,39 @@
           {
             "characteristics": [
               {
-                "$text": "20+\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "20+\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "12",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "12"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "0",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "0"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
             "name": "Blitza-bommer",
@@ -7806,13 +7761,6 @@
             "type": "profile",
             "id": "5b4c-2e7f-c1c-b636",
             "targetId": "59b0-2e39-273-b614"
-          },
-          {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "8a27-85e7-25f6-ce23",
-            "targetId": "ae1-4b86-68f7-dd75"
           }
         ],
         "entryLinks": [
@@ -8292,39 +8240,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "7",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "7"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "9",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "9"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
             "name": "Boomdakka Snazzwagon",
@@ -8371,13 +8319,6 @@
             "type": "rule",
             "id": "2ad1-2e22-8f14-e138",
             "targetId": "37c-6ef9-277-9091"
-          },
-          {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "db19-7427-5d1f-e363",
-            "targetId": "ae1-4b86-68f7-dd75"
           }
         ],
         "entryLinks": [
@@ -9028,39 +8969,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "5+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "5+"
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "name": "Boss Snikrot",
@@ -9137,13 +9078,6 @@
             "type": "rule",
             "id": "5f71-184a-ce3a-c2e6",
             "targetId": "37c-6ef9-277-9091"
-          },
-          {
-            "name": "Invulnerable Save (5+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "8ab9-aa96-cbb6-70bd",
-            "targetId": "27f4-7449-a636-ae8c"
           },
           {
             "name": "Lone Operative",
@@ -9691,39 +9625,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "name": "Boss Zagstruk",
@@ -9759,16 +9693,23 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "8358-2e19-d1c2-6b96"
+          },
+          {
+            "name": "Leader",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "5a4c-e343-11be-cf37",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following unit:\n- **^^Stormboyz^^**"
+              }
+            ]
           }
         ],
         "infoLinks": [
-          {
-            "name": "Invulnerable Save (5+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "934b-9625-b7b-f861",
-            "targetId": "27f4-7449-a636-ae8c"
-          },
           {
             "name": "Deep Strike",
             "hidden": false,
@@ -9796,38 +9737,13 @@
             "type": "rule",
             "id": "5386-c17e-ddd0-fc57",
             "targetId": "37c-6ef9-277-9091"
-          }
-        ],
-        "infoGroups": [
+          },
           {
-            "infoLinks": [
-              {
-                "name": "Leader",
-                "hidden": false,
-                "type": "rule",
-                "id": "2a15-65fa-21f4-19df",
-                "targetId": "b4dd-3e1f-41cb-218f"
-              }
-            ],
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "This model can be attached to the following unit:\n- STORMBOYZ",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Leader",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "5a4c-e343-11be-cf37"
-              }
-            ],
             "name": "Leader",
+            "id": "2a15-65fa-21f4-19df",
             "hidden": false,
-            "id": "c35-d466-ee0b-10c3"
+            "type": "rule",
+            "targetId": "b4dd-3e1f-41cb-218f"
           }
         ],
         "entryLinks": [
@@ -11719,7 +11635,7 @@
             "targetId": "be1e-ac8e-1e2c-3528"
           },
           {
-            "name": "Anti-",
+            "name": "Anti",
             "hidden": false,
             "type": "rule",
             "id": "3ce1-cdd6-c636-c8b4",
@@ -12554,39 +12470,39 @@
           {
             "characteristics": [
               {
-                "$text": "20+\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "20+\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "12",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "12"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "0",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "0"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
             "name": "Burna-bommer",
@@ -12713,13 +12629,6 @@
             "type": "profile",
             "id": "c508-f4d6-e1c8-a5cd",
             "targetId": "59b0-2e39-273-b614"
-          },
-          {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "8a21-5ca0-ca21-62d9",
-            "targetId": "ae1-4b86-68f7-dd75"
           }
         ],
         "entryLinks": [
@@ -13268,39 +13177,39 @@
           {
             "characteristics": [
               {
-                "$text": "20+\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "20+\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "12",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "12"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "0",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "0"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
             "name": "Dakkajet",
@@ -13352,13 +13261,6 @@
             "type": "profile",
             "id": "3b31-e62e-1d8c-f64f",
             "targetId": "59b0-2e39-273-b614"
-          },
-          {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "37e-a7ef-aaa7-1678",
-            "targetId": "ae1-4b86-68f7-dd75"
           }
         ],
         "selectionEntryGroups": [
@@ -13754,39 +13656,39 @@
           {
             "characteristics": [
               {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "2+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "8",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "8"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
             "name": "Deff Dread",
@@ -13831,13 +13733,6 @@
             "type": "rule",
             "id": "6342-8b11-3c66-6da8",
             "targetId": "37c-6ef9-277-9091"
-          },
-          {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "bd5e-96b8-8b6b-e646",
-            "targetId": "ae1-4b86-68f7-dd75"
           }
         ],
         "selectionEntryGroups": [
@@ -14569,39 +14464,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "6",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "6"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "9",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "9"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "name": "Deffkilla Wartrike",
@@ -14639,6 +14534,20 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "12ca-1686-2634-663b"
+          },
+          {
+            "name": "Leader",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "227e-96e0-dab4-f521",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following unit:\n- **^^Warbikers^^**"
+              }
+            ]
           }
         ],
         "constraints": [
@@ -14739,43 +14648,11 @@
             "targetId": "37c-6ef9-277-9091"
           },
           {
-            "name": "Invulnerable Save (5+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "394-6836-469d-5aff",
-            "targetId": "27f4-7449-a636-ae8c"
-          }
-        ],
-        "infoGroups": [
-          {
-            "infoLinks": [
-              {
-                "name": "Leader",
-                "hidden": false,
-                "type": "rule",
-                "id": "fe3a-f4ed-aa97-260b",
-                "targetId": "b4dd-3e1f-41cb-218f"
-              }
-            ],
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "This model can be attached to the following unit:\n- WARBIKERS",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Leader",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "227e-96e0-dab4-f521"
-              }
-            ],
             "name": "Leader",
+            "id": "fe3a-f4ed-aa97-260b",
             "hidden": false,
-            "id": "ae96-299c-9aa7-b0da"
+            "type": "rule",
+            "targetId": "b4dd-3e1f-41cb-218f"
           }
         ],
         "costs": [
@@ -15609,21 +15486,6 @@
             "type": "rule",
             "id": "8ace-6447-94b6-ace5",
             "targetId": "37c-6ef9-277-9091"
-          },
-          {
-            "modifiers": [
-              {
-                "type": "append",
-                "value": "[Deffkoptas]",
-                "field": "name",
-                "join": " "
-              }
-            ],
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "b7f0-c8c8-b96c-ed44",
-            "targetId": "42f1-ea3d-3ff9-e56a"
           }
         ],
         "selectionEntryGroups": [
@@ -15796,57 +15658,20 @@
                     "sortIndex": 2
                   }
                 ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "12\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "6",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "4+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "4",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "7+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "2",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
-                      }
-                    ],
-                    "name": "Deffkoptas",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "99d7-a20f-d788-0e76"
-                  }
-                ],
                 "type": "model",
                 "import": true,
                 "name": "Deffkopta",
                 "hidden": false,
-                "id": "c0f6-1a61-c90f-f188"
+                "id": "c0f6-1a61-c90f-f188",
+                "infoLinks": [
+                  {
+                    "targetId": "99d7-a20f-d788-0e76",
+                    "id": "746f-d3ad-59fc-9291",
+                    "type": "profile",
+                    "name": "Deffkoptas",
+                    "hidden": false
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -16017,57 +15842,20 @@
                     "sortIndex": 2
                   }
                 ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "12\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "6",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "4+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "4",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "7+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "2",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
-                      }
-                    ],
-                    "name": "Deffkoptas",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "4a5f-4c8b-fe2b-eb49"
-                  }
-                ],
                 "type": "model",
                 "import": true,
                 "name": "Deffkopta w/ Kustom mega-blasta",
                 "hidden": false,
-                "id": "484b-6da4-9390-33ae"
+                "id": "484b-6da4-9390-33ae",
+                "infoLinks": [
+                  {
+                    "name": "Deffkoptas",
+                    "id": "f490-861e-33bc-3af1",
+                    "hidden": false,
+                    "targetId": "99d7-a20f-d788-0e76",
+                    "type": "profile"
+                  }
+                ]
               }
             ],
             "name": "Deffkoptas (3-6)",
@@ -17277,39 +17065,39 @@
               {
                 "characteristics": [
                   {
-                    "$text": "5\"",
                     "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1"
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "5\""
                   },
                   {
-                    "$text": "6",
                     "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4"
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "6"
                   },
                   {
-                    "$text": "2+",
                     "name": "Sv",
-                    "typeId": "450-a17e-9d5e-29da"
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "2+"
                   },
                   {
-                    "$text": "10",
                     "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe"
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "10"
                   },
                   {
-                    "$text": "6+",
                     "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc"
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "6+"
                   },
                   {
-                    "$text": "4",
                     "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8"
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "4"
                   },
                   {
                     "name": "InSv",
                     "typeId": "55a7-5b54-c60d-11dc",
-                    "$text": ""
+                    "$text": "4+"
                   }
                 ],
                 "name": "Ghazghkull Thraka",
@@ -17530,23 +17318,6 @@
                 "name": "Warboss"
               }
             ],
-            "infoLinks": [
-              {
-                "modifiers": [
-                  {
-                    "type": "append",
-                    "value": "[Ghazghkull]",
-                    "field": "name",
-                    "join": " "
-                  }
-                ],
-                "name": "Invulnerable Save (4+)",
-                "id": "92ed-581c-240f-c47e",
-                "hidden": false,
-                "type": "profile",
-                "targetId": "5b77-29f8-7b77-75e3"
-              }
-            ],
             "type": "model",
             "import": true,
             "name": "Ghazghkull Thraka",
@@ -17576,39 +17347,39 @@
               {
                 "characteristics": [
                   {
-                    "$text": "5\"",
                     "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1"
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "5\""
                   },
                   {
-                    "$text": "6",
                     "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4"
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "6"
                   },
                   {
-                    "$text": "7+",
                     "name": "Sv",
-                    "typeId": "450-a17e-9d5e-29da"
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "7+"
                   },
                   {
-                    "$text": "1",
                     "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe"
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "1"
                   },
                   {
-                    "$text": "8+",
                     "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc"
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "8+"
                   },
                   {
-                    "$text": "1",
                     "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8"
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "1"
                   },
                   {
                     "name": "InSv",
                     "typeId": "55a7-5b54-c60d-11dc",
-                    "$text": ""
+                    "$text": "2+*"
                   }
                 ],
                 "name": "Makari",
@@ -17620,12 +17391,12 @@
               {
                 "characteristics": [
                   {
-                    "$text": "This model has a 2+ invulnerable save. You cannot re-roll invulnerable saving throws made for this model.",
                     "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "You cannot re-roll invulnerable saving throws made for this model."
                   }
                 ],
-                "name": "Invulnerable Save (2+*) [Makari]",
+                "name": "Invulnerable Save (2+*)",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "Abilities",
                 "hidden": false,
@@ -18176,39 +17947,39 @@
           {
             "characteristics": [
               {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "12",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "12"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "20",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "20"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "8",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "8"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
             "name": "Gorkanaut",
@@ -18290,13 +18061,6 @@
             "type": "profile",
             "id": "d53f-367b-f54b-ec90",
             "targetId": "407e-e4f2-29ce-13de"
-          },
-          {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "f120-c9bc-a10e-9117",
-            "targetId": "ae1-4b86-68f7-dd75"
           }
         ],
         "entryLinks": [
@@ -20330,7 +20094,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Anti-",
+            "name": "Anti",
             "hidden": false,
             "type": "rule",
             "id": "de05-bd19-2377-ffe9",
@@ -20421,7 +20185,7 @@
             "targetId": "115b-79dc-f723-d761"
           },
           {
-            "name": "Anti-",
+            "name": "Anti",
             "hidden": false,
             "type": "rule",
             "id": "4069-a76f-4fec-8e70",
@@ -20626,39 +20390,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Kaptin Badrukk",
@@ -20694,6 +20458,20 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "137-51eb-8d89-8823"
+          },
+          {
+            "name": "Leader",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "77d1-d5b5-85bf-4a33",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following unit:\n- **^^Flash Gitz^^**"
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -20705,43 +20483,11 @@
             "targetId": "37c-6ef9-277-9091"
           },
           {
-            "name": "Invulnerable Save (4+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "78f4-7a30-9bee-9d24",
-            "targetId": "5b77-29f8-7b77-75e3"
-          }
-        ],
-        "infoGroups": [
-          {
-            "infoLinks": [
-              {
-                "name": "Leader",
-                "hidden": false,
-                "type": "rule",
-                "id": "4dc-48d5-8b38-85a",
-                "targetId": "b4dd-3e1f-41cb-218f"
-              }
-            ],
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "This model can be attached to the following unit:\n- FLASH GITZ",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Leader",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "77d1-d5b5-85bf-4a33"
-              }
-            ],
             "name": "Leader",
+            "id": "4dc-48d5-8b38-85a",
             "hidden": false,
-            "id": "2f8f-51e6-32df-3b7"
+            "type": "rule",
+            "targetId": "b4dd-3e1f-41cb-218f"
           }
         ],
         "categoryLinks": [
@@ -21916,21 +21662,6 @@
             "type": "rule",
             "id": "1477-4b4e-9c2e-950c",
             "targetId": "37c-6ef9-277-9091"
-          },
-          {
-            "modifiers": [
-              {
-                "type": "append",
-                "value": "[Killa Kans]",
-                "field": "name",
-                "join": " "
-              }
-            ],
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "c29e-b260-842a-b635",
-            "targetId": "42f1-ea3d-3ff9-e56a"
           }
         ],
         "selectionEntryGroups": [
@@ -21974,52 +21705,6 @@
                     "type": "selectionEntry",
                     "targetId": "6220-fe17-7c2a-8268",
                     "sortIndex": 1
-                  }
-                ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "6\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "6",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "3+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "5",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "8+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "2",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
-                      }
-                    ],
-                    "name": "Killa Kans",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "77f0-61d5-4029-95ca"
                   }
                 ],
                 "selectionEntryGroups": [
@@ -22172,7 +21857,16 @@
                 "import": true,
                 "name": "Killa Kan w/ Kan shoota",
                 "hidden": false,
-                "id": "fcf3-c626-e7c5-51ab"
+                "id": "fcf3-c626-e7c5-51ab",
+                "infoLinks": [
+                  {
+                    "name": "Killa Kans",
+                    "id": "88b4-783c-6b96-b64d",
+                    "hidden": false,
+                    "targetId": "53a5-d821-b825-2046",
+                    "type": "profile"
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -22194,52 +21888,6 @@
                     "type": "selectionEntry",
                     "targetId": "6220-fe17-7c2a-8268",
                     "sortIndex": 1
-                  }
-                ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "6\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "6",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "3+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "5",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "8+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "2",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
-                      }
-                    ],
-                    "name": "Killa Kans",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "53a5-d821-b825-2046"
                   }
                 ],
                 "selectionEntryGroups": [
@@ -22328,7 +21976,16 @@
                 "import": true,
                 "name": "Killa Kan w/ Grotzooka",
                 "hidden": false,
-                "id": "f03b-8761-eac6-1405"
+                "id": "f03b-8761-eac6-1405",
+                "infoLinks": [
+                  {
+                    "targetId": "53a5-d821-b825-2046",
+                    "id": "8d0c-e9f8-33f2-4fc4",
+                    "type": "profile",
+                    "name": "Killa Kans",
+                    "hidden": false
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -22350,52 +22007,6 @@
                     "type": "selectionEntry",
                     "targetId": "6220-fe17-7c2a-8268",
                     "sortIndex": 1
-                  }
-                ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "6\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "6",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "3+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "5",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "8+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "2",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
-                      }
-                    ],
-                    "name": "Killa Kans",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "6dc9-0ef9-ecf3-0f2c"
                   }
                 ],
                 "selectionEntryGroups": [
@@ -22484,7 +22095,16 @@
                 "import": true,
                 "name": "Killa Kan w/ Rokkit launcha",
                 "hidden": false,
-                "id": "2058-9f53-d36e-a435"
+                "id": "2058-9f53-d36e-a435",
+                "infoLinks": [
+                  {
+                    "name": "Killa Kans",
+                    "id": "609e-5366-71dc-a7df",
+                    "hidden": false,
+                    "targetId": "53a5-d821-b825-2046",
+                    "type": "profile"
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -22506,52 +22126,6 @@
                     "type": "selectionEntry",
                     "targetId": "6220-fe17-7c2a-8268",
                     "sortIndex": 1
-                  }
-                ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "6\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "6",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "3+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "5",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "8+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "2",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
-                      }
-                    ],
-                    "name": "Killa Kans",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "682d-ed27-8ea1-85b6"
                   }
                 ],
                 "selectionEntryGroups": [
@@ -22641,7 +22215,16 @@
                 "import": true,
                 "name": "Killa Kan w/ Skorcha",
                 "hidden": false,
-                "id": "1137-3afb-3ba5-383c"
+                "id": "1137-3afb-3ba5-383c",
+                "infoLinks": [
+                  {
+                    "name": "Killa Kans",
+                    "id": "153a-b92c-e4b1-7f5a",
+                    "hidden": false,
+                    "targetId": "53a5-d821-b825-2046",
+                    "type": "profile"
+                  }
+                ]
               }
             ],
             "name": "Killa Kans (3-6)",
@@ -24436,39 +24019,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "7",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "7"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "9",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "9"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
             "name": "Kustom Boosta-blasta",
@@ -24547,13 +24130,6 @@
             "type": "rule",
             "id": "6b40-f8d4-9e3b-b649",
             "targetId": "37c-6ef9-277-9091"
-          },
-          {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "b62d-9cea-7cc4-449d",
-            "targetId": "ae1-4b86-68f7-dd75"
           }
         ],
         "entryLinks": [
@@ -25669,39 +25245,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "5+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "5+"
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "name": "Mad Dok Grotsnik",
@@ -25737,6 +25313,20 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "2839-444f-cf5a-93cd"
+          },
+          {
+            "name": "Leader",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "977f-8808-a448-68b2",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following units:\n- **^^Boyz^^**\n- **^^Burna Boyz^^**\n- **^^Tankbustas^^**\n- **^^Lootas^^**\n- **^^Nobz^^**"
+              }
+            ]
           }
         ],
         "categoryLinks": [
@@ -25800,43 +25390,11 @@
             "targetId": "37c-6ef9-277-9091"
           },
           {
-            "name": "Invulnerable Save (5+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "d9da-3d1d-693f-d8d3",
-            "targetId": "27f4-7449-a636-ae8c"
-          }
-        ],
-        "infoGroups": [
-          {
-            "infoLinks": [
-              {
-                "name": "Leader",
-                "hidden": false,
-                "type": "rule",
-                "id": "9f26-b6fa-dfd6-f459",
-                "targetId": "b4dd-3e1f-41cb-218f"
-              }
-            ],
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "This model can be attached to the following units:\n- BOYZ\n- BURNA BOYZ\n- TANKBUSTAS\n- LOOTAS\n- NOBZ",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Leader",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "977f-8808-a448-68b2"
-              }
-            ],
             "name": "Leader",
+            "id": "9f26-b6fa-dfd6-f459",
             "hidden": false,
-            "id": "db71-a19-3d29-43bf"
+            "type": "rule",
+            "targetId": "b4dd-3e1f-41cb-218f"
           }
         ],
         "selectionEntries": [
@@ -27844,39 +27402,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "7",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "7"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "9",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "9"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
             "name": "Megatrakk Scrapjet",
@@ -27921,13 +27479,6 @@
             "type": "rule",
             "id": "82b8-c782-3a56-24ec",
             "targetId": "37c-6ef9-277-9091"
-          },
-          {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "ab2c-8303-34ef-8fd3",
-            "targetId": "ae1-4b86-68f7-dd75"
           }
         ],
         "categoryLinks": [
@@ -29477,21 +29028,6 @@
             "type": "rule",
             "id": "8f6e-e39-36ff-74b7",
             "targetId": "37c-6ef9-277-9091"
-          },
-          {
-            "modifiers": [
-              {
-                "type": "append",
-                "value": "[Mek Gunz]",
-                "field": "name",
-                "join": " "
-              }
-            ],
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "5e53-2e7e-5353-e7f0",
-            "targetId": "42f1-ea3d-3ff9-e56a"
           }
         ],
         "profiles": [
@@ -29723,57 +29259,20 @@
                     "sortIndex": 2
                   }
                 ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "3\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "5",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "5+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "6",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "8+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "2",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
-                      }
-                    ],
-                    "name": "Mek Gunz",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "5e1f-f144-455f-70cf"
-                  }
-                ],
                 "type": "model",
                 "import": true,
                 "name": "Mek Gun w/ Smasha gun",
                 "hidden": false,
-                "id": "e82a-232e-e43d-a061"
+                "id": "e82a-232e-e43d-a061",
+                "infoLinks": [
+                  {
+                    "name": "Mek Gunz",
+                    "id": "2596-47ed-e6ad-57d2",
+                    "hidden": false,
+                    "targetId": "2c2f-d600-3682-61e2",
+                    "type": "profile"
+                  }
+                ]
               },
               {
                 "entryLinks": [
@@ -30090,57 +29589,20 @@
                     "sortIndex": 2
                   }
                 ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "3\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "5",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "5+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "6",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "8+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "2",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
-                      }
-                    ],
-                    "name": "Mek Gunz",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "2c2f-d600-3682-61e2"
-                  }
-                ],
                 "type": "model",
                 "import": true,
                 "name": "Mek Gun w/ Bubblechukka",
                 "hidden": false,
-                "id": "8aea-b460-9ad6-252d"
+                "id": "8aea-b460-9ad6-252d",
+                "infoLinks": [
+                  {
+                    "targetId": "2c2f-d600-3682-61e2",
+                    "id": "4263-cfa1-d17b-cf7e",
+                    "type": "profile",
+                    "name": "Mek Gunz",
+                    "hidden": false
+                  }
+                ]
               },
               {
                 "entryLinks": [
@@ -30347,57 +29809,20 @@
                     "sortIndex": 2
                   }
                 ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "3\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "5",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "5+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "6",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "8+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "2",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
-                      }
-                    ],
-                    "name": "Mek Gunz",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "a7d7-032d-8b7d-11a8"
-                  }
-                ],
                 "type": "model",
                 "import": true,
                 "name": "Mek Gun w/ Kustom mega-kannon",
                 "hidden": false,
-                "id": "ef50-eb48-bba3-d692"
+                "id": "ef50-eb48-bba3-d692",
+                "infoLinks": [
+                  {
+                    "name": "Mek Gunz",
+                    "id": "ee74-bc3c-672c-e0f0",
+                    "hidden": false,
+                    "targetId": "2c2f-d600-3682-61e2",
+                    "type": "profile"
+                  }
+                ]
               },
               {
                 "entryLinks": [
@@ -30543,7 +29968,7 @@
                             "targetId": "be1e-ac8e-1e2c-3528"
                           },
                           {
-                            "name": "Anti-",
+                            "name": "Anti",
                             "id": "20bb-6a4d-b895-fbee",
                             "hidden": false,
                             "type": "rule",
@@ -30574,57 +29999,20 @@
                     "sortIndex": 2
                   }
                 ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "3\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "5",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "5+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "6",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "8+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "2",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
-                      }
-                    ],
-                    "name": "Mek Gunz",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "6ecb-62a5-c4e9-8f21"
-                  }
-                ],
                 "type": "model",
                 "import": true,
                 "name": "Mek Gun w/ Traktor kannon",
                 "hidden": false,
-                "id": "c800-4c3a-de49-f05b"
+                "id": "c800-4c3a-de49-f05b",
+                "infoLinks": [
+                  {
+                    "name": "Mek Gunz",
+                    "id": "9134-c3a6-8230-eefd",
+                    "hidden": false,
+                    "targetId": "2c2f-d600-3682-61e2",
+                    "type": "profile"
+                  }
+                ]
               }
             ],
             "name": "Mek Gunz (1-3)",
@@ -31008,39 +30396,39 @@
           {
             "characteristics": [
               {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "12",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "12"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "20",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "20"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "8",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "8"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "name": "Morkanaut",
@@ -31122,13 +30510,6 @@
             "type": "profile",
             "id": "7089-86d7-d934-ac5a",
             "targetId": "407e-e4f2-29ce-13de"
-          },
-          {
-            "name": "Invulnerable Save (5+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "3aeb-a654-cb00-c355",
-            "targetId": "27f4-7449-a636-ae8c"
           }
         ],
         "entryLinks": [
@@ -31758,51 +31139,39 @@
           {
             "characteristics": [
               {
-                "$text": "10\"",
                 "name": "M",
-                "id": "f90f-63ea-c860-7f40",
-                "hidden": false,
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "8",
                 "name": "T",
-                "id": "d1a1-a28c-8d62-7713",
-                "hidden": false,
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "id": "2b42-9a0d-7da5-ab5b",
-                "hidden": false,
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "8",
                 "name": "W",
-                "id": "981-4aab-6d3-f417",
-                "hidden": false,
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "8"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "id": "d319-af2e-f838-8ca2",
-                "hidden": false,
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "id": "ee50-85fc-7ad0-15ca",
-                "hidden": false,
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Mozrog Skragbad",
@@ -31840,6 +31209,20 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "21eb-cf3f-382-aae9"
+          },
+          {
+            "name": "Leader",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "8079-307c-ffc7-7824",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following unit:\n- **^^Squighog Boyz^^**"
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -31865,11 +31248,11 @@
             "targetId": "37c-6ef9-277-9091"
           },
           {
-            "name": "Invulnerable Save (4+)",
+            "name": "Leader",
+            "id": "1cfb-65b7-128d-6208",
             "hidden": false,
-            "type": "profile",
-            "id": "700-23c6-218d-e9ab",
-            "targetId": "5b77-29f8-7b77-75e3"
+            "type": "rule",
+            "targetId": "b4dd-3e1f-41cb-218f"
           }
         ],
         "entryLinks": [
@@ -32063,7 +31446,7 @@
             ],
             "infoLinks": [
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "hidden": false,
                 "type": "rule",
                 "id": "2e69-5c9d-ffbd-d5db",
@@ -32151,40 +31534,6 @@
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
             "value": 0
-          }
-        ],
-        "infoGroups": [
-          {
-            "infoLinks": [
-              {
-                "name": "Leader",
-                "id": "1cfb-65b7-128d-6208",
-                "hidden": false,
-                "type": "rule",
-                "targetId": "b4dd-3e1f-41cb-218f"
-              }
-            ],
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "This model can be attached to the following unit:\n- SQUIGHOG BOYZ",
-                    "name": "Description",
-                    "id": "c0dd-b962-6ad0-55fd",
-                    "hidden": false,
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Leader",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "8079-307c-ffc7-7824"
-              }
-            ],
-            "name": "Leader",
-            "id": "6861-c372-ffa7-10e3",
-            "hidden": false
           }
         ],
         "selectionEntryGroups": [
@@ -34454,7 +33803,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "id": "c432-638d-5745-96de",
                     "hidden": false,
                     "type": "rule",
@@ -35749,39 +35098,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "7",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "7"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "9",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "9"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
             "name": "Rukkatrukk Squigbuggy",
@@ -35842,13 +35191,6 @@
             "type": "rule",
             "id": "973c-e1b5-5a3b-422d",
             "targetId": "37c-6ef9-277-9091"
-          },
-          {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "d06b-a83a-a5e3-60ca",
-            "targetId": "ae1-4b86-68f7-dd75"
           }
         ],
         "categoryLinks": [
@@ -36476,39 +35818,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "7",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "7"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "9",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "9"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
             "name": "Shokkjump Dragsta",
@@ -36555,13 +35897,6 @@
             "type": "rule",
             "id": "b479-b14f-6e8-4bf5",
             "targetId": "37c-6ef9-277-9091"
-          },
-          {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "1d07-a39e-874c-eb8c",
-            "targetId": "ae1-4b86-68f7-dd75"
           }
         ],
         "entryLinks": [
@@ -37730,39 +37065,39 @@
           {
             "characteristics": [
               {
-                "$text": "10\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "14",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "14"
               },
               {
-                "$text": "2+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "30",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "30"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "12",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "12"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
             "name": "Stompa",
@@ -37840,13 +37175,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "287a-21c2-35ee-794e",
-            "targetId": "ae1-4b86-68f7-dd75"
-          },
           {
             "modifiers": [
               {
@@ -40810,39 +40138,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "8",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "10",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "10"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
             "name": "Trukk",
@@ -40915,13 +40243,6 @@
             "type": "rule",
             "id": "37df-4924-b276-4986",
             "targetId": "37c-6ef9-277-9091"
-          },
-          {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "3858-ce18-77c-b463",
-            "targetId": "ae1-4b86-68f7-dd75"
           }
         ],
         "entryLinks": [
@@ -41388,21 +40709,6 @@
             "type": "rule",
             "id": "63e6-8204-9756-3f83",
             "targetId": "37c-6ef9-277-9091"
-          },
-          {
-            "modifiers": [
-              {
-                "type": "append",
-                "value": "[Warbikers]",
-                "field": "name",
-                "join": " "
-              }
-            ],
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "37f5-efd9-acd1-edb8",
-            "targetId": "42f1-ea3d-3ff9-e56a"
           }
         ],
         "selectionEntryGroups": [
@@ -41491,57 +40797,20 @@
                     "targetId": "0534-7359-3392-9d1b"
                   }
                 ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "12\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "6",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "4+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "3",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "7+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "2",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
-                      }
-                    ],
-                    "name": "Warbiker",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "def7-3e6b-a9dc-2c06"
-                  }
-                ],
                 "type": "model",
                 "import": true,
                 "name": "Warbiker",
                 "hidden": false,
-                "id": "64c4-85e4-bc36-e4b6"
+                "id": "64c4-85e4-bc36-e4b6",
+                "infoLinks": [
+                  {
+                    "targetId": "def7-3e6b-a9dc-2c06",
+                    "id": "0c88-b1fb-e459-d0ce",
+                    "type": "profile",
+                    "name": "Warbiker",
+                    "hidden": false
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -41634,57 +40903,20 @@
                     "targetId": "0534-7359-3392-9d1b"
                   }
                 ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "12\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "6",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "4+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "3",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "7+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "2",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
-                      }
-                    ],
-                    "name": "Warbiker",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "ecf2-32e7-a4ca-12d8"
-                  }
-                ],
                 "type": "model",
                 "import": true,
                 "name": "Warbiker w/ Slugga",
                 "hidden": false,
-                "id": "df67-9045-caed-7f37"
+                "id": "df67-9045-caed-7f37",
+                "infoLinks": [
+                  {
+                    "name": "Warbiker",
+                    "id": "f9b8-6d20-9976-e11b",
+                    "hidden": false,
+                    "targetId": "def7-3e6b-a9dc-2c06",
+                    "type": "profile"
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -41777,57 +41009,20 @@
                     "targetId": "0534-7359-3392-9d1b"
                   }
                 ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "12\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "6",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "4+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "3",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "7+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "2",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
-                      }
-                    ],
-                    "name": "Warbiker",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "9709-5918-9e63-cc70"
-                  }
-                ],
                 "type": "model",
                 "import": true,
                 "name": "Warbiker w/ Choppa",
                 "hidden": false,
-                "id": "b072-d55f-9271-c7f2"
+                "id": "b072-d55f-9271-c7f2",
+                "infoLinks": [
+                  {
+                    "name": "Warbiker",
+                    "id": "6ded-04dd-c70d-5c73",
+                    "hidden": false,
+                    "targetId": "def7-3e6b-a9dc-2c06",
+                    "type": "profile"
+                  }
+                ]
               }
             ],
             "name": "Warbikers (2-5)",
@@ -41861,39 +41056,39 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "12\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "12\""
                       },
                       {
-                        "$text": "6",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "6"
                       },
                       {
-                        "$text": "4+",
                         "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "4+"
                       },
                       {
-                        "$text": "4",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "4"
                       },
                       {
-                        "$text": "7+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "7+"
                       },
                       {
-                        "$text": "2",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "2"
                       },
                       {
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
+                        "$text": "6+"
                       }
                     ],
                     "name": "Boss Nob on Warbike",
@@ -42496,39 +41691,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "name": "Warboss",
@@ -42564,6 +41759,20 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "a22d-294f-6401-5dfe"
+          },
+          {
+            "name": "Leader",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "165e-4c2e-d8a0-5d5d",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following units:\n- **^^Boyz^^**\n- **^^Nobz^^**"
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -42575,43 +41784,11 @@
             "targetId": "37c-6ef9-277-9091"
           },
           {
-            "name": "Invulnerable Save (5+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "a504-5723-9db1-82ad",
-            "targetId": "27f4-7449-a636-ae8c"
-          }
-        ],
-        "infoGroups": [
-          {
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "This model can be attached to the following units:\n- BOYZ\n- NOBZ",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Leader",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "165e-4c2e-d8a0-5d5d"
-              }
-            ],
-            "infoLinks": [
-              {
-                "name": "Leader",
-                "hidden": false,
-                "type": "rule",
-                "id": "d113-3ffd-bd2-8bdd",
-                "targetId": "b4dd-3e1f-41cb-218f"
-              }
-            ],
             "name": "Leader",
+            "id": "d113-3ffd-bd2-8bdd",
             "hidden": false,
-            "id": "3fef-baa8-b545-8587"
+            "type": "rule",
+            "targetId": "b4dd-3e1f-41cb-218f"
           }
         ],
         "entryLinks": [
@@ -43523,39 +42700,39 @@
           {
             "characteristics": [
               {
-                "$text": "5\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
               },
               {
-                "$text": "6",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "6"
               },
               {
-                "$text": "2+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "7",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "7"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "name": "Warboss in Mega Armour",
@@ -43591,6 +42768,20 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "b423-a011-7b47-5afa"
+          },
+          {
+            "name": "Leader",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "a0b4-23f-590-9d6a",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following unit:\n- **^^Meganobz^^**"
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -43602,43 +42793,11 @@
             "targetId": "37c-6ef9-277-9091"
           },
           {
-            "name": "Invulnerable Save (5+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "8f20-c907-f971-dd5b",
-            "targetId": "27f4-7449-a636-ae8c"
-          }
-        ],
-        "infoGroups": [
-          {
-            "infoLinks": [
-              {
-                "name": "Leader",
-                "hidden": false,
-                "type": "rule",
-                "id": "344e-ba9b-9189-7158",
-                "targetId": "b4dd-3e1f-41cb-218f"
-              }
-            ],
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "This model can be attached to the following unit:\n- MEGANOBZ",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Leader",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "a0b4-23f-590-9d6a"
-              }
-            ],
             "name": "Leader",
+            "id": "344e-ba9b-9189-7158",
             "hidden": false,
-            "id": "3369-4472-5b70-e7ef"
+            "type": "rule",
+            "targetId": "b4dd-3e1f-41cb-218f"
           }
         ],
         "entryLinks": [
@@ -44440,39 +43599,39 @@
           {
             "characteristics": [
               {
-                "$text": "20+\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "20+\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "12",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "12"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "0",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "0"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
             "name": "Wazbom Blastajet",
@@ -44524,30 +43683,6 @@
             "type": "profile",
             "id": "345-3a1e-8d04-5f8c",
             "targetId": "59b0-2e39-273-b614"
-          },
-          {
-            "modifiers": [
-              {
-                "conditions": [
-                  {
-                    "type": "greaterThan",
-                    "value": 0,
-                    "field": "selections",
-                    "scope": "3832-ad97-2b3b-8775",
-                    "childId": "c2b-ce63-7b3b-ee6f",
-                    "shared": true
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              }
-            ],
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "41c1-3848-f331-6068",
-            "targetId": "ae1-4b86-68f7-dd75"
           }
         ],
         "selectionEntryGroups": [
@@ -47247,7 +46382,7 @@
                 "targetId": "8bf7-8812-923d-29e4"
               },
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "id": "de31-79b6-f9ca-5b42",
                 "hidden": false,
                 "type": "rule",
@@ -52472,39 +51607,39 @@
           {
             "characteristics": [
               {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "10",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "10"
               },
               {
-                "$text": "2+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "16",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "16"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "5",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "5"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
             "name": "Mega Dread",
@@ -52526,16 +51661,23 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "688-8033-f928-61c8"
+          },
+          {
+            "name": "Dead Rippy",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "5108-c16c-3fdf-721f",
+            "characteristics": [
+              {
+                "$text": "If this model is equipped with 2 dread killsaws, those weapons have the [TWIN-LINKED] ability. If this model is equipped with 2 dread rippa klaws, those weapons have the [TWIN-LINKED] ability.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
           }
         ],
         "infoLinks": [
-          {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "76c4-ae7e-2edb-19a1",
-            "targetId": "ae1-4b86-68f7-dd75"
-          },
           {
             "modifiers": [
               {
@@ -52563,38 +51705,13 @@
             "type": "profile",
             "id": "5724-edd8-b717-3cce",
             "targetId": "2be6-f2b9-f73c-82b1"
-          }
-        ],
-        "infoGroups": [
+          },
           {
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "If this model is equipped with 2 dread killsaws, those weapons have the [TWIN-LINKED] ability. If this model is equipped with 2 dread rippa klaws, those weapons have the [TWIN-LINKED] ability.",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Dead Rippy",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "5108-c16c-3fdf-721f"
-              }
-            ],
-            "infoLinks": [
-              {
-                "name": "Twin-linked",
-                "hidden": false,
-                "type": "rule",
-                "id": "58c9-c2ff-5400-f81f",
-                "targetId": "cf93-ad4d-2f08-a79d"
-              }
-            ],
-            "name": "Dead Rippy",
+            "name": "Twin-linked",
+            "id": "58c9-c2ff-5400-f81f",
             "hidden": false,
-            "id": "5e88-e68e-a2f9-a9b3"
+            "type": "rule",
+            "targetId": "cf93-ad4d-2f08-a79d"
           }
         ],
         "selectionEntryGroups": [
@@ -53183,42 +52300,42 @@
           {
             "characteristics": [
               {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "10",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "10"
               },
               {
-                "$text": "2+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "16",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "16"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "5",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "5"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
-            "name": "Mega Dread",
+            "name": "Meka-Dread",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -53240,13 +52357,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "8f14-638a-a773-7da",
-            "targetId": "ae1-4b86-68f7-dd75"
-          },
           {
             "modifiers": [
               {
@@ -53767,39 +52877,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "12",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "12"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
             "name": "Big Trakk",
@@ -53838,13 +52948,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "fd07-ea3f-239-9b9d",
-            "targetId": "ae1-4b86-68f7-dd75"
-          },
           {
             "modifiers": [
               {
@@ -54604,39 +53707,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "6",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "6"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "7",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "7"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "name": "Warboss on Warbike",
@@ -54672,54 +53775,36 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "5723-30ca-5b9-72b3"
+          },
+          {
+            "name": "Leader",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "a0df-21d3-d4e4-1d9d",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following units:\n- **^^Warbikers^^**\n- **^^Nobz On Warbikes^^**"
+              }
+            ]
           }
         ],
         "infoLinks": [
-          {
-            "name": "Invulnerable Save (5+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "e78b-ed1a-907e-3398",
-            "targetId": "27f4-7449-a636-ae8c"
-          },
           {
             "name": "Waaagh!",
             "hidden": false,
             "type": "rule",
             "id": "d1f3-b12a-3969-db2c",
             "targetId": "37c-6ef9-277-9091"
-          }
-        ],
-        "infoGroups": [
+          },
           {
-            "infoLinks": [
-              {
-                "name": "Leader",
-                "hidden": false,
-                "type": "rule",
-                "id": "4a5e-2c3e-8097-1279",
-                "targetId": "b4dd-3e1f-41cb-218f"
-              }
-            ],
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "This model can be attached to the following units:\n- WARBIKERS\n- NOBZ ON WARBIKES",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Leader",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "a0df-21d3-d4e4-1d9d"
-              }
-            ],
             "name": "Leader",
+            "id": "4a5e-2c3e-8097-1279",
             "hidden": false,
-            "id": "b0f6-bd17-74cd-7c12"
+            "type": "rule",
+            "targetId": "b4dd-3e1f-41cb-218f"
           }
         ],
         "costs": [
@@ -55029,50 +54114,6 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
-              },
-              {
-                "$text": "6",
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
-              },
-              {
-                "$text": "4+",
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
-              },
-              {
-                "$text": "4",
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
-              },
-              {
-                "$text": "7+",
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
-              },
-              {
-                "$text": "2",
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
-              }
-            ],
-            "name": "Nobz on Warbikes",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "id": "ad80-e416-c84f-fbca"
-          },
-          {
-            "characteristics": [
-              {
                 "$text": "Each time this unit Consolidates, each model in this unit can move up to 6\" instead of up to 3\".",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
@@ -55100,21 +54141,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "modifiers": [
-              {
-                "type": "append",
-                "value": "[Nobz on Warbikes]",
-                "field": "name",
-                "join": " "
-              }
-            ],
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "e8a0-b151-3455-b8b3",
-            "targetId": "42f1-ea3d-3ff9-e56a"
-          },
           {
             "name": "Waaagh!",
             "hidden": false,
@@ -55520,7 +54546,53 @@
             "name": "Nobz on Warbikes",
             "hidden": false,
             "id": "850d-6f29-d9f1-bec",
-            "sortIndex": 2
+            "sortIndex": 2,
+            "profiles": [
+              {
+                "name": "Nobz on Warbikes",
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "hidden": false,
+                "id": "ad80-e416-c84f-fbca",
+                "characteristics": [
+                  {
+                    "name": "M",
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "12\""
+                  },
+                  {
+                    "name": "T",
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "Sv",
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "W",
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "4"
+                  },
+                  {
+                    "name": "LD",
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "7+"
+                  },
+                  {
+                    "name": "OC",
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": "6+"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "costs": [
@@ -55825,39 +54897,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "10",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "10"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "16",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "16"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "4",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "4"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
             "name": "Kannonwagon",
@@ -55898,13 +54970,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "4bbf-2755-a8ee-da2e",
-            "targetId": "ae1-4b86-68f7-dd75"
-          },
           {
             "name": "Damaged: 1-5 Wounds Remaining",
             "hidden": false,
@@ -56907,42 +55972,42 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "6",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "6"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
-            "name": "Painboy on Warbike [Legends]",
+            "name": "Painboy on Warbike",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -56961,84 +56026,57 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "e047-b811-687c-5ca1"
+          },
+          {
+            "name": "Dok’s Toolz",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "b339-20ed-75ec-eea5",
+            "characteristics": [
+              {
+                "$text": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Leader",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "29be-fef0-9928-331",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following unit:\n- **^^Warbikers^^**"
+              }
+            ]
           }
         ],
         "infoLinks": [
-          {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "609b-6d2e-e8fe-c34c",
-            "targetId": "ae1-4b86-68f7-dd75"
-          },
           {
             "name": "Waaagh!",
             "hidden": false,
             "type": "rule",
             "id": "d83f-c43c-beeb-c4db",
             "targetId": "37c-6ef9-277-9091"
-          }
-        ],
-        "infoGroups": [
-          {
-            "infoLinks": [
-              {
-                "name": "Leader",
-                "hidden": false,
-                "type": "rule",
-                "id": "726a-ea95-3b25-b669",
-                "targetId": "b4dd-3e1f-41cb-218f"
-              }
-            ],
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "This model can be attached to the following unit:\n- WARBIKERS",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Leader",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "29be-fef0-9928-331"
-              }
-            ],
-            "name": "Leader",
-            "hidden": false,
-            "id": "2092-b582-274a-fc9b"
           },
           {
-            "infoLinks": [
-              {
-                "name": "Feel No Pain",
-                "hidden": false,
-                "type": "rule",
-                "id": "3239-ddea-427f-c28f",
-                "targetId": "9bf4-280f-bbe2-6fbb"
-              }
-            ],
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability.",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Dok’s Toolz",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "b339-20ed-75ec-eea5"
-              }
-            ],
-            "name": "Dok’s Toolz",
+            "name": "Feel No Pain",
+            "id": "3239-ddea-427f-c28f",
             "hidden": false,
-            "id": "6998-df0c-ad08-1d7c"
+            "type": "rule",
+            "targetId": "9bf4-280f-bbe2-6fbb"
+          },
+          {
+            "name": "Leader",
+            "id": "726a-ea95-3b25-b669",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "b4dd-3e1f-41cb-218f"
           }
         ],
         "entryLinks": [
@@ -57530,7 +56568,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Anti-",
+            "name": "Anti",
             "hidden": false,
             "type": "rule",
             "id": "bee9-5a9-94dc-5a7a",
@@ -57615,50 +56653,6 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
-              },
-              {
-                "$text": "6",
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
-              },
-              {
-                "$text": "4+",
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
-              },
-              {
-                "$text": "6",
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
-              },
-              {
-                "$text": "7+",
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
-              },
-              {
-                "$text": "2",
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
-              }
-            ],
-            "name": "Skorchas [Legends]",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "id": "7b1d-8f5d-e233-93cb"
-          },
-          {
-            "characteristics": [
-              {
                 "$text": "Each time a model in this unit makes a ranged attack with a Torrent weapon that targets an enemy unit within 6\", re-roll a Wound roll of 1. If the target of that attack is also within range of an objective marker, you can re-roll the Wound roll instead.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
@@ -57672,21 +56666,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "modifiers": [
-              {
-                "type": "append",
-                "value": "[Skorchas]",
-                "field": "name",
-                "join": " "
-              }
-            ],
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "d06f-76d1-c1bb-62cd",
-            "targetId": "42f1-ea3d-3ff9-e56a"
-          },
           {
             "name": "Waaagh!",
             "hidden": false,
@@ -57809,7 +56788,53 @@
                 "import": true,
                 "name": "Skorchas",
                 "hidden": false,
-                "id": "bdc3-aa17-230c-4958"
+                "id": "bdc3-aa17-230c-4958",
+                "profiles": [
+                  {
+                    "name": "Skorchas",
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "hidden": false,
+                    "id": "7b1d-8f5d-e233-93cb",
+                    "characteristics": [
+                      {
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "12\""
+                      },
+                      {
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "6"
+                      },
+                      {
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "4+"
+                      },
+                      {
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "6"
+                      },
+                      {
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "7+"
+                      },
+                      {
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": "6+"
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "constraints": [
@@ -58815,21 +57840,6 @@
         ],
         "infoLinks": [
           {
-            "modifiers": [
-              {
-                "type": "append",
-                "value": "[Warbuggies]",
-                "field": "name",
-                "join": " "
-              }
-            ],
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "f1f3-bfb8-c8ab-9fa4",
-            "targetId": "42f1-ea3d-3ff9-e56a"
-          },
-          {
             "name": "Speed Freeks",
             "hidden": false,
             "type": "profile",
@@ -58845,50 +57855,6 @@
           }
         ],
         "profiles": [
-          {
-            "characteristics": [
-              {
-                "$text": "12\"",
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
-              },
-              {
-                "$text": "6",
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
-              },
-              {
-                "$text": "4+",
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
-              },
-              {
-                "$text": "6",
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
-              },
-              {
-                "$text": "7+",
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
-              },
-              {
-                "$text": "2",
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
-              }
-            ],
-            "name": "Warbuggies",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "id": "9d3b-fcad-2e90-dfe7"
-          },
           {
             "characteristics": [
               {
@@ -59004,7 +57970,16 @@
                 "import": true,
                 "name": "Warbuggies w/ Twin big shoota",
                 "hidden": false,
-                "id": "41eb-f6ef-688b-e54"
+                "id": "41eb-f6ef-688b-e54",
+                "infoLinks": [
+                  {
+                    "targetId": "9d3b-fcad-2e90-dfe7",
+                    "id": "4ab2-6ed3-6ce7-8096",
+                    "type": "profile",
+                    "name": "Warbuggies",
+                    "hidden": false
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -59102,7 +58077,16 @@
                 "import": true,
                 "name": "Warbuggies w/ Rack of rokkits",
                 "hidden": false,
-                "id": "1a99-5d51-63-683f"
+                "id": "1a99-5d51-63-683f",
+                "infoLinks": [
+                  {
+                    "name": "Warbuggies",
+                    "id": "86be-7d02-65b2-48d3",
+                    "hidden": false,
+                    "targetId": "9d3b-fcad-2e90-dfe7",
+                    "type": "profile"
+                  }
+                ]
               }
             ],
             "constraints": [
@@ -59439,11 +58423,9 @@
           {
             "characteristics": [
               {
-                "$text": "Designer’s Note: Place two Grot Crew tokens next to each Big Gun model when this unit is first set up, removing one each time its Big Gun model loses a wound (a Big Gun model itself is considered to represent its final wound).",
                 "name": "Description",
-                "id": "ef90-775b-6821-babf",
-                "hidden": false,
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "**Designer’s Note:** *Place two Grot Crew tokens next to each Big Gun model when this unit is first set up, removing one each time its Big Gun model loses a wound (a Big Gun model itself is considered to represent its final wound).*"
               }
             ],
             "name": "Big Gunz",
@@ -59454,21 +58436,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "modifiers": [
-              {
-                "type": "append",
-                "value": "[Big Gunz]",
-                "field": "name",
-                "join": " "
-              }
-            ],
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "1409-2af6-679f-3cbb",
-            "targetId": "42f1-ea3d-3ff9-e56a"
-          },
           {
             "name": "Waaagh!",
             "hidden": false,
@@ -59787,57 +58754,20 @@
                     "sortIndex": 2
                   }
                 ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "3\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "4",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "5+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "3",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "8+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "1",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
-                      }
-                    ],
-                    "name": "Big Gunz",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "6c53-3a6a-9832-f4a8"
-                  }
-                ],
                 "type": "model",
                 "import": true,
                 "name": "Big Gunz w/ Kannon",
                 "hidden": false,
-                "id": "145f-7113-8466-d544"
+                "id": "145f-7113-8466-d544",
+                "infoLinks": [
+                  {
+                    "targetId": "6c53-3a6a-9832-f4a8",
+                    "id": "12a4-9ebf-15bb-f1ff",
+                    "type": "profile",
+                    "name": "Big Gunz",
+                    "hidden": false
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -60031,57 +58961,20 @@
                     "sortIndex": 2
                   }
                 ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "3\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "4",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "5+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "3",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "8+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "1",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
-                      }
-                    ],
-                    "name": "Big Gunz",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "8b48-4d01-29fd-e5b5"
-                  }
-                ],
                 "type": "model",
                 "import": true,
                 "name": "Big Gunz w/ Lobba",
                 "hidden": false,
-                "id": "14e1-a15e-e987-5c3c"
+                "id": "14e1-a15e-e987-5c3c",
+                "infoLinks": [
+                  {
+                    "name": "Big Gunz",
+                    "id": "ee2e-190b-58e0-c8db",
+                    "hidden": false,
+                    "targetId": "6c53-3a6a-9832-f4a8",
+                    "type": "profile"
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -60277,57 +59170,20 @@
                     "sortIndex": 2
                   }
                 ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "3\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "4",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "5+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "3",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "8+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "1",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
-                      }
-                    ],
-                    "name": "Big Gunz",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "4381-0c6d-7164-4c84"
-                  }
-                ],
                 "type": "model",
                 "import": true,
                 "name": "Big Gunz w/ Zzap gun",
                 "hidden": false,
-                "id": "565b-5d57-1578-36bb"
+                "id": "565b-5d57-1578-36bb",
+                "infoLinks": [
+                  {
+                    "name": "Big Gunz",
+                    "id": "1b42-a54a-4989-7aab",
+                    "hidden": false,
+                    "targetId": "6c53-3a6a-9832-f4a8",
+                    "type": "profile"
+                  }
+                ]
               }
             ],
             "name": "Big Gunz",
@@ -60700,21 +59556,6 @@
         ],
         "infoLinks": [
           {
-            "modifiers": [
-              {
-                "type": "append",
-                "value": "[Deffkoptas with Big Shootas]",
-                "field": "name",
-                "join": " "
-              }
-            ],
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "621b-732c-acbf-ca5d",
-            "targetId": "42f1-ea3d-3ff9-e56a"
-          },
-          {
             "name": "Deep Strike",
             "hidden": false,
             "type": "rule",
@@ -60961,58 +59802,21 @@
                 "sortIndex": 1
               }
             ],
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "12\"",
-                    "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1"
-                  },
-                  {
-                    "$text": "6",
-                    "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4"
-                  },
-                  {
-                    "$text": "4+",
-                    "name": "Sv",
-                    "typeId": "450-a17e-9d5e-29da"
-                  },
-                  {
-                    "$text": "4",
-                    "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe"
-                  },
-                  {
-                    "$text": "7+",
-                    "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc"
-                  },
-                  {
-                    "$text": "2",
-                    "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8"
-                  },
-                  {
-                    "name": "InSv",
-                    "typeId": "55a7-5b54-c60d-11dc",
-                    "$text": ""
-                  }
-                ],
-                "name": "Deffkoptas with Big Shootas",
-                "typeId": "c547-1836-d8a-ff4f",
-                "typeName": "Unit",
-                "hidden": false,
-                "id": "dad3-66e6-97aa-530b"
-              }
-            ],
             "type": "model",
             "import": true,
             "name": "Deffkoptas with Big Shootas",
             "hidden": false,
             "id": "215b-4996-b4c2-55b0",
-            "sortIndex": 2
+            "sortIndex": 2,
+            "infoLinks": [
+              {
+                "name": "Deffkoptas",
+                "id": "cca6-fad8-c891-1be2",
+                "hidden": false,
+                "targetId": "99d7-a20f-d788-0e76",
+                "type": "profile"
+              }
+            ]
           }
         ],
         "costs": [
@@ -61317,42 +60121,42 @@
           {
             "characteristics": [
               {
-                "$text": "10\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "12",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "12"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "22",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "22"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "8",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "8"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
-            "name": "Kill Krusha [Legends]",
+            "name": "Kill Krusha",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -61382,7 +60186,7 @@
                 "typeId": "30f2-be70-861d-1b84"
               }
             ],
-            "name": "Kill Krusha [Legends]",
+            "name": "Kill Krusha",
             "typeId": "74f8-5443-9d6d-1f1e",
             "typeName": "Transport",
             "hidden": false,
@@ -62226,42 +61030,42 @@
           {
             "characteristics": [
               {
-                "$text": "10\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "12",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "12"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "22",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "22"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "8",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "8"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
-            "name": "Deff Rolla Battle Fortress [Legends]",
+            "name": "Deff Rolla Battle Fortress",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -62284,12 +61088,12 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a transport capacity of 22 ORKS INFANTRY models. Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 models. The Ghazghkull Thraka model takes up the space of 18 models.",
                 "name": "Capacity",
-                "typeId": "30f2-be70-861d-1b84"
+                "typeId": "30f2-be70-861d-1b84",
+                "$text": "This model has a transport capacity of 22 **^^Orks Infantry^^** models. Each **^^Mega Armour^^** or **^^Jump Pack^^** model takes up the space of 2 models. The Ghazghkull Thraka model takes up the space of 18 models."
               }
             ],
-            "name": "Deff Rolla Battle Fortress [Legends]",
+            "name": "Deff Rolla Battle Fortress",
             "typeId": "74f8-5443-9d6d-1f1e",
             "typeName": "Transport",
             "hidden": false,
@@ -62308,13 +61112,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "b936-3771-8feb-e020",
-            "targetId": "ae1-4b86-68f7-dd75"
-          },
           {
             "name": "Damaged: 1-7 Wounds Remaining",
             "hidden": false,
@@ -63427,42 +62224,42 @@
           {
             "characteristics": [
               {
-                "$text": "14\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "14\""
               },
               {
-                "$text": "8",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "10",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "10"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
-            "name": "Chinork Warkopta [Legends]",
+            "name": "Chinork Warkopta",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -63485,12 +62282,12 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a transport capacity of 12 ORKS INFANTRY models. This model cannot transport GHAZGHKULL THRAKA, MEGA ARMOUR or JUMP PACK models.",
                 "name": "Capacity",
-                "typeId": "30f2-be70-861d-1b84"
+                "typeId": "30f2-be70-861d-1b84",
+                "$text": "This model has a transport capacity of 12 **^^Orks Infantry^^** models. This model cannot transport **^^Ghazghkull Thraka^^**, **^^Mega Armour^^** or **^^Jump Pack^^** models."
               }
             ],
-            "name": "Chinork Warkopta [Legends]",
+            "name": "Chinork Warkopta",
             "typeId": "74f8-5443-9d6d-1f1e",
             "typeName": "Transport",
             "hidden": false,
@@ -63498,13 +62295,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "9a02-c594-e2d5-441a",
-            "targetId": "ae1-4b86-68f7-dd75"
-          },
           {
             "name": "Waaagh!",
             "hidden": false,
@@ -64299,42 +63089,42 @@
           {
             "characteristics": [
               {
-                "$text": "20+\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "20+\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "12",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "12"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "0",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "0"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
-            "name": "Fighta-Bommer [Legends]",
+            "name": "Fighta-Bommer",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -64356,13 +63146,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "f9d5-9bb8-6cd7-2be0",
-            "targetId": "ae1-4b86-68f7-dd75"
-          },
           {
             "modifiers": [
               {
@@ -65023,42 +63806,42 @@
           {
             "characteristics": [
               {
-                "$text": "20+\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "20+\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "10",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "10"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "0",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "0"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
-            "name": "Attack Fighta [Legends]",
+            "name": "Attack Fighta",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -65094,13 +63877,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "4b7a-4bc2-e208-8e3",
-            "targetId": "ae1-4b86-68f7-dd75"
-          },
           {
             "modifiers": [
               {
@@ -65598,42 +64374,42 @@
           {
             "characteristics": [
               {
-                "$text": "10\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "10",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "10"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "16",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "16"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "5",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "5"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
-            "name": "Lifta Wagon [Legends]",
+            "name": "Lifta Wagon",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -65661,13 +64437,6 @@
             "type": "profile",
             "id": "a78f-6bef-eee7-4d0f",
             "targetId": "2be6-f2b9-f73c-82b1"
-          },
-          {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "985f-3326-c419-6a19",
-            "targetId": "ae1-4b86-68f7-dd75"
           },
           {
             "name": "Waaagh!",
@@ -66168,7 +64937,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "id": "7795-2d1e-8cf3-cdbe",
                     "hidden": false,
                     "type": "rule",
@@ -66681,42 +65450,42 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "6",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "6"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
-            "name": "Grot Bomm Launcha [Legends]",
+            "name": "Grot Bomm Launcha",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -66738,13 +65507,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "fd5a-8d8b-9f37-38ca",
-            "targetId": "ae1-4b86-68f7-dd75"
-          },
           {
             "name": "Waaagh!",
             "hidden": false,
@@ -67261,42 +66023,42 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "6",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "6"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
-            "name": "Big Mek on Warbike [Legends]",
+            "name": "Big Mek on Warbike",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -67329,6 +66091,20 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "6d73-ac8e-72ad-7cd3"
+          },
+          {
+            "name": "Leader",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "a9b7-3a07-eb78-929e",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following unit:\n- **^^Warbikers^^**"
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -67340,43 +66116,11 @@
             "targetId": "37c-6ef9-277-9091"
           },
           {
-            "name": "Invulnerable Save (6+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "dd08-fdff-8167-96da",
-            "targetId": "ae1-4b86-68f7-dd75"
-          }
-        ],
-        "infoGroups": [
-          {
-            "infoLinks": [
-              {
-                "name": "Leader",
-                "hidden": false,
-                "type": "rule",
-                "id": "edd3-cab2-954f-d032",
-                "targetId": "b4dd-3e1f-41cb-218f"
-              }
-            ],
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "This model can be attached to the following unit:\n- WARBIKERS",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Leader",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "a9b7-3a07-eb78-929e"
-              }
-            ],
             "name": "Leader",
+            "id": "edd3-cab2-954f-d032",
             "hidden": false,
-            "id": "b8b0-da34-f218-f5b7"
+            "type": "rule",
+            "targetId": "b4dd-3e1f-41cb-218f"
           }
         ],
         "selectionEntryGroups": [
@@ -69000,39 +67744,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "name": "Ufthak Blackhawk",
@@ -69103,13 +67847,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "name": "Invulnerable Save (5+)",
-            "hidden": false,
-            "id": "8cde-ba2c-868b-43cb",
-            "type": "profile",
-            "targetId": "27f4-7449-a636-ae8c"
-          },
           {
             "name": "Waaagh!",
             "hidden": false,
@@ -71618,7 +70355,7 @@
             ],
             "infoLinks": [
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "id": "c9a6-7539-835e-50bb",
                 "hidden": false,
                 "type": "rule",
@@ -71909,7 +70646,7 @@
             ],
             "infoLinks": [
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "id": "deee-17c4-e2ce-c46f",
                 "hidden": false,
                 "type": "rule",
@@ -72537,7 +71274,7 @@
                         "targetId": "be1e-ac8e-1e2c-3528"
                       },
                       {
-                        "name": "Anti-",
+                        "name": "Anti",
                         "id": "b621-cfef-4903-563b",
                         "hidden": false,
                         "type": "rule",
@@ -72653,7 +71390,7 @@
                         "targetId": "cf93-ad4d-2f08-a79d"
                       },
                       {
-                        "name": "Anti-",
+                        "name": "Anti",
                         "id": "e0ff-94bb-7d9f-bfb0",
                         "hidden": false,
                         "type": "rule",
@@ -73233,7 +71970,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Anti-",
+            "name": "Anti",
             "id": "b5e7-fc9b-06ac-66b3",
             "hidden": false,
             "type": "rule",
@@ -75421,39 +74158,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "2",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "2"
               },
               {
-                "$text": "5+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "5+"
               },
               {
-                "$text": "3",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "3"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "name": "Da Red Gobbo",
@@ -75531,13 +74268,6 @@
             "type": "rule",
             "id": "c076-f3f3-7027-5142",
             "targetId": "a8a0-8fe7-898-e0f3"
-          },
-          {
-            "name": "Invulnerable Save (5+)",
-            "id": "7a16-78b0-ef2d-ba5c",
-            "hidden": false,
-            "type": "profile",
-            "targetId": "27f4-7449-a636-ae8c"
           },
           {
             "modifiers": [
@@ -76007,39 +74737,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "6",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "6"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "5",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "5"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "name": "Da Red Gobbo's Tinboy",
@@ -76116,13 +74846,6 @@
             "type": "rule",
             "id": "0e24-5d3c-5557-fba7",
             "targetId": "37c-6ef9-277-9091"
-          },
-          {
-            "name": "Invulnerable Save (5+)",
-            "id": "b2c4-6ed0-c5cf-c32d",
-            "hidden": false,
-            "type": "profile",
-            "targetId": "27f4-7449-a636-ae8c"
           },
           {
             "modifiers": [
@@ -77345,7 +76068,7 @@
             "targetId": "be1e-ac8e-1e2c-3528"
           },
           {
-            "name": "Anti-",
+            "name": "Anti",
             "id": "4949-226f-97d3-13e6",
             "hidden": false,
             "type": "rule",
@@ -79138,39 +77861,39 @@
           {
             "characteristics": [
               {
-                "$text": "14\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "14\""
               },
               {
-                "$text": "8",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "10",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "10"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Wazdakka Gutsmek",
@@ -79299,13 +78022,6 @@
             "type": "rule",
             "id": "98e1-3a3e-fec5-7698",
             "targetId": "37c-6ef9-277-9091"
-          },
-          {
-            "name": "Invulnerable Save (4+)",
-            "id": "5749-df99-378a-c5db",
-            "hidden": false,
-            "type": "profile",
-            "targetId": "5b77-29f8-7b77-75e3"
           }
         ],
         "entryLinks": [
@@ -92195,7 +90911,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "id": "f20a-cae2-6d86-12a9",
                     "hidden": false,
                     "type": "rule",
@@ -92800,7 +91516,7 @@
                     "targetId": "cf93-ad4d-2f08-a79d"
                   },
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "id": "6667-4851-19c9-1e23",
                     "hidden": false,
                     "type": "rule",
@@ -93000,7 +91716,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "id": "0b17-33e8-c4da-3244",
                     "hidden": false,
                     "type": "rule",
@@ -93128,7 +91844,7 @@
                     "targetId": "be1e-ac8e-1e2c-3528"
                   },
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "id": "ae81-9795-06e8-9954",
                     "hidden": false,
                     "type": "rule",
@@ -94661,6 +93377,270 @@
         "typeName": "Unit",
         "hidden": false,
         "id": "c25b-529f-948e-d571"
+      },
+      {
+        "characteristics": [
+          {
+            "name": "M",
+            "typeId": "e703-ecb6-5ce7-aec1",
+            "$text": "12\""
+          },
+          {
+            "name": "T",
+            "typeId": "d29d-cf75-fc2d-34a4",
+            "$text": "6"
+          },
+          {
+            "name": "Sv",
+            "typeId": "450-a17e-9d5e-29da",
+            "$text": "4+"
+          },
+          {
+            "name": "W",
+            "typeId": "750a-a2ec-90d3-21fe",
+            "$text": "3"
+          },
+          {
+            "name": "LD",
+            "typeId": "58d2-b879-49c7-43bc",
+            "$text": "7+"
+          },
+          {
+            "name": "OC",
+            "typeId": "bef7-942a-1a23-59f8",
+            "$text": "2"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": "6+"
+          }
+        ],
+        "name": "Warbiker",
+        "typeId": "c547-1836-d8a-ff4f",
+        "typeName": "Unit",
+        "hidden": false,
+        "id": "def7-3e6b-a9dc-2c06"
+      },
+      {
+        "characteristics": [
+          {
+            "name": "M",
+            "typeId": "e703-ecb6-5ce7-aec1",
+            "$text": "6\""
+          },
+          {
+            "name": "T",
+            "typeId": "d29d-cf75-fc2d-34a4",
+            "$text": "6"
+          },
+          {
+            "name": "Sv",
+            "typeId": "450-a17e-9d5e-29da",
+            "$text": "3+"
+          },
+          {
+            "name": "W",
+            "typeId": "750a-a2ec-90d3-21fe",
+            "$text": "5"
+          },
+          {
+            "name": "LD",
+            "typeId": "58d2-b879-49c7-43bc",
+            "$text": "8+"
+          },
+          {
+            "name": "OC",
+            "typeId": "bef7-942a-1a23-59f8",
+            "$text": "2"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": "6+"
+          }
+        ],
+        "name": "Killa Kans",
+        "typeId": "c547-1836-d8a-ff4f",
+        "typeName": "Unit",
+        "hidden": false,
+        "id": "53a5-d821-b825-2046"
+      },
+      {
+        "characteristics": [
+          {
+            "name": "M",
+            "typeId": "e703-ecb6-5ce7-aec1",
+            "$text": "12\""
+          },
+          {
+            "name": "T",
+            "typeId": "d29d-cf75-fc2d-34a4",
+            "$text": "6"
+          },
+          {
+            "name": "Sv",
+            "typeId": "450-a17e-9d5e-29da",
+            "$text": "4+"
+          },
+          {
+            "name": "W",
+            "typeId": "750a-a2ec-90d3-21fe",
+            "$text": "4"
+          },
+          {
+            "name": "LD",
+            "typeId": "58d2-b879-49c7-43bc",
+            "$text": "7+"
+          },
+          {
+            "name": "OC",
+            "typeId": "bef7-942a-1a23-59f8",
+            "$text": "2"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": "6+"
+          }
+        ],
+        "name": "Deffkoptas",
+        "typeId": "c547-1836-d8a-ff4f",
+        "typeName": "Unit",
+        "hidden": false,
+        "id": "99d7-a20f-d788-0e76"
+      },
+      {
+        "characteristics": [
+          {
+            "name": "M",
+            "typeId": "e703-ecb6-5ce7-aec1",
+            "$text": "3\""
+          },
+          {
+            "name": "T",
+            "typeId": "d29d-cf75-fc2d-34a4",
+            "$text": "5"
+          },
+          {
+            "name": "Sv",
+            "typeId": "450-a17e-9d5e-29da",
+            "$text": "5+"
+          },
+          {
+            "name": "W",
+            "typeId": "750a-a2ec-90d3-21fe",
+            "$text": "6"
+          },
+          {
+            "name": "LD",
+            "typeId": "58d2-b879-49c7-43bc",
+            "$text": "8+"
+          },
+          {
+            "name": "OC",
+            "typeId": "bef7-942a-1a23-59f8",
+            "$text": "2"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": "6+"
+          }
+        ],
+        "name": "Mek Gunz",
+        "typeId": "c547-1836-d8a-ff4f",
+        "typeName": "Unit",
+        "hidden": false,
+        "id": "2c2f-d600-3682-61e2"
+      },
+      {
+        "name": "Warbuggies",
+        "typeId": "c547-1836-d8a-ff4f",
+        "typeName": "Unit",
+        "hidden": false,
+        "id": "9d3b-fcad-2e90-dfe7",
+        "characteristics": [
+          {
+            "name": "M",
+            "typeId": "e703-ecb6-5ce7-aec1",
+            "$text": "12\""
+          },
+          {
+            "name": "T",
+            "typeId": "d29d-cf75-fc2d-34a4",
+            "$text": "6"
+          },
+          {
+            "name": "Sv",
+            "typeId": "450-a17e-9d5e-29da",
+            "$text": "4+"
+          },
+          {
+            "name": "W",
+            "typeId": "750a-a2ec-90d3-21fe",
+            "$text": "6"
+          },
+          {
+            "name": "LD",
+            "typeId": "58d2-b879-49c7-43bc",
+            "$text": "7+"
+          },
+          {
+            "name": "OC",
+            "typeId": "bef7-942a-1a23-59f8",
+            "$text": "2"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": "6+"
+          }
+        ]
+      },
+      {
+        "characteristics": [
+          {
+            "name": "M",
+            "typeId": "e703-ecb6-5ce7-aec1",
+            "$text": "3\""
+          },
+          {
+            "name": "T",
+            "typeId": "d29d-cf75-fc2d-34a4",
+            "$text": "4"
+          },
+          {
+            "name": "Sv",
+            "typeId": "450-a17e-9d5e-29da",
+            "$text": "5+"
+          },
+          {
+            "name": "W",
+            "typeId": "750a-a2ec-90d3-21fe",
+            "$text": "3"
+          },
+          {
+            "name": "LD",
+            "typeId": "58d2-b879-49c7-43bc",
+            "$text": "8+"
+          },
+          {
+            "name": "OC",
+            "typeId": "bef7-942a-1a23-59f8",
+            "$text": "1"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": "6+"
+          }
+        ],
+        "name": "Big Gunz",
+        "typeId": "c547-1836-d8a-ff4f",
+        "typeName": "Unit",
+        "hidden": false,
+        "id": "6c53-3a6a-9832-f4a8"
       }
     ],
     "catalogueLinks": [
