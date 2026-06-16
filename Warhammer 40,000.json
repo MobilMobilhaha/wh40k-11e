@@ -3308,6 +3308,17 @@
                       }
                     ]
                   }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 500,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "28a8-2582-4ec2-a2fd",
+                    "includeChildSelections": false
+                  }
                 ]
               }
             ],
