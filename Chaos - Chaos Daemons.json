@@ -55,6 +55,74 @@
             "type": "selectionEntry",
             "id": "bcd3-dd3f-1e3-9617",
             "targetId": "f26b-79db-80e0-3a3b"
+          },
+          {
+            "import": true,
+            "name": "Show Tzeentch Daemons",
+            "hidden": false,
+            "id": "feae-5239-37a7-4241",
+            "categoryLinks": [
+              {
+                "name": "Configuration",
+                "hidden": false,
+                "id": "10a2-35ab-591f-7c93",
+                "targetId": "4ac9-fd30-1e3d-b249",
+                "primary": true
+              }
+            ],
+            "type": "selectionEntry",
+            "targetId": "1248-8642-b42f-1dca"
+          },
+          {
+            "import": true,
+            "name": "Show Slaanesh Daemons",
+            "hidden": false,
+            "id": "b1c8-4dd-3518-bf7",
+            "categoryLinks": [
+              {
+                "name": "Configuration",
+                "hidden": false,
+                "id": "a5ed-27ac-6d94-cb9f",
+                "targetId": "4ac9-fd30-1e3d-b249",
+                "primary": true
+              }
+            ],
+            "type": "selectionEntry",
+            "targetId": "d3ff-16f0-dad2-c03c"
+          },
+          {
+            "import": true,
+            "name": "Show Nurgle Daemons",
+            "hidden": false,
+            "id": "12d3-29b2-62da-df56",
+            "categoryLinks": [
+              {
+                "name": "Configuration",
+                "hidden": false,
+                "id": "c916-b2a5-221d-8093",
+                "targetId": "4ac9-fd30-1e3d-b249",
+                "primary": true
+              }
+            ],
+            "type": "selectionEntry",
+            "targetId": "f486-5e38-994c-15ec"
+          },
+          {
+            "import": true,
+            "name": "Show Khorne Daemons",
+            "hidden": false,
+            "id": "4a6d-e24e-e36a-1479",
+            "categoryLinks": [
+              {
+                "name": "Configuration",
+                "hidden": false,
+                "id": "2f8-5b49-2045-d735",
+                "targetId": "4ac9-fd30-1e3d-b249",
+                "primary": true
+              }
+            ],
+            "type": "selectionEntry",
+            "targetId": "f5f9-1339-84bb-ae85"
           }
         ],
         "import": true,
@@ -63,70 +131,6 @@
         "type": "selectionEntry",
         "id": "c33e-de90-ab0c-995f",
         "targetId": "e8ef-836a-a9d1-901d"
-      },
-      {
-        "categoryLinks": [
-          {
-            "targetId": "4ac9-fd30-1e3d-b249",
-            "id": "2f8-5b49-2045-d735",
-            "primary": true,
-            "name": "Configuration"
-          }
-        ],
-        "import": true,
-        "name": "Show Khorne Daemons",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "4a6d-e24e-e36a-1479",
-        "targetId": "f5f9-1339-84bb-ae85"
-      },
-      {
-        "categoryLinks": [
-          {
-            "targetId": "4ac9-fd30-1e3d-b249",
-            "id": "c916-b2a5-221d-8093",
-            "primary": true,
-            "name": "Configuration"
-          }
-        ],
-        "import": true,
-        "name": "Show Nurgle Daemons",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "12d3-29b2-62da-df56",
-        "targetId": "f486-5e38-994c-15ec"
-      },
-      {
-        "categoryLinks": [
-          {
-            "targetId": "4ac9-fd30-1e3d-b249",
-            "id": "10a2-35ab-591f-7c93",
-            "primary": true,
-            "name": "Configuration"
-          }
-        ],
-        "import": true,
-        "name": "Show Tzeentch Daemons",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "feae-5239-37a7-4241",
-        "targetId": "1248-8642-b42f-1dca"
-      },
-      {
-        "categoryLinks": [
-          {
-            "targetId": "4ac9-fd30-1e3d-b249",
-            "id": "a5ed-27ac-6d94-cb9f",
-            "primary": true,
-            "name": "Configuration"
-          }
-        ],
-        "import": true,
-        "name": "Show Slaanesh Daemons",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "b1c8-4dd-3518-bf7",
-        "targetId": "d3ff-16f0-dad2-c03c"
       },
       {
         "categoryLinks": [
