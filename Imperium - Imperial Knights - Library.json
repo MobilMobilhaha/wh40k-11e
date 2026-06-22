@@ -127,6 +127,24 @@
         "name": "Knight Destrier",
         "id": "364b-0033-9ed5-0b47",
         "hidden": false
+      },
+      {
+        "name": "Armigers",
+        "id": "c8e9-fe52-a119-afb3",
+        "hidden": false,
+        "comment": "Detachment",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "cbc2-0cde-7d14-e8a2",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ]
       }
     ],
     "entryLinks": [
@@ -1411,11 +1429,20 @@
           },
           {
             "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "id": "d165-b34d-24b1-a31b",
+            "type": "selectionEntryGroup",
+            "targetId": "185a-a9e3-9df5-c62f",
+            "sortIndex": 2
+          },
+          {
+            "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa53-662d-5378-002f",
+            "id": "pa72-3f0e-72d6-0031",
             "type": "selectionEntryGroup",
-            "targetId": "pa91-6192-9133-001c",
+            "targetId": "pa7c-a923-7cc6-001e",
             "sortIndex": 4
           }
         ],
@@ -2033,7 +2060,7 @@
             "name": "Wargear",
             "id": "f385-ed99-7337-140a",
             "hidden": false,
-            "sortIndex": 2
+            "sortIndex": 3
           }
         ],
         "type": "model",
@@ -2235,11 +2262,20 @@
           },
           {
             "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "id": "98d4-2b34-926e-7d9e",
+            "type": "selectionEntryGroup",
+            "targetId": "185a-a9e3-9df5-c62f",
+            "sortIndex": 2
+          },
+          {
+            "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa16-68ee-1692-0030",
+            "id": "pafb-6c7c-fb2d-0032",
             "type": "selectionEntryGroup",
-            "targetId": "pa91-6192-9133-001c",
+            "targetId": "pa7c-a923-7cc6-001e",
             "sortIndex": 4
           }
         ],
@@ -2755,7 +2791,7 @@
             "name": "Wargear",
             "id": "d481-1806-2a6e-bbcb",
             "hidden": false,
-            "sortIndex": 2
+            "sortIndex": 3
           }
         ],
         "type": "model",
@@ -2987,9 +3023,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paac-417b-acb5-001f",
+            "id": "padf-3e2f-dfd2-0021",
             "type": "selectionEntryGroup",
-            "targetId": "pa91-6192-9133-001c",
+            "targetId": "pa7c-a923-7cc6-001e",
             "sortIndex": 4
           }
         ],
@@ -3805,9 +3841,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pac7-7da3-c7cb-0020",
+            "id": "pada-f490-da05-0022",
             "type": "selectionEntryGroup",
-            "targetId": "pa91-6192-9133-001c",
+            "targetId": "pa7c-a923-7cc6-001e",
             "sortIndex": 4
           }
         ],
@@ -4461,9 +4497,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa87-4d7b-87e6-0021",
+            "id": "pa7d-2eff-7d7e-0023",
             "type": "selectionEntryGroup",
-            "targetId": "pa91-6192-9133-001c",
+            "targetId": "pa7c-a923-7cc6-001e",
             "sortIndex": 4
           }
         ],
@@ -5394,9 +5430,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa09-d722-0990-0022",
+            "id": "pa8a-88e7-8a61-0024",
             "type": "selectionEntryGroup",
-            "targetId": "pa91-6192-9133-001c",
+            "targetId": "pa7c-a923-7cc6-001e",
             "sortIndex": 4
           }
         ],
@@ -6117,9 +6153,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pac3-4962-c38d-0023",
+            "id": "pacc-a83d-ccfa-0025",
             "type": "selectionEntryGroup",
-            "targetId": "pa91-6192-9133-001c",
+            "targetId": "pa7c-a923-7cc6-001e",
             "sortIndex": 4
           }
         ],
@@ -7047,9 +7083,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paaa-d689-aa43-0024",
+            "id": "pa43-2797-4361-0026",
             "type": "selectionEntryGroup",
-            "targetId": "pa91-6192-9133-001c",
+            "targetId": "pa7c-a923-7cc6-001e",
             "sortIndex": 4
           }
         ],
@@ -8035,9 +8071,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paf5-2091-f5c1-0025",
+            "id": "pa56-add9-56c6-0027",
             "type": "selectionEntryGroup",
-            "targetId": "pa91-6192-9133-001c",
+            "targetId": "pa7c-a923-7cc6-001e",
             "sortIndex": 4
           }
         ],
@@ -9001,9 +9037,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa4b-b6bb-4b9c-0026",
+            "id": "pa9b-3dfc-9b04-0028",
             "type": "selectionEntryGroup",
-            "targetId": "pa91-6192-9133-001c",
+            "targetId": "pa7c-a923-7cc6-001e",
             "sortIndex": 4
           }
         ],
@@ -12970,9 +13006,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa14-163e-14da-0027",
+            "id": "pab1-d9f9-b11b-0029",
             "type": "selectionEntryGroup",
-            "targetId": "pa91-6192-9133-001c",
+            "targetId": "pa7c-a923-7cc6-001e",
             "sortIndex": 4
           }
         ],
@@ -13779,9 +13815,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa4e-3053-4e59-0028",
+            "id": "pa51-1d63-516e-002a",
             "type": "selectionEntryGroup",
-            "targetId": "pa91-6192-9133-001c",
+            "targetId": "pa7c-a923-7cc6-001e",
             "sortIndex": 4
           }
         ],
@@ -14566,9 +14602,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paa3-8dbb-a331-0029",
+            "id": "pa5e-5081-5e01-002b",
             "type": "selectionEntryGroup",
-            "targetId": "pa91-6192-9133-001c",
+            "targetId": "pa7c-a923-7cc6-001e",
             "sortIndex": 4
           }
         ],
@@ -15772,9 +15808,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa69-e0ed-6965-002a",
+            "id": "pae4-2473-e43e-002c",
             "type": "selectionEntryGroup",
-            "targetId": "pa91-6192-9133-001c",
+            "targetId": "pa7c-a923-7cc6-001e",
             "sortIndex": 4
           }
         ],
@@ -16812,9 +16848,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa4c-be44-4c3a-002b",
+            "id": "pacb-024f-cbb5-002d",
             "type": "selectionEntryGroup",
-            "targetId": "pa91-6192-9133-001c",
+            "targetId": "pa7c-a923-7cc6-001e",
             "sortIndex": 4
           }
         ],
@@ -17756,9 +17792,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa7c-4317-7cb9-002c",
+            "id": "pa2a-4ffe-2a6a-002e",
             "type": "selectionEntryGroup",
-            "targetId": "pa91-6192-9133-001c",
+            "targetId": "pa7c-a923-7cc6-001e",
             "sortIndex": 4
           }
         ],
@@ -19619,7 +19655,7 @@
             "name": "Wargear",
             "id": "408d-111e-6929-a352",
             "hidden": false,
-            "sortIndex": 2
+            "sortIndex": 3
           }
         ],
         "costs": [
@@ -19749,11 +19785,20 @@
           },
           {
             "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "id": "1c78-861a-78d1-3703",
+            "type": "selectionEntryGroup",
+            "targetId": "185a-a9e3-9df5-c62f",
+            "sortIndex": 2
+          },
+          {
+            "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pae1-a6f0-e187-0031",
+            "id": "pa1f-d272-1f01-0033",
             "type": "selectionEntryGroup",
-            "targetId": "pa91-6192-9133-001c",
+            "targetId": "pa7c-a923-7cc6-001e",
             "sortIndex": 4
           }
         ],
@@ -20726,9 +20771,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa17-f500-17bc-002d",
+            "id": "pa50-4b28-50a0-002f",
             "type": "selectionEntryGroup",
-            "targetId": "pa91-6192-9133-001c",
+            "targetId": "pa7c-a923-7cc6-001e",
             "sortIndex": 4
           }
         ],
@@ -22186,9 +22231,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pae3-d64e-e39d-002e",
+            "id": "pa0d-8670-0dae-0030",
             "type": "selectionEntryGroup",
-            "targetId": "pa91-6192-9133-001c",
+            "targetId": "pa7c-a923-7cc6-001e",
             "sortIndex": 4
           }
         ],
@@ -24098,6 +24143,16 @@
                     "name": "Blackstone Fragments",
                     "typeId": "ac6b-ced3-9b5e-9a6e",
                     "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -24182,6 +24237,16 @@
                     "name": "Blackstone Fragments",
                     "typeId": "ac6b-ced3-9b5e-9a6e",
                     "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -24292,6 +24357,16 @@
                     "name": "Blackstone Fragments",
                     "typeId": "ac6b-ced3-9b5e-9a6e",
                     "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "infoLinks": [
@@ -24368,6 +24443,16 @@
                     "name": "Blackstone Fragments",
                     "typeId": "ac6b-ced3-9b5e-9a6e",
                     "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -24505,6 +24590,16 @@
                     "name": "Blackstone Fragments",
                     "typeId": "ac6b-ced3-9b5e-9a6e",
                     "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -24589,6 +24684,16 @@
                     "name": "Blackstone Fragments",
                     "typeId": "ac6b-ced3-9b5e-9a6e",
                     "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -24673,6 +24778,16 @@
                     "name": "Blackstone Fragments",
                     "typeId": "ac6b-ced3-9b5e-9a6e",
                     "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -24757,6 +24872,16 @@
                     "name": "Blackstone Fragments",
                     "typeId": "ac6b-ced3-9b5e-9a6e",
                     "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -24903,6 +25028,16 @@
                     "name": "Blackstone Fragments",
                     "typeId": "ac6b-ced3-9b5e-9a6e",
                     "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -24987,6 +25122,16 @@
                     "name": "Blackstone Fragments",
                     "typeId": "ac6b-ced3-9b5e-9a6e",
                     "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -25071,6 +25216,16 @@
                     "name": "Blackstone Fragments",
                     "typeId": "ac6b-ced3-9b5e-9a6e",
                     "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -25155,6 +25310,16 @@
                     "name": "Blackstone Fragments",
                     "typeId": "ac6b-ced3-9b5e-9a6e",
                     "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -25301,6 +25466,16 @@
                     "name": "Blackstone Fragments",
                     "typeId": "ac6b-ced3-9b5e-9a6e",
                     "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -25385,6 +25560,16 @@
                     "name": "Blackstone Fragments",
                     "typeId": "ac6b-ced3-9b5e-9a6e",
                     "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -25469,6 +25654,16 @@
                     "name": "Blackstone Fragments",
                     "typeId": "ac6b-ced3-9b5e-9a6e",
                     "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -25562,6 +25757,16 @@
                     "name": "Blackstone Fragments",
                     "typeId": "ac6b-ced3-9b5e-9a6e",
                     "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -25657,7 +25862,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^Imperial Knights^^** model only. The bearer has a 5+ invulnerable save.",
+                        "$text": "Through the projection of rapidly modulating ion fields, this unique generator's effects wreathe the suit in an all encompassing fog of protective energies that defend it from close-quarters attacks.\n\nImperial Knights model only. The bearer has a 5+ invulnerable save.",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -25699,23 +25904,41 @@
                     "name": "Blackstone Fragments",
                     "typeId": "ac6b-ced3-9b5e-9a6e",
                     "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
                   {
-                    "conditions": [
-                      {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "b5e4-3253-c157-54fd",
-                        "shared": true
-                      }
-                    ],
                     "type": "set",
                     "value": true,
-                    "field": "hidden"
+                    "field": "hidden",
+                    "id": "pa46-7f11-4663-001b",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b5e4-3253-c157-54fd",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ],
                 "constraints": [
@@ -25741,7 +25964,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^Imperial Knights^^** model only. The bearer has the Deep Strike ability. Once per battle, at the end of your opponent’s turn, if the bearer is not within Engagement Range of one or more enemy units, it can use this Enhancement. If it does, remove the bearer from the battlefield. In the Reinforcements step of your subsequent Movement phase, set the bearer up anywhere on the battlefield that is more than 9” horizontally away from all enemy units. If the battle ends and the bearer is not on the battlefield, it is destroyed.",
+                        "$text": "Manifesting as though from nowhere, this Knight is an elemental force of vengeance against the Emperor of Mankind's foes. At battle's end, it disappears as mysteriously as it arrived.\n\nImperial Knights model only. The bearer has the Deep Strike ability. Once per battle, at the end of your opponent's turn, if the bearer is not within Engagement Range of one or more enemy units, it can use this Enhancement. If it does, remove the bearer from the battlefield. In the Reinforcements step of your subsequent Movement phase, set the bearer up anywhere on the battlefield that is more than 9\" horizontally away from all enemy units. If the battle ends and the bearer is not on the battlefield, it is destroyed.",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -25783,23 +26006,41 @@
                     "name": "Blackstone Fragments",
                     "typeId": "ac6b-ced3-9b5e-9a6e",
                     "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
                   {
-                    "conditions": [
-                      {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "b5e4-3253-c157-54fd",
-                        "shared": true
-                      }
-                    ],
                     "type": "set",
                     "value": true,
-                    "field": "hidden"
+                    "field": "hidden",
+                    "id": "pa0a-226b-0aaf-001a",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b5e4-3253-c157-54fd",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ],
                 "infoLinks": [
@@ -25834,7 +26075,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^Imperial Knights^^** model only. Improve the Attacks characteristic of melee weapons equipped by the bearer by 2, and each time the bearer makes a melee attack, add 1 to the Hit roll.",
+                        "$text": "It is said that whenever this famed weapon is brought to life, it shall not fall silent until it has slaked its thirst for justice.\n\nImperial Knights model only. Improve the Attacks characteristic of melee weapons equipped by the bearer by 2, and each time the bearer makes a melee attack, add 1 to the Hit roll.",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -25848,19 +26089,27 @@
                 ],
                 "modifiers": [
                   {
-                    "conditions": [
-                      {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "b5e4-3253-c157-54fd",
-                        "shared": true
-                      }
-                    ],
                     "type": "set",
                     "value": true,
-                    "field": "hidden"
+                    "field": "hidden",
+                    "id": "pa58-c520-58fd-001c",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b5e4-3253-c157-54fd",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ],
                 "costs": [
@@ -25893,6 +26142,16 @@
                     "name": "Blackstone Fragments",
                     "typeId": "ac6b-ced3-9b5e-9a6e",
                     "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "constraints": [
@@ -25942,7 +26201,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^Imperial Knights^^** model only. Ranged weapons equipped by the bearer have the **[IGNORES COVER]** ability.",
+                        "$text": "This remarkable data-manifold surrounds a scion with holo-projected bioscans and engine-signature readouts, whose gaze penetrates the densest terrain as though it was not there.\n\nImperial Knights model only. Ranged weapons equipped by the bearer have the [IGNORES COVER] ability.",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -25984,23 +26243,41 @@
                     "name": "Blackstone Fragments",
                     "typeId": "ac6b-ced3-9b5e-9a6e",
                     "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
                   {
-                    "conditions": [
-                      {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "b5e4-3253-c157-54fd",
-                        "shared": true
-                      }
-                    ],
                     "type": "set",
                     "value": true,
-                    "field": "hidden"
+                    "field": "hidden",
+                    "id": "pa8e-98f8-8e9a-001d",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b5e4-3253-c157-54fd",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ],
                 "constraints": [
@@ -26105,57 +26382,22 @@
             "hidden": false
           },
           {
-            "name": "Dominus Foebreakers Enhancements",
-            "id": "pa6c-cedf-6ce3-000c",
-            "hidden": false,
             "selectionEntries": [
               {
-                "type": "upgrade",
-                "import": true,
-                "name": "Blessed Plate",
-                "hidden": false,
-                "id": "pa25-90bc-251c-0002",
                 "profiles": [
                   {
-                    "name": "Blessed Plate",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "id": "pa12-0933-121c-0003",
                     "characteristics": [
                       {
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "Some of this Knight's hull plates are revered antiques, dating back millennia; their durability is a testament to the secrets of construction now lost to the mists of time.\n\nIMPERIAL KNIGHTS DOMINUS model only. This model has +1 T."
                       }
-                    ]
-                  }
-                ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "paf2-9d95-f268-0004"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "pa3e-fca4-3e89-0005",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 30
+                    ],
+                    "name": "Blessed Plate",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "7768-63db-5955-ea83"
                   }
                 ],
                 "modifiers": [
@@ -26163,7 +26405,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa75-cd87-759b-0006",
+                    "id": "paa3-8c05-a3e5-0000",
                     "conditionGroups": [
                       {
                         "type": "or",
@@ -26192,28 +26434,47 @@
                       }
                     ]
                   }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Archeotech Autoloaders",
-                "hidden": false,
-                "id": "pad3-b8bd-d3b9-0007",
-                "profiles": [
+                ],
+                "costs": [
                   {
-                    "name": "Archeotech Autoloaders",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "id": "pa31-8582-31a4-0008",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "These ancient and precious components are installed with great reverence; their function is to keep the Dominus-class Knight's guns firing with ferocious efficiency.\n\nIMPERIAL KNIGHTS DOMINUS model only. This unit can re-roll rolls to determine the A of a weapon."
-                      }
-                    ]
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 30
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "constraints": [
@@ -26221,19 +26482,58 @@
                     "type": "max",
                     "value": 1,
                     "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "paa4-4b19-a420-0009"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa2d-6e23-2db9-000a",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
+                    "id": "d1c6-9e27-e935-005a",
+                    "includeChildForces": true,
+                    "includeChildSelections": true
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "modifiers": [
+                      {
+                        "type": "append",
+                        "value": "Blessed Plate",
+                        "field": "annotation",
+                        "join": ", ",
+                        "scope": "model",
+                        "affects": "self.entries.recursive.profiles.Unit"
+                      },
+                      {
+                        "type": "increment",
+                        "value": 1,
+                        "field": "d29d-cf75-fc2d-34a4",
+                        "scope": "model",
+                        "affects": "self.entries.recursive.profiles.Unit",
+                        "join": ", ",
+                        "position": ""
+                      }
+                    ],
+                    "type": "and"
+                  }
+                ],
+                "type": "upgrade",
+                "import": true,
+                "name": "Blessed Plate",
+                "hidden": false,
+                "id": "297a-15d7-86f4-da68"
+              },
+              {
+                "profiles": [
+                  {
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "These ancient and precious components are installed with great reverence; their function is to keep the Dominus-class Knight's guns firing with ferocious efficiency.\n\nIMPERIAL KNIGHTS DOMINUS model only. This unit can re-roll rolls to determine the A of a weapon."
+                      }
+                    ],
+                    "name": "Archeotech Autoloaders",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "7f30-6e68-6e16-3e9b"
                   }
                 ],
                 "costs": [
@@ -26241,6 +26541,41 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 25
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -26248,7 +26583,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa22-61b1-226c-000b",
+                    "id": "pab3-fd6c-b3ab-0001",
                     "conditionGroups": [
                       {
                         "type": "or",
@@ -26269,6 +26604,230 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "af4c-b971-a31c-669c",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "8c4c-20f9-4da9-203f",
+                    "includeChildForces": true,
+                    "includeChildSelections": true
+                  }
+                ],
+                "type": "upgrade",
+                "import": true,
+                "name": "Archeotech Autoloaders",
+                "hidden": false,
+                "id": "f816-8784-a7d3-d0ad"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "6316-10bc-9685-98a7",
+                "includeChildSelections": false,
+                "includeChildForces": false
+              }
+            ],
+            "modifiers": [
+              {
+                "conditionGroups": [
+                  {
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "d3a1-4b10-4d2c-d44f",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true,
+                        "childName": "Dominus Foebreakers"
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ],
+                    "type": "and"
+                  }
+                ],
+                "type": "set",
+                "value": true,
+                "field": "hidden"
+              }
+            ],
+            "name": "Dominus Foebreakers Enhancements",
+            "id": "ed3d-abcb-64ec-9f52",
+            "hidden": false
+          },
+          {
+            "name": "Questor Forgepact Enhancements",
+            "id": "pa12-fdd1-12fd-0002",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Magos Questoris",
+                "hidden": false,
+                "id": "pae1-275a-e15e-0004",
+                "profiles": [
+                  {
+                    "name": "Magos Questoris",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "paaf-d595-af62-0005",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "An expert in the intricate mechanisms and weapons systems of Imperial Knights, this Tech-Priest taught Sacristans their craft. They now walk in the shadow of these war machines and make field repairs in the midst of battle.\n\nTECH-PRIEST model only. When using this model's Sacristan Pledge ability, the selected IMPERIAL KNIGHTS model heals 2 additional wounds."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa64-55ff-6481-0006"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa68-e957-68be-0007",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pafe-a54f-fe2f-0008",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "59a9-b5cc-7c11-aaad",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Knight of the Opus Machina (Aura)",
+                "hidden": false,
+                "id": "pabc-32b4-bc2d-0009",
+                "profiles": [
+                  {
+                    "name": "Knight of the Opus Machina (Aura)",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa69-6803-69d1-000a",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "A devotee of the Omnissian creed, this Noble is inspired by the presence of the Adeptus Mechanicus, fighting with greater zeal and vigour in their holy presence.\n\nIMPERIAL KNIGHTS model only. While a friendly ADEPTUS MECHANICUS unit is within 6\" of this model, that ADEPTUS MECHANICUS unit's melee attacks have +1 WS and AP."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa5a-52f2-5a5e-000b"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa40-ea76-4071-000c",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 15
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa02-3572-02be-000d",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b5e4-3253-c157-54fd",
                             "shared": true,
                             "includeChildSelections": true,
                             "includeChildForces": true
@@ -26304,7 +26863,7 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "roster",
-                        "childId": "pa81-8561-8114-0000",
+                        "childId": "9a4a-a4c8-a16a-c969",
                         "shared": true,
                         "includeChildSelections": true,
                         "includeChildForces": true
@@ -26321,7 +26880,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pab8-8c40-b852-000d"
+                "id": "pa6e-0305-6ec5-0003"
               }
             ]
           }
@@ -26357,36 +26916,9 @@
             "type": "set",
             "value": true,
             "field": "hidden"
-          },
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "forces",
-                "scope": "roster",
-                "childId": "cac3-71d1-ea4b-795d",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": -1,
-            "field": "aff1-9a43-882b-f046"
           }
         ],
         "constraints": [
-          {
-            "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "roster",
-            "shared": true,
-            "id": "aff1-9a43-882b-f046",
-            "includeChildForces": true,
-            "includeChildSelections": true
-          },
           {
             "type": "max",
             "value": 1,
@@ -26446,14 +26978,14 @@
           {
             "rules": [
               {
-                "description": "IMPERIAL KNIGHT units from your army have the following the ability:\n\nSacristan Pledge: In your Command phase, one model in this unit regains 1 lost wound. If this unit is within 3\" of one or more friendly TECH‑PRIEST models, one model in this unit regains up to D3 lost wounds instead.\n\nADEPTUS MECHANICUS units from your army have the following ability:\n\nDivine Inspiration: Each time a model in this unit makes a ranged attack, re‑roll a Hit roll of 1. If this unit is within 6\" of one or more friendly IMPERIAL KNIGHTS units, re‑roll a Wound roll of 1 as well.",
+                "description": "Friendly **IMPERIAL KNIGHTS** models have the **Assisted Targeting (Aura)** ability.\n\nFriendly **TECH-PRIEST** models have the **Sacristan Pledge** ability:",
                 "name": "Cogbound Alliance",
                 "id": "8558-649f-07a3-13ee",
                 "hidden": false
               },
               {
-                "description": "You can include the following ADEPTUS MECHANICUS units in your army: TECH‑PRIEST DOMINUS; TECH‑PRIEST MANIPULUS; SKITARII MARSHAL; SKITARII RANGERS; SKITARII VANGUARD. The combined points cost of such units depends on your battle size:\n\n■ Incursion: Up to 250 pts\n■ Strike Force: Up to 500 pts\n■ Onslaught: Up to 750 pts\n\nNo ADEPTUS MECHANICUS models from your army can be your WARLORD.",
-                "name": "Forge World Allies",
+                "description": "You can include **TECH-PRIEST DOMINUS/TECH-PRIEST MANIPULUS/MARSHAL/RANGERS/VANGUARD** units in your army. The combined points value of such units cannot exceed 500 points.",
+                "name": "Mechanicus Allies",
                 "id": "f6ed-f1b0-9371-8e98",
                 "hidden": false
               }
@@ -26462,6 +26994,36 @@
             "import": true,
             "name": "Questor Forgepact",
             "id": "9a4a-a4c8-a16a-c969",
+            "profiles": [
+              {
+                "name": "Sacristan Pledge",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "f6a7-a340-82d0-a4d9",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "In your Command phase, you can select one friendly **IMPERIAL KNIGHTS** model within 3\" of this model that has not been selected by this ability this phase. If you do, that model **heals** D3 wounds."
+                  }
+                ]
+              },
+              {
+                "name": "Assisted Targeting (Aura)",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "542e-f8cc-d96d-fa24",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "While a friendly **ADEPTUS MECHANICUS** unit is within 6\" of this model, that **ADEPTUS MECHANICUS** unit’s ranged attacks have:\n- +1 **BS**.\n- **[HEAVY]**"
+                  }
+                ]
+              }
+            ],
             "costs": [
               {
                 "name": "Detachment Points",
@@ -26609,19 +27171,18 @@
             ]
           },
           {
+            "rules": [
+              {
+                "description": "Friendly **IMPERIAL KNIGHTS DOMINUS** units’ attacks that target a unit in a **terrain area** have +1 to **hit rolls**.",
+                "name": "Rain of Devastation",
+                "id": "5e85-e9c4-c88f-0403",
+                "hidden": false
+              }
+            ],
             "type": "upgrade",
             "import": true,
             "name": "Dominus Foebreakers",
-            "hidden": false,
-            "id": "pa81-8561-8114-0000",
-            "rules": [
-              {
-                "name": "Rain of Devastation",
-                "id": "pa46-1991-46d4-0001",
-                "hidden": false,
-                "description": "Packing together within the confines of cover might work against small arms, but in the face of Dominus-class Knights, it only serves to concentrate and magnify the fury of their firepower.\n\nFriendly IMPERIAL KNIGHTS DOMINUS units' attacks that target a unit in a terrain area have +1 to hit rolls."
-              }
-            ],
+            "id": "d3a1-4b10-4d2c-d44f",
             "costs": [
               {
                 "name": "Detachment Points",
@@ -26631,17 +27192,25 @@
             ]
           },
           {
+            "rules": [
+              {
+                "description": "While a friendly **ARMIGER** unit is affected by a **Bondsman** ability, that unit’s ranged attacks have **[IGNORES COVER]**.\n\nThis **detachment** has the **ARMIGERS** tag and cannot be taken with another **ARMIGERS detachment**.",
+                "name": "Driven From Their Lairs",
+                "id": "13a0-e056-4856-cc9c",
+                "hidden": false
+              }
+            ],
             "type": "upgrade",
             "import": true,
             "name": "Throne-bonded Outriders",
-            "hidden": false,
-            "id": "pa44-93ba-442f-000e",
-            "rules": [
+            "id": "9671-eaea-ccf2-c122",
+            "categoryLinks": [
               {
-                "name": "Driven From Their Lairs",
-                "id": "pab2-2433-b22e-000f",
+                "name": "Armigers",
                 "hidden": false,
-                "description": "The moment the loyal bondsmen locate and identify the foe, they share targeting data-choristry with their ruling lords and ladies.\n\nWhile a friendly ARMIGER unit is affected by a Bondsman ability, that unit's ranged attacks have [IGNORES COVER].\n\nThis detachment has the ARMIGERS tag and cannot be taken with another ARMIGERS detachment."
+                "id": "0718-f85d-2f62-adc5",
+                "targetId": "c8e9-fe52-a119-afb3",
+                "primary": false
               }
             ],
             "costs": [
@@ -26857,88 +27426,9 @@
               {
                 "characteristics": [
                   {
-                    "$text": "**^^Imperial Knights^^** model only. While an enemy unit is within 6\" of the bearer, worsen the Leadership characteristic of models in that unit by 1. While a friendly **^^Adeptus Mechanicus^^** unit is within 6\" of the bearer, improve the Leadership characteristic of 1 models in that **^^Adeptus Mechanicus^^** unit by 1.",
                     "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Vocifer Magnificat (Aura)",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "2870-c3d4-ed26-94f1"
-              }
-            ],
-            "modifiers": [
-              {
-                "conditions": [
-                  {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "childId": "b5e4-3253-c157-54fd",
-                    "shared": true
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              }
-            ],
-            "costs": [
-              {
-                "name": "pts",
-                "typeId": "51b2-306e-1021-d207",
-                "value": 15
-              },
-              {
-                "name": "Crusade Points",
-                "typeId": "b03b-c239-15a5-da55",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Battle Honours",
-                "typeId": "75bb-ded1-c86d-bdf0",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Experience",
-                "typeId": "a623-fe74-1d33-cddf",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Weapon Modifications",
-                "typeId": "716d-91b7-d55a-1022",
-                "value": 0
-              }
-            ],
-            "constraints": [
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "shared": true,
-                "id": "b228-0f03-b33c-b2d9",
-                "includeChildForces": true,
-                "includeChildSelections": true
-              }
-            ],
-            "type": "upgrade",
-            "import": true,
-            "name": "Vocifer Magnificat (Aura)",
-            "hidden": false,
-            "id": "7385-ce64-2f90-3115"
-          },
-          {
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "**^^Tech‑Priest^^** model only. While the bearer is within 3\" of one or more friendly **^^Imperial Knights^^** units, it has the Lone Operative ability. In your Command phase, select one friendly **^^Imperial Knights^^** model within 3\" of the bearer. That model regains up to 2 lost wounds.",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "**TECH-PRIEST** model only. When using this model’s **Sacristan Pledge** ability, the selected **IMPERIAL KNIGHTS** model **heals** 2 additional wounds."
                   }
                 ],
                 "name": "Magos Questoris",
@@ -26990,15 +27480,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
-              }
-            ],
-            "infoLinks": [
+              },
               {
-                "name": "Lone Operative",
-                "id": "92d3-21b1-1097-9dbf",
-                "hidden": false,
-                "type": "rule",
-                "targetId": "a8a0-8fe7-898-e0f3"
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -27024,12 +27520,12 @@
               {
                 "characteristics": [
                   {
-                    "$text": "**^^Imperial Knights^^** model only. Each time the bearer makes a ranged attack, if the bearer is within 6\" of one or more friendly ADEPTUS MECHANICUS units, re‑roll a Hit roll of 1.",
                     "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "**IMPERIAL KNIGHTS** model only. While a friendly **ADEPTUS MECHANICUS** unit is within 6\" of this model, that **ADEPTUS MECHANICUS** unit’s melee attacks have +1 **WS** and **AP**."
                   }
                 ],
-                "name": "Knight of the Opus Machina",
+                "name": "Knight of the Opus Machina (Aura)",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "Abilities",
                 "hidden": false,
@@ -27078,6 +27574,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -27094,111 +27605,9 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "Knight of the Opus Machina",
+            "name": "Knight of the Opus Machina (Aura)",
             "hidden": false,
             "id": "19ae-50d7-bfa6-1e5b"
-          },
-          {
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "**^^Imperial Knights^^** model only. Add 4 to the bearer’s Wounds characteristic.",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Omnissian Champion",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "464b-bf8b-311c-754b"
-              }
-            ],
-            "modifiers": [
-              {
-                "conditions": [
-                  {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "childId": "b5e4-3253-c157-54fd",
-                    "shared": true
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              }
-            ],
-            "costs": [
-              {
-                "name": "pts",
-                "typeId": "51b2-306e-1021-d207",
-                "value": 30
-              },
-              {
-                "name": "Crusade Points",
-                "typeId": "b03b-c239-15a5-da55",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Battle Honours",
-                "typeId": "75bb-ded1-c86d-bdf0",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Experience",
-                "typeId": "a623-fe74-1d33-cddf",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Weapon Modifications",
-                "typeId": "716d-91b7-d55a-1022",
-                "value": 0
-              }
-            ],
-            "constraints": [
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "shared": true,
-                "id": "0971-cc03-ce7c-2d9e",
-                "includeChildForces": true,
-                "includeChildSelections": true
-              }
-            ],
-            "modifierGroups": [
-              {
-                "modifiers": [
-                  {
-                    "type": "append",
-                    "value": "Omnissian Champion",
-                    "field": "annotation",
-                    "join": ", ",
-                    "scope": "model",
-                    "affects": "self.entries.profiles.Unit"
-                  },
-                  {
-                    "type": "increment",
-                    "value": 4,
-                    "field": "750a-a2ec-90d3-21fe",
-                    "scope": "model",
-                    "affects": "self.entries.profiles.Unit",
-                    "join": ", "
-                  }
-                ],
-                "type": "and"
-              }
-            ],
-            "type": "upgrade",
-            "import": true,
-            "name": "Omnissian Champion",
-            "hidden": false,
-            "id": "917e-6609-8abe-504e"
           }
         ],
         "constraints": [
@@ -31301,14 +31710,385 @@
         "collapsible": true
       },
       {
+        "name": "Enhancements - Upgrades",
+        "id": "185a-a9e3-9df5-c62f",
+        "hidden": false,
+        "selectionEntryGroups": [
+          {
+            "name": "Throne-bonded Outriders Enhancements",
+            "id": "8c99-d79c-b55f-4c1c",
+            "hidden": false,
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "90a2-dc5c-ff89-5a3e",
+                "includeChildSelections": false
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Gyro-optimised Actuators",
+                "hidden": false,
+                "id": "0972-93fd-02cd-8604",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "59d7-74d9-514f-e980",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "550d-0afe-b458-fa3d",
+                    "includeChildSelections": true
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Gyro-optimised Actuators",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "0688-dc7f-dccc-7369",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**ARMIGER** unit only. This unit has **MOBILE**."
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "0972-93fd-02cd-8604",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "0972-93fd-02cd-8604",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "add",
+                        "value": "355c-0ee6-3cde-6c71",
+                        "field": "category",
+                        "scope": "root-entry"
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "root-entry",
+                        "childId": "4c40-ab9-54af-d290",
+                        "shared": true,
+                        "childName": "Armiger"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Ancestral Overbleed",
+                "hidden": false,
+                "id": "5183-4b40-363a-3ac2",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c968-f093-0a83-5f04",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "f4f5-5a26-b80f-1e22",
+                    "includeChildSelections": true
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Ancestral Overbleed",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "bcc7-4d4a-f086-1f1b",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**ARMIGER** unit only. When you target this unit with the **Fire Overwatch/Heroic Intervention stratagem**, that use is ‑1 **CP**."
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "5183-4b40-363a-3ac2",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "5183-4b40-363a-3ac2",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "root-entry",
+                        "childId": "4c40-ab9-54af-d290",
+                        "shared": true,
+                        "childName": "Armiger"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "id": "a46f-7455-74a5-bd4e",
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "9671-eaea-ccf2-c122",
+                        "shared": true,
+                        "id": "8c33-684d-5aaa-0831",
+                        "includeChildSelections": true,
+                        "childName": "Throne-bonded Outriders"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "collapsible": true,
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "self",
+            "shared": true,
+            "id": "f3db-5160-5a5e-8dd6",
+            "includeChildSelections": true
+          }
+        ]
+      },
+      {
         "name": "Upgrades",
-        "id": "pa91-6192-9133-001c",
+        "id": "pa7c-a923-7cc6-001e",
         "hidden": false,
         "collapsible": true,
         "selectionEntryGroups": [
           {
             "name": "Throne-bonded Outriders Upgrades",
-            "id": "pa1f-3aef-1ffa-001a",
+            "id": "pa30-7e68-30c9-000e",
             "hidden": false,
             "selectionEntries": [
               {
@@ -31316,14 +32096,14 @@
                 "import": true,
                 "name": "Gyro-optimised Actuators",
                 "hidden": false,
-                "id": "pa92-a20c-9237-0010",
+                "id": "paf8-48b2-f879-0010",
                 "profiles": [
                   {
                     "name": "Gyro-optimised Actuators",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa25-1b33-25e0-0011",
+                    "id": "pa17-5432-1755-0011",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -31340,7 +32120,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "paee-20f8-ee9e-0012"
+                    "id": "pa13-2705-1397-0012"
                   },
                   {
                     "type": "max",
@@ -31348,7 +32128,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa5c-575d-5c9a-0013",
+                    "id": "pa10-1b7f-1015-0013",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -31365,7 +32145,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pad0-f11a-d00d-0014",
+                    "id": "pa29-42fb-295b-0014",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -31391,14 +32171,14 @@
                 "import": true,
                 "name": "Ancestral Overbleed",
                 "hidden": false,
-                "id": "pa98-0395-98bf-0015",
+                "id": "pa86-5d45-8652-0015",
                 "profiles": [
                   {
                     "name": "Ancestral Overbleed",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pab4-50f4-b471-0016",
+                    "id": "pa2e-bd5d-2ef4-0016",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -31415,7 +32195,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pabc-2920-bcf6-0017"
+                    "id": "pacf-3d80-cf85-0017"
                   },
                   {
                     "type": "max",
@@ -31423,7 +32203,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "paf0-6c24-f085-0018",
+                    "id": "pac6-17b6-c6ac-0018",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -31440,7 +32220,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pab7-5f1f-b765-0019",
+                    "id": "pacb-b60a-cb46-0019",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -31486,7 +32266,7 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "roster",
-                        "childId": "pa44-93ba-442f-000e",
+                        "childId": "9671-eaea-ccf2-c122",
                         "shared": true,
                         "includeChildSelections": true,
                         "includeChildForces": true
@@ -31503,7 +32283,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pab9-b204-b932-001b"
+                "id": "pae9-a117-e9f0-000f"
               }
             ]
           }
@@ -31515,7 +32295,7 @@
             "field": "selections",
             "scope": "self",
             "shared": true,
-            "id": "paf6-92ab-f67a-001d",
+            "id": "paae-2496-aeca-001f",
             "includeChildSelections": true
           },
           {
@@ -31524,7 +32304,7 @@
             "field": "selections",
             "scope": "roster",
             "shared": true,
-            "id": "pa22-ae43-2278-001e",
+            "id": "pa3c-1efb-3c27-0020",
             "includeChildSelections": true
           }
         ]
@@ -31624,7 +32404,7 @@
     "library": true,
     "id": "1b6d-dc06-5db9-c7d1",
     "name": "Imperium - Imperial Knights - Library",
-    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemId": "sys-352e-adc2-7639-d6a9",
     "gameSystemRevision": 1,
     "revision": 85,
     "battleScribeVersion": 2.03,

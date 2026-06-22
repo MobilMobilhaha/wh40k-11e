@@ -266,6 +266,16 @@
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
             "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "selectionEntries": [
@@ -741,9 +751,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pac5-f5d6-c58b-0047",
+            "id": "pa84-b259-840d-0023",
             "type": "selectionEntryGroup",
-            "targetId": "pab4-cd13-b490-003a",
+            "targetId": "pa34-017c-3479-0016",
             "sortIndex": 4
           }
         ],
@@ -1676,9 +1686,60 @@
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 50
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "modifiers": [
+          {
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 4,
+                "field": "selections",
+                "scope": "ca59-3760-5efc-9846",
+                "childId": "4950-9b2a-c4de-5e",
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ],
+            "type": "set",
+            "value": 140,
+            "field": "51b2-306e-1021-d207"
+          },
           {
             "type": "set",
             "value": 2,
@@ -1693,23 +1754,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 140,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 4,
-                "field": "selections",
-                "scope": "ca59-3760-5efc-9846",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -1990,6 +2034,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -5217,9 +5276,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa26-98d0-26d5-003d",
+            "id": "pad1-8f3e-d1c4-0019",
             "type": "selectionEntryGroup",
-            "targetId": "pab4-cd13-b490-003a",
+            "targetId": "pa34-017c-3479-0016",
             "sortIndex": 4
           }
         ],
@@ -5691,6 +5750,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -6461,9 +6535,8 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "self",
-                        "shared": true,
-                        "childName": "self"
+                        "childId": "any",
+                        "shared": true
                       },
                       {
                         "type": "instanceOf",
@@ -6698,6 +6771,24 @@
       {
         "modifiers": [
           {
+            "conditions": [
+              {
+                "field": "selections",
+                "scope": "f1af-4984-1a52-c5",
+                "value": 6,
+                "percentValue": false,
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true,
+                "childId": "model",
+                "type": "atLeast"
+              }
+            ],
+            "type": "set",
+            "field": "51b2-306e-1021-d207",
+            "value": 150
+          },
+          {
             "type": "set",
             "value": 2,
             "field": "070e-f0cd-7753-8f15",
@@ -6736,9 +6827,8 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "self",
-                        "shared": true,
-                        "childName": "self"
+                        "childId": "any",
+                        "shared": true
                       },
                       {
                         "type": "instanceOf",
@@ -6752,23 +6842,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 150,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "f1af-4984-1a52-c5",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -7145,6 +7218,21 @@
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
             "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "constraints": [
@@ -7199,9 +7287,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa2e-2bd6-2ee4-0046",
+            "id": "pa6b-7177-6b70-0022",
             "type": "selectionEntryGroup",
-            "targetId": "pab4-cd13-b490-003a",
+            "targetId": "pa34-017c-3479-0016",
             "sortIndex": 4
           }
         ],
@@ -8012,9 +8100,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa0a-2915-0ac5-0048",
+            "id": "pabf-29e8-bf3d-0024",
             "type": "selectionEntryGroup",
-            "targetId": "pab4-cd13-b490-003a",
+            "targetId": "pa34-017c-3479-0016",
             "sortIndex": 4
           }
         ],
@@ -8153,9 +8241,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa3a-576a-3a3f-003e",
+            "id": "pa0b-9c4a-0b08-001a",
             "type": "selectionEntryGroup",
-            "targetId": "pab4-cd13-b490-003a",
+            "targetId": "pa34-017c-3479-0016",
             "sortIndex": 4
           }
         ],
@@ -8784,9 +8872,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa81-b041-817e-003f",
+            "id": "pa3a-e61f-3aaa-001b",
             "type": "selectionEntryGroup",
-            "targetId": "pab4-cd13-b490-003a",
+            "targetId": "pa34-017c-3479-0016",
             "sortIndex": 4
           }
         ],
@@ -9360,6 +9448,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -10063,6 +10161,41 @@
                             "name": "pts",
                             "typeId": "51b2-306e-1021-d207",
                             "value": 5
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
                           }
                         ]
                       },
@@ -10534,9 +10667,8 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "self",
-                        "shared": true,
-                        "childName": "self"
+                        "childId": "any",
+                        "shared": true
                       },
                       {
                         "type": "instanceOf",
@@ -10580,6 +10712,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -10733,9 +10880,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pab3-32b3-b3d6-0045",
+            "id": "pad6-06ab-d606-0021",
             "type": "selectionEntryGroup",
-            "targetId": "pab4-cd13-b490-003a",
+            "targetId": "pa34-017c-3479-0016",
             "sortIndex": 4
           }
         ],
@@ -11416,9 +11563,8 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "self",
-                        "shared": true,
-                        "childName": "self"
+                        "childId": "any",
+                        "shared": true
                       },
                       {
                         "type": "instanceOf",
@@ -11467,6 +11613,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -11541,9 +11697,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa09-617f-09eb-0040",
+            "id": "pa74-eec0-7456-001c",
             "type": "selectionEntryGroup",
-            "targetId": "pab4-cd13-b490-003a",
+            "targetId": "pa34-017c-3479-0016",
             "sortIndex": 4
           }
         ],
@@ -12107,9 +12263,8 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "self",
-                        "shared": true,
-                        "childName": "self"
+                        "childId": "any",
+                        "shared": true
                       },
                       {
                         "type": "instanceOf",
@@ -12229,9 +12384,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pafd-1e00-fdde-0041",
+            "id": "pa35-2845-3537-001d",
             "type": "selectionEntryGroup",
-            "targetId": "pab4-cd13-b490-003a",
+            "targetId": "pa34-017c-3479-0016",
             "sortIndex": 4
           }
         ],
@@ -12836,6 +12991,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -13449,6 +13619,41 @@
                         "name": "pts",
                         "typeId": "51b2-306e-1021-d207",
                         "value": 15
+                      },
+                      {
+                        "name": "Crusade Points",
+                        "typeId": "b03b-c239-15a5-da55",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Battle Honours",
+                        "typeId": "75bb-ded1-c86d-bdf0",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Experience",
+                        "typeId": "a623-fe74-1d33-cddf",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Weapon Modifications",
+                        "typeId": "716d-91b7-d55a-1022",
+                        "value": 0
+                      },
+                      {
+                        "name": "Blackstone Fragments",
+                        "typeId": "ac6b-ced3-9b5e-9a6e",
+                        "value": 0
+                      },
+                      {
+                        "name": "Detachment Points",
+                        "typeId": "82ae-1066-5107-6ae0",
+                        "value": 0
+                      },
+                      {
+                        "name": "Enhancements",
+                        "typeId": "f759-1bc4-cb3a-f0d2",
+                        "value": 0
                       }
                     ]
                   }
@@ -13744,9 +13949,8 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "self",
-                        "shared": true,
-                        "childName": "self"
+                        "childId": "any",
+                        "shared": true
                       },
                       {
                         "type": "instanceOf",
@@ -13790,6 +13994,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -13986,9 +14205,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa7e-8b09-7e39-0049",
+            "id": "pa2f-c2fa-2f07-0025",
             "type": "selectionEntryGroup",
-            "targetId": "pab4-cd13-b490-003a",
+            "targetId": "pa34-017c-3479-0016",
             "sortIndex": 4
           }
         ],
@@ -15299,6 +15518,21 @@
         ],
         "modifiers": [
           {
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 2,
+                "field": "selections",
+                "scope": "3c3f-f02d-c05c-492a",
+                "childId": "model",
+                "shared": true
+              }
+            ],
+            "type": "set",
+            "value": 130,
+            "field": "51b2-306e-1021-d207"
+          },
+          {
             "type": "set",
             "value": 2,
             "field": "c352-d62f-1288-3f06",
@@ -15312,23 +15546,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 130,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 2,
-                "field": "selections",
-                "scope": "3c3f-f02d-c05c-492a",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -15820,9 +16037,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pad4-a009-d4b2-004a",
+            "id": "pa20-dcca-20e0-0026",
             "type": "selectionEntryGroup",
-            "targetId": "pab4-cd13-b490-003a",
+            "targetId": "pa34-017c-3479-0016",
             "sortIndex": 4
           }
         ],
@@ -16683,9 +16900,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pacf-67af-cf5a-0042",
+            "id": "pa1d-0d56-1da4-001e",
             "type": "selectionEntryGroup",
-            "targetId": "pab4-cd13-b490-003a",
+            "targetId": "pa34-017c-3479-0016",
             "sortIndex": 4
           }
         ],
@@ -17047,6 +17264,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -17705,6 +17937,41 @@
                         "name": "pts",
                         "typeId": "51b2-306e-1021-d207",
                         "value": 10
+                      },
+                      {
+                        "name": "Crusade Points",
+                        "typeId": "b03b-c239-15a5-da55",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Battle Honours",
+                        "typeId": "75bb-ded1-c86d-bdf0",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Experience",
+                        "typeId": "a623-fe74-1d33-cddf",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Weapon Modifications",
+                        "typeId": "716d-91b7-d55a-1022",
+                        "value": 0
+                      },
+                      {
+                        "name": "Blackstone Fragments",
+                        "typeId": "ac6b-ced3-9b5e-9a6e",
+                        "value": 0
+                      },
+                      {
+                        "name": "Detachment Points",
+                        "typeId": "82ae-1066-5107-6ae0",
+                        "value": 0
+                      },
+                      {
+                        "name": "Enhancements",
+                        "typeId": "f759-1bc4-cb3a-f0d2",
+                        "value": 0
                       }
                     ]
                   }
@@ -18440,6 +18707,41 @@
                             "name": "pts",
                             "typeId": "51b2-306e-1021-d207",
                             "value": 10
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
                           }
                         ]
                       }
@@ -18793,9 +19095,8 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "self",
-                        "shared": true,
-                        "childName": "self"
+                        "childId": "any",
+                        "shared": true
                       },
                       {
                         "type": "instanceOf",
@@ -18895,6 +19196,41 @@
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 70
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "selectionEntryGroups": [
@@ -19530,6 +19866,21 @@
         ],
         "modifiers": [
           {
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 2,
+                "field": "selections",
+                "scope": "327d-a6df-26b-bb9b",
+                "childId": "model",
+                "shared": true
+              }
+            ],
+            "type": "set",
+            "value": 140,
+            "field": "51b2-306e-1021-d207"
+          },
+          {
             "type": "set",
             "value": 2,
             "field": "9e1c-551e-84e0-d4a9",
@@ -19543,23 +19894,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 140,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 2,
-                "field": "selections",
-                "scope": "327d-a6df-26b-bb9b",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -20509,9 +20843,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paa9-1a6b-a9d8-0043",
+            "id": "pafa-90f0-faf4-001f",
             "type": "selectionEntryGroup",
-            "targetId": "pab4-cd13-b490-003a",
+            "targetId": "pa34-017c-3479-0016",
             "sortIndex": 4
           }
         ],
@@ -21140,6 +21474,23 @@
         ],
         "modifiers": [
           {
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "7d63-7b55-a632-6a10",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ],
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207"
+          },
+          {
             "type": "set",
             "value": 2,
             "field": "77f9-3bb6-61ec-9722",
@@ -21153,23 +21504,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 160,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "7d63-7b55-a632-6a10",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -21455,6 +21789,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -22253,9 +22597,8 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "self",
-                        "shared": true,
-                        "childName": "self"
+                        "childId": "any",
+                        "shared": true
                       },
                       {
                         "type": "instanceOf",
@@ -23669,9 +24012,41 @@
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
             "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "modifiers": [
+          {
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "bee9-172b-7db7-f748",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ],
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207"
+          },
           {
             "type": "set",
             "value": 2,
@@ -23711,9 +24086,8 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "self",
-                        "shared": true,
-                        "childName": "self"
+                        "childId": "any",
+                        "shared": true
                       },
                       {
                         "type": "instanceOf",
@@ -23727,23 +24101,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 160,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "bee9-172b-7db7-f748",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -26004,6 +26361,21 @@
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
             "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "categoryLinks": [
@@ -26447,9 +26819,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa03-04fc-034e-004b",
+            "id": "pa19-617b-19f8-0027",
             "type": "selectionEntryGroup",
-            "targetId": "pab4-cd13-b490-003a",
+            "targetId": "pa34-017c-3479-0016",
             "sortIndex": 4
           }
         ],
@@ -26986,6 +27358,23 @@
         ],
         "modifiers": [
           {
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "22f0-a7d8-b2b6-e26",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ],
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207"
+          },
+          {
             "type": "set",
             "value": 2,
             "field": "6206-2b41-bf0a-23b5",
@@ -26999,23 +27388,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 160,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "22f0-a7d8-b2b6-e26",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -29426,9 +29798,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paee-f719-ee8f-0044",
+            "id": "pa62-8e89-6200-0020",
             "type": "selectionEntryGroup",
-            "targetId": "pab4-cd13-b490-003a",
+            "targetId": "pa34-017c-3479-0016",
             "sortIndex": 4
           }
         ],
@@ -31147,9 +31519,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paff-2f24-ff46-004c",
+            "id": "pa69-69c4-69f0-0028",
             "type": "selectionEntryGroup",
-            "targetId": "pab4-cd13-b490-003a",
+            "targetId": "pa34-017c-3479-0016",
             "sortIndex": 4
           }
         ],
@@ -31280,7 +31652,49 @@
         "import": true,
         "name": "Celestian Sacresant Aveline [Legends]",
         "hidden": false,
-        "id": "6227-8c95-0e8a-81de"
+        "id": "6227-8c95-0e8a-81de",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 45
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          }
+        ]
       },
       {
         "costs": [
@@ -34792,9 +35206,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa33-2532-3339-004d",
+            "id": "pa65-ddf0-6530-0029",
             "type": "selectionEntryGroup",
-            "targetId": "pab4-cd13-b490-003a",
+            "targetId": "pa34-017c-3479-0016",
             "sortIndex": 4
           }
         ],
@@ -35397,9 +35811,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pabc-086e-bcbe-004e",
+            "id": "pa56-3fdc-56fe-002a",
             "type": "selectionEntryGroup",
-            "targetId": "pab4-cd13-b490-003a",
+            "targetId": "pa34-017c-3479-0016",
             "sortIndex": 4
           }
         ],
@@ -35995,9 +36409,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa08-5672-081d-004f",
+            "id": "pa1d-e2f4-1dd0-002b",
             "type": "selectionEntryGroup",
-            "targetId": "pab4-cd13-b490-003a",
+            "targetId": "pa34-017c-3479-0016",
             "sortIndex": 4
           }
         ],
@@ -37057,9 +37471,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pad8-f784-d828-0050",
+            "id": "pae0-5c3a-e0f2-002c",
             "type": "selectionEntryGroup",
-            "targetId": "pab4-cd13-b490-003a",
+            "targetId": "pa34-017c-3479-0016",
             "sortIndex": 4
           }
         ],
@@ -41138,7 +41552,7 @@
         "selectionEntryGroups": [
           {
             "name": "Chorus of Condemnation Enhancements",
-            "id": "pa54-93bb-54d8-0005",
+            "id": "pad2-8da0-d247-0000",
             "hidden": false,
             "selectionEntries": [
               {
@@ -41146,14 +41560,67 @@
                 "import": true,
                 "name": "Clarion of Urgency",
                 "hidden": false,
-                "id": "paab-2431-ab5c-0000",
+                "id": "2474-62bc-deab-c31b",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "a026-e7e9-78d9-f45e",
+                    "includeChildSelections": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 15
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
                 "profiles": [
                   {
                     "name": "Clarion of Urgency",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "paab-11d9-ab29-0001",
+                    "id": "952f-fdc6-00ab-6fe8",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -41163,39 +41630,12 @@
                     ]
                   }
                 ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pada-314c-da88-0002"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "pa92-0fee-92ac-0003",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 15
-                  }
-                ],
                 "modifiers": [
                   {
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa5d-e2f8-5d0b-0004",
+                    "id": "pa5f-f504-5f02-0002",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -41214,7 +41654,9 @@
                       }
                     ]
                   }
-                ]
+                ],
+                "sortIndex": 13,
+                "comment": "Chorus of Condemnation"
               }
             ],
             "modifiers": [
@@ -41258,13 +41700,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa19-2d65-197b-0006"
+                "id": "pa7f-65d3-7f43-0001"
               }
             ]
           },
           {
             "name": "Sacred Champions Enhancements",
-            "id": "pa2c-acf3-2c98-0013",
+            "id": "pa1d-7196-1d66-0006",
             "hidden": false,
             "selectionEntries": [
               {
@@ -41272,48 +41714,17 @@
                 "import": true,
                 "name": "Perfervid Haste",
                 "hidden": false,
-                "id": "pacc-4e99-ccde-000e",
-                "profiles": [
-                  {
-                    "name": "Perfervid Haste",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "id": "pa08-07a3-089e-000f",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "This warrior's passion to secure her quest is a lash wrought from her faith, which drives her sisters on at a relentless pace.\n\nADEPTA SORORITAS model only. This unit has +1\" M."
-                      }
-                    ]
-                  }
-                ],
+                "id": "becb-e7cd-ff9f-f8ac",
                 "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pa64-e49a-64b0-0010"
-                  },
                   {
                     "type": "max",
                     "value": 1,
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "paa1-9868-a1c7-0011",
+                    "id": "439e-b3c2-5923-cc93",
                     "includeChildSelections": true,
                     "includeChildForces": true
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 10
                   }
                 ],
                 "modifiers": [
@@ -41321,7 +41732,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa5e-80dc-5e9b-0012",
+                    "id": "pad6-c822-d69b-0008",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -41337,6 +41748,65 @@
                             "includeChildForces": true
                           }
                         ]
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 10
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "comment": "Sacred Champions",
+                "profiles": [
+                  {
+                    "name": "Perfervid Haste",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "0c5e-7505-e29f-acb2",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "This warrior's passion to secure her quest is a lash wrought from her faith, which drives her sisters on at a relentless pace.\n\nADEPTA SORORITAS model only. This unit has +1\" M."
                       }
                     ]
                   }
@@ -41384,13 +41854,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa42-e4d1-423e-0014"
+                "id": "pa77-915b-7768-0007"
               }
             ]
           },
           {
             "name": "Champions of Faith Enhancements",
-            "id": "paa4-9519-a41b-0038",
+            "id": "pa86-2b3c-86d3-0010",
             "hidden": false,
             "selectionEntries": [
               {
@@ -41398,39 +41868,15 @@
                 "import": true,
                 "name": "Triptych of Judgement",
                 "hidden": false,
-                "id": "paf3-4c5c-f334-0024",
-                "profiles": [
-                  {
-                    "name": "Triptych of Judgement",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "id": "paff-c13b-ff12-0025",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "The three windows of this sacred artefact display three aspects of the God-Emperor in judgement over mortal souls. No warrior of faith will countenance failure beneath its threefold gaze.\n\nAdepta Sororitas model only. Each time a model in the bearer's unit makes an attack, you can ignore any or all modifiers to that attack's Ballistic Skill or Weapon Skill characteristics and/or any or all modifiers to the Hit roll."
-                      }
-                    ]
-                  }
-                ],
+                "id": "4e52-3be7-153f-2ef8",
                 "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pa59-1fdf-5986-0026"
-                  },
                   {
                     "type": "max",
                     "value": 1,
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa1b-208f-1b75-0027",
+                    "id": "4a83-4be3-45af-8872",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -41440,6 +41886,57 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 15
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Triptych of Judgement",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "cf4d-3336-e6e7-56a9",
+                    "characteristics": [
+                      {
+                        "$text": "The three windows of this sacred artefact display three aspects of the God-Emperor in judgement over mortal souls. No warrior of faith will countenance failure beneath its threefold gaze.\n\nAdepta Sororitas model only. Each time a model in the bearer's unit makes an attack, you can ignore any or all modifiers to that attack's Ballistic Skill or Weapon Skill characteristics and/or any or all modifiers to the Hit roll.",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ]
                   }
                 ],
                 "modifiers": [
@@ -41447,7 +41944,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pae3-799c-e336-0028",
+                    "id": "pa50-3c0b-5018-0012",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -41466,46 +41963,24 @@
                       }
                     ]
                   }
-                ]
+                ],
+                "comment": "Champions of Faith",
+                "sortIndex": 12
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Mark of Devotion",
                 "hidden": false,
-                "id": "paa6-de8c-a623-0029",
-                "profiles": [
-                  {
-                    "name": "Mark of Devotion",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "id": "pa96-825a-960b-002a",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "A fresh oath brand burns in this champion's flesh, its heat remaining miraculously undimmed and its searing pain focusing their devout wrath.\n\nAdepta Sororitas model only. Add 1 to the Attacks characteristic of the bearer's melee weapons. While the bearer's unit is Righteous, add 2 to the Attacks characteristic and add 1 to the Damage characteristic of the bearer's melee weapons instead."
-                      }
-                    ]
-                  }
-                ],
+                "id": "6a87-e11a-7a83-54ac",
                 "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pa04-560d-046d-002b"
-                  },
                   {
                     "type": "max",
                     "value": 1,
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pab0-62d5-b0ef-002c",
+                    "id": "1a7e-c1e0-f5d5-2abb",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -41515,6 +41990,121 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 30
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Mark of Devotion",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "2458-a30b-3f7d-69ca",
+                    "characteristics": [
+                      {
+                        "$text": "A fresh oath brand burns in this champion's flesh, its heat remaining miraculously undimmed and its searing pain focusing their devout wrath.\n\nAdepta Sororitas model only. Add 1 to the Attacks characteristic of the bearer's melee weapons. While the bearer's unit is Righteous, add 2 to the Attacks characteristic and add 1 to the Damage characteristic of the bearer's melee weapons instead.",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ]
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "append",
+                        "value": "Mark of Devotion",
+                        "field": "annotation",
+                        "join": ", ",
+                        "scope": "model",
+                        "affects": "self.entries.recursive.profiles.Melee Weapons"
+                      },
+                      {
+                        "type": "append",
+                        "value": "+0",
+                        "field": "2337-daa1-6682-b110",
+                        "scope": "model",
+                        "affects": "self.entries.recursive.e993-e086-6de1-12af.profiles.Melee Weapons",
+                        "arg": "+0",
+                        "join": ""
+                      },
+                      {
+                        "type": "replace",
+                        "value": true,
+                        "field": "2337-daa1-6682-b110",
+                        "scope": "model",
+                        "affects": "self.entries.recursive.6337-b83b-0d1e-5770.profiles.Melee Weapons",
+                        "arg": "+0"
+                      },
+                      {
+                        "type": "increment",
+                        "value": 1,
+                        "field": "2337-daa1-6682-b110",
+                        "scope": "model",
+                        "affects": "self.entries.recursive.profiles.Melee Weapons",
+                        "position": -1
+                      },
+                      {
+                        "type": "decrement",
+                        "value": 1,
+                        "field": "2337-daa1-6682-b110",
+                        "scope": "model",
+                        "affects": "self.entries.recursive.84c4-6d1e-e724-bd6e.profiles.Melee Weapons",
+                        "position": -1
+                      },
+                      {
+                        "type": "replace",
+                        "value": true,
+                        "field": "2337-daa1-6682-b110",
+                        "scope": "model",
+                        "affects": "self.entries.recursive.profiles.Melee Weapons",
+                        "arg": "+0"
+                      },
+                      {
+                        "type": "add",
+                        "value": "6337-b83b-0d1e-5770",
+                        "field": "category",
+                        "scope": "model",
+                        "arg": "+0",
+                        "affects": "self.entries.recursive.e993-e086-6de1-12af"
+                      }
+                    ]
                   }
                 ],
                 "modifiers": [
@@ -41522,7 +42112,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa24-60f0-2424-002d",
+                    "id": "pa4e-cc19-4e27-0013",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -41541,46 +42131,24 @@
                       }
                     ]
                   }
-                ]
+                ],
+                "comment": "Champions of Faith",
+                "sortIndex": 10
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Eyes of the Oracle",
                 "hidden": false,
-                "id": "pae0-9d81-e057-002e",
-                "profiles": [
-                  {
-                    "name": "Eyes of the Oracle",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "id": "pa22-952e-22d6-002f",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Having torn them from the sockets of a heretical witch, this warrior of faith keeps these shrivelled orbs sealed in a miniature reliquary about their neck. They believe that - tormented by holy imprisonment - the traitorous eyes guide their aim towards other infernal champions.\n\nAdepta Sororitas model only. The bearer's weapons have the [PRECISION] ability. Each time the bearer's unit destroys an enemy Character model, you gain 1CP."
-                      }
-                    ]
-                  }
-                ],
+                "id": "5344-3b0c-c939-e6a2",
                 "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pa12-c4ab-1281-0030"
-                  },
                   {
                     "type": "max",
                     "value": 1,
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa3b-d120-3b69-0031",
+                    "id": "c5e3-48fa-d84c-71f7",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -41590,6 +42158,57 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 10
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Eyes of the Oracle",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "0565-355a-2b90-415c",
+                    "characteristics": [
+                      {
+                        "$text": "Having torn them from the sockets of a heretical witch, this warrior of faith keeps these shrivelled orbs sealed in a miniature reliquary about their neck. They believe that - tormented by holy imprisonment - the traitorous eyes guide their aim towards other infernal champions.\n\nAdepta Sororitas model only. The bearer's weapons have the [PRECISION] ability. Each time the bearer's unit destroys an enemy Character model, you gain 1CP.",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ]
                   }
                 ],
                 "modifiers": [
@@ -41597,7 +42216,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pae6-1b50-e6ab-0032",
+                    "id": "pa11-aa74-1105-0014",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -41616,46 +42235,24 @@
                       }
                     ]
                   }
-                ]
+                ],
+                "comment": "Champions of Faith",
+                "sortIndex": 9
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Sanctified Amulet",
                 "hidden": false,
-                "id": "pac6-dd98-c64d-0033",
-                "profiles": [
-                  {
-                    "name": "Sanctified Amulet",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "id": "pa52-92e8-52be-0034",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Belief radiates out from this blessed icon, forming a holy circle of abjuration that holds at bay the unclean and leaves this champion free to do their duty to the God-Emperor.\n\nAdepta Sororitas model only. Enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" of the bearer."
-                      }
-                    ]
-                  }
-                ],
+                "id": "2c1d-5416-8c0d-f790",
                 "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pabf-5d06-bff5-0035"
-                  },
                   {
                     "type": "max",
                     "value": 1,
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa9d-c57b-9dc1-0036",
+                    "id": "a91d-7ec5-14e1-1dcc",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -41665,6 +42262,57 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 25
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Sanctified Amulet",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "ef03-fbc3-b77b-a35a",
+                    "characteristics": [
+                      {
+                        "$text": "Belief radiates out from this blessed icon, forming a holy circle of abjuration that holds at bay the unclean and leaves this champion free to do their duty to the God-Emperor.\n\nAdepta Sororitas model only. Enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" of the bearer.",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ]
                   }
                 ],
                 "modifiers": [
@@ -41672,7 +42320,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa1f-258b-1f4b-0037",
+                    "id": "pad7-2c50-d726-0015",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -41691,7 +42339,9 @@
                       }
                     ]
                   }
-                ]
+                ],
+                "comment": "Champions of Faith",
+                "sortIndex": 11
               }
             ],
             "modifiers": [
@@ -41735,7 +42385,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa07-629d-07dd-0039"
+                "id": "pa24-4b35-249f-0011"
               }
             ]
           }
@@ -51394,13 +52044,13 @@
       },
       {
         "name": "Upgrades",
-        "id": "pab4-cd13-b490-003a",
+        "id": "pa34-017c-3479-0016",
         "hidden": false,
         "collapsible": true,
         "selectionEntryGroups": [
           {
             "name": "Chorus of Condemnation Upgrades",
-            "id": "pac6-b943-c662-000c",
+            "id": "pab5-4a54-b5a0-0003",
             "hidden": false,
             "selectionEntries": [
               {
@@ -51408,14 +52058,110 @@
                 "import": true,
                 "name": "Symphonic Payload",
                 "hidden": false,
-                "id": "pae9-24ea-e948-0007",
+                "id": "bd97-06c3-a527-9a3e",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "60ec-ed70-c549-5734",
+                    "includeChildSelections": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 10
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "bd97-06c3-a527-9a3e",
+                            "shared": true,
+                            "childName": "Symphonic Payload",
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "bd97-06c3-a527-9a3e",
+                            "shared": true,
+                            "childName": "Symphonic Payload",
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
                 "profiles": [
                   {
                     "name": "Symphonic Payload",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa1a-69a4-1aee-0008",
+                    "id": "d6d8-b673-01f6-0f83",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -51425,39 +52171,12 @@
                     ]
                   }
                 ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pa73-17bd-7392-0009"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "pad2-6e01-d21c-000a",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 10
-                  }
-                ],
                 "modifiers": [
                   {
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pacf-3bbe-cf2f-000b",
+                    "id": "paae-dda8-aec6-0005",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -51520,13 +52239,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa84-6ff1-84e6-000d"
+                "id": "pa75-6dd3-75e0-0004"
               }
             ]
           },
           {
             "name": "Sacred Champions Upgrades",
-            "id": "pa6b-de4a-6bb9-001a",
+            "id": "pa84-a98b-847a-0009",
             "hidden": false,
             "selectionEntries": [
               {
@@ -51534,14 +52253,26 @@
                 "import": true,
                 "name": "Writ of Compunction",
                 "hidden": false,
-                "id": "pa37-0317-370a-0015",
+                "id": "9cc7-bfa9-ca48-9853",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "99d4-0cff-17d1-4c22",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "profiles": [
                   {
                     "name": "Writ of Compunction",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa8a-6bb5-8a7b-0016",
+                    "id": "1a67-e385-3eb1-ce04",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -51551,39 +52282,12 @@
                     ]
                   }
                 ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pa55-dc51-5579-0017"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "pa45-fb66-451a-0018",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 20
-                  }
-                ],
                 "modifiers": [
                   {
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa20-f486-2013-0019",
+                    "id": "pa8f-58f1-8f9f-000b",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -51595,6 +52299,91 @@
                             "scope": "ancestor",
                             "childId": "4038-4f63-856e-fa4c",
                             "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "9cc7-bfa9-ca48-9853",
+                            "shared": true,
+                            "childName": "Writ of Compunction",
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "9cc7-bfa9-ca48-9853",
+                            "shared": true,
+                            "childName": "Writ of Compunction",
                             "includeChildSelections": true,
                             "includeChildForces": true
                           }
@@ -51646,13 +52435,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa59-f4a7-59ea-001b"
+                "id": "pa10-4e2f-1079-000a"
               }
             ]
           },
           {
             "name": "Sanctified Orators Upgrades",
-            "id": "pa6c-9cf6-6c0d-0022",
+            "id": "pa44-1257-44ad-000c",
             "hidden": false,
             "selectionEntries": [
               {
@@ -51660,14 +52449,34 @@
                 "import": true,
                 "name": "Hagiomnifex",
                 "hidden": false,
-                "id": "pa11-f832-11fa-001c",
+                "id": "df1f-deb6-d44c-b653",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "ce80-b725-5ca5-deae",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "1209-f301-e6bc-3734",
+                    "includeChildSelections": true
+                  }
+                ],
                 "profiles": [
                   {
                     "name": "Hagiomnifex",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa4a-2397-4a95-001d",
+                    "id": "0689-e00e-3022-a235",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -51677,39 +52486,12 @@
                     ]
                   }
                 ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "paac-4447-ac3b-001e"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "pa0e-566a-0efa-001f",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 25
-                  }
-                ],
                 "modifiers": [
                   {
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pab7-278b-b7c8-0020",
+                    "id": "pa92-76fa-92a3-000e",
                     "conditionGroups": [
                       {
                         "type": "or",
@@ -51742,7 +52524,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa33-9f43-3358-0021",
+                    "id": "pa3e-202a-3ea0-000f",
                     "conditions": [
                       {
                         "type": "instanceOf",
@@ -51755,6 +52537,48 @@
                         "includeChildForces": true
                       }
                     ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 25
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
                   }
                 ]
               }
@@ -51800,7 +52624,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa1d-1491-1d04-0023"
+                "id": "pa8d-9b57-8dc4-000d"
               }
             ]
           }
@@ -51812,7 +52636,7 @@
             "field": "selections",
             "scope": "self",
             "shared": true,
-            "id": "pa78-2cf6-78b0-003b",
+            "id": "pae3-fb6f-e328-0017",
             "includeChildSelections": true
           },
           {
@@ -51821,7 +52645,7 @@
             "field": "selections",
             "scope": "roster",
             "shared": true,
-            "id": "pa98-0257-984f-003c",
+            "id": "paf3-2ee7-f382-0018",
             "includeChildSelections": true
           }
         ]
@@ -52143,13 +52967,6 @@
         "targetId": "e15e-17fa-23ca-693e"
       },
       {
-        "costs": [
-          {
-            "name": "pts",
-            "typeId": "51b2-306e-1021-d207",
-            "value": 45
-          }
-        ],
         "constraints": [
           {
             "type": "max",
@@ -52300,7 +53117,7 @@
     "library": false,
     "id": "b39e-4401-8f3e-fdf7",
     "name": "Imperium - Adepta Sororitas",
-    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemId": "sys-352e-adc2-7639-d6a9",
     "gameSystemRevision": 1,
     "revision": 111,
     "battleScribeVersion": 2.03,

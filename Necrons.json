@@ -2601,7 +2601,7 @@
         "selectionEntryGroups": [
           {
             "name": "Starshatter Arsenal Enhancements",
-            "id": "pa0c-d859-0c92-0038",
+            "id": "paf8-a334-f870-000c",
             "hidden": false,
             "selectionEntries": [
               {
@@ -2609,14 +2609,14 @@
                 "import": true,
                 "name": "Dread Majesty (Aura)",
                 "hidden": false,
-                "id": "pa83-dc3d-8341-0024",
+                "id": "pab5-af6e-b549-000e",
                 "profiles": [
                   {
                     "name": "Dread Majesty (Aura)",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa75-e78f-75de-0025",
+                    "id": "pa27-691e-2732-000f",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -2633,7 +2633,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "paee-4fb1-ee7c-0026"
+                    "id": "pad2-587d-d27b-0010"
                   },
                   {
                     "type": "max",
@@ -2641,7 +2641,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pad2-0823-d271-0027",
+                    "id": "paeb-c0d6-ebf9-0011",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -2658,7 +2658,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa67-bf1c-67f3-0028",
+                    "id": "pa00-a76b-0004-0012",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -2700,52 +2700,46 @@
                 ]
               },
               {
-                "type": "upgrade",
-                "import": true,
-                "name": "Miniaturised Nebuloscope",
-                "hidden": false,
-                "id": "pae4-0ef3-e405-0029",
-                "profiles": [
-                  {
-                    "name": "Miniaturised Nebuloscope",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "id": "pa1b-df5d-1ba6-002a",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Feeding vampirically on datastreams from the dynasty's war engines, this device enables its owner to track enemies through multiple dimensions, leaving them no hiding place.\n\nNecrons model only. Ranged weapons equipped by models in the bearer's unit have the [IGNORES COVER] ability."
-                      }
-                    ]
-                  }
-                ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pabc-d570-bc8c-002b"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "pa4e-5e75-4e25-002c",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "costs": [
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 15
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -2753,7 +2747,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa43-bc7c-43ae-002d",
+                    "id": "pafc-899d-fc9d-0013",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -2772,28 +2766,21 @@
                       }
                     ]
                   }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Demanding Leader",
-                "hidden": false,
-                "id": "pa84-6904-8444-002e",
+                ],
                 "profiles": [
                   {
-                    "name": "Demanding Leader",
+                    "characteristics": [
+                      {
+                        "$text": "Feeding vampirically on datastreams from the dynasty's war engines, this device enables its owner to track enemies through multiple dimensions, leaving them no hiding place.\n\nNecrons model only. Ranged weapons equipped by models in the bearer's unit have the [IGNORES COVER] ability.",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "name": "Miniaturised Nebuloscope",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "paef-b586-ef9c-002f",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "This Necron noble is a master of rapid warfare, commanding armoured columns with great precision.\n\nNecrons model only. In your Command phase, select one friendly Necrons Vehicle or Necrons Mounted unit (excluding Titanic units) within 6\" of the bearer. Until the start of your next Command phase, that unit is eligible to shoot in a turn in which it Fell Back."
-                      }
-                    ]
+                    "id": "bd49-399b-926c-936d"
                   }
                 ],
                 "constraints": [
@@ -2801,26 +2788,61 @@
                     "type": "max",
                     "value": 1,
                     "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pa07-9d09-07b2-0030"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa24-b5ce-24f7-0031",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
+                    "id": "15a5-4021-d62e-4d0e",
+                    "includeChildSelections": true
                   }
                 ],
+                "comment": "Starshatter Arsenal",
+                "type": "upgrade",
+                "import": true,
+                "name": "Miniaturised Nebuloscope",
+                "hidden": false,
+                "id": "d8be-0f2f-0902-ae47",
+                "sortIndex": 32
+              },
+              {
                 "costs": [
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 10
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -2828,7 +2850,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa7b-621b-7be7-0032",
+                    "id": "pa11-e5d2-11e7-0014",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -2847,28 +2869,21 @@
                       }
                     ]
                   }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Chrono-Impedance Fields",
-                "hidden": false,
-                "id": "pa7b-2abd-7b0e-0033",
+                ],
                 "profiles": [
                   {
-                    "name": "Chrono-Impedance Fields",
+                    "characteristics": [
+                      {
+                        "$text": "This Necron noble is a master of rapid warfare, commanding armoured columns with great precision.\n\nNecrons model only. In your Command phase, select one friendly Necrons Vehicle or Necrons Mounted unit (excluding Titanic units) within 6\" of the bearer. Until the start of your next Command phase, that unit is eligible to shoot in a turn in which it Fell Back.",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "name": "Demanding Leader",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "paf3-116b-f3de-0034",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "When activated, this device wreathes dynastic craft in a time-dilation field that reduces the force of incoming blows and shots.\n\nNecrons model only. In your Command phase, select one friendly Necrons Vehicle or Necrons Mounted unit (excluding Titanic units) within 6\" of the bearer. Until the start of your next Command phase, each time an attack is allocated to a model in that unit, subtract 1 from the Damage characteristic of that attack."
-                      }
-                    ]
+                    "id": "91f5-bbc1-8ec9-68cc"
                   }
                 ],
                 "constraints": [
@@ -2876,26 +2891,61 @@
                     "type": "max",
                     "value": 1,
                     "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pae9-6b59-e998-0035"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pab3-41e9-b397-0036",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
+                    "id": "3f80-e273-ec3f-ad87",
+                    "includeChildSelections": true
                   }
                 ],
+                "comment": "Starshatter Arsenal",
+                "type": "upgrade",
+                "import": true,
+                "name": "Demanding Leader",
+                "hidden": false,
+                "id": "40fb-0220-5d6a-4b29",
+                "sortIndex": 30
+              },
+              {
                 "costs": [
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 25
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -2903,7 +2953,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa7e-04fd-7e33-0037",
+                    "id": "pa44-24b8-4405-0015",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -2922,7 +2972,41 @@
                       }
                     ]
                   }
-                ]
+                ],
+                "profiles": [
+                  {
+                    "characteristics": [
+                      {
+                        "$text": "When activated, this device wreathes dynastic craft in a time-dilation field that reduces the force of incoming blows and shots.\n\nNecrons model only. In your Command phase, select one friendly Necrons Vehicle or Necrons Mounted unit (excluding Titanic units) within 6\" of the bearer. Until the start of your next Command phase, each time an attack is allocated to a model in that unit, subtract 1 from the Damage characteristic of that attack.",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "name": "Chrono-impedance Fields",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "0ce9-aaa0-f90b-2d7e"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "1850-7a23-dfb7-b2b7",
+                    "includeChildSelections": true
+                  }
+                ],
+                "comment": "Starshatter Arsenal",
+                "type": "upgrade",
+                "import": true,
+                "name": "Chrono-impedance Fields",
+                "hidden": false,
+                "id": "0def-3e8b-cd0d-f2aa",
+                "sortIndex": 29
               }
             ],
             "modifiers": [
@@ -2966,70 +3050,22 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pab0-88ce-b0b0-0039"
+                "id": "pae5-9b98-e5ae-000d"
               }
             ]
           },
           {
             "name": "Cryptek Conclave Enhancements",
-            "id": "pa4e-99aa-4efb-004e",
+            "id": "pad5-1a92-d54e-0016",
             "hidden": false,
             "selectionEntries": [
               {
-                "type": "upgrade",
-                "import": true,
-                "name": "Quantum Abacus",
-                "hidden": false,
-                "id": "pa71-4b42-7117-003a",
-                "profiles": [
-                  {
-                    "name": "Quantum Abacus",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "id": "pa68-a8b1-687f-003b",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "This cloud-like familiar of fractal computational electrons possesses a cogitational intellect that, when fed raw data, produces inspired strategic guidance.\n\nNecrons model only. Each time you select the bearer's unit as the target of a Stratagem, roll one D6, adding 1 if it is within range of one or more objectives: on a 4+, you gain 1CP."
-                      }
-                    ]
-                  }
-                ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pab9-21d7-b984-003c"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "pa33-b72a-337d-003d",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 15
-                  }
-                ],
                 "modifiers": [
                   {
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa51-3b9d-51b4-003e",
+                    "id": "pa7b-df8f-7b5d-0018",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -3048,28 +3084,63 @@
                       }
                     ]
                   }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Atomic Disintegrators",
-                "hidden": false,
-                "id": "pa9a-2d4e-9ab7-003f",
+                ],
                 "profiles": [
                   {
-                    "name": "Atomic Disintegrators",
+                    "characteristics": [
+                      {
+                        "$text": "This cloud-like familiar of fractal computational electrons possesses a cogitational intellect that, when fed raw data, produces inspired strategic guidance.\n\nNecrons model only. Each time you select the bearer's unit as the target of a Stratagem, roll one D6, adding 1 if it is within range of one or more objectives: on a 4+, you gain 1CP.",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "name": "Quantum Abacus",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pac0-e8ba-c070-0040",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Energy lenses project in a web from a central node borne by the Cryptek, coalescing about Necron weapon systems and focusing their power still further.\n\nCryptek model only. In your Shooting phase, each time the bearer's unit is selected to shoot, when selecting an ability for the Technosorcerous Augmentations Detachment rule, you can also select from the following abilities: [ANTI-MONSTER 5+], [ANTI-VEHICLE 5+]."
-                      }
-                    ]
+                    "id": "de27-bb94-7f0b-8175"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 15
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "constraints": [
@@ -3077,19 +3148,60 @@
                     "type": "max",
                     "value": 1,
                     "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pabe-dbca-bee1-0041"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pac5-f07e-c515-0042",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
+                    "id": "e28c-c339-f2b4-fd0b",
+                    "includeChildSelections": true
+                  }
+                ],
+                "comment": "Cryptek Conclave",
+                "type": "upgrade",
+                "import": true,
+                "name": "Quantum Abacus",
+                "hidden": false,
+                "id": "cede-96ee-5e36-d4de",
+                "sortIndex": 16
+              },
+              {
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "paa6-d4fa-a6d7-0019",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "a98a-4cc0-5f02-e078",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "characteristics": [
+                      {
+                        "$text": "Energy lenses project in a web from a central node borne by the Cryptek, coalescing about Necron weapon systems and focusing their power still further.\n\nCryptek model only. In your Shooting phase, each time the bearer's unit is selected to shoot, when selecting an ability for the Technosorcerous Augmentations Detachment rule, you can also select from the following abilities: [ANTI-MONSTER 5+], [ANTI-VEHICLE 5+].",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "name": "Atomic Disintegrators",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "785d-95b4-30f3-f71f"
                   }
                 ],
                 "costs": [
@@ -3097,54 +3209,41 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 10
-                  }
-                ],
-                "modifiers": [
+                  },
                   {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "id": "pa06-3abe-06cb-0043",
-                    "conditionGroups": [
-                      {
-                        "type": "and",
-                        "conditions": [
-                          {
-                            "type": "notInstanceOf",
-                            "value": 0,
-                            "field": "selections",
-                            "scope": "ancestor",
-                            "childId": "a98a-4cc0-5f02-e078",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Gauntlet of Compression",
-                "hidden": false,
-                "id": "pacc-93f8-cc04-0044",
-                "profiles": [
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
                   {
-                    "name": "Gauntlet of Compression",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "id": "pa98-fc4a-98c2-0045",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Clinging to the bearer's hand like a glove woven from shadow, this strange device folds space-time with a single gesture, momentarily compressing the relative distance between Necron weapons and their targets.\n\nNecrons model only. Add 6\" to the Range characteristic of ranged weapons equipped by models in the bearer's unit."
-                      }
-                    ]
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "constraints": [
@@ -3152,34 +3251,27 @@
                     "type": "max",
                     "value": 1,
                     "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "paaa-b25c-aa10-0046"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pac7-afbb-c7c5-0047",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
+                    "id": "6c9e-75d6-2429-72cf",
+                    "includeChildSelections": true
                   }
                 ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 20
-                  }
-                ],
+                "comment": "Cryptek Conclave",
+                "type": "upgrade",
+                "import": true,
+                "name": "Atomic Disintegrators",
+                "hidden": false,
+                "id": "4d2f-1b67-641e-b036",
+                "sortIndex": 13
+              },
+              {
                 "modifiers": [
                   {
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa7e-a5be-7e1e-0048",
+                    "id": "pae4-a7ff-e400-001a",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -3198,28 +3290,63 @@
                       }
                     ]
                   }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Gravitic Bolas",
-                "hidden": false,
-                "id": "pad0-5e8a-d075-0049",
+                ],
                 "profiles": [
                   {
-                    "name": "Gravitic Bolas",
+                    "characteristics": [
+                      {
+                        "$text": "Clinging to the bearer's hand like a glove woven from shadow, this strange device folds space-time with a single gesture, momentarily compressing the relative distance between Necron weapons and their targets.\n\nNecrons model only. Add 6\" to the Range characteristic of ranged weapons equipped by models in the bearer's unit.",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "name": "Gauntlet of Compression",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pacf-ac50-cf99-004a",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Projected from the bearer's staff as a secondary energistic emission, these solid-state electroshackles bind and trammel their victims in crackling fetters.\n\nCryptek model only. In your Shooting phase, after the bearer has shot, select one enemy unit hit by one or more of those attacks (excluding Titanic units); until the start of your next turn, that enemy unit is pinned. While a unit is pinned, subtract 2 from that unit's Move characteristic and subtract 2 from Charge rolls made for that unit."
-                      }
-                    ]
+                    "id": "348c-7fd1-256f-d62d"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "constraints": [
@@ -3227,34 +3354,27 @@
                     "type": "max",
                     "value": 1,
                     "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pa19-563c-1903-004b"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pab4-a363-b491-004c",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
+                    "id": "c44b-0c41-8774-6acb",
+                    "includeChildSelections": true
                   }
                 ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 15
-                  }
-                ],
+                "comment": "Cryptek Conclave",
+                "type": "upgrade",
+                "import": true,
+                "name": "Gauntlet of Compression",
+                "hidden": false,
+                "id": "855d-dea4-9142-0b71",
+                "sortIndex": 14
+              },
+              {
                 "modifiers": [
                   {
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa17-fbce-1738-004d",
+                    "id": "paac-fcfb-ac3b-001b",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -3273,7 +3393,83 @@
                       }
                     ]
                   }
-                ]
+                ],
+                "profiles": [
+                  {
+                    "characteristics": [
+                      {
+                        "$text": "Projected from the bearer's staff as a secondary energistic emission, these solid-state electroshackles bind and trammel their victims in crackling fetters.\n\nCryptek model only. In your Shooting phase, after the bearer has shot, select one enemy unit hit by one or more of those attacks (excluding Titanic units); until the start of your next turn, that enemy unit is pinned. While a unit is pinned, subtract 2 from that unit's Move characteristic and subtract 2 from Charge rolls made for that unit.",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "name": "Gravitic Bolas",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "919b-ab95-21a9-163a"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 15
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "9702-b18b-8d66-bfa0",
+                    "includeChildSelections": true
+                  }
+                ],
+                "comment": "Cryptek Conclave",
+                "type": "upgrade",
+                "import": true,
+                "name": "Gravitic Bolas",
+                "hidden": false,
+                "id": "7e5d-8216-9ab0-1294",
+                "sortIndex": 15
               }
             ],
             "modifiers": [
@@ -3317,62 +3513,56 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pacd-f26d-cd1a-004f"
+                "id": "pa8d-50ea-8d31-0017"
               }
             ]
           },
           {
             "name": "Cursed Legion Enhancements",
-            "id": "pa77-2ffd-778e-0064",
+            "id": "paca-c51e-cad1-001c",
             "hidden": false,
             "selectionEntries": [
               {
-                "type": "upgrade",
-                "import": true,
-                "name": "Destroyer Ankh",
-                "hidden": false,
-                "id": "pa8c-8ef5-8cc9-0050",
-                "profiles": [
-                  {
-                    "name": "Destroyer Ankh",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "id": "pa62-0181-6246-0051",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Though it resembles a typical ankh, this chest piece fills its host with an insatiable need to exterminate the foe.\n\nCatacomb Command Barge or Overlord model only. The bearer has the Destroyer Cult keyword. Add 2\" to the Move characteristic of models in the bearer's unit and add 2 to the Attacks characteristic of melee weapons equipped by the bearer."
-                      }
-                    ]
-                  }
-                ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pa00-53e8-006b-0052"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "pa99-8b4a-9901-0053",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "costs": [
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -3380,7 +3570,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa0e-b435-0e5e-0054",
+                    "id": "pa65-9dac-65f8-001e",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -3419,28 +3609,21 @@
                       }
                     ]
                   }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Murdermind",
-                "hidden": false,
-                "id": "pab3-d4fa-b34f-0055",
+                ],
                 "profiles": [
                   {
-                    "name": "Murdermind",
+                    "characteristics": [
+                      {
+                        "$text": "Though it resembles a typical ankh, this chest piece fills its host with an insatiable need to exterminate the foe.\n\nCatacomb Command Barge or Overlord model only. The bearer has the Destroyer Cult keyword. Add 2\" to the Move characteristic of models in the bearer's unit and add 2 to the Attacks characteristic of melee weapons equipped by the bearer.",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "name": "Destroyer Ankh",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa03-0e8b-0375-0056",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Consumed by the Destroyer madness, this Cryptek's powerful intellect is turned entirely toward killing.\n\nCryptek model only. The bearer has the Destroyer Cult keyword and during the Declare Battle Formations step, the bearer can be attached to a Destroyer Cult unit (excluding Character units). If you do, the bearer's unit cannot contain any models without the Destroyer Cult keyword. Add 3\" to the Move characteristic of the bearer."
-                      }
-                    ]
+                    "id": "37bd-f09d-4fd8-c80f"
                   }
                 ],
                 "constraints": [
@@ -3448,26 +3631,61 @@
                     "type": "max",
                     "value": 1,
                     "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pabe-d076-bebb-0057"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa8a-d10e-8a6e-0058",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
+                    "id": "5028-bb20-f262-6697",
+                    "includeChildSelections": true
                   }
                 ],
+                "comment": "Cursed Legion",
+                "type": "upgrade",
+                "import": true,
+                "name": "Destroyer Ankh",
+                "hidden": false,
+                "id": "66a0-347d-f5b8-bb2e",
+                "sortIndex": 18
+              },
+              {
                 "costs": [
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 15
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -3475,7 +3693,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa8a-2e09-8ac4-0059",
+                    "id": "paf2-9a93-f2f8-001f",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -3494,28 +3712,21 @@
                       }
                     ]
                   }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Mark of the Nekrosor",
-                "hidden": false,
-                "id": "pa03-be8e-03e0-005a",
+                ],
                 "profiles": [
                   {
-                    "name": "Mark of the Nekrosor",
+                    "characteristics": [
+                      {
+                        "$text": "Consumed by the Destroyer madness, this Cryptek's powerful intellect is turned entirely toward killing.\n\nCryptek model only. The bearer has the Destroyer Cult keyword and during the Declare Battle Formations step, the bearer can be attached to a Destroyer Cult unit (excluding Character units). If you do, the bearer's unit cannot contain any models without the Destroyer Cult keyword. Add 3\" to the Move characteristic of the bearer.",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "name": "Murdermind",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa8d-98bf-8dc6-005b",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "The malevolent madness of Ammentar itself burns in the minds of this warrior and their comrades.\n\nDestroyer Cult model only. Each time a model in the bearer's unit makes an attack, add 1 to the Hit roll."
-                      }
-                    ]
+                    "id": "9070-0d7e-2212-90c7"
                   }
                 ],
                 "constraints": [
@@ -3523,26 +3734,61 @@
                     "type": "max",
                     "value": 1,
                     "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "paab-a1da-ab7a-005c"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa0a-fe58-0aae-005d",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
+                    "id": "d343-cf68-0191-bbed",
+                    "includeChildSelections": true
                   }
                 ],
+                "comment": "Cursed Legion",
+                "type": "upgrade",
+                "import": true,
+                "name": "Murdermind",
+                "hidden": false,
+                "id": "ccef-1913-7d41-e982",
+                "sortIndex": 20
+              },
+              {
                 "costs": [
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -3550,7 +3796,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "padf-7b55-dfe2-005e",
+                    "id": "pa70-14c0-704d-0020",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -3569,28 +3815,21 @@
                       }
                     ]
                   }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Cursed Circlet",
-                "hidden": false,
-                "id": "pa7e-6bb0-7ebc-005f",
+                ],
                 "profiles": [
                   {
-                    "name": "Cursed Circlet",
+                    "characteristics": [
+                      {
+                        "$text": "The malevolent madness of Ammentar itself burns in the minds of this warrior and their comrades.\n\nDestroyer Cult model only. Each time a model in the bearer's unit makes an attack, add 1 to the Hit roll.",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "name": "Mark of the Nekrosor",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pabb-4334-bbea-0060",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "This band of living metal sinks into the bearer's brow and floods their neural cortex with a murderous urge.\n\nDestroyer Cult model only. In your opponent's Shooting phase, when an enemy unit has shot, if a model in this unit was destroyed by those attacks, this unit can make a surge move of up to D6\"."
-                      }
-                    ]
+                    "id": "a326-99df-85de-947f"
                   }
                 ],
                 "constraints": [
@@ -3598,26 +3837,61 @@
                     "type": "max",
                     "value": 1,
                     "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pac9-5374-c9d9-0061"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pac4-e31a-c407-0062",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
+                    "id": "2d2f-5215-6014-5485",
+                    "includeChildSelections": true
                   }
                 ],
+                "comment": "Cursed Legion",
+                "type": "upgrade",
+                "import": true,
+                "name": "Mark of the Nekrosor",
+                "hidden": false,
+                "id": "019d-d56d-fb52-6b33",
+                "sortIndex": 19
+              },
+              {
                 "costs": [
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 25
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -3625,7 +3899,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paab-76d4-aba3-0063",
+                    "id": "pa1f-c629-1ff0-0021",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -3644,7 +3918,41 @@
                       }
                     ]
                   }
-                ]
+                ],
+                "profiles": [
+                  {
+                    "characteristics": [
+                      {
+                        "$text": "This band of living metal sinks into the bearer's brow and floods their neural cortex with a murderous urge.\n\nDestroyer Cult model only. In your opponent's Shooting phase, when an enemy unit has shot, if a model in this unit was destroyed by those attacks, this unit can make a surge move of up to D6\".",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "name": "Cursed Circlet",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "9627-f05c-4013-0140"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "560e-6dc9-f1ab-cb80",
+                    "includeChildSelections": true
+                  }
+                ],
+                "comment": "Cursed Legion",
+                "type": "upgrade",
+                "import": true,
+                "name": "Cursed Circlet",
+                "hidden": false,
+                "id": "ac69-1119-fea9-9088",
+                "sortIndex": 17
               }
             ],
             "modifiers": [
@@ -3688,13 +3996,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa90-a372-90ce-0065"
+                "id": "pac3-31cb-c30f-001d"
               }
             ]
           },
           {
             "name": "Pantheon of Woe Enhancements",
-            "id": "pac5-b276-c5f0-007a",
+            "id": "padb-510a-dbd3-0022",
             "hidden": false,
             "selectionEntries": [
               {
@@ -3702,14 +4010,14 @@
                 "import": true,
                 "name": "Singularity Matrix",
                 "hidden": false,
-                "id": "pa93-8cc5-934d-0066",
+                "id": "pa88-9680-88ba-0024",
                 "profiles": [
                   {
                     "name": "Singularity Matrix",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "paaf-6397-afea-0067",
+                    "id": "pa5e-4884-5edf-0025",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -3726,7 +4034,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "paa6-5850-a6d4-0068"
+                    "id": "paaf-cebc-afbe-0026"
                   },
                   {
                     "type": "max",
@@ -3734,7 +4042,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa47-d36d-47bd-0069",
+                    "id": "pa11-041f-11de-0027",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -3751,7 +4059,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa35-6fb8-35ad-006a",
+                    "id": "pa8f-2f1c-8f22-0028",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -3777,14 +4085,14 @@
                 "import": true,
                 "name": "Quantum Goad",
                 "hidden": false,
-                "id": "pa04-4a55-046e-006b",
+                "id": "paa3-ed75-a36f-0029",
                 "profiles": [
                   {
                     "name": "Quantum Goad",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa1e-c824-1e85-006c",
+                    "id": "pa3d-572f-3d4e-002a",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -3801,7 +4109,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pad8-b05c-d87b-006d"
+                    "id": "pa56-a206-5698-002b"
                   },
                   {
                     "type": "max",
@@ -3809,7 +4117,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa29-373f-2934-006e",
+                    "id": "paa8-752f-a8d0-002c",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -3826,7 +4134,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pab4-ae1a-b471-006f",
+                    "id": "pae7-0f91-e7a6-002d",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -3852,14 +4160,14 @@
                 "import": true,
                 "name": "Animus Damper",
                 "hidden": false,
-                "id": "paad-bb9b-adfd-0070",
+                "id": "pa19-2e17-197c-002e",
                 "profiles": [
                   {
                     "name": "Animus Damper",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa4e-2a29-4e25-0071",
+                    "id": "pa77-68f5-77fc-002f",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -3876,7 +4184,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa20-e702-2049-0072"
+                    "id": "pabf-0440-bff1-0030"
                   },
                   {
                     "type": "max",
@@ -3884,7 +4192,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa38-3275-388c-0073",
+                    "id": "pa74-4da2-745d-0031",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -3901,7 +4209,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paa8-2fe0-a860-0074",
+                    "id": "paa0-6a32-a0e7-0032",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -3927,14 +4235,14 @@
                 "import": true,
                 "name": "Reletavistic Tether",
                 "hidden": false,
-                "id": "pa05-84ef-05f7-0075",
+                "id": "pa85-1185-85d9-0033",
                 "profiles": [
                   {
                     "name": "Reletavistic Tether",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pab0-f42d-b094-0076",
+                    "id": "pa15-250d-1502-0034",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -3951,7 +4259,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa2f-c9be-2fde-0077"
+                    "id": "paed-31ce-ede8-0035"
                   },
                   {
                     "type": "max",
@@ -3959,7 +4267,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa09-63f4-09a7-0078",
+                    "id": "pa05-65ea-057b-0036",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -3976,7 +4284,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa39-a42c-3942-0079",
+                    "id": "pac2-f42f-c216-0037",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -4039,7 +4347,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa37-0056-37dc-007b"
+                "id": "pab1-932e-b1d4-0023"
               }
             ]
           }
@@ -11048,13 +11356,13 @@
       },
       {
         "name": "Upgrades",
-        "id": "paa0-94ad-a0d8-007c",
+        "id": "pa37-d40d-3719-0038",
         "hidden": false,
         "collapsible": true,
         "selectionEntryGroups": [
           {
             "name": "Hand of the Dynasty Upgrades",
-            "id": "paa4-ec3f-a410-000a",
+            "id": "pa38-513d-38da-0000",
             "hidden": false,
             "selectionEntries": [
               {
@@ -11062,14 +11370,34 @@
                 "import": true,
                 "name": "Enlivened Sentinels",
                 "hidden": false,
-                "id": "pab1-e7a3-b146-0000",
+                "id": "3f7d-0bb3-4dac-e7f0",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "8d54-3411-512f-8e09",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "75ad-a616-5876-c553",
+                    "includeChildSelections": true
+                  }
+                ],
                 "profiles": [
                   {
                     "name": "Enlivened Sentinels",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa40-b16a-40ec-0001",
+                    "id": "17dd-a718-6c1a-161d",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -11079,24 +11407,61 @@
                     ]
                   }
                 ],
-                "constraints": [
+                "infoLinks": [
                   {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pabb-91c6-bbac-0002"
-                  },
+                    "name": "Scouts",
+                    "id": "6d9d-6abe-d283-fb31",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "ada6-bac1-ffe0-d6f7",
+                    "modifiers": [
+                      {
+                        "type": "append",
+                        "value": "5\"",
+                        "field": "name"
+                      }
+                    ]
+                  }
+                ],
+                "modifierGroups": [
                   {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "pa24-f6fa-243e-0003",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "3f7d-0bb3-4dac-e7f0",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Enlivened Sentinels"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "3f7d-0bb3-4dac-e7f0",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Enlivened Sentinels"
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ],
                 "costs": [
@@ -11104,6 +11469,41 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -11111,7 +11511,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa5e-2e5d-5ea5-0004",
+                    "id": "pa62-250f-6207-0002",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -11137,14 +11537,34 @@
                 "import": true,
                 "name": "Tools of Dominion",
                 "hidden": false,
-                "id": "pa6d-6759-6d8d-0005",
+                "id": "c52f-551b-cf6a-f3df",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f6eb-acaa-f0b3-8523",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "67f2-da8e-000c-6a38",
+                    "includeChildSelections": true
+                  }
+                ],
                 "profiles": [
                   {
                     "name": "Tools of Dominion",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "padd-6bd1-ddc2-0006",
+                    "id": "5258-2d12-f9ef-9ec3",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -11154,31 +11574,13 @@
                     ]
                   }
                 ],
-                "constraints": [
+                "infoLinks": [
                   {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pabe-6525-bec6-0007"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "pa86-6ded-86bd-0008",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 15
+                    "name": "Rapid Fire",
+                    "id": "7eb6-bc46-e312-d69f",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "c5c8-8b58-b8b6-7786"
                   }
                 ],
                 "modifiers": [
@@ -11186,7 +11588,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pacd-28d1-cda9-0009",
+                    "id": "pa4b-ca63-4bc3-0003",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -11200,6 +11602,89 @@
                             "shared": true,
                             "includeChildSelections": true,
                             "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 15
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "c52f-551b-cf6a-f3df",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Tools of Dominion"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "c52f-551b-cf6a-f3df",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Tools of Dominion"
                           }
                         ]
                       }
@@ -11249,13 +11734,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa94-0dff-940f-000b"
+                "id": "pa8f-2332-8fd6-0001"
               }
             ]
           },
           {
             "name": "Skyshroud Spearhead Upgrades",
-            "id": "pa7e-c0a5-7e9d-0016",
+            "id": "paef-026e-ef84-0004",
             "hidden": false,
             "selectionEntries": [
               {
@@ -11263,14 +11748,34 @@
                 "import": true,
                 "name": "Recursive Reanimation",
                 "hidden": false,
-                "id": "pacc-c1dd-cc91-000c",
+                "id": "584a-8c54-370a-0a87",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "2455-1d8c-0c23-9064",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "68f0-d6da-f2b0-5f36",
+                    "includeChildSelections": true
+                  }
+                ],
                 "profiles": [
                   {
                     "name": "Recursive Reanimation",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa3d-b167-3d1e-000d",
+                    "id": "b041-551c-5447-755a",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -11280,31 +11785,87 @@
                     ]
                   }
                 ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pa6b-4675-6bf8-000e"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "pac6-1a77-c6e6-000f",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "costs": [
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 5
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "584a-8c54-370a-0a87",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Recursive Reanimation"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "584a-8c54-370a-0a87",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Recursive Reanimation"
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ],
                 "modifiers": [
@@ -11312,7 +11873,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "padf-e2f1-df09-0010",
+                    "id": "pa4a-772b-4a02-0006",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -11338,14 +11899,34 @@
                 "import": true,
                 "name": "Deepening Madness",
                 "hidden": false,
-                "id": "pa7f-9cc4-7fb9-0011",
+                "id": "8cbd-2a03-051c-5313",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "4242-54e5-119c-000f",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "1058-8b9a-2c9a-1580",
+                    "includeChildSelections": true
+                  }
+                ],
                 "profiles": [
                   {
                     "name": "Deepening Madness",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pabc-6c83-bc48-0012",
+                    "id": "e124-0f90-e4fb-2c46",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -11355,39 +11936,12 @@
                     ]
                   }
                 ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "paa2-a234-a2dc-0013"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "pa89-ed6b-8982-0014",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 20
-                  }
-                ],
                 "modifiers": [
                   {
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa24-a61b-2432-0015",
+                    "id": "paba-a38b-ba3a-0007",
                     "conditionGroups": [
                       {
                         "type": "or",
@@ -11411,6 +11965,98 @@
                             "shared": true,
                             "includeChildSelections": true,
                             "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Assault",
+                    "id": "f79d-3727-bd37-3490",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "fc8a-8c24-bae9-cc1c"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "8cbd-2a03-051c-5313",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "8cbd-2a03-051c-5313",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
                           }
                         ]
                       }
@@ -11460,13 +12106,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa09-8e30-0979-0017"
+                "id": "pa29-4d62-298c-0005"
               }
             ]
           },
           {
             "name": "The Phaeron's Armoury Upgrades",
-            "id": "pad9-c7f5-d947-0022",
+            "id": "pa98-a104-9817-0008",
             "hidden": false,
             "selectionEntries": [
               {
@@ -11474,48 +12120,18 @@
                 "import": true,
                 "name": "Prelocational Optimiser",
                 "hidden": false,
-                "id": "pa03-0716-03a8-0018",
-                "profiles": [
-                  {
-                    "name": "Prelocational Optimiser",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "id": "pa46-9772-466d-0019",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Subtle transplanar optics allow this war leader to peer through the energy veil of a Monolith's eternity gate and dissect the defences and weaknesses of the enemies beyond it. This ensures their emergence from the portal is as grandly bloody and spectacular as possible.\n\nNECRONS model only. When this unit is selected to shoot, if this unit was set up using a Monolith's Eternity Gate ability this turn, this unit's ranged attacks have:\n- [LETHAL HITS].\n- Or: [SUSTAINED HITS 1]."
-                      }
-                    ]
-                  }
-                ],
+                "id": "cb60-485d-6054-36e5",
+                "comment": "Phaeron's Armoury",
                 "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pa1f-e739-1ff5-001a"
-                  },
                   {
                     "type": "max",
                     "value": 1,
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa9c-1a3e-9c6c-001b",
+                    "id": "9c86-5b9e-6816-6313",
                     "includeChildSelections": true,
                     "includeChildForces": true
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 25
                   }
                 ],
                 "modifiers": [
@@ -11523,7 +12139,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa8e-081a-8ec7-001c",
+                    "id": "pac8-0345-c8b5-000a",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -11542,6 +12158,64 @@
                       }
                     ]
                   }
+                ],
+                "profiles": [
+                  {
+                    "name": "Prelocational Optimiser",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "c09c-483d-53fc-8d50",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Subtle transplanar optics allow this war leader to peer through the energy veil of a Monolith's eternity gate and dissect the defences and weaknesses of the enemies beyond it. This ensures their emergence from the portal is as grandly bloody and spectacular as possible.\n\nNECRONS model only. When this unit is selected to shoot, if this unit was set up using a Monolith's Eternity Gate ability this turn, this unit's ranged attacks have:\n- [LETHAL HITS].\n- Or: [SUSTAINED HITS 1]."
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 25
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
                 ]
               },
               {
@@ -11549,14 +12223,34 @@
                 "import": true,
                 "name": "Mortality Shroud (Aura)",
                 "hidden": false,
-                "id": "pa42-8a36-424a-001d",
+                "id": "f6dc-cb62-4dad-528d",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "cd04-7fb8-d769-8ad3",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "c659-8550-032f-1a48",
+                    "includeChildSelections": true
+                  }
+                ],
                 "profiles": [
                   {
                     "name": "Mortality Shroud (Aura)",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa0c-a536-0c3a-001e",
+                    "id": "21f6-25c9-6081-8329",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -11566,24 +12260,45 @@
                     ]
                   }
                 ],
-                "constraints": [
+                "modifierGroups": [
                   {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pa55-483f-55e7-001f"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "paa5-3fb9-a5ab-0020",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "f6dc-cb62-4dad-528d",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Mortality Shroud (Aura)"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "f6dc-cb62-4dad-528d",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Mortality Shroud (Aura)"
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ],
                 "costs": [
@@ -11591,6 +12306,41 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 10
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -11598,7 +12348,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa53-e396-53a6-0021",
+                    "id": "pae0-d998-e0a3-000b",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -11661,7 +12411,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "paa0-f8b6-a0ea-0023"
+                "id": "paeb-b22d-eb41-0009"
               }
             ]
           }
@@ -11673,7 +12423,7 @@
             "field": "selections",
             "scope": "self",
             "shared": true,
-            "id": "pa56-3641-5662-007d",
+            "id": "pad9-ee2e-d93c-0039",
             "includeChildSelections": true
           },
           {
@@ -11682,7 +12432,7 @@
             "field": "selections",
             "scope": "roster",
             "shared": true,
-            "id": "paf2-9474-f296-007e",
+            "id": "pafe-9286-fefc-003a",
             "includeChildSelections": true
           }
         ]
@@ -12841,9 +13591,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa52-5555-52d3-0091",
+            "id": "paa8-5044-a8dd-004d",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -13254,9 +14004,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa60-2e07-6013-0092",
+            "id": "pacc-036a-cc07-004e",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -13554,9 +14304,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa2e-3942-2ea5-0093",
+            "id": "pab4-3679-b45a-004f",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -13768,9 +14518,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paee-3bb7-ee20-0094",
+            "id": "pac9-662a-c963-0050",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -14325,9 +15075,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pad7-179b-d749-0095",
+            "id": "paf4-a3f9-f49c-0051",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -14649,9 +15399,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa75-439a-75b5-0096",
+            "id": "pa20-3a71-207c-0052",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -14986,9 +15736,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa92-98ab-9264-0097",
+            "id": "pa97-9149-977b-0053",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -15102,9 +15852,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa38-3ae2-3887-007f",
+            "id": "pa39-ac85-39ce-003b",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -15787,9 +16537,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "padf-3b8e-dfeb-0080",
+            "id": "paad-57dd-adf3-003c",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -16566,9 +17316,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa2a-ec1e-2a65-0081",
+            "id": "pab4-888f-b4b3-003d",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -17324,9 +18074,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa78-01f2-78cd-0082",
+            "id": "pad0-9c03-d0c7-003e",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -18150,9 +18900,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pac5-7cd5-c5e5-0083",
+            "id": "pa3a-8986-3af5-003f",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -19029,9 +19779,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pafb-e2cb-fb32-0084",
+            "id": "pa2b-a00b-2b3c-0040",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -20106,9 +20856,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa64-baed-642b-0085",
+            "id": "pab9-c80a-b9e8-0041",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -20738,9 +21488,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa54-0d4f-5407-0086",
+            "id": "paf8-cf51-f8f9-0042",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -21363,9 +22113,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pae0-159f-e0cc-0087",
+            "id": "pa30-d62d-30e8-0043",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -22042,9 +22792,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa42-3ba5-4254-0088",
+            "id": "pa59-8259-5903-0044",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -23112,6 +23862,23 @@
         ],
         "modifiers": [
           {
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 11,
+                "field": "selections",
+                "scope": "58e9-5212-f5a6-c12d",
+                "childId": "model",
+                "shared": true,
+                "id": "db70-3966-b824-3330",
+                "includeChildSelections": true
+              }
+            ],
+            "type": "set",
+            "value": 190,
+            "field": "51b2-306e-1021-d207"
+          },
+          {
             "type": "append",
             "value": "Assault",
             "field": "7f1b-8591-2fcf-d01c",
@@ -23129,23 +23896,6 @@
               }
             ],
             "scope": "unit"
-          },
-          {
-            "type": "set",
-            "value": 190,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 11,
-                "field": "selections",
-                "scope": "58e9-5212-f5a6-c12d",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
           }
         ],
         "entryLinks": [
@@ -23162,9 +23912,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pac7-754e-c750-008c",
+            "id": "pacc-108e-cce9-0048",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -23543,6 +24293,23 @@
         ],
         "modifiers": [
           {
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "f81-b23c-e183-39d7",
+                "childId": "model",
+                "shared": true,
+                "id": "db70-3966-b824-3330",
+                "includeChildSelections": true
+              }
+            ],
+            "type": "set",
+            "value": 140,
+            "field": "51b2-306e-1021-d207"
+          },
+          {
             "conditionGroups": [
               {
                 "conditions": [
@@ -23571,23 +24338,6 @@
             "type": "add",
             "value": "All models must be equipped identically",
             "field": "error"
-          },
-          {
-            "type": "set",
-            "value": 140,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "f81-b23c-e183-39d7",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
           }
         ],
         "selectionEntryGroups": [
@@ -24051,9 +24801,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa36-bfab-36f8-008d",
+            "id": "pab1-8cde-b103-0049",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -24640,9 +25390,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa33-6d6a-334d-0098",
+            "id": "pa1d-f018-1dca-0054",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -25072,9 +25822,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pacd-e9bd-cd22-0089",
+            "id": "pae6-2916-e61a-0045",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -25617,9 +26367,6 @@
         ],
         "modifiers": [
           {
-            "type": "set",
-            "value": 160,
-            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "atLeast",
@@ -25628,10 +26375,13 @@
                 "scope": "c4e3-f6b0-f3aa-9d90",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
+                "id": "db70-3966-b824-3330",
+                "includeChildSelections": true
               }
-            ]
+            ],
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207"
           }
         ],
         "selectionEntryGroups": [
@@ -26092,9 +26842,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa39-43bf-399c-0099",
+            "id": "pa56-f299-566d-0055",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -26354,6 +27104,23 @@
         ],
         "modifiers": [
           {
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "b7d7-14c9-63c1-ded5",
+                "childId": "model",
+                "shared": true,
+                "id": "db70-3966-b824-3330",
+                "includeChildSelections": true
+              }
+            ],
+            "type": "set",
+            "value": 120,
+            "field": "51b2-306e-1021-d207"
+          },
+          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -26390,23 +27157,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 120,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "b7d7-14c9-63c1-ded5",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -26752,9 +27502,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa57-08f8-5752-009a",
+            "id": "pac3-7696-c38e-0056",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -27083,9 +27833,6 @@
         ],
         "modifiers": [
           {
-            "type": "set",
-            "value": 100,
-            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "atLeast",
@@ -27094,10 +27841,13 @@
                 "scope": "c219-a708-f5b0-f0e7",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
+                "id": "db70-3966-b824-3330",
+                "includeChildSelections": true
               }
-            ]
+            ],
+            "type": "set",
+            "value": 100,
+            "field": "51b2-306e-1021-d207"
           }
         ],
         "profiles": [
@@ -27321,9 +28071,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa9d-e84a-9d92-009b",
+            "id": "pa1e-7789-1ee5-0057",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -27899,9 +28649,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa0d-59a4-0d13-009c",
+            "id": "pa90-eb1e-9005-0058",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -28467,6 +29217,23 @@
         ],
         "modifiers": [
           {
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 4,
+                "field": "selections",
+                "scope": "66e-26f2-7c38-e4d8",
+                "childId": "model",
+                "shared": true,
+                "id": "ef32-2f6b-da53-db48",
+                "includeChildSelections": true
+              }
+            ],
+            "type": "set",
+            "value": 170,
+            "field": "51b2-306e-1021-d207"
+          },
+          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -28505,23 +29272,6 @@
                 ]
               }
             ]
-          },
-          {
-            "type": "set",
-            "value": 170,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 4,
-                "field": "selections",
-                "scope": "66e-26f2-7c38-e4d8",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
           }
         ],
         "entryLinks": [
@@ -28538,9 +29288,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa69-f85b-69d8-009d",
+            "id": "paa6-cf4b-a606-0059",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -29424,9 +30174,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pac9-faa5-c946-009e",
+            "id": "pa65-df61-65d0-005a",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -30228,9 +30978,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa5a-195e-5a76-009f",
+            "id": "pac3-a15d-c38a-005b",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ]
@@ -30775,9 +31525,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa9e-0848-9e3f-00a0",
+            "id": "pa4f-8b67-4f45-005c",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ]
@@ -31480,9 +32230,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa8c-e5d4-8c20-00a1",
+            "id": "pa41-697a-4144-005d",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ]
@@ -32070,9 +32820,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa9a-8400-9ae7-00a2",
+            "id": "pa4d-f793-4d7d-005e",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -32808,9 +33558,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa49-9815-4977-00a3",
+            "id": "pa3b-63c4-3bfe-005f",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -33366,9 +34116,6 @@
         ],
         "modifiers": [
           {
-            "type": "set",
-            "value": 80,
-            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "atLeast",
@@ -33377,10 +34124,13 @@
                 "scope": "259b-a8e3-928f-1d0c",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
+                "id": "a9ae-d3af-8847-b3be",
+                "includeChildSelections": true
               }
-            ]
+            ],
+            "type": "set",
+            "value": 80,
+            "field": "51b2-306e-1021-d207"
           }
         ],
         "entryLinks": [
@@ -33397,9 +34147,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pac7-18d0-c7c5-00a4",
+            "id": "pac2-3e09-c2e4-0060",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -33712,6 +34462,23 @@
         ],
         "modifiers": [
           {
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 4,
+                "field": "selections",
+                "scope": "c6db-9736-4d53-3ef6",
+                "childId": "model",
+                "shared": true,
+                "id": "db70-3966-b824-3330",
+                "includeChildSelections": true
+              }
+            ],
+            "type": "set",
+            "value": 145,
+            "field": "51b2-306e-1021-d207"
+          },
+          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -33749,23 +34516,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 145,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 4,
-                "field": "selections",
-                "scope": "c6db-9736-4d53-3ef6",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -34011,9 +34761,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paa9-d60a-a90c-00a5",
+            "id": "pab2-3892-b20f-0061",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -34441,6 +35191,22 @@
         ],
         "modifiers": [
           {
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 4,
+                "field": "selections",
+                "scope": "77d-d442-a3-422c",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ],
+            "type": "set",
+            "value": 140,
+            "field": "51b2-306e-1021-d207"
+          },
+          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -34477,23 +35243,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 140,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 4,
-                "field": "selections",
-                "scope": "77d-d442-a3-422c",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -35147,9 +35896,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa88-2e94-88e3-008e",
+            "id": "pa01-221f-01d7-004a",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -35477,9 +36226,6 @@
         ],
         "modifiers": [
           {
-            "type": "set",
-            "value": 160,
-            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "atLeast",
@@ -35488,10 +36234,12 @@
                 "scope": "6829-6dcb-b342-afe4",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
+                "includeChildSelections": true
               }
-            ]
+            ],
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207"
           }
         ],
         "selectionEntryGroups": [
@@ -35885,9 +36633,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa51-03f5-5179-00a6",
+            "id": "pab1-0c51-b1e7-0062",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -36497,6 +37245,23 @@
         ],
         "modifiers": [
           {
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 4,
+                "field": "selections",
+                "scope": "a022-9bf6-f08b-c416",
+                "childId": "model",
+                "shared": true,
+                "id": "f080-bdee-2b3b-843d",
+                "includeChildSelections": true
+              }
+            ],
+            "type": "set",
+            "value": 220,
+            "field": "51b2-306e-1021-d207"
+          },
+          {
             "type": "increment",
             "value": 20,
             "field": "51b2-306e-1021-d207",
@@ -36535,23 +37300,6 @@
                 ]
               }
             ]
-          },
-          {
-            "type": "set",
-            "value": 220,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 4,
-                "field": "selections",
-                "scope": "a022-9bf6-f08b-c416",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
           }
         ],
         "entryLinks": [
@@ -36568,9 +37316,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pae0-72ae-e0e7-00a7",
+            "id": "pa71-d072-718c-0063",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -37635,9 +38383,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa94-51e8-946c-00a8",
+            "id": "pa6f-5adb-6fab-0064",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -38043,9 +38791,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa51-c2dc-5168-00a9",
+            "id": "paa7-ef21-a75d-0065",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -38681,6 +39429,57 @@
         ],
         "modifiers": [
           {
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 2,
+                "field": "selections",
+                "scope": "6f72-b8f7-fd8d-5c2c",
+                "childId": "model",
+                "shared": true,
+                "id": "37a3-66bd-b138-9f7f",
+                "includeChildSelections": true
+              }
+            ],
+            "type": "set",
+            "value": 55,
+            "field": "51b2-306e-1021-d207"
+          },
+          {
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 3,
+                "field": "selections",
+                "scope": "6f72-b8f7-fd8d-5c2c",
+                "childId": "model",
+                "shared": true,
+                "id": "37a3-66bd-b138-9f7f",
+                "includeChildSelections": true
+              }
+            ],
+            "type": "set",
+            "value": 80,
+            "field": "51b2-306e-1021-d207"
+          },
+          {
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 4,
+                "field": "selections",
+                "scope": "6f72-b8f7-fd8d-5c2c",
+                "childId": "model",
+                "shared": true,
+                "id": "37a3-66bd-b138-9f7f",
+                "includeChildSelections": true
+              }
+            ],
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207"
+          },
+          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -38717,57 +39516,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 55,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 2,
-                "field": "selections",
-                "scope": "6f72-b8f7-fd8d-5c2c",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 80,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 3,
-                "field": "selections",
-                "scope": "6f72-b8f7-fd8d-5c2c",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 160,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 4,
-                "field": "selections",
-                "scope": "6f72-b8f7-fd8d-5c2c",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -39083,9 +39831,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa5b-658f-5b00-008f",
+            "id": "pa63-84c2-6311-004b",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -39877,9 +40625,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa9e-7f83-9e3c-0090",
+            "id": "paa9-d4be-a9ae-004c",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -40656,9 +41404,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pace-3a55-cefd-00aa",
+            "id": "pa86-c806-862e-0066",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -40907,9 +41655,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "padd-7001-dd91-00ab",
+            "id": "pa00-bde8-007f-0067",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -41712,9 +42460,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pae7-ff81-e7de-00ac",
+            "id": "pafa-259e-fa26-0068",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -42270,9 +43018,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "padf-c763-df59-00ad",
+            "id": "pac1-c698-c16a-0069",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -43182,9 +43930,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pafc-e6d6-fc07-00ae",
+            "id": "pa53-2c5c-530c-006a",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -44077,9 +44825,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa0d-de90-0d6e-00af",
+            "id": "pacc-9cd3-ccdc-006b",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -45020,9 +45768,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pac8-f2bc-c876-00b0",
+            "id": "pa05-f069-050a-006c",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -46079,9 +46827,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa09-1b93-09f6-00b1",
+            "id": "pa3e-9563-3ecb-006d",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -46372,13 +47120,12 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa97-3711-9726-00b2",
+            "id": "pab0-192c-b046-006e",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
-        ],
-        "modifiers": []
+        ]
       },
       {
         "costs": [
@@ -46518,9 +47265,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa28-ed3c-2876-00b3",
+            "id": "pa8b-5b2b-8b53-006f",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -47098,9 +47845,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa22-9156-223d-00b4",
+            "id": "pa57-5c2c-5794-0070",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -48011,9 +48758,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pab5-2e46-b53d-00b5",
+            "id": "pa3a-1ba8-3a42-0071",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -48385,9 +49132,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa18-e0eb-18a6-00b6",
+            "id": "paa2-feea-a238-0072",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -49817,9 +50564,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa14-70bd-14f7-00b7",
+            "id": "pa5c-ea97-5c55-0073",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -50473,9 +51220,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paaf-2408-af25-00b8",
+            "id": "pa80-3867-80b1-0074",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ]
@@ -50869,9 +51616,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pae6-f1e7-e613-00b9",
+            "id": "pa95-33b5-953e-0075",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ]
@@ -51041,9 +51788,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa83-0da8-839e-00ba",
+            "id": "pab6-b03e-b6e8-0076",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -51635,9 +52382,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa3e-662c-3e8d-008a",
+            "id": "pa90-2360-9052-0046",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -53066,9 +53813,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pafb-0fba-fb13-00bb",
+            "id": "paae-c2d9-ae72-0077",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -53507,9 +54254,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa03-64a8-03b7-00bc",
+            "id": "pa48-9eab-48c9-0078",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -54486,9 +55233,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pae1-4cd8-e1f1-008b",
+            "id": "pab6-1dc3-b6fb-0047",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -55272,9 +56019,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa51-2c18-5106-00bd",
+            "id": "pa18-05c1-1858-0079",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -56161,9 +56908,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pad8-5c83-d83a-00be",
+            "id": "paa3-3be3-a3a7-007a",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -56685,9 +57432,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa7f-6d81-7f8d-00bf",
+            "id": "paaf-64c4-af2e-007b",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -57203,9 +57950,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa18-29d5-18ab-00c0",
+            "id": "pa43-70f2-4304-007c",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -57723,9 +58470,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa0e-93a8-0e55-00c1",
+            "id": "pa37-51fe-3705-007d",
             "type": "selectionEntryGroup",
-            "targetId": "paa0-94ad-a0d8-007c",
+            "targetId": "pa37-d40d-3719-0038",
             "sortIndex": 4
           }
         ],
@@ -57929,14 +58676,14 @@
         "import": true,
         "name": "Tomb Citadel",
         "hidden": false,
-        "id": "pa3e-c0ce-3e5c-00c2",
+        "id": "pa3f-d4bd-3fab-007e",
         "profiles": [
           {
             "name": "Tomb Citadel",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
-            "id": "pad7-eb60-d74f-00c3",
+            "id": "pa75-6378-757b-007f",
             "characteristics": [
               {
                 "name": "M",
@@ -57975,7 +58722,7 @@
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
-            "id": "pab2-53a7-b280-00c4",
+            "id": "pa87-4deb-87a1-0080",
             "characteristics": [
               {
                 "name": "Description",
@@ -57989,7 +58736,7 @@
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
-            "id": "pa54-27c8-548e-00c5",
+            "id": "paa8-d39e-a80a-0081",
             "characteristics": [
               {
                 "name": "Description",
@@ -58003,7 +58750,7 @@
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
-            "id": "pa71-a546-711d-00c6",
+            "id": "pa82-ac8b-82fb-0082",
             "characteristics": [
               {
                 "name": "Description",
@@ -58017,7 +58764,7 @@
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
-            "id": "pa9a-9154-9a59-00c7",
+            "id": "pace-62ef-ce0b-0083",
             "characteristics": [
               {
                 "name": "Description",
@@ -58031,7 +58778,7 @@
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
-            "id": "padb-73a4-db37-00c8",
+            "id": "paba-844d-ba66-0084",
             "characteristics": [
               {
                 "name": "Description",
@@ -58045,7 +58792,7 @@
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
-            "id": "pa8c-111c-8c42-00c9",
+            "id": "pae6-3a25-e6f9-0085",
             "characteristics": [
               {
                 "name": "Description",
@@ -58058,43 +58805,43 @@
         "categoryLinks": [
           {
             "targetId": "19d7-9c74-2140-5851",
-            "id": "paf8-a581-f832-00ca",
+            "id": "paf2-6ec8-f2d0-0086",
             "primary": true,
             "name": "Fortification"
           },
           {
             "targetId": "5929-ad51-d006-e008",
-            "id": "pa1a-939f-1a4e-00cb",
+            "id": "pa04-e351-048c-0087",
             "primary": false,
             "name": "Titanic"
           },
           {
             "targetId": "dbd4-63-af05-998",
-            "id": "pa30-0516-306c-00cc",
+            "id": "pa05-8859-0552-0088",
             "primary": false,
             "name": "Vehicle"
           },
           {
             "targetId": "b927-8eeb-7cc3-8dec",
-            "id": "pacc-6051-cc1e-00cd",
+            "id": "paea-6e2e-ea35-0089",
             "primary": false,
             "name": "Frame"
           },
           {
             "targetId": "4906-9843-21bb-c8c9",
-            "id": "pa27-b0d5-2786-00ce",
+            "id": "pa1f-ae95-1f42-008a",
             "primary": false,
             "name": "Tomb Citadel"
           },
           {
             "targetId": "ee0-cf31-4fb5-6b26",
-            "id": "pabe-0da8-be96-00cf",
+            "id": "pad2-0c3c-d2b2-008b",
             "primary": false,
             "name": "Necrons"
           },
           {
             "targetId": "ee0-cf31-4fb5-6b26",
-            "id": "paaf-5aa3-af5a-00d0",
+            "id": "pa75-0f55-751c-008c",
             "primary": false,
             "name": "Faction: Necrons"
           }
@@ -58112,14 +58859,14 @@
             "import": true,
             "name": "Gauss exterminator",
             "hidden": false,
-            "id": "pa5c-6f37-5c6a-00d1",
+            "id": "pac4-66cd-c436-008d",
             "profiles": [
               {
                 "name": "Gauss exterminator",
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
                 "hidden": false,
-                "id": "pa52-e939-5280-00d2",
+                "id": "pac8-350a-c83b-008e",
                 "characteristics": [
                   {
                     "name": "Range",
@@ -58166,7 +58913,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pace-3b5b-cef4-00d3"
+                "id": "pa71-b076-71b2-008f"
               },
               {
                 "type": "max",
@@ -58174,7 +58921,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pabf-ff3b-bf16-00d4"
+                "id": "pa0b-0377-0b0a-0090"
               }
             ]
           },
@@ -58183,14 +58930,14 @@
             "import": true,
             "name": "Twin tesla destructor",
             "hidden": false,
-            "id": "pa54-99e4-54d5-00d5",
+            "id": "pae3-b72d-e3e4-0091",
             "profiles": [
               {
                 "name": "Twin tesla destructor",
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
                 "hidden": false,
-                "id": "pa74-b994-7468-00d6",
+                "id": "pa18-ba9c-1817-0092",
                 "characteristics": [
                   {
                     "name": "Range",
@@ -58237,7 +58984,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa1a-b59e-1a9f-00d7"
+                "id": "pa1c-0c64-1cef-0093"
               },
               {
                 "type": "max",
@@ -58245,7 +58992,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa4b-c71e-4b91-00d8"
+                "id": "pa8b-4d3a-8b1f-0094"
               }
             ]
           }
@@ -60836,8 +61583,8 @@
         "name": "Tomb Citadel",
         "hidden": false,
         "type": "selectionEntry",
-        "id": "pa6e-0305-6e29-00d9",
-        "targetId": "pa3e-c0ce-3e5c-00c2"
+        "id": "pa50-0606-5025-0095",
+        "targetId": "pa3f-d4bd-3fab-007e"
       }
     ],
     "sharedProfiles": [
@@ -61239,7 +61986,7 @@
     "library": false,
     "id": "b654-a18a-ea1-3bf2",
     "name": "Xenos - Necrons",
-    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemId": "sys-352e-adc2-7639-d6a9",
     "gameSystemRevision": 1,
     "revision": 106,
     "battleScribeVersion": 2.03,

@@ -2,7 +2,7 @@
   "catalogue": {
     "rules": [
       {
-        "description": "If your Army Faction is **^^T’au Empire^^**, at the start of your Shooting phase you can select units from your army with this ability to become Observer units.\n\nDuring your Shooting phase, for each Observer unit from your army that has not been selected to shoot this phase and is eligible to shoot (excluding **^^Fortification^^** and Battle‑shocked units) select one enemy unit that is visible to be marked as their Spotted unit until the end of the phase. Each enemy unit can only be marked as a Spotted unit once per phase.\n\nUnits from your army with the For the Greater Good ability (excluding Observer units) are Guided units while targeting one or more Spotted units.\n\nUntil the end of the phase, each time a model from your army in a Guided unit makes an attack that targets a Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and, if the Spotted unit was marked by an Observer unit that has the Markerlight keyword, that attack has the **[IGNORES COVER]** ability.",
+        "description": "If your Army Faction is **T’AU EMPIRE**, at the start of your Shooting phase you can select units from your army with this ability to become Observer units.\n\nDuring your Shooting phase, for each Observer unit from your army that has not been selected to shoot this phase and is eligible to shoot (excluding **FORTIFICATION** and Battle-shocked units) select one enemy unit that is visible to be marked as their Spotted unit until the end of the phase. Each enemy unit can only be marked as a Spotted unit once per phase.\n\nUnits from your army with the For the Greater Good ability (excluding Observer units) are Guided units while targeting one or more Spotted units.\n\nUntil the end of the phase, each time a model from your army in a Guided unit makes an attack that targets a Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and, if the Spotted unit was marked by an Observer unit that has the Markerlight keyword, that attack has the **[IGNORES COVER]** ability.",
         "modifiers": [
           {
             "conditions": [
@@ -1643,9 +1643,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa89-7a32-89a1-0011",
+            "id": "pa1b-1131-1b78-0017",
             "type": "selectionEntryGroup",
-            "targetId": "pa36-1a3d-36a4-000e",
+            "targetId": "pa7b-2ac2-7be7-0014",
             "sortIndex": 4
           }
         ],
@@ -2711,9 +2711,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa98-cdc5-983f-0012",
+            "id": "pa3f-f15a-3f68-0018",
             "type": "selectionEntryGroup",
-            "targetId": "pa36-1a3d-36a4-000e",
+            "targetId": "pa7b-2ac2-7be7-0014",
             "sortIndex": 4
           }
         ],
@@ -3695,9 +3695,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pad7-0e39-d782-0013",
+            "id": "pa53-ca5c-5300-0019",
             "type": "selectionEntryGroup",
-            "targetId": "pa36-1a3d-36a4-000e",
+            "targetId": "pa7b-2ac2-7be7-0014",
             "sortIndex": 4
           }
         ],
@@ -4682,9 +4682,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa84-24cb-8466-0014",
+            "id": "pac9-cb31-c9a5-001a",
             "type": "selectionEntryGroup",
-            "targetId": "pa36-1a3d-36a4-000e",
+            "targetId": "pa7b-2ac2-7be7-0014",
             "sortIndex": 4
           }
         ],
@@ -5313,9 +5313,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pae4-c453-e401-0015",
+            "id": "pa00-3057-00b4-001b",
             "type": "selectionEntryGroup",
-            "targetId": "pa36-1a3d-36a4-000e",
+            "targetId": "pa7b-2ac2-7be7-0014",
             "sortIndex": 4
           }
         ],
@@ -7410,6 +7410,13 @@
             "hidden": false,
             "id": "64e6-124f-9dea-1ac6",
             "targetId": "4814-7b6d-aea6-4228",
+            "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "3ccd-8987-2299-84cb",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false
           }
         ],
@@ -14173,9 +14180,9 @@
           {
             "characteristics": [
               {
-                "$text": "Each time this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in a Guided unit that targets their Spotted unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in a Guided unit that targets their Spotted unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
               }
             ],
             "name": "Forward Observers",
@@ -15047,9 +15054,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa47-7b65-4708-001b",
+            "id": "pa8a-adb7-8a48-0021",
             "type": "selectionEntryGroup",
-            "targetId": "pa36-1a3d-36a4-000e",
+            "targetId": "pa7b-2ac2-7be7-0014",
             "sortIndex": 4
           }
         ],
@@ -16140,9 +16147,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pab6-578d-b604-001c",
+            "id": "pa1a-e637-1a1b-0022",
             "type": "selectionEntryGroup",
-            "targetId": "pa36-1a3d-36a4-000e",
+            "targetId": "pa7b-2ac2-7be7-0014",
             "sortIndex": 4
           }
         ],
@@ -16657,9 +16664,9 @@
           {
             "characteristics": [
               {
-                "$text": "Each time a model in this unit makes an attack that targets a Spotted unit, you can re‑roll the Hit roll.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time a model in this unit makes an attack that targets a Spotted unit, you can re-roll the Hit roll."
               }
             ],
             "name": "Precise Targeting",
@@ -16731,9 +16738,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa52-1752-52a9-0016",
+            "id": "pa98-1f57-985b-001c",
             "type": "selectionEntryGroup",
-            "targetId": "pa36-1a3d-36a4-000e",
+            "targetId": "pa7b-2ac2-7be7-0014",
             "sortIndex": 4
           }
         ],
@@ -17271,9 +17278,9 @@
           {
             "characteristics": [
               {
-                "$text": "Each time a model in this unit makes an attack that targets their Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and that attack has the **[IGNORES COVER]** ability.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time a model in this unit makes an attack that targets their Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and that attack has the **[IGNORES COVER]** ability."
               }
             ],
             "name": "Target Uploaded",
@@ -18978,9 +18985,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pae1-3f67-e16c-001d",
+            "id": "pa56-4517-56fc-0023",
             "type": "selectionEntryGroup",
-            "targetId": "pa36-1a3d-36a4-000e",
+            "targetId": "pa7b-2ac2-7be7-0014",
             "sortIndex": 4
           }
         ],
@@ -19378,6 +19385,13 @@
             "hidden": false,
             "id": "b280-f476-a7dc-b875",
             "targetId": "4814-7b6d-aea6-4228",
+            "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "b5f9-e173-644d-df47",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false
           }
         ],
@@ -23503,9 +23517,9 @@
           {
             "characteristics": [
               {
-                "$text": "Once per battle, when this unit is selected to shoot in your Shooting phase, select one ranged weapon equipped by this model. Until the end of the phase, that weapon has the [DEVASTATING WOUNDS] ability.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Once per battle, when this unit is selected to shoot in your Shooting phase, select one ranged weapon equipped by this model. Until the end of the phase, that weapon has the **[DEVASTATING WOUNDS]** ability."
               }
             ],
             "name": "Nova Charge",
@@ -24684,6 +24698,13 @@
             "id": "bb3e-b87a-2fba-b9ec",
             "targetId": "4814-7b6d-aea6-4228",
             "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "4809-73af-cc9e-bcab",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "infoLinks": [
@@ -25689,6 +25710,13 @@
             "id": "408a-ba87-0db1-c617",
             "targetId": "4814-7b6d-aea6-4228",
             "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "cb78-d0f4-f51b-cffb",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
@@ -26628,6 +26656,13 @@
             "id": "b0ef-754e-cc54-4d0b",
             "targetId": "4814-7b6d-aea6-4228",
             "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "12f8-dbcd-9a22-4c90",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "infoLinks": [
@@ -27212,40 +27247,47 @@
             "id": "3f1b-9beb-1e24-4fcc",
             "targetId": "4814-7b6d-aea6-4228",
             "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "415a-ab39-3f0b-2973",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
           {
             "characteristics": [
               {
-                "$text": "20+\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "-"
               },
               {
-                "$text": "10",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "10"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "12",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "12"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "0",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "-"
               },
               {
                 "name": "InSv",
@@ -27981,34 +28023,34 @@
           {
             "characteristics": [
               {
-                "$text": "20+\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "-"
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "12",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "12"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "0",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "-"
               },
               {
                 "name": "InSv",
@@ -28025,9 +28067,9 @@
           {
             "characteristics": [
               {
-                "$text": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 4+, that unit suffers 1 mortal wound.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the end of your opponent’s Fight phase, select one visible enemy unit (excluding Lone Operative units) within 24\" of this unit, and roll six D6 for that unit: For each 4+, that unit suffers 1 mortal wound."
               }
             ],
             "name": "Pulse Bombs",
@@ -28497,6 +28539,13 @@
             "hidden": false,
             "id": "db25-b49f-2b53-9059",
             "targetId": "4814-7b6d-aea6-4228",
+            "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "40d3-6011-5459-3be2",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false
           }
         ],
@@ -29221,6 +29270,13 @@
             "id": "a6a1-e32d-5083-92a7",
             "targetId": "4814-7b6d-aea6-4228",
             "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "2ba5-ae89-a32b-8a39",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "infoLinks": [
@@ -29441,6 +29497,13 @@
             "hidden": false,
             "id": "eee8-fb8e-679a-165a",
             "targetId": "4814-7b6d-aea6-4228",
+            "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "eb3b-e6d2-e916-84e0",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false
           }
         ],
@@ -35257,6 +35320,13 @@
             "id": "7ad1-632c-d07e-2c0c",
             "targetId": "4814-7b6d-aea6-4228",
             "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "13a4-0088-88bc-a450",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
@@ -35863,9 +35933,9 @@
           {
             "characteristics": [
               {
-                "$text": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\".",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your opponent's Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
               }
             ],
             "name": "Aerial Disengagement",
@@ -36660,20 +36730,6 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "63c6-ed19-c7e5-638"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move through models (excluding **^^Titanic^^** models) and terrain features that are 4\" or less in height as if they were not there.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Super-Heavy Walker",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "ba9b-8ed5-933d-209e"
           }
         ],
         "categoryLinks": [
@@ -36719,6 +36775,13 @@
             "id": "7075-6b50-cddd-acb8",
             "targetId": "4814-7b6d-aea6-4228",
             "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "3e43-24a9-3bed-646e",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "infoLinks": [
@@ -36742,6 +36805,13 @@
             "type": "rule",
             "id": "7618-9732-bda4-a3b2",
             "targetId": "eeb6-c42-48f7-cc21"
+          },
+          {
+            "name": "Super-Heavy Walker",
+            "hidden": false,
+            "type": "rule",
+            "id": "19c8-ebd1-7570-b8eb",
+            "targetId": "5e13-1624-d280-418d"
           }
         ],
         "entryLinks": [
@@ -37897,7 +37967,7 @@
               {
                 "name": "M",
                 "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "20+\""
+                "$text": "-"
               },
               {
                 "name": "T",
@@ -37922,7 +37992,7 @@
               {
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8",
-                "$text": "0"
+                "$text": "-"
               },
               {
                 "name": "InSv",
@@ -37987,6 +38057,13 @@
             "hidden": false,
             "id": "8b7b-c671-b6fc-3129",
             "targetId": "4814-7b6d-aea6-4228",
+            "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "12e4-2dae-b684-91d1",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false
           }
         ],
@@ -38988,6 +39065,13 @@
             "id": "0416-e292-aa04-e2d4",
             "targetId": "4814-7b6d-aea6-4228",
             "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "6153-5d5c-e151-0227",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
@@ -38996,7 +39080,7 @@
               {
                 "name": "M",
                 "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "20+\""
+                "$text": "-"
               },
               {
                 "name": "T",
@@ -39021,7 +39105,7 @@
               {
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8",
-                "$text": "0"
+                "$text": "-"
               },
               {
                 "name": "InSv",
@@ -40303,6 +40387,13 @@
             "id": "d29c-a7f9-6341-9469",
             "targetId": "4814-7b6d-aea6-4228",
             "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "a806-63da-1b8b-7d87",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
@@ -40311,7 +40402,7 @@
               {
                 "name": "M",
                 "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "20+\""
+                "$text": "-"
               },
               {
                 "name": "T",
@@ -40336,7 +40427,7 @@
               {
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8",
-                "$text": "0"
+                "$text": "-"
               },
               {
                 "name": "InSv",
@@ -41179,7 +41270,7 @@
               {
                 "name": "M",
                 "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "20+\""
+                "$text": "40\""
               },
               {
                 "name": "T",
@@ -41204,7 +41295,7 @@
               {
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8",
-                "$text": "0"
+                "$text": "-"
               },
               {
                 "name": "InSv",
@@ -41359,6 +41450,13 @@
             "hidden": false,
             "id": "64ee-8caf-8078-500d",
             "targetId": "4814-7b6d-aea6-4228",
+            "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "236b-a33c-abd8-7d94",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false
           }
         ],
@@ -42106,34 +42204,34 @@
           {
             "characteristics": [
               {
-                "$text": "20+\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "20\""
               },
               {
-                "$text": "12",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "12"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "28",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "28"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "0",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "-"
               },
               {
                 "name": "InSv",
@@ -42183,7 +42281,7 @@
                 "typeId": "30f2-be70-861d-1b84"
               }
             ],
-            "name": "Orca Dropship [Legends]",
+            "name": "Orca Dropship",
             "typeId": "74f8-5443-9d6d-1f1e",
             "typeName": "Transport",
             "hidden": false,
@@ -42275,6 +42373,13 @@
             "hidden": false,
             "id": "bee0-0be9-6754-f47c",
             "targetId": "4814-7b6d-aea6-4228",
+            "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "1b37-42d9-25cf-e82c",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false
           }
         ],
@@ -43639,6 +43744,13 @@
             "id": "d91b-6385-def5-a43f",
             "primary": false,
             "name": "Faction: T'au Empire"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "5533-c364-dc28-0382",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
@@ -44450,6 +44562,13 @@
             "hidden": false,
             "id": "b108-513f-c1b3-6eed",
             "targetId": "4814-7b6d-aea6-4228",
+            "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "5e9c-583b-7100-6cbb",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false
           }
         ],
@@ -47594,6 +47713,13 @@
             "id": "5c22-8115-f854-62b6",
             "targetId": "4814-7b6d-aea6-4228",
             "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "a534-1794-fe52-ee4f",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "costs": [
@@ -47767,6 +47893,13 @@
             "hidden": false,
             "id": "7fd9-74f0-e540-0a79",
             "targetId": "4814-7b6d-aea6-4228",
+            "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "ea9b-364b-d9f5-60ec",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false
           }
         ],
@@ -48169,9 +48302,9 @@
           {
             "characteristics": [
               {
-                "$text": "Each time a model in this unit makes a ranged attack that targets a **^^Monster^^** or **^^Vehicle^^** unit, you can re-roll the Wound roll and you can re-roll the Damage roll.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time a model in this unit makes a ranged attack that targets a **MONSTER** or **VEHICLE** unit, you can re-roll the Wound roll and you can re-roll the Damage roll."
               }
             ],
             "name": "Sunforge",
@@ -51189,9 +51322,9 @@
           {
             "characteristics": [
               {
-                "$text": "After both players have deployed their armies, you can redeploy this model's unit and one other friendly KROOT unit. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "After both players have deployed their armies, you can redeploy this model’s unit and one other friendly **KROOT** unit. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
               }
             ],
             "name": "Kroot Ambush",
@@ -51203,9 +51336,9 @@
           {
             "characteristics": [
               {
-                "$text": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model's unit, if this model's unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\".",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your opponent’s Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to D6\"."
               }
             ],
             "name": "Trail Finding",
@@ -51298,9 +51431,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa9d-d923-9d84-0017",
+            "id": "pab5-e3c1-b520-001d",
             "type": "selectionEntryGroup",
-            "targetId": "pa36-1a3d-36a4-000e",
+            "targetId": "pa7b-2ac2-7be7-0014",
             "sortIndex": 4
           }
         ],
@@ -51959,9 +52092,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paaa-f6c6-aaa7-0018",
+            "id": "pa24-f038-24d4-001e",
             "type": "selectionEntryGroup",
-            "targetId": "pa36-1a3d-36a4-000e",
+            "targetId": "pa7b-2ac2-7be7-0014",
             "sortIndex": 4
           }
         ],
@@ -52706,9 +52839,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pab1-7dc6-b1e0-0019",
+            "id": "pa6b-2082-6baa-001f",
             "type": "selectionEntryGroup",
-            "targetId": "pa36-1a3d-36a4-000e",
+            "targetId": "pa7b-2ac2-7be7-0014",
             "sortIndex": 4
           }
         ],
@@ -53761,9 +53894,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa21-df39-219e-001a",
+            "id": "pa61-1ddb-61dd-0020",
             "type": "selectionEntryGroup",
-            "targetId": "pa36-1a3d-36a4-000e",
+            "targetId": "pa7b-2ac2-7be7-0014",
             "sortIndex": 4
           }
         ],
@@ -54336,6 +54469,22 @@
           {
             "conditions": [
               {
+                "type": "atLeast",
+                "value": 4,
+                "field": "selections",
+                "scope": "self",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ],
+            "type": "set",
+            "value": 170,
+            "field": "51b2-306e-1021-d207"
+          },
+          {
+            "conditions": [
+              {
                 "type": "instanceOf",
                 "value": 1,
                 "field": "selections",
@@ -54388,23 +54537,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 170,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 4,
-                "field": "selections",
-                "scope": "7f73-6728-df6f-1446",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -60489,9 +60621,9 @@
           {
             "characteristics": [
               {
-                "$text": "At the start of your opponent’s Charge phase, you can select one enemy unit (excluding **^^Monster^^** and **^^Vehicle^^** units) within 12\" of this unit. That unit must take a Battle‑shock test and, until the end of the turn, subtract 1 from Charge rolls made for that unit.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the start of your opponent’s Charge phase, you can select one visible enemy unit (excluding **MONSTER** and **VEHICLE** units) within 12\" of this unit. That unit must take a Battle-shock test and, until the end of the turn, subtract 1 from Charge rolls made for that unit."
               }
             ],
             "name": "Neocapacitor Shields",
@@ -61491,9 +61623,9 @@
           {
             "characteristics": [
               {
-                "$text": "Once per battle, you can use the Rapid Ingress Stratagem for 0CP. The target must be set up within 3\" of the bearer’s unit and more than 9\" away from all enemy units.\n**Designer’s Note:** *Place a Homing Beacon token next to this unit, removing it once this ability is used.*",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Once per battle, you can use the Rapid Ingress Stratagem for 0CP. The target must be set up within 3\" of the bearer’s unit and more than 8\" away from all enemy units.\n**Designer’s Note:** *Place a Homing Beacon token next to this unit, removing it once this ability is used.*"
               }
             ],
             "name": "Homing Beacon",
@@ -62384,9 +62516,9 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^T’au Empire^^** model only (excluding **^^Kroot Shaper^^** models). While this model is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in a Guided unit have the **[LETHAL HITS]** ability while targeting their Spotted unit.",
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573"
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**T’AU EMPIRE** model only (excluding **KROOT SHAPER** models). While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in a Guided unit have the **[LETHAL HITS]** ability while targeting their Spotted unit."
                       }
                     ],
                     "name": "Through Unity, Devastation",
@@ -62698,9 +62830,9 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^T’au Empire^^** model only. At the start of the battle, before any moves are made using the Scouts ability, you can select up to two friendly **^^T’au Empire^^** units within 6\" of the bearer that do not have the Scouts ability. Until the end of the battle, all models in the selected units have the Scouts 6\" ability.",
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573"
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**^^T’au Empire^^** model only. In the Resolve Pre-battle Abilities step, you can select up to two friendly **T’AU EMPIRE** units within 6\" of this model that do not have the Scouts ability. Until the end of the battle, all models in the selected units have the Scouts 6\" ability."
                       }
                     ],
                     "name": "Strike Swiftly",
@@ -62859,9 +62991,9 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^T’au Empire^^** model only (excluding **^^Kroot Shaper^^** models). While this model is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in a Guided unit have the **[SUSTAINED HITS 1]** ability while targeting their Spotted unit.",
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573"
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**T’AU EMPIRE** model only (excluding **KROOT SHAPER** models). While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in a Guided unit have the **[SUSTAINED HITS 1]** ability while targeting their Spotted unit."
                       }
                     ],
                     "name": "Coordinated Exploitation",
@@ -63368,9 +63500,9 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^T’au Empire Battlesuit^^** model only. Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 4+, you gain 1CP.",
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573"
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**T’AU EMPIRE BATTLESUIT** model only. Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 4+, you gain 1CP."
                       }
                     ],
                     "name": "Puretide Engram Neurochip",
@@ -64032,7 +64164,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^Kroot Shaper^^** model only. In the Declare Battle Formations step, you can select up to three **^^Kroot Carnivores^^** or **^^Kroot Farstalkers^^** units from your army. Models in those units have the Deep Strike ability.",
+                        "$text": "This Shaper has not only studied the Code of Fire but has also adapted it to best suit their people's skills.\n\nKROOT SHAPER model only. In the Declare Battle Formations step, you can select up to three friendly KROOT CARNIVORES/FARSTALKERS units. Those units have Deep Strike.",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -64046,62 +64178,37 @@
                 ],
                 "modifiers": [
                   {
-                    "conditionGroups": [
-                      {
-                        "conditionGroups": [
-                          {
-                            "conditions": [
-                              {
-                                "type": "atLeast",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "roster",
-                                "childId": "ded3-abf8-bdeb-fd8d",
-                                "shared": true,
-                                "includeChildForces": true,
-                                "includeChildSelections": true
-                              },
-                              {
-                                "type": "lessThan",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "childId": "ded3-abf8-bdeb-fd8d",
-                                "shared": true,
-                                "includeChildForces": true,
-                                "includeChildSelections": true
-                              }
-                            ],
-                            "type": "and"
-                          },
-                          {
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "childId": "79c5-9fc4-7b97-7c3f",
-                                "shared": true
-                              },
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "childId": "39f9-dcd3-1e80-fa1f",
-                                "shared": true
-                              }
-                            ],
-                            "type": "or"
-                          }
-                        ],
-                        "type": "or"
-                      }
-                    ],
                     "type": "set",
                     "value": true,
-                    "field": "hidden"
+                    "field": "hidden",
+                    "id": "pa03-d08a-0366-000e",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "79c5-9fc4-7b97-7c3f",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "39f9-dcd3-1e80-fa1f",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ],
                 "costs": [
@@ -64173,7 +64280,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^T'au Empire^^** model (excluding **^^Kroot^^** models) only. In your Command phase, you can select one **^^Kroot^^** or **^^Vespid Stingwings^^** unit within 12\" of the bearer. If you do, until the start of your next Command phase, improve the Leadership characteristic of models in that unit by 1, and while such a unit is not Battle‑shocked, add 1 to the Objective Control characteristic of models in that unit.",
+                        "$text": "Having proven themselves to their alien charges, this T'au has won their fierce loyalty and become an iconic folk hero to them.\n\nT'AU EMPIRE model only (excluding KROOT models). In your Command phase, you can select one KROOT/VESPID STINGWINGS unit within 12\" of this model. If you do, that unit has +1 Ld and OC until the start of your next Command phase.",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -64187,51 +64294,45 @@
                 ],
                 "modifiers": [
                   {
-                    "conditionGroups": [
-                      {
-                        "conditionGroups": [
-                          {
-                            "conditions": [
-                              {
-                                "type": "atLeast",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "roster",
-                                "childId": "b7cd-d78c-d062-64f0",
-                                "shared": true,
-                                "includeChildForces": true,
-                                "includeChildSelections": true
-                              },
-                              {
-                                "type": "lessThan",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "childId": "b7cd-d78c-d062-64f0",
-                                "shared": true,
-                                "includeChildForces": true,
-                                "includeChildSelections": true
-                              }
-                            ],
-                            "type": "and"
-                          }
-                        ],
-                        "conditions": [
-                          {
-                            "type": "instanceOf",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "childId": "79c5-9fc4-7b97-7c3f",
-                            "shared": true
-                          }
-                        ],
-                        "type": "or"
-                      }
-                    ],
                     "type": "set",
                     "value": true,
-                    "field": "hidden"
+                    "field": "hidden",
+                    "id": "pab8-ce30-b88d-000f",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "3d58-2655-391e-ecc",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa80-50f6-80c4-0010",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "79c5-9fc4-7b97-7c3f",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
                   }
                 ],
                 "costs": [
@@ -64726,7 +64827,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^T’au Empire^^** model only. Select one T'au flamer equipped by the bearer. Improve the Strength characteristic of that weapon by 2, and improve the Armour Penetration and Damage characteristics of that weapon by 1.",
+                        "$text": "The thermoneutronic projector uses volatile gases siphoned from the coronas of neutron stars to expel a flame capable of searing through the armour plating of a battle tank.\n\nBATTLESUIT model only. In the Declare Battle Formations step, select one of this model's T'au Flamer weapons. That weapon's attacks have:\n- +2 S\n- +1 AP and D.",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -64740,68 +64841,27 @@
                 ],
                 "modifiers": [
                   {
-                    "conditionGroups": [
-                      {
-                        "conditions": [
-                          {
-                            "type": "atLeast",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "roster",
-                            "childId": "1184-c004-494b-642e",
-                            "shared": true,
-                            "includeChildForces": true,
-                            "includeChildSelections": true
-                          },
-                          {
-                            "type": "lessThan",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "childId": "1184-c004-494b-642e",
-                            "shared": true,
-                            "includeChildForces": true,
-                            "includeChildSelections": true
-                          }
-                        ],
-                        "type": "and"
-                      }
-                    ],
                     "type": "set",
                     "value": true,
-                    "field": "hidden"
-                  },
-                  {
+                    "field": "hidden",
+                    "id": "paad-c0e6-ad65-0011",
                     "conditionGroups": [
                       {
+                        "type": "and",
                         "conditions": [
                           {
-                            "type": "atLeast",
-                            "value": 1,
+                            "type": "notInstanceOf",
+                            "value": 0,
                             "field": "selections",
-                            "scope": "roster",
-                            "childId": "1184-c004-494b-642e",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
-                          },
-                          {
-                            "type": "lessThan",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "roster",
-                            "childId": "61f4-6563-bdb8-ec27",
+                            "scope": "ancestor",
+                            "childId": "7288-48b3-c4df-66c6",
                             "shared": true,
                             "includeChildSelections": true,
                             "includeChildForces": true
                           }
-                        ],
-                        "type": "and"
+                        ]
                       }
-                    ],
-                    "type": "add",
-                    "value": "Thermoneutronic Projector upgrade is required",
-                    "field": "warning"
+                    ]
                   }
                 ],
                 "costs": [
@@ -64864,7 +64924,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^T’au Empire^^** model only. Select one plasma rifle equipped by the bearer. Improve the Strength characteristic of that weapon by 2, and improve the Attacks, Armour Penetration and Damage characteristics of that weapon by 1.",
+                        "$text": "The plasma accelerator rifle blends pulse-induction technology with a high-yield plasma generator, rendering it highly effective against both infantry and light vehicles.\n\nBATTLESUIT model only. In the Declare Battle Formations step, select one of this model's Plasma Rifle weapons. That weapon's attacks have:\n- +2 S\n- +1 A, AP and D.",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -64878,68 +64938,27 @@
                 ],
                 "modifiers": [
                   {
-                    "conditionGroups": [
-                      {
-                        "conditions": [
-                          {
-                            "type": "atLeast",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "roster",
-                            "childId": "bc44-f33b-73bc-5ae5",
-                            "shared": true,
-                            "includeChildForces": true,
-                            "includeChildSelections": true
-                          },
-                          {
-                            "type": "lessThan",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "childId": "bc44-f33b-73bc-5ae5",
-                            "shared": true,
-                            "includeChildForces": true,
-                            "includeChildSelections": true
-                          }
-                        ],
-                        "type": "and"
-                      }
-                    ],
                     "type": "set",
                     "value": true,
-                    "field": "hidden"
-                  },
-                  {
+                    "field": "hidden",
+                    "id": "pae9-e7f2-e94e-0012",
                     "conditionGroups": [
                       {
+                        "type": "and",
                         "conditions": [
                           {
-                            "type": "atLeast",
-                            "value": 1,
+                            "type": "notInstanceOf",
+                            "value": 0,
                             "field": "selections",
-                            "scope": "roster",
-                            "childId": "bc44-f33b-73bc-5ae5",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
-                          },
-                          {
-                            "type": "lessThan",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "roster",
-                            "childId": "e396-458e-e066-fdbb",
+                            "scope": "ancestor",
+                            "childId": "7288-48b3-c4df-66c6",
                             "shared": true,
                             "includeChildSelections": true,
                             "includeChildForces": true
                           }
-                        ],
-                        "type": "and"
+                        ]
                       }
-                    ],
-                    "type": "add",
-                    "value": "Plasma Accelerator Rifle upgrade is required",
-                    "field": "warning"
+                    ]
                   }
                 ],
                 "costs": [
@@ -65002,7 +65021,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^T’au Empire^^** model only. Select one airbursting fragmentation projector equipped by the bearer. Improve the Strength characteristic of that weapon by 3, and improve the Armour Penetration and Damage characteristics of that weapon by 1.",
+                        "$text": "Adapted from standard-issue fragmentation projectors, this weapon enables the bearer to fire explosive plasma charges on parabolic trajectories. These projectiles drop amongst the enemy and explode in a coruscating fireball that evaporates metal and flesh alike.\n\nBATTLESUIT model only. In the Declare Battle Formations step, select one of this model's Airbursting Fragmentation Projector weapons. That weapon's attacks have:\n- +3 S\n- +1 AP and D.",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -65016,68 +65035,27 @@
                 ],
                 "modifiers": [
                   {
-                    "conditionGroups": [
-                      {
-                        "conditions": [
-                          {
-                            "type": "atLeast",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "roster",
-                            "childId": "8588-2b55-0468-0a97",
-                            "shared": true,
-                            "includeChildForces": true,
-                            "includeChildSelections": true
-                          },
-                          {
-                            "type": "lessThan",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "childId": "8588-2b55-0468-0a97",
-                            "shared": true,
-                            "includeChildForces": true,
-                            "includeChildSelections": true
-                          }
-                        ],
-                        "type": "and"
-                      }
-                    ],
                     "type": "set",
                     "value": true,
-                    "field": "hidden"
-                  },
-                  {
+                    "field": "hidden",
+                    "id": "pafd-589d-fd8e-0013",
                     "conditionGroups": [
                       {
+                        "type": "and",
                         "conditions": [
                           {
-                            "type": "atLeast",
-                            "value": 1,
+                            "type": "notInstanceOf",
+                            "value": 0,
                             "field": "selections",
-                            "scope": "roster",
-                            "childId": "8588-2b55-0468-0a97",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
-                          },
-                          {
-                            "type": "lessThan",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "roster",
-                            "childId": "e844-ec7e-9e46-1071",
+                            "scope": "ancestor",
+                            "childId": "7288-48b3-c4df-66c6",
                             "shared": true,
                             "includeChildSelections": true,
                             "includeChildForces": true
                           }
-                        ],
-                        "type": "and"
+                        ]
                       }
-                    ],
-                    "type": "add",
-                    "value": "Supernova Launcher upgrade is required",
-                    "field": "warning"
+                    ]
                   }
                 ],
                 "costs": [
@@ -66636,11 +66614,11 @@
             "import": true,
             "name": "Advanced Acquisition Cadre",
             "hidden": false,
-            "id": "paef-7a19-ef37-0000",
+            "id": "pa1d-4f1c-1dde-0000",
             "rules": [
               {
                 "name": "Expert Fieldcraft",
-                "id": "pa1d-ef7a-1d86-0001",
+                "id": "pa77-0202-77be-0001",
                 "hidden": false,
                 "description": "Extensive additional training - including tuition by Trail Shapers - enables these warriors to fire and relocate seamlessly while remaining concealed.\n\nIn your Shooting phase, when a friendly PATHFINDER TEAM/STEALTH BATTLESUITS unit is selected to shoot, those ranged attacks do not prevent your unit from being hidden."
               }
@@ -80424,13 +80402,13 @@
       },
       {
         "name": "Upgrades",
-        "id": "pa36-1a3d-36a4-000e",
+        "id": "pa7b-2ac2-7be7-0014",
         "hidden": false,
         "collapsible": true,
         "selectionEntryGroups": [
           {
             "name": "Advanced Acquisition Cadre Upgrades",
-            "id": "pa31-21a3-313f-000c",
+            "id": "pa3b-178b-3bc0-0002",
             "hidden": false,
             "selectionEntries": [
               {
@@ -80438,14 +80416,14 @@
                 "import": true,
                 "name": "Negation Emitters",
                 "hidden": false,
-                "id": "paa6-60a0-a678-0002",
+                "id": "pabc-91a5-bc3d-0004",
                 "profiles": [
                   {
                     "name": "Negation Emitters",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa22-07f0-227d-0003",
+                    "id": "pa0f-a417-0f12-0005",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -80462,7 +80440,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa57-07f4-5712-0004"
+                    "id": "pa52-6a85-52f6-0006"
                   },
                   {
                     "type": "max",
@@ -80470,7 +80448,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa3e-99b1-3ef4-0005",
+                    "id": "pac7-77ec-c7c6-0007",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -80487,7 +80465,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa0d-b1b2-0d10-0006",
+                    "id": "pa8e-ecaf-8ed8-0008",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -80513,14 +80491,14 @@
                 "import": true,
                 "name": "Unmasking Suite",
                 "hidden": false,
-                "id": "pa9b-8a09-9b72-0007",
+                "id": "padc-2840-dc52-0009",
                 "profiles": [
                   {
                     "name": "Unmasking Suite",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa3a-f5cd-3ab5-0008",
+                    "id": "pa1d-1424-1d79-000a",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -80537,7 +80515,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa77-814a-773e-0009"
+                    "id": "pa2c-85e1-2c3b-000b"
                   },
                   {
                     "type": "max",
@@ -80545,7 +80523,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa52-0763-5230-000a",
+                    "id": "pa92-9265-92f2-000c",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -80562,7 +80540,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pae0-b032-e0e3-000b",
+                    "id": "pa1b-5ef5-1b99-000d",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -80643,7 +80621,7 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "roster",
-                        "childId": "paef-7a19-ef37-0000",
+                        "childId": "pa1d-4f1c-1dde-0000",
                         "shared": true,
                         "includeChildSelections": true,
                         "includeChildForces": true
@@ -80660,7 +80638,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "padf-f33e-dfab-000d"
+                "id": "pa53-941c-539b-0003"
               }
             ]
           }
@@ -80672,7 +80650,7 @@
             "field": "selections",
             "scope": "self",
             "shared": true,
-            "id": "pa63-2a1f-6353-000f",
+            "id": "pa86-32f6-866c-0015",
             "includeChildSelections": true
           },
           {
@@ -80681,7 +80659,7 @@
             "field": "selections",
             "scope": "roster",
             "shared": true,
-            "id": "pa4a-4c82-4a48-0010",
+            "id": "pa86-2249-862e-0016",
             "includeChildSelections": true
           }
         ]
@@ -81581,7 +81559,7 @@
     "library": false,
     "id": "d81a-61dd-6d27-a3ce",
     "name": "Xenos - T'au Empire",
-    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemId": "sys-352e-adc2-7639-d6a9",
     "gameSystemRevision": 1,
     "revision": 160,
     "battleScribeVersion": 2.03,

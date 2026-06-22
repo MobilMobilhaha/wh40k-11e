@@ -12203,6 +12203,23 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 300,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "ca30-caf3-d7a8-1d32",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -12240,23 +12257,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 300,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "ca30-caf3-d7a8-1d32",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -14888,6 +14888,23 @@
         ],
         "modifiers": [
           {
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "d937-bd7d-618d-4e2d",
+                "childId": "model",
+                "shared": true,
+                "id": "5aef-47e5-58e1-5de9",
+                "includeChildSelections": true
+              }
+            ],
+            "type": "set",
+            "value": 170,
+            "field": "51b2-306e-1021-d207"
+          },
+          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -14925,23 +14942,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 170,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "d937-bd7d-618d-4e2d",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -16950,6 +16950,23 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 200,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 4,
+                "field": "selections",
+                "scope": "7a50-3722-8195-5877",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -16987,23 +17004,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 200,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 4,
-                "field": "selections",
-                "scope": "7a50-3722-8195-5877",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -18266,6 +18266,23 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 75,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "dc75-5a79-4121-1d72",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
             "type": "increment",
             "value": 5,
             "field": "51b2-306e-1021-d207",
@@ -18303,23 +18320,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 75,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "dc75-5a79-4121-1d72",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -34816,6 +34816,23 @@
         ],
         "modifiers": [
           {
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "4c72-3f0c-7f94-af96",
+                "childId": "model",
+                "shared": true,
+                "id": "8078-7a71-8c1a-2887",
+                "includeChildSelections": true
+              }
+            ],
+            "type": "set",
+            "value": 200,
+            "field": "51b2-306e-1021-d207"
+          },
+          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -34853,23 +34870,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 200,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "4c72-3f0c-7f94-af96",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -38146,6 +38146,23 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 190,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 7,
+                "field": "selections",
+                "scope": "ee6b-3815-3a1a-6458",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -38183,23 +38200,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 190,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 7,
-                "field": "selections",
-                "scope": "ee6b-3815-3a1a-6458",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -39828,7 +39828,7 @@
     "library": false,
     "id": "94bb-3284-ee14-57a1",
     "name": "Imperium - Adeptus Astartes - Space Wolves",
-    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemId": "sys-352e-adc2-7639-d6a9",
     "gameSystemRevision": 1,
     "revision": 76,
     "battleScribeVersion": 2.03,

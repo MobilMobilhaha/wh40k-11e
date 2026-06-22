@@ -8291,6 +8291,23 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 150,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 4,
+                "field": "selections",
+                "scope": "212d-f302-aaaf-5c12",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -8328,23 +8345,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 150,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 4,
-                "field": "selections",
-                "scope": "212d-f302-aaaf-5c12",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -13308,6 +13308,23 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 170,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 4,
+                "field": "selections",
+                "scope": "f34-e2f9-c98e-1916",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -13345,23 +13362,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 170,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 4,
-                "field": "selections",
-                "scope": "f34-e2f9-c98e-1916",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -18958,7 +18958,7 @@
     "library": false,
     "id": "470a-6daa-9014-12df",
     "name": "Imperium - Adeptus Astartes - Dark Angels",
-    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemId": "sys-352e-adc2-7639-d6a9",
     "gameSystemRevision": 1,
     "revision": 51,
     "battleScribeVersion": 2.03,

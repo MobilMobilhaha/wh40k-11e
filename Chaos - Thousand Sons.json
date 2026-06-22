@@ -12302,9 +12302,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa92-2506-92a5-004a",
+            "id": "pa05-1eea-0599-0022",
             "type": "selectionEntryGroup",
-            "targetId": "pad0-ff1c-d08e-003c",
+            "targetId": "pac7-20c8-c728-0014",
             "sortIndex": 4
           }
         ],
@@ -13509,9 +13509,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pac9-a1f8-c9e0-003f",
+            "id": "pa93-a264-938d-0017",
             "type": "selectionEntryGroup",
-            "targetId": "pad0-ff1c-d08e-003c",
+            "targetId": "pac7-20c8-c728-0014",
             "sortIndex": 4
           }
         ],
@@ -14615,9 +14615,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa81-5cf7-81f0-0040",
+            "id": "pa54-76b2-54aa-0018",
             "type": "selectionEntryGroup",
-            "targetId": "pad0-ff1c-d08e-003c",
+            "targetId": "pac7-20c8-c728-0014",
             "sortIndex": 4
           }
         ],
@@ -19067,9 +19067,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa74-0c89-7475-0041",
+            "id": "pab4-65a2-b401-0019",
             "type": "selectionEntryGroup",
-            "targetId": "pad0-ff1c-d08e-003c",
+            "targetId": "pac7-20c8-c728-0014",
             "sortIndex": 4
           }
         ],
@@ -26245,9 +26245,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa4f-4945-4fb7-0042",
+            "id": "pa6b-91a4-6bf7-001a",
             "type": "selectionEntryGroup",
-            "targetId": "pad0-ff1c-d08e-003c",
+            "targetId": "pac7-20c8-c728-0014",
             "sortIndex": 4
           }
         ],
@@ -27031,9 +27031,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pab0-6a62-b053-0043",
+            "id": "pa75-88e8-7550-001b",
             "type": "selectionEntryGroup",
-            "targetId": "pad0-ff1c-d08e-003c",
+            "targetId": "pac7-20c8-c728-0014",
             "sortIndex": 4
           }
         ],
@@ -27986,9 +27986,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pabc-17d2-bcec-0044",
+            "id": "pa11-0623-11e4-001c",
             "type": "selectionEntryGroup",
-            "targetId": "pad0-ff1c-d08e-003c",
+            "targetId": "pac7-20c8-c728-0014",
             "sortIndex": 4
           }
         ],
@@ -28922,9 +28922,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa86-7687-866d-0045",
+            "id": "pa10-b50d-1038-001d",
             "type": "selectionEntryGroup",
-            "targetId": "pad0-ff1c-d08e-003c",
+            "targetId": "pac7-20c8-c728-0014",
             "sortIndex": 4
           }
         ],
@@ -30589,9 +30589,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa1d-09c5-1d1d-0046",
+            "id": "paf2-c0c4-f2f0-001e",
             "type": "selectionEntryGroup",
-            "targetId": "pad0-ff1c-d08e-003c",
+            "targetId": "pac7-20c8-c728-0014",
             "sortIndex": 4
           }
         ],
@@ -33501,9 +33501,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa52-fb13-52a4-0047",
+            "id": "pae5-4457-e58a-001f",
             "type": "selectionEntryGroup",
-            "targetId": "pad0-ff1c-d08e-003c",
+            "targetId": "pac7-20c8-c728-0014",
             "sortIndex": 4
           }
         ],
@@ -35109,9 +35109,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa97-81e6-973e-0048",
+            "id": "pa78-36a0-78a4-0020",
             "type": "selectionEntryGroup",
-            "targetId": "pad0-ff1c-d08e-003c",
+            "targetId": "pac7-20c8-c728-0014",
             "sortIndex": 4
           }
         ],
@@ -37278,6 +37278,22 @@
         ],
         "modifiers": [
           {
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 3,
+                "field": "selections",
+                "scope": "fe4b-b3a4-69b7-3088",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ],
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207"
+          },
+          {
             "type": "set",
             "value": 2,
             "field": "9423-c95e-70df-0527",
@@ -37291,23 +37307,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 160,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 3,
-                "field": "selections",
-                "scope": "fe4b-b3a4-69b7-3088",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -39946,9 +39945,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa98-daa8-98ef-0049",
+            "id": "pad2-184b-d228-0021",
             "type": "selectionEntryGroup",
-            "targetId": "pad0-ff1c-d08e-003c",
+            "targetId": "pac7-20c8-c728-0014",
             "sortIndex": 4
           }
         ],
@@ -40621,6 +40620,22 @@
             "field": "hidden"
           },
           {
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 4,
+                "field": "selections",
+                "scope": "694f-a205-b260-783c",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ],
+            "type": "set",
+            "value": 130,
+            "field": "51b2-306e-1021-d207"
+          },
+          {
             "type": "set",
             "value": 2,
             "field": "5115-527e-5489-be7d",
@@ -40634,23 +40649,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 130,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 4,
-                "field": "selections",
-                "scope": "694f-a205-b260-783c",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -40979,6 +40977,21 @@
             "field": "hidden"
           },
           {
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 4,
+                "field": "selections",
+                "scope": "7cbe-2406-8e67-aff5",
+                "childId": "model",
+                "shared": true
+              }
+            ],
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207"
+          },
+          {
             "type": "set",
             "value": 2,
             "field": "cbaa-b9fc-8182-759d",
@@ -40992,23 +41005,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 160,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 4,
-                "field": "selections",
-                "scope": "7cbe-2406-8e67-aff5",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -42770,9 +42766,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pad0-aa61-d0d1-004b",
+            "id": "pa4c-8300-4c75-0023",
             "type": "selectionEntryGroup",
-            "targetId": "pad0-ff1c-d08e-003c",
+            "targetId": "pac7-20c8-c728-0014",
             "sortIndex": 4
           }
         ],
@@ -49332,7 +49328,7 @@
         "selectionEntryGroups": [
           {
             "name": "Ritual of Regeneration Enhancements",
-            "id": "pa56-538d-5626-000a",
+            "id": "paee-05ed-eeea-0000",
             "hidden": false,
             "selectionEntries": [
               {
@@ -49340,14 +49336,110 @@
                 "import": true,
                 "name": "Eruption of Vitality",
                 "hidden": false,
-                "id": "pa88-52fe-8800-0000",
+                "id": "a2c2-fa4a-7f25-d832",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "5bfc-e38d-da64-cf34",
+                    "includeChildSelections": true
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pad0-5e65-d07c-0002",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "type": "notInstanceOf",
+                                "value": 0,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "cf47-a0d7-7207-29dc",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "includeChildForces": true
+                              },
+                              {
+                                "type": "notInstanceOf",
+                                "value": 0,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "7002-1fbb-7571-e8e7",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "includeChildForces": true
+                              },
+                              {
+                                "type": "notInstanceOf",
+                                "value": 0,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "13bf-2bee-3ae0-b414",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "includeChildForces": true
+                              }
+                            ]
+                          },
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "type": "notInstanceOf",
+                                "value": 0,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "14a0-40c9-2748-ae6e",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "includeChildForces": true
+                              },
+                              {
+                                "type": "notInstanceOf",
+                                "value": 0,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "7002-1fbb-7571-e8e7",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "includeChildForces": true
+                              },
+                              {
+                                "type": "notInstanceOf",
+                                "value": 0,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "13bf-2bee-3ae0-b414",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "includeChildForces": true
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
                 "profiles": [
                   {
                     "name": "Eruption of Vitality",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa20-f534-2033-0001",
+                    "id": "19f8-d442-d88e-1101",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -49357,31 +49449,66 @@
                     ]
                   }
                 ],
-                "constraints": [
+                "comment": "Ritual",
+                "costs": [
                   {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "paff-09c7-ffb3-0002"
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 35
                   },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "sortIndex": 14
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Curse of Life",
+                "hidden": false,
+                "id": "44f2-27ca-fad5-70ad",
+                "constraints": [
                   {
                     "type": "max",
                     "value": 1,
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa33-6f92-337f-0003",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 35
+                    "id": "aa6b-870d-e09c-1fed",
+                    "includeChildSelections": true
                   }
                 ],
                 "modifiers": [
@@ -49389,7 +49516,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa98-78dc-9878-0004",
+                    "id": "pa42-b0eb-42b2-0003",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -49468,21 +49595,14 @@
                       }
                     ]
                   }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Curse of Life",
-                "hidden": false,
-                "id": "pa24-1143-2424-0005",
+                ],
                 "profiles": [
                   {
                     "name": "Curse of Life",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa25-36db-2511-0006",
+                    "id": "90c9-016e-d789-83ef",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -49492,118 +49612,50 @@
                     ]
                   }
                 ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pa51-784d-5138-0007"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "paec-74f9-ec37-0008",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
+                "comment": "Ritual",
                 "costs": [
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
-                "modifiers": [
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "id": "pa7d-f34b-7d5c-0009",
-                    "conditionGroups": [
-                      {
-                        "type": "and",
-                        "conditionGroups": [
-                          {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 0,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "cf47-a0d7-7207-29dc",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
-                              },
-                              {
-                                "type": "notInstanceOf",
-                                "value": 0,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "7002-1fbb-7571-e8e7",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
-                              },
-                              {
-                                "type": "notInstanceOf",
-                                "value": 0,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "13bf-2bee-3ae0-b414",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
-                              }
-                            ]
-                          },
-                          {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 0,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "14a0-40c9-2748-ae6e",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
-                              },
-                              {
-                                "type": "notInstanceOf",
-                                "value": 0,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "7002-1fbb-7571-e8e7",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
-                              },
-                              {
-                                "type": "notInstanceOf",
-                                "value": 0,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "13bf-2bee-3ae0-b414",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
+                "sortIndex": 13
               }
             ],
             "modifiers": [
@@ -49647,13 +49699,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa62-3c7f-62bf-000b"
+                "id": "pa12-2be9-1254-0001"
               }
             ]
           },
           {
             "name": "Sekhetar Cohort Enhancements",
-            "id": "pa3c-814f-3c0d-0016",
+            "id": "pa3a-29f6-3a31-0004",
             "hidden": false,
             "selectionEntries": [
               {
@@ -49661,14 +49713,70 @@
                 "import": true,
                 "name": "Walking Rampart",
                 "hidden": false,
-                "id": "pa7b-29bd-7bac-000c",
+                "id": "4739-736e-fad3-2d4f",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "3499-a66c-e18c-ac24",
+                    "includeChildSelections": true
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "paf6-8cd9-f6cd-0006",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "type": "notInstanceOf",
+                                "value": 0,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "3789-4546-1d0a-f02b",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "includeChildForces": true
+                              }
+                            ]
+                          },
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "type": "notInstanceOf",
+                                "value": 0,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "010f-ca66-75a1-379b",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "includeChildForces": true
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
                 "profiles": [
                   {
                     "name": "Walking Rampart",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa39-54bb-3911-000d",
+                    "id": "a802-7ed4-38e5-17ae",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -49678,31 +49786,66 @@
                     ]
                   }
                 ],
-                "constraints": [
+                "comment": "Sekhetar",
+                "costs": [
                   {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pac8-aabe-c8c5-000e"
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 30
                   },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "sortIndex": 20
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Occulus Infernum",
+                "hidden": false,
+                "id": "800f-cfbb-ce7c-8cd0",
+                "constraints": [
                   {
                     "type": "max",
                     "value": 1,
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa91-e149-912c-000f",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 30
+                    "id": "e120-18e6-809f-5d13",
+                    "includeChildSelections": true
                   }
                 ],
                 "modifiers": [
@@ -49710,7 +49853,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa0e-7e99-0ec7-0010",
+                    "id": "pacf-0eea-cf4a-0007",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -49749,21 +49892,14 @@
                       }
                     ]
                   }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Occulus Infernum",
-                "hidden": false,
-                "id": "pa26-4b5b-26b2-0011",
+                ],
                 "profiles": [
                   {
                     "name": "Occulus Infernum",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "paf0-b85e-f089-0012",
+                    "id": "0ba6-c146-1daf-225e",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -49773,78 +49909,50 @@
                     ]
                   }
                 ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pab4-87ef-b43a-0013"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "pae5-65b8-e515-0014",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
+                "comment": "Sekhetar",
                 "costs": [
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
-                "modifiers": [
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "id": "pa8b-11ff-8b75-0015",
-                    "conditionGroups": [
-                      {
-                        "type": "and",
-                        "conditionGroups": [
-                          {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 0,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "3789-4546-1d0a-f02b",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
-                              }
-                            ]
-                          },
-                          {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 0,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "010f-ca66-75a1-379b",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
+                "sortIndex": 19
               }
             ],
             "modifiers": [
@@ -49888,13 +49996,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa43-78e8-437e-0017"
+                "id": "pa64-6c19-64c3-0005"
               }
             ]
           },
           {
             "name": "Servants of Change Enhancements",
-            "id": "pa8e-0161-8e7a-001d",
+            "id": "pa68-384d-6810-0008",
             "hidden": false,
             "selectionEntries": [
               {
@@ -49902,48 +50010,16 @@
                 "import": true,
                 "name": "Unravelled Fates",
                 "hidden": false,
-                "id": "pac5-82e1-c558-0018",
-                "profiles": [
-                  {
-                    "name": "Unravelled Fates",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "id": "pae6-202f-e649-0019",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "How can the foe hope to suppress or drive back the hordes when, with a twist of sorcery, panic turns to courage, and certain doom mutates into burgeoning triumph?\n\nTZAANGOR SHAMAN model only. In your Movement phase, at the start or end of this unit's move, you can select one friendly battle-shocked MUTANT unit within 6\" of this model. That unit is no longer battle-shocked."
-                      }
-                    ]
-                  }
-                ],
+                "id": "bc51-90d0-936b-2acb",
                 "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pa0e-15bd-0e92-001a"
-                  },
                   {
                     "type": "max",
                     "value": 1,
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa70-56ee-709c-001b",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 15
+                    "id": "ca20-31f2-05fb-b159",
+                    "includeChildSelections": true
                   }
                 ],
                 "modifiers": [
@@ -49951,7 +50027,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paf5-0d5a-f57d-001c",
+                    "id": "pad8-fd2b-d85b-000a",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -49970,7 +50046,67 @@
                       }
                     ]
                   }
-                ]
+                ],
+                "profiles": [
+                  {
+                    "name": "Unravelled Fates",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "b637-b8a1-0946-00ee",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "How can the foe hope to suppress or drive back the hordes when, with a twist of sorcery, panic turns to courage, and certain doom mutates into burgeoning triumph?\n\nTZAANGOR SHAMAN model only. In your Movement phase, at the start or end of this unit's move, you can select one friendly battle-shocked MUTANT unit within 6\" of this model. That unit is no longer battle-shocked."
+                      }
+                    ]
+                  }
+                ],
+                "comment": "Servants of Change",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 15
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "sortIndex": 21
               }
             ],
             "modifiers": [
@@ -50014,35 +50150,161 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa9f-d72a-9f54-001e"
+                "id": "pa5c-863f-5caa-0009"
               }
             ]
           },
           {
             "name": "Hexwarp Thrallband Enhancements",
-            "id": "pa91-87a8-91f5-003a",
+            "id": "pa81-b6d1-81e4-000e",
             "hidden": false,
             "selectionEntries": [
               {
-                "type": "upgrade",
-                "import": true,
-                "name": "Arcane Might",
-                "hidden": false,
-                "id": "pa8c-0de7-8cf6-0026",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "b9c1-a4b1-bb2e-3472",
+                    "percentValue": false,
+                    "includeChildSelections": true,
+                    "includeChildForces": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa37-42e4-37eb-0010",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "7002-1fbb-7571-e8e7",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
                 "profiles": [
                   {
+                    "characteristics": [
+                      {
+                        "$text": "Drawing upon the rampant Warp energies coursing across the battlefield, this sorcerous champion imbues their weapons and those of their talented underlings with soul-shattering force.\n\nThousand Sons model only. Add 1 to the Strength characteristic of Psychic weapons equipped by models in the bearer's unit. While the bearer's unit is wholly within your army's Flow of Magic, add 2 to the Strength characteristic of Psychic weapons equipped by models in that unit instead.",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
                     "name": "Arcane Might",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa02-4baa-0240-0027",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Drawing upon the rampant Warp energies coursing across the battlefield, this sorcerous champion imbues their weapons and those of their talented underlings with soul-shattering force.\n\nThousand Sons model only. Add 1 to the Strength characteristic of Psychic weapons equipped by models in the bearer's unit. While the bearer's unit is wholly within your army's Flow of Magic, add 2 to the Strength characteristic of Psychic weapons equipped by models in that unit instead."
-                      }
-                    ]
+                    "id": "2f79-0968-0cff-59df"
+                  }
+                ],
+                "comment": "Hexwarp",
+                "type": "upgrade",
+                "import": true,
+                "name": "Arcane Might",
+                "hidden": false,
+                "id": "9d89-dede-5aac-0bcb",
+                "sortIndex": 9
+              },
+              {
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "constraints": [
@@ -50050,26 +50312,12 @@
                     "type": "max",
                     "value": 1,
                     "field": "selections",
-                    "scope": "parent",
+                    "scope": "force",
                     "shared": true,
-                    "id": "pa21-a97a-21ac-0028"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "pa04-3183-041c-0029",
+                    "id": "d639-c7d5-b2d7-6bf2",
+                    "percentValue": false,
                     "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 20
+                    "includeChildForces": false
                   }
                 ],
                 "modifiers": [
@@ -50077,7 +50325,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paee-5e9d-eea0-002a",
+                    "id": "pae7-47ed-e757-0011",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -50096,178 +50344,72 @@
                       }
                     ]
                   }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Empowered Manifestation",
-                "hidden": false,
-                "id": "pa28-c139-28e4-002b",
+                ],
                 "profiles": [
                   {
+                    "characteristics": [
+                      {
+                        "$text": "The many eyes of this witch lord blaze with barely contained arcane might. Whilst the spells they unleash are rendered far more lethal, such destructive power comes at significant risk.\n\nThousand Sons model only. While the bearer's unit is wholly within your army's Flow of Magic, you can add 6\" to the range of Psychic abilities the bearer has that specify a range (including Rituals) and each time a model in the bearer's unit takes a Hazardous test for a Psychic weapon, you can re-roll the result.",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
                     "name": "Empowered Manifestation",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa51-fac4-51c2-002c",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "The many eyes of this witch lord blaze with barely contained arcane might. Whilst the spells they unleash are rendered far more lethal, such destructive power comes at significant risk.\n\nThousand Sons model only. While the bearer's unit is wholly within your army's Flow of Magic, you can add 6\" to the range of Psychic abilities the bearer has that specify a range (including Rituals) and each time a model in the bearer's unit takes a Hazardous test for a Psychic weapon, you can re-roll the result."
-                      }
-                    ]
+                    "id": "8f5c-41e6-3d38-260f"
                   }
                 ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pa6b-459b-6b9a-002d"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "pa8b-d208-8b67-002e",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 20
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "id": "pafd-e19d-fddd-002f",
-                    "conditionGroups": [
-                      {
-                        "type": "and",
-                        "conditions": [
-                          {
-                            "type": "notInstanceOf",
-                            "value": 0,
-                            "field": "selections",
-                            "scope": "ancestor",
-                            "childId": "7002-1fbb-7571-e8e7",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
+                "comment": "Hexwarp",
                 "type": "upgrade",
                 "import": true,
-                "name": "Empyric Onslaught",
+                "name": "Empowered Manifestation",
                 "hidden": false,
-                "id": "pa1d-5b5e-1d0c-0030",
-                "profiles": [
-                  {
-                    "name": "Empyric Onslaught",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "id": "pa30-0aef-30c6-0031",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Suffused with boundless empyric force, this ritualist unleashes overwhelming torrents of destructive magic upon their enemies.\n\nThousand Sons model only. While the bearer's unit is wholly within your army's Flow of Magic, add 3 to the Attacks characteristic of ranged Psychic weapons equipped by the bearer."
-                      }
-                    ]
-                  }
-                ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "paec-c399-ecb8-0032"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "pa2b-8217-2bf7-0033",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
+                "id": "4a67-5764-0da1-196e",
+                "sortIndex": 10
+              },
+              {
                 "costs": [
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 25
-                  }
-                ],
-                "modifiers": [
+                  },
                   {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "id": "pae0-d473-e06b-0034",
-                    "conditionGroups": [
-                      {
-                        "type": "and",
-                        "conditions": [
-                          {
-                            "type": "notInstanceOf",
-                            "value": 0,
-                            "field": "selections",
-                            "scope": "ancestor",
-                            "childId": "7002-1fbb-7571-e8e7",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Noctilith Mantle",
-                "hidden": false,
-                "id": "pa30-16c4-307d-0035",
-                "profiles": [
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
                   {
-                    "name": "Noctilith Mantle",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "id": "pafc-8185-fcdd-0036",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "With this crest, wrought from empyrically charged blackstone, this warrior becomes a mobile locus of unchecked Warp power.\n\nThousand Sons model only. While the bearer's unit is on the battlefield, it is wholly within your army's Flow of Magic. Models in that unit cannot be selected to use any Rituals."
-                      }
-                    ]
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   }
                 ],
                 "constraints": [
@@ -50275,26 +50417,12 @@
                     "type": "max",
                     "value": 1,
                     "field": "selections",
-                    "scope": "parent",
+                    "scope": "force",
                     "shared": true,
-                    "id": "pa83-62d7-8359-0037"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "paf0-7e4d-f003-0038",
+                    "id": "88d3-d877-bf59-5727",
+                    "percentValue": false,
                     "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 15
+                    "includeChildForces": false
                   }
                 ],
                 "modifiers": [
@@ -50302,7 +50430,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa32-b4eb-3262-0039",
+                    "id": "pad9-9ec4-d99d-0012",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -50321,7 +50449,135 @@
                       }
                     ]
                   }
-                ]
+                ],
+                "profiles": [
+                  {
+                    "characteristics": [
+                      {
+                        "$text": "Suffused with boundless empyric force, this ritualist unleashes overwhelming torrents of destructive magic upon their enemies.\n\nThousand Sons model only. While the bearer's unit is wholly within your army's Flow of Magic, add 3 to the Attacks characteristic of ranged Psychic weapons equipped by the bearer.",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "name": "Empyric Onslaught",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "2f58-bad5-7d6b-bc2c"
+                  }
+                ],
+                "comment": "Hexwarp",
+                "type": "upgrade",
+                "import": true,
+                "name": "Empyric Onslaught",
+                "hidden": false,
+                "id": "ee5d-56ac-adc7-c050",
+                "sortIndex": 11
+              },
+              {
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 15
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "5cd4-0941-4e3e-95bd",
+                    "percentValue": false,
+                    "includeChildSelections": true,
+                    "includeChildForces": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa2e-1d4a-2eb4-0013",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "7002-1fbb-7571-e8e7",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "characteristics": [
+                      {
+                        "$text": "With this crest, wrought from empyrically charged blackstone, this warrior becomes a mobile locus of unchecked Warp power.\n\nThousand Sons model only. While the bearer's unit is on the battlefield, it is wholly within your army's Flow of Magic. Models in that unit cannot be selected to use any Rituals.",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "name": "Noctilith Mantle",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "68fe-e60d-0b40-856b"
+                  }
+                ],
+                "comment": "Hexwarp",
+                "type": "upgrade",
+                "import": true,
+                "name": "Noctilith Mantle",
+                "hidden": false,
+                "id": "aa8d-db59-d651-a759",
+                "sortIndex": 12
               }
             ],
             "modifiers": [
@@ -50365,7 +50621,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa88-14da-88e9-003b"
+                "id": "pa5c-226f-5cc8-000f"
               }
             ]
           }
@@ -60313,13 +60569,13 @@
       },
       {
         "name": "Upgrades",
-        "id": "pad0-ff1c-d08e-003c",
+        "id": "pac7-20c8-c728-0014",
         "hidden": false,
         "collapsible": true,
         "selectionEntryGroups": [
           {
             "name": "Servants of Change Upgrades",
-            "id": "pa75-03b5-7513-0024",
+            "id": "pa5d-3468-5d2e-000b",
             "hidden": false,
             "selectionEntries": [
               {
@@ -60327,14 +60583,25 @@
                 "import": true,
                 "name": "Thicket of Bladed Bone",
                 "hidden": false,
-                "id": "pa8d-59d3-8d56-001f",
+                "id": "8735-77ba-713d-0d92",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "5aba-a026-9216-b4f5",
+                    "includeChildSelections": true
+                  }
+                ],
                 "profiles": [
                   {
                     "name": "Thicket of Bladed Bone",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pae7-b83e-e7d8-0020",
+                    "id": "e6e2-2b88-617a-cc0b",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -60344,39 +60611,12 @@
                     ]
                   }
                 ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "pab3-c25d-b3f7-0021"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "paba-de44-bad1-0022",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 10
-                  }
-                ],
                 "modifiers": [
                   {
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa33-0d6f-3374-0023",
+                    "id": "pa6b-6179-6b1b-000d",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -60390,6 +60630,89 @@
                             "shared": true,
                             "includeChildSelections": true,
                             "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 10
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "8735-77ba-713d-0d92",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Thicket of Bladed Bone"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "8735-77ba-713d-0d92",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Thicket of Bladed Bone"
                           }
                         ]
                       }
@@ -60439,7 +60762,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "paa6-7410-a6b8-0025"
+                "id": "pa55-8493-5597-000c"
               }
             ]
           }
@@ -60451,7 +60774,7 @@
             "field": "selections",
             "scope": "self",
             "shared": true,
-            "id": "pa33-175d-3341-003d",
+            "id": "pa9c-de18-9c1e-0015",
             "includeChildSelections": true
           },
           {
@@ -60460,7 +60783,7 @@
             "field": "selections",
             "scope": "roster",
             "shared": true,
-            "id": "pa0c-2c85-0c02-003e",
+            "id": "pa53-433a-535d-0016",
             "includeChildSelections": true
           }
         ]
@@ -60698,7 +61021,7 @@
     "revision": 113,
     "battleScribeVersion": 2.03,
     "library": false,
-    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemId": "sys-352e-adc2-7639-d6a9",
     "gameSystemRevision": 1,
     "type": "catalogue"
   }

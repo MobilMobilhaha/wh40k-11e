@@ -3897,47 +3897,6 @@
         ],
         "modifiers": [
           {
-            "type": "increment",
-            "value": 15,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "self",
-                        "shared": true,
-                        "childName": "self"
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "206c-6b4d-4aaa-7e79",
-                        "shared": true,
-                        "childName": "Sword Brethren Squad"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "type": "set",
             "value": 130,
             "field": "51b2-306e-1021-d207",
@@ -3985,6 +3944,47 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "206c-6b4d-4aaa-7e79",
+                        "shared": true,
+                        "childName": "Sword Brethren Squad"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -19326,7 +19326,7 @@
     "library": false,
     "id": "36d3-36bc-68dd-40ac",
     "name": "Imperium - Adeptus Astartes - Black Templars",
-    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemId": "sys-352e-adc2-7639-d6a9",
     "gameSystemRevision": 1,
     "revision": 62,
     "battleScribeVersion": 2.03,

@@ -663,9 +663,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa91-975d-919e-0022",
+            "id": "pac1-5fe4-c1ae-0022",
             "type": "selectionEntryGroup",
-            "targetId": "pad2-3025-d2fc-0016",
+            "targetId": "pa0d-468a-0d03-0016",
             "sortIndex": 4
           }
         ]
@@ -1256,9 +1256,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa65-3697-6556-0020",
+            "id": "paba-eb6d-bada-0020",
             "type": "selectionEntryGroup",
-            "targetId": "pad2-3025-d2fc-0016",
+            "targetId": "pa0d-468a-0d03-0016",
             "sortIndex": 4
           }
         ]
@@ -1819,9 +1819,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa40-4f36-4090-0021",
+            "id": "pab7-d2ae-b742-0021",
             "type": "selectionEntryGroup",
-            "targetId": "pad2-3025-d2fc-0016",
+            "targetId": "pa0d-468a-0d03-0016",
             "sortIndex": 4
           }
         ]
@@ -2346,9 +2346,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa05-f8c3-0551-001f",
+            "id": "pa52-7d59-526d-001f",
             "type": "selectionEntryGroup",
-            "targetId": "pad2-3025-d2fc-0016",
+            "targetId": "pa0d-468a-0d03-0016",
             "sortIndex": 4
           }
         ]
@@ -2554,9 +2554,9 @@
                 "import": true,
                 "name": "Upgrades",
                 "hidden": false,
-                "id": "pa9c-653e-9cf8-0019",
+                "id": "pac5-fa4f-c5e6-0019",
                 "type": "selectionEntryGroup",
-                "targetId": "pad2-3025-d2fc-0016",
+                "targetId": "pa0d-468a-0d03-0016",
                 "sortIndex": 4
               }
             ],
@@ -12952,9 +12952,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paba-ef5b-bab8-001a",
+            "id": "pab0-7891-b0f2-001a",
             "type": "selectionEntryGroup",
-            "targetId": "pad2-3025-d2fc-0016",
+            "targetId": "pa0d-468a-0d03-0016",
             "sortIndex": 4
           }
         ],
@@ -17849,9 +17849,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pab7-e32f-b727-001b",
+            "id": "pa8c-0cbf-8c94-001b",
             "type": "selectionEntryGroup",
-            "targetId": "pad2-3025-d2fc-0016",
+            "targetId": "pa0d-468a-0d03-0016",
             "sortIndex": 4
           }
         ],
@@ -19718,9 +19718,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa36-a755-364a-001c",
+            "id": "paf6-8303-f604-001c",
             "type": "selectionEntryGroup",
-            "targetId": "pad2-3025-d2fc-0016",
+            "targetId": "pa0d-468a-0d03-0016",
             "sortIndex": 4
           }
         ],
@@ -20751,9 +20751,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa1e-ef59-1e97-001d",
+            "id": "pa92-cad6-9264-001d",
             "type": "selectionEntryGroup",
-            "targetId": "pad2-3025-d2fc-0016",
+            "targetId": "pa0d-468a-0d03-0016",
             "sortIndex": 4
           }
         ],
@@ -30327,9 +30327,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pad0-7c6b-d061-001e",
+            "id": "pa9a-76fc-9a0b-001e",
             "type": "selectionEntryGroup",
-            "targetId": "pad2-3025-d2fc-0016",
+            "targetId": "pa0d-468a-0d03-0016",
             "sortIndex": 4
           }
         ],
@@ -78386,13 +78386,13 @@
       },
       {
         "name": "Upgrades",
-        "id": "pad2-3025-d2fc-0016",
+        "id": "pa0d-468a-0d03-0016",
         "hidden": false,
         "collapsible": true,
         "selectionEntryGroups": [
           {
             "name": "Veiled Blade Elimination Force Upgrades",
-            "id": "pab8-6ef0-b801-0014",
+            "id": "pa3b-cb52-3b26-0000",
             "hidden": false,
             "selectionEntries": [
               {
@@ -78400,14 +78400,14 @@
                 "import": true,
                 "name": "Decoy Targets",
                 "hidden": false,
-                "id": "pa48-25e7-48af-0000",
+                "id": "pa3f-be18-3feb-0002",
                 "profiles": [
                   {
                     "name": "Decoy Targets",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "paa5-1da0-a581-0001",
+                    "id": "pab9-7e55-b9a3-0003",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -78424,7 +78424,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "paa8-fadb-a850-0002"
+                    "id": "paea-a9c6-ea57-0004"
                   },
                   {
                     "type": "max",
@@ -78432,7 +78432,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa17-ac2c-171e-0003",
+                    "id": "pa12-e230-1222-0005",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -78449,7 +78449,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa0b-eb18-0bdb-0004",
+                    "id": "pa4f-71e6-4f33-0006",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -78475,14 +78475,14 @@
                 "import": true,
                 "name": "Esoteric Explosives",
                 "hidden": false,
-                "id": "pae0-a4c1-e092-0005",
+                "id": "pabd-57d9-bdcd-0007",
                 "profiles": [
                   {
                     "name": "Esoteric Explosives",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pacd-90c9-cdc4-0006",
+                    "id": "pafa-3a23-fa28-0008",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -78499,7 +78499,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa5f-aae0-5faa-0007"
+                    "id": "pa75-ab74-751f-0009"
                   },
                   {
                     "type": "max",
@@ -78507,7 +78507,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "paa9-1c90-a909-0008",
+                    "id": "paec-427f-ec82-000a",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -78524,7 +78524,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pafa-ad63-fa67-0009",
+                    "id": "pac2-c7bd-c23a-000b",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -78550,14 +78550,14 @@
                 "import": true,
                 "name": "Intraneural Biotech",
                 "hidden": false,
-                "id": "pae4-650e-e44e-000a",
+                "id": "pa95-d1fd-9510-000c",
                 "profiles": [
                   {
                     "name": "Intraneural Biotech",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pae7-247d-e7cc-000b",
+                    "id": "pa3f-67ad-3ffd-000d",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -78574,7 +78574,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa30-8580-3048-000c"
+                    "id": "pa7a-ae6e-7a32-000e"
                   },
                   {
                     "type": "max",
@@ -78582,7 +78582,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "paf0-625c-f0a0-000d",
+                    "id": "pa22-a9e9-225f-000f",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -78599,7 +78599,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa51-ac09-5109-000e",
+                    "id": "pac9-d652-c950-0010",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -78625,14 +78625,14 @@
                 "import": true,
                 "name": "Micromelta Rounds",
                 "hidden": false,
-                "id": "pa03-60e1-03ec-000f",
+                "id": "pa89-f8ad-89fb-0011",
                 "profiles": [
                   {
                     "name": "Micromelta Rounds",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa84-14c3-8409-0010",
+                    "id": "pa0b-e070-0b99-0012",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -78649,7 +78649,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa8d-49ef-8da9-0011"
+                    "id": "pa0b-0b60-0b46-0013"
                   },
                   {
                     "type": "max",
@@ -78657,7 +78657,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pabe-6ac9-be29-0012",
+                    "id": "pa7c-3bb4-7c46-0014",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -78674,7 +78674,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa32-6fe0-321b-0013",
+                    "id": "padb-c030-dbc3-0015",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -78737,7 +78737,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa90-1b61-90bf-0015"
+                "id": "pa01-cb29-019c-0001"
               }
             ]
           }
@@ -78749,7 +78749,7 @@
             "field": "selections",
             "scope": "self",
             "shared": true,
-            "id": "pa54-2616-54fb-0017",
+            "id": "pa2b-b652-2bbc-0017",
             "includeChildSelections": true
           },
           {
@@ -78758,7 +78758,7 @@
             "field": "selections",
             "scope": "roster",
             "shared": true,
-            "id": "pac7-1c18-c74f-0018",
+            "id": "pa26-c528-269c-0018",
             "includeChildSelections": true
           }
         ]
@@ -78868,7 +78868,7 @@
     "library": false,
     "id": "b00-cd86-4b4c-97ba",
     "name": "Imperium - Agents of the Imperium",
-    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemId": "sys-352e-adc2-7639-d6a9",
     "gameSystemRevision": 1,
     "revision": 137,
     "battleScribeVersion": 2.03,

@@ -181,6 +181,23 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 300,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "f51d-bc51-f301-9dee",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -218,23 +235,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 300,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "f51d-bc51-f301-9dee",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -1279,9 +1279,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pad4-4121-d47a-0033",
+            "id": "pa10-5f1d-10ed-0021",
             "type": "selectionEntryGroup",
-            "targetId": "pa04-b195-0499-0030",
+            "targetId": "pa37-aa2c-371e-001e",
             "sortIndex": 4
           }
         ],
@@ -4654,9 +4654,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa6d-254e-6d71-0034",
+            "id": "pa88-9841-887f-0022",
             "type": "selectionEntryGroup",
-            "targetId": "pa04-b195-0499-0030",
+            "targetId": "pa37-aa2c-371e-001e",
             "sortIndex": 4
           }
         ],
@@ -5486,6 +5486,23 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "3a81-2b84-bf4c-4f85",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -5523,23 +5540,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 160,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "3a81-2b84-bf4c-4f85",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -7647,9 +7647,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa3a-166b-3a69-0035",
+            "id": "pad3-2361-d383-0023",
             "type": "selectionEntryGroup",
-            "targetId": "pa04-b195-0499-0030",
+            "targetId": "pa37-aa2c-371e-001e",
             "sortIndex": 4
           }
         ],
@@ -8451,9 +8451,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paf4-c32c-f4d6-0036",
+            "id": "pa90-c107-90ab-0024",
             "type": "selectionEntryGroup",
-            "targetId": "pa04-b195-0499-0030",
+            "targetId": "pa37-aa2c-371e-001e",
             "sortIndex": 4
           }
         ],
@@ -11260,6 +11260,23 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 150,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "8a84-a8fd-977e-9118",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -11297,23 +11314,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 150,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "8a84-a8fd-977e-9118",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -12654,9 +12654,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pac4-a2d7-c4d0-0037",
+            "id": "pabd-4b4c-bd3d-0025",
             "type": "selectionEntryGroup",
-            "targetId": "pa04-b195-0499-0030",
+            "targetId": "pa37-aa2c-371e-001e",
             "sortIndex": 4
           }
         ],
@@ -13251,9 +13251,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa4a-1141-4a40-0038",
+            "id": "pa69-7836-69b1-0026",
             "type": "selectionEntryGroup",
-            "targetId": "pa04-b195-0499-0030",
+            "targetId": "pa37-aa2c-371e-001e",
             "sortIndex": 4
           }
         ],
@@ -13773,6 +13773,29 @@
               }
             ],
             "type": "and"
+          },
+          {
+            "type": "and",
+            "comment": "Heroes of the Uprising detachment",
+            "modifiers": [
+              {
+                "type": "add",
+                "value": "17b8-37ac-9880-8423",
+                "field": "category",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "fc4a-2c42-6f33-0347",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Heroes of the Uprising"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -14175,9 +14198,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paf8-ad41-f8e3-0039",
+            "id": "pa89-9bc7-8931-0027",
             "type": "selectionEntryGroup",
-            "targetId": "pa04-b195-0499-0030",
+            "targetId": "pa37-aa2c-371e-001e",
             "sortIndex": 4
           }
         ],
@@ -14589,6 +14612,29 @@
               }
             ],
             "type": "and"
+          },
+          {
+            "type": "and",
+            "comment": "Heroes of the Uprising detachment",
+            "modifiers": [
+              {
+                "type": "add",
+                "value": "17b8-37ac-9880-8423",
+                "field": "category",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "fc4a-2c42-6f33-0347",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Heroes of the Uprising"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -14816,9 +14862,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paf2-7895-f200-003a",
+            "id": "pa53-e3a8-53f5-0028",
             "type": "selectionEntryGroup",
-            "targetId": "pa04-b195-0499-0030",
+            "targetId": "pa37-aa2c-371e-001e",
             "sortIndex": 4
           }
         ],
@@ -16717,7 +16763,7 @@
             "hidden": false,
             "id": "72c1-ad8a-b2ea-3193",
             "defaultSelectionEntryId": "8261-d629-33d4-b642",
-            "sortIndex": 4
+            "sortIndex": 5
           },
           {
             "selectionEntries": [
@@ -17593,7 +17639,7 @@
             "name": "Neophyte Leader",
             "id": "1072-34a6-b24d-d30f",
             "hidden": false,
-            "sortIndex": 3
+            "sortIndex": 4
           }
         ],
         "infoLinks": [
@@ -17719,11 +17765,20 @@
           },
           {
             "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "id": "14ff-92f9-0e78-c198",
+            "type": "selectionEntryGroup",
+            "targetId": "4516-88d2-6b61-6a3d",
+            "sortIndex": 3
+          },
+          {
+            "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa8f-38b3-8f7e-0042",
+            "id": "pad9-a22f-d9df-0030",
             "type": "selectionEntryGroup",
-            "targetId": "pa04-b195-0499-0030",
+            "targetId": "pa37-aa2c-371e-001e",
             "sortIndex": 4
           }
         ],
@@ -18275,9 +18330,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa5e-3bec-5e4c-003b",
+            "id": "pa06-53d3-0636-0029",
             "type": "selectionEntryGroup",
-            "targetId": "pa04-b195-0499-0030",
+            "targetId": "pa37-aa2c-371e-001e",
             "sortIndex": 4
           }
         ],
@@ -18811,9 +18866,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa1b-4095-1b46-003c",
+            "id": "pace-f423-ce35-002a",
             "type": "selectionEntryGroup",
-            "targetId": "pa04-b195-0499-0030",
+            "targetId": "pa37-aa2c-371e-001e",
             "sortIndex": 4
           }
         ],
@@ -19656,9 +19711,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa48-5daa-4834-003d",
+            "id": "pa68-60dd-685f-002b",
             "type": "selectionEntryGroup",
-            "targetId": "pa04-b195-0499-0030",
+            "targetId": "pa37-aa2c-371e-001e",
             "sortIndex": 4
           }
         ],
@@ -20233,6 +20288,23 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 140,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "965b-496a-3a1b-22a8",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -20270,23 +20342,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 140,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "965b-496a-3a1b-22a8",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }
@@ -20385,11 +20440,20 @@
           },
           {
             "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "id": "8a91-3af4-620c-7451",
+            "type": "selectionEntryGroup",
+            "targetId": "4516-88d2-6b61-6a3d",
+            "sortIndex": 3
+          },
+          {
+            "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pac1-e4de-c101-0041",
+            "id": "pa15-eb53-15c1-002f",
             "type": "selectionEntryGroup",
-            "targetId": "pa04-b195-0499-0030",
+            "targetId": "pa37-aa2c-371e-001e",
             "sortIndex": 4
           }
         ],
@@ -20860,7 +20924,7 @@
             "name": "5-10 Purestrain Genestealers",
             "id": "0883-0db6-292f-c2dd",
             "hidden": false,
-            "sortIndex": 3
+            "sortIndex": 4
           }
         ],
         "type": "unit",
@@ -21060,9 +21124,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paac-78e1-acce-003e",
+            "id": "pa00-7b7b-00be-002c",
             "type": "selectionEntryGroup",
-            "targetId": "pa04-b195-0499-0030",
+            "targetId": "pa37-aa2c-371e-001e",
             "sortIndex": 4
           }
         ],
@@ -21377,6 +21441,29 @@
               }
             ],
             "type": "and"
+          },
+          {
+            "type": "and",
+            "comment": "Heroes of the Uprising detachment",
+            "modifiers": [
+              {
+                "type": "add",
+                "value": "17b8-37ac-9880-8423",
+                "field": "category",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "fc4a-2c42-6f33-0347",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Heroes of the Uprising"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -21873,9 +21960,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa4b-86ac-4b94-003f",
+            "id": "pab1-62ab-b15f-002d",
             "type": "selectionEntryGroup",
-            "targetId": "pa04-b195-0499-0030",
+            "targetId": "pa37-aa2c-371e-001e",
             "sortIndex": 4
           }
         ],
@@ -22484,6 +22571,29 @@
               }
             ],
             "type": "and"
+          },
+          {
+            "type": "and",
+            "comment": "Heroes of the Uprising detachment",
+            "modifiers": [
+              {
+                "type": "add",
+                "value": "17b8-37ac-9880-8423",
+                "field": "category",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "fc4a-2c42-6f33-0347",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Heroes of the Uprising"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "type": "model",
@@ -24342,9 +24452,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa05-d3f0-05c0-0040",
+            "id": "pa7a-62f9-7a7b-002e",
             "type": "selectionEntryGroup",
-            "targetId": "pa04-b195-0499-0030",
+            "targetId": "pa37-aa2c-371e-001e",
             "sortIndex": 4
           }
         ],
@@ -44007,54 +44117,9 @@
         "id": "d1ae-4000-bdd2-333b"
       },
       {
-        "name": "Kelermorph",
-        "hidden": false,
-        "id": "33d4-a80e-ecc-e821"
-      },
-      {
-        "name": "Locus",
-        "hidden": false,
-        "id": "dfde-688d-75b8-77bb"
-      },
-      {
-        "name": "Magus",
-        "hidden": false,
-        "id": "46a5-442b-8c19-355c"
-      },
-      {
-        "name": "Neophyte Hybrids",
-        "hidden": false,
-        "id": "9ffe-1e2a-b828-b7af"
-      },
-      {
         "name": "Nexos",
         "hidden": false,
         "id": "8b0d-31c9-98a2-8430"
-      },
-      {
-        "name": "Patriarch",
-        "hidden": false,
-        "id": "94ba-162-6050-a30e"
-      },
-      {
-        "name": "Primus",
-        "hidden": false,
-        "id": "3253-f6f5-2121-8a2f"
-      },
-      {
-        "name": "Purestrain Genestealers",
-        "hidden": false,
-        "id": "6d9c-2e39-be0b-aee9"
-      },
-      {
-        "name": "Reductus Saboteur",
-        "hidden": false,
-        "id": "5455-1687-f81e-b3c5"
-      },
-      {
-        "name": "Sanctus",
-        "hidden": false,
-        "id": "7eca-eb86-84bd-c846"
       },
       {
         "name": "Tectonic Fragdrill",
@@ -44248,7 +44313,7 @@
     "library": false,
     "id": "3bdf-a114-5035-c6ac",
     "name": "Xenos - Genestealer Cults",
-    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemId": "sys-352e-adc2-7639-d6a9",
     "gameSystemRevision": 1,
     "revision": 121,
     "battleScribeVersion": 2.03,
