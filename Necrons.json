@@ -2650,7 +2650,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "value": 30
                   }
                 ],
                 "modifiers": [
@@ -4348,6 +4348,82 @@
                 "scope": "parent",
                 "shared": true,
                 "id": "pada-472f-cc7e-fd8c"
+              }
+            ]
+          },
+          {
+            "name": "The Phaeron's Armoury Enhancements",
+            "hidden": false,
+            "id": "f6e4-8e64-5b4a-56f0",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "7e16-552d-f3a9-035f",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "a7aa-be2b-4297-8727"
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Mortality Shroud (Aura)",
+                "hidden": false,
+                "collective": false,
+                "id": "ca82-3ed7-aff4-ac0c",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 10
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "befb-53a3-3f5f-2034",
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           }
