@@ -19179,7 +19179,7 @@
           {
             "characteristics": [
               {
-                "$text": "In your opponent's Shooting phase, each time an enemy unit has shot, if this model was hit by one or more of those attacks, it can make a Driven by Fury move. To do so, roll one D6 and add 2 to the roll; this model moves a number of inches up to the result, but must finish as close as possible to the closest enemy unit [excluding Aircraft]. When doing so, this model can be moved within\nEngagement Range of that enemy unit. A model cannot make a Driven by Fury move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Driven by Fury move per phase.",
+                "$text": "In your opponent's Shooting phase, when an enemy unit has shot, if this model lost a wound as a result of those attacks, this unit can make a surge move of up to D6+2\".",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }

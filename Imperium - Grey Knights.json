@@ -3981,7 +3981,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Each time an enemy unit ends a **charge move engaged** with one or more friendly **GREY KNIGHTS VEHICLE** units and within 6\" of this unit, you can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that **stratagem** on other units this phase."
+                "$text": "Each time an enemy unit ends a charge move engaged with one or more friendly GREY KNIGHTS VEHICLE units and within 6\" of this unit, you can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that stratagem on other units this phase."
               }
             ],
             "name": "Guardians of the Machine",
@@ -33432,7 +33432,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^Grey Knights^^** model only. Once per battle, at the start of any phase, the bearer can select one friendly **^^Grey Knights^^** unit within 18\" of and visible to it. If it does, until the end of the phase, that unit is within your army’s Hallowed Ground.",
+                        "$text": "This warrior sorcerer lends their spiritual strength to allies fighting amidst unholy corruption, bolstering their spiritual resolve.\n\nGREY KNIGHTS model only. Once per battle, at the start of any phase, the bearer can select one friendly GREY KNIGHTS unit within 18\" of and visible to it. If it does, until the end of the phase, that unit is within your army's Hallowed Ground.",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -33507,14 +33507,39 @@
                 "import": true,
                 "name": "Paragon of Sanctity",
                 "hidden": false,
-                "id": "729d-a08a-9b1f-5180"
+                "id": "729d-a08a-9b1f-5180",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pafa-c2c7-ebff-cd4c",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "d564-3284-bf44-b873",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "profiles": [
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^Grey Knights Infantry^^** model only. Models in the bearer’s unit have the Stealth ability.",
+                        "$text": "Gifted by the Prognosticars of the Augurium, this ampoule contains cosmic energies syphoned from the event horizon of a Warp singularity. At the prophesied hour, the vial shatters, its contents swirling around the bearer and wreathing them in a localised field of time and light distortion.\n\nGREY KNIGHTS INFANTRY model only. Models in the bearer's unit have the Stealth ability.",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -33528,19 +33553,37 @@
                 ],
                 "modifiers": [
                   {
-                    "conditions": [
-                      {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "childId": "cf47-a0d7-7207-29dc",
-                        "shared": true
-                      }
-                    ],
                     "type": "set",
                     "value": true,
-                    "field": "hidden"
+                    "field": "hidden",
+                    "id": "paa5-8308-9c68-e43c",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "d564-3284-bf44-b873",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "cf47-a0d7-7207-29dc",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ],
                 "infoLinks": [
@@ -33622,7 +33665,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^Grey Knights^^** model only. While the bearer’s unit is not Battle‑shocked, add 3 to the bearer’s Objective Control characteristic.",
+                        "$text": "This reliquary contains a single finger bone taken from the body of the feted former Grand Master, Mandulis. It serves as a symbol of unity and duty.\n\nGREY KNIGHTS model only. While the bearer's unit is not Battle-shocked, add 3 to the bearer's Objective Control characteristic.",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -33696,14 +33739,39 @@
                 "import": true,
                 "name": "Mandulian Reliquary",
                 "hidden": false,
-                "id": "15d6-0fd2-69cf-6c36"
+                "id": "15d6-0fd2-69cf-6c36",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa86-dd0f-fc63-9f8d",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "d564-3284-bf44-b873",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "profiles": [
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^Grey Knights Infantry^^** model only. The bearer’s melee weapons have the [^^**Precision**^^] ability, and while the bearer is wholly within your army’s Hallowed Ground, each time a melee attack made by the bearer scores a wound, the target of that attack suffers 1 mortal wound in addition to any normal damage.",
+                        "$text": "This warrior is a master slayer whose blade has found the cursed hearts of countless corrupted foes. When fighting within realms cleansed by eldritch power, his psychic might manifests in a nimbus of searing light, and his strikes inflict terrible wounds upon flesh and soul.\n\nGREY KNIGHTS INFANTRY model only. The bearer's melee weapons have the [PRECISION] ability, and while the bearer is wholly within your army's Hallowed Ground, each time a melee attack made by the bearer scores a wound, the target of that attack suffers 1 mortal wound in addition to any normal damage.",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -33717,19 +33785,37 @@
                 ],
                 "modifiers": [
                   {
-                    "conditions": [
-                      {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "childId": "cf47-a0d7-7207-29dc",
-                        "shared": true
-                      }
-                    ],
                     "type": "set",
                     "value": true,
-                    "field": "hidden"
+                    "field": "hidden",
+                    "id": "pa32-ccce-6a1f-b74c",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "d564-3284-bf44-b873",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "cf47-a0d7-7207-29dc",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ],
                 "costs": [
@@ -33858,7 +33944,7 @@
                       {
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "**GREY KNIGHTS** model only. You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that **stratagem** on other units this phase."
+                        "$text": "GREY KNIGHTS model only. You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that stratagem on other units this phase."
                       }
                     ],
                     "name": "Eye of the Augurium",
@@ -36448,7 +36534,7 @@
                       {
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "**TERMINATOR** model only. This unit has +1 to **charge rolls**."
+                        "$text": "These champions of Titan employ their psychic might to lend themselves supernatural speed and catch their enemies unawares.\n\nTERMINATOR model only. This unit has +1 to charge rolls."
                       }
                     ],
                     "name": "Psychic Celerity",
@@ -36526,15 +36612,22 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "conditions": [
+                    "id": "pa8e-b111-87a4-e349",
+                    "conditionGroups": [
                       {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "root-entry",
-                        "childId": "740a-892c-8958-defa",
-                        "shared": true,
-                        "childName": "Terminator"
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "740a-892c-8958-defa",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
                       }
                     ]
                   }
@@ -36547,7 +36640,7 @@
                       {
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "**TERMINATOR** model only. At the start of your Shooting phase, you can select one **visible** enemy unit within 12\" of this unit. That enemy unit has +6\" **detection range**."
+                        "$text": "None who would work the unclean will of the Warp - even unknowingly - can escape the merciless gaze of the Grey Knights.\n\nTERMINATOR model only. At the start of your Shooting phase, you can select one visible enemy unit within 12\" of this unit. That enemy unit has +6\" detection range."
                       }
                     ],
                     "name": "Vigilance of Titan",
@@ -36625,15 +36718,22 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "conditions": [
+                    "id": "pa48-8694-c8c7-2b77",
+                    "conditionGroups": [
                       {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "root-entry",
-                        "childId": "740a-892c-8958-defa",
-                        "shared": true,
-                        "childName": "Terminator"
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "740a-892c-8958-defa",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
                       }
                     ]
                   }
@@ -36690,6 +36790,408 @@
             "name": "Argent Assault Enhancements",
             "id": "66bd-c915-c5b9-97a9",
             "hidden": false
+          },
+          {
+            "name": "Fires of Purgation Enhancements",
+            "id": "pa4c-2e1f-9760-2200",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Precognicient Volleys",
+                "hidden": false,
+                "id": "pa63-5009-4cab-f104",
+                "profiles": [
+                  {
+                    "name": "Precognicient Volleys",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa8a-6d70-cc99-1ad2",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "These warriors have honed their psychic foretelling powers to provide glimpses of their enemies' movements and guide their fire in response.\n\nPURGATION SQUAD unit only. This unit's snap shooting attacks hit on unmodified hit rolls of 5+."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa66-d948-b12e-40d4"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa2e-fc3e-5f86-a72f",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 10
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa12-8714-dfc5-39a3",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "8084-5bdd-7c6-bae4",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Boons of Deimos",
+                "hidden": false,
+                "id": "pa4b-1a26-86a2-a28c",
+                "profiles": [
+                  {
+                    "name": "Boons of Deimos",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa56-ca76-6fad-a253",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Fashioned on Titan's forge moon by the most skilled tech-magi, these remarkable firearms are a blessing to any who wield them.\n\nPURGATION SQUAD unit only. This unit's ranged attacks have +2 S."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa48-5139-d0d7-8d84"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa99-6ee9-eef8-86fe",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa41-3e99-9015-598c",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "8084-5bdd-7c6-bae4",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "cc43-5f22-04f2-5c31",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa7d-5fcf-d456-87da"
+              }
+            ]
+          },
+          {
+            "name": "Immaterial Interdiction Enhancements",
+            "id": "pae9-b7da-5e30-c8cf",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Predestined Coordinates",
+                "hidden": false,
+                "id": "pa86-442b-bc9b-96f1",
+                "profiles": [
+                  {
+                    "name": "Predestined Coordinates",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pada-76ef-36b5-7e15",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "This rune-sealed data-scroll is opened at the ordained moment, providing vital strategic insights and empyric jump coordinates foreseen by the Prognosticars themselves.\n\nINTERCEPTOR SQUAD unit only. In your first Movement phase, this unit can make an ingress move."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa66-bf60-8f0c-efd8"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pad0-aa18-3d64-e8b7",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 10
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "paaf-42fd-e06a-49ac",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b7d3-6b00-c657-ebd7",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Astral Overlap",
+                "hidden": false,
+                "id": "pa5c-1bae-11ea-5874",
+                "profiles": [
+                  {
+                    "name": "Astral Overlap",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "paa5-90f4-2a4a-85a2",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Esoteric adjustments to the calibration of these Interceptors' teleportation arrays allow them to achieve a temporary state of semi-incorporeality, in which enemy projectiles may simply pass through them as though they were ghosts.\n\nINTERCEPTOR SQUAD unit only. This unit has Stealth."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa28-3a48-ded0-bf03"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa7d-f41a-fc06-7765",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 10
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa9d-8dec-3393-7e54",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b7d3-6b00-c657-ebd7",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "b96b-6cb7-211b-e744",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa82-98a4-4158-106c"
+              }
+            ]
           }
         ],
         "entryLinks": [
