@@ -47650,7 +47650,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa7f-5992-2293-299f",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -47661,11 +47660,24 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "b897-e4c6-fcb6-6538",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
                       }
                     ]
                   }
@@ -47762,7 +47774,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa46-e595-28fa-9125",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -47773,11 +47784,24 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "59a9-b5cc-7c11-aaad",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
                       }
                     ]
                   }
@@ -47874,7 +47898,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa1e-ce71-a9c0-d3fe",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -47885,11 +47908,24 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "5418-f86b-6e76-c5a",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
                       }
                     ]
                   }
@@ -48017,7 +48053,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa42-3a6b-ca1c-726f",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -48028,11 +48063,24 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "b897-e4c6-fcb6-6538",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
                       }
                     ]
                   }
@@ -48222,7 +48270,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa62-c0f8-dfbe-63f2",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -48233,11 +48280,24 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "b897-e4c6-fcb6-6538",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
                       }
                     ]
                   }
@@ -48385,7 +48445,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pada-fd13-df53-d524",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -48396,11 +48455,24 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "6785-add8-89f-d960",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
                       }
                     ]
                   }
@@ -48478,7 +48550,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa57-ceea-7f83-2cf3",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -48489,11 +48560,24 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "59a9-b5cc-7c11-aaad",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
                       }
                     ]
                   }
@@ -48573,7 +48657,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa32-dc45-9814-d321",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -48584,11 +48667,24 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "59a9-b5cc-7c11-aaad",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
                       }
                     ]
                   }
@@ -48676,7 +48772,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa9f-1229-17bd-9231",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -48687,11 +48782,24 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "59a9-b5cc-7c11-aaad",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
                       }
                     ]
                   }
@@ -48822,7 +48930,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paa0-62d1-8cdc-fc94",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -48833,11 +48940,24 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "6785-add8-89f-d960",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
                       }
                     ]
                   }
@@ -48925,7 +49045,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa92-89c2-d479-e490",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -48936,9 +49055,7 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "5418-f86b-6e76-c5a",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
                       }
@@ -48948,7 +49065,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa6e-e2fa-60c9-95d6",
                     "conditions": [
                       {
                         "type": "instanceOf",
@@ -48956,9 +49072,22 @@
                         "field": "selections",
                         "scope": "ancestor",
                         "childId": "6785-add8-89f-d960",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
+                        "shared": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
                       }
                     ]
                   }
@@ -49046,7 +49175,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa3d-afd2-28d2-dcaf",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -49057,11 +49185,24 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "5418-f86b-6e76-c5a",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
                       }
                     ]
                   }
@@ -49149,42 +49290,42 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pad5-82bd-b82d-694d",
                     "conditionGroups": [
                       {
                         "type": "and",
-                        "conditionGroups": [
+                        "conditions": [
                           {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "6424-ed86-9e15-3e14",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
-                              }
-                            ]
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "6424-ed86-9e15-3e14",
+                            "shared": true
                           },
                           {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "2d9b-610a-dc4d-15ae",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
-                              }
-                            ]
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "2d9b-610a-dc4d-15ae",
+                            "shared": true
                           }
                         ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
                       }
                     ]
                   }
@@ -58035,7 +58176,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pae7-4a9a-7f18-48c1",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -58046,9 +58186,7 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "2ca0-ee66-2659-8616",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
                       }

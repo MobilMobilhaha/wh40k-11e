@@ -52265,7 +52265,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa76-b151-cd2f-9427",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -52276,9 +52275,7 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "ed41-36cc-6e01-1084",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
                       }
@@ -52402,30 +52399,30 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa6d-ba19-f6de-dd91",
                     "conditionGroups": [
                       {
-                        "type": "or",
-                        "conditions": [
+                        "type": "and",
+                        "conditionGroups": [
                           {
-                            "type": "notInstanceOf",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "ancestor",
-                            "childId": "bd1d-c1a5-6ca2-c791",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
-                          },
-                          {
-                            "type": "notInstanceOf",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "ancestor",
-                            "childId": "dbd4-63-af05-998",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "type": "notInstanceOf",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "bd1d-c1a5-6ca2-c791",
+                                "shared": true
+                              },
+                              {
+                                "type": "notInstanceOf",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "dbd4-63-af05-998",
+                                "shared": true
+                              }
+                            ]
                           }
                         ]
                       }
@@ -52632,7 +52629,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paac-ba10-76ca-233a",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -52643,9 +52639,7 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "bed2-a2a1-caf3-d9d7",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
                       }
@@ -52776,7 +52770,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa48-4371-ca06-aaa7",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -52787,9 +52780,7 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "bed2-a2a1-caf3-d9d7",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
                       }
@@ -53008,7 +52999,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa17-72a9-3321-8981",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -53019,9 +53009,7 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "bd1d-c1a5-6ca2-c791",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
                       }
@@ -53111,30 +53099,30 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa84-f3cc-2744-aeec",
                     "conditionGroups": [
                       {
-                        "type": "or",
-                        "conditions": [
+                        "type": "and",
+                        "conditionGroups": [
                           {
-                            "type": "notInstanceOf",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "ancestor",
-                            "childId": "bd1d-c1a5-6ca2-c791",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
-                          },
-                          {
-                            "type": "notInstanceOf",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "ancestor",
-                            "childId": "4f09-0141-6c70-6c5a",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "type": "notInstanceOf",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "bd1d-c1a5-6ca2-c791",
+                                "shared": true
+                              },
+                              {
+                                "type": "notInstanceOf",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "4f09-0141-6c70-6c5a",
+                                "shared": true
+                              }
+                            ]
                           }
                         ]
                       }

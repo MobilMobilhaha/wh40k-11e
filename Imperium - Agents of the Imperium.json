@@ -90892,7 +90892,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa6c-7e90-70fa-5c18",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -90903,9 +90902,7 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "9063-fa49-9ba2-9350",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
                       }
@@ -90967,7 +90964,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa9b-6d5c-a54c-47e4",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -90978,9 +90974,7 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "1d30-5c67-e36f-9e55",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
                       }
@@ -91042,7 +91036,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa46-4f16-ec4b-b5de",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -91053,9 +91046,7 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "3494-754d-59d1-1d6c",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
                       }
@@ -91117,7 +91108,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paa4-64b4-8ad2-340d",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -91128,9 +91118,7 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "bbce-4a66-765f-6f5f",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
                       }

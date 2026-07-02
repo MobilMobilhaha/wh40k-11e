@@ -49942,7 +49942,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paab-3e62-4f22-83e5",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -49956,9 +49955,7 @@
                                 "field": "selections",
                                 "scope": "ancestor",
                                 "childId": "cf47-a0d7-7207-29dc",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
+                                "shared": true
                               },
                               {
                                 "type": "notInstanceOf",
@@ -49966,9 +49963,7 @@
                                 "field": "selections",
                                 "scope": "ancestor",
                                 "childId": "7002-1fbb-7571-e8e7",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
+                                "shared": true
                               },
                               {
                                 "type": "notInstanceOf",
@@ -49976,9 +49971,7 @@
                                 "field": "selections",
                                 "scope": "ancestor",
                                 "childId": "13bf-2bee-3ae0-b414",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
+                                "shared": true
                               }
                             ]
                           },
@@ -49991,9 +49984,7 @@
                                 "field": "selections",
                                 "scope": "ancestor",
                                 "childId": "14a0-40c9-2748-ae6e",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
+                                "shared": true
                               },
                               {
                                 "type": "notInstanceOf",
@@ -50001,9 +49992,7 @@
                                 "field": "selections",
                                 "scope": "ancestor",
                                 "childId": "7002-1fbb-7571-e8e7",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
+                                "shared": true
                               },
                               {
                                 "type": "notInstanceOf",
@@ -50011,13 +50000,26 @@
                                 "field": "selections",
                                 "scope": "ancestor",
                                 "childId": "13bf-2bee-3ae0-b414",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
+                                "shared": true
                               }
                             ]
                           }
                         ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
                       }
                     ]
                   }
@@ -50105,7 +50107,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa47-6628-54e0-143d",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -50119,9 +50120,7 @@
                                 "field": "selections",
                                 "scope": "ancestor",
                                 "childId": "cf47-a0d7-7207-29dc",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
+                                "shared": true
                               },
                               {
                                 "type": "notInstanceOf",
@@ -50129,9 +50128,7 @@
                                 "field": "selections",
                                 "scope": "ancestor",
                                 "childId": "7002-1fbb-7571-e8e7",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
+                                "shared": true
                               },
                               {
                                 "type": "notInstanceOf",
@@ -50139,9 +50136,7 @@
                                 "field": "selections",
                                 "scope": "ancestor",
                                 "childId": "13bf-2bee-3ae0-b414",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
+                                "shared": true
                               }
                             ]
                           },
@@ -50154,9 +50149,7 @@
                                 "field": "selections",
                                 "scope": "ancestor",
                                 "childId": "14a0-40c9-2748-ae6e",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
+                                "shared": true
                               },
                               {
                                 "type": "notInstanceOf",
@@ -50164,9 +50157,7 @@
                                 "field": "selections",
                                 "scope": "ancestor",
                                 "childId": "7002-1fbb-7571-e8e7",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
+                                "shared": true
                               },
                               {
                                 "type": "notInstanceOf",
@@ -50174,13 +50165,26 @@
                                 "field": "selections",
                                 "scope": "ancestor",
                                 "childId": "13bf-2bee-3ae0-b414",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
+                                "shared": true
                               }
                             ]
                           }
                         ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
                       }
                     ]
                   }
@@ -50319,42 +50323,42 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paf2-e26c-e7e3-af38",
                     "conditionGroups": [
                       {
                         "type": "and",
-                        "conditionGroups": [
+                        "conditions": [
                           {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "3789-4546-1d0a-f02b",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
-                              }
-                            ]
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "3789-4546-1d0a-f02b",
+                            "shared": true
                           },
                           {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "010f-ca66-75a1-379b",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
-                              }
-                            ]
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "010f-ca66-75a1-379b",
+                            "shared": true
                           }
                         ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
                       }
                     ]
                   }
@@ -50442,42 +50446,42 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paf9-bbb9-5425-e77d",
                     "conditionGroups": [
                       {
                         "type": "and",
-                        "conditionGroups": [
+                        "conditions": [
                           {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "3789-4546-1d0a-f02b",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
-                              }
-                            ]
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "3789-4546-1d0a-f02b",
+                            "shared": true
                           },
                           {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "010f-ca66-75a1-379b",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": true
-                              }
-                            ]
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "010f-ca66-75a1-379b",
+                            "shared": true
                           }
                         ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
                       }
                     ]
                   }
@@ -50616,7 +50620,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pafb-9158-b3e5-86d2",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -50627,11 +50630,24 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "527e-a024-3c7f-e5df",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
                       }
                     ]
                   }
@@ -50809,7 +50825,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paf1-1551-2db0-fdd2",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -50820,11 +50835,24 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "7002-1fbb-7571-e8e7",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
                       }
                     ]
                   }
@@ -50914,7 +50942,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pae6-e89d-1a32-a3af",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -50925,11 +50952,24 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "7002-1fbb-7571-e8e7",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
                       }
                     ]
                   }
@@ -51019,7 +51059,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pad1-6d26-acb5-c213",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -51030,11 +51069,24 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "7002-1fbb-7571-e8e7",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
                       }
                     ]
                   }
@@ -51124,7 +51176,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa85-dcad-7a75-b188",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -51135,11 +51186,24 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "7002-1fbb-7571-e8e7",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
                       }
                     ]
                   }
@@ -61357,7 +61421,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa83-738b-df31-f957",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -61368,9 +61431,7 @@
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "6342-2cd6-f518-f565",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
+                            "shared": true
                           }
                         ]
                       }
