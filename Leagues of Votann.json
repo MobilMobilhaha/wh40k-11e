@@ -1622,24 +1622,6 @@
             "id": "5a2c-679e-dce6-d62e",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 7
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "b712-389b-20bf-2e5a",
-            "targetId": "4e2c-4ba5-749f-745a",
-            "sortIndex": 8
-          },
-          {
-            "import": true,
-            "name": "Enhancements - Upgrades",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "7797-6dee-98f6-38ac",
-            "targetId": "f05c-2b67-8cef-a91f",
-            "sortIndex": 9
           }
         ],
         "costs": [
@@ -4865,15 +4847,6 @@
             "id": "8b35-2e5c-6fa9-83cc",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 1
-          },
-          {
-            "import": true,
-            "name": "Enhancements - Upgrades",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "f870-a4fd-8cbd-7138",
-            "targetId": "f05c-2b67-8cef-a91f",
-            "sortIndex": 2
           }
         ],
         "modifierGroups": [
@@ -5789,24 +5762,6 @@
             "id": "b32a-7616-8b5c-5079",
             "targetId": "814a-ca5b-8705-b27b",
             "sortIndex": 6
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "4e3f-2b07-c060-80e0",
-            "targetId": "4e2c-4ba5-749f-745a",
-            "sortIndex": 7
-          },
-          {
-            "import": true,
-            "name": "Enhancements - Upgrades",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "4797-a53e-39b4-8795",
-            "targetId": "f05c-2b67-8cef-a91f",
-            "sortIndex": 8
           }
         ],
         "costs": [
@@ -6928,24 +6883,6 @@
             "id": "b02a-a145-2936-eff0",
             "targetId": "814a-ca5b-8705-b27b",
             "sortIndex": 6
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "e691-bef7-853e-9073",
-            "targetId": "4e2c-4ba5-749f-745a",
-            "sortIndex": 7
-          },
-          {
-            "import": true,
-            "name": "Enhancements - Upgrades",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "eb46-95fd-78e4-3e5e",
-            "targetId": "f05c-2b67-8cef-a91f",
-            "sortIndex": 8
           }
         ],
         "costs": [
@@ -8231,24 +8168,6 @@
             "id": "d70f-6cf4-501d-b7f1",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 5
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "c582-acc3-4a90-3362",
-            "targetId": "4e2c-4ba5-749f-745a",
-            "sortIndex": 6
-          },
-          {
-            "import": true,
-            "name": "Enhancements - Upgrades",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "ec2d-a18f-264a-f2b3",
-            "targetId": "f05c-2b67-8cef-a91f",
-            "sortIndex": 7
           }
         ],
         "costs": [
@@ -8754,24 +8673,6 @@
             "id": "ed12-32cb-efd5-b785",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 5
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "2288-47ed-ad81-fb1d",
-            "targetId": "4e2c-4ba5-749f-745a",
-            "sortIndex": 6
-          },
-          {
-            "import": true,
-            "name": "Enhancements - Upgrades",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "273d-1011-68d4-1a03",
-            "targetId": "f05c-2b67-8cef-a91f",
-            "sortIndex": 7
           }
         ],
         "costs": [
@@ -12249,15 +12150,6 @@
             "id": "77bf-19ca-2bfc-e54a",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 1
-          },
-          {
-            "import": true,
-            "name": "Enhancements - Upgrades",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "9ceb-532d-2134-ca50",
-            "targetId": "f05c-2b67-8cef-a91f",
-            "sortIndex": 2
           }
         ],
         "modifierGroups": [
@@ -13731,15 +13623,6 @@
             "id": "7fce-d1e0-579d-c64a",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 1
-          },
-          {
-            "import": true,
-            "name": "Enhancements - Upgrades",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "370a-549a-fe51-cb16",
-            "targetId": "f05c-2b67-8cef-a91f",
-            "sortIndex": 2
           }
         ],
         "modifierGroups": [
@@ -15653,15 +15536,6 @@
             "type": "selectionEntryGroup",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 4
-          },
-          {
-            "import": true,
-            "name": "Enhancements - Upgrades",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "7c13-f0f1-371d-37dc",
-            "targetId": "f05c-2b67-8cef-a91f",
-            "sortIndex": 2
           }
         ],
         "modifierGroups": [
@@ -17030,15 +16904,6 @@
             "type": "selectionEntryGroup",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 4
-          },
-          {
-            "import": true,
-            "name": "Enhancements - Upgrades",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "bc5c-28ea-dd98-d6ac",
-            "targetId": "f05c-2b67-8cef-a91f",
-            "sortIndex": 2
           }
         ],
         "modifierGroups": [
@@ -18211,15 +18076,6 @@
             "id": "a435-86ad-4151-5d79",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 1
-          },
-          {
-            "import": true,
-            "name": "Enhancements - Upgrades",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "2ff2-c2d8-1932-1b8a",
-            "targetId": "f05c-2b67-8cef-a91f",
-            "sortIndex": 2
           }
         ],
         "modifierGroups": [
@@ -19380,15 +19236,6 @@
             "id": "53f4-eb92-a900-ab28",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 1
-          },
-          {
-            "import": true,
-            "name": "Enhancements - Upgrades",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "4911-66a5-771f-ab6e",
-            "targetId": "f05c-2b67-8cef-a91f",
-            "sortIndex": 2
           }
         ],
         "constraints": [
@@ -20053,15 +19900,6 @@
             "type": "selectionEntryGroup",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 4
-          },
-          {
-            "import": true,
-            "name": "Enhancements - Upgrades",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "aebc-23e2-7d2b-8976",
-            "targetId": "f05c-2b67-8cef-a91f",
-            "sortIndex": 2
           }
         ],
         "modifierGroups": [
@@ -21765,24 +21603,6 @@
             "id": "2c48-b3e7-4ba7-c861",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 5
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "b0e5-eff2-fc06-6415",
-            "targetId": "4e2c-4ba5-749f-745a",
-            "sortIndex": 6
-          },
-          {
-            "import": true,
-            "name": "Enhancements - Upgrades",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "2386-a71c-7a1a-fe29",
-            "targetId": "f05c-2b67-8cef-a91f",
-            "sortIndex": 7
           }
         ],
         "selectionEntryGroups": [
@@ -22026,24 +21846,6 @@
             "id": "3083-a862-f01d-523c",
             "targetId": "814a-ca5b-8705-b27b",
             "sortIndex": 6
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "ac1e-8392-8dd9-fd26",
-            "targetId": "4e2c-4ba5-749f-745a",
-            "sortIndex": 7
-          },
-          {
-            "import": true,
-            "name": "Enhancements - Upgrades",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "43ab-d2d5-9a59-525c",
-            "targetId": "f05c-2b67-8cef-a91f",
-            "sortIndex": 8
           }
         ],
         "selectionEntryGroups": [
@@ -22750,24 +22552,6 @@
             "id": "ff80-2c16-996b-225f",
             "targetId": "814a-ca5b-8705-b27b",
             "sortIndex": 6
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "a13c-a19c-9751-bae6",
-            "targetId": "4e2c-4ba5-749f-745a",
-            "sortIndex": 7
-          },
-          {
-            "import": true,
-            "name": "Enhancements - Upgrades",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "adbc-355e-8714-3497",
-            "targetId": "f05c-2b67-8cef-a91f",
-            "sortIndex": 8
           }
         ],
         "selectionEntryGroups": [
@@ -23930,15 +23714,6 @@
             "id": "85e9-762f-2fc8-1e2b",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 1
-          },
-          {
-            "import": true,
-            "name": "Enhancements - Upgrades",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "fe8b-ba61-c5eb-9d75",
-            "targetId": "f05c-2b67-8cef-a91f",
-            "sortIndex": 2
           }
         ],
         "constraints": [
@@ -24494,15 +24269,6 @@
             "id": "1847-8524-be47-2897",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 1
-          },
-          {
-            "import": true,
-            "name": "Enhancements - Upgrades",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "3565-17ec-a4ff-aa91",
-            "targetId": "f05c-2b67-8cef-a91f",
-            "sortIndex": 2
           }
         ],
         "selectionEntryGroups": [
@@ -25356,15 +25122,6 @@
             "id": "9b6a-96bf-b83e-c115",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 1
-          },
-          {
-            "import": true,
-            "name": "Enhancements - Upgrades",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "8895-1d5b-bad6-d4ad",
-            "targetId": "f05c-2b67-8cef-a91f",
-            "sortIndex": 2
           }
         ],
         "selectionEntryGroups": [
@@ -26275,15 +26032,6 @@
             "id": "1c95-a4cc-8773-bb02",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 1
-          },
-          {
-            "import": true,
-            "name": "Enhancements - Upgrades",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "3b5a-3102-8fc3-4f71",
-            "targetId": "f05c-2b67-8cef-a91f",
-            "sortIndex": 2
           }
         ],
         "selectionEntryGroups": [
@@ -27643,15 +27391,6 @@
             "id": "6594-aaf6-ceed-9db7",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 1
-          },
-          {
-            "import": true,
-            "name": "Enhancements - Upgrades",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "45a6-d67c-fd60-89b2",
-            "targetId": "f05c-2b67-8cef-a91f",
-            "sortIndex": 2
           }
         ],
         "constraints": [
@@ -30223,24 +29962,6 @@
             "id": "218b-34dc-7b5d-4e03",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 5
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "2dd2-a38c-b2c8-9bdb",
-            "targetId": "4e2c-4ba5-749f-745a",
-            "sortIndex": 6
-          },
-          {
-            "import": true,
-            "name": "Enhancements - Upgrades",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "dff7-ae0c-5756-f24d",
-            "targetId": "f05c-2b67-8cef-a91f",
-            "sortIndex": 7
           }
         ],
         "type": "model",
@@ -30395,16 +30116,9 @@
                     "scope": "ancestor",
                     "childId": "9cfd-1c32-585f-7d5c",
                     "shared": true
-                  }
-                ]
-              },
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditions": [
+                  },
                   {
-                    "type": "instanceOf",
+                    "type": "notInstanceOf",
                     "value": 1,
                     "field": "selections",
                     "scope": "ancestor",
@@ -30541,16 +30255,9 @@
                     "scope": "ancestor",
                     "childId": "9cfd-1c32-585f-7d5c",
                     "shared": true
-                  }
-                ]
-              },
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditions": [
+                  },
                   {
-                    "type": "instanceOf",
+                    "type": "notInstanceOf",
                     "value": 1,
                     "field": "selections",
                     "scope": "ancestor",
@@ -30687,16 +30394,9 @@
                     "scope": "ancestor",
                     "childId": "9cfd-1c32-585f-7d5c",
                     "shared": true
-                  }
-                ]
-              },
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditions": [
+                  },
                   {
-                    "type": "instanceOf",
+                    "type": "notInstanceOf",
                     "value": 1,
                     "field": "selections",
                     "scope": "ancestor",
@@ -30833,16 +30533,9 @@
                     "scope": "ancestor",
                     "childId": "9cfd-1c32-585f-7d5c",
                     "shared": true
-                  }
-                ]
-              },
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditions": [
+                  },
                   {
-                    "type": "instanceOf",
+                    "type": "notInstanceOf",
                     "value": 1,
                     "field": "selections",
                     "scope": "ancestor",
@@ -30979,16 +30672,9 @@
                     "scope": "ancestor",
                     "childId": "9cfd-1c32-585f-7d5c",
                     "shared": true
-                  }
-                ]
-              },
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditions": [
+                  },
                   {
-                    "type": "instanceOf",
+                    "type": "notInstanceOf",
                     "value": 1,
                     "field": "selections",
                     "scope": "ancestor",
@@ -31125,16 +30811,9 @@
                     "scope": "ancestor",
                     "childId": "9cfd-1c32-585f-7d5c",
                     "shared": true
-                  }
-                ]
-              },
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditions": [
+                  },
                   {
-                    "type": "instanceOf",
+                    "type": "notInstanceOf",
                     "value": 1,
                     "field": "selections",
                     "scope": "ancestor",
@@ -31287,16 +30966,9 @@
                     "scope": "ancestor",
                     "childId": "9cfd-1c32-585f-7d5c",
                     "shared": true
-                  }
-                ]
-              },
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditions": [
+                  },
                   {
-                    "type": "instanceOf",
+                    "type": "notInstanceOf",
                     "value": 1,
                     "field": "selections",
                     "scope": "ancestor",
@@ -31433,16 +31105,9 @@
                     "scope": "ancestor",
                     "childId": "9cfd-1c32-585f-7d5c",
                     "shared": true
-                  }
-                ]
-              },
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditions": [
+                  },
                   {
-                    "type": "instanceOf",
+                    "type": "notInstanceOf",
                     "value": 1,
                     "field": "selections",
                     "scope": "ancestor",
@@ -31594,21 +31259,6 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
-              },
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditions": [
-                  {
-                    "type": "instanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "4f3a-f0f7-6647-348d",
-                    "shared": true
-                  }
-                ]
               }
             ],
             "comment": "Hearthfyre Arsenal",
@@ -31749,21 +31399,6 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
-              },
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditions": [
-                  {
-                    "type": "instanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "4f3a-f0f7-6647-348d",
-                    "shared": true
-                  }
-                ]
               }
             ],
             "comment": "Hearthfyre Arsenal",
@@ -31895,21 +31530,6 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
-              },
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditions": [
-                  {
-                    "type": "instanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "4f3a-f0f7-6647-348d",
-                    "shared": true
-                  }
-                ]
               }
             ],
             "comment": "Hearthfyre Arsenal",
@@ -32054,21 +31674,6 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
-              },
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditions": [
-                  {
-                    "type": "instanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "4f3a-f0f7-6647-348d",
-                    "shared": true
-                  }
-                ]
               }
             ],
             "comment": "Hearthfyre Arsenal",
@@ -32198,16 +31803,9 @@
                     "scope": "ancestor",
                     "childId": "9cfd-1c32-585f-7d5c",
                     "shared": true
-                  }
-                ]
-              },
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditions": [
+                  },
                   {
-                    "type": "instanceOf",
+                    "type": "notInstanceOf",
                     "value": 1,
                     "field": "selections",
                     "scope": "ancestor",
@@ -32344,16 +31942,9 @@
                     "scope": "ancestor",
                     "childId": "9cfd-1c32-585f-7d5c",
                     "shared": true
-                  }
-                ]
-              },
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditions": [
+                  },
                   {
-                    "type": "instanceOf",
+                    "type": "notInstanceOf",
                     "value": 1,
                     "field": "selections",
                     "scope": "ancestor",
@@ -32490,16 +32081,9 @@
                     "scope": "ancestor",
                     "childId": "9cfd-1c32-585f-7d5c",
                     "shared": true
-                  }
-                ]
-              },
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditions": [
+                  },
                   {
-                    "type": "instanceOf",
+                    "type": "notInstanceOf",
                     "value": 1,
                     "field": "selections",
                     "scope": "ancestor",
@@ -32636,16 +32220,9 @@
                     "scope": "ancestor",
                     "childId": "9cfd-1c32-585f-7d5c",
                     "shared": true
-                  }
-                ]
-              },
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditions": [
+                  },
                   {
-                    "type": "instanceOf",
+                    "type": "notInstanceOf",
                     "value": 1,
                     "field": "selections",
                     "scope": "ancestor",
@@ -32784,21 +32361,6 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
-              },
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditions": [
-                  {
-                    "type": "instanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "4f3a-f0f7-6647-348d",
-                    "shared": true
-                  }
-                ]
               }
             ],
             "comment": "Brandfast Oathband",
@@ -32928,16 +32490,9 @@
                     "scope": "ancestor",
                     "childId": "9cfd-1c32-585f-7d5c",
                     "shared": true
-                  }
-                ]
-              },
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditions": [
+                  },
                   {
-                    "type": "instanceOf",
+                    "type": "notInstanceOf",
                     "value": 1,
                     "field": "selections",
                     "scope": "ancestor",
@@ -33076,21 +32631,6 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
-              },
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditions": [
-                  {
-                    "type": "instanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "4f3a-f0f7-6647-348d",
-                    "shared": true
-                  }
-                ]
               }
             ],
             "comment": "Brandfast Oathband",
@@ -33222,21 +32762,6 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
-              },
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditions": [
-                  {
-                    "type": "instanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "4f3a-f0f7-6647-348d",
-                    "shared": true
-                  }
-                ]
               }
             ],
             "comment": "Brandfast Oathband",
@@ -33290,27 +32815,14 @@
                     "conditionGroups": [
                       {
                         "type": "and",
-                        "conditionGroups": [
+                        "conditions": [
                           {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "ef5e-c660-d7fb-5b4b",
-                                "shared": true
-                              },
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "9cfd-1c32-585f-7d5c",
-                                "shared": true
-                              }
-                            ]
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "ef5e-c660-d7fb-5b4b",
+                            "shared": true
                           }
                         ]
                       }
@@ -33322,7 +32834,15 @@
                     "field": "hidden",
                     "conditions": [
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      },
+                      {
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -33418,27 +32938,14 @@
                     "conditionGroups": [
                       {
                         "type": "and",
-                        "conditionGroups": [
+                        "conditions": [
                           {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "ef5e-c660-d7fb-5b4b",
-                                "shared": true
-                              },
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "9cfd-1c32-585f-7d5c",
-                                "shared": true
-                              }
-                            ]
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "ef5e-c660-d7fb-5b4b",
+                            "shared": true
                           }
                         ]
                       }
@@ -33450,7 +32957,15 @@
                     "field": "hidden",
                     "conditions": [
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      },
+                      {
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -33597,27 +33112,14 @@
                     "conditionGroups": [
                       {
                         "type": "and",
-                        "conditionGroups": [
+                        "conditions": [
                           {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "8474-765-16a9-f00d",
-                                "shared": true
-                              },
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "9cfd-1c32-585f-7d5c",
-                                "shared": true
-                              }
-                            ]
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "8474-765-16a9-f00d",
+                            "shared": true
                           }
                         ]
                       }
@@ -33629,7 +33131,15 @@
                     "field": "hidden",
                     "conditions": [
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      },
+                      {
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -33725,27 +33235,14 @@
                     "conditionGroups": [
                       {
                         "type": "and",
-                        "conditionGroups": [
+                        "conditions": [
                           {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "ef5e-c660-d7fb-5b4b",
-                                "shared": true
-                              },
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "9cfd-1c32-585f-7d5c",
-                                "shared": true
-                              }
-                            ]
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "ef5e-c660-d7fb-5b4b",
+                            "shared": true
                           }
                         ]
                       }
@@ -33757,7 +33254,15 @@
                     "field": "hidden",
                     "conditions": [
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      },
+                      {
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -33871,27 +33376,14 @@
                     "conditionGroups": [
                       {
                         "type": "and",
-                        "conditionGroups": [
+                        "conditions": [
                           {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "8474-765-16a9-f00d",
-                                "shared": true
-                              },
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "9cfd-1c32-585f-7d5c",
-                                "shared": true
-                              }
-                            ]
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "8474-765-16a9-f00d",
+                            "shared": true
                           }
                         ]
                       }
@@ -33903,7 +33395,15 @@
                     "field": "hidden",
                     "conditions": [
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      },
+                      {
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -33998,27 +33498,14 @@
                     "conditionGroups": [
                       {
                         "type": "and",
-                        "conditionGroups": [
+                        "conditions": [
                           {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "ef5e-c660-d7fb-5b4b",
-                                "shared": true
-                              },
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "9cfd-1c32-585f-7d5c",
-                                "shared": true
-                              }
-                            ]
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "ef5e-c660-d7fb-5b4b",
+                            "shared": true
                           }
                         ]
                       }
@@ -34030,7 +33517,15 @@
                     "field": "hidden",
                     "conditions": [
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      },
+                      {
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -34231,27 +33726,14 @@
                     "conditionGroups": [
                       {
                         "type": "and",
-                        "conditionGroups": [
+                        "conditions": [
                           {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "ef5e-c660-d7fb-5b4b",
-                                "shared": true
-                              },
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "9cfd-1c32-585f-7d5c",
-                                "shared": true
-                              }
-                            ]
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "ef5e-c660-d7fb-5b4b",
+                            "shared": true
                           }
                         ]
                       }
@@ -34263,7 +33745,15 @@
                     "field": "hidden",
                     "conditions": [
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      },
+                      {
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -34362,27 +33852,14 @@
                     "conditionGroups": [
                       {
                         "type": "and",
-                        "conditionGroups": [
+                        "conditions": [
                           {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "851c-510c-5ca3-a40a",
-                                "shared": true
-                              },
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "9cfd-1c32-585f-7d5c",
-                                "shared": true
-                              }
-                            ]
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "851c-510c-5ca3-a40a",
+                            "shared": true
                           }
                         ]
                       }
@@ -34394,7 +33871,15 @@
                     "field": "hidden",
                     "conditions": [
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      },
+                      {
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -34493,27 +33978,14 @@
                     "conditionGroups": [
                       {
                         "type": "and",
-                        "conditionGroups": [
+                        "conditions": [
                           {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "8474-765-16a9-f00d",
-                                "shared": true
-                              },
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "9cfd-1c32-585f-7d5c",
-                                "shared": true
-                              }
-                            ]
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "8474-765-16a9-f00d",
+                            "shared": true
                           }
                         ]
                       }
@@ -34525,7 +33997,15 @@
                     "field": "hidden",
                     "conditions": [
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      },
+                      {
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -34624,27 +34104,14 @@
                     "conditionGroups": [
                       {
                         "type": "and",
-                        "conditionGroups": [
+                        "conditions": [
                           {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "8474-765-16a9-f00d",
-                                "shared": true
-                              },
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "9cfd-1c32-585f-7d5c",
-                                "shared": true
-                              }
-                            ]
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "8474-765-16a9-f00d",
+                            "shared": true
                           }
                         ]
                       }
@@ -34656,7 +34123,15 @@
                     "field": "hidden",
                     "conditions": [
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      },
+                      {
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",

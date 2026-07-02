@@ -37036,27 +37036,14 @@
                     "conditionGroups": [
                       {
                         "type": "and",
-                        "conditionGroups": [
+                        "conditions": [
                           {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "d564-3284-bf44-b873",
-                                "shared": true
-                              },
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "9cfd-1c32-585f-7d5c",
-                                "shared": true
-                              }
-                            ]
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "d564-3284-bf44-b873",
+                            "shared": true
                           }
                         ]
                       }
@@ -37068,7 +37055,15 @@
                     "field": "hidden",
                     "conditions": [
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      },
+                      {
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -37123,14 +37118,6 @@
                                 "scope": "ancestor",
                                 "childId": "cf47-a0d7-7207-29dc",
                                 "shared": true
-                              },
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "9cfd-1c32-585f-7d5c",
-                                "shared": true
                               }
                             ]
                           }
@@ -37144,7 +37131,15 @@
                     "field": "hidden",
                     "conditions": [
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      },
+                      {
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -37316,27 +37311,14 @@
                     "conditionGroups": [
                       {
                         "type": "and",
-                        "conditionGroups": [
+                        "conditions": [
                           {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "d564-3284-bf44-b873",
-                                "shared": true
-                              },
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "9cfd-1c32-585f-7d5c",
-                                "shared": true
-                              }
-                            ]
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "d564-3284-bf44-b873",
+                            "shared": true
                           }
                         ]
                       }
@@ -37348,7 +37330,15 @@
                     "field": "hidden",
                     "conditions": [
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      },
+                      {
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -37403,14 +37393,6 @@
                                 "scope": "ancestor",
                                 "childId": "cf47-a0d7-7207-29dc",
                                 "shared": true
-                              },
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "9cfd-1c32-585f-7d5c",
-                                "shared": true
                               }
                             ]
                           }
@@ -37424,7 +37406,15 @@
                     "field": "hidden",
                     "conditions": [
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      },
+                      {
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -37646,16 +37636,9 @@
                         "scope": "ancestor",
                         "childId": "9cfd-1c32-585f-7d5c",
                         "shared": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
+                      },
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -37698,21 +37681,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden"
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "4f3a-f0f7-6647-348d",
-                        "shared": true
-                      }
-                    ]
                   }
                 ],
                 "costs": [
@@ -37934,16 +37902,9 @@
                         "scope": "ancestor",
                         "childId": "9cfd-1c32-585f-7d5c",
                         "shared": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
+                      },
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -37986,21 +37947,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden"
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "4f3a-f0f7-6647-348d",
-                        "shared": true
-                      }
-                    ]
                   }
                 ],
                 "costs": [
@@ -38213,16 +38159,9 @@
                         "scope": "ancestor",
                         "childId": "9cfd-1c32-585f-7d5c",
                         "shared": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
+                      },
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -38278,16 +38217,9 @@
                         "scope": "ancestor",
                         "childId": "9cfd-1c32-585f-7d5c",
                         "shared": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
+                      },
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -38406,16 +38338,9 @@
                         "scope": "ancestor",
                         "childId": "9cfd-1c32-585f-7d5c",
                         "shared": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
+                      },
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -38534,16 +38459,9 @@
                         "scope": "ancestor",
                         "childId": "9cfd-1c32-585f-7d5c",
                         "shared": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
+                      },
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -38763,16 +38681,9 @@
                         "scope": "ancestor",
                         "childId": "9cfd-1c32-585f-7d5c",
                         "shared": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
+                      },
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -38876,16 +38787,9 @@
                         "scope": "ancestor",
                         "childId": "9cfd-1c32-585f-7d5c",
                         "shared": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
+                      },
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -38989,16 +38893,9 @@
                         "scope": "ancestor",
                         "childId": "9cfd-1c32-585f-7d5c",
                         "shared": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
+                      },
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -39102,16 +38999,9 @@
                         "scope": "ancestor",
                         "childId": "9cfd-1c32-585f-7d5c",
                         "shared": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
+                      },
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -39268,16 +39158,9 @@
                         "scope": "ancestor",
                         "childId": "9cfd-1c32-585f-7d5c",
                         "shared": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
+                      },
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -39321,21 +39204,6 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden"
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "4f3a-f0f7-6647-348d",
-                        "shared": true
-                      }
-                    ]
                   }
                 ],
                 "costs": [
@@ -39495,16 +39363,9 @@
                         "scope": "ancestor",
                         "childId": "9cfd-1c32-585f-7d5c",
                         "shared": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
+                      },
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -39608,16 +39469,9 @@
                         "scope": "ancestor",
                         "childId": "9cfd-1c32-585f-7d5c",
                         "shared": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
+                      },
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -39774,16 +39628,9 @@
                         "scope": "ancestor",
                         "childId": "9cfd-1c32-585f-7d5c",
                         "shared": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
+                      },
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -39887,16 +39734,9 @@
                         "scope": "ancestor",
                         "childId": "9cfd-1c32-585f-7d5c",
                         "shared": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
+                      },
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -40000,16 +39840,9 @@
                         "scope": "ancestor",
                         "childId": "9cfd-1c32-585f-7d5c",
                         "shared": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
+                      },
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -40113,16 +39946,9 @@
                         "scope": "ancestor",
                         "childId": "9cfd-1c32-585f-7d5c",
                         "shared": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
+                      },
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -40281,16 +40107,9 @@
                         "scope": "ancestor",
                         "childId": "9cfd-1c32-585f-7d5c",
                         "shared": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
+                      },
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -40426,16 +40245,9 @@
                         "scope": "ancestor",
                         "childId": "9cfd-1c32-585f-7d5c",
                         "shared": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
+                      },
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -40611,16 +40423,9 @@
                         "scope": "ancestor",
                         "childId": "9cfd-1c32-585f-7d5c",
                         "shared": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
+                      },
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -40756,16 +40561,9 @@
                         "scope": "ancestor",
                         "childId": "9cfd-1c32-585f-7d5c",
                         "shared": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
+                      },
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -40934,27 +40732,14 @@
                     "conditionGroups": [
                       {
                         "type": "and",
-                        "conditionGroups": [
+                        "conditions": [
                           {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "740a-892c-8958-defa",
-                                "shared": true
-                              },
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "9cfd-1c32-585f-7d5c",
-                                "shared": true
-                              }
-                            ]
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "740a-892c-8958-defa",
+                            "shared": true
                           }
                         ]
                       }
@@ -40966,7 +40751,15 @@
                     "field": "hidden",
                     "conditions": [
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      },
+                      {
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -41065,27 +40858,14 @@
                     "conditionGroups": [
                       {
                         "type": "and",
-                        "conditionGroups": [
+                        "conditions": [
                           {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "740a-892c-8958-defa",
-                                "shared": true
-                              },
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "9cfd-1c32-585f-7d5c",
-                                "shared": true
-                              }
-                            ]
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "740a-892c-8958-defa",
+                            "shared": true
                           }
                         ]
                       }
@@ -41097,7 +40877,15 @@
                     "field": "hidden",
                     "conditions": [
                       {
-                        "type": "instanceOf",
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      },
+                      {
+                        "type": "notInstanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "ancestor",
@@ -41234,21 +41022,6 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "4f3a-f0f7-6647-348d",
-                        "shared": true
-                      }
-                    ]
                   }
                 ]
               },
@@ -41319,21 +41092,6 @@
                             "shared": true
                           }
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "4f3a-f0f7-6647-348d",
-                        "shared": true
                       }
                     ]
                   }
@@ -41459,21 +41217,6 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "4f3a-f0f7-6647-348d",
-                        "shared": true
-                      }
-                    ]
                   }
                 ]
               },
@@ -41544,21 +41287,6 @@
                             "shared": true
                           }
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden",
-                    "conditions": [
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "4f3a-f0f7-6647-348d",
-                        "shared": true
                       }
                     ]
                   }
