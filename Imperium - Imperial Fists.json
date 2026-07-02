@@ -337,6 +337,24 @@
             "type": "selectionEntry",
             "id": "5731-527b-3b65-d257",
             "targetId": "caa-f869-3cbd-b48e"
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "188e-ad23-1a2b-f0c0",
+            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "6ca8-41c3-e882-f98e",
+            "targetId": "4134-fa21-f563-23f2",
+            "sortIndex": 2
           }
         ],
         "selectionEntryGroups": [
@@ -733,6 +751,24 @@
             "type": "selectionEntry",
             "id": "3a51-3c8f-f135-4372",
             "targetId": "caa-f869-3cbd-b48e"
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "5517-f508-73be-98ed",
+            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "2364-f6e1-8852-237d",
+            "targetId": "4134-fa21-f563-23f2",
+            "sortIndex": 2
           }
         ],
         "selectionEntryGroups": [
@@ -1174,6 +1210,24 @@
             "type": "selectionEntry",
             "id": "42b3-a452-360d-a1d1",
             "targetId": "caa-f869-3cbd-b48e"
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "ae42-6b9c-64ed-184a",
+            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "8d28-86d5-71aa-edac",
+            "targetId": "4134-fa21-f563-23f2",
+            "sortIndex": 2
           }
         ],
         "selectionEntryGroups": [

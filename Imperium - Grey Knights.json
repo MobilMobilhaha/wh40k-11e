@@ -16708,6 +16708,15 @@
             "type": "selectionEntryGroup",
             "targetId": "1799-1ca5-75f7-51b9",
             "sortIndex": 3
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "ba36-7507-3eea-5d05",
+            "targetId": "c440-b056-f09a-c88a",
+            "sortIndex": 3
           }
         ],
         "modifierGroups": [
@@ -20782,6 +20791,15 @@
             "id": "a044-f7d1-d8e8-8254",
             "type": "selectionEntryGroup",
             "targetId": "1799-1ca5-75f7-51b9",
+            "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "3aaa-77da-2456-df90",
+            "targetId": "c440-b056-f09a-c88a",
             "sortIndex": 2
           }
         ],
@@ -36993,14 +37011,27 @@
                     "conditionGroups": [
                       {
                         "type": "and",
-                        "conditions": [
+                        "conditionGroups": [
                           {
-                            "type": "notInstanceOf",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "ancestor",
-                            "childId": "d564-3284-bf44-b873",
-                            "shared": true
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "type": "notInstanceOf",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "d564-3284-bf44-b873",
+                                "shared": true
+                              },
+                              {
+                                "type": "notInstanceOf",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "9cfd-1c32-585f-7d5c",
+                                "shared": true
+                              }
+                            ]
                           }
                         ]
                       }
@@ -37066,6 +37097,14 @@
                                 "field": "selections",
                                 "scope": "ancestor",
                                 "childId": "cf47-a0d7-7207-29dc",
+                                "shared": true
+                              },
+                              {
+                                "type": "notInstanceOf",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "9cfd-1c32-585f-7d5c",
                                 "shared": true
                               }
                             ]
@@ -37252,14 +37291,27 @@
                     "conditionGroups": [
                       {
                         "type": "and",
-                        "conditions": [
+                        "conditionGroups": [
                           {
-                            "type": "notInstanceOf",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "ancestor",
-                            "childId": "d564-3284-bf44-b873",
-                            "shared": true
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "type": "notInstanceOf",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "d564-3284-bf44-b873",
+                                "shared": true
+                              },
+                              {
+                                "type": "notInstanceOf",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "9cfd-1c32-585f-7d5c",
+                                "shared": true
+                              }
+                            ]
                           }
                         ]
                       }
@@ -37325,6 +37377,14 @@
                                 "field": "selections",
                                 "scope": "ancestor",
                                 "childId": "cf47-a0d7-7207-29dc",
+                                "shared": true
+                              },
+                              {
+                                "type": "notInstanceOf",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "9cfd-1c32-585f-7d5c",
                                 "shared": true
                               }
                             ]
@@ -37547,7 +37607,39 @@
                 "import": true,
                 "name": "Eye of the Augurium",
                 "hidden": false,
-                "id": "5311-c819-50b2-1464"
+                "id": "5311-c819-50b2-1464",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "profiles": [
@@ -37581,6 +37673,21 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden"
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
+                      }
+                    ]
                   }
                 ],
                 "costs": [
@@ -37788,7 +37895,39 @@
                 "import": true,
                 "name": "Inescapable Judgement (Psychic)",
                 "hidden": false,
-                "id": "8084-85d-a3a4-87e6"
+                "id": "8084-85d-a3a4-87e6",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "profiles": [
@@ -37822,6 +37961,21 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden"
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
+                      }
+                    ]
                   }
                 ],
                 "costs": [
@@ -38020,7 +38174,39 @@
                 "import": true,
                 "name": "Sigil of Exigence",
                 "hidden": false,
-                "id": "a8ae-3a93-2fa9-fbce"
+                "id": "a8ae-3a93-2fa9-fbce",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "profiles": [
@@ -38054,6 +38240,36 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden"
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
+                      }
+                    ]
                   }
                 ],
                 "costs": [
@@ -38152,6 +38368,36 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden"
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
+                      }
+                    ]
                   }
                 ],
                 "costs": [
@@ -38250,6 +38496,36 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden"
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
+                      }
+                    ]
                   }
                 ],
                 "costs": [
@@ -38448,7 +38724,39 @@
                 "import": true,
                 "name": "Blinding Aura",
                 "hidden": false,
-                "id": "9264-31fe-7ae2-98a3"
+                "id": "9264-31fe-7ae2-98a3",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "profiles": [
@@ -38529,7 +38837,39 @@
                 "import": true,
                 "name": "Tome of Forbidden Ways",
                 "hidden": false,
-                "id": "9e5e-7b9a-9ccb-9ec9"
+                "id": "9e5e-7b9a-9ccb-9ec9",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "profiles": [
@@ -38610,7 +38950,39 @@
                 "import": true,
                 "name": "Banishing Wave (Psychic)",
                 "hidden": false,
-                "id": "53d5-cb9a-c034-d6c9"
+                "id": "53d5-cb9a-c034-d6c9",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "profiles": [
@@ -38691,7 +39063,39 @@
                 "import": true,
                 "name": "Purity of Purpose",
                 "hidden": false,
-                "id": "981f-93de-3614-8ab7"
+                "id": "981f-93de-3614-8ab7",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "modifiers": [
@@ -38825,7 +39229,39 @@
                 "import": true,
                 "name": "Pyresoul (Psychic)",
                 "hidden": false,
-                "id": "5a01-f1f1-db42-1453"
+                "id": "5a01-f1f1-db42-1453",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "profiles": [
@@ -38860,6 +39296,21 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden"
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
+                      }
+                    ]
                   }
                 ],
                 "costs": [
@@ -39005,7 +39456,39 @@
                 "import": true,
                 "name": "Sixty-sixth Seal",
                 "hidden": false,
-                "id": "54af-e64e-34b5-d9bd"
+                "id": "54af-e64e-34b5-d9bd",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "profiles": [
@@ -39086,7 +39569,39 @@
                 "import": true,
                 "name": "Sigil of the Hunt",
                 "hidden": false,
-                "id": "14e8-e8fd-ac0f-6924"
+                "id": "14e8-e8fd-ac0f-6924",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "modifiers": [
@@ -39220,7 +39735,39 @@
                 "import": true,
                 "name": "One Foot in the Future",
                 "hidden": false,
-                "id": "c611-bc2c-1f4a-383f"
+                "id": "c611-bc2c-1f4a-383f",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "profiles": [
@@ -39301,7 +39848,39 @@
                 "import": true,
                 "name": "Doomseer's Amulet",
                 "hidden": false,
-                "id": "160b-59d1-c37e-d3d5"
+                "id": "160b-59d1-c37e-d3d5",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "profiles": [
@@ -39382,7 +39961,39 @@
                 "import": true,
                 "name": "Grimoire of Conjunctions",
                 "hidden": false,
-                "id": "2678-0019-5c33-c623"
+                "id": "2678-0019-5c33-c623",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "profiles": [
@@ -39463,7 +40074,39 @@
                 "import": true,
                 "name": "Shield of Prophecy",
                 "hidden": false,
-                "id": "b12b-6a6b-1572-808d"
+                "id": "b12b-6a6b-1572-808d",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "modifiers": [
@@ -39600,6 +40243,36 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden"
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
+                      }
+                    ]
                   }
                 ],
                 "categoryLinks": [
@@ -39715,6 +40388,36 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden"
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
+                      }
+                    ]
                   }
                 ],
                 "categoryLinks": [
@@ -39870,6 +40573,36 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden"
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
+                      }
+                    ]
                   }
                 ],
                 "categoryLinks": [
@@ -39985,6 +40718,36 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden"
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "4f3a-f0f7-6647-348d",
+                        "shared": true
+                      }
+                    ]
                   }
                 ],
                 "categoryLinks": [
@@ -40146,14 +40909,27 @@
                     "conditionGroups": [
                       {
                         "type": "and",
-                        "conditions": [
+                        "conditionGroups": [
                           {
-                            "type": "notInstanceOf",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "ancestor",
-                            "childId": "740a-892c-8958-defa",
-                            "shared": true
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "type": "notInstanceOf",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "740a-892c-8958-defa",
+                                "shared": true
+                              },
+                              {
+                                "type": "notInstanceOf",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "9cfd-1c32-585f-7d5c",
+                                "shared": true
+                              }
+                            ]
                           }
                         ]
                       }
@@ -40264,14 +41040,27 @@
                     "conditionGroups": [
                       {
                         "type": "and",
-                        "conditions": [
+                        "conditionGroups": [
                           {
-                            "type": "notInstanceOf",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "ancestor",
-                            "childId": "740a-892c-8958-defa",
-                            "shared": true
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "type": "notInstanceOf",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "740a-892c-8958-defa",
+                                "shared": true
+                              },
+                              {
+                                "type": "notInstanceOf",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "9cfd-1c32-585f-7d5c",
+                                "shared": true
+                              }
+                            ]
                           }
                         ]
                       }
