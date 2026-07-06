@@ -32,7 +32,7 @@
     "entryLinks": [
       {
         "import": true,
-        "name": "Detachment",
+        "name": "分遣隊",
         "hidden": false,
         "type": "selectionEntry",
         "id": "5f9d-d017-ce57-a011",
@@ -42,7 +42,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "Show Chaos Knights",
+            "name": "顯示 混沌騎士",
             "hidden": false,
             "type": "selectionEntry",
             "id": "cbba-c94b-79f8-9cef",
@@ -50,7 +50,7 @@
           },
           {
             "import": true,
-            "name": "Show Titans",
+            "name": "顯示 特伊特阿恩斯",
             "hidden": false,
             "type": "selectionEntry",
             "id": "bcd3-dd3f-1e3-9617",
@@ -58,12 +58,12 @@
           },
           {
             "import": true,
-            "name": "Show Tzeentch Daemons",
+            "name": "顯示 奸奇 惡魔s",
             "hidden": false,
             "id": "feae-5239-37a7-4241",
             "categoryLinks": [
               {
-                "name": "Configuration",
+                "name": "配置",
                 "hidden": false,
                 "id": "10a2-35ab-591f-7c93",
                 "targetId": "4ac9-fd30-1e3d-b249",
@@ -75,12 +75,12 @@
           },
           {
             "import": true,
-            "name": "Show Slaanesh Daemons",
+            "name": "顯示 史拉尼許 惡魔s",
             "hidden": false,
             "id": "b1c8-4dd-3518-bf7",
             "categoryLinks": [
               {
-                "name": "Configuration",
+                "name": "配置",
                 "hidden": false,
                 "id": "a5ed-27ac-6d94-cb9f",
                 "targetId": "4ac9-fd30-1e3d-b249",
@@ -92,12 +92,12 @@
           },
           {
             "import": true,
-            "name": "Show Nurgle Daemons",
+            "name": "顯示 納垢 惡魔s",
             "hidden": false,
             "id": "12d3-29b2-62da-df56",
             "categoryLinks": [
               {
-                "name": "Configuration",
+                "name": "配置",
                 "hidden": false,
                 "id": "c916-b2a5-221d-8093",
                 "targetId": "4ac9-fd30-1e3d-b249",
@@ -109,12 +109,12 @@
           },
           {
             "import": true,
-            "name": "Show Khorne Daemons",
+            "name": "顯示 科恩 惡魔s",
             "hidden": false,
             "id": "4a6d-e24e-e36a-1479",
             "categoryLinks": [
               {
-                "name": "Configuration",
+                "name": "配置",
                 "hidden": false,
                 "id": "2f8-5b49-2045-d735",
                 "targetId": "4ac9-fd30-1e3d-b249",
@@ -126,7 +126,7 @@
           }
         ],
         "import": true,
-        "name": "Show/Hide Options",
+        "name": "顯示/隱藏選項",
         "hidden": false,
         "type": "selectionEntry",
         "id": "c33e-de90-ab0c-995f",
@@ -135,14 +135,14 @@
       {
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "90de-0693-3bd8-fb4c",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "852d-e600-b791-71b8",
             "targetId": "1299-7e3f-6272-c60f",
@@ -151,7 +151,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "a291-66ec-4fbe-ea92",
             "hidden": false,
             "type": "profile",
@@ -200,7 +200,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "Enhancements",
+            "name": "強化",
             "hidden": false,
             "id": "5888-8259-1fed-abd1",
             "type": "selectionEntryGroup",
@@ -208,7 +208,7 @@
           }
         ],
         "import": true,
-        "name": "Chaos Lord",
+        "name": "混沌領主",
         "hidden": false,
         "id": "ff82-62db-35d1-414a",
         "type": "selectionEntry",
@@ -217,14 +217,14 @@
       {
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "7b67-11ea-636e-aac1",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "c7a6-6576-12a1-f30e",
             "targetId": "1299-7e3f-6272-c60f",
@@ -233,7 +233,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "c3f9-f597-272a-8dc5",
             "hidden": false,
             "type": "profile",
@@ -280,7 +280,7 @@
           }
         ],
         "import": true,
-        "name": "Fellgor Beastmen",
+        "name": "夫艾爾格奧爾 野獸姆艾恩",
         "hidden": false,
         "id": "4667-2ce6-8da2-6931",
         "type": "selectionEntry",
@@ -289,14 +289,14 @@
       {
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "cd61-d37a-0f4a-4762",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "1373-42eb-4406-7586",
             "targetId": "1299-7e3f-6272-c60f",
@@ -305,7 +305,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "92b5-dbac-be6b-6ceb",
             "hidden": false,
             "type": "profile",
@@ -354,7 +354,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "Enhancements",
+            "name": "強化",
             "hidden": false,
             "id": "3aad-12f8-a8fb-e4dc",
             "type": "selectionEntryGroup",
@@ -362,7 +362,7 @@
           }
         ],
         "import": true,
-        "name": "Chaos Lord with Jump Pack",
+        "name": "混沌領主 沃伊斯 跳躍背包",
         "hidden": false,
         "id": "7722-62ae-8437-9d3e",
         "type": "selectionEntry",
@@ -371,14 +371,14 @@
       {
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "66fd-4000-2874-1f94",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "072f-aa62-f4d2-0934",
             "targetId": "1299-7e3f-6272-c60f",
@@ -387,7 +387,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "4226-1456-7dd8-8447",
             "hidden": false,
             "type": "profile",
@@ -434,7 +434,7 @@
           }
         ],
         "import": true,
-        "name": "Chaos Terminator Squad",
+        "name": "混沌 終結者 小隊",
         "hidden": false,
         "id": "8e9d-dd85-2d32-3496",
         "type": "selectionEntry",
@@ -443,14 +443,14 @@
       {
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "dfdf-e2aa-81c9-7c5c",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "a4e8-0758-dad0-7ab4",
             "targetId": "1299-7e3f-6272-c60f",
@@ -459,7 +459,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "b95d-c678-7860-4774",
             "hidden": false,
             "type": "profile",
@@ -506,7 +506,7 @@
           }
         ],
         "import": true,
-        "name": "Chosen",
+        "name": "喬斯艾恩",
         "hidden": false,
         "id": "fc1e-71f4-4ffa-6469",
         "type": "selectionEntry",
@@ -520,7 +520,7 @@
             "field": "category"
           },
           {
-            "comment": "Shadow Legion",
+            "comment": "暗影軍團",
             "conditionGroups": [
               {
                 "conditions": [
@@ -555,14 +555,14 @@
         ],
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "c683-9647-ee67-b9e4",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "70a4-be6c-8438-ee42",
             "targetId": "1299-7e3f-6272-c60f",
@@ -571,7 +571,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "bd8e-0658-39cf-437e",
             "hidden": false,
             "type": "profile",
@@ -579,7 +579,7 @@
           }
         ],
         "import": true,
-        "name": "Legionaries",
+        "name": "爾艾格伊奧恩阿爾伊艾斯",
         "hidden": false,
         "id": "80e0-6782-c260-779a",
         "type": "selectionEntry",
@@ -593,7 +593,7 @@
             "field": "category"
           },
           {
-            "comment": "Shadow Legion",
+            "comment": "暗影軍團",
             "conditionGroups": [
               {
                 "conditions": [
@@ -629,7 +629,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "Enhancements",
+            "name": "強化",
             "hidden": false,
             "id": "3e02-ff6e-9240-e66a",
             "type": "selectionEntryGroup",
@@ -638,14 +638,14 @@
         ],
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "0f9b-85f3-f54b-d5d4",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "3bb9-074c-791a-c090",
             "targetId": "1299-7e3f-6272-c60f",
@@ -654,7 +654,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "a2f6-2435-3ed8-7a39",
             "hidden": false,
             "type": "profile",
@@ -662,7 +662,7 @@
           }
         ],
         "import": true,
-        "name": "Dark Apostle",
+        "name": "德阿爾克 阿普奧斯特爾艾",
         "hidden": false,
         "id": "511f-9b96-1078-becb",
         "type": "selectionEntry",
@@ -676,7 +676,7 @@
             "field": "category"
           },
           {
-            "comment": "Shadow Legion",
+            "comment": "暗影軍團",
             "conditionGroups": [
               {
                 "conditions": [
@@ -712,7 +712,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "Enhancements",
+            "name": "強化",
             "hidden": false,
             "id": "a090-000f-51b0-57af",
             "type": "selectionEntryGroup",
@@ -721,14 +721,14 @@
         ],
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "34cb-dbb7-0670-ff6d",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "407c-ee7b-2d31-d354",
             "targetId": "1299-7e3f-6272-c60f",
@@ -737,7 +737,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "69f6-ac4a-ad72-fb57",
             "hidden": false,
             "type": "profile",
@@ -745,7 +745,7 @@
           }
         ],
         "import": true,
-        "name": "Dark Commune",
+        "name": "德阿爾克 克奧姆姆烏恩艾",
         "hidden": false,
         "id": "72fe-9ba3-3d41-f632",
         "type": "selectionEntry",
@@ -754,14 +754,14 @@
       {
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "46e6-8c0c-41ee-c7d3",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "ebf0-a150-6382-7c52",
             "targetId": "1299-7e3f-6272-c60f",
@@ -770,7 +770,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "5caa-d60c-1445-28b2",
             "hidden": false,
             "type": "profile",
@@ -817,7 +817,7 @@
           }
         ],
         "import": true,
-        "name": "Havocs",
+        "name": "赫阿維奧克斯",
         "hidden": false,
         "id": "2cfb-f8e0-576b-db68",
         "type": "selectionEntry",
@@ -831,7 +831,7 @@
             "field": "category"
           },
           {
-            "comment": "Shadow Legion",
+            "comment": "暗影軍團",
             "conditionGroups": [
               {
                 "conditions": [
@@ -867,7 +867,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "Enhancements",
+            "name": "強化",
             "hidden": false,
             "id": "a54c-5b02-cf5a-4373",
             "type": "selectionEntryGroup",
@@ -876,14 +876,14 @@
         ],
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "3722-3c07-f8ad-b028",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "7ff4-383f-d0d4-3611",
             "targetId": "1299-7e3f-6272-c60f",
@@ -892,7 +892,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "d293-fe3c-0ba5-99b0",
             "hidden": false,
             "type": "profile",
@@ -900,7 +900,7 @@
           }
         ],
         "import": true,
-        "name": "Master of Possession",
+        "name": "大師 of 普奧斯艾斯辛",
         "hidden": false,
         "id": "f9b5-4b0d-9643-6547",
         "type": "selectionEntry",
@@ -909,14 +909,14 @@
       {
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "c6ad-e3cf-ca2c-f584",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "a057-c090-e8ed-dc1c",
             "targetId": "1299-7e3f-6272-c60f",
@@ -925,7 +925,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "b11f-345a-0b9d-d22b",
             "hidden": false,
             "type": "profile",
@@ -972,7 +972,7 @@
           }
         ],
         "import": true,
-        "name": "Possessed",
+        "name": "普奧斯艾斯艾德",
         "hidden": false,
         "id": "def6-449b-7b0d-da25",
         "type": "selectionEntry",
@@ -981,14 +981,14 @@
       {
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "4576-1edf-dcc3-c80b",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "c31f-903b-c660-e7a7",
             "targetId": "1299-7e3f-6272-c60f",
@@ -997,7 +997,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "6376-6c2a-ba48-182a",
             "hidden": false,
             "type": "profile",
@@ -1044,7 +1044,7 @@
           }
         ],
         "import": true,
-        "name": "Raptors",
+        "name": "爾阿普特奧爾斯",
         "hidden": false,
         "id": "c2ab-c8e2-8c88-17ac",
         "type": "selectionEntry",
@@ -1053,14 +1053,14 @@
       {
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "74a2-ddca-5e37-b61c",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "687b-83b4-b8de-931d",
             "targetId": "1299-7e3f-6272-c60f",
@@ -1069,7 +1069,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "6899-684b-d15f-ec84",
             "hidden": false,
             "type": "profile",
@@ -1118,7 +1118,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "Enhancements",
+            "name": "強化",
             "hidden": false,
             "id": "a9d6-dfdd-fd84-7962",
             "type": "selectionEntryGroup",
@@ -1126,7 +1126,7 @@
           }
         ],
         "import": true,
-        "name": "Sorcerer",
+        "name": "術士",
         "hidden": false,
         "id": "8fd2-c73a-3682-c230",
         "type": "selectionEntry",
@@ -1135,14 +1135,14 @@
       {
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "ba68-f117-e3e6-1740",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "2edc-53f6-bd23-ec77",
             "targetId": "1299-7e3f-6272-c60f",
@@ -1151,7 +1151,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "82b4-abc4-4bb5-f3d2",
             "hidden": false,
             "type": "profile",
@@ -1200,7 +1200,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "Enhancements",
+            "name": "強化",
             "hidden": false,
             "id": "be1e-bf29-4ecb-87b6",
             "type": "selectionEntryGroup",
@@ -1208,7 +1208,7 @@
           }
         ],
         "import": true,
-        "name": "Sorcerer in Terminator Armour",
+        "name": "術士 in 終結者 阿爾姆歐爾",
         "hidden": false,
         "id": "fd7f-1538-e1dc-b5ef",
         "type": "selectionEntry",
@@ -1217,14 +1217,14 @@
       {
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "879d-de90-f567-dd4b",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "36c2-58b3-36a4-c6dc",
             "targetId": "1299-7e3f-6272-c60f",
@@ -1233,7 +1233,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "3520-be80-9c38-bfb0",
             "hidden": false,
             "type": "profile",
@@ -1280,7 +1280,7 @@
           }
         ],
         "import": true,
-        "name": "Warp Talons",
+        "name": "沃阿爾普 特阿爾奧恩斯",
         "hidden": false,
         "id": "9119-5e77-3f9c-d4a1",
         "type": "selectionEntry",
@@ -1294,7 +1294,7 @@
             "field": "category"
           },
           {
-            "comment": "Shadow Legion",
+            "comment": "暗影軍團",
             "conditionGroups": [
               {
                 "conditions": [
@@ -1329,14 +1329,14 @@
         ],
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "e5d1-fc46-efff-31d4",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "c92b-98f3-ea8c-a96c",
             "targetId": "1299-7e3f-6272-c60f",
@@ -1345,7 +1345,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "62b8-831c-78c3-d24b",
             "hidden": false,
             "type": "profile",
@@ -1353,7 +1353,7 @@
           }
         ],
         "import": true,
-        "name": "Traitor Guardsmen Squad",
+        "name": "特爾艾特奧爾 衛兵 小隊",
         "hidden": false,
         "id": "cc83-cafa-d2cc-c9cf",
         "type": "selectionEntry",
@@ -1362,14 +1362,14 @@
       {
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "5605-33dc-9211-5e6c",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "c45d-aa38-c639-a541",
             "targetId": "1299-7e3f-6272-c60f",
@@ -1378,7 +1378,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "a6cd-3774-8839-b4ce",
             "hidden": false,
             "type": "profile",
@@ -1425,7 +1425,7 @@
           }
         ],
         "import": true,
-        "name": "Cultist Mob",
+        "name": "教徒 姆奧布",
         "hidden": false,
         "id": "87bf-6c85-abde-c4c1",
         "type": "selectionEntry",
@@ -1434,14 +1434,14 @@
       {
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "eb5d-b609-5f42-19a6",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "58b1-a92a-b8df-6121",
             "targetId": "1299-7e3f-6272-c60f",
@@ -1450,7 +1450,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "61ed-b655-fbfd-bfde",
             "hidden": false,
             "type": "profile",
@@ -1499,7 +1499,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "Enhancements",
+            "name": "強化",
             "hidden": false,
             "id": "ac1d-1111-aef3-8ccd",
             "type": "selectionEntryGroup",
@@ -1507,7 +1507,7 @@
           }
         ],
         "import": true,
-        "name": "Chaos Lord in Terminator Armour",
+        "name": "混沌領主 in 終結者 阿爾姆歐爾",
         "hidden": false,
         "id": "db79-79bd-c239-b84f",
         "type": "selectionEntry",
@@ -1516,14 +1516,14 @@
       {
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "42ee-fb7b-9e79-fded",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "204e-7796-a8f4-0cd1",
             "targetId": "1299-7e3f-6272-c60f",
@@ -1532,7 +1532,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "aa6e-ba34-aff3-3c78",
             "hidden": false,
             "type": "profile",
@@ -1581,7 +1581,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "Enhancements",
+            "name": "強化",
             "hidden": false,
             "id": "5ce3-80cc-5ce0-429b",
             "type": "selectionEntryGroup",
@@ -1589,7 +1589,7 @@
           }
         ],
         "import": true,
-        "name": "Cultist Firebrand",
+        "name": "教徒 夫伊爾艾布爾阿恩德",
         "hidden": false,
         "id": "2285-b17c-53bb-2cb6",
         "type": "selectionEntry",
@@ -1598,14 +1598,14 @@
       {
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "a6dc-9fec-4ec9-14b4",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "ead1-116c-d243-b647",
             "targetId": "1299-7e3f-6272-c60f",
@@ -1614,7 +1614,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "a95d-4e9f-1407-a706",
             "hidden": false,
             "type": "profile",
@@ -1661,7 +1661,7 @@
           }
         ],
         "import": true,
-        "name": "Cultist Mob with Firearms [Legends]",
+        "name": "教徒 姆奧布 沃伊斯 夫伊爾伊爾姆斯 [傳奇]",
         "hidden": false,
         "id": "bf05-937d-b75b-a65e",
         "type": "selectionEntry",
@@ -1675,7 +1675,7 @@
             "field": "category"
           },
           {
-            "comment": "Shadow Legion",
+            "comment": "暗影軍團",
             "conditionGroups": [
               {
                 "conditions": [
@@ -1711,7 +1711,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "Enhancements",
+            "name": "強化",
             "hidden": false,
             "id": "091c-6d63-14b8-a9a1",
             "type": "selectionEntryGroup",
@@ -1720,14 +1720,14 @@
         ],
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "da6c-eda4-8919-678d",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "555a-7c7b-db47-8cb6",
             "targetId": "1299-7e3f-6272-c60f",
@@ -1736,7 +1736,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "398a-ac98-08eb-e76c",
             "hidden": false,
             "type": "profile",
@@ -1744,7 +1744,7 @@
           }
         ],
         "import": true,
-        "name": "Rogue Psyker [Legends]",
+        "name": "爾奧格烏艾 靈能者 [傳奇]",
         "hidden": false,
         "id": "2590-e50e-c89f-9fcf",
         "type": "selectionEntry",
@@ -1758,7 +1758,7 @@
             "field": "category"
           },
           {
-            "comment": "Shadow Legion",
+            "comment": "暗影軍團",
             "conditionGroups": [
               {
                 "conditions": [
@@ -1794,7 +1794,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "Enhancements",
+            "name": "強化",
             "hidden": false,
             "id": "f318-ab42-f221-b179",
             "type": "selectionEntryGroup",
@@ -1803,14 +1803,14 @@
         ],
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "8e91-ed2c-3ede-2392",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "56c9-1092-a9be-e0d1",
             "targetId": "1299-7e3f-6272-c60f",
@@ -1819,7 +1819,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "f191-486b-1a41-d3b1",
             "hidden": false,
             "type": "profile",
@@ -1827,7 +1827,7 @@
           }
         ],
         "import": true,
-        "name": "Traitor Enforcer",
+        "name": "特爾艾特奧爾 艾恩夫奧爾克爾",
         "hidden": false,
         "id": "c1ef-1cb7-aae0-8f22",
         "type": "selectionEntry",
@@ -1836,14 +1836,14 @@
       {
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "3943-f3e0-40bc-4011",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "8cc0-f694-02e6-1d78",
             "targetId": "1299-7e3f-6272-c60f",
@@ -1852,7 +1852,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "21aa-2f16-5fbd-aa3f",
             "hidden": false,
             "type": "profile",
@@ -1899,7 +1899,7 @@
           }
         ],
         "import": true,
-        "name": "Gellerpox Infected [Legends]",
+        "name": "格艾爾普奧克斯 伊恩夫艾克特艾德 [傳奇]",
         "hidden": false,
         "id": "934e-83e6-cde0-4895",
         "type": "selectionEntry",
@@ -1908,14 +1908,14 @@
       {
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "8161-78e4-a834-80a3",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "870a-0ce8-86d6-4819",
             "targetId": "1299-7e3f-6272-c60f",
@@ -1924,7 +1924,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "9bde-684f-acd0-04f4",
             "hidden": false,
             "type": "profile",
@@ -1971,7 +1971,7 @@
           }
         ],
         "import": true,
-        "name": "Negavolt Cultists [Legends]",
+        "name": "恩艾格阿維奧爾特 克烏爾特伊斯特斯 [傳奇]",
         "hidden": false,
         "id": "e5cf-11b9-6cff-b4ad",
         "type": "selectionEntry",
@@ -1980,14 +1980,14 @@
       {
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "8dda-05d4-dec2-d6b5",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "fff1-e75d-ab53-7c90",
             "targetId": "1299-7e3f-6272-c60f",
@@ -1996,7 +1996,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "8b26-caec-2630-13ec",
             "hidden": false,
             "type": "profile",
@@ -2043,7 +2043,7 @@
           }
         ],
         "import": true,
-        "name": "Renegade Heavy Weapons Squad [Legends]",
+        "name": "爾艾恩艾格阿德艾 重型 武器 小隊 [傳奇]",
         "hidden": false,
         "id": "89e0-1207-94f7-9fd1",
         "type": "selectionEntry",
@@ -2052,14 +2052,14 @@
       {
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "4572-a222-9713-3749",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "1c35-8d49-57e5-41ec",
             "targetId": "1299-7e3f-6272-c60f",
@@ -2068,7 +2068,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "d742-07a7-376f-9b73",
             "hidden": false,
             "type": "profile",
@@ -2115,7 +2115,7 @@
           }
         ],
         "import": true,
-        "name": "Renegade Ogryn Beast Handler [Legends]",
+        "name": "爾艾恩艾格阿德艾 奧格爾伊恩 野獸 赫阿恩德爾 [傳奇]",
         "hidden": false,
         "id": "d25f-d8ae-15b3-a01a",
         "type": "selectionEntry",
@@ -2124,14 +2124,14 @@
       {
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "9ee1-a272-3379-80fb",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "b127-8f54-3cb5-d425",
             "targetId": "1299-7e3f-6272-c60f",
@@ -2140,7 +2140,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "b275-ccba-d977-919f",
             "hidden": false,
             "type": "profile",
@@ -2187,7 +2187,7 @@
           }
         ],
         "import": true,
-        "name": "Renegade Ogryn Brutes [Legends]",
+        "name": "爾艾恩艾格阿德艾 奧格爾伊恩 布爾烏特艾斯 [傳奇]",
         "hidden": false,
         "id": "347f-4f23-b259-450f",
         "type": "selectionEntry",
@@ -2196,14 +2196,14 @@
       {
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "ccfb-bdcf-fb03-46b3",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "2c66-e68a-9723-89f4",
             "targetId": "1299-7e3f-6272-c60f",
@@ -2212,7 +2212,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "e8cf-2781-5ec2-eb67",
             "hidden": false,
             "type": "profile",
@@ -2259,7 +2259,7 @@
           }
         ],
         "import": true,
-        "name": "Renegade Plague Ogryns [Legends]",
+        "name": "爾艾恩艾格阿德艾 普爾阿格烏艾 奧格爾伊恩斯 [傳奇]",
         "hidden": false,
         "id": "5af5-73d8-393b-4c0f",
         "type": "selectionEntry",
@@ -2268,14 +2268,14 @@
       {
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "942c-e77b-24ad-b7ee",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "b574-8fc3-5b63-ab62",
             "targetId": "1299-7e3f-6272-c60f",
@@ -2284,7 +2284,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "b15f-526d-6032-0800",
             "hidden": false,
             "type": "profile",
@@ -2331,7 +2331,7 @@
           }
         ],
         "import": true,
-        "name": "Renegade Enforcer [Legends]",
+        "name": "爾艾恩艾格阿德艾 艾恩夫奧爾克爾 [傳奇]",
         "hidden": false,
         "id": "d204-437b-1d35-4d61",
         "type": "selectionEntry",
@@ -2340,14 +2340,14 @@
       {
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "4a9f-9e16-d5f8-5b81",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "a340-b1b3-179f-7680",
             "targetId": "1299-7e3f-6272-c60f",
@@ -2356,7 +2356,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "8a56-d33f-e4cd-66ae",
             "hidden": false,
             "type": "profile",
@@ -2403,7 +2403,7 @@
           }
         ],
         "import": true,
-        "name": "Mutoid Vermin [Legends]",
+        "name": "姆烏特奧伊德 維爾姆伊恩 [傳奇]",
         "hidden": false,
         "id": "0d29-c01f-5213-7f96",
         "type": "selectionEntry",
@@ -2412,14 +2412,14 @@
       {
         "categoryLinks": [
           {
-            "name": "Shadow Legion",
+            "name": "暗影軍團",
             "hidden": false,
             "id": "e944-4063-1d27-34a6",
             "targetId": "4df3-beae-010c-9087",
             "primary": false
           },
           {
-            "name": "Undivided",
+            "name": "混沌無分",
             "hidden": false,
             "id": "aa90-c027-6f88-143a",
             "targetId": "1299-7e3f-6272-c60f",
@@ -2428,7 +2428,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Disciples of Be'lakor",
+            "name": "貝拉寇門徒",
             "id": "6e6a-06aa-e17e-d476",
             "hidden": false,
             "type": "profile",
@@ -2437,7 +2437,7 @@
         ],
         "modifiers": [
           {
-            "comment": "Shadow Legion",
+            "comment": "暗影軍團",
             "conditionGroups": [
               {
                 "conditions": [
@@ -2476,7 +2476,7 @@
           }
         ],
         "import": true,
-        "name": "Accursed Cultists",
+        "name": "阿克克烏爾斯艾德 克烏爾特伊斯特斯",
         "hidden": false,
         "id": "93a2-d839-e7b3-3860",
         "type": "selectionEntry",
@@ -2484,7 +2484,7 @@
       },
       {
         "import": true,
-        "name": "Order of Battle",
+        "name": "戰鬥序列",
         "hidden": false,
         "id": "7ca3-8931-ce58-03ae",
         "type": "selectionEntry",
