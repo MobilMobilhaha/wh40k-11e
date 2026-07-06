@@ -63,7 +63,7 @@
           }
         ],
         "id": "51b2-306e-1021-d207",
-        "name": "分數",
+        "name": "分",
         "defaultCostLimit": -1,
         "hidden": true
       },
@@ -164,7 +164,7 @@
         "hidden": true
       },
       {
-        "name": "Enhancements",
+        "name": "強化",
         "id": "f759-1bc4-cb3a-f0d2",
         "defaultCostLimit": "",
         "hidden": true
@@ -214,7 +214,7 @@
           }
         ],
         "id": "c547-1836-d8a-ff4f",
-        "name": "Unit"
+        "name": "單位"
       },
       {
         "characteristicTypes": [
@@ -248,7 +248,7 @@
           }
         ],
         "id": "f77d-b953-8fa4-b762",
-        "name": "Ranged Weapons"
+        "name": "遠程武器"
       },
       {
         "characteristicTypes": [
@@ -289,11 +289,11 @@
           },
           {
             "id": "893f-9000-ccf7-648e",
-            "name": "Keywords"
+            "name": "關鍵字"
           }
         ],
         "id": "8a40-4aaa-c780-9046",
-        "name": "Melee Weapons"
+        "name": "近戰武器s"
       },
       {
         "characteristicTypes": [
@@ -1425,7 +1425,7 @@
           }
         ],
         "id": "5c0e-4c31-d51b-e470",
-        "name": "Warlord",
+        "name": "領袖",
         "hidden": false
       },
       {
@@ -1675,13 +1675,13 @@
       },
       {
         "comment": "Used for Enhancement / Crusade Relic upgrades",
-        "name": "Ranged Weapon",
+        "name": "遠程武器",
         "id": "eeda-8544-a2f3-3fab",
         "hidden": true
       },
       {
         "comment": "Used for Enhancement / Crusade Relic upgrades",
-        "name": "Melee Weapon",
+        "name": "近戰武器",
         "id": "ccdd-3987-11ed-90cd",
         "hidden": true
       },
@@ -2113,13 +2113,13 @@
           },
           {
             "id": "a41a-6330-4718-d8d2",
-            "name": "Unit",
+            "name": "單位",
             "hidden": false,
             "targetId": "1160-70ae-a862-b1a8",
             "primary": false
           },
           {
-            "name": "Allied Units",
+            "name": "友方單位",
             "hidden": false,
             "id": "8d39-1cfc-6e44-2dae",
             "targetId": "887b-ab87-92a2-20f5"
@@ -2237,7 +2237,7 @@
           },
           {
             "type": "add",
-            "value": "You cannot have more than 3 Enhancements in your army.",
+            "value": "你的軍隊中擁有的強化不得超過 3 個。",
             "field": "error",
             "conditionGroups": [
               {
@@ -2272,7 +2272,7 @@
           },
           {
             "type": "add",
-            "value": "You cannot have more than 4 Enhancements in your army.",
+            "value": "你的軍隊中擁有的強化不得超過 4 個。",
             "field": "error",
             "conditionGroups": [
               {
@@ -2746,7 +2746,7 @@
             "primary": false
           },
           {
-            "name": "Unit",
+            "name": "單位",
             "hidden": false,
             "id": "4657-058c-657b-3d14",
             "targetId": "1160-70ae-a862-b1a8",
@@ -2759,7 +2759,7 @@
             "targetId": "5b15-724e-2eeb-8cb7"
           },
           {
-            "name": "Allied Units",
+            "name": "友方單位",
             "hidden": false,
             "id": "8d77-c7df-e1a3-0680",
             "targetId": "887b-ab87-92a2-20f5"
@@ -4749,7 +4749,7 @@
                     "$text": "1"
                   },
                   {
-                    "name": "Keywords",
+                    "name": "關鍵字",
                     "typeId": "893f-9000-ccf7-648e",
                     "$text": ""
                   }
@@ -4793,7 +4793,7 @@
                     "$text": "D6+1"
                   },
                   {
-                    "name": "Keywords",
+                    "name": "關鍵字",
                     "typeId": "893f-9000-ccf7-648e",
                     "$text": ""
                   }
@@ -4867,7 +4867,7 @@
                   },
                   {
                     "$text": "Ignores Cover, Torrent",
-                    "name": "Keywords",
+                    "name": "關鍵字",
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ],
@@ -5032,7 +5032,7 @@
                         "$text": "1"
                       },
                       {
-                        "name": "Keywords",
+                        "name": "關鍵字",
                         "typeId": "893f-9000-ccf7-648e",
                         "$text": ""
                       }
@@ -5274,7 +5274,7 @@
                         "$text": "2"
                       },
                       {
-                        "name": "Keywords",
+                        "name": "關鍵字",
                         "typeId": "893f-9000-ccf7-648e",
                         "$text": ""
                       }
@@ -5509,7 +5509,7 @@
                         "$text": "2"
                       },
                       {
-                        "name": "Keywords",
+                        "name": "關鍵字",
                         "typeId": "893f-9000-ccf7-648e",
                         "$text": ""
                       }
@@ -5804,7 +5804,7 @@
           "SUSTAINED HITS"
         ],
         "id": "1897-c22c-9597-12b1",
-        "name": "Sustained Hits",
+        "name": "連擊",
         "publicationId": "48fc-15aa-b307-9443",
         "page": 28,
         "hidden": false
@@ -8137,7 +8137,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Sustained Hits",
+                    "name": "連擊",
                     "id": "7729-92d6-11fd-8079",
                     "hidden": false,
                     "type": "rule",
@@ -13932,7 +13932,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Sustained Hits",
+                    "name": "連擊",
                     "id": "86e3-1496-abf2-6f4b",
                     "hidden": false,
                     "type": "rule",
@@ -18257,7 +18257,7 @@
                         "targetId": "d1d1-611e-5191-1095"
                       },
                       {
-                        "name": "Sustained Hits",
+                        "name": "連擊",
                         "id": "128d-cc2b-de55-f91c",
                         "hidden": false,
                         "type": "rule",
@@ -23051,7 +23051,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Sustained Hits",
+                        "name": "連擊",
                         "id": "470d-656c-08d7-1df9",
                         "hidden": false,
                         "type": "rule",
