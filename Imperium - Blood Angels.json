@@ -151,7 +151,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 是 未譯名 一個單位，每當 一個模型 於 該單位 被摧毀 由 一個 近戰 攻擊，若 該模型 具有 不 未譯名 此 階段，擲一顆 D6。於 一個 4+，未譯名 不 未譯名 未譯名 從 未譯名； 該 被摧毀 模型 可以 近戰 之後 該 未譯名 未譯名 單位 具有 未譯名 進行 未譯名 攻擊，且 是 則 未譯名 從 未譯名。",
+                "$text": "當 此模型 是 leading 一個單位，每當 一個模型 於 該單位 被摧毀 由 一個 近戰 攻擊，若 該模型 具有 不 fought 此 階段，擲一顆 D6。於 一個 4+，do 不 remove it 從 play； 該 被摧毀 模型 可以 近戰 之後 該 attacking model’s 單位 具有 finished 進行 its 攻擊，且 是 則 removed 從 play。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -165,7 +165,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 此模型’未譯名 單位 未譯名 一個 衝鋒 移動，直到該回合結束，近戰 武器 配備 由 模型 於 該單位 具有 [未譯名 耐傷] 技能。",
+                "$text": "每當 此模型’s 單位 makes 一個 衝鋒 移動，直到該回合結束，近戰 武器 配備 由 模型 於 該單位 具有 [DEVASTATING 耐傷] 技能。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -179,7 +179,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 可加入 該 未譯名 單位:\n\n■ 未譯名 未譯名 未譯名 具有 跳躍背包未譯名",
+                "$text": "此模型 可加入 該 following 單位:\n\n■ Death Company Marines 具有 跳躍背包s",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -1146,7 +1146,7 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "突擊，未譯名 耐傷，雙聯",
+                            "$text": "突擊，Devastating 耐傷，雙聯",
                             "name": "關鍵詞",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
@@ -1601,7 +1601,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 是 未譯名 一個單位，模型 於 該單位 具有 不覺疼痛 5+ 技能。",
+                "$text": "當 此模型 是 leading 一個單位，模型 於 該單位 具有 不覺疼痛 5+ 技能。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -1615,7 +1615,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 是 未譯名 一個單位，+1 至 該 攻擊屬性 的 近戰 武器 配備 由 模型 於 該單位。",
+                "$text": "當 此模型 是 leading 一個單位，+1 至 該 攻擊屬性 的 近戰 武器 配備 由 模型 於 該單位。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -1629,7 +1629,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 可加入以下單位:\n\n■ 突擊 未譯名\n■ 突擊 未譯名 未譯名\n■ 未譯名 未譯名 未譯名\n■ 未譯名 未譯名\n■ 未譯名 未譯名\n■ 未譯名 未譯名 未譯名",
+                "$text": "此模型 可加入以下單位:\n\n■ 突擊 Squad\n■ 突擊 Intercessor Squad\n■ Sternguard Veteran Squad\n■ Devastator Squad\n■ Tactical Squad\n■ Vanguard Veteran Squad",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -2025,7 +2025,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 是 未譯名 一個單位，每當 該單位 被選擇進行射擊，選擇 一個 的 該 未譯名 技能 至 未譯名 至 遠程 武器 配備 由 模型 於 該單位 直到該階段結束:\n\n\n■ [未譯名]\n■ [未譯名]\n■ [未譯名 未譯名 1]",
+                "$text": "當 此模型 是 leading 一個單位，每當 該單位 被選擇進行射擊，選擇 一個 的 該 following 技能 至 apply 至 遠程 武器 配備 由 模型 於 該單位 直到該階段結束:\n\n\n■ [ASSAULT]\n■ [HEAVY]\n■ [RAPID FIRE 1]",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -2039,7 +2039,7 @@
           {
             "characteristics": [
               {
-                "$text": "該 未譯名 時 一個 攻擊 是 未譯名 至 此模型，之後 該 未譯名 單位 具有 未譯名 進行 未譯名 攻擊，直到 該 結束 的 該 戰鬥，未譯名 該 攻擊屬性 此模型’未譯名 未譯名 未譯名 未譯名 至 12",
+                "$text": "該 first 時 一個 攻擊 是 allocated 至 此模型，之後 該 attacking 單位 具有 finished 進行 its 攻擊，直到 該 結束 的 該 戰鬥，change 該 攻擊屬性 此模型’s Dead Man’s Hand 至 12",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -2053,7 +2053,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 可加入以下單位:\n\n■ 突擊 未譯名\n■ 指揮 未譯名\n■ 突擊 未譯名 未譯名\n■ 未譯名 未譯名 未譯名\n■ 未譯名 未譯名\n■ 未譯名 未譯名\n■ 未譯名 未譯名 未譯名",
+                "$text": "此模型 可加入以下單位:\n\n■ 突擊 Squad\n■ 指揮 Squad\n■ 突擊 Intercessor Squad\n■ Sternguard Veteran Squad\n■ Company Heroes\n■ Tactical Squad\n■ Vanguard Veteran Squad",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -2067,7 +2067,7 @@
           {
             "characteristics": [
               {
-                "$text": "你的 軍隊 不能 未譯名 未譯名 未譯名 未譯名 且 未譯名 該 未譯名。",
+                "$text": "你的 軍隊 不能 contain both Captain Tycho 且 Tycho 該 Lost。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -2533,7 +2533,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 是 未譯名 一個單位，該單位 是 符合資格 至 宣告衝鋒 於 一個 回合 於 未譯名 未譯名 未譯名",
+                "$text": "當 此模型 是 leading 一個單位，該單位 是 符合資格 至 宣告衝鋒 於 一個 回合 於 which it Advanced",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -2547,7 +2547,7 @@
           {
             "characteristics": [
               {
-                "$text": "若 此模型 被摧毀 由 一個 近戰 攻擊，之後 該 未譯名 單位 具有 未譯名 進行 未譯名 攻擊，你 可以 擲一顆 D6，未譯名 2 至 該 結果 若 該 未譯名 單位 包含 該 敵方 未譯名: 於 一個 2-3，該 敵方單位 承受 3 致命傷； 於 一個 4-5，該 敵方單位 承受 D3+3 致命傷； 於 一個 6+，該 敵方單位 承受 D6+3 致命傷。",
+                "$text": "若 此模型 被摧毀 由 一個 近戰 攻擊，之後 該 attacking 單位 具有 finished 進行 its 攻擊，你 可以 擲一顆 D6，adding 2 至 該 結果 若 該 attacking 單位 包含 該 敵方 Warlord: 於 一個 2-3，該 敵方單位 承受 3 致命傷； 於 一個 4-5，該 敵方單位 承受 D3+3 致命傷； 於 一個 6+，該 敵方單位 承受 D6+3 致命傷。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -2561,7 +2561,7 @@
           {
             "characteristics": [
               {
-                "$text": "你的 軍隊 不能 未譯名 未譯名 未譯名 未譯名 且 未譯名 該 未譯名。",
+                "$text": "你的 軍隊 不能 contain both Captain Tycho 且 Tycho 該 Lost。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -2575,7 +2575,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 可加入 該 未譯名 單位:\n\n■ 未譯名 未譯名 未譯名",
+                "$text": "此模型 可加入 該 following 單位:\n\n■ Death Company Marines",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -2851,7 +2851,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 是 符合資格 至 宣告衝鋒 於 一個 回合 未譯名 未譯名 未譯名。",
+                "$text": "此模型 是 符合資格 至 宣告衝鋒 於 一個 回合 which it Advanced。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -2865,7 +2865,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 一個 敵方單位 位於 6\" 此模型，每當 該單位 是 被選擇 至 後撤 後撤，未譯名 必須 受到 一個 領導力測試。若該 未譯名 是 失敗，該單位 必須 未譯名 未譯名 此 階段 改為。",
+                "$text": "當 一個 敵方單位 位於 6\" 此模型，每當 該單位 是 被選擇 至 後撤 後撤，it 必須 受到 一個 領導力測試。若該 test 是 失敗，該單位 必須 Remain Stationary 此 階段 改為。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -2879,7 +2879,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 具有 一個 5+ 未譯名 豁免",
+                "$text": "此模型 具有 一個 5+ invulnerable 豁免",
                 "name": "說明",
                 "hidden": false,
                 "id": "cd6e-3f8f-50e8-6d4f",
@@ -3358,7 +3358,7 @@
           {
             "characteristics": [
               {
-                "$text": "在開始時 該 近戰 階段，每個 敵方單位 位於 6\" 此模型 必須 受到 一個 戰鬥震懾測試，未譯名 1 從 該 未譯名 未譯名 他們 未譯名",
+                "$text": "在開始時 該 近戰 階段，每個 敵方單位 位於 6\" 此模型 必須 受到 一個 戰鬥震懾測試，subtracting 1 從 該 test when 他們 do",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -3372,7 +3372,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 是 未譯名 一個單位，+1 至 突進 且 衝鋒 擲骰 進行了 為 該單位 且 每當 一個模型 於 該單位 進行一次攻擊，+1 至 該 命中擲骰。",
+                "$text": "當 此模型 是 leading 一個單位，+1 至 突進 且 衝鋒 擲骰 進行了 為 該單位 且 每當 一個模型 於 該單位 進行一次攻擊，+1 至 該 命中擲骰。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -3386,7 +3386,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 可加入以下單位:\n\n■ 突擊 未譯名 具有 跳躍背包未譯名\n■ 未譯名 未譯名\n■ 未譯名 未譯名 未譯名 具有 跳躍背包未譯名\n■ 突擊 未譯名 具有 跳躍背包未譯名",
+                "$text": "此模型 可加入以下單位:\n\n■ 突擊 Squad 具有 跳躍背包s\n■ Sanguinary Guard\n■ Vanguard Veteran Squad 具有 跳躍背包s\n■ 突擊 Intercessors 具有 跳躍背包s",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -3815,7 +3815,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 一個 敵方單位 目標為 此模型，之後 該單位 具有 未譯名 進行 未譯名 攻擊，此模型 可以 未譯名 射擊 作為 若 未譯名 未譯名 你的 射擊 階段 或 近戰 作為 若 未譯名 未譯名 該 近戰 階段。",
+                "$text": "每當 一個 敵方單位 目標為 此模型，之後 該單位 具有 finished 進行 its 攻擊，此模型 可以 either 射擊 作為 若 it were 你的 射擊 階段 或 近戰 作為 若 it were 該 近戰 階段。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -3829,7 +3829,7 @@
           {
             "characteristics": [
               {
-                "$text": "增加 2 至 衝鋒 擲骰 進行了 為 該 持有者 若 一個 或 更多 的 該 目標為 的 該 衝鋒 是 一個 未譯名 或 載具 單位。",
+                "$text": "增加 2 至 衝鋒 擲骰 進行了 為 該 持有者 若 一個 或 更多 的 該 目標為 的 該 衝鋒 是 一個 MOSNTER 或 載具 單位。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -5771,7 +5771,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 一個模型 於 此單位 進行一次攻擊，該 攻擊 具有 [未譯名 未譯名 1] 技能 若 此單位 是 未譯名 未譯名 未譯名 力量，或 該 [未譯名 未譯名 2] 技能 若 此單位 是 未譯名 未譯名－力量。",
+                "$text": "每當 一個模型 於 此單位 進行一次攻擊，該 攻擊 具有 [SUSTAINED HITS 1] 技能 若 此單位 是 below its Starting 力量，或 該 [SUSTAINED HITS 2] 技能 若 此單位 是 Below Half-strength。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -5785,7 +5785,7 @@
           {
             "characteristics": [
               {
-                "$text": "若 一個 未譯名 模型 你軍隊中的 具有 該 領袖 技能 可加入 一個 未譯名 未譯名，未譯名 可加入 此單位 改為。\n\n\n若 一個 角色 單位 你軍隊中的 具有 該 領袖 技能 可加入 一個 未譯名 未譯名 未譯名 單位，未譯名 可加入 此單位 改為。",
+                "$text": "若 一個 Chaplain 模型 你軍隊中的 具有 該 領袖 技能 可加入 一個 Tactical Squad，it 可加入 此單位 改為。\n\n\n若 一個 角色 單位 你軍隊中的 具有 該 領袖 技能 可加入 一個 Death Company Marines 單位，it 可加入 此單位 改為。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -6583,7 +6583,7 @@
           {
             "characteristics": [
               {
-                "$text": "若 一個 未譯名 模型 你軍隊中的 具有 該 領袖 技能 可加入 突擊 未譯名 具有 跳躍背包未譯名，未譯名 可加入 此單位 改為",
+                "$text": "若 一個 Chaplain 模型 你軍隊中的 具有 該 領袖 技能 可加入 突擊 Intercessors 具有 跳躍背包s，it 可加入 此單位 改為",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -8074,7 +8074,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 此模型 被選擇進行近戰，你 可以 選擇 一個 敵方單位 位於 未譯名 射程 的 未譯名 且 擲一顆 D6，未譯名 2 至 該 結果 若 此模型 進行了 一個 衝鋒 移動 此 回合: 於 一個 4-5，該 敵方單位 承受 D3 致命傷； 於 一個 6+，該 敵方單位 承受 3 致命傷。",
+                "$text": "每當 此模型 被選擇進行近戰，你 可以 選擇 一個 敵方單位 位於 Engagement 射程 的 it 且 擲一顆 D6，adding 2 至 該 結果 若 此模型 進行了 一個 衝鋒 移動 此 回合: 於 一個 4-5，該 敵方單位 承受 D3 致命傷； 於 一個 6+，該 敵方單位 承受 3 致命傷。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -9098,7 +9098,7 @@
           {
             "characteristics": [
               {
-                "$text": "該 持有者 未譯名 該 未譯名 關鍵詞，未譯名 增加 2 至 衝鋒 擲骰 進行了 為 該 持有者 若 一個 或 更多 的 該 目標為 的 該 衝鋒 是 一個 怪獸 或 載具 單位",
+                "$text": "該 持有者 loses 該 Smoke 關鍵詞，but 增加 2 至 衝鋒 擲骰 進行了 為 該 持有者 若 一個 或 更多 的 該 目標為 的 該 衝鋒 是 一個 怪獸 或 載具 單位",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -9378,7 +9378,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 是 未譯名 一個單位，該單位 是 符合資格 至 宣告衝鋒 於 一個 回合 於 未譯名 未譯名 未譯名",
+                "$text": "當 此模型 是 leading 一個單位，該單位 是 符合資格 至 宣告衝鋒 於 一個 回合 於 which it Advanced",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -9392,7 +9392,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 此模型 未譯名，直到 該 近戰 是 未譯名，+1 至 該 攻擊屬性 此模型’未譯名 未譯名 未譯名 為 未譯名 5 敵方模型未譯名 位於 6\" 此模型。",
+                "$text": "每當 此模型 fights，直到 該 近戰 是 resolved，+1 至 該 攻擊屬性 此模型’s Blood Reaver 為 every 5 敵方模型s 位於 6\" 此模型。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -9406,7 +9406,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 可加入以下單位:\n\n■ 突擊 未譯名\n■ 指揮 未譯名\n■ 未譯名 未譯名\n■ 未譯名 未譯名 未譯名\n■ 突擊 未譯名 未譯名\n■ 未譯名 未譯名\n■ 未譯名 未譯名 未譯名\n■ 未譯名 未譯名 未譯名",
+                "$text": "此模型 可加入以下單位:\n\n■ 突擊 Squad\n■ 指揮 Squad\n■ Tactical Squad\n■ Vanguard Veteran Squad\n■ 突擊 Intercessor Squad\n■ Company Heroes\n■ Sternguard Veteran Squad\n■ Bladeguard Veteran Squad",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -9904,7 +9904,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 是 未譯名 一個單位，每當 一個 攻擊 是 未譯名 至 一個模型 於 該單位，-1 至 該 傷害 屬性 的 該 攻擊。",
+                "$text": "當 此模型 是 leading 一個單位，每當 一個 攻擊 是 allocated 至 一個模型 於 該單位，-1 至 該 傷害 屬性 的 該 攻擊。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -9918,7 +9918,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 是 未譯名 一個單位，近戰 武器 配備 由 模型 於 該單位 具有 [未譯名 未譯名] 技能。",
+                "$text": "當 此模型 是 leading 一個單位，近戰 武器 配備 由 模型 於 該單位 具有 [LETHAL HITS] 技能。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -9932,7 +9932,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 可加入 該 未譯名 單位:\n\n■ 未譯名 未譯名 未譯名 具有 跳躍背包未譯名",
+                "$text": "此模型 可加入 該 following 單位:\n\n■ Death Company Marines 具有 跳躍背包s",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -10268,7 +10268,7 @@
           {
             "characteristics": [
               {
-                "$text": "一次 未譯名 回合，未譯名 該 結束 的 你的 移動未譯名 階段，一個 靈能者 你軍隊中的 具有 此 技能 可以 使用 未譯名。若 未譯名 未譯名，擲一顆 D6: 於 一個 1，該 靈能者 承受 D3 致命傷； 於 一個 2+，選擇 一個友方 星際戰士 步兵 單位 位於 12 吋 的 該 靈能者 且 未譯名 該 被選擇 單位 從 該 未譯名，則 設為 未譯名 未譯名 未譯名 未譯名 於 該 未譯名 該 是 超過 9 吋\n未譯名 未譯名 從 所有 敵方模型未譯名。",
+                "$text": "一次 per 回合，at 該 結束 的 你的 移動ment 階段，一個 靈能者 你軍隊中的 具有 此 技能 可以 使用 it。若 it does，擲一顆 D6: 於 一個 1，該 靈能者 承受 D3 致命傷； 於 一個 2+，選擇 一個友方 星際戰士 步兵 單位 位於 12 吋 的 該 靈能者 且 remove 該 被選擇 單位 從 該 battlefield，則 設為 it up again anywhere 於 該 battlefield 該 是 超過 9 吋\nhorizontally away 從 所有 敵方模型s。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -11182,7 +11182,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 一個 角色 模型 是 未譯名 此單位，每當 一個 近戰 攻擊 目標為 此單位，-1 至 該 致傷擲骰。",
+                "$text": "當 一個 角色 模型 是 leading 此單位，每當 一個 近戰 攻擊 目標為 此單位，-1 至 該 致傷擲骰。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -11196,7 +11196,7 @@
           {
             "characteristics": [
               {
-                "$text": "若 一個 未譯名 模型 你軍隊中的 具有 該 領袖 技能 可加入 突擊 未譯名 具有 跳躍背包未譯名，未譯名 可加入 此單位 改為。",
+                "$text": "若 一個 Captain 模型 你軍隊中的 具有 該 領袖 技能 可加入 突擊 Intercessors 具有 跳躍背包s，it 可加入 此單位 改為。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -11787,7 +11787,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "增加 1 至 該 目標控制 屬性 的 模型 於 該 未譯名 單位。",
+                    "$text": "增加 1 至 該 目標控制 屬性 的 模型 於 該 bearer’s 單位。",
                     "name": "說明",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -12192,7 +12192,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 是 未譯名 一個單位，模型 於 該單位 具有 不覺疼痛 5+ 技能",
+                "$text": "當 此模型 是 leading 一個單位，模型 於 該單位 具有 不覺疼痛 5+ 技能",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -12206,7 +12206,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 是 未譯名 一個單位，未譯名 該 穿甲 屬性 的 近戰 武器 配備 由 模型 於 該單位 由 1。",
+                "$text": "當 此模型 是 leading 一個單位，improve 該 穿甲 屬性 的 近戰 武器 配備 由 模型 於 該單位 由 1。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -12220,7 +12220,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 可加入以下單位: \n- **^^突擊 未譯名 未譯名^^**\n- **^^未譯名 未譯名 未譯名^^**\n- **^^未譯名 未譯名^^**\n- **^^未譯名 未譯名^^**\n- **^^未譯名 未譯名^^**\n- **^^未譯名 未譯名^^**\n- **^^未譯名 未譯名^^**\n- **^^未譯名 未譯名^^**\n- **^^未譯名 未譯名 未譯名^^**\n\n\n你 可以 未譯名 此模型 至 一個 的 該 未譯名 單位，未譯名 若 一個 **^^未譯名，未譯名 未譯名^^** 或 **^^未譯名**^^ 模型 具有 未譯名 已被 附屬 至 未譯名。若如此做，且 該 未譯名 單位 被摧毀，該 領袖 單位 附屬 至 未譯名 未譯名 未譯名 單位，具有 其 未譯名 未譯名 力量未譯名",
+                "$text": "此模型 可加入以下單位: \n- **^^突擊 Intercessor Squad^^**\n- **^^Bladeguard Veteran Squad^^**\n- **^^Desolation Squad^^**\n- **^^Devastator Squad^^**\n- **^^Hellblaster Squad^^**\n- **^^Infernus Squad^^**\n- **^^Intercessor Squad^^**\n- **^^Tactical Squad^^**\n- **^^Sternguard Veteran Squad^^**\n\n\n你 可以 attach 此模型 至 一個 的 該 above 單位，even 若 一個 **^^Captain，Chapter Master^^** 或 **^^Lieutenant**^^ 模型 具有 already 已被 附屬 至 it。若如此做，且 該 Bodyguard 單位 被摧毀，該 領袖 單位 附屬 至 it become separate 單位，具有 其 original Starting 力量s",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -12777,7 +12777,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 一個 友方 星際戰士 單位 位於 6\" 此模型，你可以重擲 戰鬥震懾 且 領導力測試未譯名 未譯名 為 該單位",
+                "$text": "當 一個 友方 星際戰士 單位 位於 6\" 此模型，你可以重擲 Battle-shock 且 領導力測試s taken 為 該單位",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -12791,7 +12791,7 @@
           {
             "characteristics": [
               {
-                "$text": "一次 未譯名 戰鬥，未譯名 該 結束 的 對手’未譯名 衝鋒 階段，若 此模型 是 未譯名 於 未譯名，你 可以 選擇 一個 敵方單位 該 進行了 一個 衝鋒 移動 此 階段。設為 此模型 未譯名 於 該 未譯名 位於 未譯名 射程 的 該 敵方單位。",
+                "$text": "一次 per 戰鬥，at 該 結束 的 對手’s 衝鋒 階段，若 此模型 是 still 於 Reserves，你 可以 選擇 一個 敵方單位 該 進行了 一個 衝鋒 移動 此 階段。設為 此模型 up 於 該 battlefield 位於 Engagement 射程 的 該 敵方單位。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -13168,7 +13168,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 是 未譯名 一個單位，模型 於 該單位 具有 不覺疼痛 5+ 技能",
+                "$text": "當 此模型 是 leading 一個單位，模型 於 該單位 具有 不覺疼痛 5+ 技能",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -13182,7 +13182,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 是 未譯名 一個單位，未譯名 該 穿甲 屬性 的 近戰 武器 配備 由 模型 於 該單位 由 1。",
+                "$text": "當 此模型 是 leading 一個單位，improve 該 穿甲 屬性 的 近戰 武器 配備 由 模型 於 該單位 由 1。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -13196,7 +13196,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 可加入以下單位:\n\n■ 突擊 未譯名 具有 跳躍背包未譯名\n■ 未譯名 未譯名 未譯名 具有 未譯名 未譯名\n■ 突擊 未譯名 具有 跳躍背包未譯名\n\n你 可以 未譯名 此模型 至 一個 的 該 未譯名 單位，未譯名 若 一個 未譯名，未譯名 未譯名 或 未譯名 模型 具有 未譯名 已被 附屬 至 未譯名。若如此做，且 該 未譯名 單位 被摧毀，該 領袖 單位 附屬 至 未譯名 未譯名 未譯名 單位，具有 其 未譯名 未譯名 力量未譯名。",
+                "$text": "此模型 可加入以下單位:\n\n■ 突擊 Squad 具有 跳躍背包s\n■ Vanguard Veteran Squad 具有 Jump packs\n■ 突擊 Intercessors 具有 跳躍背包s\n\n你 可以 attach 此模型 至 一個 的 該 above 單位，even 若 一個 Captain，Chapter Master 或 Lieutenant 模型 具有 already 已被 附屬 至 it。若如此做，且 該 Bodyguard 單位 被摧毀，該 領袖 單位 附屬 至 it become separate 單位，具有 其 original Starting 力量s。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -13803,7 +13803,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 是 未譯名 一個單位，未譯名 該 穿甲 屬性 的 近戰 武器 配備 由 模型 於 該單位 由 1。",
+                "$text": "當 此模型 是 leading 一個單位，improve 該 穿甲 屬性 的 近戰 武器 配備 由 模型 於 該單位 由 1。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -13817,7 +13817,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 可加入以下單位:\n\n■ 未譯名 未譯名\n■ 未譯名 未譯名",
+                "$text": "此模型 可加入以下單位:\n\n■ Bike Squad\n■ Outrider Squad",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -13831,7 +13831,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 是 未譯名 一個單位，模型 於 該單位 具有 不覺疼痛 5+ 技能",
+                "$text": "當 此模型 是 leading 一個單位，模型 於 該單位 具有 不覺疼痛 5+ 技能",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -14790,7 +14790,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 可加入以下單位:\n\n■ 突擊 未譯名 未譯名\n■ 未譯名 未譯名\n■ 未譯名 未譯名\n■ 未譯名 未譯名 未譯名\n■ 未譯名 未譯名\n■ 未譯名 未譯名",
+                "$text": "此模型 可加入以下單位:\n\n■ 突擊 Intercessor Squad\n■ Infernus Squad\n■ Intercessor Squad\n■ Sternguard Veteran Squad\n■ Company Heroes\n■ Tactical Squad",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -15591,7 +15591,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 可加入以下單位:\n\n■ 未譯名 未譯名 未譯名\n■ 未譯名 未譯名 未譯名 具有 未譯名 未譯名",
+                "$text": "此模型 可加入以下單位:\n\n■ Death Company Marines\n■ Death Company Marines 具有 Bolt Rifles",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -15605,7 +15605,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 是 未譯名 一個單位，除非 該單位 未譯名 該 戰鬥 未譯名 位於 一個 未譯名，模型 於 該單位 具有 斥候 6\" 技能",
+                "$text": "當 此模型 是 leading 一個單位，除非 該單位 starts 該 戰鬥 embarked 位於 一個 Transport，模型 於 該單位 具有 斥候 6\" 技能",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -15619,7 +15619,7 @@
           {
             "characteristics": [
               {
-                "$text": "若 此模型 被摧毀 由 一個 近戰 攻擊，之後 該 未譯名 單位 具有 未譯名 進行 未譯名 攻擊，你 可以 擲一顆 D6，未譯名 2 至 該 結果 若 該 未譯名 單位 包含 該 敵方 未譯名。於 一個 2-3，該 敵方單位 承受 D3 致命傷； 於 一個 4-5，該 敵方單位 承受 3 致命傷； 於 一個 6+ 該 敵方單位 承受 D3+3 致命傷。",
+                "$text": "若 此模型 被摧毀 由 一個 近戰 攻擊，之後 該 attacking 單位 具有 finished 進行 its 攻擊，你 可以 擲一顆 D6，adding 2 至 該 結果 若 該 attacking 單位 包含 該 敵方 Warlord。於 一個 2-3，該 敵方單位 承受 D3 致命傷； 於 一個 4-5，該 敵方單位 承受 3 致命傷； 於 一個 6+ 該 敵方單位 承受 D3+3 致命傷。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -16223,7 +16223,7 @@
           {
             "characteristics": [
               {
-                "$text": "若 此模型 被摧毀 由 一個 近戰 攻擊，之後 該 未譯名 單位 具有 未譯名 進行 未譯名 攻擊，你 可以 擲一顆 D6，未譯名 2 至 該 結果 若 該 未譯名 單位 包含 該 敵方 未譯名。於 一個 2-3，該 敵方單位 承受 D3 致命傷； 於 一個 4-5，該 敵方單位 承受 3 致命傷； 於 一個 6+ 該 敵方單位 承受 D3+3 致命傷。",
+                "$text": "若 此模型 被摧毀 由 一個 近戰 攻擊，之後 該 attacking 單位 具有 finished 進行 its 攻擊，你 可以 擲一顆 D6，adding 2 至 該 結果 若 該 attacking 單位 包含 該 敵方 Warlord。於 一個 2-3，該 敵方單位 承受 D3 致命傷； 於 一個 4-5，該 敵方單位 承受 3 致命傷； 於 一個 6+ 該 敵方單位 承受 D3+3 致命傷。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -16281,7 +16281,7 @@
           {
             "characteristics": [
               {
-                "$text": "未譯名 此模型 是 未譯名 一個單位，近戰 武器 配備 由 模型 於 該單位 具有 [未譯名 未譯名 1] 技能",
+                "$text": "When 此模型 是 leading 一個單位，近戰 武器 配備 由 模型 於 該單位 具有 [SUSTAINED HITS 1] 技能",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -16295,7 +16295,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 可加入以下單位:\n\n■ 未譯名 未譯名 未譯名 具有 跳躍背包未譯名",
+                "$text": "此模型 可加入以下單位:\n\n■ Death Company Marines 具有 跳躍背包s",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -17683,7 +17683,7 @@
           {
             "characteristics": [
               {
-                "$text": "若 一個 未譯名 模型 你軍隊中的 具有 該 領袖 技能 可加入 未譯名 未譯名，未譯名 可加入 此單位 改為。",
+                "$text": "若 一個 Chaplain 模型 你軍隊中的 具有 該 領袖 技能 可加入 Intercessor Squad，it 可加入 此單位 改為。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -18756,7 +18756,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 一個模型 於 此單位 進行一次攻擊，該 攻擊 具有 [未譯名 未譯名 1] 技能 若 此單位 是 未譯名 未譯名 未譯名 力量，或 該 [未譯名 未譯名 2] 技能 若 此單位 是 未譯名 未譯名－力量。",
+                "$text": "每當 一個模型 於 此單位 進行一次攻擊，該 攻擊 具有 [SUSTAINED HITS 1] 技能 若 此單位 是 below its Starting 力量，或 該 [SUSTAINED HITS 2] 技能 若 此單位 是 Below Half-strength。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -18770,7 +18770,7 @@
           {
             "characteristics": [
               {
-                "$text": "若 一個 未譯名 模型 你軍隊中的 具有 該 領袖 技能 可加入 突擊 未譯名 未譯名，未譯名 可加入 此單位 改為。",
+                "$text": "若 一個 Chaplain 模型 你軍隊中的 具有 該 領袖 技能 可加入 突擊 Intercessor Squad，it 可加入 此單位 改為。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -19359,7 +19359,7 @@
           {
             "characteristics": [
               {
-                "$text": "於 對手'未譯名 射擊 階段，未譯名 一個 敵方單位 具有 未譯名，若 此模型 未譯名 一個 致傷 作為 一個 結果 的 那些 攻擊，此單位 可以 進行 一個 未譯名 移動 的 未譯名 至 D6+2\"。",
+                "$text": "於 對手's 射擊 階段，when 一個 敵方單位 具有 shot，若 此模型 lost 一個 致傷 作為 一個 結果 的 那些 攻擊，此單位 可以 進行 一個 surge 移動 的 up 至 D6+2\"。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -20321,7 +20321,7 @@
           {
             "characteristics": [
               {
-                "$text": "若 一個 未譯名 模型 你軍隊中的 具有 該 領袖 技能 可加入 突擊 未譯名 具有 跳躍背包未譯名 或 一個 突擊 未譯名 具有 跳躍背包未譯名，未譯名 可加入 此單位 改為。\n\n\n若 一個 角色 單位 你軍隊中的 具有 該 領袖 技能 可加入 一個 未譯名 未譯名 未譯名 具有 跳躍背包未譯名 單位，未譯名 可加入 此單位 改為。",
+                "$text": "若 一個 Chaplain 模型 你軍隊中的 具有 該 領袖 技能 可加入 突擊 Intercessors 具有 跳躍背包s 或 一個 突擊 Squad 具有 跳躍背包s，it 可加入 此單位 改為。\n\n\n若 一個 角色 單位 你軍隊中的 具有 該 領袖 技能 可加入 一個 Death Company Marines 具有 跳躍背包s 單位，it 可加入 此單位 改為。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -21085,7 +21085,7 @@
       {
         "characteristics": [
           {
-            "$text": "每當 此模型 未譯名 一個 近戰 攻擊，你可以重擲 該 命中擲骰。當 此模型'未譯名 單位 是 不 位於 6\" 的 一個 或 更多 友方 ^^**聖血天使 角色**^^ 模型，或 12\" 的 一個 或 更多 友方 ^^**未譯名**^^ 模型，未譯名 不能 被 被選擇 至 後撤 後撤 且 該 目標控制 屬性 的 模型 於 此單位 是 0。",
+            "$text": "每當 此模型 makes 一個 近戰 攻擊，你可以重擲 該 命中擲骰。當 此模型's 單位 是 不 位於 6\" 的 一個 或 更多 友方 ^^**聖血天使 角色**^^ 模型，或 12\" 的 一個 或 更多 友方 ^^**Chaplain**^^ 模型，it 不能 被 被選擇 至 後撤 後撤 且 該 目標控制 屬性 的 模型 於 此單位 是 0。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
@@ -21099,7 +21099,7 @@
       {
         "characteristics": [
           {
-            "$text": "一次 未譯名 回合，你 可以 目標 此單位 具有 該 未譯名 未譯名 策略 或 該 未譯名 未譯名 策略 為 0CP。當 未譯名 該 未譯名，每當 一個模型 於 此單位 未譯名 一個 遠程 攻擊 你可以重擲 該 命中擲骰，或 你可以重擲 該 衝鋒 擲骰 進行了 為 此單位 [未譯名 未譯名]",
+            "$text": "一次 per 回合，你 可以 目標 此單位 具有 該 Fire Overwatch 策略 或 該 Heroic Intervention 策略 為 0CP。當 resolving 該 Strategem，每當 一個模型 於 此單位 makes 一個 遠程 攻擊 你可以重擲 該 命中擲骰，或 你可以重擲 該 衝鋒 擲骰 進行了 為 此單位 [whichever applies]",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }

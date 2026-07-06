@@ -152,7 +152,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 是 未譯名 一個單位，每當 一個模型 於 該單位 未譯名 一個 近戰 攻擊，你可以重擲 該 致傷擲骰。",
+                "$text": "當 此模型 是 leading 一個單位，每當 一個模型 於 該單位 makes 一個 近戰 攻擊，你可以重擲 該 致傷擲骰。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -166,7 +166,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 一個 敵方單位 位於 未譯名 射程 此模型，未譯名 該 目標控制 屬性 的 模型 於 該 敵方單位",
+                "$text": "當 一個 敵方單位 位於 Engagement 射程 此模型，halve 該 目標控制 屬性 的 模型 於 該 敵方單位",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -180,7 +180,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 可加入以下單位:\n\n■ 突擊 未譯名 未譯名\n■ 未譯名 未譯名 未譯名\n■ 未譯名 未譯名\n■ 未譯名 未譯名\n■ 未譯名 未譯名\n■ 未譯名 未譯名 未譯名\n■ 未譯名 未譯名",
+                "$text": "此模型 可加入以下單位:\n\n■ 突擊 Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Company Heroes\n■ Infernus Squad\n■ Intercessor Squad\n■ Sternguard Veteran Squad\n■ Tactical Squad",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -483,7 +483,7 @@
           {
             "characteristics": [
               {
-                "$text": "於 你的 射擊 階段，選擇 一個 敵方單位 位於 24\" 的 且 可見 至 此模型。直到 該 結束 的 該 階段，每當 一個 友方 星際戰士 模型 未譯名 一個 遠程 攻擊 具有 一個 洪流 或 熱熔 武器 該 目標為 該 敵方單位，你可以重擲 該 致傷擲骰",
+                "$text": "於 你的 射擊 階段，選擇 一個 敵方單位 位於 24\" 的 且 可見 至 此模型。直到 該 結束 的 該 階段，每當 一個 友方 星際戰士 模型 makes 一個 遠程 攻擊 具有 一個 洪流 或 熱熔 武器 該 目標為 該 敵方單位，你可以重擲 該 致傷擲骰",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -497,7 +497,7 @@
           {
             "characteristics": [
               {
-                "$text": "該 未譯名 時 此模型 是 設為 未譯名 於 該 未譯名，選擇 一個 目標標記 於 該 未譯名。當 此模型 位於 射程 的 該 目標標記，未譯名 具有 一個 目標控制 屬性 的 10，一個 領導力 屬性 的 5+ 且 該 不覺疼痛 4+ 技能。",
+                "$text": "該 first 時 此模型 是 設為 up 於 該 battlefield，選擇 一個 目標標記 於 該 battlefield。當 此模型 位於 射程 的 該 目標標記，it 具有 一個 目標控制 屬性 的 10，一個 領導力 屬性 的 5+ 且 該 不覺疼痛 4+ 技能。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -511,7 +511,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 可加入以下單位:\n\n■ 突擊 未譯名 未譯名\n■ 未譯名 未譯名\n■ 未譯名 未譯名\n■ 未譯名 未譯名",
+                "$text": "此模型 可加入以下單位:\n\n■ 突擊 Intercessor Squad\n■ Company Heroes\n■ Infernus Squad\n■ Tactical Squad",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -525,7 +525,7 @@
           {
             "characteristics": [
               {
-                "$text": "若 你 未譯名 此模型 於 你的軍隊，直到 該 結束 的 該 戰鬥，未譯名－未譯名角色 模型 於 未譯名 未譯名 單位 你軍隊中的 具有 一個 目標控制 屬性 的 2 當 他們 是 不 戰鬥－未譯名。",
+                "$text": "若 你 include 此模型 於 你的軍隊，直到 該 結束 的 該 戰鬥，non-角色 模型 於 Infernus Squad 單位 你軍隊中的 具有 一個 目標控制 屬性 的 2 當 他們 是 不 Battle-shocked。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }

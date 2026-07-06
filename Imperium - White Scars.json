@@ -331,7 +331,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 是 未譯名 一個單位，遠程 武器 配備 由 模型 於 該單位 具有 [未譯名] 技能 且 近戰 武器 配備 由 模型 於 該單位 具有 [未譯名] 技能。",
+                "$text": "當 此模型 是 leading 一個單位，遠程 武器 配備 由 模型 於 該單位 具有 [ASSAULT] 技能 且 近戰 武器 配備 由 模型 於 該單位 具有 [LANCE] 技能。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -345,7 +345,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 此模型 未譯名 一個 敵方 角色 模型，你 未譯名 1CP",
+                "$text": "每當 此模型 destroys 一個 敵方 角色 模型，你 gain 1CP",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -359,7 +359,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 可加入以下單位:\n\n■ 突擊 未譯名 未譯名\n■ 未譯名 未譯名 未譯名\n■ 未譯名 未譯名\n■ 未譯名 未譯名 未譯名\n■ 未譯名 未譯名\n■ 未譯名 未譯名",
+                "$text": "此模型 可加入以下單位:\n\n■ 突擊 Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Intercessor Squad\n■ Sternguard Veteran Squad\n■ Tactical Squad\n■ Company Heroes",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -373,7 +373,7 @@
           {
             "characteristics": [
               {
-                "$text": "若 你 未譯名 此模型 於 你的軍隊，直到 該 結束 的 該 戰鬥，未譯名－未譯名角色 模型 於 未譯名 未譯名 單位 你軍隊中的 具有 一個 目標控制 屬性 的 3 當 他們 是 不 戰鬥－未譯名。",
+                "$text": "若 你 include 此模型 於 你的軍隊，直到 該 結束 的 該 戰鬥，non-角色 模型 於 Outrider Squad 單位 你軍隊中的 具有 一個 目標控制 屬性 的 3 當 他們 是 不 Battle-shocked。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -575,7 +575,7 @@
           {
             "characteristics": [
               {
-                "$text": "此 未譯名 單位 是 符合資格 至 射擊 且 宣告衝鋒 於 一個 回合 於 未譯名 未譯名 未譯名 或 未譯名 後撤。若該單位 是 未譯名 符合資格 至 射擊 且 宣告衝鋒 於 一個 回合 於 未譯名 未譯名 未譯名，+1 至 突進 且 衝鋒 擲骰 進行了 為 該單位 改為。",
+                "$text": "此 model’s 單位 是 符合資格 至 射擊 且 宣告衝鋒 於 一個 回合 於 which it Advanced 或 Fell 後撤。若 該單位 是 already 符合資格 至 射擊 且 宣告衝鋒 於 一個 回合 於 which it Advanced，+1 至 突進 且 衝鋒 擲骰 進行了 為 該單位 改為。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -589,7 +589,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 一個模型 於 此模型’未譯名 單位 未譯名 一個 未譯名，突進，後撤 後撤 或 衝鋒 移動，未譯名 可以 移動 未譯名 未譯名 未譯名 未譯名。",
+                "$text": "每當 一個模型 於 此模型’s 單位 makes 一個 Normal，突進，後撤 後撤 或 衝鋒 移動，it 可以 移動 horizontally through terrain features。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -603,7 +603,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 可加入以下單位: ^^**未譯名 未譯名^^**",
+                "$text": "此模型 可加入以下單位: ^^**Outrider Squad^^**",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }

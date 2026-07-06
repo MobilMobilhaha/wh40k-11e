@@ -163,7 +163,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 一個 敵方單位 被選擇進行射擊 或 近戰，之後 未譯名 具有 未譯名 進行 未譯名 攻擊，若 一個 或 更多 的 那些 攻擊 被目標 此模型 且 此模型 是 不 被摧毀，此模型 可以 近戰 作為 若 未譯名 未譯名 該 近戰 階段",
+                "$text": "每當 一個 敵方單位 被選擇進行射擊 或 近戰，之後 it 具有 finished 進行 its 攻擊，若 一個 或 更多 的 那些 攻擊 被目標 此模型 且 此模型 是 不 被摧毀，此模型 可以 近戰 作為 若 it were 該 近戰 階段",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -177,7 +177,7 @@
           {
             "characteristics": [
               {
-                "$text": "兩次 未譯名 戰鬥，未譯名 該 結束 的 對手’未譯名 回合，若 此模型 是 不 位於 未譯名 射程 的 一個 或 更多 敵方單位，你 可以 未譯名 此模型 從 該 未譯名。於 該 未譯名 未譯名 的 你的 下一個 移動未譯名 階段，設為 未譯名 未譯名 未譯名 於 該 未譯名 該\n是 超過 9 吋 未譯名 未譯名 從 所有 敵方模型未譯名。若 該 戰鬥 未譯名 且 此單位 是 不 於 該 未譯名，未譯名 被摧毀。\n\n未譯名 未譯名: 未譯名 未譯名 未譯名 未譯名 未譯名 下一個 至 此模型，未譯名 一個 每當 此 技能 具有 已被 使用。",
+                "$text": "兩次 per 戰鬥，at 該 結束 的 對手’s 回合，若 此模型 是 不 位於 Engagement 射程 的 一個 或 更多 敵方單位，你 可以 remove 此模型 從 該 battlefield。於 該 Reinforcements step 的 你的 下一個 移動ment 階段，設為 it up anywhere 於 該 battlefield 該\n是 超過 9 吋 horizontally away 從 所有 敵方模型s。若 該 戰鬥 ends 且 此單位 是 不 於 該 battlefield，it 被摧毀。\n\nDesigner’s Note: Place two Borewyrm Infestation tokens 下一個 至 此模型，removing 一個 每當 此 技能 具有 已被 使用。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -1022,7 +1022,7 @@
           {
             "characteristics": [
               {
-                "$text": "此 未譯名 具有 一個 未譯名 未譯名 的 15 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 未譯名 該 未譯名 的 2 模型。未譯名 不能 未譯名 未譯名－角色 模型 具有 一個 耐傷 屬性 的 4 或 更多。",
+                "$text": "此 FORTIFICATION 具有 一個 transport capacity 的 15 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 up 該 space 的 2 模型。It 不能 transport non-CHARACTER 模型 具有 一個 耐傷 屬性 的 4 或 更多。",
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
@@ -1323,7 +1323,7 @@
           {
             "characteristics": [
               {
-                "$text": "此 防禦工事 具有 一個 未譯名 未譯名 的 15 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 未譯名 該 未譯名 的 2 模型。未譯名 不能 未譯名 未譯名－未譯名角色 模型 具有 一個 耐傷 屬性 的 4 或 更多",
+                "$text": "此 防禦工事 具有 一個 transport capacity 的 15 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 up 該 space 的 2 模型。It 不能 transport non-角色 模型 具有 一個 耐傷 屬性 的 4 或 更多",
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
@@ -1547,7 +1547,7 @@
           {
             "characteristics": [
               {
-                "$text": "此 未譯名 具有 一個 未譯名 未譯名 的 20 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 未譯名 該 未譯名 的 2 模型。未譯名 不能 未譯名 未譯名－角色 模型 具有 一個 耐傷 屬性 的 4 或 更多。",
+                "$text": "此 FORTIFICATION 具有 一個 transport capacity 的 20 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 up 該 space 的 2 模型。It 不能 transport non-CHARACTER 模型 具有 一個 耐傷 屬性 的 4 或 更多。",
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
@@ -1561,7 +1561,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 一個模型 是 於 未譯名 的 該 未譯名 未譯名 的 此 未譯名，未譯名 該 穿甲 屬性 的 遠程 武器 配備 由 該模型 由 1。",
+                "$text": "當 一個模型 是 於 top 的 該 tower roof 的 此 FORTIFICATION，improve 該 穿甲 屬性 的 遠程 武器 配備 由 該模型 由 1。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -1980,7 +1980,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 一個 友方 **^^未譯名 未譯名^^** 單位 位於 6\" 此模型，每當 一個模型 於 該單位 進行一次攻擊，+1 至 該 命中擲骰。",
+                "$text": "當 一個 友方 **^^Spindle Drones^^** 單位 位於 6\" 此模型，每當 一個模型 於 該單位 進行一次攻擊，+1 至 該 命中擲骰。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -2747,7 +2747,7 @@
           {
             "characteristics": [
               {
-                "$text": "於 你的 射擊 階段，未譯名 之後 未譯名 一個 目標 為 此模型’未譯名 未譯名 未譯名－未譯名，該 目標 單位 且 未譯名 其他 敵方 步兵 單位 位於 3\" 該單位 必須 受到 一個 戰鬥震懾測試。",
+                "$text": "於 你的 射擊 階段，just 之後 selecting 一個 目標 為 此模型’s Aquila macro-cannon，該 目標 單位 且 every 其他 敵方 步兵 單位 位於 3\" 該單位 必須 受到 一個 戰鬥震懾測試。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -2805,7 +2805,7 @@
           {
             "characteristics": [
               {
-                "$text": "此 未譯名 具有 一個 未譯名 未譯名 的 30 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 未譯名 該 未譯名 的 2 模型。未譯名 不能 未譯名 未譯名－角色 模型 具有 一個 耐傷 屬性 的 4 或 更多。",
+                "$text": "此 FORTIFICATION 具有 一個 transport capacity 的 30 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 up 該 space 的 2 模型。It 不能 transport non-CHARACTER 模型 具有 一個 耐傷 屬性 的 4 或 更多。",
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
@@ -3140,7 +3140,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 此 未譯名 承受 一個 致命傷 作為 該 結果 的 一個 失敗 危險 未譯名，擲一顆 D6: 於 一個 4+，該 致傷 是 不 未譯名。",
+                "$text": "每當 此 FORTIFICATION 承受 一個 致命傷 作為 該 結果 的 一個 失敗 危險 test，擲一顆 D6: 於 一個 4+，該 致傷 是 不 lost。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -3154,7 +3154,7 @@
           {
             "characteristics": [
               {
-                "$text": "此 未譯名 具有 一個 未譯名 未譯名 的 20 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 未譯名 該 未譯名 的 2 模型。未譯名 不能 未譯名 未譯名－角色 模型 具有 一個 耐傷 屬性 的 4 或 更多。",
+                "$text": "此 FORTIFICATION 具有 一個 transport capacity 的 20 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 up 該 space 的 2 模型。It 不能 transport non-CHARACTER 模型 具有 一個 耐傷 屬性 的 4 或 更多。",
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
@@ -4219,7 +4219,7 @@
           {
             "characteristics": [
               {
-                "$text": "友方 步兵 模型 且 友方單位 該 可以 飛行 可以 被 設為 未譯名 或 結束 任何 未譯名 的 移動 於 未譯名 的 該 未譯名 未譯名 的 此 防禦工事。當 未譯名 一個模型 是 於 該 未譯名 未譯名 的 此 防禦工事，該模型 具有 一個 5+ 未譯名 豁免 對抗 遠程 攻擊",
+                "$text": "友方 步兵 模型 且 友方單位 該 可以 飛行 可以 被 設為 up 或 結束 任何 type 的 移動 於 top 的 該 platform section 的 此 防禦工事。當 such 一個模型 是 於 該 platform section 的 此 防禦工事，該模型 具有 一個 5+ invulnerable 豁免 對抗 遠程 攻擊",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -4233,7 +4233,7 @@
           {
             "characteristics": [
               {
-                "$text": "在結束時 你的 移動未譯名 階段，若 未譯名 是 一個 友方 航空器 模型 於 未譯名 的 此 防禦工事，該 航空器 未譯名 未譯名 至 D3 未譯名 耐傷",
+                "$text": "在結束時 你的 移動ment 階段，若 there 是 一個 友方 航空器 模型 於 top 的 此 防禦工事，該 航空器 regains up 至 D3 lost 耐傷",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -4661,7 +4661,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "每當 一個模型 於 此單位 進行一次攻擊，+1 至 該 命中擲骰 若 此單位 是 未譯名 未譯名 未譯名 力量，且 +1 至 該 致傷擲骰 作為 未譯名 若 此單位 是 未譯名 未譯名－力量",
+                        "$text": "每當 一個模型 於 此單位 進行一次攻擊，+1 至 該 命中擲骰 若 此單位 是 below its Starting 力量，且 +1 至 該 致傷擲骰 作為 well 若 此單位 是 Below Half-strength",
                         "name": "說明",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -5022,7 +5022,7 @@
           {
             "characteristics": [
               {
-                "$text": "在開始時 該 近戰 階段，每個 敵方單位 位於 未譯名 射程 的 一個 或 更多 單位 具有 此 技能 必須 受到 一個 戰鬥震懾測試。",
+                "$text": "在開始時 該 近戰 階段，每個 敵方單位 位於 Engagement 射程 的 一個 或 更多 單位 具有 此 技能 必須 受到 一個 戰鬥震懾測試。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -5036,7 +5036,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 一個 敵方單位 位於 6\" 此模型，每當 該單位 受到 一個 戰鬥震懾 或 領導力測試，-1 至 該 未譯名。",
+                "$text": "當 一個 敵方單位 位於 6\" 此模型，每當 該單位 受到 一個 Battle-shock 或 領導力測試，-1 至 該 test。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -5380,7 +5380,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 此模型 未譯名 一個 遠程 攻擊 該 目標為 該 未譯名 敵方單位:\n- 若該 攻擊 是 進行了 具有 一個 未譯名 未譯名 未譯名 且 該 目標 是 不 一個 怪獸 或 載具，+1 至 該 命中擲骰。\n- 若該 攻擊 是 進行了 具有 一個 戰鬥 未譯名 且 該 目標 是 一個 怪獸 或 載具，+1 至 該 命中擲骰。\n- 若該 攻擊 是 進行了 具有 一個 未譯名－未譯名 且 該 目標 可以 未譯名，+1 至 該 命中擲骰。",
+                "$text": "每當 此模型 makes 一個 遠程 攻擊 該 目標為 該 closest 敵方單位:\n- 若該 攻擊 是 進行了 具有 一個 Punisher gatling cannon 且 該 目標 是 不 一個 怪獸 或 載具，+1 至 該 命中擲骰。\n- 若該 攻擊 是 進行了 具有 一個 戰鬥 cannon 且 該 目標 是 一個 怪獸 或 載具，+1 至 該 命中擲骰。\n- 若該 攻擊 是 進行了 具有 一個 quad-lascannon 且 該 目標 可以 FLY，+1 至 該 命中擲骰。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -5631,7 +5631,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 一個 友方模型 是 完全 位於 6\" 的 此 未譯名，該模型 具有 一個 4+ 未譯名 豁免 對抗 遠程 攻擊。",
+                "$text": "當 一個 友方模型 是 完全 位於 6\" 的 此 FORTIFICATION，該模型 具有 一個 4+ invulnerable 豁免 對抗 遠程 攻擊。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -5855,7 +5855,7 @@
           {
             "characteristics": [
               {
-                "$text": "此 未譯名 具有 一個 未譯名 未譯名 的 30 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 未譯名 該 未譯名 的 2 模型。未譯名 不能 未譯名 未譯名－角色 模型 具有 一個 耐傷 屬性 的 4 或 更多。",
+                "$text": "此 FORTIFICATION 具有 一個 transport capacity 的 30 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 up 該 space 的 2 模型。It 不能 transport non-CHARACTER 模型 具有 一個 耐傷 屬性 的 4 或 更多。",
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
@@ -5869,7 +5869,7 @@
           {
             "characteristics": [
               {
-                "$text": "於 你的 射擊 階段，每當 你 選擇 一個 目標 為 此模型’未譯名 未譯名 未譯名 未譯名，擲一顆 D6 為 該 目標 單位 且 一個 D6 為 未譯名 其他 敵方單位 位於 3\" 的 該 目標 單位。於 一個 4+，該單位 未譯名 未譯名 為 是 未譯名 由 該 未譯名； 之後 未譯名 所有 此模型’未譯名 攻擊 對抗 該 目標 單位，每個 單位 未譯名 由 該 未譯名 承受 D3 致命傷。",
+                "$text": "於 你的 射擊 階段，每當 你 選擇 一個 目標 為 此模型’s vortex missile battery，擲一顆 D6 為 該 目標 單位 且 一個 D6 為 every 其他 敵方單位 位於 3\" 的 該 目標 單位。於 一個 4+，該單位 being rolled 為 是 struck 由 該 vortex； 之後 resolving 所有 此模型’s 攻擊 對抗 該 目標 單位，每個 單位 struck 由 該 vortex 承受 D3 致命傷。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -6241,7 +6241,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 一個 攻擊 是 未譯名 至 此 防禦工事，-1 至 該 傷害 屬性 的 該 攻擊。",
+                "$text": "每當 一個 攻擊 是 allocated 至 此 防禦工事，-1 至 該 傷害 屬性 的 該 攻擊。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -6255,7 +6255,7 @@
           {
             "characteristics": [
               {
-                "$text": "此 防禦工事 具有 一個 未譯名 未譯名 的 11 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 未譯名 該 未譯名 的 2 模型。未譯名 不能 未譯名 未譯名－未譯名角色 模型 具有 一個 耐傷 屬性 的 4 或 更多",
+                "$text": "此 防禦工事 具有 一個 transport capacity 的 11 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 up 該 space 的 2 模型。It 不能 transport non-角色 模型 具有 一個 耐傷 屬性 的 4 或 更多",
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
@@ -6739,7 +6739,7 @@
           {
             "characteristics": [
               {
-                "$text": "於 你的 指揮 階段，若 一個 或 更多 角色 模型 是 未譯名 位於 此 防禦工事，擲一顆 D6: 於 一個 5+，你 未譯名 1CP",
+                "$text": "於 你的 指揮 階段，若 一個 或 更多 角色 模型 是 embarked 位於 此 防禦工事，擲一顆 D6: 於 一個 5+，你 gain 1CP",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -7513,7 +7513,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 具有 1-30 耐傷 未譯名，每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
+                "$text": "當 此模型 具有 1-30 耐傷 remaining，每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -7527,7 +7527,7 @@
           {
             "characteristics": [
               {
-                "$text": "未譯名 此 未譯名 是 設為 未譯名，所有 未譯名 的 未譯名 必須 被 設為 未譯名 於 未譯名 具有 未譯名 未譯名。",
+                "$text": "When 此 FORTIFICATION 是 設為 up，所有 parts 的 it 必須 被 設為 up 於 contact 具有 another part。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -7541,7 +7541,7 @@
           {
             "characteristics": [
               {
-                "$text": "此 未譯名 具有 一個 未譯名 未譯名 的 65 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 未譯名 該 未譯名 的 2 模型。未譯名 不能 未譯名 未譯名－角色 模型 具有 一個 耐傷 屬性 的 4 或 更多。",
+                "$text": "此 FORTIFICATION 具有 一個 transport capacity 的 65 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 up 該 space 的 2 模型。It 不能 transport non-CHARACTER 模型 具有 一個 耐傷 屬性 的 4 或 更多。",
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
@@ -7920,7 +7920,7 @@
           {
             "characteristics": [
               {
-                "$text": "友方 步兵 模型 可以 被 設為 未譯名 或 結束 任何 未譯名 的 移動 於 未譯名 的 該 未譯名 未譯名 的 此 未譯名。任何 友方模型 可以 被 設為 未譯名 或 結束 任何 未譯名 的 移動 於 該 未譯名 或 未譯名 未譯名 的 此 未譯名。",
+                "$text": "友方 步兵 模型 可以 被 設為 up 或 結束 任何 type 的 移動 於 top 的 該 roof section 的 此 FORTIFICATION。任何 友方模型 可以 被 設為 up 或 結束 任何 type 的 移動 於 該 ramp 或 platform section 的 此 FORTIFICATION。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -7934,7 +7934,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 具有 1-15 耐傷 未譯名，每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
+                "$text": "當 此模型 具有 1-15 耐傷 remaining，每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -7948,7 +7948,7 @@
           {
             "characteristics": [
               {
-                "$text": "此 未譯名 具有 一個 未譯名 未譯名 的 60 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 未譯名 該 未譯名 的 2 模型。未譯名 不能 未譯名 未譯名－角色 模型 具有 一個 耐傷 屬性 的 4 或 更多。",
+                "$text": "此 FORTIFICATION 具有 一個 transport capacity 的 60 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 up 該 space 的 2 模型。It 不能 transport non-CHARACTER 模型 具有 一個 耐傷 屬性 的 4 或 更多。",
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
@@ -8863,7 +8863,7 @@
           {
             "characteristics": [
               {
-                "$text": "於 該 未譯名 該 未譯名 且 未譯名 目標 標記 未譯名，設為 此模型 未譯名 於 一個 的 該 未譯名 未譯名 未譯名 （未譯名 D1 於 該 未譯名 未譯名）。",
+                "$text": "於 該 Create 該 Battlefield 且 Place 目標 標記 step，設為 此模型 up 於 一個 的 該 Sentry Gun positions （marked D1 於 該 mission map）。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -9065,7 +9065,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 一個模型 你軍隊中的 未譯名 一個 遠程 攻擊 該 目標為 一個 敵方單位 該 位於 9\" 的 且 可見 至 任何 未譯名 你軍隊中的，重－擲骰 一個 命中 的 1 且，若 該模型 進行 該 攻擊 是 一個 未譯名 未譯名，+1 至 該 命中擲骰 作為 未譯名。",
+                "$text": "每當 一個模型 你軍隊中的 makes 一個 遠程 攻擊 該 目標為 一個 敵方單位 該 位於 9\" 的 且 可見 至 任何 Searchlights 你軍隊中的，re-roll 一個 命中 的 1 且，若 該模型 進行 該 攻擊 是 一個 Sentry Gun，+1 至 該 命中擲骰 作為 well。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -9079,7 +9079,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 是 一個 未譯名 未譯名 且 未譯名 作為 一個 未譯名。",
+                "$text": "此模型 是 一個 terrain feature 且 counts 作為 一個 Wall。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -9093,7 +9093,7 @@
           {
             "characteristics": [
               {
-                "$text": "於 該 未譯名 該 未譯名 且 未譯名 目標 標記 未譯名，設為 此 未譯名 未譯名 未譯名 於 一個 的 該 未譯名 未譯名 （未譯名 D2 於 該 未譯名 未譯名）該 未譯名 不 未譯名 未譯名 一個 未譯名。",
+                "$text": "於 該 Create 該 Battlefield 且 Place 目標 標記 step，設為 此 terrain feature up 於 一個 的 該 Searchlight positions （marked D2 於 該 mission map）該 does 不 already contain 一個 Searchlight。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -9220,7 +9220,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 不能 未譯名 至 未譯名 未譯名 且 不能 未譯名 未譯名 未譯名。",
+                "$text": "此模型 不能 attempt 至 operate Hatchways 且 不能 perform Tactical Manoeuvres。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -9234,7 +9234,7 @@
           {
             "characteristics": [
               {
-                "$text": "於 該 未譯名 軍隊 未譯名，未譯名 未譯名 未譯名 一個單位 你軍隊中的 位於 一個 未譯名 未譯名，你 可以 設為 此模型 未譯名 未譯名 該單位 作為 若 未譯名 未譯名 未譯名 的 未譯名，未譯名 該 未譯名 未譯名 未譯名。",
+                "$text": "於 該 Deploy 軍隊 step，when setting up 一個單位 你軍隊中的 位於 一個 Entry Zone，你 可以 設為 此模型 up alongside 該單位 作為 若 it was part 的 it，using 該 same Entry Zone。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -9335,7 +9335,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "未譯名 該 持有者 被摧毀 （其他 比 未譯名 未譯名 未譯名 未譯名，作為 未譯名 未譯名），擲一顆 D6 之前 未譯名 未譯名 從 未譯名: 於 一個 6 未譯名 未譯名，且 每個 其他 單位 位於 3\" 的 且 可見 至 該 持有者 承受 1 致命傷。\n\n於 你的 指揮 階段，該 持有者 可以 未譯名 未譯名 未譯名。若 未譯名 未譯名:\n- 未譯名 每個 未譯名 該 位於 3\" 的 該 持有者。你的 對手 不能 未譯名 至 未譯名 那些 未譯名 從 未譯名，且 那些 未譯名 不能 被 未譯名 未譯名。\n- 擲骰 一個 D6 為 每個 其他 單位 位於 3\" 的 且 可見 至 該 持有者: 於 一個 2+，該單位 承受 1 致命傷。該 持有者 是 則 被摧毀。",
+                        "$text": "When 該 持有者 被摧毀 （其他 比 through triggering its bomb，作為 described below），擲一顆 D6 之前 removing it 從 play: 於 一個 6 it explodes，且 每個 其他 單位 位於 3\" 的 且 可見 至 該 持有者 承受 1 致命傷。\n\n於 你的 指揮 階段，該 持有者 可以 trigger its bombs。若 it does:\n- Open 每個 Hatchway 該 位於 3\" 的 該 持有者。你的 對手 不能 attempt 至 prevent 那些 Hatchways 從 opening，且 那些 Hatchways 不能 被 closed again。\n- 擲骰 一個 D6 為 每個 其他 單位 位於 3\" 的 且 可見 至 該 持有者: 於 一個 2+，該單位 承受 1 致命傷。該 持有者 是 則 被摧毀。",
                         "name": "說明",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -9360,7 +9360,7 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "每當 該 持有者 未譯名 一個 未譯名 移動，你 可以 未譯名 一個 未譯名 該 位於 1\" 的 未譯名。你的 對手 不能 未譯名 至 未譯名 該 未譯名 從 未譯名。",
+                            "$text": "每當 該 持有者 ends 一個 Normal 移動，你 可以 open 一個 Hatchway 該 位於 1\" 的 it。你的 對手 不能 attempt 至 prevent 該 Hatchway 從 opening。",
                             "name": "說明",
                             "typeId": "9b8f-694b-e5e-b573"
                           }
@@ -9870,7 +9870,7 @@
       {
         "characteristics": [
           {
-            "$text": "每當 一個 遠程 攻擊 是 未譯名 至 一個模型，若 該模型 是 無法完全可見 至 未譯名 模型 於 該 未譯名 單位 未譯名 的 此 未譯名，該模型 具有 未譯名 的 掩體 對抗 該 攻擊。",
+            "$text": "每當 一個 遠程 攻擊 是 allocated 至 一個模型，若 該模型 是 無法完全可見 至 every 模型 於 該 attacking 單位 because 的 此 FORTIFICATION，該模型 具有 Benefit 的 掩體 對抗 該 攻擊。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
@@ -9884,7 +9884,7 @@
       {
         "characteristics": [
           {
-            "$text": "友方 步兵 模型 可以 被 設為 未譯名 或 結束 任何 未譯名 的 移動 於 未譯名 的 該 未譯名 未譯名 的 此 未譯名。",
+            "$text": "友方 步兵 模型 可以 被 設為 up 或 結束 任何 type 的 移動 於 top 的 該 roof section 的 此 FORTIFICATION。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
@@ -9898,7 +9898,7 @@
       {
         "characteristics": [
           {
-            "$text": "未譯名 此 未譯名 是 未譯名 設為 未譯名 於 該 未譯名，每個 未譯名 未譯名 可以 被 設為 未譯名 具有 未譯名 未譯名 未譯名 或 未譯名。於 你的 指揮 階段，你 可以 未譯名 或 未譯名 該 未譯名 的 每個 此模型’未譯名 未譯名 未譯名。當 一個 未譯名 是 未譯名，模型 可以 移動 且 未譯名 未譯名 的 未譯名 未譯名 未譯名 作為 若 未譯名 未譯名 不 未譯名。",
+            "$text": "When 此 FORTIFICATION 是 first 設為 up 於 該 battlefield，每個 gate section 可以 被 設為 up 具有 its gate open 或 closed。於 你的 指揮 階段，你 可以 open 或 close 該 gate 的 每個 此模型’s gate sections。當 一個 gate 是 open，模型 可以 移動 且 draw line 的 sight through it 作為 若 it were 不 there。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
@@ -9912,7 +9912,7 @@
       {
         "characteristics": [
           {
-            "$text": "友方 步兵 模型 可以 被 設為 未譯名 或 結束 任何 未譯名 的 移動 於 未譯名 的 該 未譯名 未譯名 未譯名 的 此 未譯名。",
+            "$text": "友方 步兵 模型 可以 被 設為 up 或 結束 任何 type 的 移動 於 top 的 該 flat battlement sections 的 此 FORTIFICATION。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
@@ -9926,7 +9926,7 @@
       {
         "characteristics": [
           {
-            "$text": "未譯名 此 未譯名 是 設為 未譯名，所有 未譯名 的 未譯名 必須 被 設為 未譯名 位於 1\" 的 未譯名 未譯名。當 一個 步兵 模型 具有 未譯名 的 掩體 作為 一個 結果 的 此 未譯名 （未譯名 未譯名），該模型 具有 一個 4+ 未譯名 豁免。",
+            "$text": "When 此 FORTIFICATION 是 設為 up，所有 parts 的 it 必須 被 設為 up 位於 1\" 的 another part。當 一個 步兵 模型 具有 Benefit 的 掩體 作為 一個 結果 的 此 FORTIFICATION （see below），該模型 具有 一個 4+ invulnerable 豁免。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
@@ -9940,7 +9940,7 @@
       {
         "characteristics": [
           {
-            "$text": "友方 步兵 模型 可以 被 設為 未譯名 或 結束 任何 未譯名 的 移動 於 未譯名 的 該 未譯名 未譯名 未譯名 的 此 未譯名。",
+            "$text": "友方 步兵 模型 可以 被 設為 up 或 結束 任何 type 的 移動 於 top 的 該 flat platform section 的 此 FORTIFICATION。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
@@ -9954,7 +9954,7 @@
       {
         "characteristics": [
           {
-            "$text": "當 此模型 具有 1-6 耐傷 未譯名，每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
+            "$text": "當 此模型 具有 1-6 耐傷 remaining，每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
@@ -9968,7 +9968,7 @@
       {
         "characteristics": [
           {
-            "$text": "當 此模型 具有 1-10 耐傷 未譯名，每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
+            "$text": "當 此模型 具有 1-10 耐傷 remaining，每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
@@ -9982,7 +9982,7 @@
       {
         "characteristics": [
           {
-            "$text": "你 可以 僅 未譯名 此 未譯名 於 你的軍隊 於 未譯名 的 未譯名 未譯名 或 大於。",
+            "$text": "你 可以 僅 include 此 FORTIFICATION 於 你的軍隊 於 games 的 Onslaught size 或 大於。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }

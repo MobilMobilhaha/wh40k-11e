@@ -1412,7 +1412,7 @@
           {
             "characteristics": [
               {
-                "$text": "進行時 遠程 攻擊，此模型 可以 目標 敵方單位 位於 未譯名 射程 的 未譯名 具有 爆炸 武器 （未譯名 無 其他 友方單位 是 也 位於 未譯名 射程 的 該 敵方單位）。於 未譯名，未譯名 進行 遠程 攻擊，此模型 未譯名 不 承受 該 未譯名 至 未譯名 命中擲骰未譯名 為 未譯名 位於 未譯名 射程 的 一個 或 更多 敵方單位。",
+                "$text": "進行時 遠程 攻擊，此模型 可以 目標 敵方單位 位於 Engagement 射程 的 it 具有 爆炸 武器 （provided 無 其他 友方單位 是 也 位於 Engagement 射程 的 該 敵方單位）。於 addition，when 進行 遠程 攻擊，此模型 does 不 承受 該 penalty 至 its 命中擲骰s 為 being 位於 Engagement 射程 的 一個 或 更多 敵方單位。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -3647,7 +3647,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 此模型 未譯名 一個 遠程 攻擊 該 目標為 一個單位 該 是 不 未譯名 未譯名－力量，你可以重擲 該 命中擲骰。",
+                "$text": "每當 此模型 makes 一個 遠程 攻擊 該 目標為 一個單位 該 是 不 Below Half-strength，你可以重擲 該 命中擲骰。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -3889,7 +3889,7 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "針對未譯名 2+",
+                            "$text": "針對FLY 2+",
                             "name": "關鍵詞",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
@@ -4608,7 +4608,7 @@
           {
             "characteristics": [
               {
-                "$text": "該 未譯名 時 此模型 被摧毀，未譯名 未譯名 從 未譯名 不具有 未譯名 未譯名 致命破滅 技能。則，未譯名 該 結束 的 該 階段，擲一顆 D6: 於 一個 2+，設為 此模型 後撤 未譯名 於 該 未譯名 作為 未譯名 作為 未譯名 至 未譯名 未譯名 未譯名 被摧毀 且 不 位於 未譯名 射程 的 任何 敵方單位，具有 D6 耐傷 未譯名。",
+                "$text": "該 first 時 此模型 被摧毀，remove it 從 play 不具有 resolving its 致命破滅 技能。則，at 該 結束 的 該 階段，擲一顆 D6: 於 一個 2+，設為 此模型 後撤 up 於 該 battlefield 作為 close 作為 possible 至 where it was 被摧毀 且 不 位於 Engagement 射程 的 任何 敵方單位，具有 D6 耐傷 remaining。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -5111,7 +5111,7 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "未譯名，連擊 D3",
+                            "$text": "Conversion，連擊 D3",
                             "name": "關鍵詞",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
@@ -6183,7 +6183,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 一個 攻擊 是 未譯名 至 此模型，-1 至 該 傷害 屬性 的 該 攻擊。",
+                "$text": "每當 一個 攻擊 是 allocated 至 此模型，-1 至 該 傷害 屬性 的 該 攻擊。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -7445,7 +7445,7 @@
           {
             "characteristics": [
               {
-                "$text": "於 你的 射擊 階段，每當 此模型 具有 未譯名，若 未譯名 是 不 位於 未譯名 射程 的 任何 敵方單位，未譯名 可以 進行 一個 未譯名 移動 的 未譯名 至 D6\"。若 未譯名 未譯名，直到該回合結束，此模型 是 不 符合資格 至 宣告衝鋒。",
+                "$text": "於 你的 射擊 階段，每當 此模型 具有 shot，若 it 是 不 位於 Engagement 射程 的 任何 敵方單位，it 可以 進行 一個 Normal 移動 的 up 至 D6\"。若 it does，直到該回合結束，此模型 是 不 符合資格 至 宣告衝鋒。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -8105,7 +8105,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 必須 開始 該 戰鬥 於 未譯名，未譯名 未譯名 是 不 未譯名 未譯名 任何 未譯名 未譯名 於 該 最大 數量 的 未譯名 單位 你 可以 開始 該 戰鬥 具有。此模型 可以 被 設為 未譯名 於 該 未譯名 未譯名 的 你的 未譯名，未譯名 或 未譯名 移動未譯名 階段，未譯名 的 任何 未譯名 規則。",
+                "$text": "此模型 必須 開始 該 戰鬥 於 Reserves，but it 是 不 counted towards 任何 limits placed 於 該 最大 數量 的 Reserves 單位 你 可以 開始 該 戰鬥 具有。此模型 可以 被 設為 up 於 該 Reinforcements step 的 你的 first，second 或 third 移動ment 階段，regardless 的 任何 mission 規則。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -8494,7 +8494,7 @@
             ],
             "characteristics": [
               {
-                "$text": "此模型 具有 一個 未譯名 未譯名 的 12 <未譯名> 步兵 模型。每個 未譯名 未譯名，未譯名，未譯名，未譯名 或 終結者 模型 受到 未譯名 該 未譯名 的 2 模型 且 每個 未譯名 或 未譯名 模型 受到 未譯名 該 未譯名 的 3 模型。",
+                "$text": "此模型 具有 一個 transport capacity 的 12 <FACTION> 步兵 模型。每個 JUMP PACK，WULFEN，GRAVIS，POSSESSED 或 TERMINATOR 模型 受到 up 該 space 的 2 模型 且 每個 CENTURION 或 OBLITERATOR 模型 受到 up 該 space 的 3 模型。",
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
@@ -8528,7 +8528,7 @@
             ],
             "characteristics": [
               {
-                "$text": "此模型 具有 一個 未譯名 未譯名 的 6 <未譯名> 步兵 模型。每個 未譯名 未譯名，未譯名，未譯名，未譯名 或 終結者 模型 受到 未譯名 該 未譯名 的 2 模型 且 每個 未譯名 或 未譯名 模型 受到 未譯名 該 未譯名 的 3 模型。",
+                "$text": "此模型 具有 一個 transport capacity 的 6 <FACTION> 步兵 模型。每個 JUMP PACK，WULFEN，GRAVIS，POSSESSED 或 TERMINATOR 模型 受到 up 該 space 的 2 模型 且 每個 CENTURION 或 OBLITERATOR 模型 受到 up 該 space 的 3 模型。",
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
@@ -8753,7 +8753,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "敵方單位 該 是 設為 未譯名 於 該 未譯名 作為 未譯名 不能 被 設為 未譯名 位於 12 吋 的 該 持有者，未譯名 該 持有者 必須 未譯名 未譯名 未譯名 未譯名。",
+                        "$text": "敵方單位 該 是 設為 up 於 該 battlefield 作為 Reinforcements 不能 被 設為 up 位於 12 吋 的 該 持有者，but 該 持有者 必須 halve its Transport Capacity。",
                         "name": "說明",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -9129,7 +9129,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 具有 一個 未譯名 未譯名 的 12 <未譯名> 步兵 模型。每個 未譯名 未譯名，未譯名，未譯名，未譯名 或 終結者 模型 受到 未譯名 該 未譯名 的 2 模型 且 每個 未譯名 或 未譯名 模型 受到 未譯名 該 未譯名 的 3 模型。",
+                "$text": "此模型 具有 一個 transport capacity 的 12 <FACTION> 步兵 模型。每個 JUMP PACK，WULFEN，GRAVIS，POSSESSED 或 TERMINATOR 模型 受到 up 該 space 的 2 模型 且 每個 CENTURION 或 OBLITERATOR 模型 受到 up 該 space 的 3 模型。",
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
@@ -9964,7 +9964,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 此模型 進行一次攻擊 該 目標為 一個 敵方單位，重－擲骰 一個 命中擲骰 的 1 且，若該單位 位於 射程 的 一個 目標標記 你 未譯名 不 控制，你可以重擲 該 命中擲骰 改為。",
+                "$text": "每當 此模型 進行一次攻擊 該 目標為 一個 敵方單位，re-roll 一個 命中擲骰 的 1 且，若 該單位 位於 射程 的 一個 目標標記 你 do 不 控制，你可以重擲 該 命中擲骰 改為。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -10505,7 +10505,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 此模型 進行一次攻擊 該 目標為 該 敵方單位 你 被選擇 為 該 未譯名 的 未譯名 技能，該 攻擊 具有 [未譯名 掩體] 技能 且 可以 忽略 該 未譯名 至 其 命中擲骰未譯名 未譯名 進行 攻擊 具有 間接射擊 武器 對抗 目標為 該 是 不 可見 至 他們。",
+                "$text": "每當 此模型 進行一次攻擊 該 目標為 該 敵方單位 你 被選擇 為 該 Oath 的 Moment 技能，該 攻擊 具有 [IGNORES 掩體] 技能 且 可以 忽略 該 penalty 至 其 命中擲骰s when 進行 攻擊 具有 間接射擊 武器 對抗 目標為 該 是 不 可見 至 他們。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -11043,7 +11043,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 此模型 未譯名 一個 遠程 攻擊 該 目標為 該 未譯名 符合資格 怪獸 或 載具 單位，+1 至 該 命中擲骰。",
+                "$text": "每當 此模型 makes 一個 遠程 攻擊 該 目標為 該 closest 符合資格 怪獸 或 載具 單位，+1 至 該 命中擲骰。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -11572,7 +11572,7 @@
           {
             "characteristics": [
               {
-                "$text": "此 未譯名 未譯名 未譯名 未譯名 具有 [未譯名 未譯名 1] 技能 未譯名 未譯名 步兵 單位。",
+                "$text": "此 model’s Punisher rotary cannon 具有 [SUSTAINED HITS 1] 技能 when targeting 步兵 單位。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -12113,7 +12113,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 此模型 進行一次攻擊 該 目標為 該 未譯名 符合資格 敵方單位，重－擲骰 一個 命中擲骰 的 1 且 重－擲骰 一個 致傷擲骰 的 1。",
+                "$text": "每當 此模型 進行一次攻擊 該 目標為 該 closest 符合資格 敵方單位，re-roll 一個 命中擲骰 的 1 且 re-roll 一個 致傷擲骰 的 1。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -12654,7 +12654,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 此模型 未譯名 於 你的 射擊 階段，未譯名 未譯名 未譯名 未譯名 此 回合，所有 [未譯名] 武器 配備 由 模型 於 此單位 具有 [未譯名 未譯名] 技能。",
+                "$text": "每當 此模型 shoots 於 你的 射擊 階段，provided it Remained Stationary 此 回合，所有 [HEAVY] 武器 配備 由 模型 於 此單位 具有 [LETHAL HITS] 技能。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -13414,7 +13414,7 @@
           {
             "characteristics": [
               {
-                "$text": "於 你的 射擊 階段，之後 此模型 具有 未譯名，若 一個 或 更多 的 那些 攻擊 進行了 具有 未譯名 未譯名 未譯名－未譯名 未譯名 一個 命中 對抗 一個 敵方 步兵 單位，該單位 必須 受到 一個 戰鬥震懾測試。",
+                "$text": "於 你的 射擊 階段，之後 此模型 具有 shot，若 一個 或 更多 的 那些 攻擊 進行了 具有 its Scorpius multi-launcher scored 一個 命中 對抗 一個 敵方 步兵 單位，該單位 必須 受到 一個 戰鬥震懾測試。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -13839,7 +13839,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 此模型 未譯名 一個 遠程 攻擊 該 目標為 一個 怪獸 或 載具 單位，重－擲骰 一個 傷害 擲骰 的 1。",
+                "$text": "每當 此模型 makes 一個 遠程 攻擊 該 目標為 一個 怪獸 或 載具 單位，re-roll 一個 傷害 擲骰 的 1。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -14215,7 +14215,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 必須 開始 該 戰鬥 於 未譯名，未譯名 未譯名 未譯名 未譯名 任何 單位 未譯名 位於 未譯名 是 未譯名 未譯名 任何 未譯名 未譯名 於 該 最大 數量 的 未譯名 單位 你 可以 開始 該 戰鬥 具有。此模型 可以 被 設為 未譯名 於 該 未譯名 未譯名 的 你的 未譯名，未譯名 或 未譯名 移動未譯名 階段，未譯名 的 任何 未譯名 規則。任何 單位 未譯名 位於 此模型 必須 未譯名 未譯名 之後 未譯名 具有 已被 設為 未譯名 於 該 未譯名，且 他們 必須 被 設為 未譯名 超過 9 吋 未譯名 從 所有 敵方模型未譯名。之後 此模型 具有 已被 設為 未譯名 於 該 未譯名，無 單位 可以 未譯名 位於 未譯名。",
+                "$text": "此模型 必須 開始 該 戰鬥 於 Reserves，but neither it nor 任何 單位 embarked 位於 it 是 counted towards 任何 limits placed 於 該 最大 數量 的 Reserves 單位 你 可以 開始 該 戰鬥 具有。此模型 可以 被 設為 up 於 該 Reinforcements step 的 你的 first，second 或 third 移動ment 階段，regardless 的 任何 mission 規則。任何 單位 embarked 位於 此模型 必須 immediately disembark 之後 it 具有 已被 設為 up 於 該 battlefield，且 他們 必須 被 設為 up 超過 9 吋 away 從 所有 敵方模型s。之後 此模型 具有 已被 設為 up 於 該 battlefield，無 單位 可以 embark 位於 it。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -14229,7 +14229,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 具有 一個 未譯名 未譯名 的 1 未譯名 模型。",
+                "$text": "此模型 具有 一個 transport capacity 的 1 Dreadnought 模型。",
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
@@ -14386,7 +14386,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 必須 開始 該 戰鬥 於 未譯名，未譯名 未譯名 未譯名 未譯名 任何 單位 未譯名 位於 未譯名 是 未譯名 未譯名 任何 未譯名 未譯名 於 該 最大 數量 的 未譯名 單位 你 可以 開始 該 戰鬥 具有。此模型 可以 被 設為 未譯名 於 該 未譯名 未譯名 的 你的 未譯名，未譯名 或 未譯名 移動未譯名 階段，未譯名 的 任何 未譯名 規則。任何 單位 未譯名 位於 此模型 可以 未譯名 之後 未譯名 具有 已被 設為 未譯名 於 該 未譯名，且 若 他們 未譯名 他們 必須 被 設為 未譯名 超過 9 吋 未譯名 從 所有 敵方模型未譯名。",
+                "$text": "此模型 必須 開始 該 戰鬥 於 Reserves，but neither it nor 任何 單位 embarked 位於 it 是 counted towards 任何 limits placed 於 該 最大 數量 的 Reserves 單位 你 可以 開始 該 戰鬥 具有。此模型 可以 被 設為 up 於 該 Reinforcements step 的 你的 first，second 或 third 移動ment 階段，regardless 的 任何 mission 規則。任何 單位 embarked 位於 此模型 可以 disembark 之後 it 具有 已被 設為 up 於 該 battlefield，且 若 他們 do 他們 必須 被 設為 up 超過 9 吋 away 從 所有 敵方模型s。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -14400,7 +14400,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 具有 一個 未譯名 未譯名 的 12 <未譯名> 步兵 模型。未譯名 不能 未譯名 未譯名 未譯名，未譯名，未譯名，未譯名，未譯名，終結者，未譯名，未譯名 或 未譯名 模型 （未譯名 未譯名 角色 模型 該 未譯名 該 戰鬥 附屬 至 一個 未譯名－未譯名 單位）。",
+                "$text": "此模型 具有 一個 transport capacity 的 12 <FACTION> 步兵 模型。It 不能 transport JUMP PACK，WULFEN，PHOBOS，GRAVIS，CENTURION，TERMINATOR，OBLITERATOR，POSSESSED 或 TACTICUS 模型 （excluding TACTICUS 角色 模型 該 began 該 戰鬥 附屬 至 一個 non-TACTICUS 單位）。",
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
@@ -15027,7 +15027,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 此模型 未譯名 一個 遠程 攻擊 該 目標為 一個單位 該 可以 未譯名，+1 至 該 命中擲骰。",
+                "$text": "每當 此模型 makes 一個 遠程 攻擊 該 目標為 一個單位 該 可以 FLY，+1 至 該 命中擲骰。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -15214,7 +15214,7 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "針對未譯名 2+",
+                        "$text": "針對FLY 2+",
                         "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -15460,7 +15460,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 一個 攻擊 是 未譯名 至 此模型，-1 至 該 傷害 屬性 的 該 攻擊。",
+                "$text": "每當 一個 攻擊 是 allocated 至 此模型，-1 至 該 傷害 屬性 的 該 攻擊。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -15474,7 +15474,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 具有 一個 未譯名 未譯名 的 22 <未譯名> 步兵 模型 且 1 未譯名 模型。每個 未譯名 未譯名，未譯名，未譯名，終結者 或 未譯名 模型 受到 未譯名 該 未譯名 的 2 模型 且 每個 未譯名 或 未譯名 模型 受到 未譯名 該 未譯名 的 3 模型。",
+                "$text": "此模型 具有 一個 transport capacity 的 22 <FACTION> 步兵 模型 且 1 DREADNOUGHT 模型。每個 JUMP PACK，WULFEN，GRAVIS，TERMINATOR 或 POSSESSED 模型 受到 up 該 space 的 2 模型 且 每個 CENTURION 或 OBLITERATOR 模型 受到 up 該 space 的 3 模型。",
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
@@ -16365,7 +16365,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 此模型 未譯名 一個 遠程 攻擊 該 目標為 一個單位 該 不能 未譯名，+1 至 該 命中擲骰。",
+                "$text": "每當 此模型 makes 一個 遠程 攻擊 該 目標為 一個單位 該 不能 FLY，+1 至 該 命中擲骰。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -16999,7 +16999,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 此模型 進行一次攻擊 該 目標為 一個 載具，未譯名 該 力量 且 傷害 屬性 的 該 攻擊 由 1 （若 該 攻擊 目標為 一個 未譯名 單位，未譯名 該 力量 且 傷害 屬性 的 該 攻擊 由 2 改為）。",
+                "$text": "每當 此模型 進行一次攻擊 該 目標為 一個 載具，improve 該 力量 且 傷害 屬性 的 該 攻擊 由 1 （若 該 攻擊 目標為 一個 FORTIFICATION 單位，improve 該 力量 且 傷害 屬性 的 該 攻擊 由 2 改為）。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -17529,7 +17529,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 此單位 未譯名 未譯名 未譯名 未譯名 未譯名 未譯名 於 你的 射擊 階段，未譯名 未譯名 未譯名 未譯名 此 回合，該 武器 具有 [未譯名 未譯名] 技能。",
+                "$text": "每當 此單位 shoots its Cerberus neutron pulse array 於 你的 射擊 階段，provided it Remained Stationary 此 回合，該 武器 具有 [LETHAL HITS] 技能。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -18044,7 +18044,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 具有 一個 未譯名 未譯名 的 28 <未譯名> 步兵 模型。每個 未譯名 未譯名，未譯名，未譯名，終結者 或 未譯名 模型 受到 未譯名 該 未譯名 的 2 模型 且 每個 未譯名 或 未譯名 模型 受到 未譯名 該 未譯名 的 3 模型。",
+                "$text": "此模型 具有 一個 transport capacity 的 28 <FACTION> 步兵 模型。每個 JUMP PACK，WULFEN，GRAVIS，TERMINATOR 或 POSSESSED 模型 受到 up 該 space 的 2 模型 且 每個 CENTURION 或 OBLITERATOR 模型 受到 up 該 space 的 3 模型。",
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
@@ -18650,7 +18650,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 一個 遠程 攻擊 是 未譯名 至 一個模型 你軍隊中的，若 該模型 是 無法完全可見 至 未譯名 模型 於 該 未譯名 單位 未譯名 的 此 未譯名 模型，該模型 具有 未譯名 的 掩體 對抗 該 攻擊。",
+                "$text": "每當 一個 遠程 攻擊 是 allocated 至 一個模型 你軍隊中的，若 該模型 是 無法完全可見 至 every 模型 於 該 attacking 單位 because 的 此 Fellblade 模型，該模型 具有 Benefit 的 掩體 對抗 該 攻擊。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -19622,7 +19622,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 此模型 未譯名 一個 遠程 攻擊 具有 未譯名 未譯名 未譯名 未譯名 未譯名 該 目標為 一個 怪獸 或 載具 單位，該 攻擊 具有 [未譯名 耐傷] 技能。",
+                "$text": "每當 此模型 makes 一個 遠程 攻擊 具有 its twin Falchion volcano cannon 該 目標為 一個 怪獸 或 載具 單位，該 攻擊 具有 [DEVASTATING 耐傷] 技能。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -20264,7 +20264,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 具有 1-10 耐傷 未譯名，減去 6 從 此模型’未譯名 目標控制 屬性 且 每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
+                "$text": "當 此模型 具有 1-10 耐傷 remaining，減去 6 從 此模型’s 目標控制 屬性 且 每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -20322,7 +20322,7 @@
           {
             "characteristics": [
               {
-                "$text": "一次 未譯名 戰鬥 輪，未譯名 一個 攻擊 是 未譯名 至 此模型，你 可以 未譯名 該 傷害 屬性 的 該 攻擊 至 0。",
+                "$text": "一次 per 戰鬥 輪，when 一個 攻擊 是 allocated 至 此模型，你 可以 change 該 傷害 屬性 的 該 攻擊 至 0。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -20336,7 +20336,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 具有 一個 未譯名 未譯名 的 45 <未譯名> 步兵 模型。每個 未譯名 未譯名，未譯名，未譯名，未譯名 或 終結者 模型 受到 未譯名 該 未譯名 的 2 模型 且 每個 未譯名 或 未譯名 模型 受到 未譯名 該 未譯名 的 3 模型。此模型 可以 也 未譯名 未譯名 至 2 未譯名 或 未譯名 模型 （這些 模型 受到 未譯名 該 未譯名 的 一個 數量 的 模型 等於 至 其 耐傷 屬性 未譯名。未譯名。A 未譯名 具有 一個 耐傷 屬性 的 8 未譯名 受到 未譯名 該 未譯名 的 8 模型）。",
+                "$text": "此模型 具有 一個 transport capacity 的 45 <FACTION> 步兵 模型。每個 JUMP PACK，WULFEN，GRAVIS，POSSESSED 或 TERMINATOR 模型 受到 up 該 space 的 2 模型 且 每個 CENTURION 或 OBLITERATOR 模型 受到 up 該 space 的 3 模型。此模型 可以 也 transport up 至 2 DREADNOUGHT 或 HELBRUTE 模型 （這些 模型 受到 up 該 space 的 一個 數量 的 模型 等於 至 其 耐傷 屬性 e。g。A DREADNOUGHT 具有 一個 耐傷 屬性 的 8 would 受到 up 該 space 的 8 模型）。",
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
@@ -20564,7 +20564,7 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "針對未譯名 4+",
+                        "$text": "針對FLY 4+",
                         "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -21098,7 +21098,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 具有 1-13 耐傷 未譯名，每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
+                "$text": "當 此模型 具有 1-13 耐傷 remaining，每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -21144,7 +21144,7 @@
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "5+ （射程未譯名）"
+                "$text": "5+ （射程d）"
               }
             ],
             "name": "Sokar－pattern Stormbird",
@@ -21156,7 +21156,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 一個單位 具有 該 深入打擊 技能 未譯名 從 此模型 之後 未譯名 具有 進行了 一個 未譯名 移動，該單位 是 未譯名 符合資格 至 宣告衝鋒 此 回合。",
+                "$text": "每當 一個單位 具有 該 深入打擊 技能 disembarks 從 此模型 之後 it 具有 進行了 一個 Normal 移動，該單位 是 still 符合資格 至 宣告衝鋒 此 回合。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -21170,7 +21170,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 具有 一個 未譯名 未譯名 的 55 <未譯名> 步兵 或 <未譯名> 未譯名 模型。每個 未譯名 未譯名，未譯名，未譯名，未譯名 或 終結者 模型 受到 未譯名 該 未譯名 的 2 模型 且 每個 未譯名，未譯名 或 未譯名 模型 受到 未譯名 該 未譯名 的 3 模型。此模型 可以 也 未譯名 未譯名 至 1 未譯名 模型 （此模型 - 且 任何 模型 未譯名 位於 未譯名 - 受到 未譯名 該 未譯名 的 25 模型）。",
+                "$text": "此模型 具有 一個 transport capacity 的 55 <FACTION> 步兵 或 <FACTION> MOUNTED 模型。每個 JUMP PACK，WULFEN，GRAVIS，POSSESSED 或 TERMINATOR 模型 受到 up 該 space 的 2 模型 且 每個 MOUNTED，CENTURION 或 OBLITERATOR 模型 受到 up 該 space 的 3 模型。此模型 可以 也 transport up 至 1 RHINO 模型 （此模型 - 且 任何 模型 embarked 位於 it - 受到 up 該 space 的 25 模型）。",
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
@@ -21560,7 +21560,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 你 選擇 此單位 為 該 未譯名 未譯名 策略，未譯名 是 未譯名 於 未修正 命中擲骰未譯名 的 4+ 未譯名 未譯名 該 策略。",
+                "$text": "每當 你 選擇 此單位 為 該 Fire Overwatch 策略，hits 是 scored 於 未修正 命中擲骰s 的 4+ when resolving 該 策略。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -21863,7 +21863,7 @@
           {
             "characteristics": [
               {
-                "$text": "該 未譯名 時 此模型 被摧毀，未譯名 未譯名 從 未譯名 不具有 未譯名 未譯名 致命破滅 技能。則，未譯名 該 結束 的 該 階段，擲一顆 D6: 於 一個 2+，設為 此模型 後撤 未譯名 於 該 未譯名 作為 未譯名 作為 未譯名 至 未譯名 未譯名 未譯名 被摧毀 且 不 位於 未譯名 射程 的 任何 敵方單位，具有 D6 耐傷 未譯名。",
+                "$text": "該 first 時 此模型 被摧毀，remove it 從 play 不具有 resolving its 致命破滅 技能。則，at 該 結束 的 該 階段，擲一顆 D6: 於 一個 2+，設為 此模型 後撤 up 於 該 battlefield 作為 close 作為 possible 至 where it was 被摧毀 且 不 位於 Engagement 射程 的 任何 敵方單位，具有 D6 耐傷 remaining。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -22061,7 +22061,7 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "未譯名，連擊 D3",
+                        "$text": "Conversion，連擊 D3",
                         "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -22827,7 +22827,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 是 符合資格 至 射擊 且 宣告衝鋒 於 一個 回合 於 未譯名 未譯名 未譯名 後撤。",
+                "$text": "此模型 是 符合資格 至 射擊 且 宣告衝鋒 於 一個 回合 於 which it Fell 後撤。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -23287,7 +23287,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 具有 一個 未譯名 未譯名 的 12 未譯名 未譯名 步兵 模型。每個 未譯名 未譯名，未譯名 且 終結者 模型 受到 未譯名 該 未譯名 的 2 模型。每個 未譯名 模型 受到 未譯名 該 未譯名 的 3 模型。此模型 可以 改為 未譯名 1 未譯名 或 未譯名 模型。",
+                "$text": "此模型 具有 一個 transport capacity 的 12 HERETIC ASTARTES 步兵 模型。每個 JUMP PACK，POSSESSED 且 TERMINATOR 模型 受到 up 該 space 的 2 模型。每個 OBLITERATOR 模型 受到 up 該 space 的 3 模型。此模型 可以 改為 transport 1 HELBRUTE 或 DREADNOUGHT 模型。",
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
@@ -23301,7 +23301,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 必須 開始 該 戰鬥 於 未譯名，未譯名 未譯名 未譯名 未譯名 任何 單位 未譯名 位於 未譯名 是 未譯名 未譯名 任何 未譯名 未譯名 於 該 最大 數量 的 未譯名 單位 你 可以 開始 該 戰鬥 具有。此模型 可以 被 設為 未譯名 於 該 未譯名 未譯名 的 你的 未譯名，未譯名 或 未譯名 移動未譯名 階段，未譯名 的 任何 未譯名 規則。任何 單位 未譯名 位於 此模型 可以 未譯名 之後 未譯名 具有 已被 設為 未譯名 於 該 未譯名，且 若 他們 未譯名 他們 必須 被 設為 未譯名 超過 9 吋 未譯名 從 所有 敵方模型未譯名。",
+                "$text": "此模型 必須 開始 該 戰鬥 於 Reserves，but neither it nor 任何 單位 embarked 位於 it 是 counted towards 任何 limits placed 於 該 最大 數量 的 Reserves 單位 你 可以 開始 該 戰鬥 具有。此模型 可以 被 設為 up 於 該 Reinforcements step 的 你的 first，second 或 third 移動ment 階段，regardless 的 任何 mission 規則。任何 單位 embarked 位於 此模型 可以 disembark 之後 it 具有 已被 設為 up 於 該 battlefield，且 若 他們 do 他們 必須 被 設為 up 超過 9 吋 away 從 所有 敵方模型s。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -23540,7 +23540,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 此單位 未譯名，未譯名 不 進行 一個 突進 擲骰 為 未譯名。改為，直到該階段結束，增加 6\" 至 該 移動 屬性 的 模型 於 此單位。",
+                "$text": "每當 此單位 Advances，do 不 進行 一個 突進 擲骰 為 it。改為，直到該階段結束，增加 6\" 至 該 移動 屬性 的 模型 於 此單位。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -23628,7 +23628,7 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "針對怪獸 2+，針對載具 2+，未譯名",
+                            "$text": "針對怪獸 2+，針對載具 2+，Impaled",
                             "name": "關鍵詞",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
@@ -23651,7 +23651,7 @@
                     ],
                     "rules": [
                       {
-                        "description": "每當 此 武器 未譯名 一個 命中 對抗 一個 敵方 怪獸 或 載具 單位，直到該回合結束，若 該 持有者 未譯名 該單位 作為 一個 目標 的 一個 衝鋒，增加 2 至 衝鋒 擲骰 進行了 為 該 持有者。",
+                        "description": "每當 此 武器 scores 一個 命中 對抗 一個 敵方 怪獸 或 載具 單位，直到該回合結束，若 該 持有者 selects 該單位 作為 一個 目標 的 一個 衝鋒，增加 2 至 衝鋒 擲骰 進行了 為 該 持有者。",
                         "name": "Impaled",
                         "hidden": false,
                         "id": "e09d-8a3-4c29-cde2"
@@ -23967,7 +23967,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 具有 1-9 耐傷 未譯名，減去 5 從 此模型’未譯名 目標控制 屬性 且 每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
+                "$text": "當 此模型 具有 1-9 耐傷 remaining，減去 5 從 此模型’s 目標控制 屬性 且 每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -24586,7 +24586,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 具有 1-8 耐傷 未譯名，減去 5 從 此模型’未譯名 目標控制 屬性 且 每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
+                "$text": "當 此模型 具有 1-8 耐傷 remaining，減去 5 從 此模型’s 目標控制 屬性 且 每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -24600,7 +24600,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 此模型 未譯名 一個 衝鋒 移動，直到該回合結束，未譯名 近戰 武器 具有 [未譯名 未譯名 1] 技能。於 未譯名，一次 未譯名 戰鬥，此模型 是 符合資格 至 宣告衝鋒 於 一個 回合 於 未譯名 未譯名 未譯名。",
+                "$text": "每當 此模型 makes 一個 衝鋒 移動，直到該回合結束，its 近戰 武器 具有 [SUSTAINED HITS 1] 技能。於 addition，一次 per 戰鬥，此模型 是 符合資格 至 宣告衝鋒 於 一個 回合 於 which it Advanced。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -25003,7 +25003,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 必須 開始 該 戰鬥 於 未譯名，未譯名 未譯名 未譯名 未譯名 任何 單位 未譯名 位於 未譯名 是 未譯名 未譯名 任何 未譯名 未譯名 於 該 最大 數量 的 未譯名 單位 你 可以 開始 該 戰鬥 具有。此模型 可以 被 設為 未譯名 於 該 未譯名 未譯名 的 你的 未譯名，未譯名 或 未譯名 移動未譯名 階段，未譯名 的 任何 未譯名 規則。任何 單位 未譯名 位於 此模型 可以 未譯名 之後 未譯名 具有 已被 設為 未譯名 於 該 未譯名，且 若 他們 未譯名 他們 必須 被 設為 未譯名 超過 9 吋 未譯名 從 所有 敵方模型未譯名。",
+                "$text": "此模型 必須 開始 該 戰鬥 於 Reserves，but neither it nor 任何 單位 embarked 位於 it 是 counted towards 任何 limits placed 於 該 最大 數量 的 Reserves 單位 你 可以 開始 該 戰鬥 具有。此模型 可以 被 設為 up 於 該 Reinforcements step 的 你的 first，second 或 third 移動ment 階段，regardless 的 任何 mission 規則。任何 單位 embarked 位於 此模型 可以 disembark 之後 it 具有 已被 設為 up 於 該 battlefield，且 若 他們 do 他們 必須 被 設為 up 超過 9 吋 away 從 所有 敵方模型s。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -25061,7 +25061,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 具有 1-7 耐傷 未譯名，每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
+                "$text": "當 此模型 具有 1-7 耐傷 remaining，每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -25075,7 +25075,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 具有 一個 未譯名 未譯名 的 22 未譯名 未譯名 步兵 模型。每個 未譯名 未譯名，未譯名 且 終結者 模型 受到 未譯名 該 未譯名 的 2 模型。每個 未譯名 模型 受到 未譯名 該 未譯名 的 3 模型。此模型 可以 改為 未譯名 1 未譯名 或 未譯名 模型。",
+                "$text": "此模型 具有 一個 transport capacity 的 22 HERETIC ASTARTES 步兵 模型。每個 JUMP PACK，POSSESSED 且 TERMINATOR 模型 受到 up 該 space 的 2 模型。每個 OBLITERATOR 模型 受到 up 該 space 的 3 模型。此模型 可以 改為 transport 1 HELBRUTE 或 DREADNOUGHT 模型。",
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
@@ -25613,7 +25613,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 具有 1-10 耐傷 未譯名，每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
+                "$text": "當 此模型 具有 1-10 耐傷 remaining，每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -25627,7 +25627,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當 一個單位 具有 該 深入打擊 技能 未譯名 從 此模型 之後 未譯名 具有 進行了 一個 未譯名 移動，該單位 是 未譯名 符合資格 至 宣告衝鋒 此 回合。",
+                "$text": "每當 一個單位 具有 該 深入打擊 技能 disembarks 從 此模型 之後 it 具有 進行了 一個 Normal 移動，該單位 是 still 符合資格 至 宣告衝鋒 此 回合。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -25641,7 +25641,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 具有 一個 未譯名 未譯名 的 30 <未譯名> 步兵 或 <未譯名> 未譯名 模型。每個 未譯名 未譯名，未譯名 且 終結者 模型 受到 未譯名 該 未譯名 的 2 模型。每個 未譯名 模型 受到 未譯名 該 未譯名 的 3 模型。每個 未譯名 模型 受到 未譯名 該 未譯名 的 4 模型。",
+                "$text": "此模型 具有 一個 transport capacity 的 30 <FACTION> 步兵 或 <FACTION> MOUNTED 模型。每個 JUMP PACK，POSSESSED 且 TERMINATOR 模型 受到 up 該 space 的 2 模型。每個 OBLITERATOR 模型 受到 up 該 space 的 3 模型。每個 MOUNTED 模型 受到 up 該 space 的 4 模型。",
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
@@ -25776,7 +25776,7 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "每當 該 持有者 未譯名 一個 未譯名 移動，你 可以 選擇 一個 敵方單位 未譯名 已移動 未譯名 未譯名 該 移動 且 擲骰 未譯名 D6: 為 每個 3+，該單位 承受 1 致命傷。",
+                            "$text": "每當 該 持有者 ends 一個 Normal 移動，你 可以 選擇 一個 敵方單位 it 已移動 over during 該 移動 且 擲骰 six D6: 為 每個 3+，該單位 承受 1 致命傷。",
                             "name": "說明",
                             "typeId": "9b8f-694b-e5e-b573"
                           }
@@ -26280,7 +26280,7 @@
       {
         "rules": [
           {
-            "description": "每當 一個 星際戰士 單位 你軍隊中的 未譯名 從 一個 未譯名 （未譯名 飛行）該 進行了 一個 未譯名 或 突進 移動 此 階段 （未譯名 那些 該 未譯名 從 未譯名 未譯名），該 未譯名 單位 可以\n進行 一個 未譯名 移動 的 未譯名 至 D6\"，或 一個 未譯名 移動 的 未譯名 至 D3+3\" 改為 若 該 未譯名 是 一個 重型 未譯名\n（未譯名 未譯名）。\n\n\n星際戰士 未譯名 單位 你軍隊中的 （未譯名 未譯名）該 具有 一個 耐傷 屬性 的 14+ 具有 重型 未譯名 關鍵詞。",
+            "description": "每當 一個 星際戰士 單位 你軍隊中的 disembarks 從 一個 Transport （excluding 飛行）該 進行了 一個 Normal 或 突進 移動 此 階段 （excluding 那些 該 arrived 從 Strategic Reserves），該 disembarked 單位 可以\n進行 一個 Normal 移動 的 up 至 D6\"，或 一個 Normal 移動 的 up 至 D3+3\" 改為 若 該 Transport 是 一個 重型 Transport\n（see below）。\n\n\n星際戰士 Transport 單位 你軍隊中的 （excluding FLY）該 具有 一個 耐傷 屬性 的 14+ 具有 重型 Transport 關鍵詞。",
             "name": "Rapid Deployment",
             "id": "b867-8297-a69a-4065",
             "hidden": false
@@ -26298,7 +26298,7 @@
           {
             "characteristics": [
               {
-                "$text": "增加 1 至 該 攻擊屬性 的 武器 配備 由 該 持有者，且 每當 該 持有者 進行一次攻擊，你可以重擲 該 致傷擲骰。於 未譯名，每當 該 未譯名 單位 未譯名 一個 敵方單位，若 你的 遠征 未譯名 是 未譯名 一個 未譯名 未譯名，你 未譯名 1 未譯名 點。",
+                "$text": "增加 1 至 該 攻擊屬性 的 武器 配備 由 該 持有者，且 每當 該 持有者 進行一次攻擊，你可以重擲 該 致傷擲骰。於 addition，每當 該 bearer's 單位 destroys 一個 敵方單位，若 你的 遠征 force 是 undertaking 一個 Oathsworn Campaign，你 gain 1 Honour 點。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -26492,7 +26492,7 @@
       {
         "characteristics": [
           {
-            "$text": "當 此模型 具有 1-6 耐傷 未譯名，每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
+            "$text": "當 此模型 具有 1-6 耐傷 remaining，每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
@@ -26506,7 +26506,7 @@
       {
         "characteristics": [
           {
-            "$text": "當 此模型 具有 1-4 耐傷 未譯名，每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
+            "$text": "當 此模型 具有 1-4 耐傷 remaining，每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
@@ -26520,7 +26520,7 @@
       {
         "characteristics": [
           {
-            "$text": "當 此模型 具有 1-5 耐傷 未譯名，每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
+            "$text": "當 此模型 具有 1-5 耐傷 remaining，每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
@@ -26534,7 +26534,7 @@
       {
         "characteristics": [
           {
-            "$text": "每當 一個單位 未譯名 從 此模型 之後 未譯名 具有 進行了 一個 未譯名 移動，該單位 是 未譯名 符合資格 至 宣告衝鋒 此 回合。",
+            "$text": "每當 一個單位 disembarks 從 此模型 之後 it 具有 進行了 一個 Normal 移動，該單位 是 still 符合資格 至 宣告衝鋒 此 回合。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
@@ -26548,7 +26548,7 @@
       {
         "characteristics": [
           {
-            "$text": "當 此模型 具有 1-8 耐傷 未譯名，減去 4 從 此模型’未譯名 目標控制 屬性 且 每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
+            "$text": "當 此模型 具有 1-8 耐傷 remaining，減去 4 從 此模型’s 目標控制 屬性 且 每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
@@ -26606,7 +26606,7 @@
     ],
     "sharedRules": [
       {
-        "description": "每當 一個 攻擊 進行了 具有 此 武器 目標為 一個單位 超過 12 吋 從 該 持有者，一個 未修正 成功 命中擲骰 的 4+ 未譯名 一個 暴擊命中。",
+        "description": "每當 一個 攻擊 進行了 具有 此 武器 目標為 一個單位 超過 12 吋 從 該 持有者，一個 未修正 成功 命中擲骰 的 4+ scores 一個 暴擊命中。",
         "id": "a07b-d883-9916-4288",
         "name": "Conversion",
         "hidden": false
@@ -26623,7 +26623,7 @@
     "type": "catalogue",
     "rules": [
       {
-        "description": "若 你的 軍隊 未譯名 是 **^^星際戰士^^**，未譯名 該 開始 的 該 未譯名 戰鬥 輪，選擇 一個 的 該 未譯名 未譯名 至 被 未譯名 為 **^^星際戰士^^** 單位 你軍隊中的。當 一個 未譯名 是 未譯名 為 你的軍隊，該單位 具有 未譯名 技能 未譯名。\n\n**未譯名 該 未譯名，摧毀 該 未譯名**\n■ 每當 此單位 宣告衝鋒，若 一個 或 更多 目標為 的 該 衝鋒 具有 **^^靈能者^^** 關鍵詞，你可以重擲 該 衝鋒 擲骰。近戰 武器 配備 由 模型 於 此單位 具有 **[未譯名]** 技能 當 未譯名 **^^靈能者^^** 單位。\n\n**未譯名 任何 未譯名，無 未譯名 該 未譯名**\n■ 每當 一個模型 於 此單位 未譯名 一個 近戰 攻擊，若 該 力量 屬性 的 該 攻擊 是 小於 比 或 等於 至 該 韌性 屬性 的 該 目標，+1 至 該 致傷擲骰\n\n**承受 不 該 未譯名 至 未譯名**\n■ 此單位 是 符合資格 至 宣告衝鋒 於 一個 回合 於 未譯名 未譯名 未譯名 後撤，且 每當 一個模型 於 此單位 未譯名 一個 未譯名－於 或 未譯名 移動，未譯名 未譯名 不 未譯名 至 結束 該 移動 未譯名 至 該 未譯名 敵方模型，未譯名 未譯名 未譯名 該 移動 作為 未譯名 作為 未譯名 至 該 未譯名 敵方單位。\n\n**未譯名 該 未譯名 的 該 未譯名**\n若 此單位 具有 **^^步兵^^** 關鍵詞:\n■ 在結束時 你的 指揮 階段，若 此單位 位於 射程 的 一個 目標標記 你 控制，該 目標標記 未譯名 未譯名 你的 控制 直到 對手'未譯名 未譯名 的 控制 未譯名 該 目標標記 是 大於 比 未譯名 未譯名 該 結束 的 該 階段。\n■ 若 該 未譯名 你 是 未譯名 未譯名 未譯名，此單位 是 符合資格 至 開始 至 未譯名 一個 未譯名 於 一個 回合 於 未譯名 未譯名 未譯名。",
+        "description": "若 你的 軍隊 Faction 是 **^^星際戰士^^**，at 該 開始 的 該 first 戰鬥 輪，選擇 一個 的 該 following Vows 至 被 active 為 **^^星際戰士^^** 單位 你軍隊中的。當 一個 Vow 是 active 為 你的軍隊，該單位 具有 associated 技能 below。\n\n**Abhor 該 Witch，摧毀 該 Witch**\n■ 每當 此單位 宣告衝鋒，若 一個 或 更多 目標為 的 該 衝鋒 具有 **^^靈能者^^** 關鍵詞，你可以重擲 該 衝鋒 擲骰。近戰 武器 配備 由 模型 於 此單位 具有 **[PRECISION]** 技能 當 targeting **^^靈能者^^** 單位。\n\n**Accept 任何 Challenge，無 Matter 該 Odds**\n■ 每當 一個模型 於 此單位 makes 一個 近戰 攻擊，若 該 力量 屬性 的 該 攻擊 是 較少 比 或 等於 至 該 韌性 屬性 的 該 目標，+1 至 該 致傷擲骰\n\n**承受 不 該 Unclean 至 Live**\n■ 此單位 是 符合資格 至 宣告衝鋒 於 一個 回合 於 which it Fell 後撤，且 每當 一個模型 於 此單位 makes 一個 Pile-in 或 Consolidation 移動，it does 不 need 至 結束 該 移動 closer 至 該 closest 敵方模型，provided it ends 該 移動 作為 close 作為 possible 至 該 nearest 敵方單位。\n\n**Uphold 該 Honour 的 該 Emperor**\n若 此單位 具有 **^^步兵^^** 關鍵詞:\n■ 在結束時 你的 指揮 階段，若 此單位 位於 射程 的 一個 目標標記 你 控制，該 目標標記 remains under 你的 控制 直到 對手's level 的 控制 over 該 目標標記 是 大於 比 yours at 該 結束 的 該 階段。\n■ 若 該 mission 你 是 playing features Actions，此單位 是 符合資格 至 開始 至 perform 一個 Action 於 一個 回合 於 which it Advanced。",
         "modifiers": [
           {
             "conditions": [
@@ -26646,7 +26646,7 @@
         "hidden": false
       },
       {
-        "description": "若 你的 軍隊 未譯名 是 **^^星際戰士^^**，未譯名 該 開始 的 你的 指揮 階段，選擇 一個單位 從 對手’未譯名 軍隊。直到 該 開始 的 你的 下一個 指揮 階段，該 敵方單位 是 你的 未譯名 的 未譯名 目標。每當 一個模型 具有 此 技能 進行一次攻擊 該 目標為 你的 未譯名 的 未譯名 目標:\n■ 你 可以 重擲 該 命中擲骰\n■ 若 你 是 未譯名 一個 未譯名: 星際戰士 分遣隊 且 你的軍隊 未譯名 不 未譯名 一個 或 更多 單位 具有 該 **^^聖血天使^^**，**^^黑暗天使^^**，**^^死亡守望^^** 或 **^^太空野狼^^** 關鍵詞，+1 至 該 致傷擲骰 作為 未譯名。",
+        "description": "若 你的 軍隊 Faction 是 **^^星際戰士^^**，at 該 開始 的 你的 指揮 階段，選擇 一個單位 從 對手’s 軍隊。直到 該 開始 的 你的 下一個 指揮 階段，該 敵方單位 是 你的 Oath 的 Moment 目標。每當 一個模型 具有 此 技能 進行一次攻擊 該 目標為 你的 Oath 的 Moment 目標:\n■ 你 可以 reroll 該 命中擲骰\n■ 若 你 是 using 一個 Codex: 星際戰士 分遣隊 且 你的軍隊 does 不 include 一個 或 更多 單位 具有 該 **^^聖血天使^^**，**^^黑暗天使^^**，**^^死亡守望^^** 或 **^^太空野狼^^** 關鍵詞，+1 至 該 致傷擲骰 作為 well。",
         "modifiers": [
           {
             "type": "set",

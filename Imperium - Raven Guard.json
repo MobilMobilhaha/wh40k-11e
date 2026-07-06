@@ -221,7 +221,7 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 是 未譯名 一個單位，模型 於 此單位 不能 被 被目標 由 遠程 攻擊 除非 該 未譯名 模型 位於 12 吋。",
+                "$text": "當 此模型 是 leading 一個單位，模型 於 此單位 不能 被 被目標 由 遠程 攻擊 除非 該 attacking 模型 位於 12 吋。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -235,7 +235,7 @@
           {
             "characteristics": [
               {
-                "$text": "在結束時 對手’未譯名 回合，若 此模型’未譯名 單位 是 不 位於 未譯名 射程 的 任何 敵方模型未譯名，你 可以 未譯名 未譯名 從 該 未譯名 且 未譯名 未譯名 進入 未譯名 未譯名。",
+                "$text": "在結束時 對手’s 回合，若 此模型’s 單位 是 不 位於 Engagement 射程 的 任何 敵方模型s，你 可以 remove it 從 該 battlefield 且 place it 進入 Strategic Reserves。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -249,7 +249,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 可加入以下單位:\n\n■ 突擊 未譯名 具有 跳躍背包未譯名\n■ 未譯名 未譯名 未譯名 具有 跳躍背包未譯名",
+                "$text": "此模型 可加入以下單位:\n\n■ 突擊 Intercessors 具有 跳躍背包s\n■ Vanguard Veteran Squad 具有 跳躍背包s",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -263,7 +263,7 @@
           {
             "characteristics": [
               {
-                "$text": "若 你 未譯名 此模型 於 你的軍隊，直到 該 結束 的 該 戰鬥，未譯名－未譯名角色 模型 於 突擊\n未譯名 具有 跳躍背包未譯名 單位 你軍隊中的 具有 一個 目標控制 屬性 的 2 當 他們 是 不 戰鬥－未譯名。",
+                "$text": "若 你 include 此模型 於 你的軍隊，直到 該 結束 的 該 戰鬥，non-角色 模型 於 突擊\nIntercessors 具有 跳躍背包s 單位 你軍隊中的 具有 一個 目標控制 屬性 的 2 當 他們 是 不 Battle-shocked。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -589,7 +589,7 @@
           {
             "characteristics": [
               {
-                "$text": "在開始時 該 未譯名 戰鬥 未譯名 未譯名，若 你的軍隊 未譯名 未譯名 未譯名 且 未譯名\n未譯名，直到 該 結束 的 該 戰鬥，你的 未譯名 未譯名 單位 未譯名 未譯名 獨行特務 技能 且 未譯名\n未譯名 未譯名 未譯名 未譯名 關鍵詞 具有 未譯名。",
+                "$text": "在開始時 該 Declare 戰鬥 Formations step，若 你的軍隊 includes Aethon Shaan 且 Kayvaan\nShrike，直到 該 結束 的 該 戰鬥，你的 Kayvaan Shrike 單位 loses its 獨行特務 技能 且 it\nreplaces its Chapter Master 關鍵詞 具有 Captain。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -603,7 +603,7 @@
           {
             "characteristics": [
               {
-                "$text": "於 你的 指揮 階段，你 可以 選擇 一個單位 從 對手’未譯名 軍隊。直到 該 開始 的 你的 下一個 指揮 階段，每當 一個 星際戰士 單位 你軍隊中的 宣告衝鋒 當 未譯名 位於 12 吋 的 該 敵方單位，你可以重擲 該 衝鋒 擲骰，未譯名 未譯名 必須 未譯名 該 敵方單位 作為 一個 目標 的 該 衝鋒 （若 未譯名）。",
+                "$text": "於 你的 指揮 階段，你 可以 選擇 一個單位 從 對手’s 軍隊。直到 該 開始 的 你的 下一個 指揮 階段，每當 一個 星際戰士 單位 你軍隊中的 宣告衝鋒 當 it 位於 12 吋 的 該 敵方單位，你可以重擲 該 衝鋒 擲骰，but it 必須 declare 該 敵方單位 作為 一個 目標 的 該 衝鋒 （若 possible）。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -617,7 +617,7 @@
           {
             "characteristics": [
               {
-                "$text": "你 可以 目標 此模型’未譯名 單位 具有 該 未譯名 未譯名 且 未譯名 未譯名 策略 為 0CP，\n未譯名 若 你 具有 未譯名 使用 該 策略 於 一個 未譯名 單位 此 階段。",
+                "$text": "你 可以 目標 此模型’s 單位 具有 該 Rapid Ingress 且 Heroic Intervention 策略 為 0CP，\neven 若 你 具有 already 使用 該 策略 於 一個 different 單位 此 階段。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
