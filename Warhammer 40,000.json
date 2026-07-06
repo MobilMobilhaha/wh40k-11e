@@ -63,7 +63,7 @@
           }
         ],
         "id": "51b2-306e-1021-d207",
-        "name": "pts",
+        "name": "分數",
         "defaultCostLimit": -1,
         "hidden": true
       },
@@ -137,7 +137,7 @@
         "hidden": true
       },
       {
-        "name": "Detachment Points",
+        "name": "分遣隊分數",
         "id": "82ae-1066-5107-6ae0",
         "defaultCostLimit": -1,
         "modifiers": [
@@ -2846,7 +2846,7 @@
     "entryLinks": [
       {
         "id": "7380-3e40-6ed6-b7cc",
-        "name": "Battle Size",
+        "name": "戰鬥規模",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -3054,7 +3054,7 @@
               }
             ],
             "id": "b960-4789-a3a6-59cb",
-            "name": "Battle Size",
+            "name": "戰鬥規模",
             "hidden": false,
             "collective": false,
             "import": true,
@@ -3182,7 +3182,7 @@
           }
         ],
         "id": "564e-fbc6-5266-3ea4",
-        "name": "Battle Size",
+        "name": "戰鬥規模",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -32567,7 +32567,7 @@
     ],
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "id": "sys-352e-adc2-7639-d610",
-    "name": "Warhammer 40,000 11th Edition",
+    "name": "戰錘11版",
     "revision": 119,
     "battleScribeVersion": 2.03,
     "type": "gameSystem"
