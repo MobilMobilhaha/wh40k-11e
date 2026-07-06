@@ -4,7 +4,7 @@
       {
         "costs": [
           {
-            "name": "分",
+            "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 85
           }
@@ -14,13 +14,13 @@
             "targetId": "e1ff-c0fa-2ca7-3466",
             "id": "a2c1-3a0f-d4cc-b72f",
             "primary": false,
-            "name": "陣營：未結盟部隊"
+            "name": "陣營: 未結盟部隊"
           },
           {
             "targetId": "887b-ab87-92a2-20f5",
             "id": "4fb7-9a37-3b26-6013",
             "primary": true,
-            "name": "阿爾伊艾德 烏恩伊特斯"
+            "name": "Allied 單位"
           },
           {
             "targetId": "9693-cf84-fe69-37a9",
@@ -38,7 +38,7 @@
             "targetId": "7d2a-37ff-a5ac-15e4",
             "id": "bb02-a4b1-fa11-4bac",
             "primary": false,
-            "name": "阿姆布烏爾"
+            "name": "Ambull"
           }
         ],
         "modifiers": [
@@ -87,7 +87,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. 入侵戰 (1000 分數上限)"
+                "childName": "1. 入侵戰 (1000 Point limit)"
               }
             ]
           }
@@ -154,7 +154,7 @@
                 "$text": ""
               }
             ],
-            "name": "阿姆布烏爾",
+            "name": "Ambull",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -163,12 +163,12 @@
           {
             "characteristics": [
               {
-                "$text": "每當 an 敵方單位 被選擇進行射擊 or fight, after it has finished making its attacks, if one or more of those attacks targeted 此模型 and 此模型 is not destroyed, 此模型 can fight as if it were the 近戰階段",
+                "$text": "每當 一個 敵方單位 被選擇進行射擊 或 近戰，之後 未譯名 具有 未譯名 進行 未譯名 攻擊，若 一個 或 更多 的 那些 攻擊 被目標 此模型 且 此模型 是 不 被摧毀，此模型 可以 近戰 作為 若 未譯名 未譯名 該 近戰 階段",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "夫爾艾恩茲伊",
+            "name": "Frenzy",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -177,12 +177,12 @@
           {
             "characteristics": [
               {
-                "$text": "Twice per battle, at the end of your opponent’s turn, if 此模型 is not within Engagement 射程 of one or more 敵方單位, you can remove 此模型 from the battlefield. In the Reinforcements step of your next 移動階段, set it up anywhere on the battlefield that\nis 超過 9 吋 horizontally away from all 敵方模型. If the battle ends and 此單位 is not on the battlefield, it 被摧毀. \n\nDesigner’s Note: Place two Borewyrm Infestation tokens next to 此模型, removing one 每當 this ability has been used.",
+                "$text": "兩次 未譯名 戰鬥，未譯名 該 結束 的 對手’未譯名 回合，若 此模型 是 不 位於 未譯名 射程 的 一個 或 更多 敵方單位，你 可以 未譯名 此模型 從 該 未譯名。於 該 未譯名 未譯名 的 你的 下一個 移動未譯名 階段，設為 未譯名 未譯名 未譯名 於 該 未譯名 該\n是 超過 9 吋 未譯名 未譯名 從 所有 敵方模型未譯名。若 該 戰鬥 未譯名 且 此單位 是 不 於 該 未譯名，未譯名 被摧毀。\n\n未譯名 未譯名: 未譯名 未譯名 未譯名 未譯名 未譯名 下一個 至 此模型，未譯名 一個 每當 此 技能 具有 已被 使用。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "布奧爾艾沃伊爾姆 伊恩夫艾斯特阿辛",
+            "name": "Borewyrm Infestation",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -230,7 +230,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "遠征",
+            "name": "Crusade",
             "hidden": false,
             "id": "125d-5ba0-4e24-f759",
             "type": "selectionEntryGroup",
@@ -413,7 +413,7 @@
                 "field": "name"
               }
             ],
-            "comment": "遠征 修正值",
+            "comment": "Crusade modifiers",
             "type": "and"
           }
         ],
@@ -478,7 +478,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "艾恩奧爾姆歐斯 克爾阿沃斯",
+                    "name": "Enormous claws",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "Melee Weapons",
                     "hidden": false,
@@ -490,7 +490,7 @@
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "武器改造",
+                        "name": "武器 Modifications",
                         "hidden": false,
                         "id": "ca77-6ea6-c419-ad15",
                         "type": "selectionEntryGroup",
@@ -498,7 +498,7 @@
                       },
                       {
                         "import": true,
-                        "name": "遠征 聖物升級",
+                        "name": "Crusade Relic 升級",
                         "hidden": false,
                         "id": "48a2-ba99-a4c3-23ee",
                         "type": "selectionEntryGroup",
@@ -529,19 +529,19 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "艾恩奧爾姆歐斯 克爾阿沃斯",
+                "name": "Enormous claws",
                 "hidden": false,
                 "id": "e5b0-1627-ba3b-841e"
               }
             ],
-            "name": "武器裝備",
+            "name": "Wargear",
             "id": "9946-824b-f220-11be",
             "hidden": false,
             "sortIndex": 2
           }
         ],
         "id": "e85b-17c7-1ad9-8375",
-        "name": "阿姆布烏爾 [傳奇]",
+        "name": "Ambull [傳奇]",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -553,7 +553,7 @@
             "targetId": "e1ff-c0fa-2ca7-3466",
             "id": "cf8d-689e-9c13-9b07",
             "primary": false,
-            "name": "陣營：未結盟部隊"
+            "name": "陣營: 未結盟部隊"
           },
           {
             "targetId": "19d7-9c74-2140-5851",
@@ -565,12 +565,12 @@
             "targetId": "c1aa-8ee-2a60-ecf4",
             "id": "d62f-7131-e6a8-c6b6",
             "primary": false,
-            "name": "艾格伊斯 德艾夫艾恩克艾 爾伊恩艾 沃伊斯 武器 艾姆普爾阿克艾姆艾恩特"
+            "name": "Aegis Defence Line 配備 武器 Emplacement"
           }
         ],
         "costs": [
           {
-            "name": "分",
+            "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 145
           }
@@ -621,7 +621,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. 入侵戰 (1000 分數上限)"
+                "childName": "1. 入侵戰 (1000 Point limit)"
               }
             ]
           }
@@ -649,7 +649,7 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "奎阿德－格烏恩",
+                "name": "Quad－gun",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "870c-dae1-65e2-9cee",
@@ -657,14 +657,14 @@
               },
               {
                 "import": true,
-                "name": "伊克阿爾烏斯 雷射炮",
+                "name": "Icarus 雷射炮",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "352e-36c6-3ae5-ead0",
                 "targetId": "72e7-16-6f4c-ecbd"
               }
             ],
-            "name": "奎阿德－格烏恩",
+            "name": "Quad－gun",
             "hidden": false,
             "id": "8b0c-3772-861a-a7cd",
             "defaultSelectionEntryId": "870c-dae1-65e2-9cee"
@@ -682,14 +682,14 @@
             "targetId": "241c-8bed-ca28-f77",
             "id": "cd03-3481-2344-6024",
             "type": "profile",
-            "name": "爾艾伊恩夫奧爾克艾德 克奧維爾",
+            "name": "Reinforced Cover",
             "hidden": false
           },
           {
             "targetId": "29fe-dbb0-2a7-a301",
             "id": "f364-b873-6533-fc94",
             "type": "profile",
-            "name": "德艾夫艾恩克艾 爾伊恩艾",
+            "name": "Defence Line",
             "hidden": false
           }
         ],
@@ -732,7 +732,7 @@
                 "$text": ""
               }
             ],
-            "name": "艾格伊斯 德艾夫艾恩克艾 爾伊恩艾 沃伊斯 武器 艾姆普爾阿克艾姆艾恩特",
+            "name": "Aegis Defence Line 配備 武器 Emplacement",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -752,14 +752,14 @@
         ],
         "type": "model",
         "import": true,
-        "name": "艾格伊斯 德艾夫艾恩克艾 爾伊恩艾 沃伊斯 武器 艾姆普爾阿克艾姆艾恩特 [傳奇]",
+        "name": "Aegis Defence Line 配備 武器 Emplacement [傳奇]",
         "hidden": false,
         "id": "5b1d-134a-9996-b634"
       },
       {
         "costs": [
           {
-            "name": "分",
+            "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 275
           }
@@ -769,7 +769,7 @@
             "targetId": "e1ff-c0fa-2ca7-3466",
             "id": "e07e-c03b-ad9a-1258",
             "primary": false,
-            "name": "陣營：未結盟部隊"
+            "name": "陣營: 未結盟部隊"
           },
           {
             "targetId": "19d7-9c74-2140-5851",
@@ -793,13 +793,13 @@
             "targetId": "75e8-57c4-40e3-1817",
             "id": "a206-148f-4983-62f0",
             "primary": false,
-            "name": "運輸工具"
+            "name": "Transport"
           },
           {
             "targetId": "8888-fb01-3ef-63d0",
             "id": "e957-dc81-609b-8283",
             "primary": false,
-            "name": "布阿斯辛"
+            "name": "Bastion"
           }
         ],
         "modifiers": [
@@ -848,7 +848,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. 入侵戰 (1000 分數上限)"
+                "childName": "1. 入侵戰 (1000 Point limit)"
               }
             ]
           }
@@ -858,7 +858,7 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "克奧姆姆斯 阿恩特艾恩恩阿",
+                "name": "Comms antenna",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "866d-5d02-6bbe-81c",
@@ -866,7 +866,7 @@
               },
               {
                 "import": true,
-                "name": "伊克阿爾烏斯 雷射炮",
+                "name": "Icarus 雷射炮",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "db5a-f3-5b74-3acb",
@@ -874,7 +874,7 @@
               },
               {
                 "import": true,
-                "name": "奎阿德－格烏恩",
+                "name": "Quad－gun",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "3cba-8def-5bb4-bb6d",
@@ -891,7 +891,7 @@
                 "id": "ca20-66ee-5b18-35a4"
               }
             ],
-            "name": "武器 阿爾阿伊",
+            "name": "武器 Array",
             "hidden": false,
             "id": "14be-d879-c755-3d93"
           }
@@ -901,14 +901,14 @@
             "targetId": "241c-8bed-ca28-f77",
             "id": "27a2-8f94-8c48-644c",
             "type": "profile",
-            "name": "爾艾伊恩夫奧爾克艾德 克奧維爾",
+            "name": "Reinforced Cover",
             "hidden": false
           },
           {
             "targetId": "2e62-f126-df89-60d",
             "id": "8673-27bf-352-2e44",
             "type": "profile",
-            "name": "爾烏夫 阿克克艾斯",
+            "name": "Roof Access",
             "hidden": false
           },
           {
@@ -947,7 +947,7 @@
             "targetId": "fa4e-5ac8-11a6-78d2"
           },
           {
-            "name": "傷害d: 1-6 剩餘耐傷",
+            "name": "傷害d: 1-6 耐傷 Remaining",
             "hidden": false,
             "type": "profile",
             "id": "c721-6f06-72d3-9144",
@@ -1013,7 +1013,7 @@
                 "$text": ""
               }
             ],
-            "name": "布阿斯辛",
+            "name": "Bastion",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -1022,12 +1022,12 @@
           {
             "characteristics": [
               {
-                "$text": "This FORTIFICATION has a transport capacity of 15 INFANTRY models. Each model with a 耐傷 characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a 耐傷 characteristic of 4 or more.",
-                "name": "運輸容量",
+                "$text": "此 未譯名 具有 一個 未譯名 未譯名 的 15 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 未譯名 該 未譯名 的 2 模型。未譯名 不能 未譯名 未譯名－角色 模型 具有 一個 耐傷 屬性 的 4 或 更多。",
+                "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
             ],
-            "name": "布阿斯辛",
+            "name": "Bastion",
             "typeId": "74f8-5443-9d6d-1f1e",
             "typeName": "Transport",
             "hidden": false,
@@ -1047,14 +1047,14 @@
         ],
         "type": "model",
         "import": true,
-        "name": "布阿斯辛 [傳奇]",
+        "name": "Bastion [傳奇]",
         "hidden": false,
         "id": "5134-5fe9-e489-43c4"
       },
       {
         "costs": [
           {
-            "name": "分",
+            "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 260
           }
@@ -1070,13 +1070,13 @@
             "targetId": "e1ff-c0fa-2ca7-3466",
             "id": "ce3a-8b8-a633-f6be",
             "primary": false,
-            "name": "陣營：未結盟部隊"
+            "name": "陣營: 未結盟部隊"
           },
           {
             "targetId": "75e8-57c4-40e3-1817",
             "id": "965b-a51b-e6b6-4fd",
             "primary": false,
-            "name": "運輸工具"
+            "name": "Transport"
           },
           {
             "targetId": "dbd4-63-af05-998",
@@ -1088,13 +1088,13 @@
             "targetId": "fc43-1a6a-44bd-4350",
             "id": "e0bd-c89d-61d8-2652",
             "primary": false,
-            "name": "沃阿爾 of 姆阿爾特伊爾斯"
+            "name": "Wall of Martyrs"
           },
           {
             "targetId": "bd6f-cfc-c88-9f95",
             "id": "6688-fd8a-4779-1b56",
             "primary": false,
-            "name": "夫伊爾艾斯特奧爾姆 爾艾德歐布特"
+            "name": "Firestorm Redoubt"
           }
         ],
         "modifiers": [
@@ -1143,7 +1143,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. 入侵戰 (1000 分數上限)"
+                "childName": "1. 入侵戰 (1000 Point limit)"
               }
             ]
           }
@@ -1153,14 +1153,14 @@
             "targetId": "2e62-f126-df89-60d",
             "id": "c31e-dc63-d357-8820",
             "type": "profile",
-            "name": "爾烏夫 阿克克艾斯",
+            "name": "Roof Access",
             "hidden": false
           },
           {
             "targetId": "241c-8bed-ca28-f77",
             "id": "6f98-d4bb-fa0d-ea61",
             "type": "profile",
-            "name": "爾艾伊恩夫奧爾克艾德 克奧維爾",
+            "name": "Reinforced Cover",
             "hidden": false
           },
           {
@@ -1204,7 +1204,7 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "克奧姆姆斯 阿恩特艾恩恩阿",
+                "name": "Comms antenna",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "9710-3051-3a09-af77",
@@ -1212,7 +1212,7 @@
               },
               {
                 "import": true,
-                "name": "伊克阿爾烏斯 雷射炮",
+                "name": "Icarus 雷射炮",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "c049-f816-4822-920c",
@@ -1220,7 +1220,7 @@
               },
               {
                 "import": true,
-                "name": "奎阿德－格烏恩",
+                "name": "Quad－gun",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "efa1-186c-7f51-6ae0",
@@ -1237,7 +1237,7 @@
                 "id": "ca20-66ee-5b18-35a4"
               }
             ],
-            "name": "武器 阿爾阿伊",
+            "name": "武器 Array",
             "hidden": false,
             "id": "b2f0-fef3-2b51-8edc"
           },
@@ -1275,7 +1275,7 @@
                 "targetId": "837d-5927-b2f1-d4b8",
                 "id": "d6aa-a1ef-3d1c-54",
                 "type": "selectionEntry",
-                "name": "戰鬥 炮",
+                "name": "Battle 炮",
                 "hidden": false
               },
               {
@@ -1292,7 +1292,7 @@
                 "targetId": "708f-a01b-953d-d59e",
                 "id": "5f73-2391-368b-6c4a",
                 "type": "selectionEntry",
-                "name": "普烏恩伊什爾 格阿特爾伊恩格 炮",
+                "name": "Punisher gatling 炮",
                 "hidden": false
               },
               {
@@ -1309,11 +1309,11 @@
                 "targetId": "e55-db9a-8f67-b41f",
                 "id": "4d19-a2f6-5d6e-e53f",
                 "type": "selectionEntry",
-                "name": "奎阿德 雷射炮",
+                "name": "Quad 雷射炮",
                 "hidden": false
               }
             ],
-            "name": "特烏爾艾特斯",
+            "name": "Turrets",
             "hidden": false,
             "id": "9df9-6944-3f63-2226",
             "defaultSelectionEntryId": "4d19-a2f6-5d6e-e53f"
@@ -1323,12 +1323,12 @@
           {
             "characteristics": [
               {
-                "$text": "This 防禦工事 has a transport capacity of 15 步兵 models. Each model with a 耐傷 characteristic of 3 or more takes up the space of 2 models. It cannot transport non-角色 models with a 耐傷 characteristic of 4 or more",
-                "name": "運輸容量",
+                "$text": "此 防禦工事 具有 一個 未譯名 未譯名 的 15 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 未譯名 該 未譯名 的 2 模型。未譯名 不能 未譯名 未譯名－未譯名角色 模型 具有 一個 耐傷 屬性 的 4 或 更多",
+                "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
             ],
-            "name": "夫伊爾艾斯特奧爾姆 爾艾德歐布特",
+            "name": "Firestorm Redoubt",
             "typeId": "74f8-5443-9d6d-1f1e",
             "typeName": "Transport",
             "hidden": false,
@@ -1372,7 +1372,7 @@
                 "$text": ""
               }
             ],
-            "name": "夫伊爾艾斯特奧爾姆 爾艾德歐布特",
+            "name": "Firestorm Redoubt",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -1392,14 +1392,14 @@
         ],
         "type": "model",
         "import": true,
-        "name": "夫伊爾艾斯特奧爾姆 爾艾德歐布特 [傳奇]",
+        "name": "Firestorm Redoubt [傳奇]",
         "hidden": false,
         "id": "71b0-77b9-522c-17d6"
       },
       {
         "costs": [
           {
-            "name": "分",
+            "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 480
           }
@@ -1415,13 +1415,13 @@
             "targetId": "e1ff-c0fa-2ca7-3466",
             "id": "9772-8c1a-1294-8ba7",
             "primary": false,
-            "name": "陣營：未結盟部隊"
+            "name": "陣營: 未結盟部隊"
           },
           {
             "targetId": "75e8-57c4-40e3-1817",
             "id": "3679-34dd-95f7-4b6e",
             "primary": false,
-            "name": "運輸工具"
+            "name": "Transport"
           },
           {
             "targetId": "5929-ad51-d006-e008",
@@ -1445,7 +1445,7 @@
             "targetId": "8f18-8c8b-3d82-6e18",
             "id": "2a9d-32a7-1e00-199c",
             "primary": false,
-            "name": "夫奧爾特爾艾斯 of 爾艾德艾姆普辛"
+            "name": "Fortress of Redemption"
           }
         ],
         "modifiers": [
@@ -1494,7 +1494,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. 入侵戰 (1000 分數上限)"
+                "childName": "1. 入侵戰 (1000 Point limit)"
               }
             ]
           }
@@ -1538,7 +1538,7 @@
                 "$text": ""
               }
             ],
-            "name": "夫奧爾特爾艾斯 of 爾艾德艾姆普辛",
+            "name": "Fortress of Redemption",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -1547,12 +1547,12 @@
           {
             "characteristics": [
               {
-                "$text": "This FORTIFICATION has a transport capacity of 20 INFANTRY models. Each model with a 耐傷 characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a 耐傷 characteristic of 4 or more.",
-                "name": "運輸容量",
+                "$text": "此 未譯名 具有 一個 未譯名 未譯名 的 20 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 未譯名 該 未譯名 的 2 模型。未譯名 不能 未譯名 未譯名－角色 模型 具有 一個 耐傷 屬性 的 4 或 更多。",
+                "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
             ],
-            "name": "夫奧爾特爾艾斯 of 爾艾德艾姆普辛",
+            "name": "Fortress of Redemption",
             "typeId": "74f8-5443-9d6d-1f1e",
             "typeName": "Transport",
             "hidden": false,
@@ -1561,12 +1561,12 @@
           {
             "characteristics": [
               {
-                "$text": "While a model is on top of the tower roof of this FORTIFICATION, improve the 穿甲 characteristic of ranged weapons equipped by 該模型 by 1.",
+                "$text": "當 一個模型 是 於 未譯名 的 該 未譯名 未譯名 的 此 未譯名，未譯名 該 穿甲 屬性 的 遠程 武器 配備 由 該模型 由 1。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "維阿恩特阿格艾 點",
+            "name": "Vantage Point",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -1612,7 +1612,7 @@
         ],
         "infoLinks": [
           {
-            "name": "傷害d: 1-10 剩餘耐傷",
+            "name": "傷害d: 1-10 耐傷 Remaining",
             "hidden": false,
             "type": "profile",
             "id": "c9c5-cee4-aae3-58fe",
@@ -1626,14 +1626,14 @@
             "targetId": "fa4e-5ac8-11a6-78d2"
           },
           {
-            "name": "爾艾伊恩夫奧爾克艾德 克奧維爾",
+            "name": "Reinforced Cover",
             "hidden": false,
             "type": "profile",
             "id": "5b4e-c251-248a-a3f6",
             "targetId": "241c-8bed-ca28-f77"
           },
           {
-            "name": "爾烏夫 阿克克艾斯",
+            "name": "Roof Access",
             "hidden": false,
             "type": "profile",
             "id": "4758-494-d88b-923d",
@@ -1727,7 +1727,7 @@
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ],
-                "name": "爾艾德艾姆普特奧爾 爾阿斯克阿恩恩奧恩斯",
+                "name": "Redemptor lascannons",
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
                 "hidden": false,
@@ -1736,7 +1736,7 @@
             ],
             "infoLinks": [
               {
-                "name": "針對",
+                "name": "Anti",
                 "hidden": false,
                 "type": "rule",
                 "id": "92a5-bb4e-a090-7d73",
@@ -1745,7 +1745,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "爾艾德艾姆普特奧爾 爾阿斯克阿恩恩奧恩斯",
+            "name": "Redemptor lascannons",
             "hidden": false,
             "id": "db95-3509-494e-5358"
           },
@@ -1807,7 +1807,7 @@
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ],
-                "name": "➤ 爾艾德艾姆普特奧爾 飛彈 斯伊爾奧 - 斯烏普爾夫爾阿格",
+                "name": "➤ Redemptor 飛彈 silo - superfrag",
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
                 "hidden": false,
@@ -1851,7 +1851,7 @@
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ],
-                "name": "➤ 爾艾德艾姆普特奧爾 飛彈 斯伊爾奧 - 斯烏普爾克爾阿克",
+                "name": "➤ Redemptor 飛彈 silo - superkrak",
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
                 "hidden": false,
@@ -1869,7 +1869,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "爾艾德艾姆普特奧爾 飛彈 斯伊爾奧",
+            "name": "Redemptor 飛彈 silo",
             "hidden": false,
             "id": "988-2a33-6cbd-4020"
           }
@@ -1887,14 +1887,14 @@
         ],
         "type": "model",
         "import": true,
-        "name": "夫奧爾特爾艾斯 of 爾艾德艾姆普辛 [傳奇]",
+        "name": "Fortress of Redemption [傳奇]",
         "hidden": false,
         "id": "c4d1-c85a-a20e-6c94"
       },
       {
         "costs": [
           {
-            "name": "分",
+            "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 45
           }
@@ -1904,13 +1904,13 @@
             "targetId": "e1ff-c0fa-2ca7-3466",
             "id": "2686-fb2f-dd21-e510",
             "primary": false,
-            "name": "陣營：未結盟部隊"
+            "name": "陣營: 未結盟部隊"
           },
           {
             "targetId": "887b-ab87-92a2-20f5",
             "id": "626e-a5f3-46e8-3f23",
             "primary": true,
-            "name": "阿爾伊艾德 烏恩伊特斯"
+            "name": "Allied 單位"
           },
           {
             "targetId": "9693-cf84-fe69-37a9",
@@ -1922,7 +1922,7 @@
             "targetId": "393a-5707-47ac-8a47",
             "id": "4cf0-207-d593-cc17",
             "primary": false,
-            "name": "格烏阿爾德伊阿恩 德爾奧恩艾"
+            "name": "Guardian Drone"
           }
         ],
         "modifiers": [
@@ -1971,7 +1971,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. 入侵戰 (1000 分數上限)"
+                "childName": "1. 入侵戰 (1000 Point limit)"
               }
             ]
           }
@@ -1980,12 +1980,12 @@
           {
             "characteristics": [
               {
-                "$text": "While a friendly **^^Spindle Drones^^** unit is 6 吋內 of 此模型, 每當 a model in 該單位 進行一次攻擊, add 1 to the 命中擲骰.",
+                "$text": "當 一個 友方 **^^未譯名 未譯名^^** 單位 位於 6\" 此模型，每當 一個模型 於 該單位 進行一次攻擊，+1 至 該 命中擲骰。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "德爾奧恩艾 克奧姆姆阿恩德爾 (光環)",
+            "name": "Drone Commander (Aura)",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -2029,7 +2029,7 @@
                 "$text": ""
               }
             ],
-            "name": "格烏阿爾德伊阿恩 德爾奧恩艾",
+            "name": "Guardian Drone",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -2093,7 +2093,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "遠征",
+            "name": "Crusade",
             "hidden": false,
             "id": "d6b1-486b-446f-d4aa",
             "type": "selectionEntryGroup",
@@ -2292,7 +2292,7 @@
                 "field": "name"
               }
             ],
-            "comment": "遠征 修正值",
+            "comment": "Crusade modifiers",
             "type": "and"
           }
         ],
@@ -2339,7 +2339,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "德艾斯特爾奧伊爾 普烏爾斯艾",
+                    "name": "Destroyer pulse",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "Ranged Weapons",
                     "hidden": false,
@@ -2376,7 +2376,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "武器改造",
+                    "name": "武器 Modifications",
                     "hidden": false,
                     "id": "c079-255d-9033-c983",
                     "type": "selectionEntryGroup",
@@ -2385,7 +2385,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "德艾斯特爾奧伊爾 普烏爾斯艾",
+                "name": "Destroyer pulse",
                 "hidden": false,
                 "id": "1ab6-25ac-947b-bf5f"
               },
@@ -2429,7 +2429,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "格烏阿爾德伊阿恩 斯阿爾維奧 爾奧恩切爾斯",
+                    "name": "Guardian salvo launchers",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "Ranged Weapons",
                     "hidden": false,
@@ -2466,7 +2466,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "武器改造",
+                    "name": "武器 Modifications",
                     "hidden": false,
                     "id": "0cec-6a02-46ed-36bb",
                     "type": "selectionEntryGroup",
@@ -2475,7 +2475,7 @@
                 ],
                 "categoryLinks": [
                   {
-                    "name": "攻擊 Dx 武器",
+                    "name": "Attacks Dx 武器",
                     "hidden": false,
                     "id": "ff15-f2d5-2ca7-e081",
                     "targetId": "e993-e086-6de1-12af",
@@ -2484,7 +2484,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "格烏阿爾德伊阿恩 斯阿爾維奧 爾奧恩切爾斯",
+                "name": "Guardian salvo launchers",
                 "hidden": false,
                 "id": "3200-448d-b069-ce9b"
               },
@@ -2528,7 +2528,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "姆阿恩伊普烏爾阿特奧爾 爾伊姆布斯",
+                    "name": "Manipulator limbs",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "Melee Weapons",
                     "hidden": false,
@@ -2556,7 +2556,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "武器改造",
+                    "name": "武器 Modifications",
                     "hidden": false,
                     "id": "fe10-336e-af16-0187",
                     "type": "selectionEntryGroup",
@@ -2565,12 +2565,12 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "姆阿恩伊普烏爾阿特奧爾 爾伊姆布斯",
+                "name": "Manipulator limbs",
                 "hidden": false,
                 "id": "7291-ec92-1fd4-75ad"
               }
             ],
-            "name": "武器裝備",
+            "name": "Wargear",
             "id": "58fa-ec3e-e1a3-4ba8",
             "hidden": false,
             "sortIndex": 2
@@ -2578,14 +2578,14 @@
         ],
         "type": "model",
         "import": true,
-        "name": "格烏阿爾德伊阿恩 德爾奧恩艾 [傳奇]",
+        "name": "Guardian Drone [傳奇]",
         "hidden": false,
         "id": "e3ba-7f87-c32-229"
       },
       {
         "costs": [
           {
-            "name": "分",
+            "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 550
           }
@@ -2601,7 +2601,7 @@
             "targetId": "e1ff-c0fa-2ca7-3466",
             "id": "70c7-12cf-85e0-1ba5",
             "primary": false,
-            "name": "陣營：未結盟部隊"
+            "name": "陣營: 未結盟部隊"
           },
           {
             "targetId": "5929-ad51-d006-e008",
@@ -2619,19 +2619,19 @@
             "targetId": "75e8-57c4-40e3-1817",
             "id": "ef14-3441-4f0c-2bdd",
             "primary": false,
-            "name": "運輸工具"
+            "name": "Transport"
           },
           {
             "targetId": "fc43-1a6a-44bd-4350",
             "id": "5903-1143-6c77-aeaa",
             "primary": false,
-            "name": "沃阿爾 of 姆阿爾特伊爾斯"
+            "name": "Wall of Martyrs"
           },
           {
             "targetId": "97a9-7f06-f2e0-84fa",
             "id": "524f-ca07-984d-142e",
             "primary": false,
-            "name": "姆阿克爾奧－炮 阿奎伊爾阿 斯特爾奧恩格普奧伊恩特"
+            "name": "Macro－炮 Aquila Strongpoint"
           }
         ],
         "modifiers": [
@@ -2680,14 +2680,14 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. 入侵戰 (1000 分數上限)"
+                "childName": "1. 入侵戰 (1000 Point limit)"
               }
             ]
           }
         ],
         "infoLinks": [
           {
-            "name": "爾艾伊恩夫奧爾克艾德 克奧維爾",
+            "name": "Reinforced Cover",
             "hidden": false,
             "type": "profile",
             "id": "ba55-c1a2-3f03-bb67",
@@ -2701,14 +2701,14 @@
             "targetId": "fa4e-5ac8-11a6-78d2"
           },
           {
-            "name": "傷害d: 1-10 剩餘耐傷",
+            "name": "傷害d: 1-10 耐傷 Remaining",
             "hidden": false,
             "type": "profile",
             "id": "a38c-cde0-ef54-144b",
             "targetId": "33ea-51f2-96cb-4893"
           },
           {
-            "name": "爾烏夫 阿克克艾斯",
+            "name": "Roof Access",
             "hidden": false,
             "type": "profile",
             "id": "e67c-9cd2-681b-451a",
@@ -2747,12 +2747,12 @@
           {
             "characteristics": [
               {
-                "$text": "In your 射擊階段, just after selecting a target for 此模型’s Aquila macro-cannon, the target unit and every other enemy INFANTRY unit 3 吋內 of 該單位 must take a 戰鬥震懾 test.",
+                "$text": "於 你的 射擊 階段，未譯名 之後 未譯名 一個 目標 為 此模型’未譯名 未譯名 未譯名－未譯名，該 目標 單位 且 未譯名 其他 敵方 步兵 單位 位於 3\" 該單位 必須 受到 一個 戰鬥震懾測試。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "特爾艾姆奧爾 奎阿克艾",
+            "name": "Tremor Quake",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -2796,7 +2796,7 @@
                 "$text": ""
               }
             ],
-            "name": "姆阿克爾奧－炮 阿奎伊爾阿 斯特爾奧恩格普奧伊恩特",
+            "name": "Macro－炮 Aquila Strongpoint",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -2805,12 +2805,12 @@
           {
             "characteristics": [
               {
-                "$text": "This FORTIFICATION has a transport capacity of 30 INFANTRY models. Each model with a 耐傷 characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a 耐傷 characteristic of 4 or more.",
-                "name": "運輸容量",
+                "$text": "此 未譯名 具有 一個 未譯名 未譯名 的 30 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 未譯名 該 未譯名 的 2 模型。未譯名 不能 未譯名 未譯名－角色 模型 具有 一個 耐傷 屬性 的 4 或 更多。",
+                "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
             ],
-            "name": "姆阿克爾奧－炮 阿奎伊爾阿 斯特爾奧恩格普奧伊恩特",
+            "name": "Macro－炮 Aquila Strongpoint",
             "typeId": "74f8-5443-9d6d-1f1e",
             "typeName": "Transport",
             "hidden": false,
@@ -2858,7 +2858,7 @@
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ],
-                "name": "阿奎伊爾阿 姆阿克爾奧－炮",
+                "name": "Aquila macro－炮",
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
                 "hidden": false,
@@ -2885,7 +2885,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "阿奎伊爾阿 姆阿克爾奧－炮",
+            "name": "Aquila macro－炮",
             "hidden": false,
             "id": "dc0f-e233-7c7c-18e7"
           }
@@ -2940,14 +2940,14 @@
         ],
         "type": "model",
         "import": true,
-        "name": "姆阿克爾奧－炮 阿奎伊爾阿 斯特爾奧恩格普奧伊恩特 [傳奇]",
+        "name": "Macro－炮 Aquila Strongpoint [傳奇]",
         "hidden": false,
         "id": "3b75-e314-ecd5-cd63"
       },
       {
         "costs": [
           {
-            "name": "分",
+            "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 225
           }
@@ -2963,13 +2963,13 @@
             "targetId": "e1ff-c0fa-2ca7-3466",
             "id": "79e1-53d9-ebc6-2c",
             "primary": false,
-            "name": "陣營：未結盟部隊"
+            "name": "陣營: 未結盟部隊"
           },
           {
             "targetId": "75e8-57c4-40e3-1817",
             "id": "a6a0-ccfe-e31d-747a",
             "primary": false,
-            "name": "運輸工具"
+            "name": "Transport"
           },
           {
             "targetId": "dbd4-63-af05-998",
@@ -2987,7 +2987,7 @@
             "targetId": "9278-7145-847f-3cac",
             "id": "a0e8-e723-ffd9-e989",
             "primary": false,
-            "name": "電漿 奧布爾伊特爾阿特奧爾"
+            "name": "電漿 Obliterator"
           }
         ],
         "modifiers": [
@@ -3036,7 +3036,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. 入侵戰 (1000 分數上限)"
+                "childName": "1. 入侵戰 (1000 Point limit)"
               }
             ]
           }
@@ -3074,11 +3074,11 @@
             "targetId": "241c-8bed-ca28-f77",
             "id": "d1ab-f479-9229-194f",
             "type": "profile",
-            "name": "爾艾伊恩夫奧爾克艾德 克奧維爾",
+            "name": "Reinforced Cover",
             "hidden": false
           },
           {
-            "name": "傷害d: 1-6 剩餘耐傷",
+            "name": "傷害d: 1-6 耐傷 Remaining",
             "hidden": false,
             "type": "profile",
             "id": "9712-d686-e3fb-f5a4",
@@ -3131,7 +3131,7 @@
                 "$text": ""
               }
             ],
-            "name": "電漿 奧布爾伊特爾阿特奧爾",
+            "name": "電漿 Obliterator",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -3140,12 +3140,12 @@
           {
             "characteristics": [
               {
-                "$text": "每當 this FORTIFICATION suffers a 致命傷 as the 結果為 a failed 危險 test, 擲一顆 D6: 結果為 4+ 時, that wound is not lost.",
+                "$text": "每當 此 未譯名 承受 一個 致命傷 作為 該 結果 的 一個 失敗 危險 未譯名，擲一顆 D6: 於 一個 4+，該 致傷 是 不 未譯名。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "艾姆爾格艾恩克伊 電漿 維艾恩特斯",
+            "name": "Emergency 電漿 Vents",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -3154,12 +3154,12 @@
           {
             "characteristics": [
               {
-                "$text": "This FORTIFICATION has a transport capacity of 20 INFANTRY models. Each model with a 耐傷 characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a 耐傷 characteristic of 4 or more.",
-                "name": "運輸容量",
+                "$text": "此 未譯名 具有 一個 未譯名 未譯名 的 20 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 未譯名 該 未譯名 的 2 模型。未譯名 不能 未譯名 未譯名－角色 模型 具有 一個 耐傷 屬性 的 4 或 更多。",
+                "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
             ],
-            "name": "電漿 奧布爾伊特爾阿特奧爾",
+            "name": "電漿 Obliterator",
             "typeId": "74f8-5443-9d6d-1f1e",
             "typeName": "Transport",
             "hidden": false,
@@ -3207,7 +3207,7 @@
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ],
-                "name": "➤ 電漿 奧布爾伊特爾阿特奧爾 - 斯特阿恩德阿爾德",
+                "name": "➤ 電漿 obliterator - standard",
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
                 "hidden": false,
@@ -3246,12 +3246,12 @@
                     "typeId": "a354-c1c8-a745-f9e3"
                   },
                   {
-                    "$text": "爆炸, 危險",
+                    "$text": "爆炸，危險",
                     "name": "關鍵詞",
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ],
-                "name": "➤ 電漿 奧布爾伊特爾阿特奧爾 - 斯烏普爾查爾格艾",
+                "name": "➤ 電漿 obliterator - supercharge",
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
                 "hidden": false,
@@ -3294,7 +3294,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "電漿 奧布爾伊特爾阿特奧爾",
+            "name": "電漿 obliterator",
             "hidden": false,
             "id": "a72b-27ca-d431-cf98"
           }
@@ -3312,14 +3312,14 @@
         ],
         "type": "model",
         "import": true,
-        "name": "電漿 奧布爾伊特爾阿特奧爾 [傳奇]",
+        "name": "電漿 Obliterator [傳奇]",
         "hidden": false,
         "id": "cabe-2c66-c8b6-de6c"
       },
       {
         "costs": [
           {
-            "name": "分",
+            "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 220
           }
@@ -3335,7 +3335,7 @@
             "targetId": "e1ff-c0fa-2ca7-3466",
             "id": "b1c5-523c-f9bf-283e",
             "primary": false,
-            "name": "陣營：未結盟部隊"
+            "name": "陣營: 未結盟部隊"
           },
           {
             "targetId": "dbd4-63-af05-998",
@@ -3347,7 +3347,7 @@
             "targetId": "62e0-9a0b-b965-9df1",
             "id": "a298-e947-63ac-432d",
             "primary": false,
-            "name": "普爾伊姆阿爾伊斯 爾艾德歐布特"
+            "name": "Primaris Redoubt"
           }
         ],
         "modifiers": [
@@ -3396,7 +3396,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. 入侵戰 (1000 分數上限)"
+                "childName": "1. 入侵戰 (1000 Point limit)"
               }
             ]
           }
@@ -3440,7 +3440,7 @@
                 "$text": "5+"
               }
             ],
-            "name": "普爾伊姆阿爾伊斯 爾艾德歐布特",
+            "name": "Primaris Redoubt",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -3452,7 +3452,7 @@
             "targetId": "241c-8bed-ca28-f77",
             "id": "6ec5-bb67-ec46-104b",
             "type": "profile",
-            "name": "爾艾伊恩夫奧爾克艾德 克奧維爾",
+            "name": "Reinforced Cover",
             "hidden": false
           },
           {
@@ -3473,14 +3473,14 @@
             "targetId": "f791-bfaa-d110-9379",
             "id": "f8ff-6545-642a-6f2f",
             "type": "profile",
-            "name": "格阿特艾斯",
+            "name": "Gates",
             "hidden": false
           },
           {
             "targetId": "f644-db15-d1f0-3c48",
             "id": "faf3-5a9-c2da-204f",
             "type": "profile",
-            "name": "布阿特特爾艾姆艾恩特斯",
+            "name": "Battlements",
             "hidden": false
           },
           {
@@ -3491,7 +3491,7 @@
             "targetId": "fa4e-5ac8-11a6-78d2"
           },
           {
-            "name": "傷害d: 1-6 剩餘耐傷",
+            "name": "傷害d: 1-6 耐傷 Remaining",
             "hidden": false,
             "type": "profile",
             "id": "eacc-bc70-2e7e-7aa7",
@@ -3557,7 +3557,7 @@
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ],
-                "name": "普爾伊姆阿爾伊斯 爾艾德歐布特 特烏爾布奧－爾阿斯爾 德艾斯特爾烏克特奧爾",
+                "name": "Primaris Redoubt turbo－laser 毀滅型",
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
                 "hidden": false,
@@ -3575,7 +3575,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "普爾伊姆阿爾伊斯 爾艾德歐布特 特烏爾布奧－爾阿斯爾 德艾斯特爾烏克特奧爾",
+            "name": "Primaris Redoubt turbo－laser 毀滅型",
             "hidden": false,
             "id": "b6ab-e70d-f8f3-731a"
           }
@@ -3643,7 +3643,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "普爾伊姆阿爾伊斯 艾爾 德艾夫艾恩克艾 姆伊斯伊爾艾斯",
+                    "name": "Primaris air defence missiles",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "Ranged Weapons",
                     "hidden": false,
@@ -3652,7 +3652,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "針對",
+                    "name": "Anti",
                     "hidden": false,
                     "type": "rule",
                     "id": "1c57-cd93-da17-d39c",
@@ -3661,7 +3661,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "普爾伊姆阿爾伊斯 艾爾 德艾夫艾恩克艾 姆伊斯伊爾艾斯",
+                "name": "Primaris air defence missiles",
                 "hidden": false,
                 "id": "2b2d-2d80-c99a-50bc"
               },
@@ -3705,7 +3705,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "普爾伊姆阿爾伊斯 伊克阿爾烏斯 雷射炮",
+                    "name": "Primaris Icarus 雷射炮",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "Ranged Weapons",
                     "hidden": false,
@@ -3714,7 +3714,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "針對",
+                    "name": "Anti",
                     "hidden": false,
                     "type": "rule",
                     "id": "c5-75fb-f8c7-a06b",
@@ -3723,7 +3723,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "普爾伊姆阿爾伊斯 伊克阿爾烏斯 雷射炮",
+                "name": "Primaris Icarus 雷射炮",
                 "hidden": false,
                 "id": "82f9-177b-779e-7780"
               },
@@ -3762,12 +3762,12 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "針對飛行 2+, 雙聯",
+                        "$text": "針對飛行 2+，雙聯",
                         "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "普爾伊姆阿爾伊斯 伊克阿爾烏斯 奎阿德 雷射炮",
+                    "name": "Primaris Icarus quad 雷射炮",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "Ranged Weapons",
                     "hidden": false,
@@ -3783,7 +3783,7 @@
                     "targetId": "cf93-ad4d-2f08-a79d"
                   },
                   {
-                    "name": "針對",
+                    "name": "Anti",
                     "hidden": false,
                     "type": "rule",
                     "id": "6c5a-75a5-308f-ff87",
@@ -3792,7 +3792,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "普爾伊姆阿爾伊斯 伊克阿爾烏斯 奎阿德 雷射炮",
+                "name": "Primaris Icarus quad 雷射炮",
                 "hidden": false,
                 "id": "663c-1233-84a9-8909"
               },
@@ -3836,7 +3836,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "普爾伊姆阿爾伊斯 奎阿德－格烏恩",
+                    "name": "Primaris quad－gun",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "Ranged Weapons",
                     "hidden": false,
@@ -3845,7 +3845,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "普爾伊姆阿爾伊斯 奎阿德－格烏恩",
+                "name": "Primaris quad－gun",
                 "hidden": false,
                 "id": "6f21-792e-17c6-c9dc"
               },
@@ -3884,12 +3884,12 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "爆炸, 間接射擊",
+                        "$text": "爆炸，間接射擊",
                         "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "普爾伊姆阿爾伊斯 克阿斯特艾爾阿恩 發射器",
+                    "name": "Primaris castellan 發射器",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "Ranged Weapons",
                     "hidden": false,
@@ -3914,7 +3914,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "普爾伊姆阿爾伊斯 克阿斯特艾爾阿恩 發射器",
+                "name": "Primaris castellan 發射器",
                 "hidden": false,
                 "id": "2cde-a0ef-d7e0-53b3"
               },
@@ -3953,12 +3953,12 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "爆炸, 間接射擊",
+                        "$text": "爆炸，間接射擊",
                         "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "普爾伊姆阿爾伊斯 維艾恩格伊恩克艾 發射器",
+                    "name": "Primaris vengeance 發射器",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "Ranged Weapons",
                     "hidden": false,
@@ -3983,7 +3983,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "普爾伊姆阿爾伊斯 維艾恩格伊恩克艾 發射器",
+                "name": "Primaris vengeance 發射器",
                 "hidden": false,
                 "id": "e500-1c20-8d3d-e4c5"
               }
@@ -4001,7 +4001,7 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "戰鬥 炮",
+                "name": "Battle 炮",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "6624-49e6-ab77-33a4",
@@ -4025,7 +4025,7 @@
               },
               {
                 "import": true,
-                "name": "雙聯重型爆彈槍",
+                "name": "雙聯 重型爆彈槍",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "8cec-fe90-d8a2-be83",
@@ -4033,14 +4033,14 @@
               },
               {
                 "import": true,
-                "name": "雙聯重型火焰噴射器",
+                "name": "雙聯 重型火焰噴射器",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "7a6f-b9c4-89ce-bdd9",
                 "targetId": "ad83-5e8f-6f3f-37b2"
               }
             ],
-            "name": "斯艾克奧恩德阿伊 武器",
+            "name": "Seconday 武器",
             "hidden": false,
             "id": "bca0-9eff-5e78-5f16"
           }
@@ -4058,14 +4058,14 @@
         ],
         "type": "model",
         "import": true,
-        "name": "普爾伊姆阿爾伊斯 爾艾德歐布特 [傳奇]",
+        "name": "Primaris Redoubt [傳奇]",
         "hidden": false,
         "id": "f39-fc54-f95a-8395"
       },
       {
         "costs": [
           {
-            "name": "分",
+            "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 125
           }
@@ -4081,13 +4081,13 @@
             "targetId": "e1ff-c0fa-2ca7-3466",
             "id": "17b8-8604-3df5-e7ab",
             "primary": false,
-            "name": "陣營：未結盟部隊"
+            "name": "陣營: 未結盟部隊"
           },
           {
             "targetId": "c5e3-117a-a679-a415",
             "id": "ecbc-ef4f-73-aa2d",
             "primary": false,
-            "name": "斯克伊什伊艾爾德 爾阿恩德伊恩格 普阿德"
+            "name": "Skyshield Landing Pad"
           }
         ],
         "modifiers": [
@@ -4136,7 +4136,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. 入侵戰 (1000 分數上限)"
+                "childName": "1. 入侵戰 (1000 Point limit)"
               }
             ]
           }
@@ -4160,7 +4160,7 @@
             "targetId": "241c-8bed-ca28-f77",
             "id": "c3e-bf7f-2c22-752f",
             "type": "profile",
-            "name": "爾艾伊恩夫奧爾克艾德 克奧維爾",
+            "name": "Reinforced Cover",
             "hidden": false
           },
           {
@@ -4210,7 +4210,7 @@
                 "$text": "5+"
               }
             ],
-            "name": "斯克伊什伊艾爾德 爾阿恩德伊恩格 普阿德",
+            "name": "Skyshield Landing Pad",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -4219,12 +4219,12 @@
           {
             "characteristics": [
               {
-                "$text": "Friendly 步兵 models and 友方單位 that can 飛行 can be set up or end any type of move on top of the platform section of this 防禦工事. While such a model is on the platform section of this 防禦工事, 該模型 has a 5+ invulnerable save against ranged attacks",
+                "$text": "友方 步兵 模型 且 友方單位 該 可以 飛行 可以 被 設為 未譯名 或 結束 任何 未譯名 的 移動 於 未譯名 的 該 未譯名 未譯名 的 此 防禦工事。當 未譯名 一個模型 是 於 該 未譯名 未譯名 的 此 防禦工事，該模型 具有 一個 5+ 未譯名 豁免 對抗 遠程 攻擊",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "斯克伊什伊艾爾德",
+            "name": "Skyshield",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -4233,12 +4233,12 @@
           {
             "characteristics": [
               {
-                "$text": "在你的 移動階段, if there is a friendly 航空器 model on top of this 防禦工事, that 航空器 regains up to D3 lost wounds",
+                "$text": "在結束時 你的 移動未譯名 階段，若 未譯名 是 一個 友方 航空器 模型 於 未譯名 的 此 防禦工事，該 航空器 未譯名 未譯名 至 D3 未譯名 耐傷",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "爾艾普艾爾 航空器",
+            "name": "Repair 航空器",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -4258,14 +4258,14 @@
         ],
         "type": "model",
         "import": true,
-        "name": "斯克伊什伊艾爾德 爾阿恩德伊恩格 普阿德 [傳奇]",
+        "name": "Skyshield Landing Pad [傳奇]",
         "hidden": false,
         "id": "54c-8b9f-b1d8-93c3"
       },
       {
         "costs": [
           {
-            "name": "分",
+            "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 35
           }
@@ -4275,13 +4275,13 @@
             "targetId": "e1ff-c0fa-2ca7-3466",
             "id": "a1b4-5e25-f583-d5b",
             "primary": false,
-            "name": "陣營：未結盟部隊"
+            "name": "陣營: 未結盟部隊"
           },
           {
             "targetId": "887b-ab87-92a2-20f5",
             "id": "3bea-1908-e216-3a6",
             "primary": true,
-            "name": "阿爾伊艾德 烏恩伊特斯"
+            "name": "Allied 單位"
           },
           {
             "targetId": "cf47-a0d7-7207-29dc",
@@ -4293,7 +4293,7 @@
             "targetId": "cade-8bdc-1e52-e011",
             "id": "abb0-27c3-595a-2290",
             "primary": false,
-            "name": "斯普伊恩德爾艾 德爾奧恩艾斯"
+            "name": "Spindle Drones"
           }
         ],
         "modifiers": [
@@ -4342,7 +4342,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. 入侵戰 (1000 分數上限)"
+                "childName": "1. 入侵戰 (1000 Point limit)"
               }
             ]
           }
@@ -4388,7 +4388,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "遠征",
+            "name": "Crusade",
             "hidden": false,
             "id": "d475-30ca-88c4-2a1a",
             "type": "selectionEntryGroup",
@@ -4587,7 +4587,7 @@
                 "field": "name"
               }
             ],
-            "comment": "遠征 修正值",
+            "comment": "Crusade modifiers",
             "type": "and"
           }
         ],
@@ -4652,7 +4652,7 @@
                         "$text": ""
                       }
                     ],
-                    "name": "斯普伊恩德爾艾 德爾奧恩艾",
+                    "name": "Spindle Drone",
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
                     "hidden": false,
@@ -4661,12 +4661,12 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "每當 a model in 此單位 makes an attack, add 1 to the 命中擲骰 if 此單位 is below its Starting 力量, and add 1 to the 致傷擲骰 as well if 此單位 is Below Half-strength",
+                        "$text": "每當 一個模型 於 此單位 進行一次攻擊，+1 至 該 命中擲骰 若 此單位 是 未譯名 未譯名 未譯名 力量，且 +1 至 該 致傷擲骰 作為 未譯名 若 此單位 是 未譯名 未譯名－力量",
                         "name": "說明",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
-                    "name": "斯爾伊特 爾艾維艾爾 爾伊斯伊恩格",
+                    "name": "Threat Level Rising",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
@@ -4748,7 +4748,7 @@
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "德爾奧恩艾 普烏爾斯艾",
+                        "name": "Drone pulse",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "hidden": false,
@@ -4767,7 +4767,7 @@
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "武器改造",
+                        "name": "武器 Modifications",
                         "hidden": false,
                         "id": "dcf9-fbcc-4105-20c1",
                         "type": "selectionEntryGroup",
@@ -4776,7 +4776,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "德爾奧恩艾 普烏爾斯艾",
+                    "name": "Drone pulse",
                     "hidden": false,
                     "id": "8e88-801b-56-a3d4"
                   },
@@ -4848,7 +4848,7 @@
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "武器改造",
+                        "name": "武器 Modifications",
                         "hidden": false,
                         "id": "4fc2-78c8-a9ba-7f0f",
                         "type": "selectionEntryGroup",
@@ -4864,13 +4864,13 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "斯普伊恩德爾艾 德爾奧恩艾",
+                "name": "Spindle Drone",
                 "hidden": false,
                 "id": "e32d-ae0a-732f-5864",
                 "collective": false
               }
             ],
-            "name": "斯普伊恩德爾艾 德爾奧恩艾斯",
+            "name": "Spindle Drones",
             "id": "a050-08fd-451c-4f2a",
             "hidden": false,
             "sortIndex": 2
@@ -4878,14 +4878,14 @@
         ],
         "type": "unit",
         "import": true,
-        "name": "斯普伊恩德爾艾 德爾奧恩艾斯 [傳奇]",
+        "name": "Spindle Drones [傳奇]",
         "hidden": false,
         "id": "da76-e18f-523e-d45a"
       },
       {
         "costs": [
           {
-            "name": "分",
+            "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 70
           }
@@ -4895,13 +4895,13 @@
             "targetId": "e1ff-c0fa-2ca7-3466",
             "id": "eb77-4bd0-3fc0-6934",
             "primary": false,
-            "name": "陣營：未結盟部隊"
+            "name": "陣營: 未結盟部隊"
           },
           {
             "targetId": "887b-ab87-92a2-20f5",
             "id": "7aa5-803c-aaf8-7b22",
             "primary": true,
-            "name": "阿爾伊艾德 烏恩伊特斯"
+            "name": "Allied 單位"
           },
           {
             "targetId": "9693-cf84-fe69-37a9",
@@ -4925,7 +4925,7 @@
             "targetId": "c2ad-1025-acf0-324f",
             "id": "e9ed-1efc-b769-6480",
             "primary": false,
-            "name": "斯艾 阿爾奇維伊斯特"
+            "name": "The Archivist"
           }
         ],
         "constraints": [
@@ -5013,7 +5013,7 @@
                 "$text": ""
               }
             ],
-            "name": "斯艾 阿爾奇維伊斯特",
+            "name": "The Archivist",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -5022,12 +5022,12 @@
           {
             "characteristics": [
               {
-                "$text": "在 近戰階段, each 敵方單位 within Engagement 射程 of one or more units with this ability must take a 戰鬥震懾 test.",
+                "$text": "在開始時 該 近戰 階段，每個 敵方單位 位於 未譯名 射程 的 一個 或 更多 單位 具有 此 技能 必須 受到 一個 戰鬥震懾測試。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "夫伊爾斯奧姆艾 突擊",
+            "name": "Fearsome 突擊",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -5036,12 +5036,12 @@
           {
             "characteristics": [
               {
-                "$text": "While an 敵方單位 is within 6\" of 此模型, 每當 該單位 takes a 戰鬥震懾 or 領導力 test, subtract 1 from that test.",
+                "$text": "當 一個 敵方單位 位於 6\" 此模型，每當 該單位 受到 一個 戰鬥震懾 或 領導力測試，-1 至 該 未譯名。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "德伊斯爾烏普特伊維艾 伊恩夫爾烏艾恩克艾 (光環)",
+            "name": "Disruptive Influence (Aura)",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -5093,12 +5093,12 @@
                     "typeId": "a354-c1c8-a745-f9e3"
                   },
                   {
-                    "$text": "無視掩體, 手槍",
+                    "$text": "無視掩體，手槍",
                     "name": "關鍵詞",
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ],
-                "name": "阿特奧姆伊克 德伊斯阿斯艾姆布爾",
+                "name": "Atomic disassembler",
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
                 "hidden": false,
@@ -5141,7 +5141,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "阿特奧姆伊克 德伊斯阿斯艾姆布爾",
+            "name": "Atomic disassembler",
             "hidden": false,
             "id": "368e-12b2-f6f7-b37b"
           },
@@ -5185,7 +5185,7 @@
                     "typeId": "893f-9000-ccf7-648e"
                   }
                 ],
-                "name": "爾阿德伊克阿特奧爾 格爾奧維艾",
+                "name": "Eradicator glove",
                 "typeId": "8a40-4aaa-c780-9046",
                 "typeName": "Melee Weapons",
                 "hidden": false,
@@ -5212,7 +5212,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "爾阿德伊克阿特奧爾 格爾奧維艾",
+            "name": "Eradicator glove",
             "hidden": false,
             "id": "29a1-6633-a564-40e2"
           }
@@ -5222,14 +5222,14 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "強大冠軍",
+                "name": "Mighty 冠軍",
                 "hidden": false,
                 "id": "472a-05f3-1939-ee3e",
                 "type": "selectionEntryGroup",
                 "targetId": "f842-6e90-bc5a-80f1"
               }
             ],
-            "name": "遠征",
+            "name": "Crusade",
             "id": "1ef2-459d-8aee-980d",
             "hidden": false,
             "sortIndex": 1
@@ -5237,14 +5237,14 @@
         ],
         "type": "model",
         "import": true,
-        "name": "斯艾 阿爾奇維伊斯特 [傳奇]",
+        "name": "The Archivist [傳奇]",
         "hidden": false,
         "id": "11b2-8348-ae67-fa98"
       },
       {
         "costs": [
           {
-            "name": "分",
+            "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 140
           }
@@ -5260,13 +5260,13 @@
             "targetId": "e1ff-c0fa-2ca7-3466",
             "id": "6c21-3770-fb57-7883",
             "primary": false,
-            "name": "陣營：未結盟部隊"
+            "name": "陣營: 未結盟部隊"
           },
           {
             "targetId": "fc43-1a6a-44bd-4350",
             "id": "e76b-c24d-bd7b-9c68",
             "primary": false,
-            "name": "沃阿爾 of 姆阿爾特伊爾斯"
+            "name": "Wall of Martyrs"
           },
           {
             "targetId": "dbd4-63-af05-998",
@@ -5278,7 +5278,7 @@
             "targetId": "5c5f-5977-50b8-9ae1",
             "id": "b60e-940-ae3f-83c4",
             "primary": false,
-            "name": "維艾恩格伊恩克艾 武器 布阿特特爾伊"
+            "name": "Vengeance 武器 Battery"
           }
         ],
         "modifiers": [
@@ -5327,7 +5327,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. 入侵戰 (1000 分數上限)"
+                "childName": "1. 入侵戰 (1000 Point limit)"
               }
             ]
           }
@@ -5371,7 +5371,7 @@
                 "$text": ""
               }
             ],
-            "name": "維艾恩格伊恩克艾 武器 布阿特特爾伊",
+            "name": "Vengeance 武器 Battery",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -5380,12 +5380,12 @@
           {
             "characteristics": [
               {
-                "$text": "每當 此模型 makes a ranged attack that targets the closest 敵方單位:\n- 若該 attack is made with a Punisher gatling cannon and the target is not a MONSTER or VEHICLE, add 1 to the 命中擲骰.\n- 若該 attack is made with a battle cannon and the target is a MONSTER or VEHICLE, add 1 to the 命中擲骰.\n- 若該 attack is made with a quad-lascannon and the target can FLY, add 1 to the 命中擲骰.",
+                "$text": "每當 此模型 未譯名 一個 遠程 攻擊 該 目標為 該 未譯名 敵方單位:\n- 若該 攻擊 是 進行了 具有 一個 未譯名 未譯名 未譯名 且 該 目標 是 不 一個 怪獸 或 載具，+1 至 該 命中擲骰。\n- 若該 攻擊 是 進行了 具有 一個 戰鬥 未譯名 且 該 目標 是 一個 怪獸 或 載具，+1 至 該 命中擲骰。\n- 若該 攻擊 是 進行了 具有 一個 未譯名－未譯名 且 該 目標 可以 未譯名，+1 至 該 命中擲骰。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "奧特奧姆阿特艾德 德艾夫艾恩克艾斯",
+            "name": "Automated Defences",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -5427,7 +5427,7 @@
                 "targetId": "837d-5927-b2f1-d4b8",
                 "id": "8be9-d977-344a-ba5b",
                 "type": "selectionEntry",
-                "name": "戰鬥 炮",
+                "name": "Battle 炮",
                 "hidden": false
               },
               {
@@ -5444,7 +5444,7 @@
                 "targetId": "708f-a01b-953d-d59e",
                 "id": "2a22-a567-eadd-b4c5",
                 "type": "selectionEntry",
-                "name": "普烏恩伊什爾 格阿特爾伊恩格 炮",
+                "name": "Punisher gatling 炮",
                 "hidden": false
               },
               {
@@ -5461,11 +5461,11 @@
                 "targetId": "e55-db9a-8f67-b41f",
                 "id": "90e2-6517-c725-8535",
                 "type": "selectionEntry",
-                "name": "奎阿德 雷射炮",
+                "name": "Quad 雷射炮",
                 "hidden": false
               }
             ],
-            "name": "特烏爾艾特",
+            "name": "Turret",
             "hidden": false,
             "id": "e0ba-5bb3-c836-c3aa",
             "defaultSelectionEntryId": "8be9-d977-344a-ba5b"
@@ -5473,7 +5473,7 @@
         ],
         "infoLinks": [
           {
-            "name": "爾艾伊恩夫奧爾克艾德 克奧維爾",
+            "name": "Reinforced Cover",
             "hidden": false,
             "type": "profile",
             "id": "97f4-ffc1-61d9-10f6",
@@ -5514,14 +5514,14 @@
         ],
         "type": "model",
         "import": true,
-        "name": "維艾恩格伊恩克艾 武器 布阿特特爾伊 [傳奇]",
+        "name": "Vengeance 武器 Battery [傳奇]",
         "hidden": false,
         "id": "14fe-18ed-9c25-189c"
       },
       {
         "costs": [
           {
-            "name": "分",
+            "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 155
           }
@@ -5537,13 +5537,13 @@
             "targetId": "e1ff-c0fa-2ca7-3466",
             "id": "4684-2b81-abfd-1427",
             "primary": false,
-            "name": "陣營：未結盟部隊"
+            "name": "陣營: 未結盟部隊"
           },
           {
             "targetId": "ccb3-6116-5cf1-62b7",
             "id": "21f7-acae-70ee-347c",
             "primary": false,
-            "name": "維奧伊德 盾 格艾恩爾阿特奧爾"
+            "name": "Void Shield Generator"
           }
         ],
         "modifiers": [
@@ -5592,7 +5592,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. 入侵戰 (1000 分數上限)"
+                "childName": "1. 入侵戰 (1000 Point limit)"
               }
             ]
           }
@@ -5620,7 +5620,7 @@
             "targetId": "b68a-5ded-65ac-98c"
           },
           {
-            "name": "爾艾伊恩夫奧爾克艾德 克奧維爾",
+            "name": "Reinforced Cover",
             "hidden": false,
             "type": "profile",
             "id": "3764-ecad-8bb2-3008",
@@ -5631,12 +5631,12 @@
           {
             "characteristics": [
               {
-                "$text": "While a 友方模型 is 完全位於 6\" of this FORTIFICATION, 該模型 has a 4+ invulnerable save against ranged attacks.",
+                "$text": "當 一個 友方模型 是 完全 位於 6\" 的 此 未譯名，該模型 具有 一個 4+ 未譯名 豁免 對抗 遠程 攻擊。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "普爾奧傑艾克特艾德 維奧伊德 什伊艾爾德斯 (光環)",
+            "name": "Projected Void Shields (Aura)",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -5680,7 +5680,7 @@
                 "$text": "4+"
               }
             ],
-            "name": "維奧伊德 盾 格艾恩爾阿特奧爾",
+            "name": "Void Shield Generator",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -5700,14 +5700,14 @@
         ],
         "type": "model",
         "import": true,
-        "name": "維奧伊德 盾 格艾恩爾阿特奧爾 [傳奇]",
+        "name": "Void Shield Generator [傳奇]",
         "hidden": false,
         "id": "4501-646d-e705-9dca"
       },
       {
         "costs": [
           {
-            "name": "分",
+            "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 525
           }
@@ -5723,7 +5723,7 @@
             "targetId": "e1ff-c0fa-2ca7-3466",
             "id": "bbce-8a13-637d-ff5f",
             "primary": false,
-            "name": "陣營：未結盟部隊"
+            "name": "陣營: 未結盟部隊"
           },
           {
             "targetId": "5929-ad51-d006-e008",
@@ -5741,19 +5741,19 @@
             "targetId": "75e8-57c4-40e3-1817",
             "id": "d2bc-8e2c-f846-687f",
             "primary": false,
-            "name": "運輸工具"
+            "name": "Transport"
           },
           {
             "targetId": "fc43-1a6a-44bd-4350",
             "id": "bc1f-8274-4cc9-29d8",
             "primary": false,
-            "name": "沃阿爾 of 姆阿爾特伊爾斯"
+            "name": "Wall of Martyrs"
           },
           {
             "targetId": "cc17-b0ac-fdc9-4672",
             "id": "8586-a9e0-9641-14c2",
             "primary": false,
-            "name": "維奧爾特艾克斯 飛彈 斯特爾奧恩格普奧伊恩特"
+            "name": "Vortex 飛彈 Strongpoint"
           }
         ],
         "modifiers": [
@@ -5802,7 +5802,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. 入侵戰 (1000 分數上限)"
+                "childName": "1. 入侵戰 (1000 Point limit)"
               }
             ]
           }
@@ -5846,7 +5846,7 @@
                 "$text": ""
               }
             ],
-            "name": "維奧爾特艾克斯 飛彈 斯特爾奧恩格普奧伊恩特",
+            "name": "Vortex 飛彈 Strongpoint",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -5855,12 +5855,12 @@
           {
             "characteristics": [
               {
-                "$text": "This FORTIFICATION has a transport capacity of 30 INFANTRY models. Each model with a 耐傷 characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a 耐傷 characteristic of 4 or more.",
-                "name": "運輸容量",
+                "$text": "此 未譯名 具有 一個 未譯名 未譯名 的 30 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 未譯名 該 未譯名 的 2 模型。未譯名 不能 未譯名 未譯名－角色 模型 具有 一個 耐傷 屬性 的 4 或 更多。",
+                "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
             ],
-            "name": "維奧爾特艾克斯 飛彈 斯特爾奧恩格普奧伊恩特",
+            "name": "Vortex 飛彈 Strongpoint",
             "typeId": "74f8-5443-9d6d-1f1e",
             "typeName": "Transport",
             "hidden": false,
@@ -5869,12 +5869,12 @@
           {
             "characteristics": [
               {
-                "$text": "In your 射擊階段, 每當 you select a target for 此模型’s vortex missile battery, 擲一顆 D6 for the target unit and one D6 for every other 敵方單位 3 吋內 of the target unit. On a 4+, the unit being rolled for is struck by the vortex; after resolving all of 此模型’s attacks against the target unit, each unit struck by the vortex suffers D3 點致命傷.",
+                "$text": "於 你的 射擊 階段，每當 你 選擇 一個 目標 為 此模型’未譯名 未譯名 未譯名 未譯名，擲一顆 D6 為 該 目標 單位 且 一個 D6 為 未譯名 其他 敵方單位 位於 3\" 的 該 目標 單位。於 一個 4+，該單位 未譯名 未譯名 為 是 未譯名 由 該 未譯名； 之後 未譯名 所有 此模型’未譯名 攻擊 對抗 該 目標 單位，每個 單位 未譯名 由 該 未譯名 承受 D3 致命傷。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "維奧爾特艾克斯",
+            "name": "Vortex",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -5883,7 +5883,7 @@
         ],
         "infoLinks": [
           {
-            "name": "傷害d: 1-10 剩餘耐傷",
+            "name": "傷害d: 1-10 耐傷 Remaining",
             "hidden": false,
             "type": "profile",
             "id": "8100-71e8-cec5-50d9",
@@ -5918,14 +5918,14 @@
             "targetId": "b68a-5ded-65ac-98c"
           },
           {
-            "name": "爾烏夫 阿克克艾斯",
+            "name": "Roof Access",
             "hidden": false,
             "type": "profile",
             "id": "e28f-cc10-59c5-a13b",
             "targetId": "2e62-f126-df89-60d"
           },
           {
-            "name": "爾艾伊恩夫奧爾克艾德 克奧維爾",
+            "name": "Reinforced Cover",
             "hidden": false,
             "type": "profile",
             "id": "5d61-e637-477a-dd8b",
@@ -6012,12 +6012,12 @@
                     "typeId": "a354-c1c8-a745-f9e3"
                   },
                   {
-                    "$text": "爆炸, 毀滅傷害, 危險, 間接射擊",
+                    "$text": "爆炸，毀滅傷害，危險，間接射擊",
                     "name": "關鍵詞",
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ],
-                "name": "維奧爾特艾克斯 飛彈 布阿特特爾伊",
+                "name": "Vortex 飛彈 battery",
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
                 "hidden": false,
@@ -6074,7 +6074,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "維奧爾特艾克斯 飛彈 布阿特特爾伊",
+            "name": "Vortex 飛彈 battery",
             "hidden": false,
             "id": "8190-92a3-5cd1-26e8"
           }
@@ -6092,14 +6092,14 @@
         ],
         "type": "model",
         "import": true,
-        "name": "維奧爾特艾克斯 飛彈 斯特爾奧恩格普奧伊恩特 [傳奇]",
+        "name": "Vortex 飛彈 Strongpoint [傳奇]",
         "hidden": false,
         "id": "5c81-92c5-e20b-edf1"
       },
       {
         "costs": [
           {
-            "name": "分",
+            "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 180
           }
@@ -6115,13 +6115,13 @@
             "targetId": "e1ff-c0fa-2ca7-3466",
             "id": "a82-7e85-2f7a-2a97",
             "primary": false,
-            "name": "陣營：未結盟部隊"
+            "name": "陣營: 未結盟部隊"
           },
           {
             "targetId": "75e8-57c4-40e3-1817",
             "id": "ad2b-8024-1545-922e",
             "primary": false,
-            "name": "運輸工具"
+            "name": "Transport"
           },
           {
             "targetId": "dbd4-63-af05-998",
@@ -6133,13 +6133,13 @@
             "targetId": "fc43-1a6a-44bd-4350",
             "id": "3046-816e-f22e-d7c7",
             "primary": false,
-            "name": "沃阿爾 of 姆阿爾特伊爾斯"
+            "name": "Wall of Martyrs"
           },
           {
             "targetId": "4f49-11ac-ce05-5a31",
             "id": "267-1d75-28f3-87a0",
             "primary": false,
-            "name": "布烏恩克爾"
+            "name": "Bunker"
           }
         ],
         "modifiers": [
@@ -6188,7 +6188,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. 入侵戰 (1000 分數上限)"
+                "childName": "1. 入侵戰 (1000 Point limit)"
               }
             ]
           }
@@ -6232,7 +6232,7 @@
                 "$text": ""
               }
             ],
-            "name": "沃阿爾 of 姆阿爾特伊爾斯 布烏恩克爾",
+            "name": "Wall of Martyrs Bunker",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -6241,12 +6241,12 @@
           {
             "characteristics": [
               {
-                "$text": "每當 an attack is allocated to this 防禦工事, subtract 1 from the 傷害 characteristic of that attack.",
+                "$text": "每當 一個 攻擊 是 未譯名 至 此 防禦工事，-1 至 該 傷害 屬性 的 該 攻擊。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "伊恩維伊奧爾阿布爾艾 布阿斯辛",
+            "name": "Inviolable Bastion",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -6255,12 +6255,12 @@
           {
             "characteristics": [
               {
-                "$text": "This 防禦工事 has a transport capacity of 11 步兵 models. Each model with a 耐傷 characteristic of 3 or more takes up the space of 2 models. It cannot transport non-角色 models with a 耐傷 characteristic of 4 or more",
-                "name": "運輸容量",
+                "$text": "此 防禦工事 具有 一個 未譯名 未譯名 的 11 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 未譯名 該 未譯名 的 2 模型。未譯名 不能 未譯名 未譯名－未譯名角色 模型 具有 一個 耐傷 屬性 的 4 或 更多",
+                "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
             ],
-            "name": "沃阿爾 of 姆阿爾特伊爾斯 布烏恩克爾",
+            "name": "Wall of Martyrs Bunker",
             "typeId": "74f8-5443-9d6d-1f1e",
             "typeName": "Transport",
             "hidden": false,
@@ -6272,7 +6272,7 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "克奧姆姆斯 阿恩特艾恩恩阿",
+                "name": "Comms antenna",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "e8ef-45f3-f3c2-5c99",
@@ -6280,7 +6280,7 @@
               },
               {
                 "import": true,
-                "name": "伊克阿爾烏斯 雷射炮",
+                "name": "Icarus 雷射炮",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "1999-209e-c01e-b74d",
@@ -6288,7 +6288,7 @@
               },
               {
                 "import": true,
-                "name": "奎阿德－格烏恩",
+                "name": "Quad－gun",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "f7aa-cc26-fbca-79c2",
@@ -6305,7 +6305,7 @@
                 "id": "ca20-66ee-5b18-35a4"
               }
             ],
-            "name": "武器 阿爾阿伊",
+            "name": "武器 Array",
             "hidden": false,
             "id": "44b8-6fae-e8ac-c347"
           }
@@ -6329,14 +6329,14 @@
             "targetId": "241c-8bed-ca28-f77",
             "id": "5aa9-30a4-5505-4ad6",
             "type": "profile",
-            "name": "爾艾伊恩夫奧爾克艾德 克奧維爾",
+            "name": "Reinforced Cover",
             "hidden": false
           },
           {
             "targetId": "2e62-f126-df89-60d",
             "id": "ab63-c935-c4d0-b17f",
             "type": "profile",
-            "name": "爾烏夫 阿克克艾斯",
+            "name": "Roof Access",
             "hidden": false
           },
           {
@@ -6374,14 +6374,14 @@
         ],
         "type": "model",
         "import": true,
-        "name": "沃阿爾 of 姆阿爾特伊爾斯 布烏恩克爾 [傳奇]",
+        "name": "Wall of Martyrs Bunker [傳奇]",
         "hidden": false,
         "id": "9698-2e0-15ac-1193"
       },
       {
         "costs": [
           {
-            "name": "分",
+            "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 140
           }
@@ -6397,19 +6397,19 @@
             "targetId": "e1ff-c0fa-2ca7-3466",
             "id": "de3b-d738-3d7d-ddd6",
             "primary": false,
-            "name": "陣營：未結盟部隊"
+            "name": "陣營: 未結盟部隊"
           },
           {
             "targetId": "fc43-1a6a-44bd-4350",
             "id": "f67d-9ef3-dfae-ed43",
             "primary": false,
-            "name": "沃阿爾 of 姆阿爾特伊爾斯"
+            "name": "Wall of Martyrs"
           },
           {
             "targetId": "5d7b-c048-8c24-5043",
             "id": "75ba-d9ae-2cd8-28f6",
             "primary": false,
-            "name": "德艾夫艾恩克艾 艾姆普爾阿克艾姆艾恩特"
+            "name": "Defence Emplacement"
           }
         ],
         "modifiers": [
@@ -6458,7 +6458,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. 入侵戰 (1000 分數上限)"
+                "childName": "1. 入侵戰 (1000 Point limit)"
               }
             ]
           }
@@ -6468,7 +6468,7 @@
             "targetId": "7669-c371-7ee3-ce0f",
             "id": "195f-ca2a-89c9-33e7",
             "type": "profile",
-            "name": "特爾艾恩克赫 爾伊恩艾",
+            "name": "Trench Line",
             "hidden": false
           },
           {
@@ -6479,7 +6479,7 @@
             "hidden": false
           },
           {
-            "name": "德艾夫艾恩克艾 爾伊恩艾",
+            "name": "Defence Line",
             "hidden": false,
             "type": "profile",
             "id": "8698-5901-84cb-a7b9",
@@ -6489,7 +6489,7 @@
             "targetId": "241c-8bed-ca28-f77",
             "id": "30a-121b-6f3e-bb44",
             "type": "profile",
-            "name": "爾艾伊恩夫奧爾克艾德 克奧維爾",
+            "name": "Reinforced Cover",
             "hidden": false
           }
         ],
@@ -6532,7 +6532,7 @@
                 "$text": ""
               }
             ],
-            "name": "沃阿爾 of 姆阿爾特伊爾斯 德艾夫艾恩克艾 艾姆普爾阿克艾姆艾恩特",
+            "name": "Wall of Martyrs Defence Emplacement",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -6552,14 +6552,14 @@
         ],
         "type": "model",
         "import": true,
-        "name": "沃阿爾 of 姆阿爾特伊爾斯 德艾夫艾恩克艾 艾姆普爾阿克艾姆艾恩特 [傳奇]",
+        "name": "Wall of Martyrs Defence Emplacement [傳奇]",
         "hidden": false,
         "id": "8419-8133-33f3-e0a4"
       },
       {
         "costs": [
           {
-            "name": "分",
+            "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 140
           }
@@ -6575,19 +6575,19 @@
             "targetId": "e1ff-c0fa-2ca7-3466",
             "id": "e2e5-878c-c561-39cc",
             "primary": false,
-            "name": "陣營：未結盟部隊"
+            "name": "陣營: 未結盟部隊"
           },
           {
             "targetId": "fc43-1a6a-44bd-4350",
             "id": "7aa7-7fe9-1c1b-301c",
             "primary": false,
-            "name": "沃阿爾 of 姆阿爾特伊爾斯"
+            "name": "Wall of Martyrs"
           },
           {
             "targetId": "5207-4f15-f3e-c6ff",
             "id": "d357-8f2f-f2f8-bf24",
             "primary": false,
-            "name": "德艾夫艾恩克艾 爾伊恩艾"
+            "name": "Defence Line"
           }
         ],
         "modifiers": [
@@ -6636,7 +6636,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. 入侵戰 (1000 分數上限)"
+                "childName": "1. 入侵戰 (1000 Point limit)"
               }
             ]
           }
@@ -6680,7 +6680,7 @@
                 "$text": ""
               }
             ],
-            "name": "沃阿爾 of 姆阿爾特伊爾斯 德艾夫艾恩克艾 爾伊恩艾",
+            "name": "Wall of Martyrs Defence Line",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -6692,7 +6692,7 @@
             "targetId": "241c-8bed-ca28-f77",
             "id": "9bca-724f-5dea-e32a",
             "type": "profile",
-            "name": "爾艾伊恩夫奧爾克艾德 克奧維爾",
+            "name": "Reinforced Cover",
             "hidden": false
           },
           {
@@ -6703,7 +6703,7 @@
             "hidden": false
           },
           {
-            "name": "德艾夫艾恩克艾 爾伊恩艾",
+            "name": "Defence Line",
             "hidden": false,
             "type": "profile",
             "id": "fe35-2586-346b-a3",
@@ -6713,7 +6713,7 @@
             "targetId": "7669-c371-7ee3-ce0f",
             "id": "27b6-83c1-965a-b7a5",
             "type": "profile",
-            "name": "特爾艾恩克赫 爾伊恩艾",
+            "name": "Trench Line",
             "hidden": false
           }
         ],
@@ -6730,7 +6730,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "沃阿爾 of 姆阿爾特伊爾斯 德艾夫艾恩克艾 爾伊恩艾 [傳奇]",
+        "name": "Wall of Martyrs Defence Line [傳奇]",
         "hidden": false,
         "id": "64b7-a2df-416a-9963"
       },
@@ -6739,12 +6739,12 @@
           {
             "characteristics": [
               {
-                "$text": "In your 指揮階段, if one or more 角色 models are embarked within this 防禦工事, 擲一顆 D6: 結果為 5+ 時, you gain 1CP",
+                "$text": "於 你的 指揮 階段，若 一個 或 更多 角色 模型 是 未譯名 位於 此 防禦工事，擲一顆 D6: 於 一個 5+，你 未譯名 1CP",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "克奧姆姆斯 阿恩特艾恩恩阿",
+            "name": "Comms Antenna",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -6753,7 +6753,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "克奧姆姆斯 阿恩特艾恩恩阿",
+        "name": "Comms antenna",
         "hidden": false,
         "id": "4985-9124-1e83-10f0"
       },
@@ -6797,7 +6797,7 @@
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
-            "name": "伊克阿爾烏斯 雷射炮",
+            "name": "Icarus 雷射炮",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "Ranged Weapons",
             "hidden": false,
@@ -6806,7 +6806,7 @@
         ],
         "infoLinks": [
           {
-            "name": "針對",
+            "name": "Anti",
             "hidden": false,
             "type": "rule",
             "id": "303c-83f6-5ba9-3d68",
@@ -6815,7 +6815,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "伊克阿爾烏斯 雷射炮",
+        "name": "Icarus 雷射炮",
         "hidden": false,
         "id": "72e7-16-6f4c-ecbd"
       },
@@ -6854,12 +6854,12 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "針對飛行 3+, 雙聯",
+                "$text": "針對飛行 3+，雙聯",
                 "name": "關鍵詞",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
-            "name": "奎阿德－格烏恩",
+            "name": "Quad－gun",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "Ranged Weapons",
             "hidden": false,
@@ -6875,7 +6875,7 @@
             "targetId": "cf93-ad4d-2f08-a79d"
           },
           {
-            "name": "針對",
+            "name": "Anti",
             "hidden": false,
             "type": "rule",
             "id": "1a3a-9d14-584a-3b5a",
@@ -6884,7 +6884,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "奎阿德－格烏恩",
+        "name": "Quad－gun",
         "hidden": false,
         "id": "aece-7cae-ceb6-4079"
       },
@@ -6985,12 +6985,12 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "雙聯, 針對飛行 2+",
+                "$text": "雙聯，針對飛行 2+",
                 "name": "關鍵詞",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
-            "name": "奎阿德 雷射炮",
+            "name": "Quad 雷射炮",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "Ranged Weapons",
             "hidden": false,
@@ -7006,7 +7006,7 @@
             "targetId": "cf93-ad4d-2f08-a79d"
           },
           {
-            "name": "針對",
+            "name": "Anti",
             "hidden": false,
             "type": "rule",
             "id": "ca10-d873-c93a-8113",
@@ -7015,7 +7015,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "奎阿德 雷射炮",
+        "name": "Quad 雷射炮",
         "hidden": false,
         "id": "e55-db9a-8f67-b41f"
       },
@@ -7059,7 +7059,7 @@
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
-            "name": "普烏恩伊什爾 格阿特爾伊恩格 炮",
+            "name": "Punisher gatling 炮",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "Ranged Weapons",
             "hidden": false,
@@ -7068,7 +7068,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "普烏恩伊什爾 格阿特爾伊恩格 炮",
+        "name": "Punisher gatling 炮",
         "hidden": false,
         "id": "708f-a01b-953d-d59e"
       },
@@ -7112,7 +7112,7 @@
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
-            "name": "戰鬥 炮",
+            "name": "Battle 炮",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "Ranged Weapons",
             "hidden": false,
@@ -7130,7 +7130,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "戰鬥 炮",
+        "name": "Battle 炮",
         "hidden": false,
         "id": "837d-5927-b2f1-d4b8"
       },
@@ -7231,12 +7231,12 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "連擊 1, 雙聯",
+                "$text": "連擊 1，雙聯",
                 "name": "關鍵詞",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
-            "name": "雙聯重型爆彈槍",
+            "name": "雙聯 重型爆彈槍",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "Ranged Weapons",
             "hidden": false,
@@ -7261,7 +7261,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "雙聯重型爆彈槍",
+        "name": "雙聯 重型爆彈槍",
         "hidden": false,
         "id": "9c32-9f63-8d26-8ec9"
       },
@@ -7300,12 +7300,12 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "無視掩體, 洪流, 雙聯",
+                "$text": "無視掩體，洪流，雙聯",
                 "name": "關鍵詞",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
-            "name": "雙聯重型火焰噴射器",
+            "name": "雙聯 重型火焰噴射器",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "Ranged Weapons",
             "hidden": false,
@@ -7337,7 +7337,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "雙聯重型火焰噴射器",
+        "name": "雙聯 重型火焰噴射器",
         "hidden": false,
         "id": "ad83-5e8f-6f3f-37b2"
       },
@@ -7460,7 +7460,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. 入侵戰 (1000 分數上限)"
+                "childName": "1. 入侵戰 (1000 Point limit)"
               }
             ]
           }
@@ -7504,7 +7504,7 @@
                 "$text": ""
               }
             ],
-            "name": "伊姆普爾伊阿爾 夫奧爾特爾艾斯 沃阿爾斯",
+            "name": "Imperial Fortress Walls",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -7513,12 +7513,12 @@
           {
             "characteristics": [
               {
-                "$text": "While 此模型 has 1-30 剩餘耐傷, 每當 此模型 進行一次攻擊, subtract 1 from the 命中擲骰.",
+                "$text": "當 此模型 具有 1-30 耐傷 未譯名，每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "傷害d: 1-30 剩餘耐傷",
+            "name": "傷害d: 1-30 耐傷 Remaining",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -7527,12 +7527,12 @@
           {
             "characteristics": [
               {
-                "$text": "When this FORTIFICATION is set up, all parts of it must be set up in contact with another part.",
+                "$text": "未譯名 此 未譯名 是 設為 未譯名，所有 未譯名 的 未譯名 必須 被 設為 未譯名 於 未譯名 具有 未譯名 未譯名。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "夫奧爾特爾艾斯",
+            "name": "Fortress",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -7541,12 +7541,12 @@
           {
             "characteristics": [
               {
-                "$text": "This FORTIFICATION has a transport capacity of 65 INFANTRY models. Each model with a 耐傷 characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a 耐傷 characteristic of 4 or more.",
-                "name": "運輸容量",
+                "$text": "此 未譯名 具有 一個 未譯名 未譯名 的 65 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 未譯名 該 未譯名 的 2 模型。未譯名 不能 未譯名 未譯名－角色 模型 具有 一個 耐傷 屬性 的 4 或 更多。",
+                "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
             ],
-            "name": "伊姆普爾伊阿爾 夫奧爾特爾艾斯 沃阿爾斯",
+            "name": "Imperial Fortress Walls",
             "typeId": "74f8-5443-9d6d-1f1e",
             "typeName": "Transport",
             "hidden": false,
@@ -7583,14 +7583,14 @@
             "targetId": "b68a-5ded-65ac-98c"
           },
           {
-            "name": "布阿特特爾艾姆艾恩特斯",
+            "name": "Battlements",
             "hidden": false,
             "type": "profile",
             "id": "86f9-578e-f3bb-20d6",
             "targetId": "f644-db15-d1f0-3c48"
           },
           {
-            "name": "爾艾伊恩夫奧爾克艾德 克奧維爾",
+            "name": "Reinforced Cover",
             "hidden": false,
             "type": "profile",
             "id": "b6b9-6436-a9b0-a9b",
@@ -7604,7 +7604,7 @@
             "targetId": "fa4e-5ac8-11a6-78d2"
           },
           {
-            "name": "姆伊格赫特伊 艾德伊夫伊克艾",
+            "name": "Mighty Edifice",
             "hidden": false,
             "type": "profile",
             "id": "5ddd-7bf4-ecd5-f27c",
@@ -7626,7 +7626,7 @@
                   }
                 ],
                 "import": true,
-                "name": "雙聯重型爆彈槍",
+                "name": "雙聯 重型爆彈槍",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "76e0-53b6-1a88-dee4",
@@ -7669,7 +7669,7 @@
                 "id": "9134-e641-a370-aec0"
               }
             ],
-            "name": "特沃伊恩 重型爆彈槍s",
+            "name": "雙聯 重型爆彈槍s",
             "hidden": false,
             "id": "65b8-ef30-87fb-c746",
             "defaultSelectionEntryId": "76e0-53b6-1a88-dee4"
@@ -7706,7 +7706,7 @@
                   }
                 ],
                 "import": true,
-                "name": "雙聯重型爆彈槍",
+                "name": "雙聯 重型爆彈槍",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "8c01-8811-e567-fda8",
@@ -7723,7 +7723,7 @@
                 "id": "147b-ad7e-7ce1-9318"
               }
             ],
-            "name": "特奧爾 斯艾克辛斯",
+            "name": "Tower Sections",
             "hidden": false,
             "id": "8ad5-d201-b2aa-cdc6"
           }
@@ -7769,7 +7769,7 @@
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ],
-                "name": "特沃伊恩 爾奧恩格－布阿爾艾爾艾德 自動炮",
+                "name": "雙聯 long－barrelled 自動炮",
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
                 "hidden": false,
@@ -7805,7 +7805,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "特沃伊恩 爾奧恩格－布阿爾艾爾艾德 自動炮",
+            "name": "雙聯 long－barrelled 自動炮",
             "hidden": false,
             "id": "412e-da68-5020-dd05"
           }
@@ -7821,7 +7821,7 @@
             "targetId": "e1ff-c0fa-2ca7-3466",
             "id": "d90c-bb96-5b17-9a75",
             "primary": false,
-            "name": "陣營：未結盟部隊"
+            "name": "陣營: 未結盟部隊"
           },
           {
             "targetId": "5929-ad51-d006-e008",
@@ -7845,13 +7845,13 @@
             "targetId": "75e8-57c4-40e3-1817",
             "id": "1d57-d2-60ce-37b2",
             "primary": false,
-            "name": "運輸工具"
+            "name": "Transport"
           },
           {
             "targetId": "a7ed-6216-ee97-5b7a",
             "id": "41-30d2-a088-1b80",
             "primary": false,
-            "name": "伊姆普爾伊阿爾 夫奧爾特爾艾斯 沃阿爾斯"
+            "name": "Imperial Fortress Walls"
           }
         ],
         "constraints": [
@@ -7867,7 +7867,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "伊姆普爾伊阿爾 夫奧爾特爾艾斯 沃阿爾斯 [傳奇]",
+        "name": "Imperial Fortress Walls [傳奇]",
         "hidden": false,
         "id": "f6f8-8759-3282-2ab"
       },
@@ -7911,7 +7911,7 @@
                 "$text": ""
               }
             ],
-            "name": "克阿斯特艾爾烏姆 斯特爾奧恩格赫奧爾德",
+            "name": "Castellum Stronghold",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -7920,12 +7920,12 @@
           {
             "characteristics": [
               {
-                "$text": "Friendly INFANTRY models can be set up or end any type of move on top of the roof section of this FORTIFICATION. Any 友方模型 can be set up or end any type of move on the ramp or platform section of this FORTIFICATION.",
+                "$text": "友方 步兵 模型 可以 被 設為 未譯名 或 結束 任何 未譯名 的 移動 於 未譯名 的 該 未譯名 未譯名 的 此 未譯名。任何 友方模型 可以 被 設為 未譯名 或 結束 任何 未譯名 的 移動 於 該 未譯名 或 未譯名 未譯名 的 此 未譯名。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "斯特爾奧恩格赫奧爾德",
+            "name": "Stronghold",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -7934,12 +7934,12 @@
           {
             "characteristics": [
               {
-                "$text": "While 此模型 has 1-15 剩餘耐傷, 每當 此模型 進行一次攻擊, subtract 1 from the 命中擲骰.",
+                "$text": "當 此模型 具有 1-15 耐傷 未譯名，每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "傷害d: 1-15 剩餘耐傷",
+            "name": "傷害d: 1-15 耐傷 Remaining",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -7948,12 +7948,12 @@
           {
             "characteristics": [
               {
-                "$text": "This FORTIFICATION has a transport capacity of 60 INFANTRY models. Each model with a 耐傷 characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a 耐傷 characteristic of 4 or more.",
-                "name": "運輸容量",
+                "$text": "此 未譯名 具有 一個 未譯名 未譯名 的 60 步兵 模型。每個 模型 具有 一個 耐傷 屬性 的 3 或 更多 受到 未譯名 該 未譯名 的 2 模型。未譯名 不能 未譯名 未譯名－角色 模型 具有 一個 耐傷 屬性 的 4 或 更多。",
+                "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
             ],
-            "name": "克阿斯特艾爾烏姆 斯特爾奧恩格赫奧爾德",
+            "name": "Castellum Stronghold",
             "typeId": "74f8-5443-9d6d-1f1e",
             "typeName": "Transport",
             "hidden": false,
@@ -7965,7 +7965,7 @@
             "targetId": "10ec-c57f-1acc-6db7",
             "id": "81c8-4d31-26e1-a2cd",
             "primary": false,
-            "name": "克阿斯特艾爾烏姆 斯特爾奧恩格赫奧爾德"
+            "name": "Castellum Stronghold"
           },
           {
             "targetId": "19d7-9c74-2140-5851",
@@ -7989,13 +7989,13 @@
             "targetId": "75e8-57c4-40e3-1817",
             "id": "c33b-1e88-dc31-718e",
             "primary": false,
-            "name": "運輸工具"
+            "name": "Transport"
           },
           {
             "targetId": "e1ff-c0fa-2ca7-3466",
             "id": "1b1f-1193-d278-4649",
             "primary": false,
-            "name": "陣營：未結盟部隊"
+            "name": "陣營: 未結盟部隊"
           }
         ],
         "modifiers": [
@@ -8054,14 +8054,14 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. 入侵戰 (1000 分數上限)"
+                "childName": "1. 入侵戰 (1000 Point limit)"
               }
             ]
           }
         ],
         "infoLinks": [
           {
-            "name": "爾艾伊恩夫奧爾克艾德 克奧維爾",
+            "name": "Reinforced Cover",
             "hidden": false,
             "type": "profile",
             "id": "1120-76-86a-723",
@@ -8075,7 +8075,7 @@
             "targetId": "fa4e-5ac8-11a6-78d2"
           },
           {
-            "name": "姆伊格赫特伊 艾德伊夫伊克艾",
+            "name": "Mighty Edifice",
             "hidden": false,
             "type": "profile",
             "id": "3851-e670-27a6-adad",
@@ -8173,7 +8173,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "克阿斯特艾爾烏姆 戰鬥 炮",
+                    "name": "Castellum battle 炮",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "Ranged Weapons",
                     "hidden": false,
@@ -8191,7 +8191,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "克阿斯特艾爾烏姆 戰鬥 炮",
+                "name": "Castellum battle 炮",
                 "hidden": false,
                 "id": "9c9d-e47b-7f4-92cf"
               },
@@ -8240,12 +8240,12 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "爆炸, 間接射擊",
+                        "$text": "爆炸，間接射擊",
                         "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "沃赫伊爾沃伊恩德 克阿斯特艾爾阿恩 發射器",
+                    "name": "Whirlwind castellan 發射器",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "Ranged Weapons",
                     "hidden": false,
@@ -8270,7 +8270,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "沃赫伊爾沃伊恩德 克阿斯特艾爾阿恩 發射器",
+                "name": "Whirlwind castellan 發射器",
                 "hidden": false,
                 "id": "74fa-24db-eb7d-f115"
               },
@@ -8319,12 +8319,12 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "針對飛行 2+, 雙聯",
+                        "$text": "針對飛行 2+，雙聯",
                         "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "克阿斯特艾爾烏姆 伊克阿爾烏斯 奎阿德 雷射炮",
+                    "name": "Castellum Icarus quad 雷射炮",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "Ranged Weapons",
                     "hidden": false,
@@ -8340,7 +8340,7 @@
                     "targetId": "cf93-ad4d-2f08-a79d"
                   },
                   {
-                    "name": "針對",
+                    "name": "Anti",
                     "hidden": false,
                     "type": "rule",
                     "id": "e2db-2712-978-c4ae",
@@ -8349,7 +8349,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "克阿斯特艾爾烏姆 伊克阿爾烏斯 奎阿德 雷射炮",
+                "name": "Castellum Icarus quad 雷射炮",
                 "hidden": false,
                 "id": "e26a-8cf8-9d1d-7917"
               }
@@ -8403,7 +8403,7 @@
                   }
                 ],
                 "import": true,
-                "name": "克奧姆姆斯 阿恩特艾恩恩阿",
+                "name": "Comms antenna",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "7487-e709-816d-7188",
@@ -8421,7 +8421,7 @@
                   }
                 ],
                 "import": true,
-                "name": "雙聯重型火焰噴射器",
+                "name": "雙聯 重型火焰噴射器",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "f37e-5b13-3834-71b5",
@@ -8439,7 +8439,7 @@
                   }
                 ],
                 "import": true,
-                "name": "雙聯重型爆彈槍",
+                "name": "雙聯 重型爆彈槍",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "c93b-fcc4-aa3b-f61f",
@@ -8457,7 +8457,7 @@
                   }
                 ],
                 "import": true,
-                "name": "克阿斯特艾爾烏姆 艾爾 德艾夫艾恩克艾 姆伊斯伊爾艾斯",
+                "name": "Castellum air defence missiles",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "88e2-7b4-38a2-7d99",
@@ -8475,14 +8475,14 @@
                   }
                 ],
                 "import": true,
-                "name": "特沃伊恩 阿斯奧爾特 炮",
+                "name": "雙聯 assault 炮",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "9482-dff5-c004-9a94",
                 "targetId": "f0ef-58b5-5e72-228d"
               }
             ],
-            "name": "姆艾恩 特烏爾艾特斯",
+            "name": "Main Turrets",
             "hidden": false,
             "id": "63b4-a4b0-6cb-8f4d"
           },
@@ -8519,7 +8519,7 @@
                   }
                 ],
                 "import": true,
-                "name": "克阿斯特艾爾烏姆 艾爾 德艾夫艾恩克艾 姆伊斯伊爾艾斯",
+                "name": "Castellum air defence missiles",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "8b69-a121-1e49-1595",
@@ -8573,7 +8573,7 @@
                   }
                 ],
                 "import": true,
-                "name": "雙聯重型火焰噴射器",
+                "name": "雙聯 重型火焰噴射器",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "53de-5129-8401-4af6",
@@ -8600,7 +8600,7 @@
                   }
                 ],
                 "import": true,
-                "name": "雙聯重型爆彈槍",
+                "name": "雙聯 重型爆彈槍",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "c8ac-946d-32ef-f91a",
@@ -8654,14 +8654,14 @@
                   }
                 ],
                 "import": true,
-                "name": "特沃伊恩 阿斯奧爾特 炮",
+                "name": "雙聯 assault 炮",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "25a-bbfe-8c02-b52d",
                 "targetId": "f0ef-58b5-5e72-228d"
               }
             ],
-            "name": "斯艾克奧恩德阿爾伊 特烏爾艾特斯",
+            "name": "Secondary Turrets",
             "hidden": false,
             "id": "b2a1-cd28-8aaf-f0c"
           }
@@ -8679,7 +8679,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "克阿斯特艾爾烏姆 斯特爾奧恩格赫奧爾德 [傳奇]",
+        "name": "Castellum Stronghold [傳奇]",
         "hidden": false,
         "id": "20c8-d2-586d-623"
       },
@@ -8723,7 +8723,7 @@
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
-            "name": "克阿斯特艾爾烏姆 艾爾 德艾夫艾恩克艾 姆伊斯伊爾艾斯",
+            "name": "Castellum air defence missiles",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "Ranged Weapons",
             "hidden": false,
@@ -8732,7 +8732,7 @@
         ],
         "infoLinks": [
           {
-            "name": "針對",
+            "name": "Anti",
             "hidden": false,
             "type": "rule",
             "id": "ca3d-33b6-5384-8c13",
@@ -8741,7 +8741,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "克阿斯特艾爾烏姆 艾爾 德艾夫艾恩克艾 姆伊斯伊爾艾斯",
+        "name": "Castellum air defence missiles",
         "hidden": false,
         "id": "454f-4f6a-1859-dbbf"
       },
@@ -8780,12 +8780,12 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "毀滅傷害, 雙聯",
+                "$text": "毀滅傷害，雙聯",
                 "name": "關鍵詞",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
-            "name": "特沃伊恩 阿斯奧爾特 炮",
+            "name": "雙聯 assault 炮",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "Ranged Weapons",
             "hidden": false,
@@ -8810,7 +8810,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "特沃伊恩 阿斯奧爾特 炮",
+        "name": "雙聯 assault 炮",
         "hidden": false,
         "id": "f0ef-58b5-5e72-228d"
       },
@@ -8854,7 +8854,7 @@
                 "$text": ""
               }
             ],
-            "name": "斯艾恩特爾伊 格烏恩",
+            "name": "Sentry Gun",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -8863,12 +8863,12 @@
           {
             "characteristics": [
               {
-                "$text": "In the Create the Battlefield and Place Objective Markers step, set 此模型 up in one of the Sentry Gun positions (marked D1 on the mission map).",
+                "$text": "於 該 未譯名 該 未譯名 且 未譯名 目標 標記 未譯名，設為 此模型 未譯名 於 一個 的 該 未譯名 未譯名 未譯名 （未譯名 D1 於 該 未譯名 未譯名）。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "德艾夫艾恩斯伊維艾 艾姆普爾阿克艾姆艾恩特",
+            "name": "Defensive Emplacement",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -8877,32 +8877,32 @@
         ],
         "costs": [
           {
-            "name": "分",
+            "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 30
           },
           {
-            "name": "遠征點數",
+            "name": "Crusade Points",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
           {
-            "name": "遠征：戰鬥榮譽",
+            "name": "Crusade: Battle Honours",
             "typeId": "75bb-ded1-c86d-bdf0",
             "value": 0
           },
           {
-            "name": "遠征：經驗值",
+            "name": "Crusade: Experience",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
           {
-            "name": "遠征：武器改造",
+            "name": "Crusade: 武器 Modifications",
             "typeId": "716d-91b7-d55a-1022",
             "value": 0
           },
           {
-            "name": "黑石碎片",
+            "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
             "value": 0
           }
@@ -8916,21 +8916,21 @@
             "primary": false
           },
           {
-            "name": "陣營：未結盟部隊",
+            "name": "陣營: 未結盟部隊",
             "hidden": false,
             "id": "1c90-33ba-18f5-59b1",
             "targetId": "e1ff-c0fa-2ca7-3466",
             "primary": false
           },
           {
-            "name": "斯艾恩特爾伊 格烏恩",
+            "name": "Sentry Gun",
             "hidden": false,
             "id": "2c39-36d3-454f-e007",
             "targetId": "5b23-6112-24a0-5ba5",
             "primary": false
           },
           {
-            "name": "阿爾伊艾德 烏恩伊特斯",
+            "name": "Allied 單位",
             "hidden": false,
             "id": "65ca-78da-ffb1-2a6b",
             "targetId": "887b-ab87-92a2-20f5",
@@ -9012,12 +9012,12 @@
                     "typeId": "a354-c1c8-a745-f9e3"
                   },
                   {
-                    "$text": "重型, 連擊 1, 雙聯",
+                    "$text": "重型，連擊 1，雙聯",
                     "name": "關鍵詞",
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ],
-                "name": "雙聯重型爆彈槍",
+                "name": "雙聯 重型爆彈槍",
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
                 "hidden": false,
@@ -9049,14 +9049,14 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "雙聯重型爆彈槍",
+            "name": "雙聯 重型爆彈槍",
             "hidden": false,
             "id": "7fed-ef47-7301-6705"
           }
         ],
         "type": "model",
         "import": true,
-        "name": "斯艾恩特爾伊 格烏恩",
+        "name": "Sentry Gun",
         "hidden": false,
         "id": "983d-b163-dc9f-3c54"
       },
@@ -9065,12 +9065,12 @@
           {
             "characteristics": [
               {
-                "$text": "每當 a model 你軍隊中的 makes a ranged attack that targets an 敵方單位 that is 9 吋內 of and visible to any Searchlights 你軍隊中的, 重擲 a Hit of 1 and, if the model making that attack is a Sentry Gun, add 1 to the 命中擲骰 as well.",
+                "$text": "每當 一個模型 你軍隊中的 未譯名 一個 遠程 攻擊 該 目標為 一個 敵方單位 該 位於 9\" 的 且 可見 至 任何 未譯名 你軍隊中的，重－擲骰 一個 命中 的 1 且，若 該模型 進行 該 攻擊 是 一個 未譯名 未譯名，+1 至 該 命中擲骰 作為 未譯名。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "艾恩艾姆伊 斯普奧特特艾德",
+            "name": "Enemy Spotted",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -9079,12 +9079,12 @@
           {
             "characteristics": [
               {
-                "$text": "This model is a terrain feature and counts as a Wall.",
+                "$text": "此模型 是 一個 未譯名 未譯名 且 未譯名 作為 一個 未譯名。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "沃阿爾",
+            "name": "Wall",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -9093,12 +9093,12 @@
           {
             "characteristics": [
               {
-                "$text": "In the Create the Battlefield and Place Objective Markers step, set this terrain feature up in one of the Searchlight positions (marked D2 on the mission map) that does not already contain a Searchlight.",
+                "$text": "於 該 未譯名 該 未譯名 且 未譯名 目標 標記 未譯名，設為 此 未譯名 未譯名 未譯名 於 一個 的 該 未譯名 未譯名 （未譯名 D2 於 該 未譯名 未譯名）該 未譯名 不 未譯名 未譯名 一個 未譯名。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "克阿姆爾阿 恩艾特沃奧爾克",
+            "name": "Camera Network",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -9107,39 +9107,39 @@
         ],
         "costs": [
           {
-            "name": "分",
+            "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 10
           },
           {
-            "name": "遠征點數",
+            "name": "Crusade Points",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
           {
-            "name": "遠征：戰鬥榮譽",
+            "name": "Crusade: Battle Honours",
             "typeId": "75bb-ded1-c86d-bdf0",
             "value": 0
           },
           {
-            "name": "遠征：經驗值",
+            "name": "Crusade: Experience",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
           {
-            "name": "遠征：武器改造",
+            "name": "Crusade: 武器 Modifications",
             "typeId": "716d-91b7-d55a-1022",
             "value": 0
           },
           {
-            "name": "黑石碎片",
+            "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
             "value": 0
           }
         ],
         "categoryLinks": [
           {
-            "name": "阿爾伊艾德 烏恩伊特斯",
+            "name": "Allied 單位",
             "hidden": false,
             "id": "7941-6aa3-56f9-4a99",
             "targetId": "887b-ab87-92a2-20f5",
@@ -9167,7 +9167,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "斯伊爾克赫爾伊格赫特",
+        "name": "Searchlight",
         "hidden": false,
         "id": "61f3-ff33-ec7a-3546"
       },
@@ -9211,7 +9211,7 @@
                 "$text": ""
               }
             ],
-            "name": "布爾伊奇恩格 爾奧布奧特",
+            "name": "Breaching Robot",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -9220,12 +9220,12 @@
           {
             "characteristics": [
               {
-                "$text": "This model cannot attempt to operate Hatchways and cannot perform Tactical Manoeuvres.",
+                "$text": "此模型 不能 未譯名 至 未譯名 未譯名 且 不能 未譯名 未譯名 未譯名。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "爾伊姆伊特艾德 爾奧阿德歐特",
+            "name": "Limited Loadout",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -9234,12 +9234,12 @@
           {
             "characteristics": [
               {
-                "$text": "In the Deploy Armies step, when setting up a unit 你軍隊中的 within an Entry Zone, you can set 此模型 up alongside 該單位 as if it was part of it, using the same Entry Zone.",
+                "$text": "於 該 未譯名 軍隊 未譯名，未譯名 未譯名 未譯名 一個單位 你軍隊中的 位於 一個 未譯名 未譯名，你 可以 設為 此模型 未譯名 未譯名 該單位 作為 若 未譯名 未譯名 未譯名 的 未譯名，未譯名 該 未譯名 未譯名 未譯名。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "突擊 爾奧布奧特",
+            "name": "突擊 Robot",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -9248,32 +9248,32 @@
         ],
         "costs": [
           {
-            "name": "分",
+            "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 35
           },
           {
-            "name": "遠征點數",
+            "name": "Crusade Points",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
           {
-            "name": "遠征：戰鬥榮譽",
+            "name": "Crusade: Battle Honours",
             "typeId": "75bb-ded1-c86d-bdf0",
             "value": 0
           },
           {
-            "name": "遠征：經驗值",
+            "name": "Crusade: Experience",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
           {
-            "name": "遠征：武器改造",
+            "name": "Crusade: 武器 Modifications",
             "typeId": "716d-91b7-d55a-1022",
             "value": 0
           },
           {
-            "name": "黑石碎片",
+            "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
             "value": 0
           }
@@ -9287,21 +9287,21 @@
             "primary": false
           },
           {
-            "name": "陣營：未結盟部隊",
+            "name": "陣營: 未結盟部隊",
             "hidden": false,
             "id": "b2b0-4b1d-154a-ce38",
             "targetId": "e1ff-c0fa-2ca7-3466",
             "primary": false
           },
           {
-            "name": "阿爾伊艾德 烏恩伊特斯",
+            "name": "Allied 單位",
             "hidden": false,
             "id": "d4b7-eb4b-4c12-8683",
             "targetId": "887b-ab87-92a2-20f5",
             "primary": true
           },
           {
-            "name": "布爾伊奇恩格 爾奧布奧特",
+            "name": "Breaching Robot",
             "hidden": false,
             "id": "19fb-4dc3-b181-328a",
             "targetId": "2997-c698-96cd-e3f8",
@@ -9335,12 +9335,12 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "When the bearer 被摧毀 (other than through triggering its bomb, as described below), 擲一顆 D6 before removing it from play: 結果為 6 時 it explodes, and each other unit 3 吋內 of and visible to the bearer suffers 1 點致命傷.\n\nIn your 指揮階段, the bearer can trigger its bombs. If it does:\n- Open each Hatchway that is 3 吋內 of the bearer. Your opponent cannot attempt to prevent those Hatchways from opening, and those Hatchways cannot be closed again.\n- 擲骰 one D6 for each other unit 3 吋內 of and visible to the bearer: on a 2+, 該單位 suffers 1 點致命傷. The bearer is then destroyed.",
+                        "$text": "未譯名 該 持有者 被摧毀 （其他 比 未譯名 未譯名 未譯名 未譯名，作為 未譯名 未譯名），擲一顆 D6 之前 未譯名 未譯名 從 未譯名: 於 一個 6 未譯名 未譯名，且 每個 其他 單位 位於 3\" 的 且 可見 至 該 持有者 承受 1 致命傷。\n\n於 你的 指揮 階段，該 持有者 可以 未譯名 未譯名 未譯名。若 未譯名 未譯名:\n- 未譯名 每個 未譯名 該 位於 3\" 的 該 持有者。你的 對手 不能 未譯名 至 未譯名 那些 未譯名 從 未譯名，且 那些 未譯名 不能 被 未譯名 未譯名。\n- 擲骰 一個 D6 為 每個 其他 單位 位於 3\" 的 且 可見 至 該 持有者: 於 一個 2+，該單位 承受 1 致命傷。該 持有者 是 則 被摧毀。",
                         "name": "說明",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
-                    "name": "布奧姆布 克伊特",
+                    "name": "Bomb Kit",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
@@ -9349,7 +9349,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "布奧姆布 克伊特",
+                "name": "Bomb Kit",
                 "hidden": false,
                 "id": "6062-127b-9efd-90c1"
               },
@@ -9360,12 +9360,12 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "每當 the bearer ends a Normal move, you can open one Hatchway that is within 1\" of it. Your opponent cannot attempt to prevent that Hatchway from opening.",
+                            "$text": "每當 該 持有者 未譯名 一個 未譯名 移動，你 可以 未譯名 一個 未譯名 該 位於 1\" 的 未譯名。你的 對手 不能 未譯名 至 未譯名 該 未譯名 從 未譯名。",
                             "name": "說明",
                             "typeId": "9b8f-694b-e5e-b573"
                           }
                         ],
-                        "name": "克烏特特伊恩格 格伊爾",
+                        "name": "Cutting Gear",
                         "typeId": "9cc3-6d83-4dd3-9b64",
                         "typeName": "Abilities",
                         "hidden": false,
@@ -9394,7 +9394,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "克烏特特伊恩格 格伊爾",
+                    "name": "Cutting gear",
                     "hidden": false,
                     "id": "1422-304c-3af9-5bca"
                   },
@@ -9458,7 +9458,7 @@
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ],
-                        "name": "克烏特特伊恩格 布爾阿德艾",
+                        "name": "Cutting blade",
                         "typeId": "8a40-4aaa-c780-9046",
                         "typeName": "Melee Weapons",
                         "hidden": false,
@@ -9467,14 +9467,14 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "克烏特特伊恩格 布爾阿德艾",
+                    "name": "Cutting blade",
                     "hidden": false,
                     "id": "4557-5450-c419-37fb"
                   }
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "克烏特特伊恩格 布爾阿德艾 阿恩德 克烏特特伊恩格 格伊爾",
+                "name": "Cutting blade and cutting gear",
                 "hidden": false,
                 "id": "f9fb-6fda-429e-91f2"
               }
@@ -9507,7 +9507,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "布爾伊奇恩格 爾奧布奧特",
+        "name": "Breaching Robot",
         "hidden": false,
         "id": "a5c2-3951-e727-b64a"
       }
@@ -9515,7 +9515,7 @@
     "entryLinks": [
       {
         "import": true,
-        "name": "艾格伊斯 德艾夫艾恩克艾 爾伊恩艾 沃伊斯 武器 艾姆普爾阿克艾姆艾恩特 [傳奇]",
+        "name": "Aegis Defence Line 配備 武器 Emplacement [傳奇]",
         "hidden": false,
         "type": "selectionEntry",
         "id": "33b3-aedd-9cc0-f799",
@@ -9523,7 +9523,7 @@
       },
       {
         "import": true,
-        "name": "阿姆布烏爾 [傳奇]",
+        "name": "Ambull [傳奇]",
         "hidden": false,
         "type": "selectionEntry",
         "id": "60d8-7d2-71d-6e4a",
@@ -9531,7 +9531,7 @@
       },
       {
         "import": true,
-        "name": "布阿斯辛 [傳奇]",
+        "name": "Bastion [傳奇]",
         "hidden": false,
         "type": "selectionEntry",
         "id": "89f2-5111-a9c4-6016",
@@ -9539,7 +9539,7 @@
       },
       {
         "import": true,
-        "name": "夫伊爾艾斯特奧爾姆 爾艾德歐布特 [傳奇]",
+        "name": "Firestorm Redoubt [傳奇]",
         "hidden": false,
         "type": "selectionEntry",
         "id": "578b-5072-a0d5-ba2",
@@ -9547,7 +9547,7 @@
       },
       {
         "import": true,
-        "name": "夫奧爾特爾艾斯 of 爾艾德艾姆普辛 [傳奇]",
+        "name": "Fortress of Redemption [傳奇]",
         "hidden": false,
         "type": "selectionEntry",
         "id": "ecf6-b23e-96d9-2d16",
@@ -9555,7 +9555,7 @@
       },
       {
         "import": true,
-        "name": "格烏阿爾德伊阿恩 德爾奧恩艾 [傳奇]",
+        "name": "Guardian Drone [傳奇]",
         "hidden": false,
         "type": "selectionEntry",
         "id": "da3c-7385-5909-abd5",
@@ -9563,7 +9563,7 @@
       },
       {
         "import": true,
-        "name": "姆阿克爾奧－炮 阿奎伊爾阿 斯特爾奧恩格普奧伊恩特 [傳奇]",
+        "name": "Macro－炮 Aquila Strongpoint [傳奇]",
         "hidden": false,
         "type": "selectionEntry",
         "id": "3bf4-89cc-17ce-960e",
@@ -9571,7 +9571,7 @@
       },
       {
         "import": true,
-        "name": "電漿 奧布爾伊特爾阿特奧爾 [傳奇]",
+        "name": "電漿 Obliterator [傳奇]",
         "hidden": false,
         "type": "selectionEntry",
         "id": "5c0d-9412-2c43-1069",
@@ -9579,7 +9579,7 @@
       },
       {
         "import": true,
-        "name": "普爾伊姆阿爾伊斯 爾艾德歐布特 [傳奇]",
+        "name": "Primaris Redoubt [傳奇]",
         "hidden": false,
         "type": "selectionEntry",
         "id": "984f-d7af-c493-9c5a",
@@ -9587,7 +9587,7 @@
       },
       {
         "import": true,
-        "name": "斯克伊什伊艾爾德 爾阿恩德伊恩格 普阿德 [傳奇]",
+        "name": "Skyshield Landing Pad [傳奇]",
         "hidden": false,
         "type": "selectionEntry",
         "id": "f0b7-283f-7d6e-6812",
@@ -9595,7 +9595,7 @@
       },
       {
         "import": true,
-        "name": "斯普伊恩德爾艾 德爾奧恩艾斯 [傳奇]",
+        "name": "Spindle Drones [傳奇]",
         "hidden": false,
         "type": "selectionEntry",
         "id": "4ad3-7c1d-33a0-9852",
@@ -9603,7 +9603,7 @@
       },
       {
         "import": true,
-        "name": "斯艾 阿爾奇維伊斯特 [傳奇]",
+        "name": "The Archivist [傳奇]",
         "hidden": false,
         "type": "selectionEntry",
         "id": "5716-86b8-dbda-f28a",
@@ -9611,7 +9611,7 @@
       },
       {
         "import": true,
-        "name": "維艾恩格伊恩克艾 武器 布阿特特爾伊 [傳奇]",
+        "name": "Vengeance 武器 Battery [傳奇]",
         "hidden": false,
         "type": "selectionEntry",
         "id": "26f9-f5fb-b25f-64e5",
@@ -9619,7 +9619,7 @@
       },
       {
         "import": true,
-        "name": "維奧伊德 盾 格艾恩爾阿特奧爾 [傳奇]",
+        "name": "Void Shield Generator [傳奇]",
         "hidden": false,
         "type": "selectionEntry",
         "id": "e42e-790e-c6e6-3a43",
@@ -9627,7 +9627,7 @@
       },
       {
         "import": true,
-        "name": "維奧爾特艾克斯 飛彈 斯特爾奧恩格普奧伊恩特 [傳奇]",
+        "name": "Vortex 飛彈 Strongpoint [傳奇]",
         "hidden": false,
         "type": "selectionEntry",
         "id": "24f-c20d-7833-92c1",
@@ -9635,7 +9635,7 @@
       },
       {
         "import": true,
-        "name": "沃阿爾 of 姆阿爾特伊爾斯 布烏恩克爾 [傳奇]",
+        "name": "Wall of Martyrs Bunker [傳奇]",
         "hidden": false,
         "type": "selectionEntry",
         "id": "45f-d20b-3b71-e29d",
@@ -9643,7 +9643,7 @@
       },
       {
         "import": true,
-        "name": "沃阿爾 of 姆阿爾特伊爾斯 德艾夫艾恩克艾 艾姆普爾阿克艾姆艾恩特 [傳奇]",
+        "name": "Wall of Martyrs Defence Emplacement [傳奇]",
         "hidden": false,
         "type": "selectionEntry",
         "id": "9d11-211d-1d25-1c24",
@@ -9651,7 +9651,7 @@
       },
       {
         "import": true,
-        "name": "沃阿爾 of 姆阿爾特伊爾斯 德艾夫艾恩克艾 爾伊恩艾 [傳奇]",
+        "name": "Wall of Martyrs Defence Line [傳奇]",
         "hidden": false,
         "type": "selectionEntry",
         "id": "138c-e220-9e95-f8a3",
@@ -9659,7 +9659,7 @@
       },
       {
         "import": true,
-        "name": "伊姆普爾伊阿爾 夫奧爾特爾艾斯 沃阿爾斯 [傳奇]",
+        "name": "Imperial Fortress Walls [傳奇]",
         "hidden": false,
         "type": "selectionEntry",
         "id": "52a0-2f07-647b-30d0",
@@ -9667,7 +9667,7 @@
       },
       {
         "import": true,
-        "name": "克阿斯特艾爾烏姆 斯特爾奧恩格赫奧爾德 [傳奇]",
+        "name": "Castellum Stronghold [傳奇]",
         "hidden": false,
         "type": "selectionEntry",
         "id": "e137-53d3-833-4389",
@@ -9675,7 +9675,7 @@
       },
       {
         "import": true,
-        "name": "斯艾恩特爾伊 格烏恩",
+        "name": "Sentry Gun",
         "hidden": false,
         "id": "5aa0-78d6-5aa4-15de",
         "targetId": "983d-b163-dc9f-3c54",
@@ -9683,7 +9683,7 @@
       },
       {
         "import": true,
-        "name": "斯伊爾克赫爾伊格赫特",
+        "name": "Searchlight",
         "hidden": false,
         "id": "977c-a27d-7164-02f2",
         "targetId": "61f3-ff33-ec7a-3546",
@@ -9691,7 +9691,7 @@
       },
       {
         "import": true,
-        "name": "布爾伊奇恩格 爾奧布奧特",
+        "name": "Breaching Robot",
         "hidden": false,
         "id": "ece1-a5ff-7a82-4d4c",
         "targetId": "a5c2-3951-e727-b64a",
@@ -9746,122 +9746,122 @@
             "includeChildSelections": true
           }
         ],
-        "name": "陣營：未結盟部隊",
+        "name": "陣營: 未結盟部隊",
         "hidden": false,
         "id": "e1ff-c0fa-2ca7-3466"
       },
       {
-        "name": "沃阿爾 of 姆阿爾特伊爾斯",
+        "name": "Wall of Martyrs",
         "hidden": false,
         "id": "fc43-1a6a-44bd-4350"
       },
       {
-        "name": "布烏恩克爾",
+        "name": "Bunker",
         "hidden": false,
         "id": "4f49-11ac-ce05-5a31"
       },
       {
-        "name": "斯克伊什伊艾爾德 爾阿恩德伊恩格 普阿德",
+        "name": "Skyshield Landing Pad",
         "hidden": false,
         "id": "c5e3-117a-a679-a415"
       },
       {
-        "name": "普爾伊姆阿爾伊斯 爾艾德歐布特",
+        "name": "Primaris Redoubt",
         "hidden": false,
         "id": "62e0-9a0b-b965-9df1"
       },
       {
-        "name": "夫伊爾艾斯特奧爾姆 爾艾德歐布特",
+        "name": "Firestorm Redoubt",
         "hidden": false,
         "id": "bd6f-cfc-c88-9f95"
       },
       {
-        "name": "電漿 奧布爾伊特爾阿特奧爾",
+        "name": "電漿 Obliterator",
         "hidden": false,
         "id": "9278-7145-847f-3cac"
       },
       {
-        "name": "姆阿克爾奧－炮 阿奎伊爾阿 斯特爾奧恩格普奧伊恩特",
+        "name": "Macro－炮 Aquila Strongpoint",
         "hidden": false,
         "id": "97a9-7f06-f2e0-84fa"
       },
       {
-        "name": "維奧爾特艾克斯 飛彈 斯特爾奧恩格普奧伊恩特",
+        "name": "Vortex 飛彈 Strongpoint",
         "hidden": false,
         "id": "cc17-b0ac-fdc9-4672"
       },
       {
-        "name": "阿姆布烏爾",
+        "name": "Ambull",
         "hidden": false,
         "id": "7d2a-37ff-a5ac-15e4"
       },
       {
-        "name": "斯艾 阿爾奇維伊斯特",
+        "name": "The Archivist",
         "hidden": false,
         "id": "c2ad-1025-acf0-324f"
       },
       {
-        "name": "格烏阿爾德伊阿恩 德爾奧恩艾",
+        "name": "Guardian Drone",
         "hidden": false,
         "id": "393a-5707-47ac-8a47"
       },
       {
-        "name": "維艾恩格伊恩克艾 武器 布阿特特爾伊",
+        "name": "Vengeance 武器 Battery",
         "hidden": false,
         "id": "5c5f-5977-50b8-9ae1"
       },
       {
-        "name": "艾格伊斯 德艾夫艾恩克艾 爾伊恩艾 沃伊斯 武器 艾姆普爾阿克艾姆艾恩特",
+        "name": "Aegis Defence Line 配備 武器 Emplacement",
         "hidden": false,
         "id": "c1aa-8ee-2a60-ecf4"
       },
       {
-        "name": "夫奧爾特爾艾斯 of 爾艾德艾姆普辛",
+        "name": "Fortress of Redemption",
         "hidden": false,
         "id": "8f18-8c8b-3d82-6e18"
       },
       {
-        "name": "布阿斯辛",
+        "name": "Bastion",
         "hidden": false,
         "id": "8888-fb01-3ef-63d0"
       },
       {
-        "name": "維奧伊德 盾 格艾恩爾阿特奧爾",
+        "name": "Void Shield Generator",
         "hidden": false,
         "id": "ccb3-6116-5cf1-62b7"
       },
       {
-        "name": "德艾夫艾恩克艾 爾伊恩艾",
+        "name": "Defence Line",
         "hidden": false,
         "id": "5207-4f15-f3e-c6ff"
       },
       {
-        "name": "伊姆普爾伊阿爾 夫奧爾特爾艾斯 沃阿爾斯",
+        "name": "Imperial Fortress Walls",
         "hidden": false,
         "id": "a7ed-6216-ee97-5b7a"
       },
       {
-        "name": "斯普伊恩德爾艾 德爾奧恩艾斯",
+        "name": "Spindle Drones",
         "hidden": false,
         "id": "cade-8bdc-1e52-e011"
       },
       {
-        "name": "德艾夫艾恩克艾 艾姆普爾阿克艾姆艾恩特",
+        "name": "Defence Emplacement",
         "hidden": false,
         "id": "5d7b-c048-8c24-5043"
       },
       {
-        "name": "克阿斯特艾爾烏姆 斯特爾奧恩格赫奧爾德",
+        "name": "Castellum Stronghold",
         "hidden": false,
         "id": "10ec-c57f-1acc-6db7"
       },
       {
-        "name": "斯艾恩特爾伊 格烏恩",
+        "name": "Sentry Gun",
         "id": "5b23-6112-24a0-5ba5",
         "hidden": false
       },
       {
-        "name": "布爾伊奇恩格 爾奧布奧特",
+        "name": "Breaching Robot",
         "id": "2997-c698-96cd-e3f8",
         "hidden": false
       }
@@ -9870,12 +9870,12 @@
       {
         "characteristics": [
           {
-            "$text": "每當 a ranged attack is allocated to a model, if 該模型 is 無法完全可見 to every model in the attacking unit because of this FORTIFICATION, 該模型 has the Benefit of Cover against that attack.",
+            "$text": "每當 一個 遠程 攻擊 是 未譯名 至 一個模型，若 該模型 是 無法完全可見 至 未譯名 模型 於 該 未譯名 單位 未譯名 的 此 未譯名，該模型 具有 未譯名 的 掩體 對抗 該 攻擊。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
         ],
-        "name": "爾艾伊恩夫奧爾克艾德 克奧維爾",
+        "name": "Reinforced Cover",
         "typeId": "9cc3-6d83-4dd3-9b64",
         "typeName": "Abilities",
         "hidden": false,
@@ -9884,12 +9884,12 @@
       {
         "characteristics": [
           {
-            "$text": "Friendly INFANTRY models can be set up or end any type of move on top of the roof section of this FORTIFICATION.",
+            "$text": "友方 步兵 模型 可以 被 設為 未譯名 或 結束 任何 未譯名 的 移動 於 未譯名 的 該 未譯名 未譯名 的 此 未譯名。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
         ],
-        "name": "爾烏夫 阿克克艾斯",
+        "name": "Roof Access",
         "typeId": "9cc3-6d83-4dd3-9b64",
         "typeName": "Abilities",
         "hidden": false,
@@ -9898,12 +9898,12 @@
       {
         "characteristics": [
           {
-            "$text": "When this FORTIFICATION is first set up on the battlefield, each gate section can be set up with its gate open or closed. In your 指揮階段, you can open or close the gate of each of 此模型’s gate sections. While a gate is open, models can move and draw line of sight through it as if it were not there.",
+            "$text": "未譯名 此 未譯名 是 未譯名 設為 未譯名 於 該 未譯名，每個 未譯名 未譯名 可以 被 設為 未譯名 具有 未譯名 未譯名 未譯名 或 未譯名。於 你的 指揮 階段，你 可以 未譯名 或 未譯名 該 未譯名 的 每個 此模型’未譯名 未譯名 未譯名。當 一個 未譯名 是 未譯名，模型 可以 移動 且 未譯名 未譯名 的 未譯名 未譯名 未譯名 作為 若 未譯名 未譯名 不 未譯名。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
         ],
-        "name": "格阿特艾斯",
+        "name": "Gates",
         "typeId": "9cc3-6d83-4dd3-9b64",
         "typeName": "Abilities",
         "hidden": false,
@@ -9912,12 +9912,12 @@
       {
         "characteristics": [
           {
-            "$text": "Friendly INFANTRY models can be set up or end any type of move on top of the flat battlement sections of this FORTIFICATION.",
+            "$text": "友方 步兵 模型 可以 被 設為 未譯名 或 結束 任何 未譯名 的 移動 於 未譯名 的 該 未譯名 未譯名 未譯名 的 此 未譯名。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
         ],
-        "name": "布阿特特爾艾姆艾恩特斯",
+        "name": "Battlements",
         "typeId": "9cc3-6d83-4dd3-9b64",
         "typeName": "Abilities",
         "hidden": false,
@@ -9926,12 +9926,12 @@
       {
         "characteristics": [
           {
-            "$text": "When this FORTIFICATION is set up, all parts of it must be set up within 1\" of another part. While an INFANTRY model has the Benefit of Cover as a 結果為 this FORTIFICATION (see below), 該模型 has a 4+ invulnerable save.",
+            "$text": "未譯名 此 未譯名 是 設為 未譯名，所有 未譯名 的 未譯名 必須 被 設為 未譯名 位於 1\" 的 未譯名 未譯名。當 一個 步兵 模型 具有 未譯名 的 掩體 作為 一個 結果 的 此 未譯名 （未譯名 未譯名），該模型 具有 一個 4+ 未譯名 豁免。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
         ],
-        "name": "德艾夫艾恩克艾 爾伊恩艾",
+        "name": "Defence Line",
         "typeId": "9cc3-6d83-4dd3-9b64",
         "typeName": "Abilities",
         "hidden": false,
@@ -9940,12 +9940,12 @@
       {
         "characteristics": [
           {
-            "$text": "Friendly INFANTRY models can be set up or end any type of move on top of the flat platform section of this FORTIFICATION.",
+            "$text": "友方 步兵 模型 可以 被 設為 未譯名 或 結束 任何 未譯名 的 移動 於 未譯名 的 該 未譯名 未譯名 未譯名 的 此 未譯名。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
         ],
-        "name": "特爾艾恩克赫 爾伊恩艾",
+        "name": "Trench Line",
         "typeId": "9cc3-6d83-4dd3-9b64",
         "typeName": "Abilities",
         "hidden": false,
@@ -9954,12 +9954,12 @@
       {
         "characteristics": [
           {
-            "$text": "While 此模型 has 1-6 剩餘耐傷, 每當 此模型 進行一次攻擊, subtract 1 from the 命中擲骰.",
+            "$text": "當 此模型 具有 1-6 耐傷 未譯名，每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
         ],
-        "name": "傷害d: 1-6 剩餘耐傷",
+        "name": "傷害d: 1-6 耐傷 Remaining",
         "typeId": "9cc3-6d83-4dd3-9b64",
         "typeName": "Abilities",
         "hidden": false,
@@ -9968,12 +9968,12 @@
       {
         "characteristics": [
           {
-            "$text": "While 此模型 has 1-10 剩餘耐傷, 每當 此模型 進行一次攻擊, subtract 1 from the 命中擲骰.",
+            "$text": "當 此模型 具有 1-10 耐傷 未譯名，每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
         ],
-        "name": "傷害d: 1-10 剩餘耐傷",
+        "name": "傷害d: 1-10 耐傷 Remaining",
         "typeId": "9cc3-6d83-4dd3-9b64",
         "typeName": "Abilities",
         "hidden": false,
@@ -9982,12 +9982,12 @@
       {
         "characteristics": [
           {
-            "$text": "You can only include this FORTIFICATION in your army in games of 猛攻戰 size or greater.",
+            "$text": "你 可以 僅 未譯名 此 未譯名 於 你的軍隊 於 未譯名 的 未譯名 未譯名 或 大於。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
         ],
-        "name": "姆伊格赫特伊 艾德伊夫伊克艾",
+        "name": "Mighty Edifice",
         "typeId": "9cc3-6d83-4dd3-9b64",
         "typeName": "Abilities",
         "hidden": false,
@@ -9999,7 +9999,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "經驗點數",
+            "name": "Experience Points",
             "hidden": false,
             "id": "8b66-51a2-6b2e-3703",
             "type": "selectionEntry",
@@ -10008,7 +10008,7 @@
           },
           {
             "import": true,
-            "name": "傳奇老兵",
+            "name": "傳奇ary Veterans",
             "hidden": false,
             "id": "18ff-7906-1959-9faf",
             "type": "selectionEntry",
@@ -10017,7 +10017,7 @@
           },
           {
             "import": true,
-            "name": "戰鬥傷痕",
+            "name": "Battle Scars",
             "hidden": false,
             "id": "f75e-c7cb-c17f-87f5",
             "type": "selectionEntryGroup",
@@ -10045,33 +10045,33 @@
             "field": "hidden"
           }
         ],
-        "comment": "遠征 克奧恩特艾恩特",
+        "comment": "Crusade content",
         "selectionEntryGroups": [
           {
             "selectionEntries": [
               {
                 "type": "upgrade",
                 "import": true,
-                "name": "已戰鬥場次",
+                "name": "Battles Played",
                 "hidden": false,
                 "id": "7f52-3142-2d45-f5e1"
               },
               {
                 "type": "upgrade",
                 "import": true,
-                "name": "布阿特特爾艾斯 斯烏爾維伊維艾德",
+                "name": "Battles Survived",
                 "hidden": false,
                 "id": "4831-6ba3-ef86-96d8"
               },
               {
                 "type": "upgrade",
                 "import": true,
-                "name": "艾恩艾姆伊 烏恩伊特斯 德艾斯特爾奧伊艾德",
+                "name": "Enemy 單位 Destroyed",
                 "hidden": false,
                 "id": "31ec-9798-9e59-308a"
               }
             ],
-            "name": "戰鬥 特阿爾伊艾斯",
+            "name": "Battle Tallies",
             "id": "3c9c-b7ad-c68c-dc46",
             "hidden": false,
             "sortIndex": 3
@@ -10082,14 +10082,14 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "武器改造",
+                    "name": "武器 Modifications",
                     "hidden": false,
                     "id": "85ec-778b-66b7-b65b",
                     "type": "selectionEntry",
                     "targetId": "d1a5-4297-168b-11cd"
                   }
                 ],
-                "name": "武器改造",
+                "name": "武器 Modifications",
                 "id": "3a50-1128-d025-a7e3",
                 "hidden": false
               }
@@ -10097,7 +10097,7 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "戰鬥特性",
+                "name": "Battle Traits",
                 "hidden": false,
                 "id": "0cfb-5f52-a863-2cd0",
                 "type": "selectionEntryGroup",
@@ -10105,7 +10105,7 @@
               },
               {
                 "import": true,
-                "name": "遠征聖物",
+                "name": "Crusade Relics",
                 "hidden": false,
                 "id": "d223-e293-ad24-58fc",
                 "type": "selectionEntryGroup",
@@ -10113,7 +10113,7 @@
               },
               {
                 "import": true,
-                "name": "特伊爾阿恩恩伊克 沃阿爾 戰鬥榮譽",
+                "name": "Tyrannic War Battle Honours",
                 "hidden": false,
                 "id": "8b06-cf16-9350-8835",
                 "type": "selectionEntryGroup",
@@ -10121,21 +10121,21 @@
               },
               {
                 "import": true,
-                "name": "普阿爾伊阿赫 恩艾克斯烏斯 布爾阿克斯特奧恩艾 升級",
+                "name": "Pariah Nexus Blackstone 升級",
                 "hidden": false,
                 "id": "765b-9c7e-e7b7-ead0",
                 "type": "selectionEntryGroup",
                 "targetId": "66c2-2a46-e7ed-a935"
               }
             ],
-            "name": "戰鬥榮譽",
+            "name": "Battle Honours",
             "id": "917a-5670-3ebe-29d8",
             "hidden": false,
             "sortIndex": 4,
             "collapsible": true
           }
         ],
-        "name": "遠征",
+        "name": "Crusade",
         "id": "3088-b399-bea3-ec18",
         "hidden": false,
         "collapsible": true
@@ -10146,7 +10146,7 @@
     "name": "Unaligned Forces",
     "revision": 22,
     "battleScribeVersion": 2.03,
-    "authorName": "沃伊恩德斯特奧爾姆斯克爾",
+    "authorName": "WindstormSCR",
     "library": true,
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 2,

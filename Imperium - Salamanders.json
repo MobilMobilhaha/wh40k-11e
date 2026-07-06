@@ -24,7 +24,7 @@
     ],
     "categoryEntries": [
       {
-        "name": "阿德爾阿克斯 阿格阿特奧恩艾",
+        "name": "Adrax Agatone",
         "hidden": false,
         "id": "fca1-9ff0-bf21-b99f"
       }
@@ -43,7 +43,7 @@
         ],
         "costs": [
           {
-            "name": "分",
+            "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 80
           }
@@ -77,19 +77,19 @@
             "targetId": "fca1-9ff0-bf21-b99f",
             "id": "ab47-e4c8-b31d-9fd",
             "primary": false,
-            "name": "阿德爾阿克斯 阿格阿特奧恩艾"
+            "name": "Adrax Agatone"
           },
           {
             "targetId": "6e7-40c-58d9-e402",
             "id": "d030-3816-5abc-8c0d",
             "primary": false,
-            "name": "陣營：星際戰士"
+            "name": "陣營: 星際戰士"
           },
           {
             "targetId": "65e4-13-4fa8-b36c",
             "id": "bf0a-ea82-1240-a05d",
             "primary": false,
-            "name": "陣營：火蜥蜴"
+            "name": "陣營: Salamanders"
           },
           {
             "targetId": "aff3-d6a3-2a95-9dc",
@@ -101,7 +101,7 @@
             "targetId": "5179-8ede-45e3-49a2",
             "id": "ee69-f2f4-6841-4eff",
             "primary": false,
-            "name": "戰術型"
+            "name": "Tacticus"
           }
         ],
         "profiles": [
@@ -140,10 +140,10 @@
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
-            "name": "阿德爾阿克斯 阿格阿特奧恩艾",
+            "name": "Adrax Agatone",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -152,12 +152,12 @@
           {
             "characteristics": [
               {
-                "$text": "While 此模型 is leading a unit, 每當 a model in 該單位 makes a melee attack, 你可以重擲 the 致傷擲骰.",
+                "$text": "當 此模型 是 未譯名 一個單位，每當 一個模型 於 該單位 未譯名 一個 近戰 攻擊，你可以重擲 該 致傷擲骰。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "烏恩特奧 斯艾 阿恩維伊爾",
+            "name": "Unto the Anvil",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -166,12 +166,12 @@
           {
             "characteristics": [
               {
-                "$text": "While an 敵方單位 is within Engagement 射程 of 此模型, halve the 目標控制 characteristic of models in that 敵方單位",
+                "$text": "當 一個 敵方單位 位於 未譯名 射程 此模型，未譯名 該 目標控制 屬性 的 模型 於 該 敵方單位",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "領主 of 斯艾 普伊爾奧克爾阿斯特斯",
+            "name": "領主 of the Pyroclasts",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -180,7 +180,7 @@
           {
             "characteristics": [
               {
-                "$text": "This model 可加入以下單位:\n\n■ 突擊 Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Company Heroes\n■ Infernus Squad\n■ Intercessor Squad\n■ Sternguard Veteran Squad\n■ Tactical Squad",
+                "$text": "此模型 可加入以下單位:\n\n■ 突擊 未譯名 未譯名\n■ 未譯名 未譯名 未譯名\n■ 未譯名 未譯名\n■ 未譯名 未譯名\n■ 未譯名 未譯名\n■ 未譯名 未譯名 未譯名\n■ 未譯名 未譯名",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -194,14 +194,14 @@
         ],
         "infoLinks": [
           {
-            "name": "無敵豁免",
+            "name": "Invulnerable 護甲豁免",
             "hidden": false,
             "type": "profile",
             "id": "d926-c06c-d15e-e1a7",
             "targetId": "db19-dee7-9530-ef0e"
           },
           {
-            "name": "誓言時刻",
+            "name": "Oath of Moment",
             "hidden": false,
             "type": "rule",
             "id": "d0eb-256-1ed9-837f",
@@ -269,12 +269,12 @@
                     "typeId": "a354-c1c8-a745-f9e3"
                   },
                   {
-                    "$text": "無視掩體, 手槍, 洪流",
+                    "$text": "無視掩體，手槍，洪流",
                     "name": "關鍵詞",
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ],
-                "name": "德爾阿克克伊斯",
+                "name": "Drakkis",
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
                 "hidden": false,
@@ -306,7 +306,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "德爾阿克克伊斯",
+            "name": "Drakkis",
             "hidden": false,
             "id": "b529-1803-d893-87e5"
           },
@@ -368,7 +368,7 @@
                     "typeId": "893f-9000-ccf7-648e"
                   }
                 ],
-                "name": "姆阿爾艾烏斯 恩奧克特烏姆",
+                "name": "Malleus Noctum",
                 "typeId": "8a40-4aaa-c780-9046",
                 "typeName": "Melee Weapons",
                 "hidden": false,
@@ -377,7 +377,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "姆阿爾艾烏斯 恩奧克特烏姆",
+            "name": "Malleus Noctum",
             "hidden": false,
             "id": "d249-ea36-1254-17cb"
           }
@@ -385,11 +385,29 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰帥",
+            "name": "Warlord",
             "hidden": false,
             "type": "selectionEntry",
             "id": "62fb-9eb1-d30b-2c9d",
             "targetId": "caa-f869-3cbd-b48e"
+          },
+          {
+            "import": true,
+            "name": "強化",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "ac33-1e71-c61e-1663",
+            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "升級",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "5ef2-dbc6-f81a-a29f",
+            "targetId": "4134-fa21-f563-23f2",
+            "sortIndex": 2
           }
         ],
         "selectionEntryGroups": [
@@ -397,14 +415,14 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "強大冠軍",
+                "name": "Mighty 冠軍",
                 "hidden": false,
                 "id": "eec7-ac02-2757-f6fa",
                 "type": "selectionEntryGroup",
                 "targetId": "f842-6e90-bc5a-80f1"
               }
             ],
-            "name": "遠征",
+            "name": "Crusade",
             "id": "5389-bd1c-3459-b872",
             "hidden": false,
             "sortIndex": 1
@@ -412,7 +430,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "阿德爾阿克斯 阿格阿特奧恩艾",
+        "name": "Adrax Agatone",
         "hidden": false,
         "id": "98c-87ea-f51b-1475"
       },
@@ -453,10 +471,10 @@
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
-            "name": "維烏爾克阿恩 赫艾斯特阿恩",
+            "name": "Vulkan He'stan",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -465,12 +483,12 @@
           {
             "characteristics": [
               {
-                "$text": "In your 射擊階段, 選擇一個 敵方單位 within 24\" of and visible to 此模型. Until the end of the phase, 每當 a friendly 星際戰士 model makes a ranged attack with a 洪流 or 熱熔 weapon that targets that 敵方單位, 你可以重擲 the 致傷擲骰",
+                "$text": "於 你的 射擊 階段，選擇 一個 敵方單位 位於 24\" 的 且 可見 至 此模型。直到 該 結束 的 該 階段，每當 一個 友方 星際戰士 模型 未譯名 一個 遠程 攻擊 具有 一個 洪流 或 熱熔 武器 該 目標為 該 敵方單位，你可以重擲 該 致傷擲骰",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "夫奧爾格艾夫阿斯爾",
+            "name": "Forgefather",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -479,12 +497,12 @@
           {
             "characteristics": [
               {
-                "$text": "The first time 此模型 is set up on the battlefield, 選擇一個 目標標記 on the battlefield. While 此模型 is 位於射程內 of that 目標標記, it has an 目標控制 characteristic of 10, a 領導力 characteristic of 5+ and the 不覺疼痛 4+ ability.",
+                "$text": "該 未譯名 時 此模型 是 設為 未譯名 於 該 未譯名，選擇 一個 目標標記 於 該 未譯名。當 此模型 位於 射程 的 該 目標標記，未譯名 具有 一個 目標控制 屬性 的 10，一個 領導力 屬性 的 5+ 且 該 不覺疼痛 4+ 技能。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "斯伊克爾 of 斯艾 烏恩夫歐恩德",
+            "name": "Seeker of the Unfound",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -493,7 +511,7 @@
           {
             "characteristics": [
               {
-                "$text": "This model 可加入以下單位:\n\n■ 突擊 Intercessor Squad\n■ Company Heroes\n■ Infernus Squad\n■ Tactical Squad",
+                "$text": "此模型 可加入以下單位:\n\n■ 突擊 未譯名 未譯名\n■ 未譯名 未譯名\n■ 未譯名 未譯名\n■ 未譯名 未譯名",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -507,12 +525,12 @@
           {
             "characteristics": [
               {
-                "$text": "If you include 此模型 in your army, until the end of the battle, non-角色 models in Infernus Squad units 你軍隊中的 have an 目標控制 characteristic of 2 while they are not 戰鬥震懾ed.",
+                "$text": "若 你 未譯名 此模型 於 你的軍隊，直到 該 結束 的 該 戰鬥，未譯名－未譯名角色 模型 於 未譯名 未譯名 單位 你軍隊中的 具有 一個 目標控制 屬性 的 2 當 他們 是 不 戰鬥－未譯名。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "伊恩斯普伊爾伊恩格 克奧姆姆阿恩德爾",
+            "name": "Inspiring Commander",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -521,7 +539,7 @@
         ],
         "infoLinks": [
           {
-            "name": "無敵豁免",
+            "name": "Invulnerable 護甲豁免",
             "hidden": false,
             "type": "profile",
             "id": "eba3-2766-a36f-5c3e",
@@ -535,7 +553,7 @@
             "targetId": "b4dd-3e1f-41cb-218f"
           },
           {
-            "name": "誓言時刻",
+            "name": "Oath of Moment",
             "hidden": false,
             "type": "rule",
             "id": "8d4b-f29e-31ec-3b3f",
@@ -585,11 +603,29 @@
           },
           {
             "import": true,
-            "name": "戰帥",
+            "name": "Warlord",
             "hidden": false,
             "type": "selectionEntry",
             "id": "30af-5b98-54a-b316",
             "targetId": "caa-f869-3cbd-b48e"
+          },
+          {
+            "import": true,
+            "name": "強化",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "f76a-2e4f-9f48-527d",
+            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "升級",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "4ad8-6b6d-d0a2-ccaf",
+            "targetId": "4134-fa21-f563-23f2",
+            "sortIndex": 3
           }
         ],
         "selectionEntries": [
@@ -646,12 +682,12 @@
                     "typeId": "a354-c1c8-a745-f9e3"
                   },
                   {
-                    "$text": "無視掩體, 手槍, 洪流",
+                    "$text": "無視掩體，手槍，洪流",
                     "name": "關鍵詞",
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ],
-                "name": "格奧恩特爾艾特 of 斯艾 夫奧爾格艾",
+                "name": "Gauntlet of the Forge",
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
                 "hidden": false,
@@ -683,7 +719,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "格奧恩特爾艾特 of 斯艾 夫奧爾格艾",
+            "name": "Gauntlet of the Forge",
             "hidden": false,
             "id": "76b1-5886-1825-8e3b"
           },
@@ -745,7 +781,7 @@
                     "typeId": "893f-9000-ccf7-648e"
                   }
                 ],
-                "name": "斯普伊爾 of 維烏爾克阿恩",
+                "name": "Spear of Vulkan",
                 "typeId": "8a40-4aaa-c780-9046",
                 "typeName": "Melee Weapons",
                 "hidden": false,
@@ -763,14 +799,14 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "斯普伊爾 of 維烏爾克阿恩",
+            "name": "Spear of Vulkan",
             "hidden": false,
             "id": "ee9-93ca-662-362b"
           }
         ],
         "costs": [
           {
-            "name": "分",
+            "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 85
           }
@@ -816,25 +852,25 @@
             "targetId": "8425-f97a-408-9f8a",
             "id": "a2ee-f7d7-7b7f-cd29",
             "primary": false,
-            "name": "維烏爾克阿恩 赫艾斯特阿恩"
+            "name": "Vulkan He'stan"
           },
           {
             "targetId": "6e7-40c-58d9-e402",
             "id": "1cb3-b8ed-c64e-bb98",
             "primary": false,
-            "name": "陣營：星際戰士"
+            "name": "陣營: 星際戰士"
           },
           {
             "targetId": "65e4-13-4fa8-b36c",
             "id": "7eb1-2884-2ae1-1ae2",
             "primary": false,
-            "name": "陣營：火蜥蜴"
+            "name": "陣營: Salamanders"
           },
           {
             "targetId": "5179-8ede-45e3-49a2",
             "id": "457a-1162-5fb5-8856",
             "primary": false,
-            "name": "戰術型"
+            "name": "Tacticus"
           }
         ],
         "constraints": [
@@ -852,14 +888,14 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "強大冠軍",
+                "name": "Mighty 冠軍",
                 "hidden": false,
                 "id": "e269-8080-d75e-fb92",
                 "type": "selectionEntryGroup",
                 "targetId": "f842-6e90-bc5a-80f1"
               }
             ],
-            "name": "遠征",
+            "name": "Crusade",
             "id": "b255-d889-b5ab-b8ba",
             "hidden": false,
             "sortIndex": 1
@@ -867,7 +903,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "維烏爾克阿恩 赫艾斯特阿恩",
+        "name": "Vulkan He'stan",
         "hidden": false,
         "id": "b351-fccc-2121-1e1e"
       }
@@ -875,7 +911,7 @@
     "entryLinks": [
       {
         "import": true,
-        "name": "阿德爾阿克斯 阿格阿特奧恩艾",
+        "name": "Adrax Agatone",
         "hidden": false,
         "type": "selectionEntry",
         "id": "287a-5c60-5a7e-80a8",
@@ -883,7 +919,7 @@
       },
       {
         "import": true,
-        "name": "維烏爾克阿恩 赫艾斯特阿恩",
+        "name": "Vulkan He'stan",
         "hidden": false,
         "type": "selectionEntry",
         "id": "e1d6-3316-2209-dc77",
