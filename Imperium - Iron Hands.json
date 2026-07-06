@@ -27,7 +27,7 @@
       {
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 85
           }
@@ -37,61 +37,61 @@
             "targetId": "9cfd-1c32-585f-7d5c",
             "id": "89d0-5339-27f1-35bc",
             "primary": false,
-            "name": "Character"
+            "name": "角色"
           },
           {
             "targetId": "4f3a-f0f7-6647-348d",
             "id": "428-9301-462-74f6",
             "primary": true,
-            "name": "Epic Hero"
+            "name": "史詩英雄"
           },
           {
             "targetId": "cf47-a0d7-7207-29dc",
             "id": "efa5-d726-fa18-9028",
             "primary": false,
-            "name": "Infantry"
+            "name": "步兵"
           },
           {
             "targetId": "aff3-d6a3-2a95-9dc",
             "id": "9683-a29-b623-a367",
             "primary": false,
-            "name": "Imperium"
+            "name": "帝國"
           },
           {
             "targetId": "81f0-f40e-c36c-5a30",
             "id": "7c3e-da44-71e5-96e8",
             "primary": false,
-            "name": "Gravis"
+            "name": "格爾阿維伊斯"
           },
           {
             "targetId": "6e7-40c-58d9-e402",
             "id": "e0f2-164d-40d7-293d",
             "primary": false,
-            "name": "Faction: Adeptus Astartes"
+            "name": "陣營：星際戰士"
           },
           {
             "targetId": "b88e-1b0c-b79f-5cdf",
             "id": "d4a8-2400-553c-64a2",
             "primary": false,
-            "name": "Faction: Iron Hands"
+            "name": "陣營：鋼鐵之手"
           },
           {
             "targetId": "ccae-25d8-84c1-913f",
             "id": "ae3-86ad-587d-d402",
             "primary": false,
-            "name": "Iron Father Ferrios"
+            "name": "伊爾奧恩 夫阿斯爾 夫爾伊奧斯"
           }
         ],
         "infoLinks": [
           {
-            "name": "Leader",
+            "name": "領袖",
             "hidden": false,
             "type": "rule",
             "id": "749a-2376-83f7-aa59",
             "targetId": "b4dd-3e1f-41cb-218f"
           },
           {
-            "name": "Oath of Moment",
+            "name": "誓言時刻",
             "hidden": false,
             "type": "rule",
             "id": "b8e3-a8f0-5fea-aaa2",
@@ -137,7 +137,7 @@
                 "$text": ""
               }
             ],
-            "name": "Iron Father Ferrios",
+            "name": "伊爾奧恩 夫阿斯爾 夫爾伊奧斯",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -146,12 +146,12 @@
           {
             "characteristics": [
               {
-                "$text": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability",
-                "name": "Description",
+                "$text": "While 此模型 is leading a unit, models in 該單位 have the 不覺疼痛 5+ ability",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Rites of Tempering",
+            "name": "爾伊特艾斯 of 特艾姆普爾伊恩格",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -160,12 +160,12 @@
           {
             "characteristics": [
               {
-                "$text": "While this model is within 3\" of one or more friendly Adeptus Astartes Vehicle units, it has the Lone Operative ability.",
-                "name": "Description",
+                "$text": "While 此模型 is 3 吋內 of one or more friendly 星際戰士 載具 units, it has the Lone Operative ability.",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Iron Father",
+            "name": "伊爾奧恩 夫阿斯爾",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -174,12 +174,12 @@
           {
             "characteristics": [
               {
-                "$text": "In your Command phase, select one friendly Adeptus Astartes Vehicle model within 3\" of this model. That model regains up to 3 lost wounds and, until the start of your next Command phase, each time that Vehicle model makes an attack, add 1 to the Hit roll. You cannot select a unit for this ability that has already been selected for the Blessing of the Omnissiah ability this phase, and vice versa.",
-                "name": "Description",
+                "$text": "In your 指揮階段, 選擇一個 friendly 星際戰士 載具 model 3 吋內 of this model. That model regains up to 3 lost wounds and, until the start of your next 指揮階段, 每當 that 載具 model 進行一次攻擊, add 1 to the 命中擲骰. You cannot select a unit for this ability that has already been selected for the Blessing of the Omnissiah ability this phase, and vice versa.",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Master of the Forge",
+            "name": "大師 of 斯艾 夫奧爾格艾",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -188,12 +188,12 @@
           {
             "characteristics": [
               {
-                "$text": "This model can be attached to the following units:\n\n■ Aggressor Squad\n■ Eradicator Squad\n■ Heavy Intercessor Squad",
-                "name": "Description",
+                "$text": "This model 可加入以下單位:\n\n■ Aggressor Squad\n■ Eradicator Squad\n■ 重型 Intercessor Squad",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Leader",
+            "name": "領袖",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -202,12 +202,12 @@
           {
             "characteristics": [
               {
-                "$text": "If you include this model in your army, until the end of the battle, non-Character models in Heavy\nIntercessor Squad units from your army have an Objective Control characteristic of 3 while they are\nnot Battle-shocked.",
-                "name": "Description",
+                "$text": "If you include 此模型 in your army, until the end of the battle, non-角色 models in 重型\nIntercessor Squad units 你軍隊中的 have an 目標控制 characteristic of 3 while they are\nnot 戰鬥震懾ed.",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Inspiring Commander",
+            "name": "伊恩斯普伊爾伊恩格 克奧姆姆阿恩德爾",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -235,7 +235,7 @@
               }
             ],
             "import": true,
-            "name": "Bolt pistol",
+            "name": "爆彈手槍",
             "hidden": false,
             "type": "selectionEntry",
             "id": "38d-d1b8-f3c6-2c2f",
@@ -243,29 +243,11 @@
           },
           {
             "import": true,
-            "name": "Warlord",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "7e89-9319-8a6b-ce5c",
             "targetId": "caa-f869-3cbd-b48e"
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "9649-5bc3-bd50-bb99",
-            "targetId": "9e5d-de4c-c5d1-1d3e",
-            "sortIndex": 2
-          },
-          {
-            "import": true,
-            "name": "Upgrades",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "2b5b-b09b-a571-13da",
-            "targetId": "4134-fa21-f563-23f2",
-            "sortIndex": 3
           }
         ],
         "selectionEntries": [
@@ -293,7 +275,7 @@
                 "characteristics": [
                   {
                     "$text": "36\"",
-                    "name": "Range",
+                    "name": "射程",
                     "typeId": "9896-9419-16a1-92fc"
                   },
                   {
@@ -322,12 +304,12 @@
                     "typeId": "a354-c1c8-a745-f9e3"
                   },
                   {
-                    "$text": "Sustained Hits 2",
-                    "name": "Keywords",
+                    "$text": "連擊 2",
+                    "name": "關鍵詞",
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ],
-                "name": "Gorgon's Wrath",
+                "name": "格奧爾格奧恩斯 沃爾阿斯",
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
                 "hidden": false,
@@ -336,7 +318,7 @@
             ],
             "infoLinks": [
               {
-                "name": "Sustained Hits",
+                "name": "連擊",
                 "hidden": false,
                 "type": "rule",
                 "id": "50c1-1935-3fda-7a46",
@@ -345,7 +327,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "Gorgon's Wrath",
+            "name": "格奧爾格奧恩斯 沃爾阿斯",
             "hidden": false,
             "id": "aca-2239-5f93-85ab"
           },
@@ -372,8 +354,8 @@
               {
                 "characteristics": [
                   {
-                    "$text": "Melee",
-                    "name": "Range",
+                    "$text": "近戰",
+                    "name": "射程",
                     "typeId": "914c-b413-91e3-a132"
                   },
                   {
@@ -403,11 +385,11 @@
                   },
                   {
                     "$text": "-",
-                    "name": "Keywords",
+                    "name": "關鍵詞",
                     "typeId": "893f-9000-ccf7-648e"
                   }
                 ],
-                "name": "Harrowhand",
+                "name": "赫阿爾奧赫阿恩德",
                 "typeId": "8a40-4aaa-c780-9046",
                 "typeName": "Melee Weapons",
                 "hidden": false,
@@ -416,7 +398,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "Harrowhand",
+            "name": "赫阿爾奧赫阿恩德",
             "hidden": false,
             "id": "9953-a38d-1b9e-7ab2"
           },
@@ -443,8 +425,8 @@
               {
                 "characteristics": [
                   {
-                    "$text": "Melee",
-                    "name": "Range",
+                    "$text": "近戰",
+                    "name": "射程",
                     "typeId": "914c-b413-91e3-a132"
                   },
                   {
@@ -473,12 +455,12 @@
                     "typeId": "3254-9fe6-d824-513e"
                   },
                   {
-                    "$text": "Extra Attacks",
-                    "name": "Keywords",
+                    "$text": "額外攻擊",
+                    "name": "關鍵詞",
                     "typeId": "893f-9000-ccf7-648e"
                   }
                 ],
-                "name": "Medusan Manipuli",
+                "name": "姆艾德烏斯阿恩 姆阿恩伊普烏爾伊",
                 "typeId": "8a40-4aaa-c780-9046",
                 "typeName": "Melee Weapons",
                 "hidden": false,
@@ -487,7 +469,7 @@
             ],
             "infoLinks": [
               {
-                "name": "Extra Attacks",
+                "name": "額外攻擊",
                 "hidden": false,
                 "type": "rule",
                 "id": "768f-5d90-d938-a2c0",
@@ -496,7 +478,7 @@
             ],
             "categoryLinks": [
               {
-                "name": "Extra Attacks Weapon",
+                "name": "額外攻擊 武器",
                 "hidden": false,
                 "id": "a47e-6bc4-b3f6-1fb9",
                 "targetId": "84c4-6d1e-e724-bd6e",
@@ -505,7 +487,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "Medusan Manipuli",
+            "name": "姆艾德烏斯阿恩 姆阿恩伊普烏爾伊",
             "hidden": false,
             "id": "bc62-41a7-d344-e4c8"
           }
@@ -525,14 +507,14 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "Mighty Champions",
+                "name": "強大冠軍",
                 "hidden": false,
                 "id": "ca4b-5ef7-1136-0132",
                 "type": "selectionEntryGroup",
                 "targetId": "f842-6e90-bc5a-80f1"
               }
             ],
-            "name": "Crusade",
+            "name": "遠征",
             "id": "f4d6-479e-05bb-741b",
             "hidden": false,
             "sortIndex": 1
@@ -540,49 +522,49 @@
         ],
         "type": "model",
         "import": true,
-        "name": "Iron Father Feirros",
+        "name": "伊爾奧恩 夫阿斯爾 夫艾伊爾奧斯",
         "hidden": false,
         "id": "6c9d-4ec3-69dd-90b2"
       },
       {
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 90
           },
           {
-            "name": "Crusade Points",
+            "name": "遠征點數",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
           {
-            "name": "Crusade: Battle Honours",
+            "name": "遠征：戰鬥榮譽",
             "typeId": "75bb-ded1-c86d-bdf0",
             "value": 0
           },
           {
-            "name": "Crusade: Experience",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
           {
-            "name": "Crusade: Weapon Modifications",
+            "name": "遠征：武器改造",
             "typeId": "716d-91b7-d55a-1022",
             "value": 0
           },
           {
-            "name": "Blackstone Fragments",
+            "name": "黑石碎片",
             "typeId": "ac6b-ced3-9b5e-9a6e",
             "value": 0
           },
           {
-            "name": "Honour Points",
+            "name": "榮譽點",
             "typeId": "8135-9a2f-6627-09e2",
             "value": 0
           },
           {
-            "name": "Relic Fragments",
+            "name": "聖物碎片",
             "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
@@ -623,10 +605,10 @@
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "4+"
+                "$text": ""
               }
             ],
-            "name": "Caanok Var",
+            "name": "克阿阿恩奧克 維阿爾",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -635,12 +617,12 @@
           {
             "characteristics": [
               {
-                "$text": "Each time a model in this model’s unit makes an attack that targets a Monster or Vehicle unit, that\nattack has the [LETHAL HITS] ability. Each time a model in this model’s unit makes an attack that targets any other unit, that attack has the [SUSTAINED HITS 1] ability.",
-                "name": "Description",
+                "$text": "每當 a model in 此模型’s unit 進行一次攻擊 that targets a 怪獸 or 載具 unit, that\nattack has the [LETHAL HITS] ability. 每當 a model in this model’s unit 進行一次攻擊 that targets any other unit, that attack has the [SUSTAINED HITS 1] ability.",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Cold and Calculating",
+            "name": "克奧爾德 阿恩德 克阿爾克烏爾阿特伊恩格",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -649,12 +631,12 @@
           {
             "characteristics": [
               {
-                "$text": "■ At the start of the Declare Battle Formations step, you can select one Adeptus Astartes Infantry unit from your army. Until the end of the battle, that unit gains the Scouts 6\" ability.\n\n\n■ After both players have deployed their armies, you can select one Adeptus Astartes unit from your army and redeploy it. When doing so, you can set that unit up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
-                "name": "Description",
+                "$text": "■ 在 Declare Battle Formations step, you can 選擇一個 星際戰士 步兵 unit from your army. Until the end of the battle, 該單位 gains the 斥候 6\" ability.\n\n\n■ After both players have deployed their armies, you can 選擇一個 星際戰士 unit 你軍隊中的 and redeploy it. When doing so, you can set 該單位 up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Cerebrex Logic Engine",
+            "name": "克爾艾布爾艾克斯 爾奧格伊克 艾恩格伊恩艾",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -663,12 +645,12 @@
           {
             "characteristics": [
               {
-                "$text": "This model can be attached to the following units: Terminator Assault Squad, Terminator Squad",
-                "name": "Description",
+                "$text": "This model 可加入以下單位: 終結者 突擊 Squad, 終結者 Squad",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Leader",
+            "name": "領袖",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -684,35 +666,35 @@
                 "field": "name"
               }
             ],
-            "name": "Feel No Pain",
+            "name": "不覺疼痛",
             "id": "b1ba-55d2-a75b-6666",
             "hidden": false,
             "type": "rule",
             "targetId": "9bf4-280f-bbe2-6fbb"
           },
           {
-            "name": "Deep Strike",
+            "name": "深入打擊",
             "id": "17d9-6160-3340-e000",
             "hidden": false,
             "type": "rule",
             "targetId": "7cb5-dd6b-dd87-ad3b"
           },
           {
-            "name": "Leader",
+            "name": "領袖",
             "id": "02a8-8906-5aae-c2b1",
             "hidden": false,
             "type": "rule",
             "targetId": "b4dd-3e1f-41cb-218f"
           },
           {
-            "name": "Oath of Moment",
+            "name": "誓言時刻",
             "id": "aa68-1335-eef5-6e78",
             "hidden": false,
             "type": "rule",
             "targetId": "3b76-4053-ece9-6e7d"
           },
           {
-            "name": "Invulnerable Save",
+            "name": "無敵豁免",
             "id": "f83a-2211-d5de-5af3",
             "hidden": false,
             "type": "profile",
@@ -742,7 +724,7 @@
               }
             ],
             "import": true,
-            "name": "Storm bolter",
+            "name": "風暴爆彈槍",
             "hidden": false,
             "id": "d2e0-6dfe-2052-c78f",
             "type": "selectionEntry",
@@ -750,29 +732,11 @@
           },
           {
             "import": true,
-            "name": "Warlord",
+            "name": "戰帥",
             "hidden": false,
             "id": "baac-cd99-8687-e276",
             "type": "selectionEntry",
             "targetId": "caa-f869-3cbd-b48e"
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "32dd-798d-166e-b6d9",
-            "targetId": "9e5d-de4c-c5d1-1d3e",
-            "sortIndex": 2
-          },
-          {
-            "import": true,
-            "name": "Upgrades",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "981d-6495-691a-77bc",
-            "targetId": "4134-fa21-f563-23f2",
-            "sortIndex": 3
           }
         ],
         "categoryLinks": [
@@ -780,55 +744,55 @@
             "targetId": "cf47-a0d7-7207-29dc",
             "id": "9cea-dc92-87f2-8df8",
             "primary": false,
-            "name": "Infantry"
+            "name": "步兵"
           },
           {
             "targetId": "9cfd-1c32-585f-7d5c",
             "id": "bacd-e36c-d4e9-0aa6",
             "primary": false,
-            "name": "Character"
+            "name": "角色"
           },
           {
             "targetId": "4f3a-f0f7-6647-348d",
             "id": "d24b-e96d-dd20-6f1b",
             "primary": true,
-            "name": "Epic Hero"
+            "name": "史詩英雄"
           },
           {
             "targetId": "aff3-d6a3-2a95-9dc",
             "id": "67d4-57e1-d27f-4956",
             "primary": false,
-            "name": "Imperium"
+            "name": "帝國"
           },
           {
             "targetId": "740a-892c-8958-defa",
             "id": "8eb0-584b-8d09-b0a1",
             "primary": false,
-            "name": "Terminator"
+            "name": "終結者"
           },
           {
             "targetId": "2d7f-1892-2fd0-e29c",
             "id": "17e2-e158-7b2d-abf7",
             "primary": false,
-            "name": "Captain"
+            "name": "連長"
           },
           {
             "targetId": "b88e-1b0c-b79f-5cdf",
             "id": "7bc3-3581-9a3e-297f",
             "primary": false,
-            "name": "Faction: Iron Hands"
+            "name": "陣營：鋼鐵之手"
           },
           {
             "targetId": "6e7-40c-58d9-e402",
             "id": "6cd5-562a-d07f-0573",
             "primary": false,
-            "name": "Faction: Adeptus Astartes"
+            "name": "陣營：星際戰士"
           },
           {
             "targetId": "bc59-90e6-939a-f5d8",
             "id": "4cea-e02f-54f2-5373",
             "primary": false,
-            "name": "Caanok Var"
+            "name": "克阿阿恩奧克 維阿爾"
           }
         ],
         "selectionEntries": [
@@ -837,8 +801,8 @@
               {
                 "characteristics": [
                   {
-                    "$text": "Melee",
-                    "name": "Range",
+                    "$text": "近戰",
+                    "name": "射程",
                     "typeId": "914c-b413-91e3-a132"
                   },
                   {
@@ -867,11 +831,11 @@
                     "typeId": "3254-9fe6-d824-513e"
                   },
                   {
-                    "name": "Keywords",
+                    "name": "關鍵詞",
                     "typeId": "893f-9000-ccf7-648e"
                   }
                 ],
-                "name": "Axiom - Strike",
+                "name": "阿克斯伊奧姆 - 斯特爾伊克艾",
                 "typeId": "8a40-4aaa-c780-9046",
                 "typeName": "Melee Weapons",
                 "hidden": false,
@@ -880,8 +844,8 @@
               {
                 "characteristics": [
                   {
-                    "$text": "Melee",
-                    "name": "Range",
+                    "$text": "近戰",
+                    "name": "射程",
                     "typeId": "914c-b413-91e3-a132"
                   },
                   {
@@ -910,11 +874,11 @@
                     "typeId": "3254-9fe6-d824-513e"
                   },
                   {
-                    "name": "Keywords",
+                    "name": "關鍵詞",
                     "typeId": "893f-9000-ccf7-648e"
                   }
                 ],
-                "name": "Axiom - Sweep",
+                "name": "阿克斯伊奧姆 - 斯沃伊普",
                 "typeId": "8a40-4aaa-c780-9046",
                 "typeName": "Melee Weapons",
                 "hidden": false,
@@ -943,7 +907,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "Axiom",
+            "name": "阿克斯伊奧姆",
             "hidden": false,
             "id": "b975-3eaa-e67e-b336"
           }
@@ -963,14 +927,14 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "Mighty Champions",
+                "name": "強大冠軍",
                 "hidden": false,
                 "id": "3791-deef-f17c-a9a8",
                 "type": "selectionEntryGroup",
                 "targetId": "f842-6e90-bc5a-80f1"
               }
             ],
-            "name": "Crusade",
+            "name": "遠征",
             "id": "846f-7e11-c813-7878",
             "hidden": false,
             "sortIndex": 1
@@ -978,19 +942,19 @@
         ],
         "type": "model",
         "import": true,
-        "name": "Caanok Var",
+        "name": "克阿阿恩奧克 維阿爾",
         "hidden": false,
         "id": "efbb-2823-7b70-5a7a"
       }
     ],
     "categoryEntries": [
       {
-        "name": "Iron Father Ferrios",
+        "name": "伊爾奧恩 夫阿斯爾 夫爾伊奧斯",
         "hidden": false,
         "id": "ccae-25d8-84c1-913f"
       },
       {
-        "name": "Caanok Var",
+        "name": "克阿阿恩奧克 維阿爾",
         "id": "bc59-90e6-939a-f5d8",
         "hidden": false
       }
@@ -998,7 +962,7 @@
     "entryLinks": [
       {
         "import": true,
-        "name": "Iron Father Feirros",
+        "name": "伊爾奧恩 夫阿斯爾 夫艾伊爾奧斯",
         "hidden": false,
         "type": "selectionEntry",
         "id": "545-17a0-487d-d535",
@@ -1006,7 +970,7 @@
       },
       {
         "import": true,
-        "name": "Caanok Var",
+        "name": "克阿阿恩奧克 維阿爾",
         "hidden": false,
         "id": "bea0-eae7-2100-53a7",
         "type": "selectionEntry",
