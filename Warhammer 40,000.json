@@ -1941,7 +1941,7 @@
         "hidden": false
       },
       {
-        "name": "Purge the Foe",
+        "name": "肅清敵人",
         "id": "6fe0-3dbe-f7e0-10bb",
         "hidden": false
       },
@@ -2887,7 +2887,7 @@
       },
       {
         "import": true,
-        "name": "Force Disposition",
+        "name": "作戰傾向",
         "hidden": false,
         "id": "8bc8-6bfe-78bd-2480",
         "type": "selectionEntry",
@@ -3947,7 +3947,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "Show/Hide Options",
+        "name": "顯示/隱藏選項",
         "hidden": false,
         "id": "e8ef-836a-a9d1-901d"
       },
@@ -5649,7 +5649,7 @@
       {
         "type": "upgrade",
         "import": true,
-        "name": "Force Disposition",
+        "name": "作戰傾向",
         "hidden": false,
         "id": "2f69-9148-45b4-86a8",
         "categoryLinks": [
@@ -5664,7 +5664,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "Force Disposition",
+            "name": "作戰傾向",
             "hidden": false,
             "id": "9c70-af87-0c32-afcf",
             "type": "selectionEntryGroup",
@@ -32403,7 +32403,7 @@
         "collapsible": true
       },
       {
-        "name": "Force Disposition",
+        "name": "作戰傾向",
         "id": "eece-6d68-6710-7a7f",
         "hidden": false,
         "selectionEntries": [
@@ -32464,7 +32464,7 @@
           {
             "type": "upgrade",
             "import": true,
-            "name": "Purge the Foe",
+            "name": "肅清敵人",
             "hidden": false,
             "id": "7da4-f0a6-65ec-da48",
             "modifiers": [
