@@ -52,7 +52,7 @@
         "id": "c22d-ed31-bda4-79d6"
       },
       {
-        "name": "訓誡修女",
+        "name": "教條官",
         "hidden": false,
         "id": "6b73-a2e7-f47-5af9"
       },
@@ -9096,7 +9096,7 @@
             "targetId": "6b73-a2e7-f47-5af9",
             "id": "45d9-14dd-2f1e-f1fc",
             "primary": false,
-            "name": "訓誡修女"
+            "name": "教條官"
           },
           {
             "targetId": "fd71-afa6-b13b-7fda",
@@ -9207,7 +9207,7 @@
                 "$text": "6+"
               }
             ],
-            "name": "訓誡修女",
+            "name": "教條官",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -9216,12 +9216,12 @@
           {
             "characteristics": [
               {
-                "$text": "當一個敵方單位是位於此模型，惡化領導屬性的模型在該單位以 1。",
+                "$text": "所有敵方單位在此模型 6" 內時，該單位中模型的領導力特性降低 1。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "異端處刑者（靈光）",
+            "name": "行刑者",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -9432,7 +9432,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "義者釘錘",
+                    "name": "審判之錘",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -9476,7 +9476,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "義者釘錘",
+                "name": "審判之錘",
                 "hidden": false,
                 "id": "3033-6da6-fb4a-66da"
               }
@@ -9684,7 +9684,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "訓誡修女",
+        "name": "教條官",
         "hidden": false,
         "id": "76b1-f4d1-b2f0-6949",
         "publicationId": "7d85-6d0f-57e0-5dea",
@@ -50363,7 +50363,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "**^^訓誡修女^^** 限定。每場戰鬥一次，在戰鬥結束時，若此模型位於戰場上，你可以選擇你遠征軍中另一個具有一個或多個戰鬥特質的 **^^修女會^^** 單位，並花費 1 點徵集點。若如此做，選擇該單位具有的一個戰鬥特質，並將其替換為該單位可擁有的一個新的修女會戰鬥特質。",
+                    "$text": "**^^教條官^^** 限定。每場戰鬥一次，在戰鬥結束時，若此模型位於戰場上，你可以選擇你遠征軍中另一個具有一個或多個戰鬥特質的 **^^修女會^^** 單位，並花費 1 點徵集點。若如此做，選擇該單位具有的一個戰鬥特質，並將其替換為該單位可擁有的一個新的修女會戰鬥特質。",
                     "name": "說明",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -55368,7 +55368,7 @@
       },
       {
         "import": true,
-        "name": "訓誡修女",
+        "name": "教條官",
         "hidden": false,
         "type": "selectionEntry",
         "id": "35ab-1fd5-81ad-5e33",
