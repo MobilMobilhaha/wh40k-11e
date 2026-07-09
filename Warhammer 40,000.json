@@ -2887,7 +2887,7 @@
       },
       {
         "import": true,
-        "name": "Force Disposition",
+        "name": "打擊部隊",
         "hidden": false,
         "id": "8bc8-6bfe-78bd-2480",
         "type": "selectionEntry",
@@ -3339,7 +3339,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "Show Legends",
+        "name": "顯示 傳奇",
         "hidden": false,
         "id": "9ed-cbf4-bfe5-90bf",
         "defaultAmount": 1
@@ -3482,7 +3482,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "Show Legends",
+            "name": "顯示 傳奇",
             "hidden": false,
             "type": "selectionEntry",
             "id": "892f-57ca-d650-7199",
@@ -3947,7 +3947,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "Show/Hide Options",
+        "name": "顯示／隱藏選項",
         "hidden": false,
         "id": "e8ef-836a-a9d1-901d"
       },
@@ -5649,7 +5649,7 @@
       {
         "type": "upgrade",
         "import": true,
-        "name": "Force Disposition",
+        "name": "打擊部隊",
         "hidden": false,
         "id": "2f69-9148-45b4-86a8",
         "categoryLinks": [
@@ -5664,7 +5664,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "Force Disposition",
+            "name": "打擊部隊",
             "hidden": false,
             "id": "9c70-af87-0c32-afcf",
             "type": "selectionEntryGroup",
@@ -32404,7 +32404,7 @@
         "collapsible": true
       },
       {
-        "name": "Force Disposition",
+        "name": "打擊部隊",
         "id": "eece-6d68-6710-7a7f",
         "hidden": false,
         "selectionEntries": [
