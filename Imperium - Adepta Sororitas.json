@@ -2289,7 +2289,7 @@
             ],
             "type": "model",
             "import": true,
-            "name": "修女長姊",
+            "name": "修女長",
             "hidden": false,
             "id": "245c-b19e-87f9-8ccc",
             "sortIndex": 2
@@ -7303,7 +7303,7 @@
               }
             ],
             "id": "f733-a80f-1cbb-2b66",
-            "name": "聖禮修女長姊",
+            "name": "聖禮修女長",
             "hidden": false,
             "collective": false,
             "import": true,
@@ -9835,7 +9835,7 @@
             ],
             "infoLinks": [
               {
-                "name": "支配修女長姊",
+                "name": "支配修女長",
                 "hidden": false,
                 "type": "profile",
                 "id": "fafd-8e91-122e-df4b",
@@ -9944,7 +9944,7 @@
             ],
             "type": "model",
             "import": true,
-            "name": "支配修女長姊",
+            "name": "支配修女長",
             "hidden": false,
             "id": "61d7-81c-9448-4018",
             "sortIndex": 2
@@ -24518,7 +24518,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "長姊",
+                    "value": "長",
                     "field": "name"
                   }
                 ]
@@ -25808,7 +25808,7 @@
             ],
             "infoLinks": [
               {
-                "name": "見習修女長姊",
+                "name": "見習修女長",
                 "hidden": false,
                 "type": "profile",
                 "id": "36c9-fc53-b6fe-87cd",
@@ -26118,7 +26118,7 @@
             ],
             "type": "model",
             "import": true,
-            "name": "見習修女長姊",
+            "name": "見習修女長",
             "hidden": false,
             "id": "18ec-e67b-f093-e599",
             "sortIndex": 2
@@ -27825,7 +27825,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "長姊",
+                    "value": "長",
                     "field": "name"
                   }
                 ]
@@ -40300,7 +40300,7 @@
             "$text": "6+"
           }
         ],
-        "name": "支配修女長姊",
+        "name": "支配修女長",
         "hidden": false,
         "id": "91bf-578f-d66e-1344",
         "typeName": "單位",
@@ -40432,7 +40432,7 @@
             "$text": "6+"
           }
         ],
-        "name": "見習修女長姊",
+        "name": "見習修女長",
         "hidden": false,
         "id": "a257-76f8-199d-8379",
         "typeName": "單位",
