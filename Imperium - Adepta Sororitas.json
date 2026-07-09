@@ -87,7 +87,7 @@
         "id": "294-19a9-99bb-b883"
       },
       {
-        "name": "苦行機兵",
+        "name": "悔罪者機甲",
         "hidden": false,
         "id": "cc6-3f2a-8a-ca72"
       },
@@ -5991,7 +5991,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命殞爆",
+            "name": "致命破滅",
             "hidden": false,
             "type": "rule",
             "id": "f4ea-3eba-2ab7-8830",
@@ -11097,7 +11097,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命殞爆",
+            "name": "致命破滅",
             "id": "ed9-b6e0-13cb-c7d",
             "hidden": false,
             "type": "rule",
@@ -13426,7 +13426,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命殞爆",
+            "name": "致命破滅",
             "id": "6836-d788-64f0-02b1",
             "hidden": false,
             "type": "rule",
@@ -14439,7 +14439,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命殞爆",
+            "name": "致命破滅",
             "id": "74ba-4f8f-758c-42d6",
             "hidden": false,
             "type": "rule",
@@ -14834,7 +14834,7 @@
             "targetId": "cc6-3f2a-8a-ca72",
             "id": "2a98-876c-5698-6e93",
             "primary": false,
-            "name": "苦行機兵"
+            "name": "悔罪者機甲"
           },
           {
             "targetId": "fd71-afa6-b13b-7fda",
@@ -14865,7 +14865,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命殞爆",
+            "name": "致命破滅",
             "hidden": false,
             "type": "rule",
             "id": "5cde-49dc-e938-b4a1",
@@ -14944,7 +14944,7 @@
                           },
                           {
                             "type": "set",
-                            "value": "裝有石棺的殘虐機",
+                            "value": "裝有石棺的悔罪者",
                             "field": "name"
                           }
                         ],
@@ -14962,7 +14962,7 @@
                         "type": "and"
                       }
                     ],
-                    "name": "殘虐機",
+                    "name": "悔罪者",
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "單位",
                     "hidden": false,
@@ -15504,7 +15504,7 @@
                             ],
                             "type": "upgrade",
                             "import": true,
-                            "name": "2 門重爆彈槍",
+                            "name": "2 重爆彈槍",
                             "hidden": false,
                             "id": "3d82-2de6-94e9-10e0"
                           },
@@ -15560,7 +15560,7 @@
                                         "typeId": "7f1b-8591-2fcf-d01c"
                                       }
                                     ],
-                                    "name": "殘虐機火焰噴射器",
+                                    "name": "悔罪者火焰噴射器",
                                     "typeId": "f77d-b953-8fa4-b762",
                                     "typeName": "遠程武器",
                                     "hidden": false,
@@ -15606,14 +15606,14 @@
                                 ],
                                 "type": "upgrade",
                                 "import": true,
-                                "name": "殘虐機火焰噴射器",
+                                "name": "悔罪者火焰噴射器",
                                 "hidden": false,
                                 "id": "cf0b-c709-aa1a-966f"
                               }
                             ],
                             "type": "upgrade",
                             "import": true,
-                            "name": "2 門殘虐機火焰噴射器",
+                            "name": "2 門悔罪者火焰噴射器",
                             "hidden": false,
                             "id": "e051-7805-62df-3a82"
                           },
@@ -15768,7 +15768,7 @@
                                         "typeId": "7f1b-8591-2fcf-d01c"
                                       }
                                     ],
-                                    "name": "殘虐機火焰噴射器",
+                                    "name": "悔罪者火焰噴射器",
                                     "typeId": "f77d-b953-8fa4-b762",
                                     "typeName": "遠程武器",
                                     "hidden": false,
@@ -15796,14 +15796,14 @@
                                 ],
                                 "type": "upgrade",
                                 "import": true,
-                                "name": "殘虐機火焰噴射器",
+                                "name": "悔罪者火焰噴射器",
                                 "hidden": false,
                                 "id": "7e7f-3571-bd82-ce9d"
                               }
                             ],
                             "type": "upgrade",
                             "import": true,
-                            "name": "重爆彈槍與殘虐機火焰噴射器",
+                            "name": "重爆彈槍與悔罪者火焰噴射器",
                             "hidden": false,
                             "id": "1705-57e1-332e-61aa"
                           }
@@ -15869,12 +15869,12 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "殘虐機",
+                "name": "悔罪者",
                 "hidden": false,
                 "id": "f027-a14f-7bcb-90fd"
               }
             ],
-            "name": "苦行機兵",
+            "name": "悔罪者機甲",
             "hidden": false,
             "id": "d974-8966-7e4c-f3f7",
             "sortIndex": 2
@@ -15896,7 +15896,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "未蒙救贖者之苦痛",
+            "name": "未得救贖者的痛苦",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -16192,7 +16192,7 @@
         ],
         "type": "unit",
         "import": true,
-        "name": "苦行機兵",
+        "name": "悔罪者機甲",
         "hidden": false,
         "id": "3c3f-f02d-c05c-492a",
         "publicationId": "7d85-6d0f-57e0-5dea"
@@ -16297,7 +16297,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命殞爆",
+            "name": "致命破滅",
             "hidden": false,
             "type": "rule",
             "id": "c605-bfad-83b9-8b7f",
@@ -19633,7 +19633,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命殞爆",
+            "name": "致命破滅",
             "hidden": false,
             "type": "rule",
             "id": "f71e-3f93-f1e5-e1f2",
@@ -26508,7 +26508,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命殞爆",
+            "name": "致命破滅",
             "hidden": false,
             "type": "rule",
             "id": "c990-ddea-ec82-372d",
@@ -28989,7 +28989,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命殞爆",
+            "name": "致命破滅",
             "hidden": false,
             "type": "rule",
             "id": "319f-3550-62f3-d7a4",
@@ -32026,7 +32026,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命殞爆",
+            "name": "致命破滅",
             "id": "759f-d62b-3d0d-dffb",
             "hidden": false,
             "type": "rule",
@@ -38133,7 +38133,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命殞爆",
+            "name": "致命破滅",
             "id": "f457-c6b6-1b6a-db22",
             "hidden": false,
             "type": "rule",
@@ -38741,7 +38741,7 @@
               {
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "致命殞爆 D3，射擊甲板 6"
+                "$text": "致命破滅 D3，射擊甲板 6"
               }
             ]
           },
@@ -39294,7 +39294,7 @@
               {
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "致命殞爆 D6"
+                "$text": "致命破滅 D6"
               }
             ]
           },
@@ -51302,7 +51302,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "此模型可附屬於以下單位：^^**殘虐機**^^",
+                    "$text": "此模型可附屬於以下單位：^^**悔罪者**^^",
                     "name": "說明",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -55432,7 +55432,7 @@
       },
       {
         "import": true,
-        "name": "苦行機兵",
+        "name": "悔罪者機甲",
         "hidden": false,
         "type": "selectionEntry",
         "id": "c17e-9345-c79b-ce1",
