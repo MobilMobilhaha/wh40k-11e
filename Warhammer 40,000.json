@@ -2965,7 +2965,7 @@
                   }
                 ],
                 "id": "d62d-db22-4893-4bc0",
-                "name": "1. 侵入戰（1000 分上限）",
+                "name": "1. 突襲戰（1000 分上限）",
                 "hidden": false,
                 "collective": false,
                 "import": true,
@@ -2991,7 +2991,7 @@
                   }
                 ],
                 "id": "baf8-997f-e323-a090",
-                "name": "2. 打擊軍勢（2000 分上限）",
+                "name": "2. 打擊部隊（2000 分上限）",
                 "hidden": false,
                 "collective": false,
                 "import": true,
@@ -5744,12 +5744,12 @@
         "hidden": false
       },
       {
-        "description": "每次以 **[毀滅性創傷]** 武器進行的攻擊造成**暴擊致傷**時，該攻擊的攻擊流程結束，目標單位承受等同於該武器 **D** 屬性的**致命傷**數量。這些致命傷會在解析該攻擊造成的任何普通傷害後施加。\n**[毀滅性創傷]** 武器造成的**致命傷**，每個**暴擊致傷**最多只能傷害一個模型；該攻擊造成的任何剩餘**致命傷**都會失去。\n**範例：** 一次以 **[毀滅性創傷]** 武器進行的攻擊，其 **D** 屬性為 3，並對一支星際戰士互援者小隊造成**暴擊致傷**，因此造成 3 點**致命傷**。前 2 點**致命傷**足以**摧毀** 1 個互援者模型，因此剩餘的 1 點**致命傷**會失去。",
+        "description": "每次以 **[毀滅傷害]** 武器進行的攻擊造成**暴擊致傷**時，該攻擊的攻擊流程結束，目標單位承受等同於該武器 **D** 屬性的**致命傷**數量。這些致命傷會在解析該攻擊造成的任何普通傷害後施加。\n**[毀滅傷害]** 武器造成的**致命傷**，每個**暴擊致傷**最多只能傷害一個模型；該攻擊造成的任何剩餘**致命傷**都會失去。\n**範例：** 一次以 **[毀滅傷害]** 武器進行的攻擊，其 **D** 屬性為 3，並對一支星際戰士互援者小隊造成**暴擊致傷**，因此造成 3 點**致命傷**。前 2 點**致命傷**足以**摧毀** 1 個互援者模型，因此剩餘的 1 點**致命傷**會失去。",
         "alias": [
           "DEVASTATING WOUNDS"
         ],
         "id": "be1e-ac8e-1e2c-3528",
-        "name": "毀滅性創傷",
+        "name": "毀滅傷害",
         "publicationId": "48fc-15aa-b307-9443",
         "page": 28,
         "hidden": false
@@ -5788,12 +5788,12 @@
         "hidden": false
       },
       {
-        "description": "此能力一律以 **[反制-X Y+]** 的形式呈現。每次以 **[反制]** 武器進行攻擊時，若目標單位具有 **X** 所指定的關鍵字，未修正的**致傷擲骰**結果為 **Y+** 時，即為**暴擊致傷**。\n**範例：** 以 **[反制-載具 4+]** 武器攻擊一個 ^^**載具**^^ 單位時，未修正的**致傷擲骰**結果為 4+ 即造成**暴擊致傷**；以 **[反制-靈能者 2+]** 武器攻擊一個 ^^**靈能者**^^ 單位時，未修正的**致傷擲骰**結果為 2+ 即造成**暴擊致傷**。",
+        "description": "此能力一律以 **[針對-X Y+]** 的形式呈現。每次以 **[針對]** 武器進行攻擊時，若目標單位具有 **X** 所指定的關鍵字，未修正的**致傷擲骰**結果為 **Y+** 時，即為**暴擊致傷**。\n**範例：** 以 **[針對-載具 4+]** 武器攻擊一個 ^^**載具**^^ 單位時，未修正的**致傷擲骰**結果為 4+ 即造成**暴擊致傷**；以 **[針對-靈能者 2+]** 武器攻擊一個 ^^**靈能者**^^ 單位時，未修正的**致傷擲骰**結果為 2+ 即造成**暴擊致傷**。",
         "alias": [
           "ANTI"
         ],
         "id": "4111-82e3-9444-e942",
-        "name": "反制",
+        "name": "針對",
         "publicationId": "48fc-15aa-b307-9443",
         "page": 28,
         "hidden": false
@@ -5884,7 +5884,7 @@
         "hidden": false
       },
       {
-        "description": "每次以 **[致命命中]** 武器進行的攻擊造成**暴擊命中**時，你可以選擇讓該攻擊自動對目標造成致傷。\n**設計者註：** 選擇自動對目標造成致傷，表示該攻擊不會進行**致傷擲骰**。你可以選擇不這麼做，因為這表示該攻擊不能造成**暴擊致傷**，也就不能觸發其他能力，例如 **[毀滅性創傷]**。",
+        "description": "每次以 **[致命命中]** 武器進行的攻擊造成**暴擊命中**時，你可以選擇讓該攻擊自動對目標造成致傷。\n**設計者註：** 選擇自動對目標造成致傷，表示該攻擊不會進行**致傷擲骰**。你可以選擇不這麼做，因為這表示該攻擊不能造成**暴擊致傷**，也就不能觸發其他能力，例如 **[毀滅傷害]**。",
         "alias": [
           "LETHAL HITS"
         ],
@@ -5964,7 +5964,7 @@
       {
         "description": "每次此單位進行**進入移動**（20.04）時，若此單位中的每個模型都具有此能力，該單位可以設置在戰場上任意位置，但必須在水平方向上距離所有敵方單位超過 8 吋，即使該位置位於對手部署區內也可以。",
         "id": "7cb5-dd6b-dd87-ad3b",
-        "name": "深度打擊",
+        "name": "深入打擊",
         "publicationId": "48fc-15aa-b307-9443",
         "page": 39,
         "hidden": false
@@ -5992,9 +5992,9 @@
         "hidden": false
       },
       {
-        "description": "除非此單位是**合併**單位的一部分，否則敵方模型必須位於此單位 12 吋內，才會將此單位視為**可見**；且除非攻擊模型位於此單位 12 吋內，否則此單位不能被 **[間接火力]** 武器選為目標。\n若此能力以**孤狼作戰 X 吋**的形式呈現，除非此單位是**合併**單位的一部分，否則敵方模型必須位於此單位 **X 吋**內，才會將此單位視為**可見**；且除非攻擊模型位於此單位 **X 吋**內，否則此單位不能被 **[間接火力]** 武器選為目標。",
+        "description": "除非此單位是**合併**單位的一部分，否則敵方模型必須位於此單位 12 吋內，才會將此單位視為**可見**；且除非攻擊模型位於此單位 12 吋內，否則此單位不能被 **[間接火力]** 武器選為目標。\n若此能力以**獨行特工 X 吋**的形式呈現，除非此單位是**合併**單位的一部分，否則敵方模型必須位於此單位 **X 吋**內，才會將此單位視為**可見**；且除非攻擊模型位於此單位 **X 吋**內，否則此單位不能被 **[間接火力]** 武器選為目標。",
         "id": "a8a0-8fe7-898-e0f3",
-        "name": "孤狼作戰",
+        "name": "獨行特工",
         "publicationId": "48fc-15aa-b307-9443",
         "page": 19,
         "hidden": false
@@ -14153,7 +14153,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "Once per battle, when this unit is set up on the battlefield using the 深度打擊 ability, it can perform a 精準 Insertion. If it does, this unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge. Each time this unit performs a Surgical 深度打擊, add 2 to the 深度打擊 test.\n\n**Designer's Note:** *Only units that are set up using the 深度打擊 ability with benefit from this Battle Trait.*",
+                        "$text": "Once per battle, when this unit is set up on the battlefield using the 深入打擊 ability, it can perform a 精準 Insertion. If it does, this unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge. Each time this unit performs a Surgical 深入打擊, add 2 to the 深入打擊 test.\n\n**Designer's Note:** *Only units that are set up using the 深入打擊 ability with benefit from this Battle Trait.*",
                         "name": "說明",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -15098,7 +15098,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "While this unit is wholly within your deployment zone, improve the Leadership and Objective Control characteristics of models in this unit by 1. Each time an enemy unit performs a Surgical 深度打擊 within 9\" of this unit, subtract 1 from that unit's 深度打擊 test result.",
+                        "$text": "While this unit is wholly within your deployment zone, improve the Leadership and Objective Control characteristics of models in this unit by 1. Each time an enemy unit performs a Surgical 深入打擊 within 9\" of this unit, subtract 1 from that unit's 深入打擊 test result.",
                         "name": "說明",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -15198,7 +15198,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "In the Declare Battle Formations step, you can spend 1 Requisition point; if you do, then until the end of the battle, this unit has the 深度打擊 ability and each time this unit performs a Surgical 深度打擊, add 1 to its 深度打擊 test.",
+                        "$text": "In the Declare Battle Formations step, you can spend 1 Requisition point; if you do, then until the end of the battle, this unit has the 深入打擊 ability and each time this unit performs a Surgical 深入打擊, add 1 to its 深入打擊 test.",
                         "name": "說明",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -16015,7 +16015,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "Once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP. If this unit performs a Surgical 深度打擊 when doing so, before any 深度打擊 tests are made, roll one D6 for each enemy unit within 6\" of your unit: on a 4+, that enemy unit suffers 1 mortal wound.",
+                        "$text": "Once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP. If this unit performs a Surgical 深入打擊 when doing so, before any 深入打擊 tests are made, roll one D6 for each enemy unit within 6\" of your unit: on a 4+, that enemy unit suffers 1 mortal wound.",
                         "name": "說明",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -16530,7 +16530,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "Each time this unit is set up on the battlefield using the 深度打擊 ability, until the end of the turn, each time a model in this unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1. Each time this unit performs a Surgical 深度打擊, you can re-roll the 深度打擊 test.\n\n**Designer's Note:** *Only units that are set up using the 深度打擊 ability with benefit from this Battle Trait.*",
+                        "$text": "Each time this unit is set up on the battlefield using the 深入打擊 ability, until the end of the turn, each time a model in this unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1. Each time this unit performs a Surgical 深入打擊, you can re-roll the 深入打擊 test.\n\n**Designer's Note:** *Only units that are set up using the 深入打擊 ability with benefit from this Battle Trait.*",
                         "name": "說明",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -16613,7 +16613,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "Each time this unit is set up on the battlefield using the 深度打擊 ability, until the end of your next turn, this unit has the 隱匿 ability and enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit.\n\n**Designer's Note:** *Only units that are set up using the 深度打擊 ability with benefit from this Battle Trait.*",
+                        "$text": "Each time this unit is set up on the battlefield using the 深入打擊 ability, until the end of your next turn, this unit has the 隱匿 ability and enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit.\n\n**Designer's Note:** *Only units that are set up using the 深入打擊 ability with benefit from this Battle Trait.*",
                         "name": "說明",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -16979,7 +16979,7 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "Models in the bearer's unit have the 深度打擊 ability. In addition, you can target the bearer's unit with the Rapid Ingress Stratagem for 0CP, and when resolving that Stratagem, you can set up that unit anywhere on the battlefield that is more than 6\" horizontally away from all enemy units and within range of an objective marker. Until the end of the turn, that unit is not eligible to declare a charge.",
+                            "$text": "Models in the bearer's unit have the 深入打擊 ability. In addition, you can target the bearer's unit with the Rapid Ingress Stratagem for 0CP, and when resolving that Stratagem, you can set up that unit anywhere on the battlefield that is more than 6\" horizontally away from all enemy units and within range of an objective marker. Until the end of the turn, that unit is not eligible to declare a charge.",
                             "name": "說明",
                             "typeId": "9b8f-694b-e5e-b573"
                           }
@@ -17097,7 +17097,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "深度打擊",
+                        "name": "深入打擊",
                         "id": "40e5-6240-f490-7841",
                         "hidden": false,
                         "type": "rule",
@@ -19100,7 +19100,7 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "Unless the bearer is part of an Attached unit at the start of the battle, it has the 孤狼作戰 ability.",
+                            "$text": "Unless the bearer is part of an Attached unit at the start of the battle, it has the 獨行特工 ability.",
                             "name": "說明",
                             "typeId": "9b8f-694b-e5e-b573"
                           }
@@ -19218,7 +19218,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "孤狼作戰",
+                        "name": "獨行特工",
                         "id": "d495-11d7-00cf-4686",
                         "hidden": false,
                         "type": "rule",
@@ -20992,7 +20992,7 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "Once per battle, at the end of your opponent's Shooting phase, if the bearer's unit is not within Engagement Range of one or more enemy units, and if it was targeted by one or more attacks during that phase, you can remove the bearer's unit from the battlefield and place it into Strategic Reserves. If you do, when you next set up the bearer's unit from Strategic Reserves, models in that have the 深度打擊 ability until the end of that phase.",
+                            "$text": "Once per battle, at the end of your opponent's Shooting phase, if the bearer's unit is not within Engagement Range of one or more enemy units, and if it was targeted by one or more attacks during that phase, you can remove the bearer's unit from the battlefield and place it into Strategic Reserves. If you do, when you next set up the bearer's unit from Strategic Reserves, models in that have the 深入打擊 ability until the end of that phase.",
                             "name": "說明",
                             "typeId": "9b8f-694b-e5e-b573"
                           }
@@ -21110,7 +21110,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "深度打擊",
+                        "name": "深入打擊",
                         "id": "2112-ff9a-7443-9d68",
                         "hidden": false,
                         "type": "rule",
@@ -21136,7 +21136,7 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "Select one melee weapon equipped by the bearer (excluding a weapon that has been replaced by an Enhancement or Crusade Relic, or upgraded with any Battle Traits). That weapon is now a Crusade Relic and:\n\n- Each time an attack is made with it, you can re-roll the Wound roll.\n- Once per battle, at the start of the Fight phase, the bearer can unleash the power stored in that weapon. When they do, until the end of the turn, that weapon has the **[毀滅性創傷]** ability and its Strength and Attacks characteristics are increased by a number equal to the current battle round number.",
+                            "$text": "Select one melee weapon equipped by the bearer (excluding a weapon that has been replaced by an Enhancement or Crusade Relic, or upgraded with any Battle Traits). That weapon is now a Crusade Relic and:\n\n- Each time an attack is made with it, you can re-roll the Wound roll.\n- Once per battle, at the start of the Fight phase, the bearer can unleash the power stored in that weapon. When they do, until the end of the turn, that weapon has the **[毀滅傷害]** ability and its Strength and Attacks characteristics are increased by a number equal to the current battle round number.",
                             "name": "說明",
                             "typeId": "9b8f-694b-e5e-b573"
                           }
@@ -21279,7 +21279,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "毀滅性創傷",
+                        "name": "毀滅傷害",
                         "id": "eeea-7900-bac9-d131",
                         "hidden": false,
                         "type": "rule",
@@ -21297,7 +21297,7 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "The bearer has the 孤狼作戰 and 隱匿 abilities. While the bearer is leading a unit, models in that unit have the 隱匿 ability and that unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
+                            "$text": "The bearer has the 獨行特工 and 隱匿 abilities. While the bearer is leading a unit, models in that unit have the 隱匿 ability and that unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
                             "name": "說明",
                             "typeId": "9b8f-694b-e5e-b573"
                           }
@@ -21422,7 +21422,7 @@
                         "targetId": "bec5-4288-34a6-ccfa"
                       },
                       {
-                        "name": "孤狼作戰",
+                        "name": "獨行特工",
                         "id": "7c9b-b292-0a2b-fea5",
                         "hidden": false,
                         "type": "rule",
@@ -22224,7 +22224,7 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "The bearer has the 深度打擊 ability. While the bearer is leading a unit, models in that unit have the 深度打擊 ability.",
+                            "$text": "The bearer has the 深入打擊 ability. While the bearer is leading a unit, models in that unit have the 深入打擊 ability.",
                             "name": "說明",
                             "typeId": "9b8f-694b-e5e-b573"
                           }
@@ -22342,7 +22342,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "深度打擊",
+                        "name": "深入打擊",
                         "id": "db10-cb75-7f59-5720",
                         "hidden": false,
                         "type": "rule",
@@ -22360,7 +22360,7 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "Select one melee weapon that the bearer is equipped with (excluding a weapon that has been replaced by an Enhancement or upgraded via the Weapon Modifications Battle Trait). That weapon is now a Crusade Relic and it has the **[ANTI-UNBOUND ADVERSARIES 4+** and **[毀滅性創傷]** abilities.",
+                            "$text": "Select one melee weapon that the bearer is equipped with (excluding a weapon that has been replaced by an Enhancement or upgraded via the Weapon Modifications Battle Trait). That weapon is now a Crusade Relic and it has the **[ANTI-UNBOUND ADVERSARIES 4+** and **[毀滅傷害]** abilities.",
                             "name": "說明",
                             "typeId": "9b8f-694b-e5e-b573"
                           }
@@ -22503,14 +22503,14 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "毀滅性創傷",
+                        "name": "毀滅傷害",
                         "id": "2807-ea1e-dc0a-3d59",
                         "hidden": false,
                         "type": "rule",
                         "targetId": "be1e-ac8e-1e2c-3528"
                       },
                       {
-                        "name": "反制",
+                        "name": "針對",
                         "id": "c3ee-c53d-f362-5fe5",
                         "hidden": false,
                         "type": "rule",
@@ -24383,7 +24383,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "Weapons equipped by models in this unit have the **[ANTI-MONSTER 4+]** and **[反制-載具 4+]** abilities.",
+                        "$text": "Weapons equipped by models in this unit have the **[ANTI-MONSTER 4+]** and **[針對-載具 4+]** abilities.",
                         "name": "說明",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -24397,7 +24397,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "反制",
+                    "name": "針對",
                     "id": "22a4-0330-7c8c-11ca",
                     "hidden": false,
                     "type": "rule",
@@ -25698,7 +25698,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "At the start of the battle, if the bearer is your **^^Warlord^^**, until the end of the battle, it gains the ability below that corresponds with the Strategic Footing you selected in the Select Strategic Footing step:\n\n- **Aggressive:** Models in the bearer's unit have the 斥候 6\" ability.\n- **Balanced:** The bearer has the 孤狼作戰 ability.\n- **Defensive:** Models in the bearer's unit have the 隱匿 ability.",
+                        "$text": "At the start of the battle, if the bearer is your **^^Warlord^^**, until the end of the battle, it gains the ability below that corresponds with the Strategic Footing you selected in the Select Strategic Footing step:\n\n- **Aggressive:** Models in the bearer's unit have the 斥候 6\" ability.\n- **Balanced:** The bearer has the 獨行特工 ability.\n- **Defensive:** Models in the bearer's unit have the 隱匿 ability.",
                         "name": "說明",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -25727,7 +25727,7 @@
                     "targetId": "ada6-bac1-ffe0-d6f7"
                   },
                   {
-                    "name": "孤狼作戰",
+                    "name": "獨行特工",
                     "id": "7e73-95e8-4033-d113",
                     "hidden": false,
                     "type": "rule",
@@ -26950,7 +26950,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "反制",
+                    "name": "針對",
                     "id": "5422-edab-3e98-ef3e",
                     "hidden": false,
                     "type": "rule",
@@ -28939,7 +28939,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "The bearer has the 深度打擊 ability.",
+                    "$text": "The bearer has the 深入打擊 ability.",
                     "name": "說明",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -28953,7 +28953,7 @@
             ],
             "infoLinks": [
               {
-                "name": "深度打擊",
+                "name": "深入打擊",
                 "id": "1845-7a49-adf7-a878",
                 "hidden": false,
                 "type": "rule",

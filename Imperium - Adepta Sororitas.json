@@ -2,7 +2,7 @@
   "catalogue": {
     "categoryEntries": [
       {
-        "name": "艾絲翠德・瑟嘉與阿嘉莎・多蘭",
+        "name": "阿斯垂德·瑟加和阿加瑟·多蘭",
         "hidden": false,
         "id": "c8ba-2b2d-e47f-d7a6"
       },
@@ -122,7 +122,7 @@
         "id": "cf6-ceb9-5c73-2bb3"
       },
       {
-        "name": "聖女塞勒斯汀",
+        "name": "聖塞萊斯汀",
         "hidden": false,
         "id": "b49f-43b8-5fac-d769"
       },
@@ -657,7 +657,7 @@
             "targetId": "c8ba-2b2d-e47f-d7a6",
             "id": "4079-b86c-ece7-e020",
             "primary": false,
-            "name": "艾絲翠德・瑟嘉與阿嘉莎・多蘭"
+            "name": "阿斯垂德·瑟加和阿加瑟·多蘭"
           },
           {
             "targetId": "9cfd-1c32-585f-7d5c",
@@ -815,7 +815,7 @@
         ],
         "type": "unit",
         "import": true,
-        "name": "艾絲翠德・瑟嘉與阿嘉莎・多蘭",
+        "name": "阿斯垂德·瑟加和阿加瑟·多蘭",
         "hidden": false,
         "id": "4b94-c22e-84f9-8d32",
         "publicationId": "7d85-6d0f-57e0-5dea"
@@ -4848,7 +4848,7 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "反制靈能者 2+，毀滅傷害，精準，速射 1",
+                            "$text": "針對靈能者 2+，毀滅傷害，精準，速射 1",
                             "name": "關鍵字",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
@@ -4872,7 +4872,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "反制",
+                        "name": "針對",
                         "id": "5a6b-d1ac-edbe-8c27",
                         "hidden": false,
                         "type": "rule",
@@ -8028,7 +8028,7 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "反制混沌 2+，精準",
+                        "$text": "針對混沌 2+，精準",
                         "name": "關鍵字",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -8230,7 +8230,7 @@
                       }
                     ],
                     "id": "c12e-e65d-d748-7a97",
-                    "name": "放逐者之刃",
+                    "name": "流浪者之刃",
                     "page": 100,
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
@@ -8238,7 +8238,7 @@
                   }
                 ],
                 "id": "84f7-b27a-f4d1-5d96",
-                "name": "放逐者之刃",
+                "name": "流浪者之刃",
                 "hidden": false,
                 "collective": false,
                 "import": true,
@@ -8277,7 +8277,7 @@
                 "$text": "你可以對此單位使用英勇介入計謀，即使本階段已經有其他單位被該計謀選為目標也一樣。若如此做，該次使用該計謀的花費減少 1 點指揮點，且本階段仍可對其他單位使用該計謀。"
               }
             ],
-            "name": "神秘救主",
+            "name": "神秘救世主",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -8307,7 +8307,7 @@
             "targetId": "a8a0-8fe7-898-e0f3"
           },
           {
-            "name": "深度打擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "4ace-561d-850c-30f4",
@@ -21803,7 +21803,7 @@
               {
                 "infoLinks": [
                   {
-                    "name": "反制",
+                    "name": "針對",
                     "hidden": false,
                     "type": "rule",
                     "id": "582d-5f11-afdd-5e9a",
@@ -21862,7 +21862,7 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "反制步兵 4+",
+                        "$text": "針對步兵 4+",
                         "name": "關鍵字",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -23225,7 +23225,7 @@
             "targetId": "7ef7-dca6-e2ea-ecc8"
           },
           {
-            "name": "深度打擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "fce6-afb0-165b-2e11",
@@ -23323,7 +23323,7 @@
                     "$text": "4+"
                   }
                 ],
-                "name": "聖女塞勒斯汀",
+                "name": "聖塞萊斯汀",
                 "typeId": "c547-1836-d8a-ff4f",
                 "typeName": "單位",
                 "hidden": false,
@@ -23341,7 +23341,7 @@
                 "targetId": "b49f-43b8-5fac-d769",
                 "id": "23ec-a1fa-9277-3b06",
                 "primary": false,
-                "name": "聖女塞勒斯汀"
+                "name": "聖塞萊斯汀"
               },
               {
                 "name": "修女會角色",
@@ -23417,7 +23417,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "烈焰聖劍",
+                    "name": "聖劍阿達拉",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -23461,7 +23461,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "烈焰聖劍",
+                    "name": "聖劍阿達拉",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -23493,14 +23493,14 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "烈焰聖劍",
+                "name": "聖劍阿達拉",
                 "hidden": false,
                 "id": "11d9-3548-8ffd-f118"
               }
             ],
             "type": "model",
             "import": true,
-            "name": "聖女塞勒斯汀",
+            "name": "聖塞萊斯汀",
             "hidden": false,
             "id": "d554-ccc6-790-461"
           }
@@ -23514,7 +23514,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "療癒之淚",
+            "name": "生命之淚",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -23528,7 +23528,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "護命衛",
+            "name": "生命護衛",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -23634,7 +23634,7 @@
         ],
         "type": "unit",
         "import": true,
-        "name": "聖女塞勒斯汀",
+        "name": "聖塞萊斯汀",
         "hidden": false,
         "id": "21f1-8ed6-52c6-54c7",
         "publicationId": "7d85-6d0f-57e0-5dea"
@@ -23694,7 +23694,7 @@
             "targetId": "7ef7-dca6-e2ea-ecc8"
           },
           {
-            "name": "深度打擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "78b9-57ed-35a2-bf63",
@@ -27303,7 +27303,7 @@
           {
             "characteristics": [
               {
-                "$text": "當此模型剩餘 1-6 點生命時，其所有武器的攻擊次數值減半；並且使用其女宗主聖物能力時，你只能選擇一項能力，而不是最多兩項。",
+                "$text": "當此模型剩餘 1-6 點生命時，其所有武器的攻擊次數值減半；並且使用其聖母遺物能力時，你只能選擇一項能力，而不是最多兩項。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -27317,12 +27317,12 @@
           {
             "characteristics": [
               {
-                "$text": "在每個戰鬥輪開始時，從女宗主聖物區段中選擇最多兩項能力。直到下一個戰鬥輪開始為止，此模型具有那些能力。",
+                "$text": "每輪戰鬥輪次開始時，選擇聖母遺物部分中的最多兩個能力。直到下一戰鬥輪次開始，此模型具備那些能力。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "女族長聖物",
+            "name": "聖母遺物",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -27336,7 +27336,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "女族長聖物 - 熾烈之心（靈光）",
+            "name": "聖母遺物 - 熾烈之心（靈光）",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -27350,7 +27350,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "女族長聖物 - 神聖玫瑰香爐（靈光）",
+            "name": "聖母遺物 - 神聖玫瑰香爐（靈光）",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -27364,7 +27364,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "女族長聖物 - 烏木聖杯聖像（靈光）",
+            "name": "聖母遺物 - 烏木聖杯聖像（靈光）",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -27378,7 +27378,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "女族長聖物 - 銀裹屍布聖像（靈光）",
+            "name": "聖母遺物 - 銀裹屍布聖像（靈光）",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -27392,7 +27392,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "女族長聖物 - 英勇之心聖像（靈光）",
+            "name": "聖母遺物 - 英勇之心聖像（靈光）",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -27406,7 +27406,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "女族長聖物 - 血腥玫瑰花瓣（靈光）",
+            "name": "聖母遺物 - 血腥玫瑰花瓣（靈光）",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -27415,12 +27415,12 @@
           {
             "characteristics": [
               {
-                "$text": "每次你在戰鬥輪開始時獲得 1 顆奇蹟骰，若此模型位於戰場上，不要擲 D6 來決定該奇蹟骰的數值；該奇蹟骰的數值為 6。",
+                "$text": "每輪戰鬥輪次開始時獲得1枚奇蹟骰子，若此模型在戰場上，不要擲一個D6來決定該奇蹟骰子的數值；其數值為6。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "莊嚴列隊",
+            "name": "莊嚴行列",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -27564,7 +27564,7 @@
             "targetId": "7ef7-dca6-e2ea-ecc8"
           },
           {
-            "name": "深度打擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "2088-6820-eb0d-7488",
@@ -29856,7 +29856,7 @@
             "targetId": "7ef7-dca6-e2ea-ecc8"
           },
           {
-            "name": "深度打擊",
+            "name": "深入打擊",
             "id": "c0cc-38c1-6f8c-a17e",
             "hidden": false,
             "type": "rule",
@@ -35336,7 +35336,7 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "反制靈能者 4+，毀滅傷害",
+                            "$text": "針對靈能者 4+，毀滅傷害",
                             "name": "關鍵字",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -35357,7 +35357,7 @@
                         "targetId": "be1e-ac8e-1e2c-3528"
                       },
                       {
-                        "name": "反制",
+                        "name": "針對",
                         "id": "60fd-3f87-4186-d5a3",
                         "hidden": false,
                         "type": "rule",
@@ -35642,7 +35642,7 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "反制靈能者 4+，毀滅傷害",
+                "$text": "針對靈能者 4+，毀滅傷害",
                 "name": "關鍵字",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -35663,7 +35663,7 @@
             "targetId": "be1e-ac8e-1e2c-3528"
           },
           {
-            "name": "反制",
+            "name": "針對",
             "id": "f6ad-0b21-422c-486b",
             "hidden": false,
             "type": "rule",
@@ -35732,7 +35732,7 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "反制靈能者 4+，毀滅傷害，手槍",
+                "$text": "針對靈能者 4+，毀滅傷害，手槍",
                 "name": "關鍵字",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -35746,7 +35746,7 @@
         ],
         "infoLinks": [
           {
-            "name": "反制",
+            "name": "針對",
             "id": "5d24-1c79-66a2-f473",
             "hidden": false,
             "type": "rule",
@@ -40990,7 +40990,7 @@
                     "typeId": "a354-c1c8-a745-f9e3"
                   },
                   {
-                    "$text": "反制靈能者 2+，毀滅傷害，精準，速射 1",
+                    "$text": "針對靈能者 2+，毀滅傷害，精準，速射 1",
                     "name": "關鍵字",
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
@@ -41014,7 +41014,7 @@
             ],
             "infoLinks": [
               {
-                "name": "反制",
+                "name": "針對",
                 "hidden": false,
                 "type": "rule",
                 "id": "fc8c-3194-a5ac-7d",
@@ -41061,7 +41061,7 @@
           {
             "infoLinks": [
               {
-                "name": "反制",
+                "name": "針對",
                 "id": "dc1a-4ff2-d2e4-500f",
                 "hidden": false,
                 "type": "rule",
@@ -41116,7 +41116,7 @@
                     "typeId": "a354-c1c8-a745-f9e3"
                   },
                   {
-                    "$text": "反制步兵 4+，毀滅傷害，速射 1",
+                    "$text": "針對步兵 4+，毀滅傷害，速射 1",
                     "name": "關鍵字",
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
@@ -47289,7 +47289,7 @@
                     "targetId": "be1e-ac8e-1e2c-3528"
                   },
                   {
-                    "name": "反制",
+                    "name": "針對",
                     "id": "e612-7438-705e-aa9e",
                     "hidden": false,
                     "type": "rule",
@@ -47330,7 +47330,7 @@
                       },
                       {
                         "type": "append",
-                        "value": "反制角色 4+，毀滅傷害，精準",
+                        "value": "針對角色 4+，毀滅傷害，精準",
                         "field": "893f-9000-ccf7-648e",
                         "scope": "model-or-unit",
                         "affects": "self.entries.recursive.profiles.Melee Weapons",
@@ -47468,7 +47468,7 @@
                     "targetId": "be1e-ac8e-1e2c-3528"
                   },
                   {
-                    "name": "反制",
+                    "name": "針對",
                     "id": "346a-7155-7c71-fdaa",
                     "hidden": false,
                     "type": "rule",
@@ -47495,7 +47495,7 @@
                       },
                       {
                         "type": "append",
-                        "value": "反制混沌 4+，毀滅傷害",
+                        "value": "針對混沌 4+，毀滅傷害",
                         "field": "7f1b-8591-2fcf-d01c",
                         "scope": "model",
                         "affects": "self.entries.recursive.profiles.Ranged Weapons",
@@ -51401,7 +51401,7 @@
             ],
             "infoLinks": [
               {
-                "name": "深度打擊",
+                "name": "深入打擊",
                 "id": "656d-ce4d-57ab-b9b5",
                 "hidden": false,
                 "type": "rule",
@@ -52637,7 +52637,7 @@
               {
                 "infoLinks": [
                   {
-                    "name": "反制",
+                    "name": "針對",
                     "id": "e485-1629-2609-5ac6",
                     "hidden": false,
                     "type": "rule",
@@ -52718,7 +52718,7 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "反制步兵 4+，毀滅傷害，速射 1",
+                        "$text": "針對步兵 4+，毀滅傷害，速射 1",
                         "name": "關鍵字",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -52739,7 +52739,7 @@
               {
                 "infoLinks": [
                   {
-                    "name": "反制",
+                    "name": "針對",
                     "id": "c785-ba25-7c07-fc24",
                     "hidden": false,
                     "type": "rule",
@@ -52827,7 +52827,7 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "反制靈能者 2+，毀滅傷害，精準，速射 1",
+                        "$text": "針對靈能者 2+，毀滅傷害，精準，速射 1",
                         "name": "關鍵字",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -53743,7 +53743,7 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "反制步兵 4+",
+                        "$text": "針對步兵 4+",
                         "name": "關鍵字",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -53757,7 +53757,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "反制",
+                    "name": "針對",
                     "id": "f296-eca0-0b2a-729d",
                     "hidden": false,
                     "type": "rule",
@@ -55320,7 +55320,7 @@
     "entryLinks": [
       {
         "import": true,
-        "name": "艾絲翠德・瑟嘉與阿嘉莎・多蘭",
+        "name": "阿斯垂德·瑟加和阿加瑟·多蘭",
         "hidden": false,
         "type": "selectionEntry",
         "id": "29b2-5ee-95ac-8fe9",
@@ -55496,7 +55496,7 @@
       },
       {
         "import": true,
-        "name": "聖女塞勒斯汀",
+        "name": "聖塞萊斯汀",
         "hidden": false,
         "type": "selectionEntry",
         "id": "b8c3-9cfe-3ebe-6474",
