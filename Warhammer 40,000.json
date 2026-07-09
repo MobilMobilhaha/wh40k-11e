@@ -3407,7 +3407,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "Show Unaligned Forces",
+        "name": "顯示 中立/未結盟部隊",
         "hidden": false,
         "id": "2973-ea51-7f8d-5403"
       },
@@ -3474,7 +3474,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "Show Unaligned Fortifications",
+        "name": "顯示 中立/未結盟防禦工事",
         "hidden": false,
         "id": "e916-2cf4-a49d-b8c4"
       },
@@ -3490,7 +3490,7 @@
           },
           {
             "import": true,
-            "name": "Show Unaligned Forces",
+            "name": "顯示 中立/未結盟部隊",
             "hidden": false,
             "type": "selectionEntry",
             "id": "985-e753-2e94-859",
@@ -3498,7 +3498,7 @@
           },
           {
             "import": true,
-            "name": "Show Unaligned Fortifications",
+            "name": "顯示 中立/未結盟防禦工事",
             "hidden": false,
             "type": "selectionEntry",
             "id": "4d37-22c-a45c-64f8",
