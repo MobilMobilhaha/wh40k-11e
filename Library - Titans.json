@@ -14,25 +14,25 @@
             "targetId": "dbd4-63-af05-998",
             "id": "458e-9be6-36a7-ff4f",
             "primary": true,
-            "name": "載具"
+            "name": "Vehicle"
           },
           {
             "targetId": "6dda-e157-334d-e93a",
             "id": "d660-c856-5017-7a00",
             "primary": false,
-            "name": "步行機具"
+            "name": "Walker"
           },
           {
             "targetId": "5929-ad51-d006-e008",
             "id": "3dc8-c586-d803-ccb4",
             "primary": false,
-            "name": "泰坦級"
+            "name": "Titanic"
           },
           {
             "targetId": "d666-e2c9-b6cc-5716",
             "id": "def2-d3b1-996d-9123",
             "primary": false,
-            "name": "高聳"
+            "name": "Towering"
           },
           {
             "targetId": "6999-afed-25ac-617b",
@@ -57,14 +57,14 @@
                 "field": "name"
               }
             ],
-            "name": "致命破滅",
+            "name": "Deadly Demise",
             "hidden": false,
             "type": "rule",
             "id": "7853-4236-50c1-c674",
             "targetId": "b68a-5ded-65ac-98c"
           },
           {
-            "name": "Super－重型 步行機具",
+            "name": "Super-Heavy Walker",
             "hidden": false,
             "type": "rule",
             "id": "a395-f793-f648-5eb9",
@@ -107,7 +107,7 @@
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "5+ （射程d）"
+                "$text": "5+ (Ranged)"
               }
             ],
             "name": "Warhound Titan",
@@ -119,8 +119,8 @@
           {
             "characteristics": [
               {
-                "$text": "每當 此模型 Advances，do 不 進行 一個 突進 擲骰 為 it。改為，直到該階段結束，增加 8\" 至 該 移動 屬性 此模型。",
-                "name": "說明",
+                "$text": "Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 8\" to the Move characteristic of this model.",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -133,12 +133,12 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 具有 1-13 耐傷 remaining，減去 8 從 此模型’s 目標控制 屬性 且 每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
-                "name": "說明",
+                "$text": "While this model has 1-13 wounds remaining, subtract 8 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "傷害d: 1-13 wounds remaining",
+            "name": "Damaged: 1-13 wounds remaining",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -147,8 +147,8 @@
           {
             "characteristics": [
               {
-                "$text": "每當 你 目標 此模型 具有 一個 策略，你 必須 spend 兩次 該 策略’s stated CP 花費 至 do so。",
-                "name": "說明",
+                "$text": "Each time you target this model with a Stratagem, you must spend twice that Stratagem’s stated CP cost to do so.",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -185,8 +185,8 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "近戰",
-                        "name": "射程",
+                        "$text": "Melee",
+                        "name": "Range",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -216,7 +216,7 @@
                       },
                       {
                         "$text": "-",
-                        "name": "關鍵詞",
+                        "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
@@ -230,7 +230,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "武器 Modifications",
+                    "name": "Weapon Modifications",
                     "hidden": false,
                     "id": "b708-5d33-f35c-cc34",
                     "type": "selectionEntryGroup",
@@ -290,7 +290,7 @@
                         "characteristics": [
                           {
                             "$text": "48\"",
-                            "name": "射程",
+                            "name": "Range",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -319,12 +319,12 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "連擊 1",
-                            "name": "關鍵詞",
+                            "$text": "Sustained Hits 1",
+                            "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "Warhound vulcan mega－爆彈槍",
+                        "name": "Warhound vulcan mega-bolter",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "hidden": false,
@@ -333,7 +333,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "連擊",
+                        "name": "Sustained Hits",
                         "id": "4791-7cd7-f704-27c2",
                         "hidden": false,
                         "type": "rule",
@@ -350,7 +350,7 @@
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "武器 Modifications",
+                        "name": "Weapon Modifications",
                         "hidden": false,
                         "id": "b557-6d2c-a4a8-962a",
                         "type": "selectionEntryGroup",
@@ -360,7 +360,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Warhound vulcan mega－爆彈槍",
+                    "name": "Warhound vulcan mega-bolter",
                     "hidden": false,
                     "id": "6b81-c1fe-9fec-803f"
                   },
@@ -380,7 +380,7 @@
                         "characteristics": [
                           {
                             "$text": "24\"",
-                            "name": "射程",
+                            "name": "Range",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -409,8 +409,8 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "無視掩體，洪流",
-                            "name": "關鍵詞",
+                            "$text": "Ignores Cover, Torrent",
+                            "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
@@ -423,14 +423,14 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "無視掩體",
+                        "name": "Ignores Cover",
                         "id": "9bcf-19af-34e8-7f1b",
                         "hidden": false,
                         "type": "rule",
                         "targetId": "4640-43e7-30b-215a"
                       },
                       {
-                        "name": "洪流",
+                        "name": "Torrent",
                         "id": "fa26-eb85-bcbd-e381",
                         "hidden": false,
                         "type": "rule",
@@ -440,7 +440,7 @@
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "武器 Modifications",
+                        "name": "Weapon Modifications",
                         "hidden": false,
                         "id": "20de-76e4-8295-e441",
                         "type": "selectionEntryGroup",
@@ -450,7 +450,7 @@
                     ],
                     "categoryLinks": [
                       {
-                        "name": "Attacks Dx 武器",
+                        "name": "Attacks Dx Weapon",
                         "hidden": false,
                         "id": "b58a-4b86-f661-924e",
                         "targetId": "e993-e086-6de1-12af",
@@ -494,7 +494,7 @@
                         "characteristics": [
                           {
                             "$text": "72\"",
-                            "name": "射程",
+                            "name": "Range",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -523,12 +523,12 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸",
-                            "name": "關鍵詞",
+                            "$text": "Blast",
+                            "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "➤ Warhound 電漿 blastgun - standard",
+                        "name": "➤ Warhound plasma blastgun - standard",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "hidden": false,
@@ -538,7 +538,7 @@
                         "characteristics": [
                           {
                             "$text": "72\"",
-                            "name": "射程",
+                            "name": "Range",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -567,12 +567,12 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸，危險",
-                            "name": "關鍵詞",
+                            "$text": "Blast, Hazardous",
+                            "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "➤ Warhound 電漿 blastgun - supercharge",
+                        "name": "➤ Warhound plasma blastgun - supercharge",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "hidden": false,
@@ -581,14 +581,14 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "爆炸",
+                        "name": "Blast",
                         "id": "c9d-ab16-afa7-9262",
                         "hidden": false,
                         "type": "rule",
                         "targetId": "6c1f-1cf7-ff25-c99e"
                       },
                       {
-                        "name": "危險",
+                        "name": "Hazardous",
                         "id": "8181-1bd2-f5e4-acbb",
                         "hidden": false,
                         "type": "rule",
@@ -598,7 +598,7 @@
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "武器 Modifications",
+                        "name": "Weapon Modifications",
                         "hidden": false,
                         "id": "ae0c-e463-3558-bc9c",
                         "type": "selectionEntryGroup",
@@ -608,7 +608,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Warhound 電漿 blastgun",
+                    "name": "Warhound plasma blastgun",
                     "hidden": false,
                     "id": "ad16-60c0-a420-4295"
                   },
@@ -628,7 +628,7 @@
                         "characteristics": [
                           {
                             "$text": "72\"",
-                            "name": "射程",
+                            "name": "Range",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -657,12 +657,12 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸",
-                            "name": "關鍵詞",
+                            "$text": "Blast",
+                            "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "Warhound turbo－laser 毀滅型",
+                        "name": "Warhound turbo-laser destructor",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "hidden": false,
@@ -671,7 +671,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "爆炸",
+                        "name": "Blast",
                         "id": "42d0-36a7-941-598f",
                         "hidden": false,
                         "type": "rule",
@@ -681,7 +681,7 @@
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "武器 Modifications",
+                        "name": "Weapon Modifications",
                         "hidden": false,
                         "id": "7074-cdca-e217-beb0",
                         "type": "selectionEntryGroup",
@@ -691,7 +691,7 @@
                     ],
                     "categoryLinks": [
                       {
-                        "name": "傷害 Dx 武器",
+                        "name": "Damage Dx Weapon",
                         "hidden": false,
                         "id": "d3a3-3a23-18db-fca5",
                         "targetId": "4986-bf86-beb4-13ac",
@@ -700,12 +700,12 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Warhound turbo－laser 毀滅型",
+                    "name": "Warhound turbo-laser destructor",
                     "hidden": false,
                     "id": "edca-c231-b8ed-93ff"
                   }
                 ],
-                "name": "武器",
+                "name": "Weapons",
                 "id": "67aa-cbe0-95c0-673f",
                 "hidden": false
               }
@@ -970,25 +970,25 @@
             "targetId": "dbd4-63-af05-998",
             "id": "bc8e-2a5-489d-795f",
             "primary": true,
-            "name": "載具"
+            "name": "Vehicle"
           },
           {
             "targetId": "6dda-e157-334d-e93a",
             "id": "6086-fa6a-9586-9281",
             "primary": false,
-            "name": "步行機具"
+            "name": "Walker"
           },
           {
             "targetId": "5929-ad51-d006-e008",
             "id": "e402-9863-f790-1329",
             "primary": false,
-            "name": "泰坦級"
+            "name": "Titanic"
           },
           {
             "targetId": "d666-e2c9-b6cc-5716",
             "id": "cff2-da3c-2493-8fe1",
             "primary": false,
-            "name": "高聳"
+            "name": "Towering"
           },
           {
             "targetId": "8823-94b2-dd20-1242",
@@ -1013,14 +1013,14 @@
                 "field": "name"
               }
             ],
-            "name": "致命破滅",
+            "name": "Deadly Demise",
             "hidden": false,
             "type": "rule",
             "id": "675d-958f-d4b0-ffc",
             "targetId": "b68a-5ded-65ac-98c"
           },
           {
-            "name": "Super－重型 步行機具",
+            "name": "Super-Heavy Walker",
             "hidden": false,
             "type": "rule",
             "id": "4b1d-d3ad-8844-277a",
@@ -1031,12 +1031,12 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 具有 1-20 耐傷 remaining，減去 10 從 此模型’s 目標控制 屬性 且 每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
-                "name": "說明",
+                "$text": "While this model has 1-20 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "傷害d: 1-20 wounds remaining",
+            "name": "Damaged: 1-20 wounds remaining",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -1077,7 +1077,7 @@
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "5+ （射程d）"
+                "$text": "5+ (Ranged)"
               }
             ],
             "name": "Reaver Titan",
@@ -1089,12 +1089,12 @@
           {
             "characteristics": [
               {
-                "$text": "此模型 是 符合資格 至 射擊 且 宣告衝鋒 於 一個 回合 於 which it Fell 後撤。",
-                "name": "說明",
+                "$text": "This model is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "God－machine",
+            "name": "God-machine",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -1103,8 +1103,8 @@
           {
             "characteristics": [
               {
-                "$text": "每當 你 目標 此模型 具有 一個 策略，你 必須 spend three times 該 策略’s stated CP 花費 至 do so。",
-                "name": "說明",
+                "$text": "Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so.",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -1169,7 +1169,7 @@
                         "characteristics": [
                           {
                             "$text": "72\"",
-                            "name": "射程",
+                            "name": "Range",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -1198,8 +1198,8 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "連擊 1",
-                            "name": "關鍵詞",
+                            "$text": "Sustained Hits 1",
+                            "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
@@ -1212,7 +1212,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "連擊",
+                        "name": "Sustained Hits",
                         "id": "17d9-de0a-1f2b-e9e8",
                         "hidden": false,
                         "type": "rule",
@@ -1222,7 +1222,7 @@
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "武器 Modifications",
+                        "name": "Weapon Modifications",
                         "hidden": false,
                         "id": "090f-71a7-a473-39e6",
                         "type": "selectionEntryGroup",
@@ -1267,7 +1267,7 @@
                         "characteristics": [
                           {
                             "$text": "72\"",
-                            "name": "射程",
+                            "name": "Range",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -1296,8 +1296,8 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸",
-                            "name": "關鍵詞",
+                            "$text": "Blast",
+                            "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
@@ -1310,7 +1310,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "爆炸",
+                        "name": "Blast",
                         "id": "794d-e5a9-6ced-8869",
                         "hidden": false,
                         "type": "rule",
@@ -1320,7 +1320,7 @@
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "武器 Modifications",
+                        "name": "Weapon Modifications",
                         "hidden": false,
                         "id": "8d03-5e3d-79b2-9688",
                         "type": "selectionEntryGroup",
@@ -1350,7 +1350,7 @@
                         "characteristics": [
                           {
                             "$text": "48\"",
-                            "name": "射程",
+                            "name": "Range",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -1379,12 +1379,12 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸，熱熔 4",
-                            "name": "關鍵詞",
+                            "$text": "Blast, Melta 4",
+                            "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "Reaver 熱熔 炮",
+                        "name": "Reaver melta cannon",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "hidden": false,
@@ -1393,14 +1393,14 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "爆炸",
+                        "name": "Blast",
                         "id": "c021-6bc5-3826-efe8",
                         "hidden": false,
                         "type": "rule",
                         "targetId": "6c1f-1cf7-ff25-c99e"
                       },
                       {
-                        "name": "熱熔",
+                        "name": "Melta",
                         "id": "1b08-2c86-9861-695a",
                         "hidden": false,
                         "type": "rule",
@@ -1410,7 +1410,7 @@
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "武器 Modifications",
+                        "name": "Weapon Modifications",
                         "hidden": false,
                         "id": "bd13-37df-f74e-0d9f",
                         "type": "selectionEntryGroup",
@@ -1420,7 +1420,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Reaver 熱熔 炮",
+                    "name": "Reaver melta cannon",
                     "hidden": false,
                     "id": "fce9-1859-d02-e0b6"
                   },
@@ -1440,7 +1440,7 @@
                         "characteristics": [
                           {
                             "$text": "120\"",
-                            "name": "射程",
+                            "name": "Range",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -1469,12 +1469,12 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸，重型",
-                            "name": "關鍵詞",
+                            "$text": "Blast, Heavy",
+                            "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "Reaver volcano 炮",
+                        "name": "Reaver volcano cannon",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "hidden": false,
@@ -1483,14 +1483,14 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "爆炸",
+                        "name": "Blast",
                         "id": "e6ac-774-5bbe-6166",
                         "hidden": false,
                         "type": "rule",
                         "targetId": "6c1f-1cf7-ff25-c99e"
                       },
                       {
-                        "name": "重型",
+                        "name": "Heavy",
                         "id": "d78f-9441-78e3-6a7d",
                         "hidden": false,
                         "type": "rule",
@@ -1500,7 +1500,7 @@
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "武器 Modifications",
+                        "name": "Weapon Modifications",
                         "hidden": false,
                         "id": "e060-2a52-2111-30d1",
                         "type": "selectionEntryGroup",
@@ -1510,7 +1510,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Reaver volcano 炮",
+                    "name": "Reaver volcano cannon",
                     "hidden": false,
                     "id": "8cec-19a1-6e8d-90d2"
                   },
@@ -1529,8 +1529,8 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "近戰",
-                            "name": "射程",
+                            "$text": "Melee",
+                            "name": "Range",
                             "typeId": "914c-b413-91e3-a132"
                           },
                           {
@@ -1560,11 +1560,11 @@
                           },
                           {
                             "$text": "-",
-                            "name": "關鍵詞",
+                            "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ],
-                        "name": "➤ Reaver 動力拳套 - strike",
+                        "name": "➤ Reaver power fist - strike",
                         "typeId": "8a40-4aaa-c780-9046",
                         "typeName": "Melee Weapons",
                         "hidden": false,
@@ -1573,8 +1573,8 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "近戰",
-                            "name": "射程",
+                            "$text": "Melee",
+                            "name": "Range",
                             "typeId": "914c-b413-91e3-a132"
                           },
                           {
@@ -1604,11 +1604,11 @@
                           },
                           {
                             "$text": "-",
-                            "name": "關鍵詞",
+                            "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ],
-                        "name": "➤ Reaver 動力拳套 - sweep",
+                        "name": "➤ Reaver power fist - sweep",
                         "typeId": "8a40-4aaa-c780-9046",
                         "typeName": "Melee Weapons",
                         "hidden": false,
@@ -1618,7 +1618,7 @@
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "武器 Modifications",
+                        "name": "Weapon Modifications",
                         "hidden": false,
                         "id": "a714-5a37-b47d-edb6",
                         "type": "selectionEntryGroup",
@@ -1628,12 +1628,12 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Reaver 動力拳套",
+                    "name": "Reaver power fist",
                     "hidden": false,
                     "id": "1f9c-1176-b34c-540e"
                   }
                 ],
-                "name": "武器",
+                "name": "Weapons",
                 "id": "c009-c6dd-bfe2-f61f",
                 "hidden": false
               }
@@ -1662,8 +1662,8 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "近戰",
-                        "name": "射程",
+                        "$text": "Melee",
+                        "name": "Range",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -1693,7 +1693,7 @@
                       },
                       {
                         "$text": "-",
-                        "name": "關鍵詞",
+                        "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
@@ -1707,7 +1707,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "武器 Modifications",
+                    "name": "Weapon Modifications",
                     "hidden": false,
                     "id": "1be0-a1c2-9254-1aea",
                     "type": "selectionEntryGroup",
@@ -1745,7 +1745,7 @@
                     "characteristics": [
                       {
                         "$text": "200\"",
-                        "name": "射程",
+                        "name": "Range",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
@@ -1774,12 +1774,12 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "爆炸，間接射擊",
-                        "name": "關鍵詞",
+                        "$text": "Blast, Indirect Fire",
+                        "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "Reaver apocalypse 發射器",
+                    "name": "Reaver apocalypse launcher",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "Ranged Weapons",
                     "hidden": false,
@@ -1788,14 +1788,14 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "爆炸",
+                    "name": "Blast",
                     "id": "e436-569b-f055-a681",
                     "hidden": false,
                     "type": "rule",
                     "targetId": "6c1f-1cf7-ff25-c99e"
                   },
                   {
-                    "name": "間接射擊",
+                    "name": "Indirect Fire",
                     "id": "635b-c1be-ff1a-c154",
                     "hidden": false,
                     "type": "rule",
@@ -1805,7 +1805,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "武器 Modifications",
+                    "name": "Weapon Modifications",
                     "hidden": false,
                     "id": "e14f-a338-4bd8-72ac",
                     "type": "selectionEntryGroup",
@@ -1815,7 +1815,7 @@
                 ],
                 "categoryLinks": [
                   {
-                    "name": "Attacks Dx 武器",
+                    "name": "Attacks Dx Weapon",
                     "hidden": false,
                     "id": "6824-6333-893c-ac28",
                     "targetId": "e993-e086-6de1-12af",
@@ -1824,7 +1824,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Reaver apocalypse 發射器",
+                "name": "Reaver apocalypse launcher",
                 "hidden": false,
                 "id": "8abb-ddaf-f190-e721"
               }
@@ -2089,31 +2089,31 @@
             "targetId": "dbd4-63-af05-998",
             "id": "21d9-cf6-12b0-7eb9",
             "primary": true,
-            "name": "載具"
+            "name": "Vehicle"
           },
           {
             "targetId": "6dda-e157-334d-e93a",
             "id": "af3-20b0-45d5-c50f",
             "primary": false,
-            "name": "步行機具"
+            "name": "Walker"
           },
           {
             "targetId": "5929-ad51-d006-e008",
             "id": "e4c6-53b4-31f2-3f85",
             "primary": false,
-            "name": "泰坦級"
+            "name": "Titanic"
           },
           {
             "targetId": "d666-e2c9-b6cc-5716",
             "id": "6ec8-f70f-8d43-121a",
             "primary": false,
-            "name": "高聳"
+            "name": "Towering"
           },
           {
             "targetId": "72ab-6dc9-1f0d-5624",
             "id": "8bef-1b6f-6230-bb21",
             "primary": false,
-            "name": "Warbringer 復仇 Titan"
+            "name": "Warbringer Nemesis Titan"
           },
           {
             "name": "Frame",
@@ -2132,14 +2132,14 @@
                 "field": "name"
               }
             ],
-            "name": "致命破滅",
+            "name": "Deadly Demise",
             "hidden": false,
             "type": "rule",
             "id": "4196-c889-f794-c05",
             "targetId": "b68a-5ded-65ac-98c"
           },
           {
-            "name": "Super－重型 步行機具",
+            "name": "Super-Heavy Walker",
             "hidden": false,
             "type": "rule",
             "id": "eca1-136b-287-48e1",
@@ -2150,12 +2150,12 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 具有 1-26 耐傷 remaining，減去 10 從 此模型’s 目標控制 屬性 且 每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
-                "name": "說明",
+                "$text": "While this model has 1-26 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "傷害d: 1-26 wounds remaining",
+            "name": "Damaged: 1-26 wounds remaining",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -2196,10 +2196,10 @@
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "5+ （射程d）"
+                "$text": "5+ (Ranged)"
               }
             ],
-            "name": "Warbringer 復仇 Titan",
+            "name": "Warbringer Nemesis Titan",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -2208,8 +2208,8 @@
           {
             "characteristics": [
               {
-                "$text": "於 你的 射擊 階段，之後 此模型 具有 shot，選擇 一個 敵方單位 命中 由 一個 或 更多 的 那些 攻擊。直到 該 結束 的 該 階段，每當 一個 友方 帝國 模型 進行一次攻擊 該 目標為 該 敵方單位，於 一個 暴擊致傷，improve 該 穿甲 屬性 的 該 攻擊 由 1。",
-                "name": "說明",
+                "$text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly IMPERIUM model makes an attack that targets that enemy unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1.",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -2230,7 +2230,7 @@
                 "field": "hidden"
               }
             ],
-            "name": "泰坦級 Fire 支援",
+            "name": "Titanic Fire Support",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -2239,8 +2239,8 @@
           {
             "characteristics": [
               {
-                "$text": "於 你的 射擊 階段，之後 此模型 具有 shot，選擇 一個 敵方單位 命中 由 一個 或 更多 的 那些 攻擊。直到 該 結束 的 該 階段，每當 一個 友方 混沌 模型 進行一次攻擊 該 目標為 該 敵方單位，於 一個 暴擊致傷，improve 該 穿甲 屬性 的 該 攻擊 由 1。",
-                "name": "說明",
+                "$text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly CHAOS model makes an attack that targets that enemy unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1.",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -2261,7 +2261,7 @@
                 "field": "hidden"
               }
             ],
-            "name": "泰坦級 Fire 支援",
+            "name": "Titanic Fire Support",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -2270,8 +2270,8 @@
           {
             "characteristics": [
               {
-                "$text": "每當 你 目標 此模型 具有 一個 策略，你 必須 spend three times 該 策略’s stated CP 花費 至 do so。",
-                "name": "說明",
+                "$text": "Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so.",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -2309,7 +2309,7 @@
                     "characteristics": [
                       {
                         "$text": "72\"",
-                        "name": "射程",
+                        "name": "Range",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
@@ -2338,8 +2338,8 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "針對FLY 4+",
-                        "name": "關鍵詞",
+                        "$text": "Anti-FLY 4+",
+                        "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
@@ -2362,7 +2362,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "武器 Modifications",
+                    "name": "Weapon Modifications",
                     "hidden": false,
                     "id": "e7ec-82ac-4d88-111e",
                     "type": "selectionEntryGroup",
@@ -2400,7 +2400,7 @@
                     "characteristics": [
                       {
                         "$text": "36\"",
-                        "name": "射程",
+                        "name": "Range",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
@@ -2430,11 +2430,11 @@
                       },
                       {
                         "$text": "-",
-                        "name": "關鍵詞",
+                        "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "Ardex－defensor mauler",
+                    "name": "Ardex-defensor mauler",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "Ranged Weapons",
                     "hidden": false,
@@ -2444,7 +2444,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "武器 Modifications",
+                    "name": "Weapon Modifications",
                     "hidden": false,
                     "id": "b60b-bf71-0e65-abc7",
                     "type": "selectionEntryGroup",
@@ -2454,7 +2454,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Ardex－defensor mauler",
+                "name": "Ardex-defensor mauler",
                 "hidden": false,
                 "id": "a867-ddd1-9352-ffe5"
               },
@@ -2481,8 +2481,8 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "近戰",
-                        "name": "射程",
+                        "$text": "Melee",
+                        "name": "Range",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -2512,11 +2512,11 @@
                       },
                       {
                         "$text": "-",
-                        "name": "關鍵詞",
+                        "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "復仇 feet",
+                    "name": "Nemesis feet",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "Melee Weapons",
                     "hidden": false,
@@ -2526,7 +2526,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "武器 Modifications",
+                    "name": "Weapon Modifications",
                     "hidden": false,
                     "id": "dfa2-257a-1cde-06a2",
                     "type": "selectionEntryGroup",
@@ -2536,7 +2536,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "復仇 feet",
+                "name": "Nemesis feet",
                 "hidden": false,
                 "id": "d768-cb23-5cf0-b58"
               }
@@ -2568,7 +2568,7 @@
                         "characteristics": [
                           {
                             "$text": "480\"",
-                            "name": "射程",
+                            "name": "Range",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -2597,12 +2597,12 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸，間接射擊",
-                            "name": "關鍵詞",
+                            "$text": "Blast, Indirect Fire",
+                            "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "復仇 quake 炮",
+                        "name": "Nemesis quake cannon",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "hidden": false,
@@ -2611,14 +2611,14 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "爆炸",
+                        "name": "Blast",
                         "id": "3336-8148-7678-f3e8",
                         "hidden": false,
                         "type": "rule",
                         "targetId": "6c1f-1cf7-ff25-c99e"
                       },
                       {
-                        "name": "間接射擊",
+                        "name": "Indirect Fire",
                         "id": "fcd7-4084-9b3d-3939",
                         "hidden": false,
                         "type": "rule",
@@ -2628,7 +2628,7 @@
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "武器 Modifications",
+                        "name": "Weapon Modifications",
                         "hidden": false,
                         "id": "2850-ddcd-35cb-e206",
                         "type": "selectionEntryGroup",
@@ -2638,7 +2638,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "復仇 quake 炮",
+                    "name": "Nemesis quake cannon",
                     "hidden": false,
                     "id": "63ef-9709-7202-59a2"
                   },
@@ -2648,7 +2648,7 @@
                         "characteristics": [
                           {
                             "$text": "120\"",
-                            "name": "射程",
+                            "name": "Range",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -2677,12 +2677,12 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸",
-                            "name": "關鍵詞",
+                            "$text": "Blast",
+                            "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "復仇 volcano 炮",
+                        "name": "Nemesis volcano cannon",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "hidden": false,
@@ -2691,7 +2691,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "爆炸",
+                        "name": "Blast",
                         "id": "7e63-7727-59db-7294",
                         "hidden": false,
                         "type": "rule",
@@ -2701,7 +2701,7 @@
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "武器 Modifications",
+                        "name": "Weapon Modifications",
                         "hidden": false,
                         "id": "9aff-fe87-bae0-b300",
                         "type": "selectionEntryGroup",
@@ -2711,12 +2711,12 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "復仇 volcano 炮",
+                    "name": "Nemesis volcano cannon",
                     "hidden": false,
                     "id": "ef9a-353f-e5d7-9b42"
                   }
                 ],
-                "name": "復仇 武器",
+                "name": "Nemesis weapon",
                 "id": "8273-ddc7-1bea-6028",
                 "hidden": false,
                 "defaultSelectionEntryId": "63ef-9709-7202-59a2"
@@ -2772,7 +2772,7 @@
                         "characteristics": [
                           {
                             "$text": "72\"",
-                            "name": "射程",
+                            "name": "Range",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -2801,8 +2801,8 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "連擊 1",
-                            "name": "關鍵詞",
+                            "$text": "Sustained Hits 1",
+                            "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
@@ -2815,7 +2815,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "連擊",
+                        "name": "Sustained Hits",
                         "id": "a14a-eeee-9dd9-f7ae",
                         "hidden": false,
                         "type": "rule",
@@ -2825,7 +2825,7 @@
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "武器 Modifications",
+                        "name": "Weapon Modifications",
                         "hidden": false,
                         "id": "58e1-dbf1-49e1-c62f",
                         "type": "selectionEntryGroup",
@@ -2870,7 +2870,7 @@
                         "characteristics": [
                           {
                             "$text": "72\"",
-                            "name": "射程",
+                            "name": "Range",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -2899,8 +2899,8 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸",
-                            "name": "關鍵詞",
+                            "$text": "Blast",
+                            "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
@@ -2913,7 +2913,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "爆炸",
+                        "name": "Blast",
                         "id": "10cb-3d35-bd71-3ade",
                         "hidden": false,
                         "type": "rule",
@@ -2923,7 +2923,7 @@
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "武器 Modifications",
+                        "name": "Weapon Modifications",
                         "hidden": false,
                         "id": "537d-36b1-4ae6-47c3",
                         "type": "selectionEntryGroup",
@@ -2953,7 +2953,7 @@
                         "characteristics": [
                           {
                             "$text": "48\"",
-                            "name": "射程",
+                            "name": "Range",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -2982,12 +2982,12 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸，熱熔 4",
-                            "name": "關鍵詞",
+                            "$text": "Blast, Melta 4",
+                            "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "Reaver 熱熔 炮",
+                        "name": "Reaver melta cannon",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "hidden": false,
@@ -2996,14 +2996,14 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "爆炸",
+                        "name": "Blast",
                         "id": "278c-12ac-c17b-af69",
                         "hidden": false,
                         "type": "rule",
                         "targetId": "6c1f-1cf7-ff25-c99e"
                       },
                       {
-                        "name": "熱熔",
+                        "name": "Melta",
                         "id": "e856-a144-6ae7-f5a0",
                         "hidden": false,
                         "type": "rule",
@@ -3013,7 +3013,7 @@
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "武器 Modifications",
+                        "name": "Weapon Modifications",
                         "hidden": false,
                         "id": "37ac-f6a6-1ade-417b",
                         "type": "selectionEntryGroup",
@@ -3023,7 +3023,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Reaver 熱熔 炮",
+                    "name": "Reaver melta cannon",
                     "hidden": false,
                     "id": "5543-60ce-38f2-fd21"
                   },
@@ -3043,7 +3043,7 @@
                         "characteristics": [
                           {
                             "$text": "120\"",
-                            "name": "射程",
+                            "name": "Range",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -3072,12 +3072,12 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸，重型",
-                            "name": "關鍵詞",
+                            "$text": "Blast, Heavy",
+                            "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "Reaver volcano 炮",
+                        "name": "Reaver volcano cannon",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "hidden": false,
@@ -3086,14 +3086,14 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "爆炸",
+                        "name": "Blast",
                         "id": "cf41-ece3-3aa3-569d",
                         "hidden": false,
                         "type": "rule",
                         "targetId": "6c1f-1cf7-ff25-c99e"
                       },
                       {
-                        "name": "重型",
+                        "name": "Heavy",
                         "id": "b8dc-da7-54ff-f557",
                         "hidden": false,
                         "type": "rule",
@@ -3103,7 +3103,7 @@
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "武器 Modifications",
+                        "name": "Weapon Modifications",
                         "hidden": false,
                         "id": "32e9-9097-02fb-d630",
                         "type": "selectionEntryGroup",
@@ -3113,12 +3113,12 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Reaver volcano 炮",
+                    "name": "Reaver volcano cannon",
                     "hidden": false,
                     "id": "dfbf-f81d-55a4-58d6"
                   }
                 ],
-                "name": "武器",
+                "name": "Weapons",
                 "id": "b8fa-acab-2bbd-df6d",
                 "hidden": false
               }
@@ -3366,7 +3366,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "Warbringer 復仇 Titan",
+        "name": "Warbringer Nemesis Titan",
         "hidden": false,
         "id": "8e6f-4e09-12d5-fafd"
       },
@@ -3383,25 +3383,25 @@
             "targetId": "dbd4-63-af05-998",
             "id": "4d74-d639-501-ca96",
             "primary": true,
-            "name": "載具"
+            "name": "Vehicle"
           },
           {
             "targetId": "6dda-e157-334d-e93a",
             "id": "aa8b-3dd4-c4ca-7471",
             "primary": false,
-            "name": "步行機具"
+            "name": "Walker"
           },
           {
             "targetId": "5929-ad51-d006-e008",
             "id": "c6c9-c55c-1cab-bcb6",
             "primary": false,
-            "name": "泰坦級"
+            "name": "Titanic"
           },
           {
             "targetId": "d666-e2c9-b6cc-5716",
             "id": "c5b1-b774-797d-819b",
             "primary": false,
-            "name": "高聳"
+            "name": "Towering"
           },
           {
             "targetId": "ffaf-5045-d128-b402",
@@ -3426,14 +3426,14 @@
                 "field": "name"
               }
             ],
-            "name": "致命破滅",
+            "name": "Deadly Demise",
             "hidden": false,
             "type": "rule",
             "id": "6b9b-acab-dc-e55f",
             "targetId": "b68a-5ded-65ac-98c"
           },
           {
-            "name": "Super－重型 步行機具",
+            "name": "Super-Heavy Walker",
             "hidden": false,
             "type": "rule",
             "id": "58f8-286d-6b91-f180",
@@ -3444,12 +3444,12 @@
           {
             "characteristics": [
               {
-                "$text": "當 此模型 具有 1-33 耐傷 remaining，減去 15 從 此模型’s 目標控制 屬性 且 每當 此模型 進行一次攻擊，-1 至 該 命中擲骰。",
-                "name": "說明",
+                "$text": "While this model has 1-33 wounds remaining, subtract 15 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "傷害d: 1-33 wounds remaining",
+            "name": "Damaged: 1-33 wounds remaining",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -3490,7 +3490,7 @@
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "5+ （射程d）"
+                "$text": "5+ (Ranged)"
               }
             ],
             "name": "Warlord Titan",
@@ -3502,8 +3502,8 @@
           {
             "characteristics": [
               {
-                "$text": "於 你的 射擊 階段，之後 此模型 具有 shot，選擇 一個 敵方單位 命中 由 一個 或 更多 的 那些 攻擊。該單位 必須 受到 一個 戰鬥震懾測試。",
-                "name": "說明",
+                "$text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test.",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -3516,8 +3516,8 @@
           {
             "characteristics": [
               {
-                "$text": "每當 你 目標 此模型 具有 一個 策略，你 必須 spend four times 該 策略’s stated CP 花費 至 do so。",
-                "name": "說明",
+                "$text": "Each time you target this model with a Stratagem, you must spend four times that Stratagem’s stated CP cost to do so.",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -3567,7 +3567,7 @@
                         "characteristics": [
                           {
                             "$text": "48\"",
-                            "name": "射程",
+                            "name": "Range",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -3596,12 +3596,12 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "連擊 1",
-                            "name": "關鍵詞",
+                            "$text": "Sustained Hits 1",
+                            "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "Arioch 動力 利爪",
+                        "name": "Arioch power claw",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "hidden": false,
@@ -3610,8 +3610,8 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "近戰",
-                            "name": "射程",
+                            "$text": "Melee",
+                            "name": "Range",
                             "typeId": "914c-b413-91e3-a132"
                           },
                           {
@@ -3641,11 +3641,11 @@
                           },
                           {
                             "$text": "-",
-                            "name": "關鍵詞",
+                            "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ],
-                        "name": "➤ Arioch 動力 利爪 - strike",
+                        "name": "➤ Arioch power claw - strike",
                         "typeId": "8a40-4aaa-c780-9046",
                         "typeName": "Melee Weapons",
                         "hidden": false,
@@ -3654,8 +3654,8 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "近戰",
-                            "name": "射程",
+                            "$text": "Melee",
+                            "name": "Range",
                             "typeId": "914c-b413-91e3-a132"
                           },
                           {
@@ -3685,11 +3685,11 @@
                           },
                           {
                             "$text": "-",
-                            "name": "關鍵詞",
+                            "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ],
-                        "name": "➤ Arioch 動力 利爪 - sweep",
+                        "name": "➤ Arioch power claw - sweep",
                         "typeId": "8a40-4aaa-c780-9046",
                         "typeName": "Melee Weapons",
                         "hidden": false,
@@ -3698,7 +3698,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "連擊",
+                        "name": "Sustained Hits",
                         "id": "7dcb-4b9a-8669-ed81",
                         "hidden": false,
                         "type": "rule",
@@ -3708,7 +3708,7 @@
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "武器 Modifications",
+                        "name": "Weapon Modifications",
                         "hidden": false,
                         "id": "4686-28eb-7631-070e",
                         "type": "selectionEntryGroup",
@@ -3718,7 +3718,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Arioch 動力 利爪",
+                    "name": "Arioch power claw",
                     "hidden": false,
                     "id": "49e4-a425-ec23-ec3d"
                   },
@@ -3738,7 +3738,7 @@
                         "characteristics": [
                           {
                             "$text": "120\"",
-                            "name": "射程",
+                            "name": "Range",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -3767,12 +3767,12 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸",
-                            "name": "關鍵詞",
+                            "$text": "Blast",
+                            "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "Belicosa volcano 炮",
+                        "name": "Belicosa volcano cannon",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "hidden": false,
@@ -3781,7 +3781,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "爆炸",
+                        "name": "Blast",
                         "id": "4ad1-8572-2e55-9ca3",
                         "hidden": false,
                         "type": "rule",
@@ -3791,7 +3791,7 @@
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "武器 Modifications",
+                        "name": "Weapon Modifications",
                         "hidden": false,
                         "id": "8053-775a-83a2-a596",
                         "type": "selectionEntryGroup",
@@ -3801,7 +3801,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Belicosa volcano 炮",
+                    "name": "Belicosa volcano cannon",
                     "hidden": false,
                     "id": "3fdd-684e-3fd3-f143"
                   },
@@ -3829,7 +3829,7 @@
                         "characteristics": [
                           {
                             "$text": "100\"",
-                            "name": "射程",
+                            "name": "Range",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -3858,8 +3858,8 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "連擊 1",
-                            "name": "關鍵詞",
+                            "$text": "Sustained Hits 1",
+                            "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
@@ -3872,7 +3872,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "連擊",
+                        "name": "Sustained Hits",
                         "id": "fb06-5a33-2d37-b5ec",
                         "hidden": false,
                         "type": "rule",
@@ -3889,7 +3889,7 @@
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "武器 Modifications",
+                        "name": "Weapon Modifications",
                         "hidden": false,
                         "id": "7069-d48e-6521-063d",
                         "type": "selectionEntryGroup",
@@ -3919,7 +3919,7 @@
                         "characteristics": [
                           {
                             "$text": "280\"",
-                            "name": "射程",
+                            "name": "Range",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -3948,8 +3948,8 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸，無視掩體",
-                            "name": "關鍵詞",
+                            "$text": "Blast, Ignores Cover",
+                            "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
@@ -3972,7 +3972,7 @@
                             "join": ""
                           }
                         ],
-                        "name": "Mori quake 炮",
+                        "name": "Mori quake cannon",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "hidden": false,
@@ -3981,14 +3981,14 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "爆炸",
+                        "name": "Blast",
                         "id": "e73e-e455-df19-8870",
                         "hidden": false,
                         "type": "rule",
                         "targetId": "6c1f-1cf7-ff25-c99e"
                       },
                       {
-                        "name": "無視掩體",
+                        "name": "Ignores Cover",
                         "id": "bd83-ec9a-55d9-e126",
                         "hidden": false,
                         "type": "rule",
@@ -3998,7 +3998,7 @@
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "武器 Modifications",
+                        "name": "Weapon Modifications",
                         "hidden": false,
                         "id": "f92b-5cc1-4e28-128a",
                         "type": "selectionEntryGroup",
@@ -4008,7 +4008,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Mori quake 炮",
+                    "name": "Mori quake cannon",
                     "hidden": false,
                     "id": "8844-c4a-80cc-2acc"
                   },
@@ -4028,7 +4028,7 @@
                         "characteristics": [
                           {
                             "$text": "72\"",
-                            "name": "射程",
+                            "name": "Range",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -4057,12 +4057,12 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸",
-                            "name": "關鍵詞",
+                            "$text": "Blast",
+                            "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "➤ Sunfury 電漿 殲滅型 - standard",
+                        "name": "➤ Sunfury plasma annihilator - standard",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "hidden": false,
@@ -4072,7 +4072,7 @@
                         "characteristics": [
                           {
                             "$text": "72\"",
-                            "name": "射程",
+                            "name": "Range",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -4101,12 +4101,12 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸，危險",
-                            "name": "關鍵詞",
+                            "$text": "Blast, Hazardous",
+                            "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "➤ Sunfury 電漿 殲滅型 - supercharge",
+                        "name": "➤ Sunfury plasma annihilator - supercharge",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "hidden": false,
@@ -4115,14 +4115,14 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "爆炸",
+                        "name": "Blast",
                         "id": "73c-bb32-48ca-ae66",
                         "hidden": false,
                         "type": "rule",
                         "targetId": "6c1f-1cf7-ff25-c99e"
                       },
                       {
-                        "name": "危險",
+                        "name": "Hazardous",
                         "id": "150b-f2ac-bcda-7b89",
                         "hidden": false,
                         "type": "rule",
@@ -4132,7 +4132,7 @@
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "武器 Modifications",
+                        "name": "Weapon Modifications",
                         "hidden": false,
                         "id": "686b-55f1-0173-6d78",
                         "type": "selectionEntryGroup",
@@ -4142,12 +4142,12 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Sunfury 電漿 殲滅型",
+                    "name": "Sunfury plasma annihilator",
                     "hidden": false,
                     "id": "403d-7cf-5147-cdb2"
                   }
                 ],
-                "name": "Main 武器",
+                "name": "Main weapons",
                 "id": "bebc-1c05-79ee-864",
                 "hidden": false,
                 "defaultSelectionEntryId": "49e4-a425-ec23-ec3d"
@@ -4198,7 +4198,7 @@
                             "characteristics": [
                               {
                                 "$text": "200\"",
-                                "name": "射程",
+                                "name": "Range",
                                 "typeId": "9896-9419-16a1-92fc"
                               },
                               {
@@ -4227,12 +4227,12 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "爆炸，間接射擊",
-                                "name": "關鍵詞",
+                                "$text": "Blast, Indirect Fire",
+                                "name": "Keywords",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ],
-                            "name": "Apocalypse 發射器",
+                            "name": "Apocalypse launcher",
                             "typeId": "f77d-b953-8fa4-b762",
                             "typeName": "Ranged Weapons",
                             "hidden": false,
@@ -4241,14 +4241,14 @@
                         ],
                         "infoLinks": [
                           {
-                            "name": "爆炸",
+                            "name": "Blast",
                             "id": "692c-33a2-94b5-7821",
                             "hidden": false,
                             "type": "rule",
                             "targetId": "6c1f-1cf7-ff25-c99e"
                           },
                           {
-                            "name": "間接射擊",
+                            "name": "Indirect Fire",
                             "id": "d6d0-2526-842d-d6d8",
                             "hidden": false,
                             "type": "rule",
@@ -4258,7 +4258,7 @@
                         "entryLinks": [
                           {
                             "import": true,
-                            "name": "武器 Modifications",
+                            "name": "Weapon Modifications",
                             "hidden": false,
                             "id": "1b10-9d45-39ba-1179",
                             "type": "selectionEntryGroup",
@@ -4268,7 +4268,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "Apocalypse 發射器",
+                        "name": "Apocalypse launcher",
                         "hidden": false,
                         "id": "a6bc-8a0e-bfb1-1cdd"
                       }
@@ -4305,7 +4305,7 @@
                             "characteristics": [
                               {
                                 "$text": "72\"",
-                                "name": "射程",
+                                "name": "Range",
                                 "typeId": "9896-9419-16a1-92fc"
                               },
                               {
@@ -4334,8 +4334,8 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "爆炸",
-                                "name": "關鍵詞",
+                                "$text": "Blast",
+                                "name": "Keywords",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ],
@@ -4349,7 +4349,7 @@
                         "entryLinks": [
                           {
                             "import": true,
-                            "name": "武器 Modifications",
+                            "name": "Weapon Modifications",
                             "hidden": false,
                             "id": "dd75-60ea-a43c-2b59",
                             "type": "selectionEntryGroup",
@@ -4371,7 +4371,7 @@
                     "id": "e628-d98c-6924-a2f3"
                   }
                 ],
-                "name": "Carapace 武器",
+                "name": "Carapace weapons",
                 "id": "9428-40c9-d286-72ea",
                 "hidden": false,
                 "defaultSelectionEntryId": "e409-db1a-6a8-8b52"
@@ -4402,7 +4402,7 @@
                     "characteristics": [
                       {
                         "$text": "48\"",
-                        "name": "射程",
+                        "name": "Range",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
@@ -4432,11 +4432,11 @@
                       },
                       {
                         "$text": "-",
-                        "name": "關鍵詞",
+                        "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "Ardex－defensor 雷射炮",
+                    "name": "Ardex-defensor lascannon",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "Ranged Weapons",
                     "hidden": false,
@@ -4446,7 +4446,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "武器 Modifications",
+                    "name": "Weapon Modifications",
                     "hidden": false,
                     "id": "7f59-d01a-2ff0-92d5",
                     "type": "selectionEntryGroup",
@@ -4456,7 +4456,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Ardex－defensor 雷射炮",
+                "name": "Ardex-defensor lascannon",
                 "hidden": false,
                 "id": "a9c2-75a5-2fa0-3931"
               },
@@ -4484,7 +4484,7 @@
                     "characteristics": [
                       {
                         "$text": "36\"",
-                        "name": "射程",
+                        "name": "Range",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
@@ -4514,11 +4514,11 @@
                       },
                       {
                         "$text": "-",
-                        "name": "關鍵詞",
+                        "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "Ardex－defensor mauler",
+                    "name": "Ardex-defensor mauler",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "Ranged Weapons",
                     "hidden": false,
@@ -4528,7 +4528,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "武器 Modifications",
+                    "name": "Weapon Modifications",
                     "hidden": false,
                     "id": "d8ee-3226-e9b7-537a",
                     "type": "selectionEntryGroup",
@@ -4538,7 +4538,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Ardex－defensor mauler",
+                "name": "Ardex-defensor mauler",
                 "hidden": false,
                 "id": "b401-e028-679b-7db3"
               },
@@ -4565,8 +4565,8 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "近戰",
-                        "name": "射程",
+                        "$text": "Melee",
+                        "name": "Range",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -4596,7 +4596,7 @@
                       },
                       {
                         "$text": "-",
-                        "name": "關鍵詞",
+                        "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
@@ -4610,7 +4610,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "武器 Modifications",
+                    "name": "Weapon Modifications",
                     "hidden": false,
                     "id": "fd2e-40a8-a620-023d",
                     "type": "selectionEntryGroup",
@@ -4942,12 +4942,12 @@
     ],
     "categoryEntries": [
       {
-        "name": "陣營: 泰坦軍團",
+        "name": "Faction: Adeptus Titanicus",
         "hidden": false,
         "id": "169a-d3f4-23b5-ba7"
       },
       {
-        "name": "陣營: 泰坦級us Traitoris",
+        "name": "Faction: Titanicus Traitoris",
         "hidden": false,
         "id": "fe43-3689-1f33-b408"
       },
@@ -4962,7 +4962,7 @@
         "id": "8823-94b2-dd20-1242"
       },
       {
-        "name": "Warbringer 復仇 Titan",
+        "name": "Warbringer Nemesis Titan",
         "hidden": false,
         "id": "72ab-6dc9-1f0d-5624"
       },
@@ -4983,7 +4983,7 @@
             "includeChildSelections": true
           }
         ],
-        "name": "泰坦級 支援",
+        "name": "Titanic Support",
         "hidden": false,
         "id": "c4de-48cd-335f-8a7f"
       }
@@ -4995,25 +4995,25 @@
             "targetId": "887b-ab87-92a2-20f5",
             "id": "d81-f233-2f0c-43af",
             "primary": true,
-            "name": "Allied 單位"
+            "name": "Allied Units"
           },
           {
             "targetId": "fe43-3689-1f33-b408",
             "id": "b3d5-81ce-2cad-fdb",
             "primary": false,
-            "name": "陣營: 泰坦級us Traitoris"
+            "name": "Faction: Titanicus Traitoris"
           },
           {
             "targetId": "4c00-2578-faf5-6918",
             "id": "4498-13e0-1556-5a69",
             "primary": false,
-            "name": "混沌"
+            "name": "Chaos"
           },
           {
             "targetId": "c4de-48cd-335f-8a7f",
             "id": "22c5-c02f-5615-c8d3",
             "primary": false,
-            "name": "泰坦級 支援"
+            "name": "Titanic Support"
           }
         ],
         "modifiers": [
@@ -5094,7 +5094,7 @@
             "field": "hidden"
           }
         ],
-        "comment": "混沌",
+        "comment": "Chaos",
         "import": true,
         "name": "Reaver Titan",
         "hidden": false,
@@ -5108,25 +5108,25 @@
             "targetId": "887b-ab87-92a2-20f5",
             "id": "814c-239e-91e4-653",
             "primary": true,
-            "name": "Allied 單位"
+            "name": "Allied Units"
           },
           {
             "targetId": "c4de-48cd-335f-8a7f",
             "id": "62e-36dd-e318-9d43",
             "primary": false,
-            "name": "泰坦級 支援"
+            "name": "Titanic Support"
           },
           {
             "targetId": "169a-d3f4-23b5-ba7",
             "id": "2ed2-357d-5d42-499c",
             "primary": false,
-            "name": "陣營: 泰坦軍團"
+            "name": "Faction: Adeptus Titanicus"
           },
           {
             "targetId": "aff3-d6a3-2a95-9dc",
             "id": "84b4-d0e1-805d-a450",
             "primary": false,
-            "name": "帝國"
+            "name": "Imperium"
           }
         ],
         "modifiers": [
@@ -5207,7 +5207,7 @@
             "field": "hidden"
           }
         ],
-        "comment": "帝國",
+        "comment": "Imperium",
         "import": true,
         "name": "Reaver Titan",
         "hidden": false,
@@ -5221,25 +5221,25 @@
             "targetId": "887b-ab87-92a2-20f5",
             "id": "be47-1a09-114c-9bd4",
             "primary": true,
-            "name": "Allied 單位"
+            "name": "Allied Units"
           },
           {
             "targetId": "fe43-3689-1f33-b408",
             "id": "565f-21c2-41f0-3df8",
             "primary": false,
-            "name": "陣營: 泰坦級us Traitoris"
+            "name": "Faction: Titanicus Traitoris"
           },
           {
             "targetId": "4c00-2578-faf5-6918",
             "id": "7805-21d-9adf-af74",
             "primary": false,
-            "name": "混沌"
+            "name": "Chaos"
           },
           {
             "targetId": "c4de-48cd-335f-8a7f",
             "id": "72de-c208-7df0-e9a5",
             "primary": false,
-            "name": "泰坦級 支援"
+            "name": "Titanic Support"
           }
         ],
         "modifiers": [
@@ -5320,9 +5320,9 @@
             "field": "hidden"
           }
         ],
-        "comment": "混沌",
+        "comment": "Chaos",
         "import": true,
-        "name": "Warbringer 復仇 Titan",
+        "name": "Warbringer Nemesis Titan",
         "hidden": false,
         "type": "selectionEntry",
         "id": "1564-6ed2-e6d4-4dbe",
@@ -5334,25 +5334,25 @@
             "targetId": "887b-ab87-92a2-20f5",
             "id": "4a77-4b45-a058-56bc",
             "primary": true,
-            "name": "Allied 單位"
+            "name": "Allied Units"
           },
           {
             "targetId": "fe43-3689-1f33-b408",
             "id": "9b3e-6c45-2d14-cfba",
             "primary": false,
-            "name": "陣營: 泰坦級us Traitoris"
+            "name": "Faction: Titanicus Traitoris"
           },
           {
             "targetId": "4c00-2578-faf5-6918",
             "id": "7982-72a8-1bb1-9d36",
             "primary": false,
-            "name": "混沌"
+            "name": "Chaos"
           },
           {
             "targetId": "c4de-48cd-335f-8a7f",
             "id": "fa3c-371c-68f0-923d",
             "primary": false,
-            "name": "泰坦級 支援"
+            "name": "Titanic Support"
           }
         ],
         "modifiers": [
@@ -5433,7 +5433,7 @@
             "field": "hidden"
           }
         ],
-        "comment": "混沌",
+        "comment": "Chaos",
         "import": true,
         "name": "Warhound Titan",
         "hidden": false,
@@ -5447,25 +5447,25 @@
             "targetId": "887b-ab87-92a2-20f5",
             "id": "8803-fdba-e8ea-67bc",
             "primary": true,
-            "name": "Allied 單位"
+            "name": "Allied Units"
           },
           {
             "targetId": "fe43-3689-1f33-b408",
             "id": "f95e-8269-2b3e-cc70",
             "primary": false,
-            "name": "陣營: 泰坦級us Traitoris"
+            "name": "Faction: Titanicus Traitoris"
           },
           {
             "targetId": "4c00-2578-faf5-6918",
             "id": "f260-dfed-e12d-923b",
             "primary": false,
-            "name": "混沌"
+            "name": "Chaos"
           },
           {
             "targetId": "c4de-48cd-335f-8a7f",
             "id": "9640-a35e-8f54-cb55",
             "primary": false,
-            "name": "泰坦級 支援"
+            "name": "Titanic Support"
           }
         ],
         "modifiers": [
@@ -5546,7 +5546,7 @@
             "field": "hidden"
           }
         ],
-        "comment": "混沌",
+        "comment": "Chaos",
         "import": true,
         "name": "Warlord Titan",
         "hidden": false,
@@ -5560,25 +5560,25 @@
             "targetId": "887b-ab87-92a2-20f5",
             "id": "872a-8cc5-36b2-bae0",
             "primary": true,
-            "name": "Allied 單位"
+            "name": "Allied Units"
           },
           {
             "targetId": "c4de-48cd-335f-8a7f",
             "id": "fa81-e0d3-881d-2d7f",
             "primary": false,
-            "name": "泰坦級 支援"
+            "name": "Titanic Support"
           },
           {
             "targetId": "169a-d3f4-23b5-ba7",
             "id": "75e2-1ad8-1ede-ad44",
             "primary": false,
-            "name": "陣營: 泰坦軍團"
+            "name": "Faction: Adeptus Titanicus"
           },
           {
             "targetId": "aff3-d6a3-2a95-9dc",
             "id": "c063-54b9-c750-52fc",
             "primary": false,
-            "name": "帝國"
+            "name": "Imperium"
           }
         ],
         "modifiers": [
@@ -5659,9 +5659,9 @@
             "field": "hidden"
           }
         ],
-        "comment": "帝國",
+        "comment": "Imperium",
         "import": true,
-        "name": "Warbringer 復仇 Titan",
+        "name": "Warbringer Nemesis Titan",
         "hidden": false,
         "type": "selectionEntry",
         "id": "ed2a-94a1-d5f8-a036",
@@ -5673,25 +5673,25 @@
             "targetId": "887b-ab87-92a2-20f5",
             "id": "c393-5059-c48c-e0b5",
             "primary": true,
-            "name": "Allied 單位"
+            "name": "Allied Units"
           },
           {
             "targetId": "c4de-48cd-335f-8a7f",
             "id": "c9d4-596f-772f-4ad7",
             "primary": false,
-            "name": "泰坦級 支援"
+            "name": "Titanic Support"
           },
           {
             "targetId": "169a-d3f4-23b5-ba7",
             "id": "435a-56ae-9e5f-c7e5",
             "primary": false,
-            "name": "陣營: 泰坦軍團"
+            "name": "Faction: Adeptus Titanicus"
           },
           {
             "targetId": "aff3-d6a3-2a95-9dc",
             "id": "bb34-e5e5-ab94-fe76",
             "primary": false,
-            "name": "帝國"
+            "name": "Imperium"
           }
         ],
         "modifiers": [
@@ -5772,7 +5772,7 @@
             "field": "hidden"
           }
         ],
-        "comment": "帝國",
+        "comment": "Imperium",
         "import": true,
         "name": "Warhound Titan",
         "hidden": false,
@@ -5786,25 +5786,25 @@
             "targetId": "887b-ab87-92a2-20f5",
             "id": "e997-54f-579a-dc11",
             "primary": true,
-            "name": "Allied 單位"
+            "name": "Allied Units"
           },
           {
             "targetId": "c4de-48cd-335f-8a7f",
             "id": "618a-9683-321c-a5e6",
             "primary": false,
-            "name": "泰坦級 支援"
+            "name": "Titanic Support"
           },
           {
             "targetId": "169a-d3f4-23b5-ba7",
             "id": "7587-7ddb-42c5-2813",
             "primary": false,
-            "name": "陣營: 泰坦軍團"
+            "name": "Faction: Adeptus Titanicus"
           },
           {
             "targetId": "aff3-d6a3-2a95-9dc",
             "id": "75b-8c15-3e3a-1a2d",
             "primary": false,
-            "name": "帝國"
+            "name": "Imperium"
           }
         ],
         "modifiers": [
@@ -5885,7 +5885,7 @@
             "field": "hidden"
           }
         ],
-        "comment": "帝國",
+        "comment": "Imperium",
         "import": true,
         "name": "Warlord Titan",
         "hidden": false,
@@ -5908,7 +5908,7 @@
           },
           {
             "import": true,
-            "name": "傳奇ary Veterans",
+            "name": "Legendary Veterans",
             "hidden": false,
             "id": "8d62-8062-bff9-9d28",
             "type": "selectionEntry",
@@ -5966,7 +5966,7 @@
               {
                 "type": "upgrade",
                 "import": true,
-                "name": "Enemy 單位 Destroyed",
+                "name": "Enemy Units Destroyed",
                 "hidden": false,
                 "id": "8721-e171-fbb6-d232"
               }
@@ -5982,14 +5982,14 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "武器 Modifications",
+                    "name": "Weapon Modifications",
                     "hidden": false,
                     "id": "e2e9-3e5e-f6ff-23af",
                     "type": "selectionEntry",
                     "targetId": "d1a5-4297-168b-11cd"
                   }
                 ],
-                "name": "武器 Modifications",
+                "name": "Weapon Modifications",
                 "id": "53be-1794-dec5-b798",
                 "hidden": false
               }
@@ -6021,7 +6021,7 @@
               },
               {
                 "import": true,
-                "name": "Pariah Nexus Blackstone 升級",
+                "name": "Pariah Nexus Blackstone Upgrades",
                 "hidden": false,
                 "id": "34d9-035f-7365-4d4a",
                 "type": "selectionEntryGroup",
