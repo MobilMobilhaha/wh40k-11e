@@ -1793,7 +1793,7 @@
             "targetId": "86aa-437f-260b-5cad"
           },
           {
-            "name": "勒歐爾德之傷害eceit (攻擊次數ura)",
+            "name": "欺詐之主（靈氣）",
             "id": "66fb-740a-84ad-e491",
             "hidden": true,
             "type": "profile",
@@ -3782,7 +3782,7 @@
             "type": "and"
           },
           {
-            "comment": "生命arrior 布伊歐夫歐爾姆歐恩斯勒阿烏格赫特姆歐德伊夫伊伊爾斯",
+            "comment": "戰士生體形態猛攻修正",
             "modifiers": [
               {
                 "type": "set-primary",
@@ -5066,7 +5066,7 @@
             "type": "and"
           },
           {
-            "comment": "生命arrior 布伊歐夫歐爾姆歐恩斯勒阿烏格赫特姆歐德伊夫伊伊爾斯",
+            "comment": "戰士生體形態猛攻修正",
             "modifiers": [
               {
                 "type": "set-primary",
@@ -16701,7 +16701,7 @@
                             "id": "a651-932c-cad2-cfc"
                           }
                         ],
-                        "name": "卡尼菲克斯力量cything 韌性alon",
+                        "name": "卡尼菲克斯鐮爪",
                         "id": "7a95-2f54-7352-bd0d",
                         "hidden": false,
                         "defaultSelectionEntryId": "a651-932c-cad2-cfc",
@@ -17021,7 +17021,7 @@
                             "id": "8d02-ef7c-e2b-1f12"
                           }
                         ],
-                        "name": "卡尼菲克斯伊克斯特爾阿力量cything 韌性alons",
+                        "name": "卡尼菲克斯額外鐮爪",
                         "id": "5f3d-a52c-cd27-c5fd",
                         "hidden": false,
                         "defaultSelectionEntryId": "8d02-ef7c-e2b-1f12",
@@ -17180,7 +17180,7 @@
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ],
-                            "name": "力量pine 布阿恩克斯",
+                            "name": "脊刺莢",
                             "typeId": "f77d-b953-8fa4-b762",
                             "typeName": "遠程武器",
                             "hidden": false,
@@ -17208,7 +17208,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "力量pine 布阿恩克斯",
+                        "name": "脊刺莢",
                         "hidden": false,
                         "id": "10-b267-2ecd-6233",
                         "sortIndex": 2
@@ -21241,7 +21241,7 @@
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "韌性win 斯特爾阿恩格勒伊特赫歐爾炮",
+                        "name": "雙聯裝絞棘炮",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "遠程武器",
                         "hidden": false,
@@ -21276,7 +21276,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "韌性win 斯特爾阿恩格勒伊特赫歐爾炮",
+                    "name": "雙聯裝絞棘炮",
                     "hidden": false,
                     "id": "109b-84f8-daf5-a67f"
                   },
@@ -21320,7 +21320,7 @@
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "韌性win 赫伊阿維伊維伊恩歐姆炮",
+                        "name": "雙聯裝重型毒液炮",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "遠程武器",
                         "hidden": false,
@@ -21364,7 +21364,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "韌性win 赫伊阿維伊維伊恩歐姆炮",
+                    "name": "雙聯裝重型毒液炮",
                     "hidden": false,
                     "id": "1b79-a02e-5101-25f9"
                   }
@@ -27384,7 +27384,7 @@
             "value": 0
           }
         ],
-        "comment": "射程d 生命arriors",
+        "comment": "遠程戰士",
         "id": "d9b4-8d0f-91f9-d114",
         "name": "泰倫戰士爪與鐮爪",
         "hidden": false,
@@ -32279,7 +32279,7 @@
                 "$text": "當一個友方 **泰倫蟲族** 單位位於此模型 6 吋內時，該單位中模型裝備的遠程武器獲得 **［突擊］** 與 **［致命命中］** 能力。"
               }
             ],
-            "name": "歐恩斯勒阿烏格赫特 (攻擊次數ura, 靈能)",
+            "name": "猛攻（靈氣，靈能）",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -33018,7 +33018,7 @@
           },
           {
             "type": "and",
-            "comment": "生命arrior 布伊歐夫歐爾姆歐恩斯勒阿烏格赫特姆歐德伊夫伊伊爾斯",
+            "comment": "戰士生體形態猛攻修正",
             "modifiers": [
               {
                 "type": "append",
@@ -33561,7 +33561,7 @@
             "includeChildForces": true
           }
         ],
-        "comment": "參考維伊爾斯伊歐恩夫歐爾斯普阿沃恩伊德單位s",
+        "comment": "生成單位參考版本",
         "type": "unit",
         "import": true,
         "name": "孢子雷（生化炮獸）",
