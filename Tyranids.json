@@ -3,7 +3,7 @@
     "categoryEntries": [
       {
         "id": "dc7d-ba0f-e6e-8599",
-        "name": "蟲巢暴君",
+        "name": "蟲群霸主",
         "hidden": false
       },
       {
@@ -147,12 +147,12 @@
         "id": "a80e-ff32-72b3-9ba3"
       },
       {
-        "name": "刺棘 海洛杜爾",
+        "name": "刺棘海洛杜爾",
         "hidden": false,
         "id": "4c30-3dbf-b2b7-3a7"
       },
       {
-        "name": "鐮刃 海洛杜爾",
+        "name": "鐮刃海洛杜爾",
         "hidden": false,
         "id": "88c0-f898-8500-5639"
       },
@@ -162,7 +162,7 @@
         "id": "7dcc-519b-45b-526b"
       },
       {
-        "name": " 海洛芬特",
+        "name": "海洛芬特",
         "hidden": false,
         "id": "c34e-980-ae84-3ff7"
       },
@@ -222,7 +222,7 @@
       },
       {
         "id": "fece-50fa-e019-b6c2",
-        "name": "蟲巢暴君",
+        "name": "蟲群霸主",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -552,7 +552,7 @@
       },
       {
         "import": true,
-        "name": "刺棘 海洛杜爾［傳奇］",
+        "name": "刺棘海洛杜爾［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "c08c-3f82-eca5-bc5b",
@@ -560,7 +560,7 @@
       },
       {
         "import": true,
-        "name": "鐮刃 海洛杜爾［傳奇］",
+        "name": "鐮刃海洛杜爾［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "ca37-6c54-394c-2803",
@@ -576,7 +576,7 @@
       },
       {
         "import": true,
-        "name": " 海洛芬特",
+        "name": "海洛芬特",
         "hidden": false,
         "type": "selectionEntry",
         "id": "c6bf-2379-d8c9-2ddf",
@@ -874,7 +874,7 @@
               {
                 "type": "append",
                 "field": "name",
-                "value": "德6"
+                "value": "D6"
               }
             ],
             "id": "9ae4-fb97-1652-8ad2",
@@ -1168,7 +1168,7 @@
                     ],
                     "costs": [
                       {
-                        "name": "pts",
+                        "name": "分",
                         "typeId": "51b2-306e-1021-d207",
                         "value": 0
                       }
@@ -1261,7 +1261,7 @@
                     ],
                     "costs": [
                       {
-                        "name": "pts",
+                        "name": "分",
                         "typeId": "51b2-306e-1021-d207",
                         "value": 0
                       }
@@ -1340,12 +1340,12 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 160
           },
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -1355,7 +1355,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -1435,7 +1435,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -1495,7 +1495,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -1651,7 +1651,7 @@
               }
             ],
             "id": "c06a-9ba8-68a2-17d0",
-            "name": "蟲巢暴君",
+            "name": "蟲群霸主",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位"
@@ -1719,7 +1719,7 @@
               {
                 "type": "append",
                 "field": "name",
-                "value": "德3"
+                "value": "D3"
               }
             ],
             "id": "245c-6475-1960-2a0d",
@@ -1788,7 +1788,7 @@
           },
           {
             "id": "c8ed-9841-781d-96c3",
-            "name": "蟲巢暴君",
+            "name": "蟲群霸主",
             "hidden": false,
             "targetId": "dc7d-ba0f-e6e-8599",
             "primary": false
@@ -1840,12 +1840,12 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 210
           },
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -1855,7 +1855,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -1965,7 +1965,7 @@
                 ],
                 "costs": [
                   {
-                    "name": "pts",
+                    "name": "分",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 0
                   }
@@ -2059,7 +2059,7 @@
                 ],
                 "costs": [
                   {
-                    "name": "pts",
+                    "name": "分",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 0
                   }
@@ -2119,7 +2119,7 @@
           }
         ],
         "id": "13f7-1a3-eff-7393",
-        "name": "蟲巢暴君",
+        "name": "蟲群霸主",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -2384,7 +2384,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 80
           }
@@ -2454,7 +2454,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -2514,7 +2514,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -2726,7 +2726,7 @@
                 ],
                 "costs": [
                   {
-                    "name": "pts",
+                    "name": "分",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 0
                   }
@@ -3061,7 +3061,7 @@
             ],
             "costs": [
               {
-                "name": "pts",
+                "name": "分",
                 "typeId": "51b2-306e-1021-d207",
                 "value": 0
               }
@@ -3076,12 +3076,12 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 140
           },
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -3091,7 +3091,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -3260,12 +3260,12 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 60
           },
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -3275,7 +3275,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -3539,7 +3539,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -3599,7 +3599,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -3653,7 +3653,7 @@
             "type": "and"
           },
           {
-            "comment": "戰士生體形態猛攻修正",
+            "comment": "武士生體形態猛攻修正",
             "modifiers": [
               {
                 "type": "set-primary",
@@ -3723,10 +3723,10 @@
               },
               {
                 "type": "append",
-                "value": "戰士生體形態猛攻",
+                "value": "武士生體形態猛攻",
                 "field": "annotation",
                 "scope": "root-entry",
-                "affects": "self.entries.recursive.profiles.單位",
+                "affects": "self.entries.recursive.profiles.Unit",
                 "join": ", ",
                 "conditions": [
                   {
@@ -3746,7 +3746,7 @@
                 "value": "5+",
                 "field": "55a7-5b54-c60d-11dc",
                 "scope": "root-entry",
-                "affects": "self.entries.recursive.profiles.單位",
+                "affects": "self.entries.recursive.profiles.Unit",
                 "conditions": [
                   {
                     "type": "atLeast",
@@ -3967,7 +3967,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "泰倫戰士爪與鐮爪",
+                    "name": "泰倫武士爪與鐮爪",
                     "hidden": false,
                     "id": "6666-26c0-47c3-445",
                     "type": "selectionEntry",
@@ -4296,7 +4296,7 @@
                         "$text": ""
                       }
                     ],
-                    "name": "泰倫戰士",
+                    "name": "泰倫武士",
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "單位",
                     "hidden": false,
@@ -4330,7 +4330,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "泰倫戰士爪與鐮爪",
+                    "name": "泰倫武士爪與鐮爪",
                     "hidden": false,
                     "id": "501-4b63-2c27-ff0b",
                     "type": "selectionEntry",
@@ -4565,7 +4565,7 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "泰倫戰士",
+                "name": "泰倫武士",
                 "hidden": false,
                 "id": "77c-c54c-a81d-865",
                 "defaultAmount": "1,1"
@@ -4603,7 +4603,7 @@
                 "field": "name"
               }
             ],
-            "name": "2-5 泰倫戰士",
+            "name": "2-5 泰倫武士",
             "id": "c8cd-0b97-80f1-ca84",
             "hidden": false,
             "sortIndex": 4
@@ -4677,7 +4677,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 75
           }
@@ -4921,7 +4921,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -4981,7 +4981,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -5035,7 +5035,7 @@
             "type": "and"
           },
           {
-            "comment": "戰士生體形態猛攻修正",
+            "comment": "武士生體形態猛攻修正",
             "modifiers": [
               {
                 "type": "set-primary",
@@ -5105,10 +5105,10 @@
               },
               {
                 "type": "append",
-                "value": "戰士生體形態猛攻",
+                "value": "武士生體形態猛攻",
                 "field": "annotation",
                 "scope": "root-entry",
-                "affects": "self.entries.recursive.profiles.單位",
+                "affects": "self.entries.recursive.profiles.Unit",
                 "join": ", ",
                 "conditions": [
                   {
@@ -5128,7 +5128,7 @@
                 "value": "5+",
                 "field": "55a7-5b54-c60d-11dc",
                 "scope": "root-entry",
-                "affects": "self.entries.recursive.profiles.單位",
+                "affects": "self.entries.recursive.profiles.Unit",
                 "conditions": [
                   {
                     "type": "atLeast",
@@ -5320,7 +5320,7 @@
                 ],
                 "costs": [
                   {
-                    "name": "pts",
+                    "name": "分",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 0
                   }
@@ -5358,7 +5358,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "泰倫戰士爪與鐮爪",
+                    "name": "泰倫武士爪與鐮爪",
                     "hidden": false,
                     "id": "b35-3a56-6366-f7ff",
                     "type": "selectionEntry",
@@ -5487,7 +5487,7 @@
                         "$text": ""
                       }
                     ],
-                    "name": "泰倫戰士",
+                    "name": "泰倫武士",
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "單位",
                     "hidden": false,
@@ -5496,7 +5496,7 @@
                 ],
                 "costs": [
                   {
-                    "name": "pts",
+                    "name": "分",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 0
                   }
@@ -5524,7 +5524,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "泰倫戰士爪與鐮爪",
+                    "name": "泰倫武士爪與鐮爪",
                     "hidden": false,
                     "id": "ebd5-18b7-cbbe-42e4",
                     "type": "selectionEntry",
@@ -5565,7 +5565,7 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "泰倫戰士",
+                "name": "泰倫武士",
                 "hidden": false,
                 "id": "b06f-f43f-b770-da19",
                 "collective": true
@@ -5603,7 +5603,7 @@
                 "field": "name"
               }
             ],
-            "name": "2-5 泰倫戰士",
+            "name": "2-5 泰倫武士",
             "id": "3b9d-c826-8810-3911",
             "hidden": false,
             "sortIndex": 4
@@ -5661,7 +5661,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "在對手的移動階段，若一個敵方單位結束一次移動時位於此單位 8 吋內，且此單位不在一個或多個敵方單位的交戰範圍內，則此單位可進行最多 D6 吋的普通移動。"
+                "$text": "在對手的移動階段，若一個敵方單位結束一次移動時位於此單位 8 吋內，且此單位不在敵方單位的交戰範圍內，則此單位可進行最多 D6 吋的普通移動。"
               }
             ],
             "modifiers": [
@@ -5736,7 +5736,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 60
           }
@@ -5791,7 +5791,7 @@
               {
                 "costs": [
                   {
-                    "name": "pts",
+                    "name": "分",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 0
                   }
@@ -7015,7 +7015,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -7075,7 +7075,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -7396,12 +7396,12 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 70
           },
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -7411,7 +7411,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -7562,7 +7562,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -7622,7 +7622,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -8114,7 +8114,7 @@
                   }
                 ],
                 "type": "set",
-                "value": "荷瑪蟲",
+                "value": "賀瑪蟲",
                 "field": "name"
               }
             ],
@@ -8250,7 +8250,7 @@
               {
                 "type": "append",
                 "field": "name",
-                "value": "德3"
+                "value": "D3"
               }
             ],
             "id": "1219-5397-f3de-cdc6",
@@ -8306,12 +8306,12 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 135
           },
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -8321,7 +8321,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -8438,7 +8438,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -8498,7 +8498,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -8892,12 +8892,12 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 80
           },
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -8907,7 +8907,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -9018,7 +9018,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -9078,7 +9078,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -9716,12 +9716,12 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 115
           },
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -9731,7 +9731,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -9850,7 +9850,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -9910,7 +9910,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -10162,12 +10162,12 @@
       {
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 180
           },
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -10177,7 +10177,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -10274,7 +10274,7 @@
             "modifiers": [
               {
                 "type": "append",
-                "value": "德3",
+                "value": "D3",
                 "field": "name"
               }
             ],
@@ -10467,7 +10467,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -10527,7 +10527,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -10929,12 +10929,12 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 45
           },
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -10944,7 +10944,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -11175,7 +11175,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -11235,7 +11235,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -11489,12 +11489,12 @@
                 ],
                 "costs": [
                   {
-                    "name": "pts",
+                    "name": "分",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 0
                   },
                   {
-                    "name": "遠征點數",
+                    "name": "遠征點",
                     "typeId": "b03b-c239-15a5-da55",
                     "value": 0
                   },
@@ -11504,7 +11504,7 @@
                     "value": 0
                   },
                   {
-                    "name": "遠征：經驗",
+                    "name": "遠征：經驗值",
                     "typeId": "a623-fe74-1d33-cddf",
                     "value": 0
                   },
@@ -11617,7 +11617,7 @@
               {
                 "type": "append",
                 "field": "name",
-                "value": "德3"
+                "value": "D3"
               }
             ],
             "id": "42fa-7ae3-ac9e-80fd",
@@ -11734,7 +11734,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 125
           }
@@ -11831,7 +11831,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -11891,7 +11891,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -12315,12 +12315,12 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 55
           },
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -12330,7 +12330,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -12535,7 +12535,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -12595,7 +12595,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -12901,7 +12901,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 45
           }
@@ -13085,7 +13085,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -13145,7 +13145,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -13788,7 +13788,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 100
           }
@@ -13955,7 +13955,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -14015,7 +14015,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -14342,7 +14342,7 @@
           {
             "costs": [
               {
-                "name": "pts",
+                "name": "分",
                 "typeId": "51b2-306e-1021-d207",
                 "value": 30
               }
@@ -14625,7 +14625,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 55
           }
@@ -14737,7 +14737,7 @@
             "modifiers": [
               {
                 "type": "append",
-                "value": "德3",
+                "value": "D3",
                 "field": "name"
               }
             ],
@@ -14790,12 +14790,12 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 140
           },
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -14805,7 +14805,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -14945,7 +14945,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -15005,7 +15005,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -15407,7 +15407,7 @@
           {
             "costs": [
               {
-                "name": "遠征點數",
+                "name": "遠征點",
                 "typeId": "b03b-c239-15a5-da55",
                 "value": 0
               },
@@ -15417,7 +15417,7 @@
                 "value": 0
               },
               {
-                "name": "遠征：經驗",
+                "name": "遠征：經驗值",
                 "typeId": "a623-fe74-1d33-cddf",
                 "value": 0
               },
@@ -15817,7 +15817,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -15877,7 +15877,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -15960,12 +15960,12 @@
         "id": "3f2c-85ec-d83c-4a2f",
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 60
           },
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -15975,7 +15975,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -16163,12 +16163,12 @@
             ],
             "costs": [
               {
-                "name": "pts",
+                "name": "分",
                 "typeId": "51b2-306e-1021-d207",
                 "value": 90
               },
               {
-                "name": "遠征點數",
+                "name": "遠征點",
                 "typeId": "b03b-c239-15a5-da55",
                 "value": 0
               },
@@ -16178,7 +16178,7 @@
                 "value": 0
               },
               {
-                "name": "遠征：經驗",
+                "name": "遠征：經驗值",
                 "typeId": "a623-fe74-1d33-cddf",
                 "value": 0
               },
@@ -17123,7 +17123,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -17183,7 +17183,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -17593,12 +17593,12 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 125
           },
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -17608,7 +17608,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -17715,7 +17715,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -17775,7 +17775,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -18223,12 +18223,12 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 80
           },
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -18238,7 +18238,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -18836,7 +18836,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -18896,7 +18896,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -19115,7 +19115,7 @@
             "modifiers": [
               {
                 "type": "append",
-                "value": "德6",
+                "value": "D6",
                 "field": "name"
               }
             ],
@@ -19304,7 +19304,7 @@
                     "hidden": false,
                     "costs": [
                       {
-                        "name": "pts",
+                        "name": "分",
                         "typeId": "51b2-306e-1021-d207",
                         "value": 20
                       }
@@ -19345,7 +19345,7 @@
                     "hidden": false,
                     "costs": [
                       {
-                        "name": "pts",
+                        "name": "分",
                         "typeId": "51b2-306e-1021-d207",
                         "value": 10
                       }
@@ -19366,12 +19366,12 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 180
           },
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -19381,7 +19381,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -19498,7 +19498,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -19558,7 +19558,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -19854,7 +19854,7 @@
             "modifiers": [
               {
                 "type": "append",
-                "value": "德3",
+                "value": "D3",
                 "field": "name"
               }
             ],
@@ -19885,12 +19885,12 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 170
           },
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -19900,7 +19900,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -20006,7 +20006,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -20066,7 +20066,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -21021,7 +21021,7 @@
               {
                 "type": "append",
                 "field": "name",
-                "value": "德3"
+                "value": "D3"
               }
             ],
             "id": "7ca-dd0d-45fd-b2e1",
@@ -21047,12 +21047,12 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 185
           },
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -21062,7 +21062,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -21168,7 +21168,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -21228,7 +21228,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -21500,7 +21500,7 @@
             "modifiers": [
               {
                 "type": "append",
-                "value": "德3",
+                "value": "D3",
                 "field": "name"
               }
             ],
@@ -21546,7 +21546,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 145
           }
@@ -21643,7 +21643,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -21703,7 +21703,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -22171,12 +22171,12 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 110
           },
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -22186,7 +22186,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -22288,7 +22288,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -22348,7 +22348,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -22954,7 +22954,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 55
           }
@@ -23096,7 +23096,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -23156,7 +23156,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -23307,7 +23307,7 @@
       {
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 340
           }
@@ -23335,7 +23335,7 @@
             "targetId": "4c30-3dbf-b2b7-3a7",
             "id": "5910-ad1f-d05d-f710",
             "primary": false,
-            "name": "刺棘 海洛杜爾"
+            "name": "刺棘海洛杜爾"
           },
           {
             "name": "骨架",
@@ -23350,7 +23350,7 @@
             "modifiers": [
               {
                 "type": "append",
-                "value": "德6",
+                "value": "D6",
                 "field": "name"
               }
             ],
@@ -23407,7 +23407,7 @@
                 "$text": ""
               }
             ],
-            "name": "刺棘 海洛杜爾",
+            "name": "刺棘海洛杜爾",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -23595,7 +23595,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -23655,7 +23655,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -23914,14 +23914,14 @@
         ],
         "type": "model",
         "import": true,
-        "name": "刺棘 海洛杜爾［傳奇］",
+        "name": "刺棘海洛杜爾［傳奇］",
         "hidden": false,
         "id": "afd0-a0ca-68c3-d912"
       },
       {
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 330
           }
@@ -23949,7 +23949,7 @@
             "targetId": "88c0-f898-8500-5639",
             "id": "fd5d-8380-cbc8-4127",
             "primary": false,
-            "name": "鐮刃 海洛杜爾"
+            "name": "鐮刃海洛杜爾"
           },
           {
             "name": "骨架",
@@ -23971,7 +23971,7 @@
             "modifiers": [
               {
                 "type": "append",
-                "value": "德6",
+                "value": "D6",
                 "field": "name"
               }
             ],
@@ -24021,7 +24021,7 @@
                 "$text": ""
               }
             ],
-            "name": "鐮刃 海洛杜爾",
+            "name": "鐮刃海洛杜爾",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -24209,7 +24209,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -24269,7 +24269,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -24537,14 +24537,14 @@
         ],
         "type": "model",
         "import": true,
-        "name": "鐮刃 海洛杜爾［傳奇］",
+        "name": "鐮刃海洛杜爾［傳奇］",
         "hidden": false,
         "id": "218c-639e-22e0-59ce"
       },
       {
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 610
           }
@@ -24848,7 +24848,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -24908,7 +24908,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -25242,7 +25242,7 @@
       {
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 810
           }
@@ -25288,7 +25288,7 @@
             "targetId": "c34e-980-ae84-3ff7",
             "id": "90a3-f6d9-db02-3e6f",
             "primary": false,
-            "name": " 海洛芬特"
+            "name": "海洛芬特"
           },
           {
             "name": "骨架",
@@ -25402,7 +25402,7 @@
                 "$text": "5+"
               }
             ],
-            "name": " 海洛芬特",
+            "name": "海洛芬特",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -25416,7 +25416,7 @@
                 "typeId": "30f2-be70-861d-1b84"
               }
             ],
-            "name": " 海洛芬特",
+            "name": "海洛芬特",
             "typeId": "74f8-5443-9d6d-1f1e",
             "typeName": "運輸",
             "hidden": false,
@@ -25553,7 +25553,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -25613,7 +25613,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -26077,7 +26077,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": " 海洛芬特",
+        "name": "海洛芬特",
         "hidden": false,
         "id": "fbc0-3a2b-1d7d-23d9",
         "modifiers": [
@@ -26143,7 +26143,7 @@
       {
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 75
           }
@@ -26586,7 +26586,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -26646,7 +26646,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -26837,7 +26837,7 @@
               }
             ],
             "id": "138e-dc2a-d507-c8c5",
-            "name": "泰倫戰士爪與鐮爪",
+            "name": "泰倫武士爪與鐮爪",
             "hidden": false,
             "typeId": "8a40-4aaa-c780-9046",
             "typeName": "近戰武器"
@@ -26845,14 +26845,14 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 0
           }
         ],
         "comment": "遠程戰士",
         "id": "d9b4-8d0f-91f9-d114",
-        "name": "泰倫戰士爪與鐮爪",
+        "name": "泰倫武士爪與鐮爪",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -26864,7 +26864,7 @@
             "modifiers": [
               {
                 "type": "append",
-                "value": "德6",
+                "value": "D6",
                 "field": "name"
               }
             ],
@@ -27052,12 +27052,12 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 200
           },
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -27067,7 +27067,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -27169,7 +27169,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -27229,7 +27229,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -27414,7 +27414,7 @@
       {
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 60
           }
@@ -27910,7 +27910,7 @@
       {
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 75
           }
@@ -28254,7 +28254,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -28314,7 +28314,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -28490,12 +28490,12 @@
       {
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 250
           },
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -28505,7 +28505,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -28573,7 +28573,7 @@
             "modifiers": [
               {
                 "type": "append",
-                "value": "德6",
+                "value": "D6",
                 "field": "name"
               }
             ],
@@ -28838,7 +28838,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -28898,7 +28898,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -29284,12 +29284,12 @@
       {
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 250
           },
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -29299,7 +29299,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -29389,7 +29389,7 @@
             "modifiers": [
               {
                 "type": "append",
-                "value": "德6",
+                "value": "D6",
                 "field": "name"
               }
             ],
@@ -29649,7 +29649,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -29709,7 +29709,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -30347,7 +30347,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 0
           }
@@ -30417,7 +30417,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 0
           }
@@ -30496,7 +30496,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 0
           }
@@ -30580,7 +30580,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 0
           }
@@ -30641,7 +30641,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 0
           }
@@ -30694,7 +30694,7 @@
               }
             ],
             "id": "e570-43e5-4d25-1262",
-            "name": "泰倫戰士爪與鐮爪",
+            "name": "泰倫武士爪與鐮爪",
             "hidden": false,
             "typeId": "8a40-4aaa-c780-9046",
             "typeName": "近戰武器"
@@ -30702,7 +30702,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 0
           }
@@ -30718,7 +30718,7 @@
         ],
         "comment": "近戰生體武器",
         "id": "cce-e9cd-6bac-df4d",
-        "name": "泰倫戰士爪與鐮爪",
+        "name": "泰倫武士爪與鐮爪",
         "hidden": false,
         "collective": true,
         "import": true,
@@ -31153,7 +31153,7 @@
             "modifiers": [
               {
                 "type": "append",
-                "value": "德3",
+                "value": "D3",
                 "field": "name"
               }
             ],
@@ -31685,12 +31685,12 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 195
           },
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -31700,7 +31700,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -31849,7 +31849,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -31909,7 +31909,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -32126,7 +32126,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可加入以下單位：\n- 荷瑪蟲\n- 特馬蟲\n- 泰倫戰士（近戰生體武器）\n- 泰倫戰士（遠程生體武器）",
+                "$text": "此模型可加入以下單位：\n- 荷瑪蟲\n- 特馬蟲\n- 泰倫武士（近戰生體武器）\n- 泰倫武士（遠程生體武器）",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -32250,12 +32250,12 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 75
           },
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -32265,7 +32265,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -32355,7 +32355,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（戰鬥就緒）",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -32415,7 +32415,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "（久經戰陣）",
+                "value": "（久戰）",
                 "field": "name"
               },
               {
@@ -32492,14 +32492,14 @@
           },
           {
             "type": "and",
-            "comment": "戰士生體形態猛攻修正",
+            "comment": "武士生體形態猛攻修正",
             "modifiers": [
               {
                 "type": "append",
-                "value": "戰士生體形態猛攻",
+                "value": "武士生體形態猛攻",
                 "field": "annotation",
                 "scope": "root-entry",
-                "affects": "self.entries.recursive.profiles.單位",
+                "affects": "self.entries.recursive.profiles.Unit",
                 "join": ", "
               },
               {
@@ -32507,7 +32507,7 @@
                 "value": "5+",
                 "field": "55a7-5b54-c60d-11dc",
                 "scope": "root-entry",
-                "affects": "self.entries.recursive.profiles.單位"
+                "affects": "self.entries.recursive.profiles.Unit"
               }
             ],
             "conditions": [
@@ -32600,7 +32600,7 @@
                 ],
                 "costs": [
                   {
-                    "name": "pts",
+                    "name": "分",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 0
                   }
@@ -32704,7 +32704,7 @@
                 ],
                 "costs": [
                   {
-                    "name": "pts",
+                    "name": "分",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 0
                   }
@@ -32824,7 +32824,7 @@
                 ],
                 "costs": [
                   {
-                    "name": "pts",
+                    "name": "分",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 0
                   }
@@ -33017,7 +33017,7 @@
         ],
         "costs": [
           {
-            "name": "遠征點數",
+            "name": "遠征點",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
           },
@@ -33027,7 +33027,7 @@
             "value": 0
           },
           {
-            "name": "遠征：經驗",
+            "name": "遠征：經驗值",
             "typeId": "a623-fe74-1d33-cddf",
             "value": 0
           },
@@ -33066,7 +33066,7 @@
           {
             "costs": [
               {
-                "name": "遠征點數",
+                "name": "遠征點",
                 "typeId": "b03b-c239-15a5-da55",
                 "value": 0
               },
@@ -33076,7 +33076,7 @@
                 "value": 0
               },
               {
-                "name": "遠征：經驗",
+                "name": "遠征：經驗值",
                 "typeId": "a623-fe74-1d33-cddf",
                 "value": 0
               },
@@ -33302,7 +33302,7 @@
           }
         ],
         "id": "6cdf-a79d-f979-75f5",
-        "name": "泰倫戰士",
+        "name": "泰倫武士",
         "hidden": false,
         "typeId": "c547-1836-d8a-ff4f",
         "typeName": "單位"
