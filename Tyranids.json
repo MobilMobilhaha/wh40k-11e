@@ -3923,7 +3923,7 @@
                         "$text": ""
                       }
                     ],
-                    "name": "泰倫主戰士",
+                    "name": "泰倫王蟲",
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "單位",
                     "hidden": false,
@@ -4244,12 +4244,12 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "泰倫主戰士",
+                "name": "泰倫王蟲",
                 "hidden": false,
                 "id": "8835-f9f5-81a6-ac7"
               }
             ],
-            "name": "泰倫主戰士",
+            "name": "泰倫王蟲",
             "id": "d09a-b483-e7ef-da75",
             "hidden": false,
             "sortIndex": 3
@@ -5311,7 +5311,7 @@
                         "$text": ""
                       }
                     ],
-                    "name": "泰倫主戰士",
+                    "name": "泰倫王蟲",
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "單位",
                     "hidden": false,
@@ -5410,13 +5410,13 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "泰倫主戰士",
+                "name": "泰倫王蟲",
                 "hidden": false,
                 "id": "c72e-ae7c-a135-5ad",
                 "collective": false
               }
             ],
-            "name": "泰倫主戰士",
+            "name": "泰倫王蟲",
             "id": "4204-bd88-2dbf-6039",
             "hidden": false,
             "sortIndex": 3
@@ -24706,7 +24706,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型具有 20 個石像蟲模型與 1 個飛翼泰倫主戰士模型的運輸容量。",
+                "$text": "此模型具有 20 個石像蟲模型與 1 個有翼泰倫王蟲模型的運輸容量。",
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
