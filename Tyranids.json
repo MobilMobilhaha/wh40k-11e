@@ -43,31 +43,31 @@
       },
       {
         "id": "0a83-07b1-7b88-6a46",
-        "name": "劇毒蟲",
+        "name": "毒煙蟲",
         "hidden": false
       },
       {
         "id": "9655-9e08-b63f-c29e",
-        "name": "暴君守衛",
+        "name": "暴君護衛",
         "hidden": false
       },
       {
-        "name": "瑪勒塞普特",
+        "name": "靈腦獸",
         "hidden": false,
         "id": "a132-e812-3392-f9ef"
       },
       {
-        "name": "焰噬蟲",
+        "name": "噴焰蟲",
         "hidden": false,
         "id": "7420-596c-147a-5799"
       },
       {
-        "name": "哈魯斯派克斯",
+        "name": "巨噬獸",
         "hidden": false,
         "id": "aee4-5cb5-329b-bb3e"
       },
       {
-        "name": "毒霧蟲",
+        "name": "毒煙蟲",
         "hidden": false,
         "id": "c84f-d7e4-d853-88f3"
       },
@@ -82,7 +82,7 @@
         "id": "7214-3728-6fad-2681"
       },
       {
-        "name": "穆科利德孢子",
+        "name": "黏液孢子",
         "hidden": false,
         "id": "fda1-7891-2955-69e0"
       },
@@ -92,17 +92,17 @@
         "id": "51f8-b488-5f21-c390"
       },
       {
-        "name": "外分泌獸",
+        "name": "離子砲獸",
         "hidden": false,
         "id": "d52d-1fd6-4cbf-cba1"
       },
       {
-        "name": "生化炮獸",
+        "name": "吐菌蟲",
         "hidden": false,
         "id": "cf46-6271-340e-cf05"
       },
       {
-        "name": "卡尼菲克斯",
+        "name": "劊子手",
         "hidden": false,
         "id": "2070-d263-505a-48cc"
       },
@@ -112,57 +112,57 @@
         "id": "d5ed-53bc-4ad3-85ba"
       },
       {
-        "name": "巢衛",
+        "name": "蟲巢護衛",
         "hidden": false,
         "id": "156f-46c9-de79-247"
       },
       {
-        "name": "泰倫諾菲克斯",
+        "name": "暴虐獸",
         "hidden": false,
         "id": "a97-e5ad-de9a-d5c6"
       },
       {
-        "name": "巢穴妖婦",
+        "name": "蟲巢天嫗",
         "hidden": false,
         "id": "875d-4ae3-cc07-44c0"
       },
       {
-        "name": "哈比",
+        "name": "天妖",
         "hidden": false,
         "id": "cc05-aeb3-b2d6-3732"
       },
       {
-        "name": "孢子囊獸",
+        "name": "孢囊要塞",
         "hidden": false,
         "id": "37-442e-b3d4-98aa"
       },
       {
-        "name": "靈噬獸",
+        "name": "噬靈蟲",
         "hidden": false,
         "id": "ad6-e3cd-6f94-3f77"
       },
       {
-        "name": "刺棘蟲",
+        "name": "擲彈蟲",
         "hidden": false,
         "id": "a80e-ff32-72b3-9ba3"
       },
       {
-        "name": "刺棘海洛杜爾",
+        "name": "倒鉤蟲嗣",
         "hidden": false,
         "id": "4c30-3dbf-b2b7-3a7"
       },
       {
-        "name": "鐮刃海洛杜爾",
+        "name": "鐮爪蟲嗣",
         "hidden": false,
         "id": "88c0-f898-8500-5639"
       },
       {
-        "name": "哈里丹",
+        "name": "悍嫗獸",
         "hidden": false,
         "id": "7dcc-519b-45b-526b"
       },
       {
-        "name": "海洛芬特",
+        "name": "聖師獸",
         "hidden": false,
         "id": "c34e-980-ae84-3ff7"
       },
@@ -172,12 +172,12 @@
         "id": "64ce-d746-b778-34d8"
       },
       {
-        "name": "迪瑪凱倫",
+        "name": "雙刃巨獸",
         "hidden": false,
         "id": "1da8-4ebe-f196-6f46"
       },
       {
-        "name": "天斬蟲群",
+        "name": "天裂蟲群",
         "hidden": false,
         "id": "617e-a830-65fe-7b64"
       },
@@ -294,7 +294,7 @@
       },
       {
         "id": "abfa-6d02-8cf0-0e7e",
-        "name": "劇毒蟲",
+        "name": "毒煙蟲",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -303,7 +303,7 @@
       },
       {
         "id": "3f5a-9872-f34d-05e3",
-        "name": "暴君守衛",
+        "name": "暴君護衛",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -336,7 +336,7 @@
       },
       {
         "import": true,
-        "name": "瑪勒塞普特",
+        "name": "靈腦獸",
         "hidden": false,
         "type": "selectionEntry",
         "id": "5f55-69a5-636c-c8c1",
@@ -352,7 +352,7 @@
       },
       {
         "import": true,
-        "name": "焰噬蟲",
+        "name": "噴焰蟲",
         "hidden": false,
         "type": "selectionEntry",
         "id": "5d80-6ec1-93d4-b2fc",
@@ -360,7 +360,7 @@
       },
       {
         "import": true,
-        "name": "哈魯斯派克斯",
+        "name": "巨噬獸",
         "hidden": false,
         "type": "selectionEntry",
         "id": "fd1-a697-de5-e1f9",
@@ -368,7 +368,7 @@
       },
       {
         "import": true,
-        "name": "毒霧蟲",
+        "name": "毒煙蟲",
         "hidden": false,
         "type": "selectionEntry",
         "id": "b25f-20ce-a25a-1642",
@@ -440,7 +440,7 @@
       },
       {
         "import": true,
-        "name": "外分泌獸",
+        "name": "離子砲獸",
         "hidden": false,
         "type": "selectionEntry",
         "id": "53a9-7a08-b3dd-1547",
@@ -448,7 +448,7 @@
       },
       {
         "import": true,
-        "name": "穆科利德孢子",
+        "name": "黏液孢子",
         "hidden": false,
         "type": "selectionEntry",
         "id": "fdd6-9c02-ae6b-32c1",
@@ -456,7 +456,7 @@
       },
       {
         "import": true,
-        "name": "生化炮獸",
+        "name": "吐菌蟲",
         "hidden": false,
         "type": "selectionEntry",
         "id": "b6ef-5582-5c2c-c917",
@@ -464,7 +464,7 @@
       },
       {
         "import": true,
-        "name": "卡尼菲克斯",
+        "name": "劊子手",
         "hidden": false,
         "type": "selectionEntry",
         "id": "f925-323-cb9f-9de6",
@@ -480,7 +480,7 @@
       },
       {
         "import": true,
-        "name": "巢衛",
+        "name": "蟲巢護衛",
         "hidden": false,
         "type": "selectionEntry",
         "id": "e7dc-9c6e-e267-c3de",
@@ -488,7 +488,7 @@
       },
       {
         "import": true,
-        "name": "泰倫諾菲克斯",
+        "name": "暴虐獸",
         "hidden": false,
         "type": "selectionEntry",
         "id": "7548-d2b3-b0e0-595b",
@@ -504,7 +504,7 @@
       },
       {
         "import": true,
-        "name": "哈比",
+        "name": "天妖",
         "hidden": false,
         "type": "selectionEntry",
         "id": "2a52-f6b1-586a-a4b6",
@@ -512,7 +512,7 @@
       },
       {
         "import": true,
-        "name": "巢穴妖婦",
+        "name": "蟲巢天嫗",
         "hidden": false,
         "type": "selectionEntry",
         "id": "7907-f011-d28f-ec0f",
@@ -520,7 +520,7 @@
       },
       {
         "import": true,
-        "name": "孢子囊獸",
+        "name": "孢囊要塞",
         "hidden": false,
         "type": "selectionEntry",
         "id": "b0f2-86e1-24d3-bd1e",
@@ -528,7 +528,7 @@
       },
       {
         "import": true,
-        "name": "靈噬獸",
+        "name": "噬靈蟲",
         "hidden": false,
         "type": "selectionEntry",
         "id": "bb17-5e67-f80d-1479",
@@ -536,7 +536,7 @@
       },
       {
         "import": true,
-        "name": "刺棘蟲",
+        "name": "擲彈蟲",
         "hidden": false,
         "type": "selectionEntry",
         "id": "2022-800a-5f81-59c3",
@@ -552,7 +552,7 @@
       },
       {
         "import": true,
-        "name": "刺棘海洛杜爾［傳奇］",
+        "name": "倒鉤蟲嗣［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "c08c-3f82-eca5-bc5b",
@@ -560,7 +560,7 @@
       },
       {
         "import": true,
-        "name": "鐮刃海洛杜爾［傳奇］",
+        "name": "鐮爪蟲嗣［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "ca37-6c54-394c-2803",
@@ -568,7 +568,7 @@
       },
       {
         "import": true,
-        "name": "哈里丹",
+        "name": "悍嫗獸",
         "hidden": false,
         "type": "selectionEntry",
         "id": "c849-ed0f-bc51-c66a",
@@ -576,7 +576,7 @@
       },
       {
         "import": true,
-        "name": "海洛芬特",
+        "name": "聖師獸",
         "hidden": false,
         "type": "selectionEntry",
         "id": "c6bf-2379-d8c9-2ddf",
@@ -600,7 +600,7 @@
       },
       {
         "import": true,
-        "name": "迪瑪凱倫［傳奇］",
+        "name": "雙刃巨獸［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "49a7-35fe-b205-afe6",
@@ -608,7 +608,7 @@
       },
       {
         "import": true,
-        "name": "天斬蟲群［傳奇］",
+        "name": "天裂蟲群［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "fc02-c2df-a3fd-a869",
@@ -657,7 +657,7 @@
       },
       {
         "import": true,
-        "name": "諾恩同化獸",
+        "name": "諾恩同化者",
         "hidden": false,
         "type": "selectionEntry",
         "id": "28a-e2b8-c42e-3dea",
@@ -723,7 +723,7 @@
       },
       {
         "import": true,
-        "name": "孢子雷（生化炮獸）",
+        "name": "孢子雷（吐菌蟲）",
         "hidden": false,
         "id": "8106-c7cc-f5d1-57a5",
         "targetId": "80c2-aecc-5b59-7345",
@@ -739,7 +739,7 @@
       },
       {
         "import": true,
-        "name": "穆科利德孢子（孢子囊獸）",
+        "name": "黏液孢子（孢囊要塞）",
         "hidden": false,
         "id": "4d65-b3c0-b075-e79e",
         "targetId": "9943-934a-221b-e0c0",
@@ -1701,7 +1701,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可加入以下單位：\n- 暴君守衛",
+                "$text": "此模型可加入以下單位：\n- 暴君護衛",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -2880,7 +2880,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可加入以下單位：\n- 卡尼菲克斯獸群",
+                "$text": "此模型可加入以下單位：\n- 劊子手獸群",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -8210,7 +8210,7 @@
               }
             ],
             "id": "6a1d-69fc-336d-702a",
-            "name": "劇毒蟲",
+            "name": "毒煙蟲",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位"
@@ -8291,7 +8291,7 @@
           },
           {
             "id": "8034-3e32-0910-3c98",
-            "name": "劇毒蟲",
+            "name": "毒煙蟲",
             "hidden": false,
             "targetId": "0a83-07b1-7b88-6a46",
             "primary": false
@@ -8745,7 +8745,7 @@
           }
         ],
         "id": "30d0-521c-1d45-f57b",
-        "name": "劇毒蟲",
+        "name": "毒煙蟲",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -8842,7 +8842,7 @@
           },
           {
             "id": "78b9-3ce4-e5c5-07ae",
-            "name": "暴君守衛",
+            "name": "暴君護衛",
             "hidden": false,
             "targetId": "9655-9e08-b63f-c29e",
             "primary": false
@@ -9221,7 +9221,7 @@
                         "$text": ""
                       }
                     ],
-                    "name": "暴君守衛",
+                    "name": "暴君護衛",
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "單位",
                     "hidden": false,
@@ -9467,20 +9467,20 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "暴君守衛",
+                "name": "暴君護衛",
                 "hidden": false,
                 "id": "a827-afc9-ca29-b723",
                 "collective": false
               }
             ],
-            "name": "3-6 暴君守衛",
+            "name": "3-6 暴君護衛",
             "id": "ec38-37b7-be05-a78c",
             "hidden": false,
             "sortIndex": 2
           }
         ],
         "id": "1645-5407-92c8-1441",
-        "name": "暴君守衛",
+        "name": "暴君護衛",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -9615,7 +9615,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可加入以下單位：\n- 神經蟲\n- 暴君守衛\n- 靈能蟲",
+                "$text": "此模型可加入以下單位：\n- 神經蟲\n- 暴君護衛\n- 腦蟲",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -10241,7 +10241,7 @@
                 "$text": "4+"
               }
             ],
-            "name": "瑪勒塞普特",
+            "name": "靈腦獸",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -10322,7 +10322,7 @@
             "targetId": "a132-e812-3392-f9ef",
             "id": "e635-b3e-82ce-2837",
             "primary": false,
-            "name": "瑪勒塞普特"
+            "name": "靈腦獸"
           },
           {
             "targetId": "d1d8-6ae0-1be7-e9e",
@@ -10777,7 +10777,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "瑪勒塞普特",
+        "name": "靈腦獸",
         "hidden": false,
         "id": "2c2d-a2f9-61a8-a6c6",
         "modifiers": [
@@ -10846,7 +10846,7 @@
             "targetId": "7420-596c-147a-5799",
             "id": "ec37-e48e-9161-882c",
             "primary": false,
-            "name": "焰噬蟲"
+            "name": "噴焰蟲"
           },
           {
             "targetId": "cf47-a0d7-7207-29dc",
@@ -11373,7 +11373,7 @@
                         "$text": ""
                       }
                     ],
-                    "name": "焰噬蟲",
+                    "name": "噴焰蟲",
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "單位",
                     "hidden": false,
@@ -11554,12 +11554,12 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "火焰蟲",
+                "name": "噴焰蟲",
                 "hidden": false,
                 "id": "c543-2551-1f2a-bcec"
               }
             ],
-            "name": "1-3 火焰蟲",
+            "name": "1-3 噴焰蟲",
             "id": "a480-c248-203b-dc40",
             "hidden": false,
             "defaultSelectionEntryId": "c543-2551-1f2a-bcec"
@@ -11567,7 +11567,7 @@
         ],
         "type": "unit",
         "import": true,
-        "name": "焰噬蟲",
+        "name": "噴焰蟲",
         "hidden": false,
         "id": "d2c6-bd0b-3205-3319"
       },
@@ -11589,7 +11589,7 @@
             "targetId": "aee4-5cb5-329b-bb3e",
             "id": "6045-4ea5-8b70-b623",
             "primary": false,
-            "name": "哈魯斯派克斯"
+            "name": "巨噬獸"
           },
           {
             "targetId": "d1d8-6ae0-1be7-e9e",
@@ -11711,7 +11711,7 @@
                 "$text": ""
               }
             ],
-            "name": "哈魯斯派克斯",
+            "name": "巨噬獸",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -12211,7 +12211,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "哈魯斯派克斯",
+        "name": "巨噬獸",
         "hidden": false,
         "id": "6249-358f-27d7-ef60",
         "modifiers": [
@@ -12413,7 +12413,7 @@
             "targetId": "c84f-d7e4-d853-88f3",
             "id": "6815-8c25-856f-9382",
             "primary": false,
-            "name": "毒霧蟲"
+            "name": "毒煙蟲"
           },
           {
             "targetId": "7850-cc5a-c191-b80d",
@@ -12840,7 +12840,7 @@
                         "$text": ""
                       }
                     ],
-                    "name": "毒霧蟲",
+                    "name": "毒煙蟲",
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "單位",
                     "hidden": false,
@@ -12849,12 +12849,12 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "毒霧蟲",
+                "name": "毒煙蟲",
                 "hidden": false,
                 "id": "748a-fa63-aef9-f2ce"
               }
             ],
-            "name": "3-6 毒霧蟲",
+            "name": "3-6 毒煙蟲",
             "id": "e592-851c-728d-f724",
             "hidden": false,
             "sortIndex": 2
@@ -12862,7 +12862,7 @@
         ],
         "type": "unit",
         "import": true,
-        "name": "毒霧蟲",
+        "name": "毒煙蟲",
         "hidden": false,
         "id": "b563-c6d3-d0e5-1b78"
       },
@@ -14209,7 +14209,7 @@
                 "id": "f187-5924-8ec5-1c33",
                 "infoLinks": [
                   {
-                    "name": "靈能蟲",
+                    "name": "腦蟲",
                     "id": "e10d-e4a0-e219-3bdc",
                     "hidden": false,
                     "targetId": "f925-2cd1-541f-285d",
@@ -14311,7 +14311,7 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "靈能蟲",
+                "name": "腦蟲",
                 "hidden": false,
                 "id": "7060-1133-6c23-c028",
                 "infoLinks": [
@@ -14319,13 +14319,13 @@
                     "targetId": "f925-2cd1-541f-285d",
                     "id": "b331-500b-6cec-8ed3",
                     "type": "profile",
-                    "name": "靈能蟲",
+                    "name": "腦蟲",
                     "hidden": false
                   }
                 ]
               }
             ],
-            "name": "2-5 靈能蟲",
+            "name": "2-5 腦蟲",
             "id": "86c1-1eb0-5ac7-93f0",
             "hidden": false,
             "sortIndex": 3
@@ -14369,7 +14369,7 @@
             ],
             "infoLinks": [
               {
-                "name": "穆科利德孢子",
+                "name": "黏液孢子",
                 "id": "70f0-05bb-f465-fb47",
                 "hidden": false,
                 "targetId": "1df9-04b2-4b8b-6263",
@@ -14378,7 +14378,7 @@
             ],
             "type": "model",
             "import": true,
-            "name": "穆科利德孢子",
+            "name": "黏液孢子",
             "hidden": false,
             "id": "65ba-c344-5752-c9c8"
           }
@@ -14418,7 +14418,7 @@
             "targetId": "fda1-7891-2955-69e0",
             "id": "fe03-d40e-ae28-dc4f",
             "primary": false,
-            "name": "穆科利德孢子"
+            "name": "黏液孢子"
           },
           {
             "targetId": "4c3e-9310-a516-3590",
@@ -14483,7 +14483,7 @@
         ],
         "type": "unit",
         "import": true,
-        "name": "穆科利德孢子",
+        "name": "黏液孢子",
         "hidden": false,
         "id": "707a-9de8-f75b-41c5"
       },
@@ -14725,7 +14725,7 @@
                 "$text": ""
               }
             ],
-            "name": "外分泌獸",
+            "name": "離子砲獸",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -14779,7 +14779,7 @@
             "targetId": "d52d-1fd6-4cbf-cba1",
             "id": "3fd3-dda9-3d3f-87d4",
             "primary": false,
-            "name": "外分泌獸"
+            "name": "離子砲獸"
           },
           {
             "targetId": "d1d8-6ae0-1be7-e9e",
@@ -15275,7 +15275,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "外分泌獸",
+        "name": "離子砲獸",
         "hidden": false,
         "id": "bbfd-5b01-5bd3-a28b",
         "modifiers": [
@@ -15356,7 +15356,7 @@
             "targetId": "cf46-6271-340e-cf05",
             "id": "96f6-94a9-d802-f12c",
             "primary": false,
-            "name": "生化炮獸"
+            "name": "吐菌蟲"
           },
           {
             "targetId": "d1d8-6ae0-1be7-e9e",
@@ -15501,7 +15501,7 @@
                     "$text": ""
                   }
                 ],
-                "name": "生化炮獸",
+                "name": "吐菌蟲",
                 "typeId": "c547-1836-d8a-ff4f",
                 "typeName": "單位",
                 "hidden": false,
@@ -15680,7 +15680,7 @@
             ],
             "type": "model",
             "import": true,
-            "name": "生化炮獸",
+            "name": "吐菌蟲",
             "hidden": false,
             "id": "dd57-9c1f-d425-6711",
             "sortIndex": 2
@@ -15955,7 +15955,7 @@
         ],
         "type": "unit",
         "import": true,
-        "name": "生化炮獸",
+        "name": "吐菌蟲",
         "hidden": false,
         "id": "3f2c-85ec-d83c-4a2f",
         "costs": [
@@ -16154,7 +16154,7 @@
                     "$text": ""
                   }
                 ],
-                "name": "卡尼菲克斯",
+                "name": "劊子手",
                 "typeId": "c547-1836-d8a-ff4f",
                 "typeName": "單位",
                 "hidden": false,
@@ -16351,7 +16351,7 @@
                               }
                             ],
                             "import": true,
-                            "name": "卡尼菲克斯粉碎爪",
+                            "name": "劊子手粉碎爪",
                             "hidden": false,
                             "id": "abb5-fd10-dab8-81bb",
                             "type": "selectionEntry",
@@ -16399,7 +16399,7 @@
                                     "typeId": "893f-9000-ccf7-648e"
                                   }
                                 ],
-                                "name": "卡尼菲克斯鐮狀利爪",
+                                "name": "劊子手鐮狀利爪",
                                 "typeId": "8a40-4aaa-c780-9046",
                                 "typeName": "近戰武器",
                                 "hidden": false,
@@ -16418,12 +16418,12 @@
                             ],
                             "type": "upgrade",
                             "import": true,
-                            "name": "卡尼菲克斯鐮狀利爪",
+                            "name": "劊子手鐮狀利爪",
                             "hidden": false,
                             "id": "a651-932c-cad2-cfc"
                           }
                         ],
-                        "name": "卡尼菲克斯鐮狀利爪",
+                        "name": "劊子手鐮狀利爪",
                         "id": "7a95-2f54-7352-bd0d",
                         "hidden": false,
                         "defaultSelectionEntryId": "a651-932c-cad2-cfc",
@@ -16500,7 +16500,7 @@
                               }
                             ],
                             "import": true,
-                            "name": "卡尼菲克斯粉碎爪",
+                            "name": "劊子手粉碎爪",
                             "hidden": false,
                             "id": "88b8-21cc-861b-625d",
                             "type": "selectionEntry",
@@ -16701,7 +16701,7 @@
                                     "typeId": "893f-9000-ccf7-648e"
                                   }
                                 ],
-                                "name": "卡尼菲克斯額外鐮狀利爪",
+                                "name": "劊子手額外鐮狀利爪",
                                 "typeId": "8a40-4aaa-c780-9046",
                                 "typeName": "近戰武器",
                                 "hidden": false,
@@ -16738,12 +16738,12 @@
                             ],
                             "type": "upgrade",
                             "import": true,
-                            "name": "卡尼菲克斯額外鐮狀利爪",
+                            "name": "劊子手額外鐮狀利爪",
                             "hidden": false,
                             "id": "8d02-ef7c-e2b-1f12"
                           }
                         ],
-                        "name": "卡尼菲克斯額外鐮狀利爪",
+                        "name": "劊子手額外鐮狀利爪",
                         "id": "5f3d-a52c-cd27-c5fd",
                         "hidden": false,
                         "defaultSelectionEntryId": "8d02-ef7c-e2b-1f12",
@@ -16960,7 +16960,7 @@
             ],
             "type": "model",
             "import": true,
-            "name": "卡尼菲克斯",
+            "name": "劊子手",
             "hidden": false,
             "id": "92a2-7511-1173-a696",
             "sortIndex": 2
@@ -17022,7 +17022,7 @@
             "targetId": "2070-d263-505a-48cc",
             "id": "8395-2660-93a6-17dd",
             "primary": false,
-            "name": "卡尼菲克斯"
+            "name": "劊子手"
           },
           {
             "targetId": "d1d8-6ae0-1be7-e9e",
@@ -17261,7 +17261,7 @@
         ],
         "type": "unit",
         "import": true,
-        "name": "卡尼菲克斯",
+        "name": "劊子手",
         "hidden": false,
         "id": "9efd-5564-f0f5-21ea",
         "modifiers": [
@@ -17430,7 +17430,7 @@
                 "typeId": "893f-9000-ccf7-648e"
               }
             ],
-            "name": "卡尼菲克斯粉碎爪",
+            "name": "劊子手粉碎爪",
             "typeId": "8a40-4aaa-c780-9046",
             "typeName": "近戰武器",
             "hidden": false,
@@ -17439,7 +17439,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "卡尼菲克斯粉碎爪",
+        "name": "劊子手粉碎爪",
         "hidden": false,
         "id": "9f9-fe82-ea19-7304"
       },
@@ -18296,7 +18296,7 @@
             "targetId": "156f-46c9-de79-247",
             "id": "b422-a40-bfab-8a",
             "primary": false,
-            "name": "巢衛"
+            "name": "蟲巢護衛"
           },
           {
             "targetId": "d1d8-6ae0-1be7-e9e",
@@ -18377,7 +18377,7 @@
                         "$text": ""
                       }
                     ],
-                    "name": "巢衛",
+                    "name": "蟲巢護衛",
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "單位",
                     "hidden": false,
@@ -18519,7 +18519,7 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "持震擊炮蟲巢守衛",
+                "name": "持震擊炮蟲巢護衛",
                 "hidden": false,
                 "id": "a5c7-5590-b4b6-88ea"
               },
@@ -18574,7 +18574,7 @@
                         "$text": ""
                       }
                     ],
-                    "name": "巢衛",
+                    "name": "蟲巢護衛",
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "單位",
                     "hidden": false,
@@ -18723,12 +18723,12 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "持穿刺炮蟲巢守衛",
+                "name": "持穿刺炮蟲巢護衛",
                 "hidden": false,
                 "id": "82a7-bcb5-bc33-2c1a"
               }
             ],
-            "name": "3-6 蟲巢守衛",
+            "name": "3-6 蟲巢護衛",
             "hidden": false,
             "id": "c5c1-1fb4-6301-730a",
             "defaultSelectionEntryId": "a5c7-5590-b4b6-88ea",
@@ -18974,7 +18974,7 @@
         ],
         "type": "unit",
         "import": true,
-        "name": "巢衛",
+        "name": "蟲巢護衛",
         "hidden": false,
         "id": "ac7a-2560-c083-45b8"
       },
@@ -19002,7 +19002,7 @@
             "targetId": "a97-e5ad-de9a-d5c6",
             "id": "dd07-acf2-fd40-36e6",
             "primary": false,
-            "name": "泰倫諾菲克斯"
+            "name": "暴虐獸"
           }
         ],
         "constraints": [
@@ -19082,7 +19082,7 @@
                 "$text": ""
               }
             ],
-            "name": "泰倫諾菲克斯",
+            "name": "暴虐獸",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -19636,7 +19636,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "泰倫諾菲克斯",
+        "name": "暴虐獸",
         "hidden": false,
         "id": "1705-379b-330d-36d4",
         "modifiers": [
@@ -19729,7 +19729,7 @@
             "targetId": "875d-4ae3-cc07-44c0",
             "id": "89ca-e6f4-e71e-b815",
             "primary": false,
-            "name": "巢穴妖婦"
+            "name": "蟲巢天嫗"
           },
           {
             "targetId": "d1d8-6ae0-1be7-e9e",
@@ -19821,7 +19821,7 @@
                 "$text": ""
               }
             ],
-            "name": "巢穴妖婦",
+            "name": "蟲巢天嫗",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -20550,7 +20550,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "巢穴妖婦",
+        "name": "蟲巢天嫗",
         "hidden": false,
         "id": "93aa-dd13-de9d-402b",
         "modifiers": [
@@ -20628,7 +20628,7 @@
             "targetId": "cc05-aeb3-b2d6-3732",
             "id": "e24e-ee38-2da8-a8ec",
             "primary": false,
-            "name": "哈比"
+            "name": "天妖"
           },
           {
             "targetId": "9693-cf84-fe69-37a9",
@@ -20720,7 +20720,7 @@
                 "$text": ""
               }
             ],
-            "name": "哈比",
+            "name": "天妖",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -21306,7 +21306,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "哈比",
+        "name": "天妖",
         "hidden": false,
         "id": "c679-b06a-750b-e7f7",
         "modifiers": [
@@ -21460,7 +21460,7 @@
                 "$text": ""
               }
             ],
-            "name": "孢子囊獸",
+            "name": "孢囊要塞",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -21471,10 +21471,10 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "每回合一次，在你的射擊階段，當具有此能力的一個單位被選擇進行射擊時，該單位可啟用此能力，取代使用其遠程武器進行任何攻擊。若如此做，你可將一個新的穆科利德孢子單位加入你的軍隊，該單位包含 1 個模型，並將其部署在完全位於此模型 18 吋內，且水平距離所有敵方單位超過 8 吋的戰場上任意位置。"
+                "$text": "每回合一次，在你的射擊階段，當具有此能力的一個單位被選擇進行射擊時，該單位可啟用此能力，取代使用其遠程武器進行任何攻擊。若如此做，你可將一個新的黏液孢子單位加入你的軍隊，該單位包含 1 個模型，並將其部署在完全位於此模型 18 吋內，且水平距離所有敵方單位超過 8 吋的戰場上任意位置。"
               }
             ],
-            "name": "播撒穆科利德",
+            "name": "播撒黏液孢子",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -21529,7 +21529,7 @@
             "targetId": "37-442e-b3d4-98aa",
             "id": "c3c5-7379-2cee-7839",
             "primary": false,
-            "name": "孢子囊獸"
+            "name": "孢囊要塞"
           },
           {
             "targetId": "7850-cc5a-c191-b80d",
@@ -21925,7 +21925,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "孢子囊體生體武器",
+                    "name": "孢囊要塞生體武器",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -21944,7 +21944,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "孢子囊體生體武器",
+                "name": "孢囊要塞生體武器",
                 "hidden": false,
                 "id": "f341-b48f-4d59-8e51"
               }
@@ -21957,7 +21957,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "孢子囊獸",
+        "name": "孢囊要塞",
         "hidden": false,
         "id": "2cdd-3bf1-55e0-7641",
         "modifiers": [
@@ -22058,7 +22058,7 @@
                 "$text": ""
               }
             ],
-            "name": "靈噬獸",
+            "name": "噬靈蟲",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -22147,7 +22147,7 @@
             "targetId": "ad6-e3cd-6f94-3f77",
             "id": "e863-2e71-e645-4d92",
             "primary": false,
-            "name": "靈噬獸"
+            "name": "噬靈蟲"
           },
           {
             "targetId": "d1d8-6ae0-1be7-e9e",
@@ -22574,7 +22574,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "靈噬獸",
+        "name": "噬靈蟲",
         "hidden": false,
         "id": "b6ac-f091-a018-dab2",
         "modifiers": [
@@ -22603,7 +22603,7 @@
             "targetId": "a80e-ff32-72b3-9ba3",
             "id": "ee21-dcb2-9734-f8c6",
             "primary": false,
-            "name": "刺棘蟲"
+            "name": "擲彈蟲"
           },
           {
             "targetId": "cf47-a0d7-7207-29dc",
@@ -22723,7 +22723,7 @@
                     "$text": ""
                   }
                 ],
-                "name": "倒刺蟲",
+                "name": "擲彈蟲",
                 "typeId": "c547-1836-d8a-ff4f",
                 "typeName": "單位",
                 "hidden": false,
@@ -22930,7 +22930,7 @@
             ],
             "type": "model",
             "import": true,
-            "name": "倒刺蟲",
+            "name": "擲彈蟲",
             "hidden": false,
             "id": "f7c9-d70f-96b5-b5e9",
             "sortIndex": 2
@@ -23234,7 +23234,7 @@
         ],
         "type": "unit",
         "import": true,
-        "name": "刺棘蟲",
+        "name": "擲彈蟲",
         "hidden": false,
         "id": "6de-ccee-11b4-be3e"
       },
@@ -23335,7 +23335,7 @@
             "targetId": "4c30-3dbf-b2b7-3a7",
             "id": "5910-ad1f-d05d-f710",
             "primary": false,
-            "name": "刺棘海洛杜爾"
+            "name": "倒鉤蟲嗣"
           },
           {
             "name": "骨架",
@@ -23407,7 +23407,7 @@
                 "$text": ""
               }
             ],
-            "name": "刺棘海洛杜爾",
+            "name": "倒鉤蟲嗣",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -23882,7 +23882,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "海洛杜爾鐮狀利爪",
+                    "name": "蟲嗣鐮狀利爪",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -23901,7 +23901,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "海洛杜爾鐮狀利爪",
+                "name": "蟲嗣鐮狀利爪",
                 "hidden": false,
                 "id": "ae36-f62b-6df6-edac"
               }
@@ -23914,7 +23914,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "刺棘海洛杜爾［傳奇］",
+        "name": "倒鉤蟲嗣［傳奇］",
         "hidden": false,
         "id": "afd0-a0ca-68c3-d912"
       },
@@ -23949,7 +23949,7 @@
             "targetId": "88c0-f898-8500-5639",
             "id": "fd5d-8380-cbc8-4127",
             "primary": false,
-            "name": "鐮刃海洛杜爾"
+            "name": "鐮爪蟲嗣"
           },
           {
             "name": "骨架",
@@ -24021,7 +24021,7 @@
                 "$text": ""
               }
             ],
-            "name": "鐮刃海洛杜爾",
+            "name": "鐮爪蟲嗣",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -24505,7 +24505,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "海洛杜爾鐮狀利爪",
+                    "name": "蟲嗣鐮狀利爪",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -24524,7 +24524,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "海洛杜爾鐮狀利爪",
+                "name": "蟲嗣鐮狀利爪",
                 "hidden": false,
                 "id": "fd4c-4550-3b90-4608"
               }
@@ -24537,7 +24537,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "鐮刃海洛杜爾［傳奇］",
+        "name": "鐮爪蟲嗣［傳奇］",
         "hidden": false,
         "id": "218c-639e-22e0-59ce"
       },
@@ -24590,7 +24590,7 @@
             "targetId": "7dcc-519b-45b-526b",
             "id": "4e5a-49f6-50ed-ee78",
             "primary": false,
-            "name": "哈里丹"
+            "name": "悍嫗獸"
           },
           {
             "name": "骨架",
@@ -24669,7 +24669,7 @@
                 "$text": ""
               }
             ],
-            "name": "哈里丹",
+            "name": "悍嫗獸",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -24711,7 +24711,7 @@
                 "typeId": "30f2-be70-861d-1b84"
               }
             ],
-            "name": "哈里丹",
+            "name": "悍嫗獸",
             "typeId": "74f8-5443-9d6d-1f1e",
             "typeName": "運輸",
             "hidden": false,
@@ -25176,7 +25176,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "哈里丹",
+        "name": "悍嫗獸",
         "hidden": false,
         "id": "9b5c-3b5a-1f80-9a74",
         "modifiers": [
@@ -25288,7 +25288,7 @@
             "targetId": "c34e-980-ae84-3ff7",
             "id": "90a3-f6d9-db02-3e6f",
             "primary": false,
-            "name": "海洛芬特"
+            "name": "聖師獸"
           },
           {
             "name": "骨架",
@@ -25402,7 +25402,7 @@
                 "$text": "5+"
               }
             ],
-            "name": "海洛芬特",
+            "name": "聖師獸",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -25416,7 +25416,7 @@
                 "typeId": "30f2-be70-861d-1b84"
               }
             ],
-            "name": "海洛芬特",
+            "name": "聖師獸",
             "typeId": "74f8-5443-9d6d-1f1e",
             "typeName": "運輸",
             "hidden": false,
@@ -26077,7 +26077,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "海洛芬特",
+        "name": "聖師獸",
         "hidden": false,
         "id": "fbc0-3a2b-1d7d-23d9",
         "modifiers": [
@@ -26921,7 +26921,7 @@
                 "$text": "5+"
               }
             ],
-            "name": "迪瑪凱倫",
+            "name": "雙刃巨獸",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -26965,7 +26965,7 @@
             "targetId": "1da8-4ebe-f196-6f46",
             "id": "a265-fedd-82ac-ad1c",
             "primary": false,
-            "name": "迪瑪凱倫"
+            "name": "雙刃巨獸"
           },
           {
             "name": "骨架",
@@ -27407,7 +27407,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "迪瑪凱倫［傳奇］",
+        "name": "雙刃巨獸［傳奇］",
         "hidden": false,
         "id": "78ca-3743-c254-4404"
       },
@@ -27448,7 +27448,7 @@
             "targetId": "617e-a830-65fe-7b64",
             "id": "fc4c-43c4-b0ee-4a3f",
             "primary": false,
-            "name": "天斬蟲群"
+            "name": "天裂蟲群"
           }
         ],
         "profiles": [
@@ -27490,7 +27490,7 @@
                 "$text": ""
               }
             ],
-            "name": "天斬蟲群",
+            "name": "天裂蟲群",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -27628,7 +27628,7 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "天空掠切蟲群",
+                "name": "天裂蟲群",
                 "hidden": false,
                 "id": "7713-6f3f-720e-3b85"
               },
@@ -27809,12 +27809,12 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "持棘口天空掠切蟲群",
+                "name": "持棘口天裂蟲群",
                 "hidden": false,
                 "id": "ff74-cd51-db21-72a8"
               }
             ],
-            "name": "3 天空掠切蟲群",
+            "name": "3 天裂蟲群",
             "hidden": false,
             "id": "79a8-a85b-17d6-2b49",
             "defaultSelectionEntryId": "7713-6f3f-720e-3b85"
@@ -27903,7 +27903,7 @@
         ],
         "type": "unit",
         "import": true,
-        "name": "天斬蟲群［傳奇］",
+        "name": "天裂蟲群［傳奇］",
         "hidden": false,
         "id": "f46f-9d2b-1f97-aaf6"
       },
@@ -27991,7 +27991,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可加入以下單位：\n- 毒霧蟲",
+                "$text": "此模型可加入以下單位：\n- 毒煙蟲",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -28677,7 +28677,7 @@
                 "$text": ""
               }
             ],
-            "name": "諾恩同化獸",
+            "name": "諾恩同化者",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -28721,7 +28721,7 @@
             "targetId": "2982-bf74-9aa7-a7a7",
             "id": "f638-78d9-72ef-6cf2",
             "primary": false,
-            "name": "諾恩同化獸"
+            "name": "諾恩同化者"
           },
           {
             "targetId": "d1d8-6ae0-1be7-e9e",
@@ -29218,7 +29218,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "諾恩同化獸",
+        "name": "諾恩同化者",
         "hidden": false,
         "id": "6a9b-8e2f-edac-fa2d",
         "modifiers": [
@@ -31772,7 +31772,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可加入以下單位：\n- 暴君守衛",
+                "$text": "此模型可加入以下單位：\n- 暴君護衛",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -33057,7 +33057,7 @@
         "comment": "生成單位參考版本",
         "type": "unit",
         "import": true,
-        "name": "孢子雷（生化炮獸）",
+        "name": "孢子雷（吐菌蟲）",
         "hidden": false,
         "id": "80c2-aecc-5b59-7345"
       },
@@ -33116,13 +33116,13 @@
                 "targetId": "1df9-04b2-4b8b-6263",
                 "id": "e7f4-c64d-b45b-ed67",
                 "type": "profile",
-                "name": "穆科利德孢子",
+                "name": "黏液孢子",
                 "hidden": false
               }
             ],
             "type": "model",
             "import": true,
-            "name": "穆科利德孢子",
+            "name": "黏液孢子",
             "hidden": false,
             "id": "17cf-3139-4054-8d3e"
           }
@@ -33162,7 +33162,7 @@
             "targetId": "fda1-7891-2955-69e0",
             "id": "3cbf-a284-8b70-09d7",
             "primary": false,
-            "name": "穆科利德孢子"
+            "name": "黏液孢子"
           },
           {
             "targetId": "4c3e-9310-a516-3590",
@@ -33229,7 +33229,7 @@
         ],
         "type": "unit",
         "import": true,
-        "name": "穆科利德孢子（孢子囊獸）",
+        "name": "黏液孢子（孢囊要塞）",
         "hidden": false,
         "id": "9943-934a-221b-e0c0"
       }
@@ -33403,7 +33403,7 @@
             "$text": ""
           }
         ],
-        "name": "穆科利德孢子",
+        "name": "黏液孢子",
         "typeId": "c547-1836-d8a-ff4f",
         "typeName": "單位",
         "hidden": false,
@@ -33505,7 +33505,7 @@
             "$text": "4+"
           }
         ],
-        "name": "靈能蟲",
+        "name": "腦蟲",
         "typeId": "c547-1836-d8a-ff4f",
         "typeName": "單位",
         "hidden": false,
