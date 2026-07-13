@@ -3,22 +3,22 @@
     "categoryEntries": [
       {
         "id": "dc7d-ba0f-e6e-8599",
-        "name": "蟲群霸主",
+        "name": "蟲群領主",
         "hidden": false
       },
       {
         "id": "f75-65-2121-87b5",
-        "name": "巢主",
+        "name": "族群領主",
         "hidden": false
       },
       {
         "id": "d3d8-a902-1064-9f78",
-        "name": "獨眼老王",
+        "name": "老獨眼",
         "hidden": false
       },
       {
         "id": "d2fb-227e-99b7-6b4e",
-        "name": "特維貢",
+        "name": "母蟲",
         "hidden": false
       },
       {
@@ -33,12 +33,12 @@
       },
       {
         "id": "b054-c3e8-d71d-1a7e",
-        "name": "特馬蟲",
+        "name": "槍蟲",
         "hidden": false
       },
       {
         "id": "2b2c-c30e-6d51-a4cc",
-        "name": "荷瑪蟲",
+        "name": "刀蟲",
         "hidden": false
       },
       {
@@ -195,7 +195,7 @@
     "entryLinks": [
       {
         "id": "706e-86ff-ae9f-c65f",
-        "name": "有翼巢穴暴君",
+        "name": "有翼蟲巢暴君",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -204,7 +204,7 @@
       },
       {
         "id": "d160-2a74-7d96-5e9f",
-        "name": "巢穴暴君",
+        "name": "蟲巢暴君",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -213,7 +213,7 @@
       },
       {
         "id": "6738-f64a-bbeb-f2da",
-        "name": "特維貢",
+        "name": "母蟲",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -222,7 +222,7 @@
       },
       {
         "id": "fece-50fa-e019-b6c2",
-        "name": "蟲群霸主",
+        "name": "蟲群領主",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -231,7 +231,7 @@
       },
       {
         "id": "b0ad-ecab-6292-ab67",
-        "name": "巢主",
+        "name": "族群領主",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -240,7 +240,7 @@
       },
       {
         "id": "9e71-1043-e2b3-edf9",
-        "name": "獨眼老王",
+        "name": "老獨眼",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -267,7 +267,7 @@
       },
       {
         "id": "16f9-9c76-2e0e-dc49",
-        "name": "特馬蟲",
+        "name": "槍蟲",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -276,7 +276,7 @@
       },
       {
         "id": "210a-cb5f-b323-6cbb",
-        "name": "荷瑪蟲",
+        "name": "刀蟲",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -312,7 +312,7 @@
       },
       {
         "import": true,
-        "name": "有翼泰倫主戰士",
+        "name": "有翼泰倫王蟲",
         "hidden": false,
         "type": "selectionEntry",
         "id": "58d8-21cb-ed36-94b6",
@@ -328,7 +328,7 @@
       },
       {
         "import": true,
-        "name": "死亡潛伏者",
+        "name": "死亡躍襲者",
         "hidden": false,
         "type": "selectionEntry",
         "id": "8b6a-3050-501a-db63",
@@ -344,7 +344,7 @@
       },
       {
         "import": true,
-        "name": "神經暴君",
+        "name": "腦蟲暴君",
         "hidden": false,
         "type": "selectionEntry",
         "id": "1478-2392-ea1-45cd",
@@ -408,7 +408,7 @@
       },
       {
         "import": true,
-        "name": "莫特雷克斯寄生獸",
+        "name": "摩崔克斯寄生蟲",
         "hidden": false,
         "type": "selectionEntry",
         "id": "b027-cb31-1000-7231",
@@ -683,7 +683,7 @@
       },
       {
         "import": true,
-        "name": "超適應掘蟒蟲",
+        "name": "超適應蛇蟲",
         "hidden": false,
         "type": "selectionEntry",
         "id": "504c-5d1a-b205-c53b",
@@ -715,7 +715,7 @@
       },
       {
         "import": true,
-        "name": "持剝肉鞭的泰倫主戰士",
+        "name": "裝備抽擊鞭的泰倫王蟲",
         "hidden": false,
         "id": "3440-3278-5d39-b10f",
         "targetId": "31f9-9730-853c-6f13",
@@ -731,7 +731,7 @@
       },
       {
         "import": true,
-        "name": "撕裂蟲群（莫特雷克斯寄生獸）",
+        "name": "撕裂蟲群（摩崔克斯寄生蟲）",
         "hidden": false,
         "id": "06b7-a4b1-ab30-7dd9",
         "type": "selectionEntry",
@@ -747,7 +747,7 @@
       },
       {
         "import": true,
-        "name": "紅色恐懼",
+        "name": "紅色懼物",
         "hidden": false,
         "id": "d1a5-352d-83ad-9b58",
         "targetId": "7173-1bd9-b60b-6555",
@@ -834,7 +834,7 @@
               }
             ],
             "id": "e21e-8589-b121-374f",
-            "name": "特維貢",
+            "name": "母蟲",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位"
@@ -842,13 +842,13 @@
           {
             "characteristics": [
               {
-                "$text": "在你的指揮階段，你可選擇此模型 6 吋內一個友方特馬蟲單位，將最多 D3+3 個已被摧毀的特馬蟲模型放回該單位。每個特馬蟲單位每個階段只能被此能力選擇一次。",
+                "$text": "在你的指揮階段，你可選擇此模型 6 吋內一個友方槍蟲單位，將最多 D3+3 個已被摧毀的槍蟲模型放回該單位。每個槍蟲單位每個階段只能被此能力選擇一次。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
             "id": "3ae7-6f89-23de-3cca",
-            "name": "生成特馬蟲",
+            "name": "生成槍蟲",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力"
@@ -856,7 +856,7 @@
           {
             "characteristics": [
               {
-                "$text": "當一個友方特馬蟲單位位於此模型 6 吋內時，該單位中的模型所裝備的遠程武器獲得［致命一擊］能力。",
+                "$text": "當一個友方槍蟲單位位於此模型 6 吋內時，該單位中的模型所裝備的遠程武器獲得［致命一擊］能力。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -936,7 +936,7 @@
           },
           {
             "id": "aa1-a502-7d9e-2a5e",
-            "name": "特維貢",
+            "name": "母蟲",
             "hidden": false,
             "targetId": "d2fb-227e-99b7-6b4e",
             "primary": false
@@ -1572,7 +1572,7 @@
           }
         ],
         "id": "cd6d-87b3-125a-f372",
-        "name": "特維貢",
+        "name": "母蟲",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -1651,7 +1651,7 @@
               }
             ],
             "id": "c06a-9ba8-68a2-17d0",
-            "name": "蟲群霸主",
+            "name": "蟲群領主",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位"
@@ -1788,7 +1788,7 @@
           },
           {
             "id": "c8ed-9841-781d-96c3",
-            "name": "蟲群霸主",
+            "name": "蟲群領主",
             "hidden": false,
             "targetId": "dc7d-ba0f-e6e-8599",
             "primary": false
@@ -1816,7 +1816,7 @@
             "targetId": "101a-751-2ee4-c46e",
             "id": "267-6f72-f4f6-e381",
             "primary": false,
-            "name": "巢穴暴君"
+            "name": "蟲巢暴君"
           },
           {
             "name": "領袖",
@@ -2119,7 +2119,7 @@
           }
         ],
         "id": "13f7-1a3-eff-7393",
-        "name": "蟲群霸主",
+        "name": "蟲群領主",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -2204,7 +2204,7 @@
               }
             ],
             "id": "73bd-e73f-e2d8-d1a3",
-            "name": "巢主",
+            "name": "族群領主",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位"
@@ -2313,7 +2313,7 @@
           },
           {
             "id": "1b00-387-e3e-5b97",
-            "name": "巢主",
+            "name": "族群領主",
             "hidden": false,
             "targetId": "f75-65-2121-87b5",
             "primary": false
@@ -2701,7 +2701,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "巢主爪與鐮爪",
+                    "name": "族群領主爪與鐮爪",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -2752,7 +2752,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "巢主爪與鐮爪",
+                "name": "族群領主爪與鐮爪",
                 "hidden": false,
                 "id": "9aef-ce2-edd5-bfb4",
                 "collective": false
@@ -2765,7 +2765,7 @@
           }
         ],
         "id": "b86a-b38a-380c-483d",
-        "name": "巢主",
+        "name": "族群領主",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -2844,7 +2844,7 @@
               }
             ],
             "id": "633f-ce2f-8a7-488a",
-            "name": "獨眼老王",
+            "name": "老獨眼",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位"
@@ -2923,7 +2923,7 @@
           },
           {
             "id": "bf89-7249-aa2-b7e2",
-            "name": "獨眼老王",
+            "name": "老獨眼",
             "hidden": false,
             "targetId": "d3d8-a902-1064-9f78",
             "primary": false
@@ -3200,7 +3200,7 @@
           }
         ],
         "id": "9184-9ab6-9238-f558",
-        "name": "獨眼老王",
+        "name": "老獨眼",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -5728,7 +5728,7 @@
           },
           {
             "id": "c6c8-eea9-cb1e-d32b",
-            "name": "特馬蟲",
+            "name": "槍蟲",
             "hidden": false,
             "targetId": "b054-c3e8-d71d-1a7e",
             "primary": false
@@ -5950,7 +5950,7 @@
                               }
                             ],
                             "id": "5706-4241-5044-27d",
-                            "name": "特馬蟲棘拳",
+                            "name": "槍蟲棘拳",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
                             "typeName": "遠程武器"
@@ -6003,7 +6003,7 @@
                           }
                         ],
                         "id": "9c0-e0b9-9c51-3734",
-                        "name": "特馬蟲棘拳",
+                        "name": "槍蟲棘拳",
                         "hidden": false,
                         "collective": true,
                         "import": true,
@@ -6050,7 +6050,7 @@
                               }
                             ],
                             "id": "e705-8008-6ee1-4ab5",
-                            "name": "特馬蟲吞噬槍",
+                            "name": "槍蟲吞噬槍",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
                             "typeName": "遠程武器"
@@ -6080,7 +6080,7 @@
                           }
                         ],
                         "id": "ea8c-9f0c-41e4-7481",
-                        "name": "特馬蟲吞噬槍",
+                        "name": "槍蟲吞噬槍",
                         "hidden": false,
                         "collective": true,
                         "import": true,
@@ -6097,7 +6097,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "特馬蟲",
+                    "name": "槍蟲",
                     "hidden": false,
                     "type": "profile",
                     "id": "d335-b05f-92bd-385b",
@@ -6189,7 +6189,7 @@
                   }
                 ],
                 "id": "5c17-dcfb-6d07-1b12",
-                "name": "特馬蟲",
+                "name": "槍蟲",
                 "hidden": false,
                 "collective": true,
                 "import": true,
@@ -6253,7 +6253,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "特馬蟲",
+                    "name": "槍蟲",
                     "hidden": false,
                     "type": "profile",
                     "id": "9aa4-e582-41e8-1d43",
@@ -6419,7 +6419,7 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "持碎片發射器特馬蟲",
+                "name": "持碎片發射器的槍蟲",
                 "hidden": false,
                 "id": "cde6-f48d-6461-14c6"
               },
@@ -6480,7 +6480,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "特馬蟲",
+                    "name": "槍蟲",
                     "hidden": false,
                     "type": "profile",
                     "id": "ec8c-5641-f103-b705",
@@ -6630,7 +6630,7 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "持棘刺步槍特馬蟲",
+                "name": "持棘刺步槍的槍蟲",
                 "hidden": false,
                 "id": "49ea-f11e-4464-46eb"
               },
@@ -6691,7 +6691,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "特馬蟲",
+                    "name": "槍蟲",
                     "hidden": false,
                     "type": "profile",
                     "id": "60f0-1a0-5897-3ad8",
@@ -6864,7 +6864,7 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "持絞殺網特馬蟲",
+                "name": "持絞殺網的槍蟲",
                 "hidden": false,
                 "id": "bda0-156b-2437-8c50"
               }
@@ -6904,7 +6904,7 @@
                       }
                     ],
                     "type": "set",
-                    "value": "特馬蟲",
+                    "value": "槍蟲",
                     "field": "name"
                   },
                   {
@@ -6927,7 +6927,7 @@
                 "type": "and"
               }
             ],
-            "name": "10-20 特馬蟲",
+            "name": "10-20 槍蟲",
             "hidden": false,
             "id": "c5f1-c0f9-d37a-9d75",
             "defaultSelectionEntryId": "5c17-dcfb-6d07-1b12",
@@ -7289,7 +7289,7 @@
           }
         ],
         "id": "359c-db2c-681a-8d62",
-        "name": "特馬蟲",
+        "name": "槍蟲",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -7381,7 +7381,7 @@
           },
           {
             "id": "0166-0edb-424f-e361",
-            "name": "荷瑪蟲",
+            "name": "刀蟲",
             "hidden": false,
             "targetId": "2b2c-c30e-6d51-a4cc",
             "primary": false
@@ -7983,7 +7983,7 @@
                         "$text": ""
                       }
                     ],
-                    "name": "荷瑪蟲",
+                    "name": "刀蟲",
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "單位",
                     "hidden": false,
@@ -8031,7 +8031,7 @@
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ],
-                        "name": "荷瑪蟲鐮爪",
+                        "name": "刀蟲鐮爪",
                         "typeId": "8a40-4aaa-c780-9046",
                         "typeName": "近戰武器",
                         "hidden": false,
@@ -8068,7 +8068,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "荷瑪蟲鐮爪",
+                    "name": "刀蟲鐮爪",
                     "hidden": false,
                     "id": "a661-6877-04db-c7e0",
                     "collective": true
@@ -8094,7 +8094,7 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "荷瑪蟲",
+                "name": "刀蟲",
                 "hidden": false,
                 "id": "8e0b-d72a-535a-996b",
                 "collective": false
@@ -8114,18 +8114,18 @@
                   }
                 ],
                 "type": "set",
-                "value": "賀瑪蟲",
+                "value": "刀蟲",
                 "field": "name"
               }
             ],
-            "name": "10-20 荷瑪蟲",
+            "name": "10-20 刀蟲",
             "id": "4957-ad10-877d-424e",
             "hidden": false,
             "sortIndex": 3
           }
         ],
         "id": "f15b-9f9c-9bf0-8160",
-        "name": "荷瑪蟲",
+        "name": "刀蟲",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -9565,7 +9565,7 @@
               }
             ],
             "id": "1da2-fe24-4dd4-62f1",
-            "name": "神經暴君",
+            "name": "腦蟲暴君",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位"
@@ -9587,7 +9587,7 @@
           {
             "characteristics": [
               {
-                "$text": "當你釋放亞空間陰影時，若你的軍隊中有一個或多個神經暴君位於戰場上，則戰場上每個敵方單位因此必須進行的戰鬥震懾測試承受 -1 修正。",
+                "$text": "當你釋放亞空間陰影時，若你的軍隊中有一個或多個腦蟲暴君位於戰場上，則戰場上每個敵方單位因此必須進行的戰鬥震懾測試承受 -1 修正。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -9688,7 +9688,7 @@
           },
           {
             "id": "6836-0ed0-c044-5a23",
-            "name": "神經暴君",
+            "name": "腦蟲暴君",
             "hidden": false,
             "targetId": "2917-4769-ded1-a00c",
             "primary": false
@@ -10029,7 +10029,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "神經暴君爪與鞭",
+                    "name": "腦蟲暴君爪與鞭",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -10077,7 +10077,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "神經暴君爪與鞭",
+                "name": "腦蟲暴君爪與鞭",
                 "hidden": false,
                 "id": "dffc-982b-5793-3695",
                 "collective": false
@@ -10134,7 +10134,7 @@
           }
         ],
         "id": "1ae1-ed96-5100-eda5",
-        "name": "神經暴君",
+        "name": "腦蟲暴君",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -31215,7 +31215,7 @@
             "primary": false
           },
           {
-            "name": "巢穴暴君",
+            "name": "蟲巢暴君",
             "hidden": false,
             "id": "4f23-7aa7-a48e-89ea",
             "targetId": "101a-751-2ee4-c46e",
@@ -31749,7 +31749,7 @@
                 "$text": "4+"
               }
             ],
-            "name": "巢穴暴君",
+            "name": "蟲巢暴君",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -31987,7 +31987,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "巢穴暴君",
+        "name": "蟲巢暴君",
         "hidden": false,
         "id": "3e96-8098-3401-77af",
         "collective": false,
@@ -32090,7 +32090,7 @@
               }
             ],
             "id": "b416-a798-6999-26f4",
-            "name": "持剝肉鞭的泰倫主戰士",
+            "name": "裝備抽擊鞭的泰倫王蟲",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位"
@@ -32126,7 +32126,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可加入以下單位：\n- 荷瑪蟲\n- 特馬蟲\n- 泰倫武士（近戰生體武器）\n- 泰倫武士（遠程生體武器）",
+                "$text": "此模型可加入以下單位：\n- 刀蟲\n- 槍蟲\n- 泰倫武士（近戰生體武器）\n- 泰倫武士（遠程生體武器）",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -32204,7 +32204,7 @@
             "name": "突觸"
           },
           {
-            "name": "持剝肉鞭的泰倫主戰士",
+            "name": "裝備抽擊鞭的泰倫王蟲",
             "hidden": false,
             "id": "7714-f903-2898-e8e9",
             "targetId": "6ed1-0e06-b0d6-0cc2",
@@ -32863,7 +32863,7 @@
           }
         ],
         "id": "31f9-9730-853c-6f13",
-        "name": "持剝肉鞭的泰倫主戰士",
+        "name": "裝備抽擊鞭的泰倫王蟲",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -33346,7 +33346,7 @@
           }
         ],
         "id": "2461-bee9-2afc-8776",
-        "name": "特馬蟲",
+        "name": "槍蟲",
         "hidden": false,
         "typeId": "c547-1836-d8a-ff4f",
         "typeName": "單位"
