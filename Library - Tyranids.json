@@ -91,7 +91,7 @@
             "characteristics": [
               {
                 "$text": "在近戰階段開始時，你可選擇此模型 12 吋內且此模型可見的一個敵方單位，並擲一顆 D6：結果為 1 時，此靈能者模型受到 D3 點致命傷害；結果為 2+ 時，直到該階段結束，該單位中的模型所裝備的武器的攻擊次數屬性減 1。",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -108,7 +108,7 @@
               {
                 "type": "append",
                 "field": "name",
-                "value": "德3"
+                "value": "D3"
               }
             ],
             "id": "4868-8ba6-a021-5567",
@@ -635,7 +635,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(整備待戰)",
+                "value": "(Battle-ready)",
                 "field": "name"
               },
               {
@@ -665,7 +665,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(浴血老兵)",
+                "value": "(Blooded)",
                 "field": "name"
               },
               {
@@ -695,7 +695,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(久經戰陣)",
+                "value": "(Battle-hardened)",
                 "field": "name"
               },
               {
@@ -725,7 +725,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(英雄級)",
+                "value": "(Heroic)",
                 "field": "name"
               },
               {
@@ -741,7 +741,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(傳奇級)",
+                "value": "(Legendary)",
                 "field": "name"
               }
             ],
@@ -824,7 +824,7 @@
             "characteristics": [
               {
                 "$text": "當此模型率領單位時，該單位中的模型所裝備的武器具有［連擊 1］能力。",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -838,7 +838,7 @@
             "characteristics": [
               {
                 "$text": "若此模型被近戰攻擊摧毀，且此模型在本階段尚未戰鬥，則擲一顆 D6：結果為 4+ 時，不要將其移除。該被摧毀的模型可在攻擊模型所屬單位完成攻擊後進行戰鬥，然後再將其移除。",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -886,7 +886,7 @@
                 "$text": ""
               }
             ],
-            "name": "飛翼泰倫主戰士",
+            "name": "有翼泰倫王蟲",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -896,7 +896,7 @@
             "characteristics": [
               {
                 "$text": "此模型可加入以下單位：\n－石像蟲\n－裝備近戰生體武器的泰倫戰士\n－裝備遠程生體武器的泰倫戰士",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -959,7 +959,7 @@
         "categoryLinks": [
           {
             "id": "8c3d-baaf-703c-b6d3",
-            "name": "飛翼泰倫主戰士",
+            "name": "有翼泰倫王蟲",
             "hidden": false,
             "targetId": "d5b9-2986-70fe-f755",
             "primary": false
@@ -1147,7 +1147,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(整備待戰)",
+                "value": "(Battle-ready)",
                 "field": "name"
               },
               {
@@ -1177,7 +1177,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(浴血老兵)",
+                "value": "(Blooded)",
                 "field": "name"
               },
               {
@@ -1207,7 +1207,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(久經戰陣)",
+                "value": "(Battle-hardened)",
                 "field": "name"
               },
               {
@@ -1237,7 +1237,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(英雄級)",
+                "value": "(Heroic)",
                 "field": "name"
               },
               {
@@ -1253,7 +1253,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(傳奇級)",
+                "value": "(Legendary)",
                 "field": "name"
               }
             ],
@@ -1380,7 +1380,7 @@
               },
               {
                 "type": "append",
-                "value": "戰士生體形態猛攻",
+                "value": "Warrior Bioform Onslaught",
                 "field": "annotation",
                 "affects": "self.entries.recursive.profiles.Unit",
                 "join": ", ",
@@ -1516,7 +1516,7 @@
           }
         ],
         "id": "507d-5ea4-6ef1-bf66",
-        "name": "飛翼泰倫主戰士",
+        "name": "有翼泰倫王蟲",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -1789,7 +1789,7 @@
             "characteristics": [
               {
                 "$text": "當一個敵方單位位於此模型 6 吋內時，該單位中模型的領導力屬性減 1。此外，在對手指揮階段的戰鬥震懾步驟中，若該敵方單位低於其初始兵力，則該單位必須進行戰鬥震懾測試。",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -1803,7 +1803,7 @@
             "characteristics": [
               {
                 "$text": "此模型不能成為你的戰主。",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -1946,7 +1946,7 @@
                   }
                 ],
                 "type": "add",
-                "value": "跳幫蟲群中不能選取 3 個類利卡特模型",
+                "value": "Cannot take 3 Lictor-like models in a Boarding Swarm",
                 "field": "error"
               }
             ],
@@ -2005,7 +2005,7 @@
             "characteristics": [
               {
                 "$text": "在你的射擊階段，此單位射擊後，若此單位不在任何敵方單位的交戰範圍內，則此單位可進行最多 6 吋的普通移動。若如此做，直到該回合結束，此單位不能宣告衝鋒。",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -2538,7 +2538,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(整備待戰)",
+                "value": "(Battle-ready)",
                 "field": "name"
               },
               {
@@ -2568,7 +2568,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(浴血老兵)",
+                "value": "(Blooded)",
                 "field": "name"
               },
               {
@@ -2598,7 +2598,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(久經戰陣)",
+                "value": "(Battle-hardened)",
                 "field": "name"
               },
               {
@@ -2628,7 +2628,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(英雄級)",
+                "value": "(Heroic)",
                 "field": "name"
               },
               {
@@ -2644,7 +2644,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(傳奇級)",
+                "value": "(Legendary)",
                 "field": "name"
               }
             ],
@@ -2802,7 +2802,7 @@
             "characteristics": [
               {
                 "$text": "此單位中的模型所裝備的武器具有［連擊 1］能力。",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -2815,7 +2815,7 @@
           {
             "characteristics": [
               {
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "每個戰鬥輪一次，你可將此單位選為「快速突入／英雄干預」計謀的目標，不受本階段該計謀其他使用次數影響。若如此做：\n－該次使用的指揮點費用減少 1 點。\n－該次使用不會阻止本階段對其他單位使用該計謀。"
               }
@@ -2835,7 +2835,7 @@
             "characteristics": [
               {
                 "$text": "此單位可附屬於以下單位：掘蟒蟲。",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -3233,7 +3233,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(整備待戰)",
+                "value": "(Battle-ready)",
                 "field": "name"
               },
               {
@@ -3263,7 +3263,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(浴血老兵)",
+                "value": "(Blooded)",
                 "field": "name"
               },
               {
@@ -3293,7 +3293,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(久經戰陣)",
+                "value": "(Battle-hardened)",
                 "field": "name"
               },
               {
@@ -3323,7 +3323,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(英雄級)",
+                "value": "(Heroic)",
                 "field": "name"
               },
               {
@@ -3339,7 +3339,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(傳奇級)",
+                "value": "(Legendary)",
                 "field": "name"
               }
             ],
@@ -3772,7 +3772,7 @@
             "targetId": "1ff-bd00-eca8-bff7",
             "id": "3a0a-e9ea-95f9-3de1",
             "primary": false,
-            "name": "利克托"
+            "name": "刀斧蟲"
           },
           {
             "targetId": "d1d8-6ae0-1be7-e9e",
@@ -3935,7 +3935,7 @@
                 "$text": ""
               }
             ],
-            "name": "利克托",
+            "name": "刀斧蟲",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -3945,7 +3945,7 @@
             "characteristics": [
               {
                 "$text": "每個戰鬥輪一次，你可以花費 0 點指揮點，將一個具有此能力的模型選為「快速突入」計謀的目標。",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -4185,7 +4185,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(整備待戰)",
+                "value": "(Battle-ready)",
                 "field": "name"
               },
               {
@@ -4215,7 +4215,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(浴血老兵)",
+                "value": "(Blooded)",
                 "field": "name"
               },
               {
@@ -4245,7 +4245,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(久經戰陣)",
+                "value": "(Battle-hardened)",
                 "field": "name"
               },
               {
@@ -4275,7 +4275,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(英雄級)",
+                "value": "(Heroic)",
                 "field": "name"
               },
               {
@@ -4291,7 +4291,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(傳奇級)",
+                "value": "(Legendary)",
                 "field": "name"
               }
             ],
@@ -4415,7 +4415,7 @@
                   }
                 ],
                 "type": "add",
-                "value": "跳幫蟲群中不能選取 3 個類利卡特模型",
+                "value": "Cannot take 3 Lictor-like models in a Boarding Swarm",
                 "field": "error"
               }
             ],
@@ -4470,7 +4470,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "利克托",
+        "name": "刀斧蟲",
         "hidden": false,
         "id": "da44-72c9-7a27-48aa"
       },
@@ -4535,7 +4535,7 @@
             "characteristics": [
               {
                 "$text": "每當此單位使用深度打擊能力部署在戰場上時，為此模型 12 吋內的每個敵方單位各擲一顆 D6：結果為 2-4 時，該單位受到 D3 點致命傷害；結果為 5+ 時，該單位受到 3 點致命傷害，且必須進行戰鬥震懾測試。",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -4780,7 +4780,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(整備待戰)",
+                "value": "(Battle-ready)",
                 "field": "name"
               },
               {
@@ -4810,7 +4810,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(浴血老兵)",
+                "value": "(Blooded)",
                 "field": "name"
               },
               {
@@ -4840,7 +4840,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(久經戰陣)",
+                "value": "(Battle-hardened)",
                 "field": "name"
               },
               {
@@ -4870,7 +4870,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(英雄級)",
+                "value": "(Heroic)",
                 "field": "name"
               },
               {
@@ -4886,7 +4886,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(傳奇級)",
+                "value": "(Legendary)",
                 "field": "name"
               }
             ],
@@ -5167,7 +5167,7 @@
             "targetId": "de12-e6b6-16c1-47b0",
             "id": "6e20-4803-c60e-d4b5",
             "primary": false,
-            "name": "神經利克托"
+            "name": "神經刀斧蟲"
           },
           {
             "targetId": "5ff0-d52d-e2b8-9de",
@@ -5371,7 +5371,7 @@
                 "$text": "4+"
               }
             ],
-            "name": "神經利克托",
+            "name": "神經刀斧蟲",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -5381,7 +5381,7 @@
             "characteristics": [
               {
                 "$text": "每當此模型摧毀一個敵方角色模型時，你獲得 1 點指揮點。",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -5395,7 +5395,7 @@
             "characteristics": [
               {
                 "$text": "在你的指揮階段，選擇此模型 12 吋內的一個敵方單位。該單位必須進行戰鬥震懾測試。",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -5409,7 +5409,7 @@
             "characteristics": [
               {
                 "$text": "當一個敵方單位位於此模型 12 吋內且該單位處於戰鬥震懾狀態時：\n\n－每當該單位中的模型進行攻擊時，該次命中擲骰承受 -1 修正。\n－每當一個友方泰倫蟲族模型以該單位為目標進行攻擊時，該次致傷擲骰獲得 +1 修正。",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -5624,7 +5624,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(整備待戰)",
+                "value": "(Battle-ready)",
                 "field": "name"
               },
               {
@@ -5654,7 +5654,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(浴血老兵)",
+                "value": "(Blooded)",
                 "field": "name"
               },
               {
@@ -5684,7 +5684,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(久經戰陣)",
+                "value": "(Battle-hardened)",
                 "field": "name"
               },
               {
@@ -5714,7 +5714,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(英雄級)",
+                "value": "(Heroic)",
                 "field": "name"
               },
               {
@@ -5730,7 +5730,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(傳奇級)",
+                "value": "(Legendary)",
                 "field": "name"
               }
             ],
@@ -5854,7 +5854,7 @@
                   }
                 ],
                 "type": "add",
-                "value": "跳幫蟲群中不能選取 3 個類利卡特模型",
+                "value": "Cannot take 3 Lictor-like models in a Boarding Swarm",
                 "field": "error"
               }
             ],
@@ -5963,7 +5963,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "神經利克托",
+        "name": "神經刀斧蟲",
         "hidden": false,
         "id": "642f-9302-4fdc-ab68",
         "modifiers": [
@@ -6066,7 +6066,7 @@
             "characteristics": [
               {
                 "$text": "每當一個步兵模型被此模型的倒鉤產卵器攻擊摧毀時，在此模型完成攻擊後，你可為你的軍隊加入一個新的撕裂蟲群單位，該單位包含 D3 個模型，並將其部署在此模型的 3 吋內。若如此做，該撕裂蟲群單位可部署在被摧毀模型所屬單位的交戰範圍內，但不能部署在任何其他敵方單位的交戰範圍內。",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -6080,7 +6080,7 @@
             "characteristics": [
               {
                 "$text": "在近戰階段開始時，選擇此模型交戰範圍內的一個敵方單位。該敵方單位必須進行戰鬥震懾測試。",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -6374,7 +6374,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(整備待戰)",
+                "value": "(Battle-ready)",
                 "field": "name"
               },
               {
@@ -6404,7 +6404,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(浴血老兵)",
+                "value": "(Blooded)",
                 "field": "name"
               },
               {
@@ -6434,7 +6434,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(久經戰陣)",
+                "value": "(Battle-hardened)",
                 "field": "name"
               },
               {
@@ -6464,7 +6464,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(英雄級)",
+                "value": "(Heroic)",
                 "field": "name"
               },
               {
@@ -6480,7 +6480,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(傳奇級)",
+                "value": "(Legendary)",
                 "field": "name"
               }
             ],
@@ -6739,7 +6739,7 @@
             "characteristics": [
               {
                 "$text": "在對手的回合結束時，若此單位不在一個或多個敵方單位的交戰範圍內，你可將其從戰場移除並放入戰略預備隊。",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -6969,7 +6969,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(整備待戰)",
+                "value": "(Battle-ready)",
                 "field": "name"
               },
               {
@@ -6999,7 +6999,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(浴血老兵)",
+                "value": "(Blooded)",
                 "field": "name"
               },
               {
@@ -7029,7 +7029,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(久經戰陣)",
+                "value": "(Battle-hardened)",
                 "field": "name"
               },
               {
@@ -7059,7 +7059,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(英雄級)",
+                "value": "(Heroic)",
                 "field": "name"
               },
               {
@@ -7075,7 +7075,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(傳奇級)",
+                "value": "(Legendary)",
                 "field": "name"
               }
             ],
@@ -7575,7 +7575,7 @@
                       }
                     ],
                     "type": "set",
-                    "value": "掘蟒蟲",
+                    "value": "Raveners",
                     "field": "name"
                   }
                 ],
@@ -7687,7 +7687,7 @@
           {
             "characteristics": [
               {
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "在你的移動階段，當此模型使用深度打擊能力部署在戰場上時，此模型可使用地底隧道。若如此做，此模型可部署在戰場上任意位置，且必須水平距離所有敵方單位超過 6 吋；但直到該回合結束，此模型不能宣告衝鋒。"
               }
@@ -8036,7 +8036,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(整備待戰)",
+                "value": "(Battle-ready)",
                 "field": "name"
               },
               {
@@ -8066,7 +8066,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(浴血老兵)",
+                "value": "(Blooded)",
                 "field": "name"
               },
               {
@@ -8096,7 +8096,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(久經戰陣)",
+                "value": "(Battle-hardened)",
                 "field": "name"
               },
               {
@@ -8126,7 +8126,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(英雄級)",
+                "value": "(Heroic)",
                 "field": "name"
               },
               {
@@ -8142,7 +8142,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(傳奇級)",
+                "value": "(Legendary)",
                 "field": "name"
               }
             ],
@@ -8518,7 +8518,7 @@
             "modifiers": [
               {
                 "type": "append",
-                "value": "德3",
+                "value": "D3",
                 "field": "name"
               }
             ],
@@ -8592,7 +8592,7 @@
             "characteristics": [
               {
                 "$text": "此模型必須在預備隊中開始戰鬥，但此模型與搭乘其中的任何單位都不計入你可在預備隊中開始戰鬥的單位數量上限。無論任務規則如何，此模型都可在你的第一、第二或第三個移動階段的增援步驟中部署。此模型部署在戰場上後，搭乘其中的任何單位必須立即下車，且必須部署在距離所有敵方模型超過 9 吋的位置。此模型部署在戰場上後，任何單位都不能再搭乘其中。",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -8606,7 +8606,7 @@
             "characteristics": [
               {
                 "$text": "此模型的運輸容量為 20 個泰倫蟲族步兵模型，或 1 個生命值屬性為 12 或以下的泰倫蟲族怪獸模型。每個生命值屬性大於 1 的步兵模型佔用 3 個模型的空間。",
-                "name": "運輸容量",
+                "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84"
               }
             ],
@@ -8775,7 +8775,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(整備待戰)",
+                "value": "(Battle-ready)",
                 "field": "name"
               },
               {
@@ -8805,7 +8805,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(浴血老兵)",
+                "value": "(Blooded)",
                 "field": "name"
               },
               {
@@ -8835,7 +8835,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(久經戰陣)",
+                "value": "(Battle-hardened)",
                 "field": "name"
               },
               {
@@ -8865,7 +8865,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(英雄級)",
+                "value": "(Heroic)",
                 "field": "name"
               },
               {
@@ -8881,7 +8881,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(傳奇級)",
+                "value": "(Legendary)",
                 "field": "name"
               }
             ],
@@ -9189,7 +9189,7 @@
           {
             "characteristics": [
               {
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "你可將此單位選為「英雄干預」計謀的目標，不受本階段該計謀其他使用次數影響。若如此做：\n－該次使用的指揮點費用減少 1 點。\n－該次使用不會阻止本階段對其他單位使用該計謀。"
               }
@@ -9371,7 +9371,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(整備待戰)",
+                "value": "(Battle-ready)",
                 "field": "name"
               },
               {
@@ -9401,7 +9401,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(浴血老兵)",
+                "value": "(Blooded)",
                 "field": "name"
               },
               {
@@ -9431,7 +9431,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(久經戰陣)",
+                "value": "(Battle-hardened)",
                 "field": "name"
               },
               {
@@ -9461,7 +9461,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(英雄級)",
+                "value": "(Heroic)",
                 "field": "name"
               },
               {
@@ -9477,7 +9477,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(傳奇級)",
+                "value": "(Legendary)",
                 "field": "name"
               }
             ],
@@ -9906,7 +9906,7 @@
                       }
                     ],
                     "type": "set",
-                    "value": "馮·萊恩跳躍者",
+                    "value": "Von Ryan's Leapers",
                     "field": "name"
                   }
                 ],
@@ -10054,7 +10054,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "屠戮軍刀",
+                "value": "Slayer Sabres",
                 "field": "annotation",
                 "join": ", ",
                 "scope": "model-or-unit",
@@ -10073,7 +10073,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "屠戮軍刀",
+                "value": "Slayer Sabres",
                 "field": "893f-9000-ccf7-648e",
                 "scope": "model-or-unit",
                 "affects": "self.entries.recursive.profiles.Melee Weapons"
@@ -11177,7 +11177,7 @@
             "characteristics": [
               {
                 "$text": "當此模型率領單位時，該單位中的模型所裝備的武器具有［連擊 1］能力。",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -11191,7 +11191,7 @@
             "characteristics": [
               {
                 "$text": "此模型可加入以下單位：\n－裝備近戰生體武器的泰倫戰士\n－裝備遠程生體武器的泰倫戰士",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -11226,7 +11226,7 @@
                       }
                     ],
                     "type": "set",
-                    "value": "此模型可加入以下單位：\n－掘蟒蟲",
+                    "value": "This model can be attached to the following unit:\n- **^^Raveners^^**",
                     "field": "9b8f-694b-e5e-b573",
                     "join": "\n\n"
                   },
@@ -11243,7 +11243,7 @@
                       }
                     ],
                     "type": "set",
-                    "value": "此模型可加入以下單位：\n－劇毒索普\n－靈能索普",
+                    "value": "This model can be attached to the following units:\n- **^^Venomthropes^^**\n- **^^Zoanthropes^^**",
                     "field": "9b8f-694b-e5e-b573",
                     "join": "\n\n"
                   },
@@ -11274,7 +11274,7 @@
                       }
                     ],
                     "type": "append",
-                    "value": "－神經蟲",
+                    "value": "- **^^Neurogaunts^^**",
                     "field": "9b8f-694b-e5e-b573",
                     "join": "\n\n"
                   },
@@ -11291,7 +11291,7 @@
                       }
                     ],
                     "type": "set",
-                    "value": "此模型可加入以下單位：\n－荷瑪蟲\n－馮·萊恩躍擊獸",
+                    "value": "This model can be attached to the following units:\n- **^^Hormagaunts^^**\n- **^^Von Ryan's Leapers^^**",
                     "field": "9b8f-694b-e5e-b573",
                     "join": "\n\n"
                   },
@@ -11322,7 +11322,7 @@
                       }
                     ],
                     "type": "set",
-                    "value": "此模型可加入以下單位：\n－石像鬼",
+                    "value": "This model can be attached to the following unit:\n- **^^Gargoyles^^**",
                     "field": "9b8f-694b-e5e-b573",
                     "join": "\n\n"
                   }
@@ -11548,7 +11548,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(整備待戰)",
+                "value": "(Battle-ready)",
                 "field": "name"
               },
               {
@@ -11578,7 +11578,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(浴血老兵)",
+                "value": "(Blooded)",
                 "field": "name"
               },
               {
@@ -11608,7 +11608,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(久經戰陣)",
+                "value": "(Battle-hardened)",
                 "field": "name"
               },
               {
@@ -11638,7 +11638,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(英雄級)",
+                "value": "(Heroic)",
                 "field": "name"
               },
               {
@@ -11654,7 +11654,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(傳奇級)",
+                "value": "(Legendary)",
                 "field": "name"
               }
             ],
@@ -11765,7 +11765,7 @@
             "modifiers": [
               {
                 "type": "append",
-                "value": "德3",
+                "value": "D3",
                 "field": "name"
               }
             ],
@@ -11883,7 +11883,7 @@
             "characteristics": [
               {
                 "$text": "此單位在其推進的回合中仍有資格射擊並宣告衝鋒。",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -11896,8 +11896,8 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可加入以下單位：\n－劊子手蟲\n－暴君守衛",
-                "name": "說明",
+                "$text": "此模型可加入以下單位：\n－劊子手蟲\n－暴君護衛",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -11932,7 +11932,7 @@
                       }
                     ],
                     "type": "set",
-                    "value": "此模型可加入以下單位：\n－掘蟒蟲",
+                    "value": "This model can be attached to the following unit:\n- **^^Raveners^^**",
                     "field": "9b8f-694b-e5e-b573",
                     "join": "\n\n"
                   },
@@ -11949,7 +11949,7 @@
                       }
                     ],
                     "type": "set",
-                    "value": "此模型可加入以下單位：\n－劇毒索普\n－靈能索普",
+                    "value": "This model can be attached to the following units:\n- **^^Venomthropes^^**\n- **^^Zoanthropes^^**",
                     "field": "9b8f-694b-e5e-b573",
                     "join": "\n\n"
                   },
@@ -11980,7 +11980,7 @@
                       }
                     ],
                     "type": "append",
-                    "value": "－神經蟲",
+                    "value": "- **^^Neurogaunts^^**",
                     "field": "9b8f-694b-e5e-b573",
                     "join": "\n\n"
                   },
@@ -11997,7 +11997,7 @@
                       }
                     ],
                     "type": "set",
-                    "value": "此模型可加入以下單位：\n－荷瑪蟲\n－馮·萊恩躍擊獸",
+                    "value": "This model can be attached to the following units:\n- **^^Hormagaunts^^**\n- **^^Von Ryan's Leapers^^**",
                     "field": "9b8f-694b-e5e-b573",
                     "join": "\n\n"
                   },
@@ -12028,7 +12028,7 @@
                       }
                     ],
                     "type": "set",
-                    "value": "此模型可加入以下單位：\n－石像鬼",
+                    "value": "This model can be attached to the following unit:\n- **^^Gargoyles^^**",
                     "field": "9b8f-694b-e5e-b573",
                     "join": "\n\n"
                   }
@@ -12247,7 +12247,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(整備待戰)",
+                "value": "(Battle-ready)",
                 "field": "name"
               },
               {
@@ -12277,7 +12277,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(浴血老兵)",
+                "value": "(Blooded)",
                 "field": "name"
               },
               {
@@ -12307,7 +12307,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(久經戰陣)",
+                "value": "(Battle-hardened)",
                 "field": "name"
               },
               {
@@ -12337,7 +12337,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(英雄級)",
+                "value": "(Heroic)",
                 "field": "name"
               },
               {
@@ -12353,7 +12353,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(傳奇級)",
+                "value": "(Legendary)",
                 "field": "name"
               }
             ],
@@ -12481,7 +12481,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "德3",
+                "value": "D3",
                 "field": "name"
               },
               {
@@ -12496,7 +12496,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "德6",
+                "value": "D6",
                 "field": "name"
               }
             ],
@@ -12600,7 +12600,7 @@
             "characteristics": [
               {
                 "$text": "在每名玩家的指揮階段開始時，此模型恢復最多 D3 點已失去的生命值。",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -12815,7 +12815,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(整備待戰)",
+                "value": "(Battle-ready)",
                 "field": "name"
               },
               {
@@ -12845,7 +12845,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(浴血老兵)",
+                "value": "(Blooded)",
                 "field": "name"
               },
               {
@@ -12875,7 +12875,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(久經戰陣)",
+                "value": "(Battle-hardened)",
                 "field": "name"
               },
               {
@@ -12905,7 +12905,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(英雄級)",
+                "value": "(Heroic)",
                 "field": "name"
               },
               {
@@ -12921,7 +12921,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(傳奇級)",
+                "value": "(Legendary)",
                 "field": "name"
               }
             ],
@@ -14201,7 +14201,7 @@
             "characteristics": [
               {
                 "$text": "此模型可穿越地形特徵，但不能在牆壁、樓板等地形內結束移動。此模型可部署在廢墟的任意樓層上，或在其上結束移動；但若該樓層不是地面層，只有在其底座沒有伸出該樓層邊緣時才可如此做。",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -14215,7 +14215,7 @@
             "characteristics": [
               {
                 "$text": "每當此模型以裂口巨顎進行的攻擊以一個步兵、騎乘或野獸單位為目標時，每個成功且未修正的致傷擲骰均視為暴擊致傷。每當一個步兵、騎乘或野獸模型因此模型的裂口巨顎攻擊而被摧毀時，此模型恢復最多 D3+2 點已失去生命值。",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -14273,7 +14273,7 @@
             "characteristics": [
               {
                 "$text": "在近戰階段結束時，若此單位不位於任何敵方單位的交戰範圍內，你可將其從戰場移除並放入戰略預備隊。",
-                "name": "說明",
+                "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -14824,7 +14824,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限泰倫蟲族模型。雙方玩家完成部署後，選擇你的軍隊中最多三個泰倫蟲族單位並重新部署它們。如此做時，無論已有多少單位位於戰略預備隊中，你都可將這些單位部署至戰略預備隊。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -14934,7 +14934,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限泰倫蟲族模型。每回合一次，你可以為持用者重擲一次命中擲骰、一次致傷擲骰、一次傷害擲骰、一次推進擲骰、一次衝鋒擲骰或一次保護擲骰。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -15044,7 +15044,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限泰倫蟲族模型。當一個友方泰倫蟲族單位位於持用者 9 吋內時，該單位視為位於你的軍隊的突觸範圍內。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -15154,7 +15154,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限泰倫蟲族模型。持用者具有不覺疼痛 5+ 能力。在任一回合開始時，若持用者剩餘生命值低於其初始生命值，則直到戰鬥結束，其改為具有不覺疼痛 4+ 能力。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -15325,7 +15325,7 @@
                   {
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "僅限泰倫蟲族模型。當持用者位於一個或多個友方收割者單位 6 吋內時，若你以此單位為目標使用英雄干預計謀，該次使用的指揮點費用減少 1 點。此外，當持用者位於一個或多個友方收割者單位 6 吋內時，持用者所屬單位中的模型具有先攻能力。"
                       }
@@ -15425,7 +15425,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限泰倫蟲族模型。持用者所屬單位中的模型所裝備的近戰武器，其力量屬性加 1。持用者位於一個或多個收割者單位 6 吋內時，持用者所屬單位首次在近戰階段摧毀一個敵方單位後，直到戰鬥結束，持用者所屬單位中的模型所裝備的近戰武器，其攻擊次數屬性加 1。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -15540,7 +15540,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限泰倫蟲族模型（不包含怪獸模型）。持用者所屬單位每個階段最多可被再生兩次，而非一次。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -15639,7 +15639,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限泰倫蟲族模型。當一個友方收割者模型位於持用者 12 吋內時，該收割者模型使用「餵養蟲群」能力時，可再生一個位於其 9 吋內的友方泰倫蟲族單位，而非只能再生一個位於其 6 吋內的友方泰倫蟲族單位。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -15878,7 +15878,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限泰倫蟲族怪獸模型。每當持用者進行一次以怪獸或載具單位為目標的近戰攻擊時，該次致傷擲骰加 1。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -15993,7 +15993,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限泰倫蟲族怪獸模型。每場戰鬥一次，當一次靈能攻擊被分配給持用者時，持用者可啟用此能力。若如此做，直到該階段結束，持用者對抗靈能攻擊時具有不覺疼痛 5+ 能力。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -16108,7 +16108,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限泰倫蟲族怪獸模型。持用者的目標控制值屬性增加 3。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -16223,7 +16223,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限泰倫蟲族怪獸模型。若持用者被近戰攻擊摧毀，且其尚未在此階段戰鬥，擲一顆 D6：若結果為 3+，不要將其從遊戲中移除。持用者可在攻擊模型所屬單位完成攻擊後進行戰鬥，之後將其從遊戲中移除。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -16411,7 +16411,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限泰倫蟲族突觸模型。從預備隊抵達戰場的敵方單位不能部署在持用者 12 吋內。此外，每場戰鬥一次，在第一或第二戰鬥輪中，當對手宣告一個單位將從戰略預備隊抵達戰場時，持用者可啟用此強化。若如此做，擲一顆 D6：若結果為 4+，該敵方單位本回合不能抵達戰場。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -16526,7 +16526,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限泰倫蟲族突觸模型。每當一次攻擊被分配給持用者時，該次攻擊的傷害屬性減 1。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -16641,7 +16641,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限泰倫蟲族突觸模型。當一個敵方單位位於持用者 9 吋內時，該單位的領導力屬性減 1。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -16756,7 +16756,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限泰倫蟲族靈能者模型。持用者所裝備靈能武器的力量與穿甲屬性各改善 1。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -16814,7 +16814,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "蟲巢意志之力",
+                        "value": "Power of the Hive Mind",
                         "field": "annotation",
                         "scope": "model-or-unit",
                         "affects": "self.entries.recursive.4546-4a0c-b3be-e84c.profiles.Ranged Weapons",
@@ -16838,7 +16838,7 @@
                       },
                       {
                         "type": "append",
-                        "value": "蟲巢意志之力",
+                        "value": "Power of the Hive Mind",
                         "field": "annotation",
                         "scope": "model-or-unit",
                         "affects": "self.entries.recursive.4546-4a0c-b3be-e84c.profiles.Melee Weapons",
@@ -16994,7 +16994,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限泰倫蟲族模型。在第一個戰鬥輪開始時，選擇最多三個位於持用者 9 吋內的友方無盡群眾單位。直到該戰鬥輪結束，每當一次遠程攻擊以其中一個單位為目標時，該單位中的模型對抗該次攻擊時具有掩護增益。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -17104,7 +17104,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限泰倫蟲族模型。每當持用者所屬單位中的模型進行一次攻擊時，若該次攻擊造成暴擊致傷，該次攻擊的穿甲屬性改善 1。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -17214,7 +17214,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限泰倫蟲族模型。持用者所屬單位中模型的移動屬性加 2 吋。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -17324,7 +17324,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限泰倫蟲族模型。每當持用者所屬單位進行近戰移入或鞏固移動時，該單位中的模型可額外移動 3 吋。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -17559,7 +17559,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限泰倫蟲族模型。當持用者位於戰場上時，每當對手在戰場上部署一個預備隊單位，擲一顆 D6：若結果為 2+，該單位必須進行一次戰鬥震懾測試。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -17668,7 +17668,7 @@
                   {
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "僅限泰倫蟲族模型。雙方玩家完成部署後，你可選擇你的軍隊中最多三個先鋒入侵者單位，並重新部署所有這些單位。如此做時，無論已有多少單位位於戰略預備隊中，這些單位都可被置入戰略預備隊。"
                       }
@@ -17795,7 +17795,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限先鋒入侵者模型。戰鬥開始時，選擇一個敵方單位。每當持用者進行以該敵方單位為目標的攻擊時，該次命中擲骰與致傷擲骰加 1。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -17921,7 +17921,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限先鋒入侵者模型。持用者具有匿蹤能力；每當一次遠程攻擊以持用者所屬單位為目標時，該單位中的模型對該次攻擊具有掩護增益。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -18146,9 +18146,9 @@
                   {
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "此生體形態與其共生武器獸已被適應為追求最大殺傷力。\n\n僅限有翼泰倫主戰士／持剝肉鞭泰倫主戰士模型。此模型的近戰攻擊：\n－可重擲致傷擲骰。\n－穿甲屬性加 1。"
+                        "$text": "此生體形態與其共生武器獸已被適應為追求最大殺傷力。\n\n僅限有翼泰倫王蟲／持剝肉鞭泰倫王蟲模型。此模型的近戰攻擊：\n－可重擲致傷擲骰。\n－穿甲屬性加 1。"
                       }
                     ],
                     "id": "b079-93cd-5595-103b",
@@ -18212,7 +18212,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "提升力量",
+                        "value": "Elevated Might",
                         "field": "annotation",
                         "affects": "self.entries.recursive.profiles.Melee Weapons",
                         "join": ", "
@@ -18310,9 +18310,9 @@
                   {
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "此節點獸的生體適應使其能感知最細微的電脈衝或熱訊號。很少有獵物能逃出它的掌握。\n\n僅限有翼泰倫主戰士／持剝肉鞭泰倫主戰士模型。此單位的近戰攻擊獲得命中擲骰 +1 修正。"
+                        "$text": "此節點獸的生體適應使其能感知最細微的電脈衝或熱訊號。很少有獵物能逃出它的掌握。\n\n僅限有翼泰倫王蟲／持剝肉鞭泰倫王蟲模型。此單位的近戰攻擊獲得命中擲骰 +1 修正。"
                       }
                     ],
                     "id": "f43e-c42a-e09c-73af",
@@ -18505,7 +18505,7 @@
                     "characteristics": [
                       {
                         "$text": "此生體形態憑藉敏銳感官與掠食本能，潛入適當位置並在敵人反應前發動打擊。\n\n僅限具有深度打擊能力的泰倫蟲族模型。持用者所屬單位可在你的第一、第二或第三個移動階段的增援步驟中，使用深度打擊能力部署，無視任何任務規則限制。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -18617,7 +18617,7 @@
                     "characteristics": [
                       {
                         "$text": "首領掘地蟲很少由蟲巢艦隊展現出來；其神經皮質中具有大幅強化的突觸網路，使其能更精確地協調掘地泰倫蟲族生物的突擊。\n\n僅限掘地蟲模型。持用者獲得突觸關鍵字。持用者所裝備的近戰武器，其力量屬性與武器技巧屬性改善 1。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -18695,7 +18695,7 @@
                           }
                         ],
                         "type": "append",
-                        "value": "特里岡首領",
+                        "value": "Trygon Prime",
                         "field": "annotation",
                         "join": ", ",
                         "scope": "model-or-unit",
@@ -18798,7 +18798,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限泰倫蟲族模型。每場戰鬥一次，你可以 0 點指揮點將持用者所屬單位選為快速突入計謀的目標；即使你在此階段已將另一個單位選為該計謀的目標，也可如此做。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -18933,7 +18933,7 @@
                     "characteristics": [
                       {
                         "$text": "此生體形態從戰場下方的隱蔽位置感知敵軍移動的細微痕跡，驅使同類重新定位，準備發動協同突擊。\n\n僅限泰倫蟲族模型。雙方都完成軍隊部署後，選擇你的軍隊中最多三個友方泰倫蟲族單位並重新部署。如此做時，你可將這些單位部署至戰略預備隊，無論已有多少單位位於戰略預備隊。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -19008,7 +19008,7 @@
                     "id": "pa84-7b11-ed08-c4a8",
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "此生物與蟲巢意志之間具有異常敏銳的連結，能持續接收感官資料，從而穿越戰場並在最具衝擊力的地點與時機現身。\n\n僅限泰倫蟲族模型。每場戰鬥一次，你可以 0 點指揮點將持用者所屬單位選為快速突入計謀的目標；即使你在此階段已將另一個單位選為該計謀的目標，也可如此做。"
                       }
@@ -19138,7 +19138,7 @@
                   {
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "僅限憎惡體、生化賢者或族長模型。\n－持用者所屬單位中的模型具有滲透者能力。\n－無論此階段是否已使用過該計謀，你仍可將此單位選為英雄干預計謀的目標。若如此做：\n－該次使用的指揮點費用減少 1 點。\n－該次使用不會阻止你在此階段將其他單位選為該計謀的目標。"
                       }
@@ -19259,7 +19259,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限憎惡體或族長模型。持用者所裝備的近戰武器，其穿甲屬性與傷害屬性各改善 1。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -19362,7 +19362,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "生物形態適應",
+                        "value": "Biomorph Adaption",
                         "field": "annotation",
                         "scope": "model",
                         "affects": "self.entries.recursive.profiles.Melee Weapons",
@@ -19438,7 +19438,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限憎惡體、生化賢者或族長模型。在每個指揮階段，持用者所屬單位中的一個模型恢復 1 點已失去生命值。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -19558,7 +19558,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限憎惡體、生化賢者或族長模型。當一個敵方單位位於持用者所屬單位的交戰範圍內時，該敵方單位中模型的目標控制值屬性減 1，最低減至 1。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -19816,7 +19816,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限基因竊取者教派步兵模型。每回合一次，當一個位於持用者 9 吋內的友方星界軍步兵或星界軍騎乘單位被選擇進行射擊時，持用者可啟用此強化。若如此做，直到該階段結束，該單位中的模型所裝備的遠程武器，其穿甲屬性改善 1。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -19925,7 +19925,7 @@
                   {
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "僅限基因竊取者教派步兵模型。當你以此單位為目標使用英雄干預計謀時，該次使用的指揮點費用減少 1 點。"
                       }
@@ -20036,7 +20036,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限基因竊取者教派步兵模型。持用者所屬單位中模型的領導力屬性與目標控制值屬性改善 1。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -20146,7 +20146,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限基因竊取者教派步兵模型。每當你以持用者所屬單位為目標使用監視射擊計謀時，結算該計謀期間，命中擲骰結果為 5+ 即成功命中。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -20252,7 +20252,7 @@
                     "characteristics": [
                       {
                         "$text": "無形的靈能卷鬚漂浮在此生體形態的頭顱周圍，刺入混血者破碎的心智並強行注入異形命令，同時無情地抽取其生體能量。\n\n僅限泰倫蟲族模型。每當持用者會因靈能寄生分遣隊規則恢復一點或多點已失去生命值時，改為恢復最多兩倍數量的已失去生命值。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -20362,7 +20362,7 @@
                     "characteristics": [
                       {
                         "$text": "此領袖生物經蟲巢意志適應，用於率領第一波入侵蟲群；其生體武器著重於兇狠的衝擊突擊與最大程度的血腥殺戮。\n\n僅限有翼蟲巢暴君模型。持用者所裝備的近戰武器，其力量屬性與穿甲屬性改善 1。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -20465,7 +20465,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "先鋒暴君",
+                        "value": "Vanguard Tyrant",
                         "field": "annotation",
                         "join": ", ",
                         "scope": "root-entry",
@@ -20503,7 +20503,7 @@
                     "characteristics": [
                       {
                         "$text": "這名教派領袖強大的靈魂比多數同類更能承受蟲巢意志的整合，至少目前如此。其甚至能向下屬轉送粗糙近似的突觸訊號；當然，這只會讓他們與追隨者更加無私地服從。\n\n僅限基因竊取者教派模型。當持用者所屬單位中的模型所裝備的武器以位於一個或多個友方泰倫蟲族單位 6 吋內的敵方單位為目標時，這些武器具有［連擊 1］能力。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -20622,7 +20622,7 @@
                     "characteristics": [
                       {
                         "$text": "雖然蟲巢意志的陰險力量如酸液般掏空他們，卻也從這名狂亂狂信者身上熊熊燃起，迫使敵人退縮。\n\n僅限基因竊取者教派模型。敵方單位不能使用監視射擊計謀向持用者所屬單位射擊。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -20800,7 +20800,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限基因竊取者教派模型。每場戰鬥一次，當持用者所屬單位宣告衝鋒時，持用者可啟用此強化。若如此做，直到該階段結束，持用者所屬單位進行衝鋒擲骰時獲得 +2 修正。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -20895,7 +20895,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限基因竊取者教派模型。每當持用者作為增援部署到戰場上時，直到你的下一個近戰階段結束，持用者所屬單位中的模型所裝備的遠程武器具有［致命一擊］能力。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -20998,7 +20998,7 @@
                   {
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "僅限基因竊取者教派模型。在對手的移動階段，若一個敵方單位在移動結束時位於此單位 8 吋內，且此單位不位於任何敵方單位的交戰範圍內，則此單位可進行一次最多 D6 吋的普通移動。"
                       }
@@ -21094,7 +21094,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限基因竊取者教派模型。每當持用者所屬單位中的模型進行一次以角色單位為目標的攻擊時，該次命中擲骰獲得 +1 修正。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -21265,7 +21265,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限基因竊取者教派騎乘模型。持用者所屬單位在後退的回合中仍符合進行射擊的資格。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -21375,7 +21375,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限基因竊取者教派模型。當持用者搭乘於一個運輸載具內時，每當該運輸載具被選擇進行射擊，直到該階段結束，該運輸載具因火力甲板能力所使用的遠程武器，其射擊技巧屬性改善 1。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -21470,7 +21470,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限基因竊取者教派騎乘模型。在你的射擊階段，持用者射擊後，選擇一個被持用者以教派狙擊步槍的一個或多個攻擊命中的敵方單位。直到你的下一個射擊階段開始，每當該敵方單位中的模型進行一次攻擊時，該次命中擲骰承受 -1 修正。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -21580,7 +21580,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限基因竊取者教派模型。每當持用者所屬單位中的模型進行遠程攻擊時，若該單位本回合已從運輸載具下車，你可重擲該次命中擲骰。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -21704,7 +21704,7 @@
                   {
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "僅限法師、首席或侍僧聖像持有者模型。你在戰鬥開始時額外獲得 2 點復起點數。"
                       }
@@ -21814,7 +21814,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限巫師、首席或侍僧聖像守衛模型。你可重擲持用者所屬單位進行的戰鬥震懾測試。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -21923,7 +21923,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限巫師、首席或侍僧聖像守衛模型。持用者所屬單位在推進的回合中仍符合宣告衝鋒的資格。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -22032,7 +22032,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限巫師、首席或侍僧聖像守衛模型。每當持用者所屬單位中的模型進行一次以角色單位為目標的攻擊時，該次命中擲骰與致傷擲骰各獲得 +1 修正。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -22215,8 +22215,8 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "每當一次攻擊被分配給持用者時，該次攻擊的傷害屬性減 1。注意：若此強化給予泰倫主戰士模型，則只影響該模型，不影響其單位中的其他模型。",
-                        "name": "說明",
+                        "$text": "每當一次攻擊被分配給持用者時，該次攻擊的傷害屬性減 1。注意：若此強化給予泰倫王蟲模型，則只影響該模型，不影響其單位中的其他模型。",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -22354,7 +22354,7 @@
                     "characteristics": [
                       {
                         "$text": "在你的指揮階段，選擇一個位於持用者 6 吋內的友方泰倫戰士（近戰生體武器）或泰倫戰士（遠程生體武器）單位。直到該回合結束，該單位中模型的移動屬性增加 2 吋。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -22532,7 +22532,7 @@
                     "characteristics": [
                       {
                         "$text": "當一個友方泰倫蟲族單位位於持用者 9 吋內時，該單位視為位於持用者與你的軍隊的突觸射程內；判定此距離時，忽略牆壁與關閉的艙門。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -22670,7 +22670,7 @@
                     "characteristics": [
                       {
                         "$text": "每場戰鬥一次，在對手的衝鋒階段結束時，持用者可啟用此強化。若如此做，持用者可宣告衝鋒，如同現在是你的衝鋒階段。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -22848,7 +22848,7 @@
                     "characteristics": [
                       {
                         "$text": "每場戰鬥一次，當一個敵方單位打開一個關閉的艙門時，若持用者位於戰場上，持用者可啟用此強化。若如此做，擲一顆 D6：若結果為 3-4，該敵方單位受到 1 點致命傷害；若結果為 5+，該敵方單位改為受到 2 點致命傷害。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -22986,7 +22986,7 @@
                     "characteristics": [
                       {
                         "$text": "在此場戰鬥中，對手軍隊首次於持用者位於戰場上時確保一個目標標記，擲一顆 D6：若結果為 3+，該目標標記不會被對手軍隊確保。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -23164,7 +23164,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限憎惡體模型。每當一個敵方單位打開一個艙門時，若持用者位於該艙門 1 吋內，擲一顆 D6：若結果為 3-4，該敵方單位受到 1 點致命傷害；若結果為 5+，該敵方單位受到 2 點致命傷害。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -23317,7 +23317,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限生化賢者模型。每當一次攻擊以持用者為目標時，該次命中擲骰與致傷擲骰各承受 -1 修正。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -23510,7 +23510,7 @@
                     "characteristics": [
                       {
                         "$text": "每當持用者宣告衝鋒時，可以以其不可見的敵方單位為目標。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -23648,7 +23648,7 @@
                     "characteristics": [
                       {
                         "$text": "每場戰鬥一次，在對手的近戰階段結束時，若持用者不位於任何敵方單位的交戰範圍內，持用者可啟用此強化。若如此做，將持用者從戰場移除並放入戰略預備隊。它會在你的下一個移動階段的增援步驟中返回戰場，視同具有深度打擊能力。若無法如此部署，持用者被摧毀。當持用者重新部署到戰場上後，直到該回合結束，不能宣告衝鋒。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -23827,7 +23827,7 @@
                   {
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "這些稀有且威力強大的黑市彈藥被細心保存至昇華之日，只有教派中最優秀的射手才會獲配。\n\n僅限凱勒摩夫／雷達克圖斯破壞者模型。此單位遠程攻擊的力量屬性加 2。"
                       }
@@ -23956,7 +23956,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "違禁彈藥",
+                        "value": "Contraband Munitions",
                         "field": "annotation",
                         "scope": "root-entry",
                         "affects": "self.entries.recursive.profiles.Ranged Weapons",
@@ -23980,7 +23980,7 @@
                   {
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "多年實驗與竊取而來的生物資料被用於製造這些獨特且駭人的毒素，如今它們被塗抹在教派寵信冠軍的武器上。\n\n僅限羅庫斯／聖匿者模型。此模型攻擊的傷害屬性加 1。"
                       }
@@ -24109,7 +24109,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "基因調製毒素",
+                        "value": "Gene-tailored Toxins",
                         "field": "annotation",
                         "scope": "model",
                         "affects": "self.entries.recursive.profiles.Ranged Weapons",
@@ -24117,7 +24117,7 @@
                       },
                       {
                         "type": "append",
-                        "value": "基因調製毒素",
+                        "value": "Gene-tailored Toxins",
                         "field": "annotation",
                         "scope": "model",
                         "affects": "self.entries.recursive.profiles.Melee Weapons",
@@ -24204,7 +24204,7 @@
                   {
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "此族長與其純種子嗣之間的巢心連結極其強大，幾乎能將牠們如同自己的惡毒利爪般操使。\n\n僅限族長模型。此單位的攻擊可重擲結果為 1 的致傷擲骰。"
                       }
@@ -24379,7 +24379,7 @@
                   {
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "在教派領袖的注視下戰鬥，信徒被不可動搖的決心所攫住，誓要在戰鬥中展現卓越。\n\n僅限巫師／首席模型。此單位的攻擊可重擲傷害擲骰。"
                       }
@@ -25185,7 +25185,7 @@
             ],
             "rules": [
               {
-                "description": "－友方泰倫戰士（遠程生體武器）／泰倫戰士（近戰生體武器）單位具有：\n －泰倫戰士。\n －戰線。\n－你的軍隊中的泰倫戰士／持剝肉鞭泰倫主戰士／有翼泰倫主戰士模型具有 5+ 特殊保護擲骰。",
+                "description": "－友方泰倫戰士（遠程生體武器）／泰倫戰士（近戰生體武器）單位具有：\n －泰倫戰士。\n －戰線。\n－你的軍隊中的泰倫戰士／持剝肉鞭泰倫王蟲／有翼泰倫王蟲模型具有 5+ 特殊保護擲骰。",
                 "name": "領袖獸",
                 "id": "372a-a870-cbf9-05e4",
                 "hidden": false
@@ -25388,13 +25388,13 @@
                 "hidden": false
               },
               {
-                "description": "可編入最多兩個以下單位：\n－有翼泰倫主戰士\n\n可編入最多兩個以下單位：\n－泰倫戰士（近戰生體武器）（3 個模型）\n－泰倫戰士（遠程生體武器）（3 個模型）\n\n以下每種單位最多可各編入一個：\n－荷瑪蟲（10 個模型）\n－神經蟲（10 個模型）\n－撕裂蟲群（3 個模型）\n－特馬蟲（10 個模型）",
+                "description": "可編入最多兩個以下單位：\n－有翼泰倫王蟲\n\n可編入最多兩個以下單位：\n－泰倫戰士（近戰生體武器）（3 個模型）\n－泰倫戰士（遠程生體武器）（3 個模型）\n\n以下每種單位最多可各編入一個：\n－荷瑪蟲（10 個模型）\n－神經蟲（10 個模型）\n－撕裂蟲群（3 個模型）\n－特馬蟲（10 個模型）",
                 "name": "集結跳幫巡邏隊",
                 "id": "72d4-2fdb-7150-b325",
                 "hidden": false
               },
               {
-                "description": "－判定友方泰倫蟲族模型的可見性時，忽略你的軍隊中的無盡群眾與撕裂蟲群單位；但該友方模型本身不能具有無盡群眾或撕裂蟲群關鍵字。\n－你可將強化給予泰倫戰士（近戰生體武器）與泰倫戰士（遠程生體武器）單位中的泰倫主戰士模型，視同其為角色模型。\n－泰倫戰士（近戰生體武器）與泰倫戰士（遠程生體武器）單位可如同具有戰線關鍵字般執行「確保地點」戰術機動。\n－無盡群眾單位不能執行「確保地點」戰術機動。\n－撕裂蟲群單位失去深度打擊能力。\n－特馬蟲單位失去潛行恐怖能力。\n－有翼泰倫主戰士模型失去深度打擊能力。",
+                "description": "－判定友方泰倫蟲族模型的可見性時，忽略你的軍隊中的無盡群眾與撕裂蟲群單位；但該友方模型本身不能具有無盡群眾或撕裂蟲群關鍵字。\n－你可將強化給予泰倫戰士（近戰生體武器）與泰倫戰士（遠程生體武器）單位中的泰倫王蟲模型，視同其為角色模型。\n－泰倫戰士（近戰生體武器）與泰倫戰士（遠程生體武器）單位可如同具有戰線關鍵字般執行「確保地點」戰術機動。\n－無盡群眾單位不能執行「確保地點」戰術機動。\n－撕裂蟲群單位失去深度打擊能力。\n－特馬蟲單位失去潛行恐怖能力。\n－有翼泰倫王蟲模型失去深度打擊能力。",
                 "name": "規則適應",
                 "id": "7a38-f020-b03b-67d3",
                 "hidden": false
@@ -25460,13 +25460,13 @@
                 "hidden": false
               },
               {
-                "description": "可編入最多兩個以下單位（不得重複）：\n－死亡潛伏者\n－利克托\n－神經利克托\n\n以下每種單位最多可各編入兩個：\n－荷瑪蟲（10 個模型）\n－掘蟒蟲（3 個模型）\n－馮·萊恩躍擊獸（3 個模型）",
+                "description": "可編入最多兩個以下單位（不得重複）：\n－死亡潛伏者\n－刀斧蟲\n－神經刀斧蟲\n\n以下每種單位最多可各編入兩個：\n－荷瑪蟲（10 個模型）\n－掘蟒蟲（3 個模型）\n－馮·瑞恩躍襲者（3 個模型）",
                 "name": "集結跳幫巡邏隊",
                 "id": "76e9-d929-a6d9-68ba",
                 "hidden": false
               },
               {
-                "description": "－荷瑪蟲單位不能執行「確保地點」戰術機動。\n－利克托模型失去「費洛蒙蹤跡」能力。\n－掘蟒蟲單位失去「來自地底的死亡」能力。\n－馮·萊恩躍擊獸單位失去「猛撲躍擊」能力。",
+                "description": "－荷瑪蟲單位不能執行「確保地點」戰術機動。\n－刀斧蟲模型失去「費洛蒙蹤跡」能力。\n－掘蟒蟲單位失去「來自地底的死亡」能力。\n－馮·瑞恩躍襲者單位失去「猛撲躍擊」能力。",
                 "name": "規則適應",
                 "id": "0225-ca34-ba14-5d5e",
                 "hidden": false
@@ -25492,7 +25492,7 @@
                 "characteristics": [
                   {
                     "$text": "此分遣隊中的泰倫蟲族模型不能獲得強化。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -25548,13 +25548,13 @@
                 "hidden": false
               },
               {
-                "description": "可編入最多兩個以下單位：\n－有翼泰倫主戰士\n\n以下每種單位最多可各編入三個：\n－荷瑪蟲（10 個模型）\n－神經蟲（10 個模型）\n－撕裂蟲群（3 個模型）\n－特馬蟲（10 個模型）",
+                "description": "可編入最多兩個以下單位：\n－有翼泰倫王蟲\n\n以下每種單位最多可各編入三個：\n－荷瑪蟲（10 個模型）\n－神經蟲（10 個模型）\n－撕裂蟲群（3 個模型）\n－特馬蟲（10 個模型）",
                 "name": "集結跳幫巡邏隊",
                 "id": "310c-875f-2ddb-6969",
                 "hidden": false
               },
               {
-                "description": "－撕裂蟲群單位失去「深度打擊」能力。\n－特馬蟲單位失去「潛行恐獸」能力。\n－有翼泰倫主戰士模型失去「深度打擊」能力。",
+                "description": "－撕裂蟲群單位失去「深度打擊」能力。\n－特馬蟲單位失去「潛行恐獸」能力。\n－有翼泰倫王蟲模型失去「深度打擊」能力。",
                 "name": "規則適應",
                 "id": "38ba-39ef-c45e-1d85",
                 "hidden": false
@@ -25595,7 +25595,7 @@
           {
             "rules": [
               {
-                "description": "－友方死亡潛伏者、利克托與神經利克托單位具有深度打擊。\n－友方利克托與神經利克托單位的攻擊若以角色單位為目標，可重擲結果為 1 的命中擲骰。",
+                "description": "－友方死亡潛伏者、刀斧蟲與神經刀斧蟲單位具有深度打擊。\n－友方刀斧蟲與神經刀斧蟲單位的攻擊若以角色單位為目標，可重擲結果為 1 的命中擲骰。",
                 "name": "在",
                 "id": "0ff3-f29e-1e9b-5ad1",
                 "hidden": false
@@ -26641,7 +26641,7 @@
                     "characteristics": [
                       {
                         "$text": "－持用者所裝備的近戰武器獲得［毀滅傷害］能力。\n－每當持用者戰鬥時，若結算這些攻擊時有一個或多個敵方模型（不含載具模型）被摧毀，完成該次戰鬥的結算後，你可選擇一個位於持用者 12 吋內的友方撕裂蟲群單位。若這些被摧毀的敵方模型中有任一個具有怪獸關鍵字，則改為將 D3 個撕裂蟲群模型加入該撕裂蟲群單位。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -26770,7 +26770,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "莫特雷克斯植入體攻擊",
+                        "value": "Mortrexite Implant Attack",
                         "field": "annotation",
                         "join": ", ",
                         "scope": "root-entry",
@@ -26778,7 +26778,7 @@
                       },
                       {
                         "type": "append",
-                        "value": "毀滅傷害",
+                        "value": "Devastating Wounds",
                         "field": "893f-9000-ccf7-648e",
                         "scope": "root-entry",
                         "affects": "self.entries.recursive.profiles.Melee Weapons"
@@ -26799,7 +26799,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限怪獸模型。選擇持用者的一件近戰武器。該武器獲得以下能力：\n\n屠戮軍刀：每當持用者戰鬥時，在該次戰鬥結算完成後，選擇一個本階段被該武器的一個或多個攻擊命中的敵方單位，然後擲一顆 D6：若結果為 2+，該單位受到 D3 點致命傷害；若該單位具有靈能者關鍵字，改為受到 D6+1 點致命傷害。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -26942,7 +26942,7 @@
                     "characteristics": [
                       {
                         "$text": "－當持用者位於戰場上時，每場戰鬥一次，你可以額外使用一次亞空間陰影能力。\n－當持用者位於戰場上時，友方突觸單位的突觸能力射程增加至 9 吋。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -27077,7 +27077,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限具有一件或多件靈能武器的模型。每當持用者以靈能武器進行攻擊時，你可重擲該次命中擲骰，並可以重擲該次致傷擲骰。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -27203,7 +27203,7 @@
                     "characteristics": [
                       {
                         "$text": "僅限靈能者模型。每當一個敵方單位因持用者進行的靈能攻擊而失去一點生命值時：\n－持用者恢復 1 點已失去生命值。\n－直到你的下一個指揮階段開始，持用者所裝備的近戰武器的力量屬性加 1。",
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
@@ -27421,7 +27421,7 @@
                 "characteristics": [
                   {
                     "$text": "此單位中的模型所裝備的近戰武器的力量屬性加 1。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -27448,7 +27448,7 @@
                       }
                     ],
                     "type": "append",
-                    "value": "飢餓孕育的力量",
+                    "value": "Strength Born of Hunger",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "model-or-unit",
@@ -27565,7 +27565,7 @@
                 "characteristics": [
                   {
                     "$text": "－每當此單位中的模型進行近戰攻擊時，你可以忽略該次攻擊的任意或全部命中擲骰修正與武器技巧修正。\n－每當此單位中的模型進行遠程攻擊時，該次攻擊具有［無視掩護］能力。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -27674,7 +27674,7 @@
                 "characteristics": [
                   {
                     "$text": "當此單位位於一個友方突觸模型 18 吋內時，為了該模型的突觸能力，此單位視為位於該模型 6 吋內。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -27774,7 +27774,7 @@
                 "characteristics": [
                   {
                     "$text": "每當一次遠程攻擊被分配給此單位中的模型時，對抗該次攻擊所作的護甲保護擲骰獲得 +1 修正。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -27874,7 +27874,7 @@
                 "characteristics": [
                   {
                     "$text": "每當你為此單位進行推進擲骰或衝鋒擲骰時，你可重擲該結果。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -27974,7 +27974,7 @@
                 "characteristics": [
                   {
                     "$text": "每當此單位中的模型進行近戰攻擊時，若此單位本回合已進行衝鋒移動，該次命中擲骰獲得 +1 修正。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -28089,7 +28089,7 @@
                 "characteristics": [
                   {
                     "$text": "在你的移動階段結束時，選擇一個位於此單位 6 吋內且對此單位可見的敵方單位。該敵方單位必須進行一次領導力測試，且該測試承受 -1 修正。若測試失敗，直到你的下一個移動階段開始，該敵方單位不能被選擇推進，且其移動屬性降低 2 吋。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -28204,7 +28204,7 @@
                 "characteristics": [
                   {
                     "$text": "每當一次遠程靈能攻擊以此單位為目標時，此單位對抗該次攻擊時具有掩護增益與不覺疼痛 5+ 能力。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -28328,7 +28328,7 @@
                 "characteristics": [
                   {
                     "$text": "此單位中模型的韌性屬性加 1。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -28344,7 +28344,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "裝甲生物形態",
+                    "value": "Armoured Biomorph",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "root-entry",
@@ -28465,7 +28465,7 @@
                 "characteristics": [
                   {
                     "$text": "每場戰鬥一次，當此單位被選為計謀目標時，此單位可啟用此能力。若如此做，該次使用該計謀的指揮點費用減少 1 點。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -28580,7 +28580,7 @@
                 "characteristics": [
                   {
                     "$text": "在你的指揮階段開始時，此單位中一個模型恢復 1 點已失去的生命值。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -28695,7 +28695,7 @@
                 "characteristics": [
                   {
                     "$text": "每場戰鬥一次，在任一階段開始時，你可選擇一個位於此模型 12 吋內且處於戰鬥震懾狀態的泰倫蟲族單位。該單位不再處於戰鬥震懾狀態。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -28739,7 +28739,7 @@
                 "characteristics": [
                   {
                     "$text": "每當此單位宣告衝鋒時，該次衝鋒的目標之一必須是距離最近且符合資格的敵方單位。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -28814,7 +28814,7 @@
                 "characteristics": [
                   {
                     "$text": "此單位永遠不視為位於你的軍隊的突觸範圍內。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -28889,7 +28889,7 @@
                 "characteristics": [
                   {
                     "$text": "此單位不能被選為計謀目標。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -28964,7 +28964,7 @@
                 "characteristics": [
                   {
                     "$text": "每當此單位被選擇進行射擊時，此單位中的模型在結算此單位的攻擊時只能以最近的合格敵方單位為目標。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -29039,7 +29039,7 @@
                 "characteristics": [
                   {
                     "$text": "當此單位具有此戰鬥傷痕時，其失去突觸能力。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -29129,7 +29129,7 @@
                 "characteristics": [
                   {
                     "$text": "此單位不能從需要突觸關鍵字的計謀或分遣隊規則中受益。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -29219,7 +29219,7 @@
                 "characteristics": [
                   {
                     "$text": "此模型的突觸能力範圍縮短為 3 吋。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -29309,7 +29309,7 @@
                 "characteristics": [
                   {
                     "$text": "當此單位具有此戰鬥傷痕時，會受到你的軍隊的亞空間陰影能力影響，因此該能力啟用時，此單位必須進行戰鬥震懾測試。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -30497,7 +30497,7 @@
                 "characteristics": [
                   {
                     "$text": "僅限靈能者。此單位中的模型所裝備的遠程武器具有［致命一擊］能力。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -30546,7 +30546,7 @@
                 "characteristics": [
                   {
                     "$text": "當一個敵方單位位於此模型 6 吋內時，該單位中模型的領導力屬性減 1。此外，在對手指揮階段的戰鬥震懾步驟中，若這類敵方單位低於其初始兵力，則必須進行一次戰鬥震懾測試。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -30569,7 +30569,7 @@
                 "characteristics": [
                   {
                     "$text": "每當此單位中的模型所作的近戰攻擊摧毀一個敵方角色模型時，你獲得 1 點指揮點。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -30592,7 +30592,7 @@
                 "characteristics": [
                   {
                     "$text": "你可重擲此單位的推進擲骰與衝鋒擲骰。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -30615,7 +30615,7 @@
                 "characteristics": [
                   {
                     "$text": "僅限靈能者。當你釋放亞空間陰影時，若你的軍隊中一個或多個具有此能力的模型位於戰場上，則戰場上每個敵方單位因此必須進行的戰鬥震懾測試承受 -1 修正。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -30684,7 +30684,7 @@
                 "characteristics": [
                   {
                     "$text": "將此模型的移動屬性改為 10 吋，加入先鋒入侵者關鍵字，並獲得深度打擊能力。若此模型是步兵模型，將其可附屬單位列表替換為：掘蟒蟲。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -30707,7 +30707,7 @@
                   },
                   {
                     "type": "append",
-                    "value": "掘地爪",
+                    "value": "Burrowing Claws",
                     "field": "annotation",
                     "scope": "root-entry",
                     "affects": "profiles.Unit",
@@ -30781,7 +30781,7 @@
                 "characteristics": [
                   {
                     "$text": "僅限節點生物體。加入飛行關鍵字，並將此模型可附屬單位列表替換為：毒霧蟲、索安索普。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -30877,7 +30877,7 @@
                 "characteristics": [
                   {
                     "$text": "僅限巨型生物體。將此模型的護甲保護屬性改為 2+，並將其［致命終結 D3］能力改為［致命終結 D6］。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -30930,7 +30930,7 @@
                   },
                   {
                     "type": "append",
-                    "value": "裝甲外殼",
+                    "value": "Armoured Shell",
                     "field": "annotation",
                     "scope": "root-entry",
                     "affects": "profiles.Unit",
@@ -30994,7 +30994,7 @@
                 "characteristics": [
                   {
                     "$text": "此模型具有 4+ 特殊保護擲骰，加入靈能者與突觸關鍵字，並獲得亞空間陰影能力。若此模型是步兵模型，將以下單位加入此模型可附屬單位列表：神經蟲。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -31103,8 +31103,8 @@
               {
                 "characteristics": [
                   {
-                    "$text": "僅限節點生物體。將此模型的移動屬性改為 8 吋，加入先鋒入侵者關鍵字，並獲得先攻、滲透者、孤狼行動者與匿蹤能力。將此模型可附屬單位列表替換為：荷瑪蟲、馮·萊恩躍擊獸。",
-                    "name": "說明",
+                    "$text": "僅限節點生物體。將此模型的移動屬性改為 8 吋，加入先鋒入侵者關鍵字，並獲得先攻、滲透者、孤狼行動者與匿蹤能力。將此模型可附屬單位列表替換為：荷瑪蟲、馮·瑞恩躍襲者。",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -31231,7 +31231,7 @@
                 "characteristics": [
                   {
                     "$text": "僅限節點生物體或首領生物體。將此模型的移動屬性改為 12 吋，加入飛行與先鋒入侵者關鍵字，並獲得深度打擊能力。若此模型是步兵模型，將此模型可附屬單位列表替換為：石像蟲。",
-                    "name": "說明",
+                    "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -31327,7 +31327,7 @@
                   },
                   {
                     "type": "append",
-                    "value": "有翼生物形態",
+                    "value": "Winged Biomorph",
                     "field": "annotation",
                     "scope": "root-entry",
                     "affects": "profiles.Unit",
@@ -34689,7 +34689,7 @@
                     "id": "cd67-c668-e2b7-4ea5",
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "僅限純種基因竊取者單位。此單位具有：\n－堅韌屬性加 1。\n－保護屬性為 4+。\n－此單位近戰攻擊的力量屬性加 1。"
                       }
@@ -34783,7 +34783,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "星辰子嗣印記",
+                        "value": "Mark of the Star Children",
                         "field": "annotation",
                         "scope": "root-entry",
                         "affects": "self.entries.recursive.profiles.Unit",
@@ -34791,7 +34791,7 @@
                       },
                       {
                         "type": "append",
-                        "value": "星辰子嗣印記",
+                        "value": "Mark of the Star Children",
                         "field": "annotation",
                         "scope": "root-entry",
                         "affects": "self.entries.recursive.profiles.Melee Weapons",
@@ -34934,7 +34934,7 @@
                     "id": "3652-7e04-d1ff-73a7",
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "僅限新徒混血者單位。此單位的偵測範圍為 -3 吋。"
                       }
@@ -35151,9 +35151,9 @@
                     "id": "4ab6-baae-a28e-ecb0",
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "僅限神經利克托／利克托／馮·萊恩躍擊獸單位。在對手的移動階段，當一個敵方單位在移動結束時位於此單位 8 吋內時，此單位可進行一次最多 D3+3 吋的普通移動。"
+                        "$text": "僅限神經刀斧蟲／刀斧蟲／馮·瑞恩躍襲者單位。在對手的移動階段，當一個敵方單位在移動結束時位於此單位 8 吋內時，此單位可進行一次最多 D3+3 吋的普通移動。"
                       }
                     ]
                   }
@@ -35318,9 +35318,9 @@
                     "id": "44f0-74c7-050b-200f",
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "僅限馮·萊恩躍擊獸單位。此單位的偵測範圍為 -3 吋。"
+                        "$text": "僅限馮·瑞恩躍襲者單位。此單位的偵測範圍為 -3 吋。"
                       }
                     ]
                   }
@@ -35515,7 +35515,7 @@
                     "id": "926f-2027-3e35-aa82",
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "諾恩使者單位限定。 此單位的遠程攻擊具有 ［反制角色 2+］。"
                       }
@@ -35609,7 +35609,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "破穩掠食",
+                        "value": "Destabilising Predation",
                         "field": "annotation",
                         "scope": "root-entry",
                         "affects": "self.entries.recursive.profiles.Ranged Weapons",
@@ -35617,7 +35617,7 @@
                       },
                       {
                         "type": "append",
-                        "value": "反制角色 2+",
+                        "value": "Anti-Character 2+",
                         "field": "7f1b-8591-2fcf-d01c",
                         "scope": "root-entry",
                         "affects": "self.entries.recursive.profiles.Ranged Weapons",
@@ -35689,7 +35689,7 @@
                     "id": "fa00-fdab-3abd-81e2",
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "僅限諾恩同化者單位。此單位具有 4+ 特殊保護擲骰。"
                       }
@@ -35783,7 +35783,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "突觸預知",
+                        "value": "Synaptoprescience",
                         "field": "annotation",
                         "scope": "root-entry",
                         "affects": "self.entries.recursive.profiles.Unit",
@@ -35897,7 +35897,7 @@
                     "id": "pad1-4164-9d56-b45a",
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "這群純種基因竊取者中自發產生的生物變異，使牠們更大、更強，也明確標示出牠們必然是星童親自選中的存在。\n\n僅限純種基因竊取者單位。此單位具有：\n－韌性屬性加 1。\n－4+ 護甲保護。\n－此單位近戰攻擊的力量屬性加 1。"
                       }
@@ -36020,7 +36020,7 @@
                     "id": "pa6b-1716-2c92-d8e8",
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "無論是竊來的制服、臨時偽裝，甚至某種變色異形突變，這些新徒都能融入周遭環境。\n\n僅限新徒混血者單位。此單位的偵測範圍為 -3 吋。"
                       }
@@ -36143,9 +36143,9 @@
                     "id": "pad5-2c2e-35e7-c804",
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "當獵物意識到自己正被獵殺時，蟲巢意志的先鋒生物早已將其包圍在致命懷抱中。接下來的一切無處可藏。\n\n僅限神經利克托／利克托／馮·萊恩躍擊獸單位。在對手的移動階段，當一個敵方單位在移動結束時位於此單位 8 吋內時，此單位可進行一次最多 D3+3 吋的普通移動。"
+                        "$text": "當獵物意識到自己正被獵殺時，蟲巢意志的先鋒生物早已將其包圍在致命懷抱中。接下來的一切無處可藏。\n\n僅限神經刀斧蟲／刀斧蟲／馮·瑞恩躍襲者單位。在對手的移動階段，當一個敵方單位在移動結束時位於此單位 8 吋內時，此單位可進行一次最多 D3+3 吋的普通移動。"
                       }
                     ]
                   }
@@ -36231,9 +36231,9 @@
                     "id": "pa36-a7b2-da78-6198",
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "這些生體獵手的真皮已被調整為能依獵物視覺受器預期看見的色相而微妙變化，使這些生物即使近在眼前也能隱匿。\n\n僅限馮·萊恩躍擊獸單位。此單位的偵測範圍為 -3 吋。"
+                        "$text": "這些生體獵手的真皮已被調整為能依獵物視覺受器預期看見的色相而微妙變化，使這些生物即使近在眼前也能隱匿。\n\n僅限馮·瑞恩躍襲者單位。此單位的偵測範圍為 -3 吋。"
                       }
                     ]
                   }
@@ -36354,7 +36354,7 @@
                     "id": "pa3a-541a-4ce0-8529",
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "此生物如同蟲巢意志具現般伸展而出，其精準火力被完美調整為擊殺獵物中的領袖。\n\n僅限諾恩使者單位。此單位的遠程攻擊具有［反制角色 2+］。"
                       }
@@ -36426,7 +36426,7 @@
                     "id": "pa5d-78db-e5ce-bc2e",
                     "characteristics": [
                       {
-                        "name": "說明",
+                        "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "此高聳巨獸彷彿能窺見蟲巢意志近乎全知的戰場視野，能毫無偏差地避開來襲威脅。\n\n僅限諾恩同化者單位。此單位具有 4+ 特殊保護擲骰。"
                       }
@@ -36557,7 +36557,7 @@
         "characteristics": [
           {
             "$text": "當此模型剩餘 1-4 點生命值時，每當此模型進行一次攻擊，該次命中擲骰承受 -1 修正。",
-            "name": "說明",
+            "name": "Description",
             "typeId": "9b8f-694b-e5e-b573"
           }
         ],
@@ -36571,7 +36571,7 @@
         "characteristics": [
           {
             "$text": "當此模型剩餘 1-5 點生命值時，每當此模型進行一次攻擊，該次命中擲骰承受 -1 修正。",
-            "name": "說明",
+            "name": "Description",
             "typeId": "9b8f-694b-e5e-b573"
           }
         ],
@@ -36585,7 +36585,7 @@
         "characteristics": [
           {
             "$text": "當此模型剩餘 1-6 點生命值時，每當此模型進行一次攻擊，該次命中擲骰承受 -1 修正。",
-            "name": "說明",
+            "name": "Description",
             "typeId": "9b8f-694b-e5e-b573"
           }
         ],
@@ -36598,7 +36598,7 @@
       {
         "characteristics": [
           {
-            "name": "說明",
+            "name": "Description",
             "typeId": "9b8f-694b-e5e-b573",
             "$text": "每個戰鬥輪一次，你的軍隊中一個具有此能力的模型，可以在一個位於該模型 12 吋內的友方泰倫蟲族單位成為計謀目標時啟用此能力。若如此做，該次使用該計謀的指揮點費用減少 1 點。"
           }
@@ -36613,7 +36613,7 @@
         "characteristics": [
           {
             "$text": "每當此模型摧毀一個敵方角色模型時，你獲得 1 點指揮點。",
-            "name": "說明",
+            "name": "Description",
             "typeId": "9b8f-694b-e5e-b573"
           }
         ],
@@ -36627,7 +36627,7 @@
         "characteristics": [
           {
             "$text": "當一個敵方單位位於此單位的交戰範圍內時，該敵方單位中模型的目標控制值屬性減半。",
-            "name": "說明",
+            "name": "Description",
             "typeId": "9b8f-694b-e5e-b573"
           }
         ],
@@ -36689,7 +36689,7 @@
         "id": "8632-ccbf-8430-3428",
         "characteristics": [
           {
-            "name": "說明",
+            "name": "Description",
             "typeId": "9b8f-694b-e5e-b573",
             "$text": "每個單位每場戰鬥一次。在你的指揮階段，你可啟用此能力。若如此做，此單位可為其「單一目的」能力進行一次選擇；此選擇會取代先前的選擇。"
           }
@@ -36713,7 +36713,7 @@
         "hidden": false
       },
       {
-        "name": "利克托",
+        "name": "刀斧蟲",
         "hidden": false,
         "id": "1ff-bd00-eca8-bff7"
       },
@@ -36728,7 +36728,7 @@
         "id": "c729-fe17-f963-16b2"
       },
       {
-        "name": "神經利克托",
+        "name": "神經刀斧蟲",
         "hidden": false,
         "id": "de12-e6b6-16c1-47b0"
       },
@@ -36759,7 +36759,7 @@
       },
       {
         "id": "d5b9-2986-70fe-f755",
-        "name": "飛翼泰倫主戰士",
+        "name": "有翼泰倫王蟲",
         "hidden": false
       },
       {
@@ -36833,7 +36833,7 @@
         "hidden": false
       },
       {
-        "name": "持鞭泰倫主戰士",
+        "name": "持鞭泰倫王蟲",
         "id": "6ed1-0e06-b0d6-0cc2",
         "hidden": false
       },
@@ -36929,7 +36929,7 @@
         "id": "9ffe-1e2a-b828-b7af"
       },
       {
-        "name": "諾恩同化獸",
+        "name": "諾恩同化者",
         "hidden": false,
         "id": "2982-bf74-9aa7-a7a7"
       },
