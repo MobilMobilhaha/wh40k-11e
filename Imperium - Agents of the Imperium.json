@@ -5104,7 +5104,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "CAT 單元",
+            "name": "CAT 單位",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -17645,7 +17645,7 @@
                 "$text": "4+"
               }
             ],
-            "name": "審判官於終結者 Armour",
+            "name": "著終結者甲冑的審判官",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -18951,7 +18951,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "審判官於終結者 Armour ［傳奇］",
+        "name": "著終結者甲冑的審判官［傳奇］",
         "hidden": false,
         "id": "c29e-e398-9588-7f30"
       },
@@ -19137,14 +19137,14 @@
                 "rules": [
                   {
                     "description": "每當你軍隊中一個 ^^審判官、審判庭特務^^ 或 ^^鎚魔修會^^ 模型進行攻擊時，重擲結果為 1 的命中擲骰；若該攻擊的目標是一個 ^^惡魔^^ 單位，則也重擲結果為 1 的造傷擲骰。",
-                    "name": "Destroy 惡魔",
+                    "name": "摧毀惡魔",
                     "id": "e6e1-7189-70a5-f53b",
                     "hidden": false
                   }
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "惡魔 Hunters (鎚魔修會)",
+                "name": "獵魔者（鎚魔修會）",
                 "hidden": false,
                 "id": "bd6f-97c7-6ac4-8320",
                 "costs": [
@@ -19276,7 +19276,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Veiled 刃 Elimination 對於ce",
+                "name": "隱刃殲滅部隊",
                 "hidden": false,
                 "id": "e203-73dc-18d9-f390",
                 "costs": [
@@ -21005,7 +21005,7 @@
                 "field": "hidden"
               }
             ],
-            "name": "審判庭 Henchmen",
+            "name": "審判庭隨扈",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -21317,7 +21317,7 @@
                       }
                     ],
                     "type": "add",
-                    "value": "最大 1 {this} per 5 個模型",
+                    "value": "每 5 個模型最多 1 個 {this}",
                     "field": "error"
                   }
                 ],
@@ -21497,7 +21497,7 @@
                       }
                     ],
                     "type": "add",
-                    "value": "最大 1 {this} per 5 個模型",
+                    "value": "每 5 個模型最多 1 個 {this}",
                     "field": "error"
                   }
                 ],
@@ -21577,7 +21577,7 @@
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ],
-                        "name": "Mystic stave",
+                        "name": "秘術法杖",
                         "typeId": "8a40-4aaa-c780-9046",
                         "typeName": "近戰武器",
                         "hidden": false,
@@ -21628,7 +21628,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Mystic stave",
+                    "name": "秘術法杖",
                     "hidden": false,
                     "id": "b7f1-c41e-ac32-6729",
                     "collective": true
@@ -21700,7 +21700,7 @@
                       }
                     ],
                     "type": "add",
-                    "value": "最大 1 {this} per 5 個模型",
+                    "value": "每 5 個模型最多 1 個 {this}",
                     "field": "error"
                   }
                 ],
@@ -22175,11 +22175,11 @@
                   }
                 ],
                 "type": "add",
-                "value": "最大 1 gun 機僕 per 5 個模型",
+                "value": "每 5 個模型最多 1 個槍械機僕",
                 "field": "error"
               }
             ],
-            "name": "1 - 2 Gun 機僕",
+            "name": "1-2 名槍械機僕",
             "id": "4035-4b4f-1941-858d",
             "hidden": false,
             "sortIndex": 3
@@ -22226,7 +22226,7 @@
                       }
                     ],
                     "type": "add",
-                    "value": "最大 1 {this} per 5 個模型",
+                    "value": "每 5 個模型最多 1 個 {this}",
                     "field": "error"
                   }
                 ],
@@ -22239,7 +22239,7 @@
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
-                    "name": "Tome-skull",
+                    "name": "典卷顱骨",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "能力",
                     "hidden": false,
@@ -22248,12 +22248,12 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Tome-skull",
+                "name": "典卷顱骨",
                 "hidden": false,
                 "id": "ca1c-2d12-2ffa-9f04"
               }
             ],
-            "name": "Tome-skulls",
+            "name": "典卷顱骨",
             "id": "03f0-ca25-17de-8a94",
             "hidden": false,
             "sortIndex": 4
@@ -22902,7 +22902,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Hammerh和 (靈能)",
+            "name": "鎚手（靈能）",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -23430,12 +23430,12 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "在你的指揮階段，你可以復原 1 被摧毀模型 (excluding 角色)至持有者的單位。",
+                            "$text": "在你的指揮階段，你可以將 1 個已摧毀的模型（不含角色）復原至持有者的單位。",
                             "name": "Description",
                             "typeId": "9b8f-694b-e5e-b573"
                           }
                         ],
-                        "name": "Narthecium",
+                        "name": "納西席姆醫療器",
                         "typeId": "9cc3-6d83-4dd3-9b64",
                         "typeName": "能力",
                         "hidden": false,
@@ -23444,7 +23444,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Narthecium",
+                    "name": "納西席姆醫療器",
                     "hidden": false,
                     "id": "106a-cb9d-03be-f1bb"
                   }
@@ -24131,7 +24131,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Rapid Deployment",
+            "name": "快速部署",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -24224,7 +24224,7 @@
                 "field": "name"
               }
             ],
-            "name": "Firing Deck",
+            "name": "射擊甲板",
             "id": "1304-c7f3-04fd-5b58",
             "hidden": false,
             "type": "rule",
@@ -24339,7 +24339,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "雷射槍 array",
+                    "name": "雷射槍陣列",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -24367,7 +24367,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "雷射槍 array",
+                "name": "雷射槍陣列",
                 "hidden": false,
                 "id": "9d05-881a-09d9-ea6a"
               }
@@ -24443,7 +24443,7 @@
                     "targetId": "a7b5-94dc-187c-8350"
                   }
                 ],
-                "name": "Hull 武器",
+                "name": "車體武器",
                 "id": "f399-bed9-21e5-032d",
                 "hidden": false,
                 "defaultSelectionEntryId": "9377-6898-c777-3823"
@@ -24597,7 +24597,7 @@
                     "id": "2468-06ef-8baa-e725"
                   }
                 ],
-                "name": "Pintle 武器",
+                "name": "車頂武器",
                 "id": "4a9a-ffa9-8f36-86eb",
                 "hidden": false
               },
@@ -24663,7 +24663,7 @@
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "Multi-laser",
+                        "name": "多管雷射槍",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "遠程武器",
                         "hidden": false,
@@ -24682,7 +24682,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Multi-laser",
+                    "name": "多管雷射槍",
                     "hidden": false,
                     "id": "4e51-a46b-66ae-48f8"
                   }
@@ -24736,7 +24736,7 @@
                     "targetId": "a7b5-94dc-187c-8350"
                   }
                 ],
-                "name": "Turret 武器",
+                "name": "炮塔武器",
                 "id": "6d52-1b78-4636-c273",
                 "hidden": false,
                 "defaultSelectionEntryId": "4e51-a46b-66ae-48f8"
@@ -25279,7 +25279,7 @@
                 "field": "name"
               }
             ],
-            "name": "Firing Deck",
+            "name": "射擊甲板",
             "id": "ad18-5368-fa1b-dd4f",
             "hidden": false,
             "type": "rule",
@@ -25344,7 +25344,7 @@
                 "typeId": "30f2-be70-861d-1b84"
               }
             ],
-            "name": "Imperial 犀牛運兵車",
+            "name": "帝國犀牛運兵車",
             "typeId": "74f8-5443-9d6d-1f1e",
             "typeName": "運輸",
             "hidden": false,
@@ -25388,7 +25388,7 @@
                 "$text": ""
               }
             ],
-            "name": "Imperial 犀牛運兵車",
+            "name": "帝國犀牛運兵車",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -25453,7 +25453,7 @@
             "primary": false
           },
           {
-            "name": "Imperial 犀牛運兵車",
+            "name": "帝國犀牛運兵車",
             "hidden": false,
             "id": "67b2-aa7b-afae-9385",
             "targetId": "c779-37d6-af9a-db1a",
@@ -25861,7 +25861,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "Imperial 犀牛運兵車",
+        "name": "帝國犀牛運兵車",
         "hidden": false,
         "id": "cbbd-8e0a-fd90-fa0d"
       },
@@ -26460,7 +26460,7 @@
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "Inferno 手槍",
+                        "name": "熔火手槍",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "遠程武器",
                         "hidden": false,
@@ -26504,7 +26504,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Inferno 手槍",
+                    "name": "熔火手槍",
                     "hidden": false,
                     "id": "57c2-825c-43a4-639c"
                   },
@@ -26713,7 +26713,7 @@
             ],
             "type": "model",
             "import": true,
-            "name": "Sister Superi或",
+            "name": "修女長",
             "hidden": false,
             "id": "77e3-f07c-b387-8307",
             "sortIndex": 2
@@ -27121,7 +27121,7 @@
                           }
                         ],
                         "import": true,
-                        "name": "最小ist或um 火焰噴射器",
+                        "name": "教會火焰噴射器",
                         "hidden": false,
                         "id": "55d6-9c8b-5ac0-d85d",
                         "type": "selectionEntry",
@@ -27215,7 +27215,7 @@
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ],
-                            "name": "最小ist或um 重型火焰噴射器",
+                            "name": "教會重型火焰噴射器",
                             "typeId": "f77d-b953-8fa4-b762",
                             "typeName": "遠程武器",
                             "hidden": false,
@@ -27233,7 +27233,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "最小ist或um 重型火焰噴射器",
+                        "name": "教會重型火焰噴射器",
                         "hidden": false,
                         "id": "20ba-f744-916c-19f4"
                       },
@@ -27455,7 +27455,7 @@
                           }
                         ],
                         "import": true,
-                        "name": "最小ist或um 火焰噴射器",
+                        "name": "教會火焰噴射器",
                         "hidden": false,
                         "id": "514d-da0b-26e4-9557",
                         "type": "selectionEntry",
@@ -27494,7 +27494,7 @@
                 "id": "92aa-5976-6bbe-3376"
               }
             ],
-            "name": "Battle 修女會",
+            "name": "戰鬥修女",
             "id": "533d-0199-bf20-fc31",
             "hidden": false,
             "collective": false,
@@ -27511,7 +27511,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Defenders的Faith",
+            "name": "信仰守衛者",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -28024,7 +28024,7 @@
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
-            "name": "最小ist或um 火焰噴射器",
+            "name": "教會火焰噴射器",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "遠程武器",
             "hidden": false,
@@ -28042,7 +28042,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "最小ist或um 火焰噴射器",
+        "name": "教會火焰噴射器",
         "hidden": false,
         "id": "375e-b143-c7b6-d71e"
       },
@@ -28303,7 +28303,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Purge和Cleanse",
+            "name": "滌蕩與淨化",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -28347,7 +28347,7 @@
                 "$text": "6+"
               }
             ],
-            "name": "Immolat或",
+            "name": "焚滅者",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -28504,7 +28504,7 @@
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "Immolation 火焰噴射器s",
+                        "name": "焚滅火焰噴射器",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "遠程武器",
                         "hidden": false,
@@ -28548,7 +28548,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Immolation 火焰噴射器s",
+                    "name": "焚滅火焰噴射器",
                     "hidden": false,
                     "id": "19b7-6386-4bb6-64b1"
                   },
@@ -28597,12 +28597,12 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "連擊 2，Twin-Linked",
+                            "$text": "連擊 2，連裝",
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "Twin 重型爆彈槍",
+                        "name": "連裝重型爆彈槍",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "遠程武器",
                         "hidden": false,
@@ -28618,7 +28618,7 @@
                         "targetId": "1897-c22c-9597-12b1"
                       },
                       {
-                        "name": "Twin-linked",
+                        "name": "連裝",
                         "id": "53fb-32f0-2ff2-ebd2",
                         "hidden": false,
                         "type": "rule",
@@ -28637,7 +28637,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Twin 重型爆彈槍",
+                    "name": "連裝重型爆彈槍",
                     "hidden": false,
                     "id": "a252-b2e5-1d52-2da1"
                   },
@@ -28686,7 +28686,7 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "熱熔 2，Twin-Linked",
+                            "$text": "熱熔 2，連裝",
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
@@ -28707,7 +28707,7 @@
                         "targetId": "7cdb-fb99-44a9-8849"
                       },
                       {
-                        "name": "Twin-linked",
+                        "name": "連裝",
                         "id": "c1ea-d2ff-639a-fad7",
                         "hidden": false,
                         "type": "rule",
@@ -28782,7 +28782,7 @@
                     ]
                   }
                 ],
-                "name": "Turret 武器",
+                "name": "炮塔武器",
                 "id": "bac1-e5f9-6035-d77a",
                 "hidden": false,
                 "defaultSelectionEntryId": "3661-576a-2df7-506e"
@@ -29339,7 +29339,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "Unholy gaze",
+                    "name": "邪穢凝視",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -29383,7 +29383,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Unholy gaze",
+                "name": "邪穢凝視",
                 "hidden": false,
                 "id": "4e89-2924-72b9-fa7c"
               },
@@ -29552,12 +29552,12 @@
           {
             "characteristics": [
               {
-                "$text": "當一個審判官模型是 leading 一個單位該contains 一個或更多惡魔宿主模型，模型在此單位具有一個 5+ 特種保護。",
+                "$text": "當一個審判官模型正在領導一個包含一個或更多惡魔宿主模型的單位時，該單位中的模型具有 5+ 特種保護。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Malefic Warding",
+            "name": "惡咒庇護",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -29566,12 +29566,12 @@
           {
             "characteristics": [
               {
-                "$text": "當一個審判官模型是 leading 一個單位該includes 一個或更多惡魔宿主模型，目標控制屬性的惡魔宿主該單位中的模型是 1。",
+                "$text": "當一個審判官模型正在領導一個包含一個或更多惡魔宿主模型的單位時，該單位中惡魔宿主模型的目標控制屬性為 1。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Bound 惡魔",
+            "name": "束縛惡魔",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -29966,7 +29966,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Inconceivable Augmentation",
+            "name": "難以置信的強化",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -30010,7 +30010,7 @@
                 "$text": "4+"
               }
             ],
-            "name": "喬卡洛武器mith",
+            "name": "喬卡洛武器匠",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -30052,7 +30052,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "A 武器mith，Not 一個戰主",
+            "name": "武器匠，而非戰主",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -30089,7 +30089,7 @@
             "primary": true
           },
           {
-            "name": "喬卡洛武器mith",
+            "name": "喬卡洛武器匠",
             "hidden": false,
             "id": "799a-fdb7-081f-ef45",
             "targetId": "2ba8-cb91-7a80-93fc",
@@ -30363,7 +30363,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "喬卡洛武器 - focused",
+                    "name": "喬卡洛武器－聚焦",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -30425,7 +30425,7 @@
                         "field": "3bb-c35f-f54-fb08"
                       }
                     ],
-                    "name": "喬卡洛武器 - scattered",
+                    "name": "喬卡洛武器－散射",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -30670,7 +30670,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "喬卡洛武器mith ［傳奇］",
+        "name": "喬卡洛武器匠［傳奇］",
         "hidden": false,
         "id": "bd54-3e9f-3f7d-ad5a"
       },
@@ -30770,7 +30770,7 @@
             "targetId": "b68a-5ded-65ac-98c"
           },
           {
-            "name": "Hover",
+            "name": "懸浮",
             "id": "76a6-235f-6ae2-c2b0",
             "hidden": false,
             "type": "rule",
@@ -30839,7 +30839,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Blackstar Cluster Launcher",
+            "name": "黑星集束發射器",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -30850,12 +30850,12 @@
           {
             "characteristics": [
               {
-                "$text": "當此模型具有 1-5 wounds remaining，每當此模型進行攻擊，命中擲骰減 1。",
+                "$text": "當此模型剩餘 1-5 點生命值時，每當此模型進行攻擊，命中擲骰減 1。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Damaged: 1-5 Wounds Remaining",
+            "name": "受損：剩餘 1-5 點生命值",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -30941,7 +30941,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "Armoured hull",
+                    "name": "裝甲車體",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -30962,7 +30962,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Armoured hull",
+                "name": "裝甲車體",
                 "hidden": false,
                 "id": "e56f-45e7-fc59-0814",
                 "publicationId": "4115-3627-e608-39f6",
@@ -31013,12 +31013,12 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "速射 6，Twin-Linked",
+                        "$text": "速射 6，連裝",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "Hurricane 爆彈槍",
+                    "name": "颶風爆彈槍",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -31036,7 +31036,7 @@
                     "targetId": "c5c8-8b58-b8b6-7786"
                   },
                   {
-                    "name": "Twin-linked",
+                    "name": "連裝",
                     "id": "340f-085b-0f02-047c",
                     "hidden": false,
                     "type": "rule",
@@ -31055,7 +31055,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Hurricane 爆彈槍",
+                "name": "颶風爆彈槍",
                 "hidden": false,
                 "id": "b638-8b43-0d40-58e7",
                 "publicationId": "4115-3627-e608-39f6",
@@ -31110,12 +31110,12 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "毀滅傷害，Twin-Linked",
+                            "$text": "毀滅傷害，連裝",
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "Twin 突擊砲",
+                        "name": "連裝突擊砲",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "遠程武器",
                         "hidden": false,
@@ -31133,7 +31133,7 @@
                         "targetId": "be1e-ac8e-1e2c-3528"
                       },
                       {
-                        "name": "Twin-linked",
+                        "name": "連裝",
                         "id": "6ad4-cbaf-3092-9d20",
                         "hidden": false,
                         "type": "rule",
@@ -31152,7 +31152,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Twin 突擊砲",
+                    "name": "連裝突擊砲",
                     "hidden": false,
                     "id": "dbfb-a0f3-e4b6-0dfd",
                     "publicationId": "4115-3627-e608-39f6",
@@ -31203,12 +31203,12 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "Twin-Linked",
+                            "$text": "連裝",
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "Twin las砲",
+                        "name": "連裝雷射砲",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "遠程武器",
                         "hidden": false,
@@ -31219,7 +31219,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Twin-linked",
+                        "name": "連裝",
                         "id": "2e09-3cf7-25dc-077a",
                         "hidden": false,
                         "type": "rule",
@@ -31238,7 +31238,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Twin las砲",
+                    "name": "連裝雷射砲",
                     "hidden": false,
                     "id": "e3bd-7e14-38c8-ff49",
                     "publicationId": "4115-3627-e608-39f6",
@@ -31579,7 +31579,7 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "持有者具有 SMOKE 關鍵字。",
+                            "$text": "持有者具有煙霧關鍵字。",
                             "name": "Description",
                             "typeId": "9b8f-694b-e5e-b573"
                           }
@@ -32121,7 +32121,7 @@
                       }
                     ],
                     "type": "add",
-                    "value": "最大 2 {this} per 5 個模型",
+                    "value": "每 5 個模型最多 2 個 {this}",
                     "field": "error"
                   }
                 ],
@@ -32205,7 +32205,7 @@
                       }
                     ],
                     "type": "add",
-                    "value": "最大 1 {this} per 5 個模型",
+                    "value": "每 5 個模型最多 1 個 {this}",
                     "field": "error"
                   }
                 ],
@@ -32326,7 +32326,7 @@
                       }
                     ],
                     "type": "add",
-                    "value": "最大 1 {this} per 5 個模型",
+                    "value": "每 5 個模型最多 1 個 {this}",
                     "field": "error"
                   }
                 ],
@@ -32377,7 +32377,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "Infernus 重型爆彈槍",
+                    "name": "煉獄重型爆彈槍",
                     "hidden": false,
                     "id": "621e-87bf-5be0-9fa6",
                     "type": "selectionEntry",
@@ -32454,7 +32454,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "阿斯塔特 shield",
+                    "name": "阿斯塔特盾牌",
                     "hidden": false,
                     "id": "f1f5-e510-6d37-86c6",
                     "type": "selectionEntry",
@@ -32497,13 +32497,13 @@
                       }
                     ],
                     "type": "add",
-                    "value": "最大 2 {this} per 5 個模型",
+                    "value": "每 5 個模型最多 2 個 {this}",
                     "field": "error"
                   }
                 ],
                 "type": "model",
                 "import": true,
-                "name": "老兵裝備阿斯塔特 shield和爆彈槍",
+                "name": "老兵裝備阿斯塔特盾牌和爆彈槍",
                 "hidden": false,
                 "id": "8c00-6699-048c-83ef",
                 "publicationId": "4115-3627-e608-39f6",
@@ -32561,7 +32561,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "阿斯塔特 shield",
+                    "name": "阿斯塔特盾牌",
                     "hidden": false,
                     "id": "7a55-67ba-28b3-4c52",
                     "type": "selectionEntry",
@@ -32604,13 +32604,13 @@
                       }
                     ],
                     "type": "add",
-                    "value": "最大 2 {this} per 5 個模型",
+                    "value": "每 5 個模型最多 2 個 {this}",
                     "field": "error"
                   }
                 ],
                 "type": "model",
                 "import": true,
-                "name": "老兵裝備阿斯塔特 shield和動力武器",
+                "name": "老兵裝備阿斯塔特盾牌和動力武器",
                 "hidden": false,
                 "id": "cc02-b24f-51d3-0823",
                 "publicationId": "4115-3627-e608-39f6",
@@ -32662,7 +32662,7 @@
                       }
                     ],
                     "type": "add",
-                    "value": "最大 1 {this} per 5 個模型",
+                    "value": "每 5 個模型最多 1 個 {this}",
                     "field": "error"
                   }
                 ],
@@ -32776,7 +32776,7 @@
                       }
                     ],
                     "type": "add",
-                    "value": "最大 2 {this} per 5 個模型",
+                    "value": "每 5 個模型最多 2 個 {this}",
                     "field": "error"
                   }
                 ],
@@ -32977,7 +32977,7 @@
                                   }
                                 ],
                                 "import": true,
-                                "name": "阿斯塔特 shield",
+                                "name": "阿斯塔特盾牌",
                                 "hidden": false,
                                 "id": "66a0-e694-2bbc-7809",
                                 "type": "selectionEntry",
@@ -33145,7 +33145,7 @@
                                   }
                                 ],
                                 "import": true,
-                                "name": "阿斯塔特 shield",
+                                "name": "阿斯塔特盾牌",
                                 "hidden": false,
                                 "id": "723c-f30e-5da1-4433",
                                 "type": "selectionEntry",
@@ -33363,7 +33363,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "死亡守望霰彈槍和close combat 武器",
+                        "name": "死亡守望霰彈槍和近戰武器",
                         "hidden": false,
                         "id": "618d-3f67-a4f7-20f6"
                       },
@@ -33457,7 +33457,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "破片砲和close combat 武器",
+                        "name": "破片砲和近戰武器",
                         "hidden": false,
                         "id": "9f21-dfa9-4120-2498"
                       },
@@ -33531,7 +33531,7 @@
                               }
                             ],
                             "import": true,
-                            "name": "Infernus 重型爆彈槍",
+                            "name": "煉獄重型爆彈槍",
                             "hidden": false,
                             "id": "c37d-80ee-17ee-b568",
                             "type": "selectionEntry",
@@ -33540,7 +33540,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "煉獄重型爆彈槍和close combat 武器",
+                        "name": "煉獄重型爆彈槍和近戰武器",
                         "hidden": false,
                         "id": "2960-b388-5313-5eb8"
                       },
@@ -33623,7 +33623,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "潛獵型爆彈槍和close combat 武器",
+                        "name": "潛獵型爆彈槍和近戰武器",
                         "hidden": false,
                         "id": "0b32-454c-ebdc-bff1"
                       }
@@ -33735,7 +33735,7 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "Watch Sergeant",
+                "name": "守望軍士",
                 "hidden": false,
                 "id": "2fcd-ef4b-3a65-b8ea",
                 "infoLinks": [
@@ -33749,7 +33749,7 @@
                 ]
               }
             ],
-            "name": "Watch Sergeant",
+            "name": "守望軍士",
             "id": "298e-03af-2749-87df",
             "hidden": false,
             "sortIndex": 2
@@ -34107,7 +34107,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Terminatus 突擊",
+            "name": "終結突擊",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -34123,7 +34123,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "傳送 Homer",
+            "name": "傳送信標",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -34139,7 +34139,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Attached 單位",
+            "name": "附屬單位",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -34840,12 +34840,12 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "Twin-Linked",
+                            "$text": "連裝",
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ],
-                        "name": "Twin lightning claws",
+                        "name": "連裝閃電爪",
                         "typeId": "8a40-4aaa-c780-9046",
                         "typeName": "近戰武器",
                         "hidden": false,
@@ -34854,7 +34854,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Twin-linked",
+                        "name": "連裝",
                         "id": "fa4a-ecc5-7e93-9560",
                         "hidden": false,
                         "type": "rule",
@@ -34873,7 +34873,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Twin lightning claws",
+                    "name": "連裝閃電爪",
                     "hidden": false,
                     "id": "8cba-67e3-edfc-1dab",
                     "collective": false
@@ -35131,7 +35131,7 @@
             ],
             "type": "model",
             "import": true,
-            "name": "死亡守望終結者 Sergeant",
+            "name": "死亡守望終結者軍士",
             "hidden": false,
             "id": "f689-b401-b6c6-3e62",
             "sortIndex": 2,
@@ -35982,7 +35982,7 @@
                             "targetId": "d7e6-46da-f89b-8890"
                           }
                         ],
-                        "name": "武器 Option",
+                        "name": "武器選項",
                         "id": "22f4-561e-d348-822c",
                         "hidden": false,
                         "defaultSelectionEntryId": "493c-33a4-8f22-690b"
@@ -36496,7 +36496,7 @@
                           }
                         ],
                         "type": "add",
-                        "value": "最大 1 {this} per 5 個模型",
+                        "value": "每 5 個模型最多 1 個 {this}",
                         "field": "error"
                       }
                     ],
@@ -36776,7 +36776,7 @@
                             "$text": ""
                           }
                         ],
-                        "name": "殺戮小隊 Outrider",
+                        "name": "殺戮小隊先驅者",
                         "typeId": "c547-1836-d8a-ff4f",
                         "typeName": "單位",
                         "hidden": false,
@@ -36870,12 +36870,12 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "Twin-Linked",
+                                "$text": "連裝",
                                 "name": "Keywords",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ],
-                            "name": "Twin 爆彈步槍",
+                            "name": "連裝爆彈步槍",
                             "typeId": "f77d-b953-8fa4-b762",
                             "typeName": "遠程武器",
                             "hidden": false,
@@ -36884,7 +36884,7 @@
                         ],
                         "infoLinks": [
                           {
-                            "name": "Twin-linked",
+                            "name": "連裝",
                             "id": "bdb8-51a2-e9b7-aa7a",
                             "hidden": false,
                             "type": "rule",
@@ -36921,7 +36921,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "Twin 爆彈步槍",
+                        "name": "連裝爆彈步槍",
                         "hidden": false,
                         "id": "154e-fb3e-a638-2938",
                         "publicationId": "4115-3627-e608-39f6",
@@ -37023,7 +37023,7 @@
                     ],
                     "type": "model",
                     "import": true,
-                    "name": "殺戮小隊 Outrider",
+                    "name": "殺戮小隊先驅者",
                     "hidden": false,
                     "id": "a387-3a57-eaaf-bf90",
                     "publicationId": "4115-3627-e608-39f6",
@@ -37476,7 +37476,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Attached 單位",
+            "name": "附屬單位",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -37487,7 +37487,7 @@
           {
             "characteristics": [
               {
-                "$text": "此單位 cannot embark 位於一個 IMPERIAL RHINO。",
+                "$text": "此單位不能搭乘帝國犀牛運兵車。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -37863,7 +37863,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Attached 單位",
+            "name": "附屬單位",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -37874,7 +37874,7 @@
           {
             "characteristics": [
               {
-                "$text": "此單位 cannot embark 位於一個 IMPERIAL RHINO。",
+                "$text": "此單位不能搭乘帝國犀牛運兵車。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -38025,7 +38025,7 @@
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ],
-                            "name": "重型 bolt 步槍",
+                            "name": "重型爆彈步槍",
                             "typeId": "f77d-b953-8fa4-b762",
                             "typeName": "遠程武器",
                             "hidden": false,
@@ -38060,7 +38060,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "重型 bolt 步槍",
+                        "name": "重型爆彈步槍",
                         "hidden": false,
                         "id": "5a97-4735-e393-23cf",
                         "publicationId": "4115-3627-e608-39f6",
@@ -38400,7 +38400,7 @@
                           }
                         ],
                         "type": "add",
-                        "value": "最大 1 {this} per 5 個模型",
+                        "value": "每 5 個模型最多 1 個 {this}",
                         "field": "error"
                       }
                     ],
@@ -38549,12 +38549,12 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "無視掩護，洪流，Twin-Linked",
+                                "$text": "無視掩護，洪流，連裝",
                                 "name": "Keywords",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ],
-                            "name": "Flamest或m gauntlets",
+                            "name": "火焰風暴拳套",
                             "typeId": "f77d-b953-8fa4-b762",
                             "typeName": "遠程武器",
                             "hidden": false,
@@ -38579,7 +38579,7 @@
                             "targetId": "5edf-d619-23e0-9b56"
                           },
                           {
-                            "name": "Twin-linked",
+                            "name": "連裝",
                             "id": "d877-3fab-3eba-7e4a",
                             "hidden": false,
                             "type": "rule",
@@ -38598,7 +38598,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "Flamest或m gauntlets",
+                        "name": "火焰風暴拳套",
                         "hidden": false,
                         "id": "8e94-a369-cc7b-7b64",
                         "publicationId": "4115-3627-e608-39f6",
@@ -38639,7 +38639,7 @@
                                 "typeId": "3254-9fe6-d824-513e"
                               },
                               {
-                                "$text": "Twin-Linked",
+                                "$text": "連裝",
                                 "name": "Keywords",
                                 "typeId": "893f-9000-ccf7-648e"
                               }
@@ -38655,7 +38655,7 @@
                         ],
                         "infoLinks": [
                           {
-                            "name": "Twin-linked",
+                            "name": "連裝",
                             "id": "f0d8-4654-bd01-6b97",
                             "hidden": false,
                             "type": "rule",
@@ -38712,7 +38712,7 @@
                           }
                         ],
                         "type": "add",
-                        "value": "最大 2 重型跨界者s 具有動力拳套s",
+                        "value": "最大 2 重型跨界者s 具有動力拳套",
                         "field": "error"
                       }
                     ],
@@ -38727,7 +38727,7 @@
                     ],
                     "type": "model",
                     "import": true,
-                    "name": "殺戮小隊重裝仲裁者裝備動力拳套s與flamest或m gauntlets",
+                    "name": "殺戮小隊重裝仲裁者裝備動力拳套與flamest或m 拳套",
                     "hidden": false,
                     "id": "ec81-a1af-ba62-03fa"
                   },
@@ -38844,12 +38844,12 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "Twin-Linked",
+                                "$text": "連裝",
                                 "name": "Keywords",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ],
-                            "name": "Auto boltst或m gauntlets",
+                            "name": "自動爆彈風暴拳套",
                             "typeId": "f77d-b953-8fa4-b762",
                             "typeName": "遠程武器",
                             "hidden": false,
@@ -38858,7 +38858,7 @@
                         ],
                         "infoLinks": [
                           {
-                            "name": "Twin-linked",
+                            "name": "連裝",
                             "id": "fe69-311f-0543-5830",
                             "hidden": false,
                             "type": "rule",
@@ -38877,7 +38877,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "Auto boltst或m gauntlets",
+                        "name": "自動爆彈風暴拳套",
                         "hidden": false,
                         "id": "80d4-db08-d85d-cbff",
                         "publicationId": "4115-3627-e608-39f6",
@@ -38918,7 +38918,7 @@
                                 "typeId": "3254-9fe6-d824-513e"
                               },
                               {
-                                "$text": "Twin-Linked",
+                                "$text": "連裝",
                                 "name": "Keywords",
                                 "typeId": "893f-9000-ccf7-648e"
                               }
@@ -38934,7 +38934,7 @@
                         ],
                         "infoLinks": [
                           {
-                            "name": "Twin-linked",
+                            "name": "連裝",
                             "id": "c0f2-0793-936c-6abc",
                             "hidden": false,
                             "type": "rule",
@@ -39035,7 +39035,7 @@
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ],
-                            "name": "Fragst或m 榴彈發射器",
+                            "name": "破片風暴榴彈發射器",
                             "typeId": "f77d-b953-8fa4-b762",
                             "typeName": "遠程武器",
                             "hidden": false,
@@ -39063,7 +39063,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "Fragst或m 榴彈發射器",
+                        "name": "破片風暴榴彈發射器",
                         "hidden": false,
                         "id": "29d1-ff6c-24d2-09e4",
                         "publicationId": "4115-3627-e608-39f6",
@@ -39083,7 +39083,7 @@
                           }
                         ],
                         "type": "add",
-                        "value": "最大 2 重型跨界者s 具有動力拳套s",
+                        "value": "最大 2 重型跨界者s 具有動力拳套",
                         "field": "error"
                       }
                     ],
@@ -39098,7 +39098,7 @@
                     ],
                     "type": "model",
                     "import": true,
-                    "name": "殺戮小隊重裝仲裁者裝備動力拳套s與auto boltst或m gauntlets",
+                    "name": "殺戮小隊重裝仲裁者裝備動力拳套與auto 爆彈風暴 拳套",
                     "hidden": false,
                     "id": "46f0-e2c9-0116-353b"
                   },
@@ -39727,7 +39727,7 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "突擊，手槍，連擊 2，Twin-Linked",
+                                "$text": "突擊，手槍，連擊 2，連裝",
                                 "name": "Keywords",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
@@ -39764,7 +39764,7 @@
                             "targetId": "1897-c22c-9597-12b1"
                           },
                           {
-                            "name": "Twin-linked",
+                            "name": "連裝",
                             "id": "d4b3-c328-a708-b98a",
                             "hidden": false,
                             "type": "rule",
@@ -39987,7 +39987,7 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "突擊，手槍，Twin-Linked",
+                                "$text": "突擊，手槍，連裝",
                                 "name": "Keywords",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
@@ -40033,7 +40033,7 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "突擊，危險，手槍，Twin-Linked",
+                                "$text": "突擊，危險，手槍，連裝",
                                 "name": "Keywords",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
@@ -40061,7 +40061,7 @@
                             "targetId": "8bf7-8812-923d-29e4"
                           },
                           {
-                            "name": "Twin-linked",
+                            "name": "連裝",
                             "id": "f82d-106b-c00d-92d5",
                             "hidden": false,
                             "type": "rule",
@@ -40616,7 +40616,7 @@
                     "$text": "4+"
                   }
                 ],
-                "name": "Chaplain Cassius",
+                "name": "卡修斯牧師",
                 "typeId": "c547-1836-d8a-ff4f",
                 "typeName": "單位",
                 "hidden": false,
@@ -40702,7 +40702,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "Artificer crozius",
+                    "name": "工匠權杖",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -40713,7 +40713,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Artificer crozius",
+                "name": "工匠權杖",
                 "hidden": false,
                 "id": "a222-e8de-d3cf-10f0",
                 "publicationId": "4115-3627-e608-39f6",
@@ -40749,7 +40749,7 @@
             ],
             "type": "model",
             "import": true,
-            "name": "Chaplain Cassius",
+            "name": "卡修斯牧師",
             "hidden": false,
             "id": "63ec-4fea-e4a7-9509"
           },
@@ -41561,7 +41561,7 @@
                     "$text": ""
                   }
                 ],
-                "name": "Edryc Set或ax",
+                "name": "Edryc Setorax",
                 "typeId": "c547-1836-d8a-ff4f",
                 "typeName": "單位",
                 "hidden": false,
@@ -41640,12 +41640,12 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "Twin-Linked",
+                        "$text": "連裝",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "Twin lightning claws",
+                    "name": "連裝閃電爪",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -41656,7 +41656,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Twin-linked",
+                    "name": "連裝",
                     "id": "1592-0a13-0029-6151",
                     "hidden": false,
                     "type": "rule",
@@ -41665,7 +41665,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Twin lightning claws",
+                "name": "連裝閃電爪",
                 "hidden": false,
                 "id": "ce9d-124d-4b4c-c1e0",
                 "publicationId": "4115-3627-e608-39f6",
@@ -41674,7 +41674,7 @@
             ],
             "type": "model",
             "import": true,
-            "name": "Edryc Set或ax",
+            "name": "Edryc Setorax",
             "hidden": false,
             "id": "e774-67b3-9849-ce50"
           },
@@ -41736,7 +41736,7 @@
                     "$text": ""
                   }
                 ],
-                "name": "Jensus Nat或ian",
+                "name": "Jensus Natorian",
                 "typeId": "c547-1836-d8a-ff4f",
                 "typeName": "單位",
                 "hidden": false,
@@ -41752,7 +41752,7 @@
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "靈能 Hood",
+                "name": "靈能兜帽",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -41818,7 +41818,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "靈能 Cleanse",
+                    "name": "靈能淨化",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -41836,7 +41836,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "靈能 Cleanse",
+                "name": "靈能淨化",
                 "hidden": false,
                 "id": "c036-f150-3dfe-f97d",
                 "publicationId": "4115-3627-e608-39f6",
@@ -41966,7 +41966,7 @@
             ],
             "type": "model",
             "import": true,
-            "name": "Jensus Nat或ian",
+            "name": "Jensus Natorian",
             "hidden": false,
             "id": "77b8-5555-5fbc-c219"
           },
@@ -42028,7 +42028,7 @@
                     "$text": ""
                   }
                 ],
-                "name": "Drenn Red刃",
+                "name": "Drenn Redblade",
                 "typeId": "c547-1836-d8a-ff4f",
                 "typeName": "單位",
                 "hidden": false,
@@ -42093,7 +42093,7 @@
             ],
             "type": "model",
             "import": true,
-            "name": "Drenn Red刃",
+            "name": "Drenn Redblade",
             "hidden": false,
             "id": "de4b-8fc8-d844-1bf9"
           },
@@ -42359,7 +42359,7 @@
                     "$text": ""
                   }
                 ],
-                "name": "Ennox S或rlock",
+                "name": "Ennox Sorrlock",
                 "typeId": "c547-1836-d8a-ff4f",
                 "typeName": "單位",
                 "hidden": false,
@@ -42475,7 +42475,7 @@
             ],
             "type": "model",
             "import": true,
-            "name": "Ennox S或rlock",
+            "name": "Ennox Sorrlock",
             "hidden": false,
             "id": "3f1d-c4d4-031c-57c6"
           },
@@ -42864,7 +42864,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Attached 單位",
+            "name": "附屬單位",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -43348,12 +43348,12 @@
                                     "typeId": "3254-9fe6-d824-513e"
                                   },
                                   {
-                                    "$text": "Twin-Linked",
+                                    "$text": "連裝",
                                     "name": "Keywords",
                                     "typeId": "893f-9000-ccf7-648e"
                                   }
                                 ],
-                                "name": "Twin lightning claws",
+                                "name": "連裝閃電爪",
                                 "typeId": "8a40-4aaa-c780-9046",
                                 "typeName": "近戰武器",
                                 "hidden": false,
@@ -43362,7 +43362,7 @@
                             ],
                             "infoLinks": [
                               {
-                                "name": "Twin-linked",
+                                "name": "連裝",
                                 "id": "5bb4-5c9d-70c0-f3b2",
                                 "hidden": false,
                                 "type": "rule",
@@ -43381,7 +43381,7 @@
                             ],
                             "type": "upgrade",
                             "import": true,
-                            "name": "Twin lightning claws",
+                            "name": "連裝閃電爪",
                             "hidden": false,
                             "id": "64e7-f443-7156-d1c9",
                             "collective": false
@@ -45231,7 +45231,7 @@
                             ],
                             "type": "upgrade",
                             "import": true,
-                            "name": "長誓守望遠程武器與close combat 武器",
+                            "name": "長誓守望遠程武器與近戰武器",
                             "hidden": false,
                             "id": "6110-6fec-a82c-6d18"
                           },
@@ -45245,7 +45245,7 @@
                                     "typeId": "9b8f-694b-e5e-b573"
                                   }
                                 ],
-                                "name": "阿斯塔特 shield",
+                                "name": "阿斯塔特盾牌",
                                 "typeId": "9cc3-6d83-4dd3-9b64",
                                 "typeName": "能力",
                                 "hidden": false,
@@ -45338,7 +45338,7 @@
                             ],
                             "type": "upgrade",
                             "import": true,
-                            "name": "阿斯塔特 shield，爆彈槍與close combat 武器",
+                            "name": "阿斯塔特盾牌，爆彈槍與近戰武器",
                             "hidden": false,
                             "id": "b966-bb3a-819a-8b0a"
                           },
@@ -45352,7 +45352,7 @@
                                     "typeId": "9b8f-694b-e5e-b573"
                                   }
                                 ],
-                                "name": "阿斯塔特 shield",
+                                "name": "阿斯塔特盾牌",
                                 "typeId": "9cc3-6d83-4dd3-9b64",
                                 "typeName": "能力",
                                 "hidden": false,
@@ -45409,7 +45409,7 @@
                             ],
                             "type": "upgrade",
                             "import": true,
-                            "name": "阿斯塔特 shield與長誓守望近戰武器",
+                            "name": "阿斯塔特盾牌與長誓守望近戰武器",
                             "hidden": false,
                             "id": "6caf-b06e-d67a-1599"
                           }
@@ -45628,7 +45628,7 @@
                           }
                         ],
                         "type": "add",
-                        "value": "最大 2 {this} per 5 個模型",
+                        "value": "每 5 個模型最多 2 個 {this}",
                         "field": "error"
                       }
                     ],
@@ -45724,7 +45724,7 @@
                           }
                         ],
                         "type": "add",
-                        "value": "最大 2 {this} per 5 個模型",
+                        "value": "每 5 個模型最多 2 個 {this}",
                         "field": "error"
                       }
                     ],
@@ -45890,7 +45890,7 @@
                             ],
                             "type": "upgrade",
                             "import": true,
-                            "name": "破片砲與close combat 武器",
+                            "name": "破片砲與近戰武器",
                             "hidden": false,
                             "id": "fb69-f9eb-baa9-dd81"
                           },
@@ -45964,7 +45964,7 @@
                                   }
                                 ],
                                 "import": true,
-                                "name": "Infernus 重型爆彈槍",
+                                "name": "煉獄重型爆彈槍",
                                 "hidden": false,
                                 "id": "c531-c64b-bfe9-aeb9",
                                 "type": "selectionEntry",
@@ -45983,7 +45983,7 @@
                             ],
                             "type": "upgrade",
                             "import": true,
-                            "name": "煉獄重型爆彈槍與close combat 武器",
+                            "name": "煉獄重型爆彈槍與近戰武器",
                             "hidden": false,
                             "id": "e61d-07e0-bc1e-f495",
                             "publicationId": "4115-3627-e608-39f6",
@@ -46540,7 +46540,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Attached 單位",
+            "name": "附屬單位",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -46567,7 +46567,7 @@
           {
             "characteristics": [
               {
-                "$text": "此單位 cannot embark 位於一個 IMPERIAL RHINO。",
+                "$text": "此單位不能搭乘帝國犀牛運兵車。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -46897,7 +46897,7 @@
                           {
                             "characteristics": [
                               {
-                                "$text": "每次 you 目標持有者的單位具有一個計謀，擲一個 D6: 若擲出 5+，你獲得 1指揮點。",
+                                "$text": "每當你以持有者的單位作為一個計謀的目標時，擲一個 D6：若擲出 5+，你獲得 1 點指揮點。",
                                 "name": "Description",
                                 "typeId": "9b8f-694b-e5e-b573"
                               }
@@ -50128,7 +50128,7 @@
           {
             "characteristics": [
               {
-                "$text": "當此模型正在領導一個單位時，該單位是 符合射擊資格和宣告衝鋒於一個回合於which it 推進或撤退。",
+                "$text": "當此模型正在領導一個單位時，該單位在已推進或撤退的回合中仍符合射擊資格，並且可以宣告衝鋒。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -50738,7 +50738,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "阿斯塔特 shield",
+            "name": "阿斯塔特盾牌",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -50791,7 +50791,7 @@
           },
           {
             "type": "append",
-            "value": "裝備阿斯塔特 shield",
+            "value": "裝備阿斯塔特盾牌",
             "field": "name",
             "scope": "model",
             "affects": "profiles.Unit"
@@ -50799,7 +50799,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "阿斯塔特 shield",
+        "name": "阿斯塔特盾牌",
         "hidden": false,
         "id": "3f24-dcf8-4468-1702",
         "collective": true
@@ -51183,7 +51183,7 @@
         "id": "1234-cfc0-d913-d09a"
       },
       {
-        "comment": "Armoury - 4+",
+        "comment": "甲冑y - 4+",
         "profiles": [
           {
             "characteristics": [
@@ -51279,7 +51279,7 @@
         "collective": true
       },
       {
-        "comment": "Armoury - 4+",
+        "comment": "甲冑y - 4+",
         "profiles": [
           {
             "characteristics": [
@@ -51360,7 +51360,7 @@
         "page": 29
       },
       {
-        "comment": "Armoury",
+        "comment": "甲冑y",
         "profiles": [
           {
             "characteristics": [
@@ -51593,7 +51593,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "Infernus 重型爆彈槍",
+        "name": "煉獄重型爆彈槍",
         "hidden": false,
         "id": "3e1b-5da1-e6d0-220f",
         "publicationId": "4115-3627-e608-39f6",
@@ -51724,7 +51724,7 @@
         "collective": true
       },
       {
-        "comment": "Armoury - 3+",
+        "comment": "甲冑y - 3+",
         "profiles": [
           {
             "characteristics": [
@@ -51936,7 +51936,7 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "Twin-Linked",
+                "$text": "連裝",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -51952,7 +51952,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Twin-linked",
+            "name": "連裝",
             "id": "ad6d-2582-98c4-4732",
             "hidden": false,
             "type": "rule",
@@ -52041,7 +52041,7 @@
             "targetId": "be1e-ac8e-1e2c-3528"
           }
         ],
-        "comment": "Armoury - 3+",
+        "comment": "甲冑y - 3+",
         "type": "upgrade",
         "import": true,
         "name": "突擊砲",
@@ -52428,7 +52428,7 @@
         "id": "3290-2132-2fac-6d54"
       },
       {
-        "comment": "Armoury",
+        "comment": "甲冑y",
         "profiles": [
           {
             "characteristics": [
@@ -52780,7 +52780,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "Burning h和s",
+                    "name": "燃燒之手",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -52808,7 +52808,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Burning h和s",
+                "name": "燃燒之手",
                 "hidden": false,
                 "id": "96d7-9d39-74c3-7b54"
               }
@@ -52867,7 +52867,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "在你的指揮階段，若持有者是 on 戰場，你可以復原最多 D3 被摧毀模型 (excluding ^^**角色模型^^**) 至此單位。",
+                        "$text": "在你的指揮階段，若持有者位於戰場上，你可以將最多 D3 個已摧毀的模型（不含 ^^**角色模型^^**）復原至此單位。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -53532,7 +53532,7 @@
                   }
                 ],
                 "import": true,
-                "name": "最小ist或um 火焰噴射器",
+                "name": "教會火焰噴射器",
                 "hidden": false,
                 "id": "72af-a96f-d69a-7271",
                 "type": "selectionEntry",
@@ -54097,7 +54097,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "最小ist或um Sermon",
+            "name": "教會 Sermon",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -54125,7 +54125,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Attached 單位",
+            "name": "附屬單位",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -54676,7 +54676,7 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "Twin-linked",
+                "$text": "連裝",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -54690,7 +54690,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Twin-linked",
+            "name": "連裝",
             "id": "a2cc-46ec-cb01-eb72",
             "hidden": false,
             "type": "rule",
@@ -55445,7 +55445,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "Inferno 手槍",
+                    "name": "熔火手槍",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -55470,7 +55470,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Inferno 手槍",
+                "name": "熔火手槍",
                 "hidden": false,
                 "id": "39d1-be9d-a0d4-354d"
               },
@@ -56394,7 +56394,7 @@
                             "typeId": "9b8f-694b-e5e-b573"
                           }
                         ],
-                        "name": "阿斯塔特 shield",
+                        "name": "阿斯塔特盾牌",
                         "typeId": "9cc3-6d83-4dd3-9b64",
                         "typeName": "能力",
                         "hidden": false,
@@ -56423,14 +56423,14 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "阿斯塔特 shield",
+                    "name": "阿斯塔特盾牌",
                     "hidden": false,
                     "id": "89c9-a8d2-7367-a7f3"
                   }
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "動力武器和阿斯塔特 shield",
+                "name": "動力武器和阿斯塔特盾牌",
                 "hidden": false,
                 "id": "b2b6-a3c3-f77c-d8b7"
               },
@@ -56788,7 +56788,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "Stalker bolt 步槍",
+                    "name": "Stalker 爆彈步槍",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -56820,7 +56820,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Stalker bolt 步槍",
+                "name": "Stalker 爆彈步槍",
                 "hidden": false,
                 "id": "de2c-7723-f9e6-f06e"
               }
@@ -57166,7 +57166,7 @@
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "Hellst或m bolt 步槍",
+                        "name": "Hellst或m 爆彈步槍",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "遠程武器",
                         "hidden": false,
@@ -57198,7 +57198,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Hellst或m bolt 步槍",
+                    "name": "Hellst或m 爆彈步槍",
                     "hidden": false,
                     "id": "2509-50f3-832d-1daf"
                   },
@@ -57350,7 +57350,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Hellst或m bolt 步槍和榴彈發射器",
+                "name": "Hellst或m 爆彈步槍和榴彈發射器",
                 "hidden": false,
                 "id": "5278-f5a0-cd37-faea"
               },
@@ -57493,7 +57493,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Infernus 重型爆彈槍",
+                "name": "煉獄重型爆彈槍",
                 "hidden": false,
                 "id": "7227-dd49-014c-a31c",
                 "publicationId": "4115-3627-e608-39f6",
@@ -57821,7 +57821,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Attached 單位",
+            "name": "附屬單位",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -59500,7 +59500,7 @@
           {
             "characteristics": [
               {
-                "$text": "當此模型正在領導一個單位時，in 你的指揮階段，你可以復原ed 1 被摧毀模型 (excluding ^^**角色**^^ 模型)至該單位。",
+                "$text": "當此模型正在領導一個單位時，在你的指揮階段，你可以將 1 個已摧毀的模型（不含 ^^**角色**^^ 模型）復原至該單位。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -61609,7 +61609,7 @@
         "id": "673b-fa00-24a6-28ad"
       },
       {
-        "name": "審判庭 Henchmen",
+        "name": "審判庭隨扈",
         "hidden": false,
         "id": "bf73-46e-399-91c0"
       },
@@ -62351,7 +62351,7 @@
         "hidden": false
       },
       {
-        "name": "Imperial 犀牛運兵車",
+        "name": "帝國犀牛運兵車",
         "id": "c779-37d6-af9a-db1a",
         "hidden": false
       },
@@ -62371,7 +62371,7 @@
         "hidden": false
       },
       {
-        "name": "喬卡洛武器mith",
+        "name": "喬卡洛武器匠",
         "id": "2ba8-cb91-7a80-93fc",
         "hidden": false
       },
@@ -63276,7 +63276,7 @@
           }
         ],
         "import": true,
-        "name": "審判官於終結者 Armour ［傳奇］",
+        "name": "著終結者甲冑的審判官［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "9aa0-90d-d98-328e",
@@ -63554,7 +63554,7 @@
           }
         ],
         "import": true,
-        "name": "Imperial 犀牛運兵車",
+        "name": "帝國犀牛運兵車",
         "hidden": false,
         "id": "2282-00e8-c005-21a3",
         "type": "selectionEntry",
@@ -64579,7 +64579,7 @@
           }
         ],
         "import": true,
-        "name": "喬卡洛武器mith ［傳奇］",
+        "name": "喬卡洛武器匠［傳奇］",
         "hidden": false,
         "id": "c609-c26d-1002-540d",
         "type": "selectionEntry",
@@ -65145,7 +65145,7 @@
       {
         "characteristics": [
           {
-            "$text": "每次 you 目標此模型的單位具有一個計謀，擲一個 D6: 若擲出 3+，你獲得 1指揮點。",
+            "$text": "每當你以此模型的單位作為一個計謀的目標時，擲一個 D6：若擲出 3+，你獲得 1 點指揮點。",
             "name": "Description",
             "typeId": "9b8f-694b-e5e-b573"
           }
@@ -66241,7 +66241,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "當持有者是 leading 一個單位，每當一個該單位中的模型進行一個指定為目標的攻擊一個靈能者單位，你可以重擲命中擲骰。",
+                    "$text": "當持有者正在領導一個單位時，每當該單位中的一個模型進行攻擊，且該攻擊指定一個靈能者單位為目標時，你可以重擲命中擲骰。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -66351,7 +66351,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "持有者的遠程武器具有 ［毀滅傷害］，[MELTA 1]和［精準］ 能力。",
+                    "$text": "持有者的遠程武器具有［毀滅傷害］、［熱熔 1］與［精準］能力。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -67020,7 +67020,7 @@
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "Cl和estine Operation",
+                "name": "秘密 Operation",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -67036,7 +67036,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "Cl和estine Operation",
+            "name": "秘密 Operation",
             "hidden": false,
             "id": "c390-c4f9-4c37-5475",
             "sortIndex": 1
@@ -68263,12 +68263,12 @@
                     "typeId": "3254-9fe6-d824-513e"
                   },
                   {
-                    "$text": "Twin-Linked",
+                    "$text": "連裝",
                     "name": "Keywords",
                     "typeId": "893f-9000-ccf7-648e"
                   }
                 ],
-                "name": "Twin lightning claws",
+                "name": "連裝閃電爪",
                 "typeId": "8a40-4aaa-c780-9046",
                 "typeName": "近戰武器",
                 "hidden": false,
@@ -68277,7 +68277,7 @@
             ],
             "infoLinks": [
               {
-                "name": "Twin-linked",
+                "name": "連裝",
                 "id": "2608-592f-a225-678d",
                 "hidden": false,
                 "type": "rule",
@@ -68286,7 +68286,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "Twin lightning claws",
+            "name": "連裝閃電爪",
             "hidden": false,
             "id": "be8a-d9ec-948a-c8cb",
             "collective": false
@@ -69157,7 +69157,7 @@
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "Ruthless Interrogat或s",
+                "name": "無情審訊者",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -69166,7 +69166,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "Ruthless Interrogat或s",
+            "name": "無情審訊者",
             "hidden": false,
             "id": "79d0-ff1d-2898-e640"
           },
@@ -69598,7 +69598,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "此單位是 符合射擊資格或宣告衝鋒於一個回合於which it 撤退。",
+                    "$text": "此單位在已撤退的回合中仍符合射擊資格，或可以宣告衝鋒。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -70196,12 +70196,12 @@
               {
                 "characteristics": [
                   {
-                    "$text": "若此模型是 你的**^^戰主^^**，你可以使用一個遠征 Blessing even 若 you 是不 Underdog。",
+                    "$text": "若此模型是你的 **^^戰主^^**，即使你不是弱勢方，也可以使用一項遠征祝福。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "Esoteric L或e",
+                "name": "秘傳知識",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -70210,7 +70210,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "Esoteric L或e",
+            "name": "秘傳知識",
             "hidden": false,
             "id": "1306-35f8-0047-bc22"
           },
@@ -70631,12 +70631,12 @@
               {
                 "characteristics": [
                   {
-                    "$text": "當此模型正在領導一個單位時，模型在此單位具有隱蔽能力。 在結束時 battle，若此模型的單位是 wholly 位於你的對手的部署區，擲一個 D6: 若擲出 4+，你獲得 1 調查點。",
+                    "$text": "當此模型正在領導一個單位時，該單位中的模型具有隱蔽能力。在戰鬥結束時，若此模型的單位完全位於你對手的部署區內，擲一個 D6：若擲出 4+，你獲得 1 點調查點。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "Cl和estine Investigat或",
+                "name": "秘密調查者",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -70654,7 +70654,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "Cl和estine Investigat或",
+            "name": "秘密調查者",
             "hidden": false,
             "id": "f6c6-a914-edc1-167d"
           },
@@ -71424,12 +71424,12 @@
                             "typeId": "6d08-b82f-484f-7c81"
                           },
                           {
-                            "$text": "持有者的單位是 符合射擊資格或宣告衝鋒於一個回合於which it 推進或撤退。",
+                            "$text": "持有者的單位在已推進或撤退的回合中仍符合射擊資格，或可以宣告衝鋒。",
                             "name": "Description",
                             "typeId": "5269-3f5d-d7dd-6e17"
                           }
                         ],
-                        "name": "Stability Actuat或",
+                        "name": "穩定致動器",
                         "typeId": "f439-34bd-8d5f-0f9c",
                         "typeName": "考古科技奇物",
                         "hidden": false,
@@ -71517,7 +71517,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "每次一個攻擊是 allocated至持有者，change Damage 屬性的該攻擊至1。",
+                        "$text": "每當一次攻擊分配給持有者時，將該攻擊的傷害屬性改為 1。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -71628,7 +71628,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "每次持有者是 被選擇至fight，選擇一個的following 能力至套用至持有者的近戰武器直到該階段結束: - **[騎槍]** - **［致命一擊］** - **［精準］** - **［連擊 1］**",
+                        "$text": "每當持有者被選擇戰鬥時，選擇下列一項能力套用至持有者的近戰武器，直到該階段結束：\n- **［騎槍］**\n- **［致命一擊］**\n- **［精準］**\n- **［連擊 1］**",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -72042,7 +72042,7 @@
               },
               {
                 "import": true,
-                "name": "Pariah Nexus Blackst一個 Upgrades",
+                "name": "帕利亞樞紐黑石升級",
                 "hidden": false,
                 "id": "5144-06e6-dd67-3d2e",
                 "type": "selectionEntryGroup",
@@ -73934,7 +73934,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "此模型可加入下列單位： ^^**殺戮小隊**^^ (excluding ^^**Fly，Gravis**^^和^^**終結者**^^)",
+                    "$text": "此模型可加入下列單位：^^**殺戮小隊**^^（不含 ^^**飛行、重裝甲**^^ 與 ^^**終結者**^^）",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -75686,7 +75686,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "最小ist或um 火焰噴射器",
+                    "name": "教會火焰噴射器",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -75729,7 +75729,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "最小ist或um 火焰噴射器",
+                "name": "教會火焰噴射器",
                 "hidden": false,
                 "id": "0d62-6e72-250f-0157"
               },
@@ -75803,7 +75803,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "最小ist或um 重型火焰噴射器",
+                    "name": "教會重型火焰噴射器",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -75862,7 +75862,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "最小ist或um 重型火焰噴射器",
+                "name": "教會重型火焰噴射器",
                 "hidden": false,
                 "id": "05c5-c480-1ad2-e6d9"
               },
@@ -77101,7 +77101,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "Inferno 手槍",
+                    "name": "熔火手槍",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -77119,7 +77119,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Inferno 手槍",
+                "name": "熔火手槍",
                 "hidden": false,
                 "id": "161a-1696-1064-be17"
               },
@@ -78253,7 +78253,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "NOTICE - This catalogue 是 no longer fully supp或ted於Battlescribe。 Please use https://newrecruit。eu 為 full compatibility。",
+        "name": "注意：此資料庫已不再完整支援 Battlescribe。請使用 https://newrecruit.eu 以取得完整相容性。",
         "hidden": false,
         "id": "f6bb-3928-c6a3-b6d3"
       }
