@@ -832,7 +832,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "強化項目",
+                "name": "殉道聖徒",
                 "hidden": false,
                 "id": "8e26-78e2-10bd-6982",
                 "costs": [
@@ -910,7 +910,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "強化項目",
+                "name": "悔罪軍團",
                 "hidden": false,
                 "id": "a2f5-a466-96b6-d389",
                 "costs": [
@@ -988,7 +988,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "強化項目",
+                "name": "烈焰使者",
                 "hidden": false,
                 "id": "575d-76f6-2edb-22c1",
                 "costs": [
@@ -1066,7 +1066,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "強化項目",
+                "name": "信仰軍勢",
                 "hidden": false,
                 "id": "6f81-1a3e-c84e-0954",
                 "costs": [
@@ -1151,7 +1151,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "強化項目",
+                "name": "信仰冠軍",
                 "hidden": false,
                 "id": "5c81-a47b-d3a0-31e8",
                 "costs": [
@@ -1220,7 +1220,7 @@
               {
                 "type": "upgrade",
                 "import": true,
-                "name": "強化項目",
+                "name": "譴責聖歌隊",
                 "hidden": false,
                 "id": "3ee6-23e1-8bc0-90f7",
                 "constraints": [
@@ -1297,7 +1297,7 @@
               {
                 "type": "upgrade",
                 "import": true,
-                "name": "強化項目",
+                "name": "神聖冠軍",
                 "hidden": false,
                 "id": "0017-3a94-11f8-7fca",
                 "constraints": [
@@ -1381,7 +1381,7 @@
               {
                 "type": "upgrade",
                 "import": true,
-                "name": "強化項目",
+                "name": "聖化演說者",
                 "hidden": false,
                 "id": "f9b6-3e44-772b-8eb1",
                 "costs": [
@@ -7275,7 +7275,7 @@
               {
                 "type": "upgrade",
                 "import": true,
-                "name": "強化項目",
+                "name": "懺悔令狀",
                 "hidden": false,
                 "id": "9cc7-bfa9-ca48-9853",
                 "constraints": [
@@ -7292,7 +7292,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "說明",
+                    "name": "懺悔令狀",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "能力",
                     "hidden": false,
@@ -8541,7 +8541,7 @@
             "id": "c7dc-3ddb-ce59-3c1e"
           },
           {
-            "name": "說明",
+            "name": "支援",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -9163,7 +9163,7 @@
             "id": "a7f7-40f-4d82-235d"
           },
           {
-            "name": "說明",
+            "name": "支援",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -10364,7 +10364,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "強化項目",
+                        "name": "熱熔槍",
                         "hidden": false,
                         "id": "fc05-599e-2f63-d4e4",
                         "costs": [
@@ -11486,7 +11486,7 @@
               {
                 "type": "upgrade",
                 "import": true,
-                "name": "強化項目",
+                "name": "交響彈藥",
                 "hidden": false,
                 "id": "bd97-06c3-a527-9a3e",
                 "constraints": [
@@ -11587,7 +11587,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "說明",
+                    "name": "交響彈藥",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "能力",
                     "hidden": false,
@@ -12125,7 +12125,7 @@
             "id": "acf-9a6a-c5b4-93fe"
           },
           {
-            "name": "說明",
+            "name": "支援",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -12803,7 +12803,7 @@
             "id": "ecf0-4fea-74c7-1091"
           },
           {
-            "name": "說明",
+            "name": "支援",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -13950,7 +13950,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "強化項目",
+                    "name": "連裝多管熱熔槍",
                     "hidden": false,
                     "id": "fe9c-67db-68e4-45af",
                     "costs": [
@@ -18241,7 +18241,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "強化項目",
+                    "name": "多管熱熔槍",
                     "hidden": false,
                     "id": "e50-ed9a-722a-e69",
                     "costs": [
@@ -19011,7 +19011,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "強化項目",
+                        "name": "多管熱熔槍",
                         "hidden": false,
                         "id": "9403-6ce4-fcc2-e5e8",
                         "costs": [
@@ -31926,7 +31926,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "強化項目",
+        "name": "潔天使聖徒艾芙琳［傳奇］",
         "hidden": false,
         "id": "6227-8c95-0e8a-81de",
         "costs": [
