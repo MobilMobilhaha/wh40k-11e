@@ -1357,7 +1357,7 @@
         ]
       },
       {
-        "name": "重型運輸",
+        "name": "重型運輸載具",
         "id": "15ec-7a21-5a2d-db3d",
         "hidden": false
       }
@@ -7451,7 +7451,7 @@
               }
             ],
             "id": "98e6-37a7-3883-a9f3",
-            "name": "射擊並重新部署",
+            "name": "射擊後轉移",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力"
@@ -12113,7 +12113,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當此模型進行攻擊，並以最近且符合資格的敵方單位為目標時，重擲命中擲骰結果為 1 的擲骰，並重擲傷害擲骰結果為 1 的擲骰。",
+                "$text": "每當此模型進行攻擊，且以最近並符合資格的敵方單位為目標時，重擲結果為 1 的命中擲骰與致傷擲骰。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -14215,7 +14215,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型必須從預備隊中開始戰鬥，但它與任何搭載於其中的單位都不計入你可以從預備隊中開始戰鬥的單位數量上限。此模型可以在你的第一、第二或第三個移動階段的援軍步驟中設置，無視任何任務規則。任何搭載於此模型中的單位必須在其設置於戰場後立即下車，且必須設置在所有敵方模型 9 吋以外。",
+                "$text": "此模型必須從預備隊中開始戰鬥，但它與任何搭載於其中的單位都不計入你可以從預備隊中開始戰鬥的單位數量上限。此模型可以在你的第一、第二或第三個移動階段的援軍步驟中設置，無視任何任務規則。任何搭載於此模型中的單位必須在其設置於戰場後立即下車，且必須設置在所有敵方模型 9 吋以外。此模型設置於戰場後，任何單位都不能再搭載於其中。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -16370,7 +16370,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "掃射航程",
+            "name": "掠襲掃射",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -23651,7 +23651,7 @@
                     ],
                     "rules": [
                       {
-                        "description": "Each time this weapon scores a hit against an enemy MONSTER or VEHICLE unit, until the end of the turn, if the bearer selects that unit as a target of a charge, add 2 to Charge rolls made for the bearer.",
+                        "description": "每當此武器命中一個敵方怪物或載具單位時，直到該回合結束，若持有者選擇該單位作為衝鋒目標，持有者的衝鋒擲骰加 2。",
                         "name": "穿刺",
                         "hidden": false,
                         "id": "e09d-8a3-4c29-cde2"
@@ -26280,7 +26280,7 @@
       {
         "rules": [
           {
-            "description": "Each time an Adeptus Astartes unit from your army disembarks from a Transport (excluding Fly) that made a Normal or Advance move this phase (excluding those that arrived from Strategic Reserves), that disembarked unit can\nmake a Normal move of up to D6\", or a Normal move of up to D3+3\" instead if that Transport is a Heavy Transport\n(see below).\n\n\nAdeptus Astartes Transport units from your army (excluding FLY) that have a Wounds characteristic of 14+ have the Heavy Transport keyword.",
+            "description": "每當你軍隊中的一個阿斯塔特修會單位，從一個本階段進行過普通或推進移動的運輸載具（不包括具有飛行關鍵詞者，以及從戰略預備隊抵達者）下車時，該下車單位可以進行最多 D6 吋的普通移動；若該運輸載具是重型運輸載具（見下文），則改為可以進行最多 D3+3 吋的普通移動。\n\n你軍隊中生命值屬性為 14+ 的阿斯塔特修會運輸載具單位（不包括具有飛行關鍵詞者）具有重型運輸載具關鍵詞。",
             "name": "快速部署",
             "id": "b867-8297-a69a-4065",
             "hidden": false
@@ -26298,7 +26298,7 @@
           {
             "characteristics": [
               {
-                "$text": "持有者所裝備武器的攻擊次數屬性加 1，且每當持有者進行攻擊時，可以重擲傷害擲骰。此外，每當持有者的單位摧毀一個敵方單位時，若你的遠征軍正在進行誓言戰役，獲得 1 點榮譽點數。",
+                "$text": "持有者所裝備武器的攻擊次數屬性加 1，且每當持有者進行攻擊時，可以重擲致傷擲骰。此外，每當持有者所在單位摧毀一個敵方單位時，若你的遠征軍正在進行誓言戰役，你獲得 1 點榮譽點。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -26606,7 +26606,7 @@
     ],
     "sharedRules": [
       {
-        "description": "Each time an attack made with this weapon targets a unit more than 12\" from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit.",
+        "description": "每當以此武器進行的攻擊以距離持有者超過 12 吋的單位為目標時，未修正的成功命中擲骰結果為 4+ 即視為關鍵命中。",
         "id": "a07b-d883-9916-4288",
         "name": "轉換",
         "hidden": false
@@ -26614,7 +26614,7 @@
     ],
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "id": "ac3b-689c-4ad4-70cb",
-    "name": "資料庫 - 阿斯塔特荷魯斯叛亂傳奇",
+    "name": "Library - Astartes Heresy Legends",
     "revision": 1,
     "battleScribeVersion": 2.03,
     "library": true,
@@ -26623,7 +26623,7 @@
     "type": "catalogue",
     "rules": [
       {
-        "description": "If your Army Faction is **^^Adeptus Astartes^^**, at the start of the first battle round, select one of the following Vows to be active for **^^Adeptus Astartes^^** units from your army. While a Vow is active for your army, that unit has the associated ability below. \n\n**Abhor the Witch, Destroy the Witch**\n■ Each time this unit declares a charge, if one or more targets of that charge have the **^^Psyker^^** keyword, you can re-roll the Charge roll. Melee weapons equipped by models in this unit have the **[PRECISION]** ability while targeting **^^Psyker^^** units. \n\n**Accept Any Challenge, No Matter the Odds**\n■ Each time a model in this unit makes a melee attack, if the Strength characteristic of that attack is less than or equal to the Toughness characteristic of the target, add 1 to the wound roll\n\n**Suffer Not the Unclean to Live**\n■ This unit is eligible to declare a charge in a turn in which it Fell Back, and each time a model in this unit makes a Pile-in or Consolidation move, it does not need to end that move closer to the closest enemy model, provided it ends that move as close as possible to the nearest enemy unit. \n\n**Uphold the Honour of the Emperor**\nIf this unit has the **^^Infantry^^** keyword:\n■ At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent's level of control over that objective marker is greater than yours at the end of the phase. \n■ If the mission you are playing features Actions, this unit is eligible to start to perform an Action in a turn in which it Advanced.",
+        "description": "若你的軍隊陣營為 **^^阿斯塔特修會^^**，在第一個戰鬥輪開始時，選擇下列一項誓言，讓其對你軍隊中的 **^^阿斯塔特修會^^** 單位生效。當一項誓言對你的軍隊生效時，這些單位具有下列對應能力。\n\n**憎惡女巫，摧毀女巫**\n■ 每當此單位宣告衝鋒時，若該次衝鋒的一個或更多目標具有 **^^靈能者^^** 關鍵詞，可以重擲衝鋒擲骰。此單位中模型所裝備的近戰武器，以 **^^靈能者^^** 單位為目標時具有 **［精準］** 能力。\n\n**接受任何挑戰，無論勝算**\n■ 每當此單位中的一個模型進行近戰攻擊時，若該攻擊的力量屬性小於或等於目標的耐力屬性，致傷擲骰加 1。\n\n**不容不潔者苟活**\n■ 此單位在其撤退的回合中仍符合宣告衝鋒的資格；此外，每當此單位中的一個模型進行堆入或鞏固移動時，只要該次移動結束時盡可能靠近最近的敵方單位，便不需要在移動結束時更靠近最近的敵方模型。\n\n**捍衛帝皇的榮耀**\n若此單位具有 **^^步兵^^** 關鍵詞：\n■ 在你的指揮階段結束時，若此單位位於你控制的一個目標標記範圍內，該目標標記會維持在你的控制下，直到你的對手在一個階段結束時對該目標標記的控制等級高於你為止。\n■ 若正在進行的任務包含行動，此單位在其推進的回合中仍符合開始執行一個行動的資格。",
         "modifiers": [
           {
             "conditions": [
@@ -26646,7 +26646,7 @@
         "hidden": false
       },
       {
-        "description": "If your Army Faction is **^^Adeptus Astartes^^**, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n■ You can reroll the Hit roll\n■ If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the **^^Blood Angels^^**, **^^Dark Angels^^**, **^^Deathwatch^^** or **^^Space Wolves^^** keywords, add 1 to the Wound roll as well.",
+        "description": "若你的軍隊陣營為 **^^阿斯塔特修會^^**，在你的指揮階段開始時，選擇對手軍隊中的一個單位。直到你的下一個指揮階段開始前，該敵方單位為你的關鍵誓言目標。每當一個具有此能力的模型進行以你的關鍵誓言目標為目標的攻擊時：\n■ 可以重擲命中擲骰。\n■ 若你使用《聖典：星際戰士》分遣隊，且你的軍隊不包含任何具有 **^^聖血天使^^**、**^^暗黑天使^^**、**^^死亡守望^^** 或 **^^太空野狼^^** 關鍵詞的單位，則致傷擲骰也加 1。",
         "modifiers": [
           {
             "type": "set",
