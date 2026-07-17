@@ -3008,7 +3008,7 @@
               }
             ],
             "type": "set",
-            "value": "**DO NOT REPORT ANY LEADER ISSUES AT PRESENT; THEY WILL NOT BE FIXED IN THE CURRENT FUNCTIONALITY** Especially if you're not going to read the reporting options and send them to us instead of the NR developers.\n\nPlease report any other issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\n**LARGER GAMES NOW GW REMOVED ONSLAUGHT**\nIf the \"Override Points Limit\" functionality (in Battle Size) is not working for you and you see a points limit (xxx/yyy pts) in the bar where the name of your list appears, you will need to recreate that list as the NR devs have not yet worked out a way to retroactively remove that limit once set. Override Points Limit will then work as expected.\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game.**",
+            "value": "**目前不要回報任何領袖相關問題；這些問題不會在目前功能中修正。** 特別是未閱讀回報選項、卻把問題送給我們而不是 NewRecruit 開發者的情況。\n\n請透過「回報問題」功能回報其他資料問題。網頁版可在應用程式右上角找到；手機版可在軍表選單中找到。回報時請依照實際遇到的問題選擇正確選項。\n**請不要在 Discord 回報問題！**\n\n**GW 移除「猛攻」後的大型對戰**\n若「戰鬥規模」中的「覆寫點數上限」功能無法正常運作，且你在軍表名稱列看到點數上限（目前點數／上限點數），需要重新建立該軍表。NewRecruit 開發者目前尚未找到方法，能在既有軍表上回溯移除該上限。重新建立後，「覆寫點數上限」即可正常運作。\n\n**提醒：你的遠征軍團包含遠征模式中該陣營可用的所有模型；你的遠征軍隊則是你打算在一場戰鬥中使用的單位清單。**",
             "field": "readme"
           },
           {
@@ -3025,7 +3025,7 @@
               }
             ],
             "type": "set",
-            "value": "**DO NOT REPORT ANY LEADER ISSUES AT PRESENT; THEY WILL NOT BE FIXED IN THE CURRENT FUNCTIONALITY** Especially if you're not going to read the reporting options and send them to us instead of the NR developers.\n\n\nPlease report any other issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\n\n**LARGER GAMES NOW GW REMOVED ONSLAUGHT**\nIf the \"Override Points Limit\" functionality (in Battle Size) is not working for you and you see a points limit (xxx/yyy pts) in the bar where the name of your list appears, you will need to recreate that list as the NR devs have not yet worked out a way to retroactively remove that limit once set. Override Points Limit will then work as expected.\n\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game. You can add the Crusade Army for your faction from the *Forces* unit section or the *Add Force* menu option.**",
+            "value": "**目前不要回報任何領袖相關問題；這些問題不會在目前功能中修正。** 特別是未閱讀回報選項、卻把問題送給我們而不是 NewRecruit 開發者的情況。\n\n請透過「回報問題」功能回報其他資料問題。網頁版可在應用程式右上角找到；手機版可在軍表選單中找到。回報時請依照實際遇到的問題選擇正確選項。\n**請不要在 Discord 回報問題！**\n\n**GW 移除「猛攻」後的大型對戰**\n若「戰鬥規模」中的「覆寫點數上限」功能無法正常運作，且你在軍表名稱列看到點數上限（目前點數／上限點數），需要重新建立該軍表。NewRecruit 開發者目前尚未找到方法，能在既有軍表上回溯移除該上限。重新建立後，「覆寫點數上限」即可正常運作。\n\n**提醒：你的遠征軍團包含遠征模式中該陣營可用的所有模型；你的遠征軍隊則是你打算在一場戰鬥中使用的單位清單。你可以從「*軍隊*」單位區段或「*新增軍隊*」選單，加入該陣營的遠征軍隊。**",
             "field": "readme"
           }
         ],
@@ -3382,7 +3382,7 @@
               }
             ],
             "type": "set",
-            "value": "Mission Ruleset",
+            "value": "任務規則組",
             "field": "name"
           }
         ],
@@ -3538,7 +3538,7 @@
               }
             ],
             "type": "set",
-            "value": "Legends are visible",
+            "value": "傳奇單位已顯示",
             "field": "name"
           }
         ],
@@ -3573,7 +3573,7 @@
               }
             ],
             "type": "set",
-            "value": "Unaligned Forces are visible",
+            "value": "無陣營勢力已顯示",
             "field": "name"
           },
           {
@@ -3640,7 +3640,7 @@
               }
             ],
             "type": "set",
-            "value": "Unaligned Fortifications are visible",
+            "value": "無陣營工事已顯示",
             "field": "name"
           },
           {
@@ -3843,13 +3843,13 @@
                   },
                   {
                     "type": "set",
-                    "value": "Nachmund Gauntlet content is enabled",
+                    "value": "納克蒙德試煉內容已啟用",
                     "field": "name"
                   }
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "力量赫歐瓦 納克蒙德臂鎧 內容",
+                "name": "顯示納克蒙德試煉內容",
                 "hidden": false,
                 "id": "c9b3-8039-f1e9-c975"
               },
@@ -3905,7 +3905,7 @@
                   },
                   {
                     "type": "set",
-                    "value": "Pariah Nexus content is enabled",
+                    "value": "帕利亞樞紐內容已啟用",
                     "field": "name"
                   }
                 ],
@@ -3967,7 +3967,7 @@
                   },
                   {
                     "type": "set",
-                    "value": "Tyrannic War content is enabled",
+                    "value": "泰倫戰爭內容已啟用",
                     "field": "name"
                   }
                 ],
@@ -4029,7 +4029,7 @@
                   },
                   {
                     "type": "set",
-                    "value": "Armageddon content is enabled",
+                    "value": "阿瑪格頓內容已啟用",
                     "field": "name"
                   }
                 ],
@@ -4091,7 +4091,7 @@
                   },
                   {
                     "type": "set",
-                    "value": "White Dwarf content is enabled",
+                    "value": "白矮人內容已啟用",
                     "field": "name"
                   }
                 ],
@@ -4320,7 +4320,7 @@
               {
                 "type": "upgrade",
                 "import": true,
-                "name": "納克蒙德臂鎧",
+                "name": "納克蒙德試煉",
                 "hidden": false,
                 "id": "a1e8-4bda-9200-f7c7",
                 "sortIndex": 3
@@ -4604,7 +4604,7 @@
             "modifiers": [
               {
                 "type": "append",
-                "value": "Totemic Presence",
+                "value": "圖騰威儀",
                 "field": "annotation",
                 "join": ", ",
                 "scope": "model",
@@ -4708,7 +4708,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "傷害阿姆艾德 力量歐歐勒",
+        "name": "受詛咒靈魂",
         "hidden": false,
         "id": "e66d-3831-dd6d-5f88"
       },
@@ -4745,7 +4745,7 @@
               }
             ],
             "type": "set",
-            "value": "Crucible Characters are visible",
+            "value": "熔爐角色已顯示",
             "field": "name"
           },
           {
@@ -4779,7 +4779,7 @@
               }
             ],
             "type": "add",
-            "value": "You need to check this option to see your Crucible characters",
+            "value": "你必須勾選此選項，才能顯示熔爐角色",
             "field": "warning"
           }
         ],
@@ -5943,7 +5943,7 @@
           },
           {
             "type": "set",
-            "value": "Chaos Knights are visible",
+            "value": "混沌騎士已顯示",
             "field": "name"
           }
         ],
@@ -5977,7 +5977,7 @@
               }
             ],
             "type": "set",
-            "value": "Titans are visible",
+            "value": "泰坦已顯示",
             "field": "name"
           },
           {
@@ -6055,7 +6055,7 @@
           },
           {
             "type": "set",
-            "value": "Imperial Agents are visible",
+            "value": "帝國特勤已顯示",
             "field": "name",
             "conditions": [
               {
@@ -6153,7 +6153,7 @@
               }
             ],
             "type": "set",
-            "value": "Imperial Knights are visible",
+            "value": "帝國騎士已顯示",
             "field": "name"
           }
         ],
@@ -6315,12 +6315,12 @@
         "hidden": false
       },
       {
-        "description": "包含一個或更多裝備 **[間接火力]** 武器模型的單位，可以使用間接射擊（10.07）。",
+        "description": "包含一個或更多裝備 **[曲射]** 武器模型的單位，可以使用曲射（10.07）。",
         "alias": [
           "INDIRECT FIRE"
         ],
         "id": "4ddd-4e29-acdd-5e6d",
-        "name": "間接火力",
+        "name": "曲射",
         "publicationId": "48fc-15aa-b307-9443",
         "page": 26,
         "hidden": false
@@ -6445,7 +6445,7 @@
         "hidden": false
       },
       {
-        "description": "除非此單位是**合併**單位的一部分，否則敵方模型必須位於此單位 12 吋內，才會將此單位視為**可見**；且除非攻擊模型位於此單位 12 吋內，否則此單位不能被 **[間接火力]** 武器選為目標。\n若此能力以**孤狼作戰 X 吋**的形式呈現，除非此單位是**合併**單位的一部分，否則敵方模型必須位於此單位 **X 吋**內，才會將此單位視為**可見**；且除非攻擊模型位於此單位 **X 吋**內，否則此單位不能被 **[間接火力]** 武器選為目標。",
+        "description": "除非此單位是**合併**單位的一部分，否則敵方模型必須位於此單位 12 吋內，才會將此單位視為**可見**；且除非攻擊模型位於此單位 12 吋內，否則此單位不能被 **[曲射]** 武器選為目標。\n若此能力以**孤狼作戰 X 吋**的形式呈現，除非此單位是**合併**單位的一部分，否則敵方模型必須位於此單位 **X 吋**內，才會將此單位視為**可見**；且除非攻擊模型位於此單位 **X 吋**內，否則此單位不能被 **[曲射]** 武器選為目標。",
         "id": "a8a0-8fe7-898-e0f3",
         "name": "獨行特工",
         "publicationId": "48fc-15aa-b307-9443",
@@ -7174,7 +7174,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "Armour Piercing",
+                    "value": "穿甲",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -7189,7 +7189,7 @@
                   },
                   {
                     "type": "append",
-                    "value": "Armour Piercing",
+                    "value": "穿甲",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -7252,7 +7252,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "Brutal",
+                    "value": "殘暴",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -7274,7 +7274,7 @@
                   },
                   {
                     "type": "append",
-                    "value": "Brutal",
+                    "value": "殘暴",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -7330,7 +7330,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "Finely Balanced",
+                    "value": "精準平衡",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -7352,7 +7352,7 @@
                   },
                   {
                     "type": "append",
-                    "value": "Finely Balanced",
+                    "value": "精準平衡",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -7422,7 +7422,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "Heirloom",
+                    "value": "傳家寶",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -7430,7 +7430,7 @@
                   },
                   {
                     "type": "append",
-                    "value": "Heirloom",
+                    "value": "傳家寶",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -7574,7 +7574,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "Master-worked",
+                    "value": "大師工藝",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -7582,7 +7582,7 @@
                   },
                   {
                     "type": "append",
-                    "value": "Master-worked",
+                    "value": "大師工藝",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -7809,7 +7809,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "Seeping Poisons",
+                    "value": "滲毒",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -7826,7 +7826,7 @@
                   },
                   {
                     "type": "append",
-                    "value": "Seeping Poisons",
+                    "value": "滲毒",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -8027,7 +8027,7 @@
                           }
                         ],
                         "type": "append",
-                        "value": "Crippling Damage",
+                        "value": "嚴重損傷",
                         "field": "annotation",
                         "join": ", ",
                         "affects": "self.entries.profiles.Unit",
@@ -8270,7 +8270,7 @@
                           }
                         ],
                         "type": "append",
-                        "value": "Fatigued",
+                        "value": "疲憊",
                         "field": "annotation",
                         "join": ", ",
                         "scope": "model-or-unit",
@@ -8542,7 +8542,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "Deadly Combatant",
+                        "value": "致命戰士",
                         "field": "annotation",
                         "join": ", ",
                         "scope": "model",
@@ -9908,7 +9908,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "Archeotech Power Cell",
+                        "value": "古科技能量電池",
                         "field": "annotation",
                         "join": ", ",
                         "scope": "model-or-unit",
@@ -10380,7 +10380,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "Obdurate Obedience",
+                        "value": "頑固服從",
                         "field": "annotation",
                         "join": ", ",
                         "scope": "root-entry",
@@ -10803,7 +10803,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "Hunter's Celerity",
+                        "value": "獵手迅捷",
                         "field": "annotation",
                         "join": ", ",
                         "scope": "root-entry",
@@ -11960,7 +11960,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "Arch Acquisitor",
+                        "value": "首席掠獲者",
                         "field": "annotation",
                         "join": ", ",
                         "scope": "model-or-unit",
@@ -12242,7 +12242,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "Heroic Constitution",
+                        "value": "英雄體魄",
                         "field": "annotation",
                         "join": ", ",
                         "scope": "model-or-unit",
@@ -12637,7 +12637,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "Totemic Presence",
+                        "value": "圖騰威儀",
                         "field": "annotation",
                         "join": ", ",
                         "scope": "model",
@@ -13960,7 +13960,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "Riders of Ruin",
+                        "value": "毀滅騎手",
                         "field": "annotation",
                         "join": ", ",
                         "scope": "model-or-unit",
@@ -14440,7 +14440,7 @@
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
-                    "name": "克烏斯伊恩 克亞爾艾",
+                    "name": "碾壓衝鋒",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "能力",
                     "hidden": false,
@@ -14449,7 +14449,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "克烏斯伊恩 克亞爾艾",
+                "name": "碾壓衝鋒",
                 "hidden": false,
                 "id": "a8b4-f920-4c98-0550"
               }
@@ -14792,7 +14792,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "Monstrous Momentum",
+                        "value": "怪獸動能",
                         "field": "annotation",
                         "join": ", ",
                         "scope": "model-or-unit",
@@ -14930,7 +14930,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "Behemoth",
+                        "value": "巨獸",
                         "field": "annotation",
                         "join": ", ",
                         "scope": "model-or-unit",
@@ -16821,7 +16821,7 @@
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
-                    "name": "艾恩亞恩艾德 艾恩烏爾亞恩艾",
+                    "name": "強化耐久",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "能力",
                     "hidden": false,
@@ -16833,7 +16833,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "Enhanced Endurance",
+                        "value": "強化耐久",
                         "field": "annotation",
                         "join": ", ",
                         "scope": "model-or-unit",
@@ -16853,7 +16853,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "艾恩亞恩艾德 艾恩烏爾亞恩艾",
+                "name": "強化耐久",
                 "hidden": false,
                 "id": "b2c8-aaa5-4dfb-fbe9"
               },
@@ -17010,7 +17010,7 @@
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
-                    "name": "隱匿伊 攻擊爾伊維亞勒",
+                    "name": "隱匿抵達",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "能力",
                     "hidden": false,
@@ -17028,7 +17028,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "隱匿伊 攻擊爾伊維亞勒",
+                "name": "隱匿抵達",
                 "hidden": false,
                 "id": "a6b3-611e-973b-44ea"
               }
@@ -17052,7 +17052,7 @@
                 "field": "hidden"
               }
             ],
-            "name": "納克蒙德臂鎧 戰鬥特質",
+            "name": "納克蒙德試煉戰鬥特質",
             "id": "5370-0734-ffdb-9fdf",
             "hidden": false,
             "collapsible": true
@@ -17899,7 +17899,7 @@
                         "modifiers": [
                           {
                             "type": "append",
-                            "value": "Blade of the Dynast",
+                            "value": "王朝之刃",
                             "field": "annotation",
                             "join": ", ",
                             "scope": "model",
@@ -18099,7 +18099,7 @@
                         "modifiers": [
                           {
                             "type": "append",
-                            "value": "Noctic Shield",
+                            "value": "夜冥護盾",
                             "field": "annotation",
                             "join": ", ",
                             "scope": "model",
@@ -18249,7 +18249,7 @@
                         "modifiers": [
                           {
                             "type": "append",
-                            "value": "Armour of the Soulless Sentry",
+                            "value": "無魂哨兵之甲",
                             "field": "annotation",
                             "join": ", ",
                             "scope": "model",
@@ -18610,7 +18610,7 @@
                           }
                         ],
                         "type": "add",
-                        "value": "Must upgrade a weapon to a Crusade Relic",
+                        "value": "必須將一件武器升級為遠征聖物",
                         "field": "error"
                       }
                     ],
@@ -20783,7 +20783,7 @@
                           }
                         ],
                         "type": "add",
-                        "value": "Must upgrade a weapon to a Crusade Relic",
+                        "value": "必須將一件武器升級為遠征聖物",
                         "field": "error"
                       }
                     ],
@@ -21101,7 +21101,7 @@
                         "modifiers": [
                           {
                             "type": "append",
-                            "value": "Sigil of Psychic Amplification",
+                            "value": "靈能增幅印記",
                             "field": "annotation",
                             "join": ", ",
                             "scope": "model-or-unit",
@@ -21638,7 +21638,7 @@
                           }
                         ],
                         "type": "add",
-                        "value": "Must upgrade a weapon to a Crusade Relic",
+                        "value": "必須將一件武器升級為遠征聖物",
                         "field": "error"
                       }
                     ],
@@ -22411,7 +22411,7 @@
                           }
                         ],
                         "type": "add",
-                        "value": "Must upgrade a weapon to a Crusade Relic",
+                        "value": "必須將一件武器升級為遠征聖物",
                         "field": "error"
                       }
                     ],
@@ -22475,7 +22475,7 @@
                 "field": "hidden"
               }
             ],
-            "name": "納克蒙德臂鎧 遠征聖物",
+            "name": "納克蒙德試煉遠征聖物",
             "id": "2910-0a1e-8c87-584f",
             "hidden": false,
             "collapsible": true
@@ -22862,7 +22862,7 @@
                           }
                         ],
                         "type": "add",
-                        "value": "Must upgrade a weapon to a Crusade Relic",
+                        "value": "必須將一件武器升級為遠征聖物",
                         "field": "error"
                       }
                     ],
@@ -23456,7 +23456,7 @@
                         "modifiers": [
                           {
                             "type": "append",
-                            "value": "Empyromancer's Focus",
+                            "value": "焰能術士焦點",
                             "field": "annotation",
                             "join": ", ",
                             "scope": "root-entry",
@@ -23472,7 +23472,7 @@
                           },
                           {
                             "type": "append",
-                            "value": "Empyromancer's Focus",
+                            "value": "焰能術士焦點",
                             "field": "annotation",
                             "join": ", ",
                             "scope": "root-entry",
@@ -23632,7 +23632,7 @@
                           }
                         ],
                         "type": "add",
-                        "value": "Must upgrade a weapon to a Crusade Relic",
+                        "value": "必須將一件武器升級為遠征聖物",
                         "field": "error"
                       }
                     ],
@@ -23913,7 +23913,7 @@
                         "modifiers": [
                           {
                             "type": "append",
-                            "value": "Periapt of the Righteous",
+                            "value": "正義護符",
                             "field": "annotation",
                             "join": ", ",
                             "scope": "model-or-unit",
@@ -24801,7 +24801,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "Titan's Bane",
+                        "value": "泰坦剋星",
                         "field": "annotation",
                         "join": ", ",
                         "scope": "model-or-unit",
@@ -24817,7 +24817,7 @@
                       },
                       {
                         "type": "append",
-                        "value": "Titan's Bane",
+                        "value": "泰坦剋星",
                         "field": "annotation",
                         "join": ", ",
                         "scope": "model-or-unit",
@@ -24912,7 +24912,7 @@
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
-                    "name": "恩伊姆艾 傷害艾夫艾恩艾",
+                    "name": "靈巧防禦",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "能力",
                     "hidden": false,
@@ -24930,7 +24930,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "恩伊姆艾 傷害艾夫艾恩艾",
+                "name": "靈巧防禦",
                 "hidden": false,
                 "id": "ab52-bc6a-1099-5000",
                 "sortIndex": 5
@@ -25432,7 +25432,7 @@
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
-                    "name": "普艾德亞至爾伊 力量艾恩艾斯",
+                    "name": "掠食感官",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "能力",
                     "hidden": false,
@@ -25441,7 +25441,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "普艾德亞至爾伊 力量艾恩艾斯",
+                "name": "掠食感官",
                 "hidden": false,
                 "id": "a2b9-1412-57b8-d6f8",
                 "sortIndex": 3
@@ -25714,7 +25714,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "Gargantuan Rage",
+                        "value": "巨獸狂怒",
                         "field": "annotation",
                         "join": ", ",
                         "scope": "model-or-unit",
@@ -25893,7 +25893,7 @@
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
-                    "name": "移動阿斯伊維艾 力量至姆",
+                    "name": "巨力踩踏",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "能力",
                     "hidden": false,
@@ -25902,7 +25902,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "移動阿斯伊維艾 力量至姆",
+                "name": "巨力踩踏",
                 "hidden": false,
                 "id": "702d-9520-9430-7269",
                 "sortIndex": 6
@@ -26312,7 +26312,7 @@
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
-                    "name": "力量伊恩艾-姆伊恩艾德 力量艾艾克艾爾",
+                    "name": "專一追獵者",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "能力",
                     "hidden": false,
@@ -26321,7 +26321,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "力量伊恩艾-姆伊恩艾德 力量艾艾克艾爾",
+                "name": "專一追獵者",
                 "hidden": false,
                 "id": "5681-9ff8-c212-fd23"
               }
@@ -26684,7 +26684,7 @@
                       }
                     ],
                     "type": "add",
-                    "value": "Must upgrade a weapon to a Crusade Relic",
+                    "value": "必須將一件武器升級為遠征聖物",
                     "field": "error"
                   }
                 ],
@@ -27247,7 +27247,7 @@
                 "includeChildSelections": true
               }
             ],
-            "name": "納克蒙德臂鎧 遠征 能力",
+            "name": "納克蒙德試煉遠征能力",
             "id": "b112-44a1-b89f-08b3",
             "hidden": false,
             "defaultSelectionEntryId": "none",
@@ -27916,7 +27916,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "Gene-toxin Autofont",
+                    "value": "基因毒素自動聖泉",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -28104,7 +28104,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "Treasure of the Technomandrites",
+                    "value": "技術曼德賴特寶藏",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -28112,7 +28112,7 @@
                   },
                   {
                     "type": "append",
-                    "value": "Treasure of the Technomandrites",
+                    "value": "技術曼德賴特寶藏",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -28362,7 +28362,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "Artificer Weapon",
+                    "value": "工匠武器",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -28370,7 +28370,7 @@
                   },
                   {
                     "type": "append",
-                    "value": "Artificer Weapon",
+                    "value": "工匠武器",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -28515,7 +28515,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "Fate-forged Weapon",
+                    "value": "命運鍛造武器",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -28660,7 +28660,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "Weapon of Renown",
+                    "value": "名望武器",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -28813,7 +28813,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "Warp-touched Weapon",
+                    "value": "亞空間觸染武器",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -29055,7 +29055,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "Noctilith Armament",
+                    "value": "黑石武裝",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -29268,7 +29268,7 @@
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "普艾爾艾斯 領袖",
+                "name": "無雙領袖",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -29322,7 +29322,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "普艾爾艾斯 領袖",
+            "name": "無雙領袖",
             "hidden": false,
             "id": "4de4-9fb2-35cb-f5ad"
           },
@@ -29948,7 +29948,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "Artificer Weapon",
+                    "value": "工匠武器",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -30550,7 +30550,7 @@
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "力量特亞勒亞爾",
+                "name": "堅毅者",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -30559,7 +30559,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "力量特亞勒亞爾",
+            "name": "堅毅者",
             "hidden": false,
             "id": "6d14-584a-16d2-932c"
           },
@@ -30662,7 +30662,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "Footsloggers",
+                    "value": "徒步兵",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "model-or-unit",
@@ -30773,7 +30773,7 @@
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "生命阿爾 赫烏恩艾爾",
+                "name": "亞空間獵手",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -30782,7 +30782,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "生命阿爾 赫烏恩艾爾",
+            "name": "亞空間獵手",
             "hidden": false,
             "id": "8e64-355a-0778-2d5c"
           },
@@ -31024,7 +31024,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "Advanced Suspensors",
+                    "value": "進階懸吊器",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "model-or-unit",
@@ -31171,7 +31171,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "Extra Armour",
+                    "value": "額外裝甲",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "model-or-unit",
@@ -31297,7 +31297,7 @@
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "傑烏格艾爾亞特",
+                "name": "勢不可擋",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -31306,7 +31306,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "傑烏格艾爾亞特",
+            "name": "勢不可擋",
             "hidden": false,
             "id": "5cfc-9526-1f87-9efc"
           },
@@ -31412,7 +31412,7 @@
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "艾恩艾斯 爾亞格艾",
+                "name": "無盡狂怒",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -31421,7 +31421,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "艾恩艾斯 爾亞格艾",
+            "name": "無盡狂怒",
             "hidden": false,
             "id": "6813-9048-33f5-ed81"
           },
@@ -31527,7 +31527,7 @@
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "惡魔 赫烏恩艾爾",
+                "name": "惡魔獵手",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -31536,7 +31536,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "惡魔 赫烏恩艾爾",
+            "name": "惡魔獵手",
             "hidden": false,
             "id": "a738-ed65-3759-a759"
           },
@@ -31844,7 +31844,7 @@
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "爾亞克伊維艾 爾艾德艾普歐姆艾恩",
+                "name": "反應式重新部署",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -31853,7 +31853,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "爾亞克伊維艾 爾艾德艾普歐姆艾恩",
+            "name": "反應式重新部署",
             "hidden": false,
             "id": "0f45-1f87-f171-fc2c"
           },
@@ -32391,7 +32391,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "Warp Focus",
+                    "value": "亞空間焦點",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "model-or-unit",
@@ -32407,7 +32407,7 @@
                   },
                   {
                     "type": "append",
-                    "value": "Warp Focus",
+                    "value": "亞空間焦點",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "model-or-unit",
@@ -32960,7 +32960,7 @@
     ],
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "id": "sys-352e-adc2-7639-d610",
-    "name": "戰錘 40，000 第十一版",
+    "name": "Warhammer 40,000 11th Edition",
     "revision": 4,
     "battleScribeVersion": 2.03,
     "type": "gameSystem",
