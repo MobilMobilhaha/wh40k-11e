@@ -7,7 +7,7 @@
             "targetId": "5c0e-4c31-d51b-e470",
             "id": "60d3-fcd7-dc2a-b9a1",
             "primary": false,
-            "name": "軍閥"
+            "name": "戰主"
           }
         ],
         "constraints": [
@@ -22,7 +22,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "軍閥",
+        "name": "戰主",
         "id": "8b5-898c-f79b-5a9c"
       },
       {
@@ -95,7 +95,7 @@
             ],
             "name": "戰鬥貨車",
             "typeId": "74f8-5443-9d6d-1f1e",
-            "typeName": "運輸載具",
+            "typeName": "運輸",
             "hidden": false,
             "id": "47e9-685b-2c29-cbad"
           }
@@ -149,7 +149,7 @@
             "targetId": "75e8-57c4-40e3-1817",
             "id": "5f37-4739-b0b6-d0e3",
             "primary": false,
-            "name": "運輸載具"
+            "name": "運輸"
           },
           {
             "targetId": "56cc-5f43-2403-8da0",
@@ -164,7 +164,7 @@
             "name": "戰鬥貨車"
           },
           {
-            "name": "車架",
+            "name": "框架",
             "hidden": false,
             "id": "d02a-b275-a075-be39",
             "targetId": "b927-8eeb-7cc3-8dec",
@@ -617,7 +617,7 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸",
+                            "$text": "爆破",
                             "name": "Keywords",
                             "id": "db98-e6da-29a4-e6f9",
                             "hidden": false,
@@ -633,7 +633,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "爆炸",
+                        "name": "爆破",
                         "id": "a6d8-5064-c326-7b8c",
                         "hidden": false,
                         "type": "rule",
@@ -1419,7 +1419,7 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸",
+                            "$text": "爆破",
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
@@ -1433,7 +1433,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "爆炸",
+                        "name": "爆破",
                         "hidden": false,
                         "type": "rule",
                         "id": "8a-4efc-1a57-7926",
@@ -1842,7 +1842,7 @@
                         "$text": ""
                       }
                     ],
-                    "name": "獵獸 老大",
+                    "name": "獵獸老大",
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "單位",
                     "hidden": false,
@@ -1990,12 +1990,12 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "獵獸 老大",
+                "name": "獵獸老大",
                 "hidden": false,
                 "id": "8495-e7e7-6d41-2f57"
               }
             ],
-            "name": "獵獸 老大",
+            "name": "獵獸老大",
             "id": "cb1a-f005-c69e-728c",
             "hidden": false,
             "sortIndex": 4,
@@ -2124,7 +2124,7 @@
               }
             ],
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "id": "001a-8653-876f-91d4",
             "type": "selectionEntry",
@@ -2478,7 +2478,7 @@
               {
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c",
-                "$text": "近距"
+                "$text": "近距交戰"
               }
             ],
             "name": "短槍",
@@ -2490,7 +2490,7 @@
         ],
         "infoLinks": [
           {
-            "name": "近距",
+            "name": "近距交戰",
             "hidden": false,
             "type": "rule",
             "id": "158d-5ae6-59f8-b672",
@@ -2734,7 +2734,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "1c9d-d911-1547-1fc7",
@@ -2838,7 +2838,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "獵獸 爪",
+                    "name": "獵獸爪",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -2874,7 +2874,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "獵獸 爪",
+                "name": "獵獸爪",
                 "hidden": false,
                 "id": "8e20-4ae8-9125-42a6"
               },
@@ -3772,7 +3772,7 @@
           {
             "characteristics": [
               {
-                "$text": "當此模型領導一個單位時，衝鋒擲骰加 1 為其進行 該單位。",
+                "$text": "當此模型領導一個單位時，為該單位進行的衝鋒擲骰加 1。",
                 "name": "Description",
                 "id": "c24f-13e1-5304-cc39",
                 "hidden": false,
@@ -3835,7 +3835,7 @@
           },
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "e76a-a378-7155-3bf9",
@@ -4161,7 +4161,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "此模型可以附屬於下列單位：\n- 史古格野豬 小子",
+                    "$text": "此模型可以附屬於下列單位：\n- 史古格野豬小子",
                     "name": "Description",
                     "id": "c0dd-b962-6ad0-55fd",
                     "hidden": false,
@@ -4512,7 +4512,7 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "爆炸",
+                "$text": "爆破",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -4526,7 +4526,7 @@
         ],
         "infoLinks": [
           {
-            "name": "爆炸",
+            "name": "爆破",
             "hidden": false,
             "type": "rule",
             "id": "6e4-b1b-6258-40bf",
@@ -4711,7 +4711,7 @@
           {
             "characteristics": [
               {
-                "$text": "當此模型領導一個單位時，在你的指揮階段中，你可以使該單位恢復 1 個被摧毀的親衛模型。",
+                "$text": "當此模型領導一個單位時，在你的指揮階段中，你可以使該單位恢復 1 個被摧毀的小隊模型。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -4822,7 +4822,7 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸",
+                            "$text": "爆破",
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
@@ -4836,7 +4836,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "爆炸",
+                        "name": "爆破",
                         "id": "8907-77ba-cbbf-e941",
                         "hidden": false,
                         "type": "rule",
@@ -4967,7 +4967,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "特製 巨型-爆破槍",
+                    "name": "特製巨型爆破槍",
                     "hidden": false,
                     "id": "c5a2-3b86-4d71-f926",
                     "type": "selectionEntry",
@@ -4985,7 +4985,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "特製 突突槍",
+                    "name": "特製突突槍",
                     "hidden": false,
                     "id": "4e8b-b781-673a-855f",
                     "type": "selectionEntry",
@@ -5003,7 +5003,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "複合-武器",
+                    "name": "複合武器",
                     "hidden": false,
                     "id": "f87b-896f-3aad-d4d2",
                     "type": "selectionEntry",
@@ -5092,7 +5092,7 @@
           },
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "97f7-b1c4-144e-b0e",
@@ -5761,7 +5761,7 @@
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
-            "name": "特製 巨型-爆破槍",
+            "name": "特製巨型爆破槍",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "遠程武器",
             "hidden": false,
@@ -5796,7 +5796,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "特製 巨型-爆破槍",
+        "name": "特製巨型爆破槍",
         "hidden": false,
         "id": "7242-bca9-a3c7-ba6a",
         "collective": false
@@ -5841,7 +5841,7 @@
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
-            "name": "特製 突突槍",
+            "name": "特製突突槍",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "遠程武器",
             "hidden": false,
@@ -5875,7 +5875,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "特製 突突槍",
+        "name": "特製突突槍",
         "hidden": false,
         "id": "8bba-d0bf-1102-2131",
         "collective": false,
@@ -5946,7 +5946,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "1c2f-9f9a-d50d-41fb",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "56cc-5f43-2403-8da0",
@@ -6065,7 +6065,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "此模型可以附屬於下列單位：\n- **小子**\n- **烈焰 小子**\n- **掠奪小子**\n- **老大**\n- **坦克爆破小子**"
+                "$text": "此模型可以附屬於下列單位：\n- **小子**\n- **烈焰小子**\n- **掠奪小子**\n- **老大**\n- **坦克爆破小子**"
               }
             ]
           }
@@ -6222,7 +6222,7 @@
           },
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "16d5-fc8c-879b-4f24",
@@ -6795,7 +6795,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "a0f5-5b89-663d-4953",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "56cc-5f43-2403-8da0",
@@ -6970,7 +6970,7 @@
           },
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "49fa-d537-b58f-7213",
@@ -7818,7 +7818,7 @@
             "targetId": "75e8-57c4-40e3-1817",
             "id": "5d3e-b8ab-839b-15dc",
             "primary": false,
-            "name": "運輸載具"
+            "name": "運輸"
           },
           {
             "targetId": "4719-6d1d-9fae-72d8",
@@ -7918,7 +7918,7 @@
             ],
             "name": "大頭目碉堡",
             "typeId": "74f8-5443-9d6d-1f1e",
-            "typeName": "運輸載具",
+            "typeName": "運輸",
             "hidden": false,
             "id": "3a93-176b-7f67-8845"
           }
@@ -8021,7 +8021,7 @@
                     "typeId": "a354-c1c8-a745-f9e3"
                   },
                   {
-                    "$text": "爆炸，連擊 D3",
+                    "$text": "爆破，連擊 D3",
                     "name": "Keywords",
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
@@ -8079,7 +8079,7 @@
             ],
             "infoLinks": [
               {
-                "name": "爆炸",
+                "name": "爆破",
                 "hidden": false,
                 "type": "rule",
                 "id": "7588-3f18-e3e0-2ac7",
@@ -8296,7 +8296,7 @@
             "targetId": "63f1-e6e8-f6f6-a4f0",
             "id": "2362-b8ba-89e1-df44",
             "primary": false,
-            "name": "航空器"
+            "name": "飛行器"
           },
           {
             "targetId": "c619-2086-bbcf-69c9",
@@ -8323,7 +8323,7 @@
             "name": "速度狂"
           },
           {
-            "name": "車架",
+            "name": "框架",
             "hidden": false,
             "id": "92ad-5d9a-6673-69b7",
             "targetId": "b927-8eeb-7cc3-8dec",
@@ -8380,7 +8380,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "在對手的近戰階段結束時，選擇此單位 24 吋內一個可見的敵方單位（不包括獨狼作戰單位），並為其擲一顆 D6：若結果為 4+，該單位受到 D6 點致命傷害。"
+                "$text": "在對手的近戰階段結束時，選擇此單位 24 吋內一個可見的敵方單位（不包括獨行特工單位），並為其擲一顆 D6：若結果為 4+，該單位受到 D6 點致命傷害。"
               }
             ],
             "name": "轟爆炸彈",
@@ -8542,7 +8542,7 @@
                   }
                 ],
                 "import": true,
-                "name": "雙聯 超級-突突槍",
+                "name": "雙聯超級突突槍",
                 "hidden": false,
                 "id": "326b-4939-dbb5-383",
                 "type": "selectionEntry",
@@ -8873,7 +8873,7 @@
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
-            "name": "雙聯 超級-突突槍",
+            "name": "雙聯超級突突槍",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "遠程武器",
             "hidden": false,
@@ -8905,7 +8905,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "雙聯 超級-突突槍",
+        "name": "雙聯超級突突槍",
         "hidden": false,
         "id": "7c7-2cc-12e-c710",
         "categoryLinks": [
@@ -9064,7 +9064,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "a360-fbd4-46ea-1882",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "322f-c8ae-66c2-bf68",
@@ -9181,7 +9181,7 @@
                   }
                 ],
                 "import": true,
-                "name": "屁精 爆破槍",
+                "name": "屁精爆破槍",
                 "hidden": false,
                 "id": "23f2-7528-e37b-6e28",
                 "type": "selectionEntry",
@@ -9627,7 +9627,7 @@
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
-            "name": "屁精 爆破槍",
+            "name": "屁精爆破槍",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "遠程武器",
             "hidden": false,
@@ -9654,7 +9654,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "屁精 爆破槍",
+        "name": "屁精爆破槍",
         "hidden": false,
         "id": "140d-7163-8a11-81c5",
         "collective": false
@@ -9693,7 +9693,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "31b4-b8cd-b292-fe9",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "56cc-5f43-2403-8da0",
@@ -9785,7 +9785,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "在你的移動階段中，若此單位未處於交戰狀態，你可以使用此能力。若如此做：\n- 將此單位置入戰略預備隊。\n- 此單位具有「深入打擊」能力，直到該階段結束。"
+                "$text": "在你的移動階段中，若此單位未處於交戰狀態，你可以使用此能力。若如此做：\n- 將此單位置入戰略預備隊。\n- 此單位具有「深度打擊」能力，直到該階段結束。"
               }
             ],
             "modifiers": [
@@ -9836,7 +9836,7 @@
             "targetId": "37c-6ef9-277-9091"
           },
           {
-            "name": "獨狼作戰",
+            "name": "獨行特工",
             "hidden": false,
             "type": "rule",
             "id": "7cc2-10fa-fc7a-607e",
@@ -9878,7 +9878,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "f628-a73b-5233-c96c",
@@ -10037,7 +10037,7 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "強力勇士",
+                "name": "強大冠軍",
                 "hidden": false,
                 "id": "2f6a-6a36-93ed-90f3",
                 "type": "selectionEntryGroup",
@@ -10506,7 +10506,7 @@
         ],
         "infoLinks": [
           {
-            "name": "深入打擊",
+            "name": "深度打擊",
             "hidden": false,
             "type": "rule",
             "id": "5981-7bb4-570c-88f8",
@@ -10544,7 +10544,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "d0e5-6c9c-30cf-1dfc",
@@ -10681,7 +10681,7 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "強力勇士",
+                "name": "強大冠軍",
                 "hidden": false,
                 "id": "9b73-2d6f-4b06-5590",
                 "type": "selectionEntryGroup",
@@ -10838,7 +10838,7 @@
                 "$text": "若此單位的起始兵力為 20，你可以將至多兩個領袖單位附屬於此單位，而非一個（但其中一個必須是**戰爭頭目**單位）。若如此做且此單位被摧毀，附屬於此單位的領袖單位會各自成為獨立單位，並恢復其原始起始兵力。"
               }
             ],
-            "name": "親衛",
+            "name": "小隊",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -10868,7 +10868,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "c838-b920-7304-7e27",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "1c75-96a5-5598-2cd",
@@ -11836,7 +11836,7 @@
                               }
                             ],
                             "import": true,
-                            "name": "複合-武器",
+                            "name": "複合武器",
                             "hidden": false,
                             "id": "9878-2140-3687-ce94",
                             "type": "selectionEntry",
@@ -12045,7 +12045,7 @@
               }
             ],
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "id": "6fdf-1b0b-d252-aaac",
             "type": "selectionEntry",
@@ -12520,7 +12520,7 @@
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
-            "name": "複合-武器",
+            "name": "複合武器",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "遠程武器",
             "hidden": false,
@@ -12568,7 +12568,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "複合-武器",
+        "name": "複合武器",
         "hidden": false,
         "id": "ac6f-9310-e9ac-678",
         "collective": false
@@ -12950,7 +12950,7 @@
               }
             ],
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "id": "9781-7986-520d-7872",
             "type": "selectionEntry",
@@ -13301,7 +13301,7 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "爆炸",
+                "$text": "爆破",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -13315,7 +13315,7 @@
         ],
         "infoLinks": [
           {
-            "name": "爆炸",
+            "name": "爆破",
             "hidden": false,
             "type": "rule",
             "id": "37ed-e6e-fbcb-25dd",
@@ -13483,7 +13483,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "在對手的近戰階段結束時，你可以選擇此單位 24 吋內一個**可見**的敵方單位（不包括**獨狼作戰**單位）：\n- 直到你的下一回合結束時，友方**歐克蠻人**單位以該敵方單位為目標的遠程攻擊具有**［無視掩護］**。\n- 為該敵方單位中的每個模型各擲一顆 D6；每有一個結果為 6，該敵方單位受到 1 點**致命傷害**。"
+                "$text": "在對手的近戰階段結束時，你可以選擇此單位 24 吋內一個**可見**的敵方單位（不包括**獨行特工**單位）：\n- 直到你的下一回合結束時，友方**歐克蠻人**單位以該敵方單位為目標的遠程攻擊具有**［無視掩護］**。\n- 為該敵方單位中的每個模型各擲一顆 D6；每有一個結果為 6，該敵方單位受到 1 點**致命傷害**。"
               }
             ],
             "name": "烈焰炸彈",
@@ -13548,7 +13548,7 @@
             "targetId": "63f1-e6e8-f6f6-a4f0",
             "id": "f7c9-4a42-c168-d447",
             "primary": false,
-            "name": "航空器"
+            "name": "飛行器"
           },
           {
             "targetId": "e6ec-34d5-bc79-faf1",
@@ -13569,7 +13569,7 @@
             "name": "速度狂"
           },
           {
-            "name": "車架",
+            "name": "框架",
             "hidden": false,
             "id": "f490-8fb5-833f-5abb",
             "targetId": "b927-8eeb-7cc3-8dec",
@@ -13686,7 +13686,7 @@
                   }
                 ],
                 "import": true,
-                "name": "雙聯 超級-突突槍",
+                "name": "雙聯超級突突槍",
                 "hidden": false,
                 "id": "59b0-90cc-a5d0-aa82",
                 "type": "selectionEntry",
@@ -13767,7 +13767,7 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸，無視掩護",
+                            "$text": "爆破，無視掩護",
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
@@ -13781,7 +13781,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "爆炸",
+                        "name": "爆破",
                         "id": "3e05-1111-d05f-aba0",
                         "hidden": false,
                         "type": "rule",
@@ -14182,7 +14182,7 @@
             "targetId": "63f1-e6e8-f6f6-a4f0",
             "id": "8907-a7d5-67be-2c8b",
             "primary": false,
-            "name": "航空器"
+            "name": "飛行器"
           },
           {
             "targetId": "7f64-b4fb-d85c-7f31",
@@ -14203,7 +14203,7 @@
             "name": "速度狂"
           },
           {
-            "name": "車架",
+            "name": "框架",
             "hidden": false,
             "id": "b9a9-916b-f8f4-2a15",
             "targetId": "b927-8eeb-7cc3-8dec",
@@ -14335,7 +14335,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "雙聯 超級-突突槍",
+                    "name": "雙聯超級突突槍",
                     "hidden": false,
                     "id": "89f1-2b13-1285-d84e",
                     "type": "selectionEntry",
@@ -14360,7 +14360,7 @@
                     "id": "d1d8-eb2f-142a-ad3"
                   }
                 ],
-                "name": "雙聯 超級-突突槍 (2-3)",
+                "name": "雙聯超級突突槍（2–3）",
                 "id": "26d-7cdd-27c5-2cdd",
                 "hidden": false,
                 "defaultSelectionEntryId": "89f1-2b13-1285-d84e"
@@ -14915,7 +14915,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "特製 巨型-爆破槍",
+                    "name": "特製巨型爆破槍",
                     "hidden": false,
                     "id": "ba1e-528f-ec57-6a41",
                     "type": "selectionEntry",
@@ -15196,7 +15196,7 @@
             "targetId": "6dda-e157-334d-e93a",
             "id": "ccd0-168f-748-eef7",
             "primary": false,
-            "name": "步行機具"
+            "name": "步行機"
           },
           {
             "targetId": "f74a-ca35-c668-aa3d",
@@ -15883,7 +15883,7 @@
           },
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "d72b-91c5-6000-65fd",
@@ -16664,7 +16664,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "8d1d-a651-de0a-fbd8",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "6564-d296-e11a-6e19",
@@ -16703,7 +16703,7 @@
         ],
         "infoLinks": [
           {
-            "name": "深入打擊",
+            "name": "深度打擊",
             "hidden": false,
             "type": "rule",
             "id": "a0ca-9420-189f-5d66",
@@ -16760,7 +16760,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "圖騰存在升級",
+                    "name": "圖騰威儀升級",
                     "hidden": false,
                     "id": "d083-06c4-567b-aecd",
                     "type": "selectionEntry",
@@ -16916,7 +16916,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "圖騰存在升級",
+                    "name": "圖騰威儀升級",
                     "hidden": false,
                     "id": "faaa-cb5d-4117-7b65",
                     "type": "selectionEntry",
@@ -16984,7 +16984,7 @@
                           }
                         ],
                         "import": true,
-                        "name": "特製 巨型-爆破槍",
+                        "name": "特製巨型爆破槍",
                         "hidden": false,
                         "id": "9656-df68-55bf-001c",
                         "type": "selectionEntry",
@@ -17787,7 +17787,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "6123-c9d1-36b7-fffa",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "fe29-da32-d3db-1192",
@@ -17964,7 +17964,7 @@
               }
             ],
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "id": "27a2-0d95-6248-fb4a",
             "type": "selectionEntry",
@@ -18311,7 +18311,7 @@
               }
             ],
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "b963-64cd-ff80-9cb5",
@@ -18322,12 +18322,12 @@
           {
             "characteristics": [
               {
-                "$text": "若你的軍隊中包含此單位，其加茲古爾·斯拉卡模型必須成為你的**軍閥**。",
+                "$text": "若你的軍隊中包含此單位，其加茲古爾·斯拉卡模型必須成為你的**戰主**。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "最高統帥",
+            "name": "最高指揮官",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -18371,7 +18371,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "此單位可以附屬於下列單位：\n- **小子**\n- **破壞 小子**\n- **巨裝老大**\n- **老大**"
+                "$text": "此單位可以附屬於下列單位：\n- **小子**\n- **破壞小子**\n- **巨裝老大**\n- **老大**"
               }
             ]
           }
@@ -18895,7 +18895,7 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "強力勇士",
+                "name": "強大冠軍",
                 "hidden": false,
                 "id": "4948-4519-169f-5e97",
                 "type": "selectionEntryGroup",
@@ -19346,13 +19346,13 @@
             "targetId": "6dda-e157-334d-e93a",
             "id": "d3e9-4d07-9cbc-7ebd",
             "primary": false,
-            "name": "步行機具"
+            "name": "步行機"
           },
           {
             "targetId": "75e8-57c4-40e3-1817",
             "id": "ee2b-d551-2460-a5be",
             "primary": false,
-            "name": "運輸載具"
+            "name": "運輸"
           },
           {
             "targetId": "e6c0-9d12-619e-7517",
@@ -19452,7 +19452,7 @@
             ],
             "name": "高克巨像",
             "typeId": "74f8-5443-9d6d-1f1e",
-            "typeName": "運輸載具",
+            "typeName": "運輸",
             "hidden": false,
             "id": "35fd-efb1-bd0b-7943"
           }
@@ -20328,7 +20328,7 @@
                       },
                       {
                         "import": true,
-                        "name": "屁精 爆破槍",
+                        "name": "屁精爆破槍",
                         "hidden": false,
                         "id": "7908-6506-f654-5aeb",
                         "targetId": "140d-7163-8a11-81c5",
@@ -20461,7 +20461,7 @@
                       },
                       {
                         "import": true,
-                        "name": "屁精 爆破槍",
+                        "name": "屁精爆破槍",
                         "hidden": false,
                         "id": "49e1-1d58-3b0b-18c0",
                         "targetId": "140d-7163-8a11-81c5",
@@ -20682,7 +20682,7 @@
               }
             ],
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "id": "e91f-bb91-d83b-1210",
             "type": "selectionEntry",
@@ -21126,7 +21126,7 @@
             "targetId": "75e8-57c4-40e3-1817",
             "id": "b4d8-fc0c-4cc1-c7f6",
             "primary": false,
-            "name": "運輸載具"
+            "name": "運輸"
           },
           {
             "targetId": "4e42-80a0-5c3b-2c7f",
@@ -21154,7 +21154,7 @@
             "primary": true
           },
           {
-            "name": "車架",
+            "name": "框架",
             "hidden": false,
             "id": "f013-d0b2-15c4-7ccc",
             "targetId": "b927-8eeb-7cc3-8dec",
@@ -21209,7 +21209,7 @@
           {
             "characteristics": [
               {
-                "$text": "搭乘此運輸載具的每個模型，會使此模型「屠夫小子」武器的攻擊次數屬性加 1（至多加 6）。",
+                "$text": "搭乘此運輸的每個模型，會使此模型「屠夫小子」武器的攻擊次數屬性加 1（至多加 6）。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -21230,7 +21230,7 @@
             ],
             "name": "獵獸戰車",
             "typeId": "74f8-5443-9d6d-1f1e",
-            "typeName": "運輸載具",
+            "typeName": "運輸",
             "hidden": false,
             "id": "9476-8408-7d63-3861"
           }
@@ -21834,7 +21834,7 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "爆炸，曲射",
+                "$text": "爆破，曲射",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -21848,7 +21848,7 @@
         ],
         "infoLinks": [
           {
-            "name": "爆炸",
+            "name": "爆破",
             "hidden": false,
             "type": "rule",
             "id": "2f57-a1ee-eff6-c9c",
@@ -21912,7 +21912,7 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "反制-怪獸 2+，反制-載具 2+，鉤住",
+                "$text": "針對怪獸 2+，針對載具 2+，鉤住",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -22185,7 +22185,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "c46e-6674-27d4-ba87",
@@ -22604,7 +22604,7 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "強力勇士",
+                "name": "強大冠軍",
                 "hidden": false,
                 "id": "f7d5-e251-b336-4114",
                 "type": "selectionEntryGroup",
@@ -22773,7 +22773,7 @@
             ],
             "name": "殺戮戰車",
             "typeId": "74f8-5443-9d6d-1f1e",
-            "typeName": "運輸載具",
+            "typeName": "運輸",
             "hidden": false,
             "id": "d1d4-a611-4811-6c4e"
           }
@@ -22783,7 +22783,7 @@
             "targetId": "75e8-57c4-40e3-1817",
             "id": "7faa-22cc-43-e98",
             "primary": false,
-            "name": "運輸載具"
+            "name": "運輸"
           },
           {
             "targetId": "13bf-2bee-3ae0-b414",
@@ -22817,7 +22817,7 @@
             "primary": true
           },
           {
-            "name": "車架",
+            "name": "框架",
             "hidden": false,
             "id": "951e-b427-d3eb-f223",
             "targetId": "b927-8eeb-7cc3-8dec",
@@ -23644,7 +23644,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "圖騰存在升級",
+                    "name": "圖騰威儀升級",
                     "hidden": false,
                     "id": "1cbf-4ba9-19c2-9b42",
                     "type": "selectionEntry",
@@ -23836,7 +23836,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "圖騰存在升級",
+                    "name": "圖騰威儀升級",
                     "hidden": false,
                     "id": "1e1b-bd84-0bbf-8c54",
                     "type": "selectionEntry",
@@ -23955,7 +23955,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "圖騰存在升級",
+                    "name": "圖騰威儀升級",
                     "hidden": false,
                     "id": "8eed-3aa8-5091-9a9c",
                     "type": "selectionEntry",
@@ -24074,7 +24074,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "圖騰存在升級",
+                    "name": "圖騰威儀升級",
                     "hidden": false,
                     "id": "1612-f541-4ac5-54a3",
                     "type": "selectionEntry",
@@ -24199,7 +24199,7 @@
             "targetId": "6dda-e157-334d-e93a",
             "id": "44a2-43e3-2f3a-6035",
             "primary": false,
-            "name": "步行機具"
+            "name": "步行機"
           },
           {
             "targetId": "d64b-c6f7-dacf-4035",
@@ -24727,7 +24727,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "5939-8410-fd20-6150",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "ea04-65cb-163b-60dc",
@@ -24900,7 +24900,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "特製 突突槍",
+                    "name": "特製突突槍",
                     "hidden": false,
                     "id": "af51-015b-951e-f434",
                     "type": "selectionEntry",
@@ -25749,7 +25749,7 @@
               }
             ],
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "id": "a0c0-89e1-587a-c677",
             "type": "selectionEntry",
@@ -26208,7 +26208,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "cdd0-30a1-5693-ea5d",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "fe8b-9078-9a3d-fed",
@@ -26532,7 +26532,7 @@
                   }
                 ],
                 "import": true,
-                "name": "屁精 爆破槍",
+                "name": "屁精爆破槍",
                 "hidden": false,
                 "id": "c15e-b852-2353-bc60",
                 "type": "selectionEntry",
@@ -27718,7 +27718,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "3b4b-217b-6617-8526",
@@ -27808,7 +27808,7 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "強力勇士",
+                "name": "強大冠軍",
                 "hidden": false,
                 "id": "850f-932c-aecb-7db1",
                 "type": "selectionEntryGroup",
@@ -28248,7 +28248,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "特製 突突槍",
+                    "name": "特製突突槍",
                     "hidden": false,
                     "type": "selectionEntry",
                     "id": "61c1-e101-ef1b-bef7",
@@ -28379,7 +28379,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "複合-武器",
+                    "name": "複合武器",
                     "hidden": false,
                     "type": "selectionEntry",
                     "id": "e1e6-7211-759d-5c5c",
@@ -28510,7 +28510,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "複合-武器",
+                    "name": "複合武器",
                     "hidden": false,
                     "type": "selectionEntry",
                     "id": "547c-d49e-2a5c-8e2b",
@@ -28640,7 +28640,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "特製 突突槍",
+                    "name": "特製突突槍",
                     "hidden": false,
                     "type": "selectionEntry",
                     "id": "756a-fea3-6a89-787e",
@@ -28927,7 +28927,7 @@
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ],
-                        "name": "雙聯 殺戮鋸",
+                        "name": "雙聯殺戮鋸",
                         "typeId": "8a40-4aaa-c780-9046",
                         "typeName": "近戰武器",
                         "hidden": false,
@@ -28955,7 +28955,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "雙聯 殺戮鋸",
+                    "name": "雙聯殺戮鋸",
                     "hidden": false,
                     "id": "b46a-4885-3b28-428b",
                     "collective": true
@@ -29140,7 +29140,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "45e1-221b-370b-7626",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "d85d-1dad-b832-cf9f",
@@ -29356,7 +29356,7 @@
               }
             ],
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "id": "4f6e-1542-3a04-cb1d",
             "type": "selectionEntry",
@@ -30059,7 +30059,7 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "爆炸",
+                        "$text": "爆破",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -30073,7 +30073,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "爆炸",
+                    "name": "爆破",
                     "id": "d12d-9d1c-8dd2-df9a",
                     "hidden": false,
                     "type": "rule",
@@ -30548,7 +30548,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "b027-9402-dbb-2983",
@@ -30603,7 +30603,7 @@
           {
             "characteristics": [
               {
-                "$text": "當此模型位於一個或更多友方歐克蠻人載具單位 3 吋內時，具有「獨狼作戰」能力。",
+                "$text": "當此模型位於一個或更多友方歐克蠻人載具單位 3 吋內時，具有「獨行特工」能力。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -30682,7 +30682,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "此模型可以附屬於下列單位：\n- **小子**\n- **掠奪小子**\n- **技師 砲**\n- **老大**\n- **坦克爆破小子**"
+                "$text": "此模型可以附屬於下列單位：\n- **小子**\n- **掠奪小子**\n- **技師砲**\n- **老大**\n- **坦克爆破小子**"
               }
             ]
           }
@@ -30894,7 +30894,7 @@
                   }
                 ],
                 "import": true,
-                "name": "特製 巨型-短槍",
+                "name": "特製巨型短槍",
                 "hidden": false,
                 "id": "29df-345a-6ab5-4644",
                 "type": "selectionEntry",
@@ -31544,7 +31544,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "圖騰存在升級",
+                    "name": "圖騰威儀升級",
                     "hidden": false,
                     "id": "075d-11df-4916-6db5",
                     "type": "selectionEntry",
@@ -31705,7 +31705,7 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "爆炸",
+                                "$text": "爆破",
                                 "name": "Keywords",
                                 "id": "55f9-bc8d-3762-9d14",
                                 "hidden": false,
@@ -31721,7 +31721,7 @@
                         ],
                         "infoLinks": [
                           {
-                            "name": "爆炸",
+                            "name": "爆破",
                             "id": "dc2c-ccca-f61c-8462",
                             "hidden": false,
                             "type": "rule",
@@ -31771,7 +31771,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "圖騰存在升級",
+                    "name": "圖騰威儀升級",
                     "hidden": false,
                     "id": "405b-38fb-1c83-8b0b",
                     "type": "selectionEntry",
@@ -31894,7 +31894,7 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "爆炸，泡泡投射器",
+                                "$text": "爆破，泡泡投射器",
                                 "name": "Keywords",
                                 "id": "b72f-4cc5-47b-d11d",
                                 "hidden": false,
@@ -31952,7 +31952,7 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "爆炸，泡泡投射器",
+                                "$text": "爆破，泡泡投射器",
                                 "name": "Keywords",
                                 "id": "4bdf-dccb-92e1-387e",
                                 "hidden": false,
@@ -32010,7 +32010,7 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "爆炸，泡泡投射器",
+                                "$text": "爆破，泡泡投射器",
                                 "name": "Keywords",
                                 "id": "4cdb-cac2-7525-d568",
                                 "hidden": false,
@@ -32026,7 +32026,7 @@
                         ],
                         "infoLinks": [
                           {
-                            "name": "爆炸",
+                            "name": "爆破",
                             "id": "97cd-9ef-f8ef-77ab",
                             "hidden": false,
                             "type": "rule",
@@ -32131,7 +32131,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "圖騰存在升級",
+                    "name": "圖騰威儀升級",
                     "hidden": false,
                     "id": "b468-cad3-2a60-5eea",
                     "type": "selectionEntry",
@@ -32292,14 +32292,14 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "爆炸，危險",
+                                "$text": "爆破，危險",
                                 "name": "Keywords",
                                 "id": "2631-e9d1-9ac7-7083",
                                 "hidden": false,
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ],
-                            "name": "特製 巨型-大砲",
+                            "name": "特製巨型大砲",
                             "typeId": "f77d-b953-8fa4-b762",
                             "typeName": "遠程武器",
                             "hidden": false,
@@ -32315,7 +32315,7 @@
                             "targetId": "8367-374c-f87-c627"
                           },
                           {
-                            "name": "爆炸",
+                            "name": "爆破",
                             "id": "2a4-a324-6573-c5cb",
                             "hidden": false,
                             "type": "rule",
@@ -32350,7 +32350,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "特製 巨型-大砲",
+                        "name": "特製巨型大砲",
                         "hidden": false,
                         "id": "7c57-a55a-77b9-88f3",
                         "collective": true
@@ -32381,7 +32381,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "圖騰存在升級",
+                    "name": "圖騰威儀升級",
                     "hidden": false,
                     "id": "0d15-8850-73cf-947f",
                     "type": "selectionEntry",
@@ -33090,13 +33090,13 @@
             "targetId": "75e8-57c4-40e3-1817",
             "id": "6092-2f11-2f8c-24d",
             "primary": false,
-            "name": "運輸載具"
+            "name": "運輸"
           },
           {
             "targetId": "6dda-e157-334d-e93a",
             "id": "b-961d-3356-85ed",
             "primary": false,
-            "name": "步行機具"
+            "name": "步行機"
           },
           {
             "targetId": "1074-5be7-326a-af90",
@@ -33196,7 +33196,7 @@
             ],
             "name": "毛克巨像",
             "typeId": "74f8-5443-9d6d-1f1e",
-            "typeName": "運輸載具",
+            "typeName": "運輸",
             "hidden": false,
             "id": "6330-d593-447f-7b62"
           }
@@ -33465,7 +33465,7 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "爆炸，危險",
+                        "$text": "爆破，危險",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -33479,7 +33479,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "爆炸",
+                    "name": "爆破",
                     "id": "acbf-e6c6-6f88-11e8",
                     "hidden": false,
                     "type": "rule",
@@ -33550,7 +33550,7 @@
                   }
                 ],
                 "import": true,
-                "name": "特製 巨型-爆破槍",
+                "name": "特製巨型爆破槍",
                 "hidden": false,
                 "id": "6a9c-b14b-c023-a7a7",
                 "type": "selectionEntry",
@@ -34051,7 +34051,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "9c6f-9e9-ebb3-18f5",
@@ -34351,7 +34351,7 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "強力勇士",
+                "name": "強大冠軍",
                 "hidden": false,
                 "id": "6ab0-4f8f-4f1f-83f6",
                 "type": "selectionEntryGroup",
@@ -34576,7 +34576,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "950c-d25a-9556-e0f8",
@@ -35065,7 +35065,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "16db-ae8e-d406-b691",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "56cc-5f43-2403-8da0",
@@ -35425,7 +35425,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "複合-武器",
+                    "name": "複合武器",
                     "hidden": false,
                     "id": "c153-27d9-c9ab-42de",
                     "type": "selectionEntry",
@@ -35872,7 +35872,7 @@
                               }
                             ],
                             "import": true,
-                            "name": "複合-武器",
+                            "name": "複合武器",
                             "hidden": false,
                             "id": "261b-e89f-301d-7c7a",
                             "type": "selectionEntry",
@@ -35917,7 +35917,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "複合-武器",
+                        "name": "複合武器",
                         "hidden": false,
                         "id": "8c7d-35ea-4dd2-b6d0"
                       }
@@ -36068,7 +36068,7 @@
               }
             ],
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "id": "b81e-7f1b-a184-ca65",
             "type": "selectionEntry",
@@ -36592,7 +36592,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "1408-6654-b016-c33b",
@@ -36647,7 +36647,7 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "每場戰鬥一次，在你的指揮階段中，若持有者正領導一個低於起始兵力的單位，你可以使該單位恢復至多 D3 個被摧毀的親衛模型。\n\n**設計者註記：** *在該單位旁放置一個屁精勤務兵指示物；此能力使用後將其移除。*",
+                            "$text": "每場戰鬥一次，在你的指揮階段中，若持有者正領導一個低於起始兵力的單位，你可以使該單位恢復至多 D3 個被摧毀的小隊模型。\n\n**設計者註記：** *在該單位旁放置一個屁精勤務兵指示物；此能力使用後將其移除。*",
                             "name": "Description",
                             "typeId": "9b8f-694b-e5e-b573"
                           }
@@ -36730,7 +36730,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "獵獸 爪",
+                    "name": "獵獸爪",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -36767,7 +36767,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "獵獸 爪",
+                "name": "獵獸爪",
                 "hidden": false,
                 "id": "e9e3-3cff-1ff2-f9cc"
               }
@@ -37515,7 +37515,7 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "每場戰鬥一次，在你的指揮階段中，若持有者正領導一個低於起始兵力的單位，你可以使該單位恢復至多 D3 個被摧毀的親衛模型。\n\n**設計者註記：** *在該單位旁放置一個屁精勤務兵指示物；此能力使用後將其移除。*",
+                            "$text": "每場戰鬥一次，在你的指揮階段中，若持有者正領導一個低於起始兵力的單位，你可以使該單位恢復至多 D3 個被摧毀的小隊模型。\n\n**設計者註記：** *在該單位旁放置一個屁精勤務兵指示物；此能力使用後將其移除。*",
                             "name": "Description",
                             "typeId": "9b8f-694b-e5e-b573"
                           }
@@ -37564,7 +37564,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "39a5-a26c-6e22-f756",
@@ -38545,7 +38545,7 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "爆炸，無視掩護，曲射",
+                        "$text": "爆破，無視掩護，曲射",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -38559,7 +38559,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "爆炸",
+                    "name": "爆破",
                     "id": "48d0-df03-65ba-2508",
                     "hidden": false,
                     "type": "rule",
@@ -39573,7 +39573,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "8263-d42a-3d84-29c9",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "b261-3cfd-9dba-339f",
@@ -40205,7 +40205,7 @@
             "targetId": "75e8-57c4-40e3-1817",
             "id": "2278-42e-d00f-eff8",
             "primary": false,
-            "name": "運輸載具"
+            "name": "運輸"
           },
           {
             "targetId": "5929-ad51-d006-e008",
@@ -40223,7 +40223,7 @@
             "targetId": "6dda-e157-334d-e93a",
             "id": "d122-ac01-d085-50a4",
             "primary": false,
-            "name": "步行機具"
+            "name": "步行機"
           },
           {
             "targetId": "3884-d7bf-775b-e081",
@@ -40238,7 +40238,7 @@
             "name": "陣營：歐克蠻人"
           },
           {
-            "name": "車架",
+            "name": "框架",
             "hidden": false,
             "id": "f9d4-e040-6cc0-e2c5",
             "targetId": "b927-8eeb-7cc3-8dec",
@@ -40342,7 +40342,7 @@
             ],
             "name": "踐踏者",
             "typeId": "74f8-5443-9d6d-1f1e",
-            "typeName": "運輸載具",
+            "typeName": "運輸",
             "hidden": false,
             "id": "6c4a-42e4-b9fa-8bf8"
           }
@@ -40589,7 +40589,7 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "爆炸",
+                        "$text": "爆破",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -40603,7 +40603,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "爆炸",
+                    "name": "爆破",
                     "id": "90a9-ffb-a15-d53f",
                     "hidden": false,
                     "type": "rule",
@@ -40700,7 +40700,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "➤ 巨型-砍刀－打擊",
+                    "name": "➤ 巨型砍刀－打擊",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -40744,7 +40744,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "➤ 巨型-砍刀－橫掃",
+                    "name": "➤ 巨型砍刀－橫掃",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -40763,7 +40763,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "巨型-砍刀",
+                "name": "巨型砍刀",
                 "hidden": false,
                 "id": "dccf-9841-24d4-bc7b"
               },
@@ -40910,7 +40910,7 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "爆炸",
+                        "$text": "爆破",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -40924,7 +40924,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "爆炸",
+                    "name": "爆破",
                     "id": "937a-a526-5cd1-98",
                     "hidden": false,
                     "type": "rule",
@@ -41304,7 +41304,7 @@
                 "field": "hidden"
               }
             ],
-            "name": "深入打擊",
+            "name": "深度打擊",
             "hidden": false,
             "type": "rule",
             "id": "2f64-134e-d82a-e863",
@@ -41377,7 +41377,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "f24e-61d3-3bbe-d0e6",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "76e1-1bfc-28c8-5458",
@@ -42014,7 +42014,7 @@
               }
             ],
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "id": "82a5-bd0f-dc73-be30",
             "type": "selectionEntry",
@@ -42493,7 +42493,7 @@
             "name": "陣營：歐克蠻人"
           },
           {
-            "name": "手榴彈",
+            "name": "榴彈",
             "hidden": false,
             "id": "c933-145f-290d-b8d8",
             "targetId": "5a61-81ac-eb7c-a87e",
@@ -43629,7 +43629,7 @@
             "targetId": "ba07-411c-2832-1f79",
             "id": "18a7-5a4e-397e-983",
             "primary": true,
-            "name": "專用運輸載具"
+            "name": "專用運輸"
           },
           {
             "targetId": "dbd4-63-af05-998",
@@ -43641,7 +43641,7 @@
             "targetId": "75e8-57c4-40e3-1817",
             "id": "91ac-955f-ec5c-75f0",
             "primary": false,
-            "name": "運輸載具"
+            "name": "運輸"
           },
           {
             "targetId": "ea9-8161-e2e-53f0",
@@ -43656,7 +43656,7 @@
             "name": "陣營：歐克蠻人"
           },
           {
-            "name": "車架",
+            "name": "框架",
             "hidden": false,
             "id": "b0e4-4c2d-dd51-d735",
             "targetId": "b927-8eeb-7cc3-8dec",
@@ -43732,7 +43732,7 @@
             ],
             "name": "卡車",
             "typeId": "74f8-5443-9d6d-1f1e",
-            "typeName": "運輸載具",
+            "typeName": "運輸",
             "hidden": false,
             "id": "ca7e-d8e6-943-b800"
           }
@@ -44229,7 +44229,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "714d-f062-ce65-c4a7",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "9610-d887-1e01-a8e9",
@@ -45345,7 +45345,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "f9bb-3b12-338a-c2eb",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "56cc-5f43-2403-8da0",
@@ -45444,7 +45444,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "此模型可以附屬於下列單位：\n- **小子**\n- **破壞 小子**\n- **老大**"
+                "$text": "此模型可以附屬於下列單位：\n- **小子**\n- **破壞小子**\n- **老大**"
               }
             ]
           }
@@ -45468,7 +45468,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "fb9-271-6549-2596",
@@ -45536,7 +45536,7 @@
                   }
                 ],
                 "import": true,
-                "name": "複合-武器",
+                "name": "複合武器",
                 "hidden": false,
                 "id": "183b-3f43-10fc-ca2d",
                 "type": "selectionEntry",
@@ -45602,7 +45602,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "雙聯 短槍",
+                    "name": "雙聯短槍",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -45646,7 +45646,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "雙聯 短槍",
+                "name": "雙聯短槍",
                 "hidden": false,
                 "id": "f8a0-f279-3ee8-2eda"
               }
@@ -46547,7 +46547,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "1fce-b0a4-2950-4ab6",
@@ -47560,7 +47560,7 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "爆炸",
+                        "$text": "爆破",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -47574,7 +47574,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "爆炸",
+                    "name": "爆破",
                     "id": "156a-3eee-1d1b-b434",
                     "hidden": false,
                     "type": "rule",
@@ -47663,7 +47663,7 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸，危險，雙聯",
+                            "$text": "爆破，危險，雙聯",
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
@@ -47677,7 +47677,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "爆炸",
+                        "name": "爆破",
                         "id": "e62f-4fbe-f553-ece9",
                         "hidden": false,
                         "type": "rule",
@@ -47765,7 +47765,7 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸，雙聯",
+                            "$text": "爆破，雙聯",
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
@@ -47786,7 +47786,7 @@
                         "targetId": "cf93-ad4d-2f08-a79d"
                       },
                       {
-                        "name": "爆炸",
+                        "name": "爆破",
                         "id": "75e8-eb73-d015-af09",
                         "hidden": false,
                         "type": "rule",
@@ -47822,7 +47822,7 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "持有者具有 4+ 無敵豁免，但失去**手榴彈**關鍵詞。",
+                            "$text": "持有者具有 4+ 無敵豁免，但失去**榴彈**關鍵詞。",
                             "name": "Description",
                             "typeId": "9b8f-694b-e5e-b573"
                           }
@@ -47913,7 +47913,7 @@
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "雙聯 超級-突突槍",
+                        "name": "雙聯超級突突槍",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "遠程武器",
                         "hidden": false,
@@ -47966,7 +47966,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "雙聯 超級-突突槍",
+                    "name": "雙聯超級突突槍",
                     "hidden": false,
                     "id": "7ad2-f83c-5cc5-4072",
                     "categoryLinks": [
@@ -48040,7 +48040,7 @@
             "targetId": "63f1-e6e8-f6f6-a4f0",
             "id": "66c6-c02f-6821-4f5e",
             "primary": false,
-            "name": "航空器"
+            "name": "飛行器"
           },
           {
             "targetId": "c619-2086-bbcf-69c9",
@@ -48052,7 +48052,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "47ce-4e60-8d19-c62c",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "ba27-989e-951a-8cf8",
@@ -48569,7 +48569,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "此模型可以附屬於下列單位：\n- **小子**\n- **破壞 小子**"
+                "$text": "此模型可以附屬於下列單位：\n- **小子**\n- **破壞小子**"
               }
             ],
             "name": "領袖",
@@ -48637,7 +48637,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "fd-2a89-7d92-2808",
@@ -49496,7 +49496,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "d91d-a8c9-9f09-10c1",
@@ -50283,7 +50283,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "f31-863c-7881-b815",
@@ -50513,7 +50513,7 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "強力勇士",
+                "name": "強大冠軍",
                 "hidden": false,
                 "id": "b007-d763-74a9-1061",
                 "type": "selectionEntryGroup",
@@ -51092,7 +51092,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "圖騰存在升級",
+                    "name": "圖騰威儀升級",
                     "hidden": false,
                     "id": "6748-1414-b953-257f",
                     "type": "selectionEntry",
@@ -51211,7 +51211,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "圖騰存在升級",
+                    "name": "圖騰威儀升級",
                     "hidden": false,
                     "id": "32db-90ff-fee3-4e6a",
                     "type": "selectionEntry",
@@ -51330,7 +51330,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "圖騰存在升級",
+                    "name": "圖騰威儀升級",
                     "hidden": false,
                     "id": "4da5-7ba9-13fb-45b3",
                     "type": "selectionEntry",
@@ -51381,7 +51381,7 @@
                           }
                         ],
                         "import": true,
-                        "name": "特製 巨型-爆破槍",
+                        "name": "特製巨型爆破槍",
                         "hidden": false,
                         "id": "dd04-ce0f-09d6-99ee",
                         "type": "selectionEntry",
@@ -51449,7 +51449,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "圖騰存在升級",
+                    "name": "圖騰威儀升級",
                     "hidden": false,
                     "id": "6398-b348-e159-1291",
                     "type": "selectionEntry",
@@ -51568,7 +51568,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "圖騰存在升級",
+                    "name": "圖騰威儀升級",
                     "hidden": false,
                     "id": "b398-7e7e-6274-8ebc",
                     "type": "selectionEntry",
@@ -51936,7 +51936,7 @@
                               }
                             ],
                             "import": true,
-                            "name": "特製 巨型-爆破槍",
+                            "name": "特製巨型爆破槍",
                             "hidden": false,
                             "id": "4b0c-b416-660f-361c",
                             "type": "selectionEntry",
@@ -51986,7 +51986,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "圖騰存在升級",
+                    "name": "圖騰威儀升級",
                     "hidden": false,
                     "id": "8871-7c1d-dc48-34e5",
                     "type": "selectionEntry",
@@ -52887,7 +52887,7 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸，無視掩護，雙聯",
+                            "$text": "爆破，無視掩護，雙聯",
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
@@ -52901,7 +52901,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "爆炸",
+                        "name": "爆破",
                         "id": "3c3c-5118-3955-9888",
                         "hidden": false,
                         "type": "rule",
@@ -53084,7 +53084,7 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸，雙聯",
+                            "$text": "爆破，雙聯",
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
@@ -53098,7 +53098,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "爆炸",
+                        "name": "爆破",
                         "id": "5c49-c8ff-51c2-d149",
                         "hidden": false,
                         "type": "rule",
@@ -53188,7 +53188,7 @@
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "雙聯 火焰噴射器",
+                        "name": "雙聯火焰噴射器",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "遠程武器",
                         "hidden": false,
@@ -53239,7 +53239,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "雙聯 火焰噴射器",
+                    "name": "雙聯火焰噴射器",
                     "hidden": false,
                     "id": "2ff-3362-a51f-a276",
                     "collective": true
@@ -53584,7 +53584,7 @@
             "targetId": "75e8-57c4-40e3-1817",
             "id": "b9b1-d6c6-1685-87f5",
             "primary": false,
-            "name": "運輸載具"
+            "name": "運輸"
           },
           {
             "targetId": "9084-180b-73dd-a18",
@@ -53719,7 +53719,7 @@
             ],
             "name": "史古格巨獸",
             "typeId": "74f8-5443-9d6d-1f1e",
-            "typeName": "運輸載具",
+            "typeName": "運輸",
             "hidden": false,
             "id": "91ab-5faa-174e-118f"
           }
@@ -54277,7 +54277,7 @@
             "targetId": "75e8-57c4-40e3-1817",
             "id": "c096-ea28-990c-e54d",
             "primary": false,
-            "name": "運輸載具"
+            "name": "運輸"
           },
           {
             "targetId": "1e15-858a-8c44-8467",
@@ -54292,7 +54292,7 @@
             "name": "陣營：歐克蠻人"
           },
           {
-            "name": "車架",
+            "name": "框架",
             "hidden": false,
             "id": "33f8-e865-56cf-d6e6",
             "targetId": "b927-8eeb-7cc3-8dec",
@@ -54396,7 +54396,7 @@
             ],
             "name": "巨獸級史古格巨獸",
             "typeId": "74f8-5443-9d6d-1f1e",
-            "typeName": "運輸載具",
+            "typeName": "運輸",
             "hidden": false,
             "id": "9c81-b0e2-d860-8543"
           }
@@ -54488,12 +54488,12 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸",
+                            "$text": "爆破",
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "超級-大砲",
+                        "name": "超級大砲",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "遠程武器",
                         "hidden": false,
@@ -54502,7 +54502,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "爆炸",
+                        "name": "爆破",
                         "id": "2745-c21c-e312-9dde",
                         "hidden": false,
                         "type": "rule",
@@ -54530,7 +54530,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "超級-大砲",
+                    "name": "超級大砲",
                     "hidden": false,
                     "id": "e2e9-d6e3-7d7d-76ae"
                   }
@@ -55126,7 +55126,7 @@
             ],
             "name": "殺戮坦克",
             "typeId": "74f8-5443-9d6d-1f1e",
-            "typeName": "運輸載具",
+            "typeName": "運輸",
             "hidden": false,
             "id": "1766-cc6c-7525-7816"
           }
@@ -55148,7 +55148,7 @@
             "targetId": "75e8-57c4-40e3-1817",
             "id": "e1c9-9453-5da9-a98",
             "primary": false,
-            "name": "運輸載具"
+            "name": "運輸"
           },
           {
             "targetId": "b80b-edb4-1b4c-82ae",
@@ -55255,7 +55255,7 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸",
+                            "$text": "爆破",
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
@@ -55269,7 +55269,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "爆炸",
+                        "name": "爆破",
                         "id": "7031-ac64-e4f2-82a6",
                         "hidden": false,
                         "type": "rule",
@@ -55867,7 +55867,7 @@
             "targetId": "6dda-e157-334d-e93a",
             "id": "3c13-f272-e57-2615",
             "primary": false,
-            "name": "步行機具"
+            "name": "步行機"
           },
           {
             "targetId": "56cc-5f43-2403-8da0",
@@ -56572,7 +56572,7 @@
             "targetId": "6dda-e157-334d-e93a",
             "id": "d99e-d2f6-5e2b-d31c",
             "primary": false,
-            "name": "步行機具"
+            "name": "步行機"
           },
           {
             "targetId": "56cc-5f43-2403-8da0",
@@ -57251,7 +57251,7 @@
             ],
             "name": "大型履帶車",
             "typeId": "74f8-5443-9d6d-1f1e",
-            "typeName": "運輸載具",
+            "typeName": "運輸",
             "hidden": false,
             "id": "bb74-b257-213e-53a6"
           }
@@ -57430,7 +57430,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "超級-大砲",
+                    "name": "超級大砲",
                     "hidden": false,
                     "id": "fd51-1b8f-c671-e9eb",
                     "type": "selectionEntry",
@@ -57459,7 +57459,7 @@
             "targetId": "75e8-57c4-40e3-1817",
             "id": "7fb4-30b4-6989-16d",
             "primary": false,
-            "name": "運輸載具"
+            "name": "運輸"
           },
           {
             "targetId": "56cc-5f43-2403-8da0",
@@ -57802,7 +57802,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "5b3-ff0e-91b7-5c2e",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "47cc-4071-6fda-688e",
@@ -57827,7 +57827,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "bab1-b0fa-be43-5a73",
@@ -58453,7 +58453,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "101b-27b3-f136-4d92",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "56cc-5f43-2403-8da0",
@@ -59343,7 +59343,7 @@
             ],
             "name": "大砲貨車",
             "typeId": "74f8-5443-9d6d-1f1e",
-            "typeName": "運輸載具",
+            "typeName": "運輸",
             "hidden": false,
             "id": "8f9-7d4-1042-22f7"
           }
@@ -59403,7 +59403,7 @@
             "targetId": "75e8-57c4-40e3-1817",
             "id": "27fb-9c8-a34f-90b5",
             "primary": false,
-            "name": "運輸載具"
+            "name": "運輸"
           },
           {
             "targetId": "bb8-7a99-762b-d32d",
@@ -59581,7 +59581,7 @@
                   }
                 ],
                 "import": true,
-                "name": "超級-大砲",
+                "name": "超級大砲",
                 "hidden": false,
                 "id": "119f-7117-dec1-fd6b",
                 "type": "selectionEntry",
@@ -59983,7 +59983,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "c94b-dd89-d3cb-a4a8",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "56cc-5f43-2403-8da0",
@@ -60023,7 +60023,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "e0d1-6948-996c-1095",
@@ -60290,7 +60290,7 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "強力勇士",
+                "name": "強大冠軍",
                 "hidden": false,
                 "id": "b589-e418-973d-c005",
                 "type": "selectionEntryGroup",
@@ -60518,7 +60518,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "35b3-db65-18f3-7e0e",
@@ -61856,7 +61856,7 @@
               },
               {
                 "import": true,
-                "name": "特製 突突槍",
+                "name": "特製突突槍",
                 "hidden": false,
                 "id": "9840-68fa-a2b4-1f04",
                 "entryLinks": [
@@ -62977,7 +62977,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "圖騰存在升級",
+                    "name": "圖騰威儀升級",
                     "hidden": false,
                     "id": "5e71-9822-0aa3-a787",
                     "type": "selectionEntry",
@@ -63079,7 +63079,7 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "爆炸，重型",
+                                "$text": "爆破，重型",
                                 "name": "Keywords",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
@@ -63182,7 +63182,7 @@
                             "targetId": "1202-10a8-78e9-4c67"
                           },
                           {
-                            "name": "爆炸",
+                            "name": "爆破",
                             "id": "e35d-aacc-c321-1645",
                             "hidden": false,
                             "type": "rule",
@@ -63249,7 +63249,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "圖騰存在升級",
+                    "name": "圖騰威儀升級",
                     "hidden": false,
                     "id": "e86e-1bd6-388b-ebcc",
                     "type": "selectionEntry",
@@ -63351,7 +63351,7 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "爆炸，重型，曲射",
+                                "$text": "爆破，重型，曲射",
                                 "name": "Keywords",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
@@ -63372,7 +63372,7 @@
                             "targetId": "4ddd-4e29-acdd-5e6d"
                           },
                           {
-                            "name": "爆炸",
+                            "name": "爆破",
                             "id": "8c70-456d-1400-b4ef",
                             "hidden": false,
                             "type": "rule",
@@ -63456,7 +63456,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "圖騰存在升級",
+                    "name": "圖騰威儀升級",
                     "hidden": false,
                     "id": "ed91-e6b1-d66d-64f7",
                     "type": "selectionEntry",
@@ -64006,7 +64006,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "1a5c-1390-82ba-b372",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "56cc-5f43-2403-8da0",
@@ -64033,7 +64033,7 @@
         ],
         "infoLinks": [
           {
-            "name": "深入打擊",
+            "name": "深度打擊",
             "hidden": false,
             "type": "rule",
             "id": "4e6b-3ecf-d809-e1e5",
@@ -64248,7 +64248,7 @@
                           }
                         ],
                         "import": true,
-                        "name": "特製 巨型-爆破槍",
+                        "name": "特製巨型爆破槍",
                         "hidden": false,
                         "id": "1754-f94c-6b8c-d9ad",
                         "type": "selectionEntry",
@@ -64271,7 +64271,7 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "圖騰存在升級",
+                "name": "圖騰威儀升級",
                 "hidden": false,
                 "id": "2f8a-386c-d3f4-ba19",
                 "type": "selectionEntry",
@@ -64683,7 +64683,7 @@
             ],
             "name": "殺戮碾壓者",
             "typeId": "74f8-5443-9d6d-1f1e",
-            "typeName": "運輸載具",
+            "typeName": "運輸",
             "hidden": false,
             "id": "af65-e609-c0ee-56fa"
           }
@@ -64964,7 +64964,7 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "爆炸",
+                        "$text": "爆破",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -65004,7 +65004,7 @@
                     "targetId": "1202-10a8-78e9-4c67"
                   },
                   {
-                    "name": "爆炸",
+                    "name": "爆破",
                     "id": "a2e3-bc17-2109-f243",
                     "hidden": false,
                     "type": "rule",
@@ -65132,7 +65132,7 @@
             "targetId": "75e8-57c4-40e3-1817",
             "id": "d218-7856-2fff-9e4d",
             "primary": false,
-            "name": "運輸載具"
+            "name": "運輸"
           },
           {
             "targetId": "dd4f-5c6b-d535-9e8c",
@@ -65610,7 +65610,7 @@
             ],
             "name": "死亡滾輪戰鬥堡壘",
             "typeId": "74f8-5443-9d6d-1f1e",
-            "typeName": "運輸載具",
+            "typeName": "運輸",
             "hidden": false,
             "id": "9173-96a1-9ac0-5b53"
           }
@@ -66119,7 +66119,7 @@
             "targetId": "75e8-57c4-40e3-1817",
             "id": "e879-29a7-97b3-c59",
             "primary": false,
-            "name": "運輸載具"
+            "name": "運輸"
           },
           {
             "targetId": "890c-363e-4628-8d0d",
@@ -66551,7 +66551,7 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "爆炸",
+                "$text": "爆破",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -66584,7 +66584,7 @@
         ],
         "infoLinks": [
           {
-            "name": "爆炸",
+            "name": "爆破",
             "hidden": false,
             "type": "rule",
             "id": "35bd-7f9e-3516-24c6",
@@ -66633,7 +66633,7 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "爆炸，曲射",
+                "$text": "爆破，曲射",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -66647,7 +66647,7 @@
         ],
         "infoLinks": [
           {
-            "name": "爆炸",
+            "name": "爆破",
             "hidden": false,
             "type": "rule",
             "id": "c583-4d9c-f471-245a",
@@ -66732,7 +66732,7 @@
             "targetId": "75e8-57c4-40e3-1817",
             "id": "1c6d-c31a-7f77-c5c4",
             "primary": false,
-            "name": "運輸載具"
+            "name": "運輸"
           },
           {
             "targetId": "d69b-147e-9e36-3a2d",
@@ -66822,7 +66822,7 @@
             ],
             "name": "奇諾克戰鬥旋翼機",
             "typeId": "74f8-5443-9d6d-1f1e",
-            "typeName": "運輸載具",
+            "typeName": "運輸",
             "hidden": false,
             "id": "ce03-5bf-b5ac-740"
           }
@@ -66864,7 +66864,7 @@
             "targetId": "13b2-6518-dab3-7ea1"
           },
           {
-            "name": "深入打擊",
+            "name": "深度打擊",
             "hidden": false,
             "type": "rule",
             "id": "82d4-57cf-423c-22c1",
@@ -66974,7 +66974,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "特製 巨型-爆破槍",
+                    "name": "特製巨型爆破槍",
                     "hidden": false,
                     "id": "6d52-9ce1-e768-5cba",
                     "type": "selectionEntry",
@@ -67624,7 +67624,7 @@
             "targetId": "63f1-e6e8-f6f6-a4f0",
             "id": "6b23-54b2-cd5a-5bdc",
             "primary": false,
-            "name": "航空器"
+            "name": "飛行器"
           },
           {
             "targetId": "a939-1605-4c09-8e30",
@@ -67861,7 +67861,7 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "爆炸，單發，曲射",
+                                "$text": "爆破，一次性，曲射",
                                 "name": "Keywords",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
@@ -67875,14 +67875,14 @@
                         ],
                         "infoLinks": [
                           {
-                            "name": "爆炸",
+                            "name": "爆破",
                             "id": "32ec-af4c-5aa-b19a",
                             "hidden": false,
                             "type": "rule",
                             "targetId": "6c1f-1cf7-ff25-c99e"
                           },
                           {
-                            "name": "單發",
+                            "name": "一次性",
                             "id": "8498-c1d6-a6cd-d388",
                             "hidden": false,
                             "type": "rule",
@@ -68359,7 +68359,7 @@
             "targetId": "63f1-e6e8-f6f6-a4f0",
             "id": "73b6-14b9-6746-149f",
             "primary": false,
-            "name": "航空器"
+            "name": "飛行器"
           },
           {
             "targetId": "40f4-6316-bcd-ff9a",
@@ -69256,7 +69256,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "1 火箭 發射器",
+                        "name": "1 火箭發射器",
                         "hidden": false,
                         "id": "2610-4494-3dae-d87b"
                       },
@@ -70239,7 +70239,7 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "爆炸，單發，曲射",
+                        "$text": "爆破，一次性，曲射",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -70253,14 +70253,14 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "爆炸",
+                    "name": "爆破",
                     "id": "a8a2-13fb-ae33-a951",
                     "hidden": false,
                     "type": "rule",
                     "targetId": "6c1f-1cf7-ff25-c99e"
                   },
                   {
-                    "name": "單發",
+                    "name": "一次性",
                     "id": "b04d-5873-84ff-9192",
                     "hidden": false,
                     "type": "rule",
@@ -70629,7 +70629,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "7786-6d05-3436-6c43",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "56cc-5f43-2403-8da0",
@@ -70815,7 +70815,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "複合-武器",
+                    "name": "複合武器",
                     "hidden": false,
                     "id": "d4d0-3089-c473-3739",
                     "type": "selectionEntry",
@@ -70833,7 +70833,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "特製 巨型-爆破槍",
+                    "name": "特製巨型爆破槍",
                     "hidden": false,
                     "id": "2fb0-19ec-adac-9567",
                     "type": "selectionEntry",
@@ -70905,7 +70905,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "特製 巨型-短槍",
+                    "name": "特製巨型短槍",
                     "hidden": false,
                     "id": "f57d-8580-4645-8766",
                     "type": "selectionEntry",
@@ -70975,7 +70975,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "複合-武器",
+                    "name": "複合武器",
                     "hidden": false,
                     "id": "c65-4eee-17d-81c6",
                     "type": "selectionEntry",
@@ -70993,7 +70993,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "特製 巨型-爆破槍",
+                    "name": "特製巨型爆破槍",
                     "hidden": false,
                     "id": "f8a9-c125-ed2d-f167",
                     "type": "selectionEntry",
@@ -71101,7 +71101,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "特製 巨型-短槍",
+                    "name": "特製巨型短槍",
                     "hidden": false,
                     "id": "053c-feb1-c05c-5e16",
                     "type": "selectionEntry",
@@ -71197,7 +71197,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "8a23-7a7f-ff71-dfdd",
@@ -71758,7 +71758,7 @@
               {
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c",
-                "$text": "手槍"
+                "$text": "近距交戰"
               }
             ],
             "name": "短槍",
@@ -71770,7 +71770,7 @@
         ],
         "infoLinks": [
           {
-            "name": "近距",
+            "name": "近距交戰",
             "hidden": false,
             "type": "rule",
             "id": "c6ef-131f-5b03-f280",
@@ -72071,7 +72071,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "b9db-b991-9dae-feb4",
@@ -72122,7 +72122,7 @@
             "targetId": "37c-6ef9-277-9091"
           },
           {
-            "name": "獨狼作戰",
+            "name": "獨行特工",
             "hidden": false,
             "type": "rule",
             "id": "764-bb36-d0ad-f10d",
@@ -72315,7 +72315,7 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "強力勇士",
+                "name": "強大冠軍",
                 "hidden": false,
                 "id": "1504-c0fb-1d86-1fe8",
                 "type": "selectionEntryGroup",
@@ -72382,7 +72382,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "1af7-aac2-101f-6fea",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "47cc-4071-6fda-688e",
@@ -72458,7 +72458,7 @@
           {
             "characteristics": [
               {
-                "$text": "當此模型領導一個單位時，該單位中的模型具有「深入打擊」能力。",
+                "$text": "當此模型領導一個單位時，該單位中的模型具有「深度打擊」能力。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -72786,7 +72786,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "id": "d1bd-766a-70dc-2542",
             "type": "selectionEntry",
@@ -72829,7 +72829,7 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "強力勇士",
+                "name": "強大冠軍",
                 "hidden": false,
                 "id": "7417-2a51-6e33-2a18",
                 "type": "selectionEntryGroup",
@@ -73236,7 +73236,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "278b-3f88-5dc8-c106",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "f802-1e3a-d9ce-aa99",
@@ -73517,14 +73517,14 @@
                       }
                     ],
                     "import": true,
-                    "name": "特製 巨型-爆破槍",
+                    "name": "特製巨型爆破槍",
                     "hidden": false,
                     "id": "7dd8-884a-5bdb-1b23",
                     "type": "selectionEntry",
                     "targetId": "7242-bca9-a3c7-ba6a"
                   }
                 ],
-                "name": "特製 巨型-爆破槍",
+                "name": "特製巨型爆破槍",
                 "id": "9511-755a-8f81-9786",
                 "hidden": false,
                 "defaultSelectionEntryId": "2ffe-fa58-14cc-13"
@@ -73566,7 +73566,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "id": "9988-ab71-8e2a-37a6",
             "type": "selectionEntry",
@@ -74312,7 +74312,7 @@
                   }
                 ],
                 "import": true,
-                "name": "特製 巨型-爆破槍",
+                "name": "特製巨型爆破槍",
                 "hidden": false,
                 "id": "8790-eb43-ef46-15c2",
                 "type": "selectionEntry",
@@ -74994,7 +74994,7 @@
             "targetId": "8a8f-5ceb-8a0a-6c6c",
             "id": "d17f-c006-a95f-fe30",
             "type": "selectionEntry",
-            "name": "鞍座小子 武器",
+            "name": "鞍座小子武器",
             "hidden": false,
             "collective": true
           },
@@ -75535,7 +75535,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "大 Waaagh! 砍刀 升級",
+        "name": "大 Waaagh! 砍刀升級",
         "hidden": false,
         "id": "106c-02ce-13d0-a7b3"
       },
@@ -76180,7 +76180,7 @@
             "primary": true
           },
           {
-            "name": "手榴彈",
+            "name": "榴彈",
             "hidden": false,
             "id": "17db-f7c8-2c23-078e",
             "targetId": "5a61-81ac-eb7c-a87e",
@@ -77380,7 +77380,7 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "爆炸，雙聯",
+                "$text": "爆破，雙聯",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -77394,7 +77394,7 @@
         ],
         "infoLinks": [
           {
-            "name": "爆炸",
+            "name": "爆破",
             "id": "14fd-ce18-c91f-4bef",
             "hidden": false,
             "type": "rule",
@@ -77460,7 +77460,7 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "爆炸",
+                "$text": "爆破",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -77474,7 +77474,7 @@
         ],
         "infoLinks": [
           {
-            "name": "爆炸",
+            "name": "爆破",
             "id": "037c-6e5a-8114-2854",
             "hidden": false,
             "type": "rule",
@@ -77539,7 +77539,7 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "爆炸",
+                "$text": "爆破",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -77553,7 +77553,7 @@
         ],
         "infoLinks": [
           {
-            "name": "爆炸",
+            "name": "爆破",
             "id": "3efe-3213-9f25-e1a5",
             "hidden": false,
             "type": "rule",
@@ -77607,7 +77607,7 @@
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
-            "name": "➤ 超級-大砲－砲彈",
+            "name": "➤ 超級大砲－砲彈",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "遠程武器",
             "hidden": false,
@@ -77646,12 +77646,12 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "爆炸",
+                "$text": "爆破",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
-            "name": "➤ 超級-大砲－破片",
+            "name": "➤ 超級大砲－破片",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "遠程武器",
             "hidden": false,
@@ -77660,7 +77660,7 @@
         ],
         "infoLinks": [
           {
-            "name": "爆炸",
+            "name": "爆破",
             "id": "5986-313e-f4c0-2cad",
             "hidden": false,
             "type": "rule",
@@ -77669,7 +77669,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "超級-大砲",
+        "name": "超級大砲",
         "hidden": false,
         "id": "8d14-e9c0-ad28-fa20"
       },
@@ -78158,7 +78158,7 @@
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
-            "name": "特製 巨型-爆破槍",
+            "name": "特製巨型爆破槍",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "遠程武器",
             "hidden": false,
@@ -78186,7 +78186,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "特製 巨型-爆破槍",
+        "name": "特製巨型爆破槍",
         "hidden": false,
         "id": "3a32-9786-f13e-4939",
         "collective": false
@@ -78226,12 +78226,12 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "爆炸，危險",
+                "$text": "爆破，危險",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
-            "name": "特製 巨型-短槍",
+            "name": "特製巨型短槍",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "遠程武器",
             "hidden": false,
@@ -78240,7 +78240,7 @@
         ],
         "infoLinks": [
           {
-            "name": "爆炸",
+            "name": "爆破",
             "id": "6508-b63e-c6a8-5e8b",
             "hidden": false,
             "type": "rule",
@@ -78279,7 +78279,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "特製 巨型-短槍",
+        "name": "特製巨型短槍",
         "hidden": false,
         "id": "45df-1f49-a53f-13eb"
       },
@@ -78341,7 +78341,7 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "爆炸，重型",
+                "$text": "爆破，重型",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -78355,7 +78355,7 @@
         ],
         "infoLinks": [
           {
-            "name": "爆炸",
+            "name": "爆破",
             "id": "ceac-fbcf-0b86-5b4a",
             "hidden": false,
             "type": "rule",
@@ -78426,7 +78426,7 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "爆炸，無視掩護",
+                "$text": "爆破，無視掩護",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -78447,7 +78447,7 @@
             "targetId": "4640-43e7-30b-215a"
           },
           {
-            "name": "爆炸",
+            "name": "爆破",
             "id": "1ca0-82f9-4fc8-e3cf",
             "hidden": false,
             "type": "rule",
@@ -78870,7 +78870,7 @@
           {
             "characteristics": [
               {
-                "$text": "在你的每個射擊階段中一次，你可以用 0CP 對此單位使用「手榴彈」策略。結算該策略後，此單位可以進行一次至多 6 吋的普通移動。",
+                "$text": "在你的每個射擊階段中一次，你可以用 0CP 對此單位使用「榴彈」策略。結算該策略後，此單位可以進行一次至多 6 吋的普通移動。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -78931,7 +78931,7 @@
         ],
         "infoLinks": [
           {
-            "name": "獨狼作戰",
+            "name": "獨行特工",
             "hidden": false,
             "type": "rule",
             "id": "c076-f3f3-7027-5142",
@@ -78978,7 +78978,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "f7d5-d2bb-249a-9493",
@@ -79170,7 +79170,7 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "強力勇士",
+                "name": "強大冠軍",
                 "hidden": false,
                 "id": "5fbb-502c-d8b7-1fb0",
                 "type": "selectionEntryGroup",
@@ -79279,7 +79279,7 @@
                   }
                 ],
                 "import": true,
-                "name": "特製 巨型-爆破槍",
+                "name": "特製巨型爆破槍",
                 "hidden": false,
                 "id": "4910-9177-022e-11bc",
                 "type": "selectionEntry",
@@ -79532,7 +79532,7 @@
             "primary": false
           },
           {
-            "name": "步行機具",
+            "name": "步行機",
             "hidden": false,
             "id": "b6e6-b19e-410f-7201",
             "targetId": "6dda-e157-334d-e93a",
@@ -79563,7 +79563,7 @@
             "targetId": "b68a-5ded-65ac-98c"
           },
           {
-            "name": "獨狼作戰",
+            "name": "獨行特工",
             "id": "a7a5-65a1-1e97-691a",
             "hidden": false,
             "type": "rule",
@@ -79588,7 +79588,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "d54d-7b04-a470-a095",
@@ -79795,7 +79795,7 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "強力勇士",
+                "name": "強大冠軍",
                 "hidden": false,
                 "id": "59c5-f9f4-eb8f-e492",
                 "type": "selectionEntryGroup",
@@ -79855,7 +79855,7 @@
             "targetId": "b4dd-3e1f-41cb-218f"
           },
           {
-            "name": "坩堝",
+            "name": "熔爐",
             "id": "990c-000b-1f96-7e51",
             "hidden": false,
             "type": "rule",
@@ -80072,14 +80072,14 @@
             "primary": false
           },
           {
-            "name": "坩堝",
+            "name": "熔爐",
             "hidden": false,
             "id": "4399-4797-2a55-13c6",
             "targetId": "e2bc-fc0c-1099-3e75",
             "primary": false
           },
           {
-            "name": "手榴彈",
+            "name": "榴彈",
             "hidden": false,
             "id": "2779-9258-db9e-df16",
             "targetId": "5a61-81ac-eb7c-a87e",
@@ -80089,7 +80089,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "2f7a-5ad7-cbfc-e978",
@@ -80470,7 +80470,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "群落頭目［坩堝］",
+        "name": "群落頭目［熔爐］",
         "hidden": false,
         "id": "2ba9-e97a-909d-3ac5"
       },
@@ -80698,7 +80698,7 @@
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
-            "name": "鞍座小子 武器",
+            "name": "鞍座小子武器",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "遠程武器",
             "hidden": false,
@@ -80725,7 +80725,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "鞍座小子 武器",
+        "name": "鞍座小子武器",
         "hidden": false,
         "id": "8a8f-5ceb-8a0a-6c6c",
         "collective": true
@@ -81311,7 +81311,7 @@
             "targetId": "b4dd-3e1f-41cb-218f"
           },
           {
-            "name": "坩堝",
+            "name": "熔爐",
             "id": "646c-8508-318e-8777",
             "hidden": false,
             "type": "rule",
@@ -81521,7 +81521,7 @@
             "name": "陣營：歐克蠻人"
           },
           {
-            "name": "坩堝",
+            "name": "熔爐",
             "hidden": false,
             "id": "e507-a220-ac63-300d",
             "targetId": "e2bc-fc0c-1099-3e75",
@@ -81545,7 +81545,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "32d8-b62d-c1ea-d379",
@@ -81926,7 +81926,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "曲速腦袋［坩堝］",
+        "name": "曲速腦袋［熔爐］",
         "hidden": false,
         "id": "54de-2004-bbc1-3ac6"
       },
@@ -81940,7 +81940,7 @@
             "targetId": "37c-6ef9-277-9091"
           },
           {
-            "name": "坩堝",
+            "name": "熔爐",
             "id": "dab6-7310-b3b9-3d9a",
             "hidden": false,
             "type": "rule",
@@ -82171,14 +82171,14 @@
             "name": "陣營：歐克蠻人"
           },
           {
-            "name": "坩堝",
+            "name": "熔爐",
             "hidden": false,
             "id": "8cd9-790a-6b0d-0084",
             "targetId": "e2bc-fc0c-1099-3e75",
             "primary": false
           },
           {
-            "name": "手榴彈",
+            "name": "榴彈",
             "hidden": false,
             "id": "0366-65b2-d970-79dc",
             "targetId": "5a61-81ac-eb7c-a87e",
@@ -82202,7 +82202,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "1aa7-04af-3a3d-a9ff",
@@ -82583,7 +82583,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "新貴屁精［坩堝］",
+        "name": "新貴屁精［熔爐］",
         "hidden": false,
         "id": "6a69-8e75-49ae-408f"
       },
@@ -82729,7 +82729,7 @@
           {
             "characteristics": [
               {
-                "$text": "若此模型是你的**軍閥**，你軍隊中的**戰鬥摩托騎士**單位獲得**戰線**關鍵詞。",
+                "$text": "若此模型是你的**戰主**，你軍隊中的**戰鬥摩托騎士**單位獲得**戰線**關鍵詞。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -82799,14 +82799,14 @@
             "targetId": "b68a-5ded-65ac-98c"
           },
           {
-            "name": "深入打擊",
+            "name": "深度打擊",
             "hidden": false,
             "type": "rule",
             "id": "6207-bb0c-bbf0-00f2",
             "targetId": "7cb5-dd6b-dd87-ad3b"
           },
           {
-            "name": "獨狼作戰",
+            "name": "獨行特工",
             "hidden": false,
             "type": "rule",
             "id": "9958-cf69-08e3-0eba",
@@ -82824,7 +82824,7 @@
           {
             "categoryLinks": [
               {
-                "name": "瓦茲達卡軍閥旗",
+                "name": "瓦茲達卡戰主旗",
                 "hidden": false,
                 "id": "1686-f454-2a8a-c9ce",
                 "targetId": "2579-f731-8059-d6fd",
@@ -82832,7 +82832,7 @@
               }
             ],
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "4660-5c8c-5ab8-7c8f",
@@ -83268,7 +83268,7 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "強力勇士",
+                "name": "強大冠軍",
                 "hidden": false,
                 "id": "89ec-b2ab-2c2e-f309",
                 "type": "selectionEntryGroup",
@@ -83593,7 +83593,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "此模型可以附屬於下列單位： - **小子**\n- **破壞 小子**\n- **老大**"
+                "$text": "此模型可以附屬於下列單位：\n- **小子**\n- **破壞小子**\n- **老大**"
               }
             ]
           },
@@ -83729,7 +83729,7 @@
                       {
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e",
-                        "$text": "劈砍 1"
+                        "$text": "劈斬 1"
                       }
                     ]
                   }
@@ -83766,7 +83766,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "劈砍",
+                    "name": "劈斬",
                     "id": "54b8-f60d-ea0e-5c2c",
                     "hidden": false,
                     "type": "rule",
@@ -83822,7 +83822,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "id": "325c-6b22-8819-d5e8",
             "type": "selectionEntry",
@@ -84264,7 +84264,7 @@
                 "$text": "速射 2"
               }
             ],
-            "name": "特製 突突槍",
+            "name": "特製突突槍",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "遠程武器",
             "hidden": false,
@@ -84298,7 +84298,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "特製 突突槍",
+        "name": "特製突突槍",
         "hidden": false,
         "id": "3d2f-5a70-0d67-bce8",
         "collective": false,
@@ -84669,7 +84669,7 @@
             "primary": false
           },
           {
-            "name": "步行機具",
+            "name": "步行機",
             "hidden": false,
             "id": "f423-24af-a7b4-2a78",
             "targetId": "6dda-e157-334d-e93a",
@@ -85153,7 +85153,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "edf4-715f-7d14-185c",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "56cc-5f43-2403-8da0",
@@ -85252,7 +85252,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "此模型可以附屬於下列單位：\n- **小子**\n- **破壞 小子**\n- **老大**"
+                "$text": "此模型可以附屬於下列單位：\n- **小子**\n- **破壞小子**\n- **老大**"
               }
             ]
           }
@@ -85276,7 +85276,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "type": "selectionEntry",
             "id": "826b-2569-a935-6041",
@@ -85372,7 +85372,7 @@
                         "$text": "速射 2"
                       }
                     ],
-                    "name": "特製 突突槍",
+                    "name": "特製突突槍",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -85409,7 +85409,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "特製 突突槍",
+                "name": "特製突突槍",
                 "hidden": false,
                 "id": "a219-eff5-4df1-b32c"
               },
@@ -85468,10 +85468,10 @@
                       {
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e",
-                        "$text": "劈砍 1"
+                        "$text": "劈斬 1"
                       }
                     ],
-                    "name": "特製 砍刀",
+                    "name": "特製砍刀",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -85480,7 +85480,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "劈砍",
+                    "name": "劈斬",
                     "id": "1f12-b15f-f39d-4633",
                     "hidden": false,
                     "type": "rule",
@@ -85508,7 +85508,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "特製 砍刀",
+                "name": "特製砍刀",
                 "hidden": false,
                 "id": "7a54-f568-818d-f7ac"
               }
@@ -86241,7 +86241,7 @@
                 "$text": "若此單位的起始兵力為 20，你可以將至多兩個領袖單位附屬於此單位，而非一個（但其中一個必須是**戰爭頭目**單位）。若如此做且此單位被摧毀，附屬於此單位的領袖單位會各自成為獨立單位，並恢復其原始起始兵力。"
               }
             ],
-            "name": "親衛",
+            "name": "小隊",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -86271,7 +86271,7 @@
             "targetId": "5a61-81ac-eb7c-a87e",
             "id": "9825-f6c0-8ac7-bb1f",
             "primary": false,
-            "name": "手榴彈"
+            "name": "榴彈"
           },
           {
             "targetId": "1c75-96a5-5598-2cd",
@@ -86529,14 +86529,14 @@
                       {
                         "type": "upgrade",
                         "import": true,
-                        "name": "複合-突突槍與複合-火箭",
+                        "name": "複合突突槍與複合火箭",
                         "hidden": false,
                         "id": "594e-bd71-0dd1-4134",
                         "selectionEntries": [
                           {
                             "type": "upgrade",
                             "import": true,
-                            "name": "複合-火箭",
+                            "name": "複合火箭",
                             "hidden": false,
                             "id": "32ab-c37c-b71f-8415",
                             "entryLinks": [
@@ -86551,7 +86551,7 @@
                             ],
                             "profiles": [
                               {
-                                "name": "複合-火箭",
+                                "name": "複合火箭",
                                 "typeId": "f77d-b953-8fa4-b762",
                                 "typeName": "遠程武器",
                                 "hidden": false,
@@ -86619,7 +86619,7 @@
                           {
                             "type": "upgrade",
                             "import": true,
-                            "name": "複合-突突槍",
+                            "name": "複合突突槍",
                             "hidden": false,
                             "id": "3be9-053f-6354-b606",
                             "entryLinks": [
@@ -86634,7 +86634,7 @@
                             ],
                             "profiles": [
                               {
-                                "name": "複合-突突槍",
+                                "name": "複合突突槍",
                                 "typeId": "f77d-b953-8fa4-b762",
                                 "typeName": "遠程武器",
                                 "hidden": false,
@@ -86720,14 +86720,14 @@
                         "id": "5e00-3a87-5c90-4873"
                       }
                     ],
-                    "name": "特製 突突槍",
+                    "name": "特製突突槍",
                     "id": "a6d8-16e9-4d0f-44b8",
                     "hidden": false,
                     "defaultSelectionEntryId": "051f-378b-9bf6-2f0b",
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "特製 突突槍",
+                        "name": "特製突突槍",
                         "hidden": false,
                         "id": "051f-378b-9bf6-2f0b",
                         "type": "selectionEntry",
@@ -86960,7 +86960,7 @@
               }
             ],
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "id": "7b85-4789-956f-4236",
             "type": "selectionEntry",
@@ -87409,7 +87409,7 @@
                     "id": "57d3-d69e-6a13-326e",
                     "profiles": [
                       {
-                        "name": "屁精 爆破槍",
+                        "name": "屁精爆破槍",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "遠程武器",
                         "hidden": false,
@@ -87448,14 +87448,14 @@
                           {
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c",
-                            "$text": "近距"
+                            "$text": "近距交戰"
                           }
                         ]
                       }
                     ],
                     "infoLinks": [
                       {
-                        "name": "近距",
+                        "name": "近距交戰",
                         "id": "688d-2574-3842-b4d9",
                         "hidden": false,
                         "type": "rule",
@@ -87685,7 +87685,7 @@
               }
             ],
             "import": true,
-            "name": "軍閥",
+            "name": "戰主",
             "hidden": false,
             "id": "d96c-d623-7824-1eac",
             "type": "selectionEntry",
@@ -90097,7 +90097,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "僅限**歐克蠻人步兵**模型。在你的指揮階段中，若持有者在戰場上（或正搭乘戰場上的**運輸載具**），擲一顆 D6；若持有者的單位包含 10 個或更多模型，結果加 2。若結果為 5+，你獲得 1CP。",
+                        "$text": "僅限**歐克蠻人步兵**模型。在你的指揮階段中，若持有者在戰場上（或正搭乘戰場上的**運輸**），擲一顆 D6；若持有者的單位包含 10 個或更多模型，結果加 2。若結果為 5+，你獲得 1CP。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -90927,7 +90927,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "僅限**巨型裝甲戰爭頭目**模型。持有者單位中的模型具有「深入打擊」能力。",
+                        "$text": "僅限**巨型裝甲戰爭頭目**模型。持有者單位中的模型具有「深度打擊」能力。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -90990,7 +90990,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "深入打擊",
+                    "name": "深度打擊",
                     "id": "dca1-4256-bfe0-8575",
                     "hidden": false,
                     "type": "rule",
@@ -91219,7 +91219,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "僅限**歐克蠻人步兵**模型。每當持有者的單位在一個**運輸載具**完成普通移動後從中下車，持有者的單位在本回合仍符合宣告衝鋒資格。",
+                        "$text": "僅限**歐克蠻人步兵**模型。每當持有者的單位在一個**運輸**完成普通移動後從中下車，持有者的單位在本回合仍符合宣告衝鋒資格。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -91368,7 +91368,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "僅限**歐克蠻人**模型。在你的指揮階段中，若持有者（或持有者所搭乘的**運輸載具**）位於一個或更多敵方單位 9 吋內，擲一顆 D6；若結果為 3+，你獲得 1CP。",
+                        "$text": "僅限**歐克蠻人**模型。在你的指揮階段中，若持有者（或持有者所搭乘的**運輸**）位於一個或更多敵方單位 9 吋內，擲一顆 D6；若結果為 3+，你獲得 1CP。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -92601,7 +92601,7 @@
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
-                    "name": "那個 艦長",
+                    "name": "艦長老大",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "能力",
                     "hidden": false,
@@ -92713,7 +92713,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "那個 艦長",
+                "name": "艦長老大",
                 "hidden": false,
                 "id": "a1c0-bf58-83ec-60b7"
               }
@@ -92856,7 +92856,7 @@
                 ],
                 "categoryLinks": [
                   {
-                    "name": "手榴彈",
+                    "name": "榴彈",
                     "hidden": false,
                     "id": "63d3-39da-633a-142d",
                     "targetId": "5a61-81ac-eb7c-a87e",
@@ -92986,7 +92986,7 @@
                 ],
                 "categoryLinks": [
                   {
-                    "name": "手榴彈",
+                    "name": "榴彈",
                     "hidden": false,
                     "id": "9ecd-a95f-f7ee-ea79",
                     "targetId": "5a61-81ac-eb7c-a87e",
@@ -93125,7 +93125,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "在「部署軍隊」步驟中，選擇你軍隊中的一個**巨裝老大**單位。直到戰鬥結束，該單位中的模型具有「深入打擊」能力。",
+                        "$text": "在「部署軍隊」步驟中，選擇你軍隊中的一個**巨裝老大**單位。直到戰鬥結束，該單位中的模型具有「深度打擊」能力。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -93173,7 +93173,7 @@
                 ],
                 "categoryLinks": [
                   {
-                    "name": "手榴彈",
+                    "name": "榴彈",
                     "hidden": false,
                     "id": "dd23-5f2d-51c8-1108",
                     "targetId": "5a61-81ac-eb7c-a87e",
@@ -93288,7 +93288,7 @@
                 ],
                 "categoryLinks": [
                   {
-                    "name": "手榴彈",
+                    "name": "榴彈",
                     "hidden": false,
                     "id": "0661-ae8c-86a4-6a05",
                     "targetId": "5a61-81ac-eb7c-a87e",
@@ -94245,7 +94245,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "僅限**歐克蠻人步兵角色**模型。每當你為持有者的單位進行衝鋒擲骰時，若該單位在本回合曾從**運輸載具**下車，結果加 1。",
+                        "$text": "僅限**歐克蠻人步兵角色**模型。每當你為持有者的單位進行衝鋒擲骰時，若該單位在本回合曾從**運輸**下車，結果加 1。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -94268,7 +94268,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "僅限**歐克蠻人步兵角色**模型。在持有者的單位從**運輸載具**下車的階段結束時，若該單位處於戰鬥震懾狀態，則不再處於戰鬥震懾狀態。",
+                        "$text": "僅限**歐克蠻人步兵角色**模型。在持有者的單位從**運輸**下車的階段結束時，若該單位處於戰鬥震懾狀態，則不再處於戰鬥震懾狀態。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -94404,7 +94404,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "僅限**歐克蠻人角色**模型。雙方玩家部署完軍隊後，若持有者的單位（或其搭乘的任何**運輸載具**）在戰場上，選擇你軍隊中的至多三個**歐克蠻人載具**單位並重新部署。如此做時，可以將那些單位設置於戰略預備隊，無論已有多少單位位於戰略預備隊。",
+                        "$text": "僅限**歐克蠻人角色**模型。雙方玩家部署完軍隊後，若持有者的單位（或其搭乘的任何**運輸**）在戰場上，選擇你軍隊中的至多三個**歐克蠻人載具**單位並重新部署。如此做時，可以將那些單位設置於戰略預備隊，無論已有多少單位位於戰略預備隊。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -95168,7 +95168,7 @@
           {
             "rules": [
               {
-                "description": "每當你軍隊中的一個**技師**、**歐克蠻人步行機具**或**屁精載具**單位被選擇進行射擊或近戰時，擲一顆 D6。直到該階段結束時，該單位中模型所配備的武器具有下表所示的對應能力。\n或者，當此類單位被選擇進行射擊或近戰時，你可以直接選擇上列一項能力，而不擲 D6。若如此做，直到該階段結束時，該單位中模型所配備的武器也具有**［危險］**能力。\n若你軍隊中一個模型所配備的武器從多個來源獲得**［危險］**能力，則每當你為該武器進行危險測試時，擲骰結果為 1–3 即失敗。",
+                "description": "每當你軍隊中的一個**技師**、**歐克蠻人步行機**或**屁精載具**單位被選擇進行射擊或近戰時，擲一顆 D6。直到該階段結束時，該單位中模型所配備的武器具有下表所示的對應能力。\n或者，當此類單位被選擇進行射擊或近戰時，你可以直接選擇上列一項能力，而不擲 D6。若如此做，直到該階段結束時，該單位中模型所配備的武器也具有**［危險］**能力。\n若你軍隊中一個模型所配備的武器從多個來源獲得**［危險］**能力，則每當你為該武器進行危險測試時，擲骰結果為 1–3 即失敗。",
                 "name": "試試那個按鈕！",
                 "id": "3664-2bb3-64e4-e684",
                 "hidden": false
@@ -95433,7 +95433,7 @@
           {
             "rules": [
               {
-                "description": "在你的指揮階段開始時，若本回合尚未發動 Waaagh!，且戰場上有你的一個或更多**戰爭頭目**模型（或其正搭乘戰場上的**運輸載具**），你可以在本場戰鬥中第二次發動 Waaagh!。如此發動的第二次 Waaagh! 僅視為對你軍隊中的**戰爭頭目**、**老大**及**巨裝老大**單位發動。",
+                "description": "在你的指揮階段開始時，若本回合尚未發動 Waaagh!，且戰場上有你的一個或更多**戰爭頭目**模型（或其正搭乘戰場上的**運輸**），你可以在本場戰鬥中第二次發動 Waaagh!。如此發動的第二次 Waaagh! 僅視為對你軍隊中的**戰爭頭目**、**老大**及**巨裝老大**單位發動。",
                 "name": "頭目正看著",
                 "id": "2195-4d6e-a1f1-1b63",
                 "hidden": false
@@ -95570,7 +95570,7 @@
             ],
             "categoryLinks": [
               {
-                "name": "擾亂",
+                "name": "干擾",
                 "hidden": false,
                 "id": "4e48-9fa3-bba5-83a7",
                 "targetId": "ecf8-cf72-7d5b-1b5b",
@@ -95707,7 +95707,7 @@
             ],
             "categoryLinks": [
               {
-                "name": "擾亂",
+                "name": "干擾",
                 "hidden": false,
                 "id": "f3d1-d6b2-ec96-ad44",
                 "targetId": "ecf8-cf72-7d5b-1b5b",
@@ -95829,7 +95829,7 @@
           {
             "rules": [
               {
-                "description": "在你的指揮階段開始時，選擇一個目標標記。直到你的下一個指揮階段開始時，該目標標記為你的戰利品目標。\n\n每當你軍隊中一個**歐克蠻人步兵**、**歐克蠻人騎乘**或**歐克蠻人步行機具**單位中的模型進行攻擊時，若符合下列任一或兩項條件，該次攻擊具有**［連擊 1］**能力：\n- 該模型的單位位於你的戰利品目標範圍內。\n- 該次攻擊的目標單位位於你的戰利品目標範圍內。",
+                "description": "在你的指揮階段開始時，選擇一個目標標記。直到你的下一個指揮階段開始時，該目標標記為你的戰利品目標。\n\n每當你軍隊中一個**歐克蠻人步兵**、**歐克蠻人騎乘**或**歐克蠻人步行機**單位中的模型進行攻擊時，若符合下列任一或兩項條件，該次攻擊具有**［連擊 1］**能力：\n- 該模型的單位位於你的戰利品目標範圍內。\n- 該次攻擊的目標單位位於你的戰利品目標範圍內。",
                 "name": "這裡有戰利品",
                 "id": "078c-99f5-cc7a-9ad9",
                 "hidden": false
@@ -95958,7 +95958,7 @@
                 "hidden": false
               },
               {
-                "description": "- **大技師**模型失去「震擊增壓器」能力。\n- **斯尼克羅特老大**模型失去「狡詐滲透者」能力。\n- **小子**單位失去「搶到好東西」能力。\n- **特戰小子**單位失去「鬼祟小子」及「炸彈史古格」能力。\n- **風暴小子**單位失去「深入打擊」及「油門全開」能力。\n- **怪異小子**模型失去「Waaagh! 能量」及「大跳躍」能力。\n- **巫嚎小子**模型失去「不穩定神諭者」能力。\n- **佐德格羅德·沃特斯納加**模型失去「特別劑量」能力。",
+                "description": "- **大技師**模型失去「震擊增壓器」能力。\n- **斯尼克羅特老大**模型失去「狡詐滲透者」能力。\n- **小子**單位失去「搶到好東西」能力。\n- **特戰小子**單位失去「鬼祟小子」及「炸彈史古格」能力。\n- **風暴小子**單位失去「深度打擊」及「油門全開」能力。\n- **怪異小子**模型失去「Waaagh! 能量」及「大跳躍」能力。\n- **巫嚎小子**模型失去「不穩定神諭者」能力。\n- **佐德格羅德·沃特斯納加**模型失去「特別劑量」能力。",
                 "name": "規則調整",
                 "id": "aad1-f91a-9039-5372",
                 "hidden": false
@@ -96071,7 +96071,7 @@
           {
             "rules": [
               {
-                "description": "每當你軍隊中的一個**速度狂**或**卡車**單位（不包括**航空器**）突進時，可以使用其渦輪。若如此做，不要為其進行突進擲骰；改為直到該階段結束時，該單位中模型的移動屬性為 24 吋，但只能沿一條直線移動。直到該回合結束時，這些模型所配備的遠程武器具有**［突擊］**能力，且該單位不能宣告衝鋒。\n\n**設計者註記：** *單位使用渦輪時，其中的模型不能轉向，也不能沿兩條或更多直線移動（例如繞過障礙物）。即使其他規則允許已突進的單位宣告衝鋒，該單位仍不能宣告衝鋒。*",
+                "description": "每當你軍隊中的一個**速度狂**或**卡車**單位（不包括**飛行器**）突進時，可以使用其渦輪。若如此做，不要為其進行突進擲骰；改為直到該階段結束時，該單位中模型的移動屬性為 24 吋，但只能沿一條直線移動。直到該回合結束時，這些模型所配備的遠程武器具有**［突擊］**能力，且該單位不能宣告衝鋒。\n\n**設計者註記：** *單位使用渦輪時，其中的模型不能轉向，也不能沿兩條或更多直線移動（例如繞過障礙物）。即使其他規則允許已突進的單位宣告衝鋒，該單位仍不能宣告衝鋒。*",
                 "name": "渦輪增壓器",
                 "id": "6962-5dfc-36e6-7687",
                 "hidden": false
@@ -96175,7 +96175,7 @@
           {
             "rules": [
               {
-                "description": "每當你軍隊中的一個**歐克蠻人**單位從**運輸載具**下車時，直到該回合結束，你可以重擲為該**歐克蠻人**單位進行的突進與衝鋒擲骰。",
+                "description": "每當你軍隊中的一個**歐克蠻人**單位從**運輸**下車時，直到該回合結束，你可以重擲為該**歐克蠻人**單位進行的突進與衝鋒擲骰。",
                 "name": "渴望開打",
                 "id": "5742-4494-1463-2670",
                 "hidden": false
@@ -97475,7 +97475,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "僅限**騎乘 Waaagh! 頭目**模型。持有者單位中模型的移動屬性加 2 吋，且具有「先制近戰」能力。",
+                    "$text": "僅限**騎乘 Waaagh! 頭目**模型。持有者單位中模型的移動屬性加 2 吋，且具有「先攻」能力。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -97548,7 +97548,7 @@
             ],
             "infoLinks": [
               {
-                "name": "先制近戰",
+                "name": "先攻",
                 "id": "3b8b-a5e3-cac5-e03d",
                 "hidden": false,
                 "type": "rule",
@@ -99880,7 +99880,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "僅限**步行機具**模型（不包括**殺戮罐頭**）。\n- 此模型的移動屬性加 2 吋。\n- 為此模型進行的突進與衝鋒擲骰加 1。",
+                        "$text": "僅限**步行機**模型（不包括**殺戮罐頭**）。\n- 此模型的移動屬性加 2 吋。\n- 為此模型進行的突進與衝鋒擲骰加 1。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -99965,7 +99965,7 @@
           },
           {
             "import": true,
-            "name": "戰鬥傷疤",
+            "name": "戰鬥傷痕",
             "hidden": false,
             "id": "89b0-c5a9-e535-ed2f",
             "type": "selectionEntryGroup",
@@ -100106,7 +100106,7 @@
               },
               {
                 "import": true,
-                "name": "無魂區黑石升級",
+                "name": "帕利亞樞紐黑石升級",
                 "hidden": false,
                 "id": "62d2-127a-1cc5-922a",
                 "type": "selectionEntryGroup",
@@ -100398,7 +100398,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "僅限**群落頭目**。將此模型的移動屬性改為 12 吋，加入**跳躍背包**及**飛行**關鍵詞，並使其獲得「深入打擊」能力。將此模型可以附屬的單位列表替換為：**風暴小子**。",
+                    "$text": "僅限**群落頭目**。將此模型的移動屬性改為 12 吋，加入**跳躍背包**及**飛行**關鍵詞，並使其獲得「深度打擊」能力。將此模型可以附屬的單位列表替換為：**風暴小子**。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -100463,7 +100463,7 @@
             ],
             "infoLinks": [
               {
-                "name": "深入打擊",
+                "name": "深度打擊",
                 "id": "4f1f-fdd4-4a76-a8e7",
                 "hidden": false,
                 "type": "rule",
@@ -101403,7 +101403,7 @@
                   }
                 ],
                 "import": true,
-                "name": "複合-武器",
+                "name": "複合武器",
                 "hidden": false,
                 "id": "afb8-2412-ba68-7d9d",
                 "type": "selectionEntry",
@@ -101432,7 +101432,7 @@
                   }
                 ],
                 "import": true,
-                "name": "特製 巨型-爆破槍",
+                "name": "特製巨型爆破槍",
                 "hidden": false,
                 "id": "842f-7c10-6705-4bc6",
                 "type": "selectionEntry",
@@ -101461,7 +101461,7 @@
                   }
                 ],
                 "import": true,
-                "name": "特製 巨型-短槍",
+                "name": "特製巨型短槍",
                 "hidden": false,
                 "id": "3c4c-34db-59cc-725e",
                 "type": "selectionEntry",
@@ -101490,7 +101490,7 @@
                   }
                 ],
                 "import": true,
-                "name": "特製 突突槍",
+                "name": "特製突突槍",
                 "hidden": false,
                 "id": "ac05-1697-ca4e-f8ee",
                 "type": "selectionEntry",
@@ -101537,7 +101537,7 @@
                   }
                 ],
                 "import": true,
-                "name": "鞍座小子 武器",
+                "name": "鞍座小子武器",
                 "hidden": false,
                 "id": "71ec-e475-f4bb-f3d5",
                 "type": "selectionEntry",
@@ -101763,7 +101763,7 @@
                   }
                 ],
                 "import": true,
-                "name": "屁精 爆破槍",
+                "name": "屁精爆破槍",
                 "hidden": false,
                 "id": "add8-33e4-4b33-e2f0",
                 "type": "selectionEntry",
@@ -102213,7 +102213,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "獵獸 爪",
+                    "name": "獵獸爪",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -102268,7 +102268,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "獵獸 爪",
+                "name": "獵獸爪",
                 "hidden": false,
                 "id": "3d1d-54d6-45fb-669f"
               },
@@ -103237,7 +103237,7 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "大 Waaagh! 砍刀 升級",
+                "name": "大 Waaagh! 砍刀升級",
                 "hidden": false,
                 "id": "6358-70ca-b9d7-cb5c",
                 "type": "selectionEntry",
@@ -104442,7 +104442,7 @@
       },
       {
         "comment": "Tracking flag for seeing if Wazdakka is a Warlord in a roster",
-        "name": "瓦茲達卡軍閥旗",
+        "name": "瓦茲達卡戰主旗",
         "id": "2579-f731-8059-d6fd",
         "hidden": true
       },
@@ -105162,7 +105162,7 @@
           }
         ],
         "import": true,
-        "name": "戰鬥序列",
+        "name": "作戰序列",
         "hidden": false,
         "id": "d094-9e48-67d4-dfc4",
         "type": "selectionEntry",
@@ -105234,7 +105234,7 @@
       },
       {
         "import": true,
-        "name": "群落頭目［坩堝］",
+        "name": "群落頭目［熔爐］",
         "hidden": false,
         "id": "cab8-7238-2445-067b",
         "targetId": "2ba9-e97a-909d-3ac5",
@@ -105242,7 +105242,7 @@
       },
       {
         "import": true,
-        "name": "曲速腦袋［坩堝］",
+        "name": "曲速腦袋［熔爐］",
         "hidden": false,
         "id": "3049-3ebe-9129-ff02",
         "targetId": "54de-2004-bbc1-3ac6",
@@ -105250,7 +105250,7 @@
       },
       {
         "import": true,
-        "name": "新貴屁精［坩堝］",
+        "name": "新貴屁精［熔爐］",
         "hidden": false,
         "id": "e9e4-d332-9c57-f71b",
         "targetId": "6a69-8e75-49ae-408f",
