@@ -280,14 +280,14 @@
                 "field": "hidden"
               }
             ],
-            "name": "深擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "dcf6-ea49-8129-442f",
             "targetId": "7cb5-dd6b-dd87-ad3b"
           },
           {
-            "name": "不怕痛",
+            "name": "不覺疼痛",
             "hidden": false,
             "type": "rule",
             "id": "5e02-c62b-cbbd-6bf4",
@@ -305,12 +305,12 @@
           {
             "characteristics": [
               {
-                "$text": "此單位具有 5+ 不怕痛。",
+                "$text": "此單位具有 5+ 不覺疼痛。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "不怕痛 5+",
+            "name": "不覺疼痛 5+",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -319,7 +319,7 @@
           {
             "characteristics": [
               {
-                "$text": "當一名角色正在領導此單位時， 每次一個攻擊以其為目標此單位， 若該力量屬性的攻擊為大於比該韌性屬性的此單位， 減1於該致傷擲骰。",
+                "$text": "當一名角色正在領導此單位時，每次有攻擊以此單位為目標，若該攻擊的力量屬性高於此單位的韌性屬性，則該次致傷擲骰減 1。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -548,7 +548,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -578,7 +578,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -608,7 +608,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -638,7 +638,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -654,7 +654,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -1168,12 +1168,12 @@
           {
             "characteristics": [
               {
-                "$text": "此模型具有 5+ 不怕痛。",
+                "$text": "此模型具有 5+ 不覺疼痛。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "不怕痛 5+",
+            "name": "不覺疼痛 5+",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -1228,14 +1228,14 @@
                 "field": "hidden"
               }
             ],
-            "name": "深擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "4208-122f-6c49-c492",
             "targetId": "7cb5-dd6b-dd87-ad3b"
           },
           {
-            "name": "不怕痛",
+            "name": "不覺疼痛",
             "hidden": false,
             "type": "rule",
             "id": "b407-f36d-489-458f",
@@ -1257,7 +1257,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "此模型可以加入下列單位： - 畸變體",
+                    "$text": "此模型可以附屬於下列單位：\n- 畸變體",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -1450,7 +1450,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -1480,7 +1480,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -1510,7 +1510,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -1540,7 +1540,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -1556,7 +1556,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -1688,7 +1688,7 @@
                   }
                 ],
                 "type": "add",
-                "value": "Cannot take 3 Characters in a Genespawn Onslaught",
+                "value": "此編制不可選取 3 名角色。",
                 "field": "error"
               }
             ],
@@ -1956,7 +1956,7 @@
                 "field": "name"
               }
             ],
-            "name": "斥候",
+            "name": "斥侯",
             "hidden": false,
             "type": "rule",
             "id": "e486-edeb-4dc7-ebd",
@@ -1967,7 +1967,7 @@
           {
             "characteristics": [
               {
-                "$text": "在你的射擊階段， 之後此單位完成射擊後， 選擇一個敵方單位被一個或更多命中的那些攻擊次數。 直到該回合結束前， 每次一個友方 **^^基因竊取者教派^^** 單位進行一次攻擊該以其為目標該敵方單位， 改善該穿甲屬性的攻擊由 1。 同一個敵方單位可以只能被影響由此能力每回合一次。",
+                "$text": "在你的射擊階段，此單位完成射擊後，選擇一個被其中一個或更多攻擊命中的敵方單位。直到該回合結束前，每次一個友方 **^^基因竊取者教派^^** 單位以該敵方單位為目標進行攻擊時，該攻擊的穿甲屬性改善 1。同一敵方單位每回合只能受此能力影響一次。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -2153,7 +2153,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -2183,7 +2183,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -2213,7 +2213,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -2243,7 +2243,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -2259,7 +2259,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -2576,7 +2576,7 @@
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ],
-                            "name": "雙聯重伐木槍",
+                            "name": "雙聯重型機槍",
                             "typeId": "f77d-b953-8fa4-b762",
                             "typeName": "遠程武器",
                             "hidden": false,
@@ -2647,7 +2647,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "雙聯重伐木槍",
+                        "name": "雙聯重型機槍",
                         "hidden": false,
                         "id": "1d2a-dcb9-d666-68ec"
                       }
@@ -2678,7 +2678,7 @@
                               {
                                 "characteristics": [
                                   {
-                                    "$text": "攜帶者的單位具有煙幕關鍵字，且你可以以 0 點指揮點 將該單位作為煙幕計謀的目標。",
+                                    "$text": "攜帶者的單位具有煙幕關鍵字，且你可以以 0 點指揮點將該單位作為煙幕計謀的目標。",
                                     "name": "Description",
                                     "typeId": "9b8f-694b-e5e-b573"
                                   }
@@ -2710,7 +2710,7 @@
                               {
                                 "characteristics": [
                                   {
-                                    "$text": "攜帶者的遠程武器具有一個射擊技巧屬性的 3+。",
+                                    "$text": "攜帶者的遠程武器之射擊技巧屬性為 3+。",
                                     "name": "Description",
                                     "typeId": "9b8f-694b-e5e-b573"
                                   }
@@ -2738,7 +2738,7 @@
                                       }
                                     ],
                                     "type": "append",
-                                    "value": "Spotter",
+                                    "value": "觀測手",
                                     "field": "annotation",
                                     "join": ", ",
                                     "scope": "model-or-unit",
@@ -2777,7 +2777,7 @@
                               {
                                 "characteristics": [
                                   {
-                                    "$text": "每次攜帶者的單位完成射擊後， 選擇一個敵方單位該曾為被一個或更多命中攻擊次數進行了由攜帶者此階段。 直到該階段結束前， 每次一個友方基因竊取者教派模型進行一次攻擊對抗該單位， 該攻擊具有該 [無視掩護] 能力。",
+                                    "$text": "攜帶者的單位每次完成射擊後，選擇一個在此階段被攜帶者一次或更多攻擊命中的敵方單位。直到該階段結束前，友方基因竊取者教派模型每次攻擊該單位時，該攻擊具有 [無視掩護] 能力。",
                                     "name": "Description",
                                     "typeId": "9b8f-694b-e5e-b573"
                                   }
@@ -3458,7 +3458,7 @@
                 "field": "hidden"
               }
             ],
-            "name": "深擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "6fec-79b8-873c-e33b",
@@ -3525,7 +3525,7 @@
                     "targetId": "661-4ada-993b-de26",
                     "id": "3186-21f4-3e77-de03",
                     "type": "selectionEntry",
-                    "name": "教派利爪與刀",
+                    "name": "教派利爪與匕首",
                     "hidden": false,
                     "collective": true
                   }
@@ -3608,7 +3608,7 @@
                     "targetId": "661-4ada-993b-de26",
                     "id": "6946-f3b1-498a-a120",
                     "type": "selectionEntry",
-                    "name": "教派利爪與刀",
+                    "name": "教派利爪與匕首",
                     "hidden": false,
                     "collective": true
                   }
@@ -3692,7 +3692,7 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "突擊，爆炸，危險，一次射擊",
+                            "$text": "突擊，爆炸，危險，一次性",
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
@@ -3706,8 +3706,8 @@
                     ],
                     "rules": [
                       {
-                        "description": "。攜帶者可以只能射擊具有此武器每場戰鬥一次",
-                        "name": "一次射擊",
+                        "description": "攜帶者每場戰鬥只能使用此武器射擊一次。",
+                        "name": "一次性",
                         "id": "875e-99f5-fa02-477e",
                         "hidden": false
                       }
@@ -3790,7 +3790,7 @@
                           }
                         ],
                         "type": "add",
-                        "value": "Can only take 2 Demolition charges per 5 models",
+                        "value": "每 5 個模型最多只能選取 2 個爆破炸藥。",
                         "field": "error"
                       }
                     ],
@@ -3832,7 +3832,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "教派利爪與刀",
+                    "name": "教派利爪與匕首",
                     "hidden": false,
                     "id": "716a-949a-a22-5335",
                     "targetId": "661-4ada-993b-de26",
@@ -4077,7 +4077,7 @@
                           }
                         ],
                         "import": true,
-                        "name": "教派利爪與刀",
+                        "name": "教派利爪與匕首",
                         "hidden": false,
                         "id": "2712-0d30-a1cd-843b",
                         "targetId": "661-4ada-993b-de26",
@@ -4191,7 +4191,7 @@
           {
             "characteristics": [
               {
-                "$text": "每次一個模型在此單位進行一次攻擊， 重擲一個致傷擲骰的 1。 若該目標的攻擊為一個敵方單位位於範圍的一個目標標記， 你可以重擲該致傷擲骰。",
+                "$text": "此單位中的模型每次進行攻擊時，重擲致傷擲骰結果 1。若該攻擊的目標是目標標記範圍內的敵方單位，則可以重擲該次致傷擲骰。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -4420,7 +4420,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -4450,7 +4450,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -4480,7 +4480,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -4510,7 +4510,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -4526,7 +4526,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -4766,7 +4766,7 @@
                 "field": "hidden"
               }
             ],
-            "name": "深擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "4443-dccf-4eca-d374",
@@ -4780,7 +4780,7 @@
                 "field": "name"
               }
             ],
-            "name": "斥候",
+            "name": "斥侯",
             "id": "d3a1-1c59-8120-786d",
             "hidden": false,
             "type": "rule",
@@ -4842,7 +4842,7 @@
           {
             "characteristics": [
               {
-                "$text": "當此模型正在領導一個單位時， 模型在該單位具有該不怕痛 5+ 能力。 若該單位具有該混血變異者關鍵字， 模型在該單位具有該不怕痛 4+ 能力改為。",
+                "$text": "當此模型正在領導一個單位時，該單位中的模型具有不覺疼痛 5+ 能力。若該單位具有混血變異者關鍵字，則改為具有不覺疼痛 4+ 能力。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -4858,7 +4858,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "每場戰鬥一次， 當你具有至移除一個教派伏擊標記因為你的對手具有移動過於接近至它， 若一個或更多模型來自你的軍隊具有此能力為在戰場上， 你可以使用此能力。 若你執行， 改為的移除該標記， 你可以放置它任意位置在戰場上該為位於 12\" 的一個模型來自你的軍隊具有此能力和超過 8\" 水平遠離從所有敵方單位 （若此為不可能， 此能力為不視為至具有已被使用和該標記為移除如常）。"
+                "$text": "每場戰鬥一次，當對手因移動得過於接近教派伏擊標記，導致你必須移除該標記時，若你軍隊中有一個或更多具有此能力的模型位於戰場上，則可以使用此能力。若如此做，不移除該標記；改為將其放置於戰場上任意位置，但必須在一個具有此能力的己方模型 12 吋內，且水平距離所有敵方單位超過 8 吋。若無法如此放置，則視為未使用此能力，並照常移除該標記。"
               }
             ],
             "modifiers": [
@@ -4879,7 +4879,7 @@
                 "field": "hidden"
               }
             ],
-            "name": "召喚教派",
+            "name": "召集教派",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -4888,7 +4888,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可以加入下列單位： - **^^侍僧混血^^** - **^^混血變異者^^** - **^^新信徒混血^^**",
+                "$text": "此模型可以附屬於下列單位：\n- **^^侍僧混血^^**\n- **^^混血變異者^^**\n- **^^新信徒混血^^**",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -5187,7 +5187,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -5217,7 +5217,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -5247,7 +5247,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -5277,7 +5277,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -5293,7 +5293,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -5443,7 +5443,7 @@
                   }
                 ],
                 "type": "add",
-                "value": "Cannot take 3 secondary Characters in the Cult Unveiled",
+                "value": "此編制不可選取 3 名次要角色。",
                 "field": "error"
               }
             ],
@@ -7173,7 +7173,7 @@
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ],
-                            "name": "重伐木槍",
+                            "name": "重型機槍",
                             "typeId": "f77d-b953-8fa4-b762",
                             "typeName": "遠程武器",
                             "hidden": false,
@@ -7245,7 +7245,7 @@
                         "comment": "Assault variant",
                         "type": "upgrade",
                         "import": true,
-                        "name": "重伐木槍",
+                        "name": "重型機槍",
                         "hidden": false,
                         "id": "5525-eb42-8592-a13a"
                       }
@@ -7270,7 +7270,7 @@
                         "includeChildSelections": true
                       }
                     ],
-                    "name": "重伐木槍",
+                    "name": "重型機槍",
                     "id": "f308-2ed-9bcc-ee78",
                     "hidden": false,
                     "defaultSelectionEntryId": "5525-eb42-8592-a13a"
@@ -7293,7 +7293,7 @@
           {
             "characteristics": [
               {
-                "$text": "每次你使用該教派伏擊能力至設置此單位返回最多在戰場上， 在此外至該正常規則， 所有的其模型必須被部署完全位於 9\" 的一個戰場邊緣和於至少一個的其模型必須被接觸一個的你的教派伏擊標記 （該標記為則移除從戰場上）。 若此不能被完成， 此單位不能被設置返回最多。",
+                "$text": "每次使用教派伏擊能力將此單位重新設置於戰場上時，除套用正常規則外，此單位的所有模型都必須完全位於一個戰場邊緣 9 吋內，且至少一個模型必須接觸你的一個教派伏擊標記；之後移除該標記。若無法如此設置，則不能將此單位重新設置於戰場上。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -7335,14 +7335,14 @@
                 "field": "name"
               }
             ],
-            "name": "斥候",
+            "name": "斥侯",
             "hidden": false,
             "type": "rule",
             "id": "5f92-b39c-5495-fabd",
             "targetId": "ada6-bac1-ffe0-d6f7"
           },
           {
-            "name": "隱蔽",
+            "name": "隱匿",
             "id": "00bd-b95a-75d8-af17",
             "hidden": false,
             "type": "rule",
@@ -7523,7 +7523,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -7553,7 +7553,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -7583,7 +7583,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -7613,7 +7613,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -7629,7 +7629,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -7800,14 +7800,14 @@
                 "field": "hidden"
               }
             ],
-            "name": "深擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "76cb-b0f1-14c3-6036",
             "targetId": "7cb5-dd6b-dd87-ad3b"
           },
           {
-            "name": "致命命中",
+            "name": "致命一擊",
             "hidden": false,
             "type": "rule",
             "id": "8f50-a5cb-380a-f43e",
@@ -7869,7 +7869,7 @@
           {
             "characteristics": [
               {
-                "$text": "當此模型正在領導一個單位時， 近戰武器由其裝備模型在該單位具有該 [致命命中] 能力。",
+                "$text": "當此模型正在領導一個單位時，該單位中模型裝備的近戰武器具有 [致命一擊] 能力。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -7883,7 +7883,7 @@
           {
             "characteristics": [
               {
-                "$text": "每場戰鬥一次， 當此模型的單位被選擇近戰時， 此模型可以使用此能力。 若如此， 直到該階段結束前， 改善該攻擊次數和傷害屬性的其注射刺棒由 3。",
+                "$text": "每場戰鬥一次，當此模型的單位被選擇進行近戰時，此模型可以使用此能力。若如此做，直到該階段結束前，此模型的注射刺棒之攻擊次數與傷害屬性各改善 3。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -7902,7 +7902,7 @@
             "id": "cb83-5005-32d4-8f79",
             "characteristics": [
               {
-                "$text": "此模型可以加入下列單位： - 畸變體 - 手持自動手槍的侍僧混血 - 侍僧混血具有手焰槍 - 混血變異者 - 新信徒混血你可以加入此模型至一個侍僧混血或新信徒混血單位， 即使若一個首席， 魔導師， 或侍僧聖像使模型具有已經已被附屬至它。 若你執行， 和該保鑣單位為被摧毀， 該領袖單位附屬至它成為獨立單位， 具有其原本初始兵力。",
+                "$text": "此模型可以附屬於下列單位：\n- 畸變體\n- 配備自動手槍的侍僧混血\n- 配備手焰槍的侍僧混血\n- 混血變異者\n- 新信徒混血\n\n即使一個首席、魔導師或侍僧聖像使模型已經附屬於一個侍僧混血或新信徒混血單位，此模型仍可附屬於該單位。若如此做，且該小隊單位被摧毀，附屬於該單位的領袖單位會以其原始起始兵力成為獨立單位。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -8056,7 +8056,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -8086,7 +8086,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -8116,7 +8116,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -8146,7 +8146,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -8162,7 +8162,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -8294,7 +8294,7 @@
                   }
                 ],
                 "type": "add",
-                "value": "Cannot take 3 Characters in a Genespawn Onslaught",
+                "value": "此編制不可選取 3 名角色。",
                 "field": "error"
               }
             ],
@@ -8327,12 +8327,12 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "每場戰鬥一次， 當攜帶者的單位被選擇近戰時， 攜帶者可以使用其鍊金魔寵。 若如此， 直到該階段結束前， 每次一個模型在攜帶者的單位進行一次攻擊該以其為目標一個步兵單位， 加1到該致傷擲骰",
+                        "$text": "每場戰鬥一次，當攜帶者的單位被選擇進行近戰時，攜帶者可以使用煉金使魔。若如此做，直到該階段結束前，攜帶者單位中的模型每次以步兵單位為目標進行攻擊時，致傷擲骰加 1。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
-                    "name": "鍊金魔寵",
+                    "name": "煉金使魔",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "能力",
                     "hidden": false,
@@ -8341,7 +8341,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "鍊金魔寵",
+                "name": "煉金使魔",
                 "hidden": false,
                 "id": "2302-2c37-c52e-ad0a"
               }
@@ -8491,7 +8491,7 @@
             "targetId": "e90-a1ac-e276-9652",
             "id": "3b73-1093-cc66-961b",
             "primary": false,
-            "name": "傳教員"
+            "name": "傳聲者"
           },
           {
             "targetId": "226b-cf1e-353a-ae7f",
@@ -8620,7 +8620,7 @@
                 "field": "hidden"
               }
             ],
-            "name": "深擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "5eec-982c-d4af-8fc1",
@@ -8638,7 +8638,7 @@
           {
             "characteristics": [
               {
-                "$text": "在你的指揮階段， 一個模型來自你的軍隊具有此能力可以使用它， 若如此， 選擇一個敵方單位具有 18\" 的它， 該敵方單位必須進行一個戰鬥震懾測試。",
+                "$text": "在你的指揮階段，一個具有此能力的己方模型可以使用此能力。若如此做，選擇一個位於該模型 18 吋內的敵方單位；該敵方單位必須進行戰鬥震懾測試。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -8687,7 +8687,7 @@
                 "$text": ""
               }
             ],
-            "name": "傳教員",
+            "name": "傳聲者",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -8696,7 +8696,7 @@
           {
             "characteristics": [
               {
-                "$text": "敵方單位該為部署在戰場上作為增援不能被部署位於 12\" 的此模型。",
+                "$text": "以增援方式設置於戰場上的敵方單位不能設置在此模型 12 吋內。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -8715,7 +8715,7 @@
             "id": "d56a-1384-fab3-2f3d",
             "characteristics": [
               {
-                "$text": "此模型可以加入下列單位： - 侍僧混血 - 混血變異者 - 新信徒混血你可以加入此模型至一個侍僧混血或新信徒混血單位， 即使若一個首席， 魔導師， 或侍僧聖像使模型具有已經已被附屬至它。 若你執行， 和該保鑣單位為被摧毀， 該領袖單位附屬至它成為獨立單位， 具有其原本初始兵力。",
+                "$text": "此模型可以附屬於下列單位：\n- 侍僧混血\n- 混血變異者\n- 新信徒混血\n\n即使一個首席、魔導師或侍僧聖像使模型已經附屬於一個侍僧混血或新信徒混血單位，此模型仍可附屬於該單位。若如此做，且該小隊單位被摧毀，附屬於該單位的領袖單位會以其原始起始兵力成為獨立單位。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -8869,7 +8869,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -8899,7 +8899,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -8929,7 +8929,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -8959,7 +8959,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -8975,7 +8975,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -9125,7 +9125,7 @@
                   }
                 ],
                 "type": "add",
-                "value": "Cannot take 3 secondary Characters in the Cult Unveiled",
+                "value": "此編制不可選取 3 名次要角色。",
                 "field": "error"
               }
             ],
@@ -9216,7 +9216,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "傳教員",
+        "name": "傳聲者",
         "hidden": false,
         "id": "5543-973a-cd2e-c941",
         "modifiers": [
@@ -9245,7 +9245,7 @@
             "targetId": "d059-fcf6-93f4-3da6",
             "id": "6642-7f9a-6a7-485e",
             "primary": false,
-            "name": "哥利亞岩石研磨車"
+            "name": "哥利亞碎岩車"
           },
           {
             "targetId": "226b-cf1e-353a-ae7f",
@@ -9363,7 +9363,7 @@
                 "$text": ""
               }
             ],
-            "name": "哥利亞岩石研磨車",
+            "name": "哥利亞碎岩車",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -9372,7 +9372,7 @@
           {
             "characteristics": [
               {
-                "$text": "每次一個敵方單位 （不包括怪獸和載具） 該為位於交戰範圍的此模型撤退， 所有模型在該敵方單位必須進行一個絕望逃脫測試。 當如此如此， 若該敵方單位為戰鬥震懾， 減1於每個的那些測試。",
+                "$text": "位於此模型接戰範圍內的敵方單位（怪獸與載具除外）每次撤退時，該敵方單位中的所有模型都必須進行孤注一擲逃脫測試。若該敵方單位處於戰鬥震懾狀態，每次這類測試的結果減 1。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -9829,7 +9829,7 @@
                   }
                 ],
                 "import": true,
-                "name": "重伐木槍",
+                "name": "重型機槍",
                 "hidden": false,
                 "id": "9ad7-8617-271d-a4b3",
                 "type": "selectionEntry",
@@ -10209,7 +10209,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -10239,7 +10239,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -10269,7 +10269,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -10299,7 +10299,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -10315,7 +10315,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -10347,7 +10347,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "哥利亞岩石研磨車",
+        "name": "哥利亞碎岩車",
         "hidden": false,
         "id": "5ac1-3adb-212a-5e02",
         "modifiers": [
@@ -10593,7 +10593,7 @@
           {
             "characteristics": [
               {
-                "$text": "在你的射擊階段， 之後此模型完成射擊後， 選擇一個敵方單位它造成一個或更多命中對抗此階段。 直到該階段結束前， 每次一個友方模型該下車從此運輸此回合進行一次攻擊該以其為目標該敵方單位， 你可以重擲該致傷擲骰。",
+                "$text": "在你的射擊階段，此模型完成射擊後，選擇一個本階段被此模型一個或更多攻擊命中的敵方單位。直到該階段結束前，每次一個本回合從此運輸載具下車的友方模型以該敵方單位為目標進行攻擊時，可以重擲致傷擲骰。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -10779,7 +10779,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -10809,7 +10809,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -10839,7 +10839,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -10869,7 +10869,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -10885,7 +10885,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -11301,7 +11301,7 @@
                   }
                 ],
                 "import": true,
-                "name": "重伐木槍",
+                "name": "重型機槍",
                 "hidden": false,
                 "id": "3f53-1218-7890-8374",
                 "type": "selectionEntry",
@@ -12152,7 +12152,7 @@
                 "field": "hidden"
               }
             ],
-            "name": "深擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "c914-ae4a-6c7f-eae0",
@@ -12166,7 +12166,7 @@
                 "field": "name"
               }
             ],
-            "name": "斥候",
+            "name": "斥侯",
             "hidden": false,
             "type": "rule",
             "id": "e59a-621b-9065-9b2d",
@@ -12187,7 +12187,7 @@
                 "field": "name"
               }
             ],
-            "name": "不怕痛",
+            "name": "不覺疼痛",
             "id": "e6a4-85be-2fa9-5e66",
             "hidden": false,
             "type": "rule",
@@ -12445,7 +12445,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -12475,7 +12475,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -12505,7 +12505,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -12535,7 +12535,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -12551,7 +12551,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -12790,7 +12790,7 @@
           {
             "characteristics": [
               {
-                "$text": "在你的射擊階段， 之後此模型的單位完成射擊後， 選擇一個敵方單位被一個或更多命中的那些攻擊次數進行了具有一個教派狙擊步槍。 直到該階段結束前， 每次一個友方 **^^基因竊取者教派^^** 模型進行一次攻擊該以其為目標該敵方單位， 重擲一個命中擲骰的 1。",
+                "$text": "在你的射擊階段，此模型的單位完成射擊後，選擇一個被教派狙擊步槍的一個或更多攻擊命中的敵方單位。直到該階段結束前，友方 **^^基因竊取者教派^^** 模型每次以該敵方單位為目標進行攻擊時，重擲命中擲骰結果 1。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -12804,7 +12804,7 @@
           {
             "characteristics": [
               {
-                "$text": "在你的射擊階段， 之後此模型的單位完成射擊後， 若它為不在交戰範圍的任何敵方單位， 該單位可以進行一個普通移動的最多至 6\" 如同它是你的移動階段。 若如此， 直到該回合結束前， 該單位為不有資格宣告衝鋒。",
+                "$text": "在你的射擊階段，此模型的單位完成射擊後，若該單位不在任何敵方單位的接戰範圍內，則可以如同在你的移動階段一般，進行最多 6 吋的普通移動。若如此做，直到該回合結束前，該單位不符合宣告衝鋒的資格。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -12831,7 +12831,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "此模型可以加入下列單位： - 阿塔蘭豺狼",
+                    "$text": "此模型可以附屬於下列單位：\n- 阿塔蘭豺狼",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -12886,14 +12886,14 @@
                 "field": "name"
               }
             ],
-            "name": "斥候",
+            "name": "斥侯",
             "hidden": false,
             "type": "rule",
             "id": "7c02-52b2-b68f-1e3e",
             "targetId": "ada6-bac1-ffe0-d6f7"
           },
           {
-            "name": "隱蔽",
+            "name": "隱匿",
             "id": "ac36-6152-8ef4-2719",
             "hidden": false,
             "type": "rule",
@@ -13047,7 +13047,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -13077,7 +13077,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -13107,7 +13107,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -13137,7 +13137,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -13153,7 +13153,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -13503,7 +13503,7 @@
                 "field": "hidden"
               }
             ],
-            "name": "深擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "dbe2-dd24-9b1b-2772",
@@ -13535,7 +13535,7 @@
           {
             "characteristics": [
               {
-                "$text": "每回合一次， 之後一個模型來自你的軍隊具有此能力完成射擊後， 你可以選擇一個步兵單位被一個或更多命中的那些攻擊次數。 該單位必須進行一個戰鬥震懾測試。",
+                "$text": "每回合一次，當一個具有此能力的己方模型完成射擊後，可以選擇一個被該模型一個或更多攻擊命中的步兵單位。該單位必須進行戰鬥震懾測試。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -13738,7 +13738,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -13768,7 +13768,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -13798,7 +13798,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -13828,7 +13828,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -13844,7 +13844,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -13994,7 +13994,7 @@
                   }
                 ],
                 "type": "add",
-                "value": "Cannot take 3 secondary Characters in the Cult Unveiled",
+                "value": "此編制不可選取 3 名次要角色。",
                 "field": "error"
               }
             ],
@@ -14118,7 +14118,7 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "毀滅性創傷，近距離",
+                        "$text": "毀滅性創傷，手槍",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -14139,7 +14139,7 @@
                     "targetId": "be1e-ac8e-1e2c-3528"
                   },
                   {
-                    "name": "近距離",
+                    "name": "手槍",
                     "id": "7e1a-a598-de0b-45bb",
                     "hidden": false,
                     "type": "rule",
@@ -14353,7 +14353,7 @@
                 "field": "hidden"
               }
             ],
-            "name": "深擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "aaa0-be94-bd4c-9188",
@@ -14422,7 +14422,7 @@
           {
             "characteristics": [
               {
-                "$text": "當此模型正在領導一個單位時， 模型在該單位具有該先攻能力",
+                "$text": "當此模型正在領導一個單位時，該單位中的模型具有先攻能力。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -14436,12 +14436,12 @@
           {
             "characteristics": [
               {
-                "$text": "當此模型正在領導一個單位時， 其他角色模型附屬至該單位具有該不怕痛 4+ 能力",
+                "$text": "當此模型正在領導一個單位時，附屬於該單位的其他角色模型具有不覺疼痛 4+ 能力。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "保鑣",
+            "name": "小隊",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -14457,7 +14457,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "此模型可以加入下列單位： - **^^侍僧混血^^** - **^^混血變異者^^** - **^^新信徒混血^^** 你可以加入此模型至一個 **^^侍僧混血^^** 或 **^^新信徒混血^^** 單位， 即使若一個 **^^首席^^**， **^^魔導師^^**， 或 **^^侍僧聖像使^^** 模型具有已經已被附屬至它。 若你執行， 和該保鑣單位為被摧毀， 該領袖單位附屬至它成為獨立單位， 具有其原本初始兵力。"
+                "$text": "此模型可以附屬於下列單位：\n- **^^侍僧混血^^**\n- **^^混血變異者^^**\n- **^^新信徒混血^^**\n\n即使一個 **^^首席^^**、**^^魔導師^^** 或 **^^侍僧聖像使^^** 模型已經附屬於一個 **^^侍僧混血^^** 或 **^^新信徒混血^^** 單位，此模型仍可附屬於該單位。若如此做，且該小隊單位被摧毀，附屬於該單位的領袖單位會以其原始起始兵力成為獨立單位。"
               }
             ]
           }
@@ -14638,7 +14638,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -14668,7 +14668,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -14698,7 +14698,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -14728,7 +14728,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -14744,7 +14744,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -14894,7 +14894,7 @@
                   }
                 ],
                 "type": "add",
-                "value": "Cannot take 3 secondary Characters in the Cult Unveiled",
+                "value": "此編制不可選取 3 名次要角色。",
                 "field": "error"
               }
             ],
@@ -15175,7 +15175,7 @@
           {
             "characteristics": [
               {
-                "$text": "每場戰鬥一次， 在開始時任何的對手的射擊階段， 此模型可以使用其靈能魔寵。 若如此， 直到該階段結束前， 加 6\" 至該範圍的其心靈控制能力。",
+                "$text": "每場戰鬥一次，在對手任一射擊階段開始時，此模型可以使用靈能魔寵。若如此做，直到該階段結束前，其心靈控制能力的射程增加 6 吋。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -15203,7 +15203,7 @@
           {
             "characteristics": [
               {
-                "$text": "每場戰鬥一次， 於該任意階段開始時， 你可以選擇一個友方基因竊取者教派單位該為戰鬥震懾和位於 12\" 的此模型。 該單位為沒有再戰鬥震懾。",
+                "$text": "每場戰鬥一次，在任意階段開始時，可以選擇一個位於此模型 12 吋內且處於戰鬥震懾狀態的友方基因竊取者教派單位。該單位不再處於戰鬥震懾狀態。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -15268,7 +15268,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "此模型可以加入下列單位： - **^^侍僧混血^^** - **^^混血變異者^^** - **^^新信徒混血^^**"
+                "$text": "此模型可以附屬於下列單位：\n- **^^侍僧混血^^**\n- **^^混血變異者^^**\n- **^^新信徒混血^^**"
               }
             ]
           }
@@ -15420,7 +15420,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -15450,7 +15450,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -15480,7 +15480,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -15510,7 +15510,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -15526,7 +15526,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -15668,7 +15668,7 @@
                 "field": "hidden"
               }
             ],
-            "name": "深擊",
+            "name": "深入打擊",
             "id": "d370-fd4a-eefd-1338",
             "hidden": false,
             "type": "rule",
@@ -16290,7 +16290,7 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "在你的指揮階段， 你可以返回最多至 3 被摧毀模型至攜帶者的單位。 若攜帶者的單位為位於範圍的一個目標標記你控制， 你可以返回最多至 D3+3 被摧毀模型至該單位改為。 此能力不能被使用至返回被摧毀角色模型在附屬單位和任何 [一次射擊] 武器裝備具有由返回的模型該曾為射擊之前它們曾為被摧毀為仍然視為至具有已被射擊。",
+                            "$text": "在你的指揮階段，可以將最多 3 個已被摧毀的模型復原至攜帶者的單位。若攜帶者的單位位於你控制的目標標記範圍內，則改為可以復原最多 D3+3 個已被摧毀的模型。此能力不能用來復原附屬單位中已被摧毀的角色模型；由復原模型裝備、且該模型在被摧毀前已射擊過的任何 [一次性] 武器，仍視為已經射擊。",
                             "name": "Description",
                             "typeId": "9b8f-694b-e5e-b573"
                           }
@@ -16391,7 +16391,7 @@
                       }
                     ],
                     "type": "add",
-                    "value": "Cannot take more than 2 Heavy weapons with less than 20 models",
+                    "value": "單位少於 20 個模型時，最多只能選取 2 件重型武器。",
                     "field": "error"
                   },
                   {
@@ -16686,7 +16686,7 @@
                           }
                         ],
                         "import": true,
-                        "name": "重伐木槍",
+                        "name": "重型機槍",
                         "hidden": false,
                         "type": "selectionEntry",
                         "id": "b4d6-8179-468-d4c2",
@@ -16844,7 +16844,7 @@
                       }
                     ],
                     "type": "add",
-                    "value": "Cannot take more than 2 special weapons with less than 20 models",
+                    "value": "單位少於 20 個模型時，最多只能選取 2 件特殊武器。",
                     "field": "error"
                   },
                   {
@@ -16956,7 +16956,7 @@
                         "targetId": "35af-1e2b-ca02-6936",
                         "id": "cf51-5239-d357-8f96",
                         "type": "selectionEntry",
-                        "name": "火焰噴射器",
+                        "name": "噴火器",
                         "hidden": false
                       },
                       {
@@ -17099,7 +17099,7 @@
                       }
                     ],
                     "type": "set",
-                    "value": "9 Neophyte Hybrids",
+                    "value": "9 新信徒混血",
                     "field": "name"
                   },
                   {
@@ -17419,7 +17419,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "自動手槍， 混血火器和近戰武器",
+                        "name": "自動手槍，混血火器和近戰武器",
                         "hidden": false,
                         "id": "2dd8-5325-8f3-e04e"
                       },
@@ -17691,7 +17691,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "自動手槍， 受膏手槍和動力武器",
+                        "name": "自動手槍，受膏手槍和動力武器",
                         "hidden": false,
                         "id": "40a8-15a8-d353-6862"
                       },
@@ -17963,7 +17963,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "自動手槍， 受膏手槍和鏈鋸劍",
+                        "name": "自動手槍，受膏手槍和鏈鋸劍",
                         "hidden": false,
                         "id": "2208-229b-eb3e-1d14"
                       }
@@ -18025,7 +18025,7 @@
                 "field": "hidden"
               }
             ],
-            "name": "深擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "d79-16da-3100-95b3",
@@ -18299,7 +18299,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -18329,7 +18329,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -18359,7 +18359,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -18389,7 +18389,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -18405,7 +18405,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -18491,7 +18491,7 @@
             "targetId": "8b0d-31c9-98a2-8430",
             "id": "f103-9ee2-d092-41",
             "primary": false,
-            "name": "紐結者"
+            "name": "樞紐者"
           },
           {
             "targetId": "226b-cf1e-353a-ae7f",
@@ -18609,7 +18609,7 @@
                 "$text": ""
               }
             ],
-            "name": "紐結者",
+            "name": "樞紐者",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -18620,7 +18620,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "每個戰鬥輪一次，當一個具有此能力的己方模型所屬單位成為計謀的目標時，該模型可以使用此能力。若如此做，該次使用該計謀的指揮點花費減少 1CP。"
+                "$text": "每個戰鬥輪一次，當一個具有此能力的己方模型所屬單位成為計謀的目標時，該模型可以使用此能力。若如此做，該次使用該計謀的指揮點花費減少 1 點指揮點。"
               }
             ],
             "name": "戰場分析",
@@ -18632,7 +18632,7 @@
           {
             "characteristics": [
               {
-                "$text": "在開始時每個玩家的指揮階段， 若此模型為在戰場上， 你可以選擇一個的你的教派伏擊標記該為在戰場上和具有不已被移動此回合和移動它最多至 6\"",
+                "$text": "在每名玩家的指揮階段開始時，若此模型位於戰場上，可以選擇一個位於戰場上、且本回合尚未移動的己方教派伏擊標記，並將其移動最多 6 吋。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -18651,7 +18651,7 @@
             "id": "22cf-2616-94aa-2362",
             "characteristics": [
               {
-                "$text": "此模型可以加入下列單位： - 侍僧混血 - 混血變異者 - 新信徒混血你可以加入此模型至一個侍僧混血或新信徒混血單位， 即使若一個首席， 魔導師， 或侍僧聖像使模型具有已經已被附屬至它。 若你執行， 和該保鑣單位為被摧毀， 該領袖單位附屬至它成為獨立單位， 具有其原本初始兵力。",
+                "$text": "此模型可以附屬於下列單位：\n- 侍僧混血\n- 混血變異者\n- 新信徒混血\n\n即使一個首席、魔導師或侍僧聖像使模型已經附屬於一個侍僧混血或新信徒混血單位，此模型仍可附屬於該單位。若如此做，且該小隊單位被摧毀，附屬於該單位的領袖單位會以其原始起始兵力成為獨立單位。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -18689,7 +18689,7 @@
         ],
         "infoLinks": [
           {
-            "name": "深擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "b300-38d6-58de-3029",
@@ -18850,7 +18850,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -18880,7 +18880,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -18910,7 +18910,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -18940,7 +18940,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -18956,7 +18956,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -19048,7 +19048,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "紐結者",
+        "name": "樞紐者",
         "hidden": false,
         "id": "55c7-90e0-419-44f9",
         "modifiers": [
@@ -19210,7 +19210,7 @@
         ],
         "infoLinks": [
           {
-            "name": "深擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "ccee-1044-9445-7316",
@@ -19280,7 +19280,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "此模型可以加入下列單位： - 純種基因竊取者",
+                    "$text": "此模型可以附屬於下列單位：\n- 純種基因竊取者",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -19301,12 +19301,12 @@
           {
             "characteristics": [
               {
-                "$text": "當此模型正在領導一個單位時， 近戰武器由其裝備模型在該單位具有該 [毀滅性創傷] 能力。",
+                "$text": "當此模型正在領導一個單位時，該單位中模型裝備的近戰武器具有 [毀滅性創傷] 能力。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "來自彼方的力量",
+            "name": "來自彼端之力",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -19315,7 +19315,7 @@
           {
             "characteristics": [
               {
-                "$text": "於該近戰階段開始時， 每個敵方單位位於 6\" 的此模型必須進行一個戰鬥震懾測試。",
+                "$text": "在近戰階段開始時，位於此模型 6 吋內的每個敵方單位都必須進行戰鬥震懾測試。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -19329,7 +19329,7 @@
           {
             "characteristics": [
               {
-                "$text": "每場戰鬥一次， 於該近戰階段開始時， 此模型可以使用其靈能魔寵。 若如此， 直到該階段結束前， 加 6\" 至該範圍的其宇宙恐怖能力。",
+                "$text": "每場戰鬥一次，在近戰階段開始時，此模型可以使用靈能魔寵。若如此做，直到該階段結束前，其宇宙恐怖能力的射程增加 6 吋。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -19387,7 +19387,7 @@
           {
             "characteristics": [
               {
-                "$text": "- 你不能包含超過一個 **^^教主^^** 模型在你的軍隊。 - 若此模型為在你的軍隊， 它必須被你的 **^^戰主^^**。",
+                "$text": "- 軍隊中不能包含超過一個 **^^教主^^** 模型。\n- 若軍隊中包含此模型，此模型必須成為你的 **^^戰主^^**。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -19546,7 +19546,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -19576,7 +19576,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -19606,7 +19606,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -19636,7 +19636,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -19652,7 +19652,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -19958,7 +19958,7 @@
                 "field": "hidden"
               }
             ],
-            "name": "深擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "23cb-6334-51e-7c13",
@@ -20022,7 +20022,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "當此模型正在領導一個單位時，該單位中的模型每次進行攻擊，可以使其命中擲骰加 1。"
+                "$text": "當此模型正在領導一個單位時，該單位中的模型每次進行攻擊，命中擲骰加 1。"
               }
             ],
             "name": "教派煽動者",
@@ -20034,7 +20034,7 @@
           {
             "characteristics": [
               {
-                "$text": "若你的軍隊包含一個或更多模型具有此能力， 之後雙方玩家具有部署其軍隊， 選擇最多至三個基因竊取者教派單位來自你的軍隊和重新部署它們。 當如此如此， 你可以設置那些單位最多在戰略預備隊若你願意， 無論的多少許多單位為已經在戰略預備隊。",
+                "$text": "若你的軍隊包含一個或更多具有此能力的模型，在雙方玩家完成軍隊部署後，選擇你軍隊中最多三個基因竊取者教派單位並重新部署。重新部署時，無論戰略預備隊中已有多少單位，都可以將這些單位設置於戰略預備隊中。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -20066,7 +20066,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可以加入下列單位： - **^^侍僧混血^^** - **^^混血變異者^^** - **^^新信徒混血^^**",
+                "$text": "此模型可以附屬於下列單位：\n- **^^侍僧混血^^**\n- **^^混血變異者^^**\n- **^^新信徒混血^^**",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -20254,7 +20254,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -20284,7 +20284,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -20314,7 +20314,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -20344,7 +20344,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -20360,7 +20360,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -20817,7 +20817,7 @@
         ],
         "infoLinks": [
           {
-            "name": "深擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "711e-f870-b525-9c0d",
@@ -20842,7 +20842,7 @@
           {
             "characteristics": [
               {
-                "$text": "此單位在已推進的回合中仍有資格宣告衝鋒。",
+                "$text": "此單位即使在本回合推進，仍符合宣告衝鋒的資格。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -21080,7 +21080,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -21110,7 +21110,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -21140,7 +21140,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -21170,7 +21170,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -21186,7 +21186,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -21570,7 +21570,7 @@
           {
             "characteristics": [
               {
-                "$text": "在你的射擊階段，你可以選擇你軍隊中一個具有此能力的模型，以 0 點指揮點 將其作為手榴彈計謀的目標；前提是該模型本階段尚未成為該計謀的目標。",
+                "$text": "此模型可以以 0 點指揮點將其所屬單位作為煙幕計謀的目標。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -21641,14 +21641,14 @@
             "targetId": "a8a0-8fe7-898-e0f3"
           },
           {
-            "name": "深擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "d6b4-df15-dde5-f5d2",
             "targetId": "7cb5-dd6b-dd87-ad3b"
           },
           {
-            "name": "隱蔽",
+            "name": "隱匿",
             "hidden": false,
             "type": "rule",
             "id": "c4d3-aaf4-21da-7996",
@@ -21802,7 +21802,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -21832,7 +21832,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -21862,7 +21862,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -21892,7 +21892,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -21908,7 +21908,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -22126,7 +22126,7 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "突擊，爆炸，一次射擊",
+                        "$text": "突擊，爆炸，一次性",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -22140,8 +22140,8 @@
                 ],
                 "rules": [
                   {
-                    "description": "。攜帶者可以只能射擊具有此武器每場戰鬥一次",
-                    "name": "一次射擊",
+                    "description": "攜帶者每場戰鬥只能使用此武器射擊一次。",
+                    "name": "一次性",
                     "id": "ddd3-7ba9-853c-1d90",
                     "hidden": false
                   }
@@ -22400,7 +22400,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "若此模型裝備有一個教派狙擊步槍， 在對手的移動階段， 若一個敵方單位結束一個移動位於 8\" 的此單位， 若此單位為不在交戰範圍的一個或更多敵方單位， 此單位可以進行一個普通移動的最多至 6\"。"
+                "$text": "若此模型裝備教派狙擊步槍，在對手的移動階段，當一個敵方單位在此單位 8 吋內結束移動時，若此單位不在一個或更多敵方單位的接戰範圍內，則此單位可以進行最多 6 吋的普通移動。"
               }
             ],
             "name": "蠕行陰影",
@@ -22412,7 +22412,7 @@
           {
             "characteristics": [
               {
-                "$text": "在開始時該首次戰鬥輪， 選擇一個敵方單位至被此模型的獵物。 每次此模型進行一次攻擊該以其為目標其獵物， 你可以重擲該命中擲骰和你可以重擲該致傷擲骰。",
+                "$text": "第一個戰鬥輪開始時，選擇一個敵方單位作為此模型的獵物。此模型每次以其獵物為目標進行攻擊時，可以重擲命中擲骰及致傷擲骰。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -22428,7 +22428,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "若此模型裝備有一個聖匿者生化匕首， 敵方單位不能使用該警戒射擊計謀至射擊於此模型。 敵方單位不能目標此單位具有 **快速射擊** 攻擊次數。"
+                "$text": "若此模型裝備聖匿者生化匕首，敵方單位不能使用警戒射擊計謀對此模型射擊。敵方單位不能使用**快照射擊**攻擊以此單位為目標。"
               }
             ],
             "name": "披隱刺客",
@@ -22458,7 +22458,7 @@
                 "field": "hidden"
               }
             ],
-            "name": "深擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "1da8-33f5-85ff-f88a",
@@ -22479,7 +22479,7 @@
             "targetId": "c05d-f4c3-f091-4938"
           },
           {
-            "name": "隱蔽",
+            "name": "隱匿",
             "hidden": false,
             "type": "rule",
             "id": "f856-2276-558b-d0ac",
@@ -22553,7 +22553,7 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "反步兵 3+，精準",
+                        "$text": "反制步兵 3+，精準",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -22859,7 +22859,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -22889,7 +22889,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -22919,7 +22919,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -22949,7 +22949,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -22965,7 +22965,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -23115,7 +23115,7 @@
                   }
                 ],
                 "type": "add",
-                "value": "Cannot take 3 secondary Characters in the Cult Unveiled",
+                "value": "此編制不可選取 3 名次要角色。",
                 "field": "error"
               }
             ],
@@ -23466,7 +23466,7 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "近距離",
+                "$text": "手槍",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -23480,7 +23480,7 @@
         ],
         "infoLinks": [
           {
-            "name": "近距離",
+            "name": "手槍",
             "hidden": false,
             "type": "rule",
             "id": "10e8-5547-7ac9-d492",
@@ -23532,7 +23532,7 @@
               {
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c",
-                "$text": "無視掩護，近距離，洪流"
+                "$text": "無視掩護，手槍，洪流"
               }
             ],
             "name": "手焰槍",
@@ -23558,7 +23558,7 @@
             "targetId": "5edf-d619-23e0-9b56"
           },
           {
-            "name": "近距離",
+            "name": "手槍",
             "hidden": false,
             "type": "rule",
             "id": "7128-f9fd-ee13-7672",
@@ -23775,7 +23775,7 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "近距離",
+                "$text": "手槍",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -23789,7 +23789,7 @@
         ],
         "infoLinks": [
           {
-            "name": "近距離",
+            "name": "手槍",
             "hidden": false,
             "type": "rule",
             "id": "cf47-116d-a98b-f1c4",
@@ -23928,7 +23928,7 @@
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
-            "name": "重伐木槍",
+            "name": "重型機槍",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "遠程武器",
             "hidden": false,
@@ -23946,7 +23946,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "重伐木槍",
+        "name": "重型機槍",
         "hidden": false,
         "id": "2edb-110e-e4f8-b6da"
       },
@@ -24026,7 +24026,7 @@
           {
             "characteristics": [
               {
-                "$text": "在你的指揮階段， 你可以返回最多至 D3 被摧毀模型至攜帶者的單位。 若攜帶者的單位為位於範圍的一個目標標記你控制， 你可以返回最多至 3 被摧毀模型至該單位改為。 此能力不能被使用至返回被摧毀角色模型在附屬單位和任何 [一次射擊] 武器裝備具有由返回的模型該曾為射擊之前它們曾為被摧毀為仍然視為至具有已被射擊。",
+                "$text": "在你的指揮階段，可以將最多 D3 個已被摧毀的模型復原至攜帶者的單位。若攜帶者的單位位於你控制的目標標記範圍內，則改為可以復原最多 3 個已被摧毀的模型。此能力不能用來復原附屬單位中已被摧毀的角色模型；由復原模型裝備、且該模型在被摧毀前已射擊過的任何 [一次性] 武器，仍視為已經射擊。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -24241,7 +24241,7 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "近距離",
+                "$text": "手槍",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -24255,7 +24255,7 @@
         ],
         "infoLinks": [
           {
-            "name": "近距離",
+            "name": "手槍",
             "hidden": false,
             "type": "rule",
             "id": "a05b-9131-4f3c-916f",
@@ -24272,7 +24272,7 @@
             "primary": false
           },
           {
-            "name": "近距離武器",
+            "name": "手槍武器",
             "hidden": false,
             "id": "e5f8-72f5-8f96-de99",
             "targetId": "1db0-c6b5-19db-8d0c",
@@ -24438,7 +24438,7 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "近距離",
+                "$text": "手槍",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -24452,7 +24452,7 @@
         ],
         "infoLinks": [
           {
-            "name": "近距離",
+            "name": "手槍",
             "hidden": false,
             "type": "rule",
             "id": "9f14-d154-47a0-1fdd",
@@ -24565,7 +24565,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "友方 **^^基因竊取者教派步兵^^** 模型可以被部署或結束任何類型的移動在上方的地板區段的此 **^^防禦工事^^**。"
+                "$text": "友方 **^^基因竊取者教派步兵^^** 模型可以設置於此 **^^工事^^** 的地板區段上，或在完成任何類型的移動後位於其上。"
               }
             ],
             "name": "地殼碎岩鑽",
@@ -24579,7 +24579,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "每次一個的你的教派伏擊標記為移除作為該結果的一個敵方單位結束任何種類的移動位於 8\" 的它， 你可以改為移動該標記如此該它為完全位於 8\" 的此 **^^防禦工事^^** 和超過 8\" 水平遠離從所有敵方單位 （若此為不可能， 該標記為移除如常）。"
+                "$text": "每當你的一個教派伏擊標記因敵方單位在其 8 吋內結束任意類型的移動而必須移除時，可以改為移動該標記，使其完全位於此 **^^工事^^** 8 吋內，且水平距離所有敵方單位超過 8 吋。若無法如此移動，則照常移除該標記。"
               }
             ],
             "name": "地下通道",
@@ -24591,7 +24591,7 @@
           {
             "characteristics": [
               {
-                "$text": "每次一次遠程攻擊為分配至一個模型， 若該模型為不是完全可見至每個模型在該攻擊方單位因為的此防禦工事， 該模型具有該掩護加成對抗該攻擊。",
+                "$text": "每次將遠程攻擊分配給一個模型時，若因為此工事，使該模型並非完全可見於攻擊方單位中的每個模型，則該模型對該攻擊獲得掩護加成。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -24605,7 +24605,7 @@
           {
             "characteristics": [
               {
-                "$text": "當一個敵方單位為只能位於交戰範圍的一個或更多防禦工事來自你的軍隊： ■ 該單位可以仍然被選擇作為該目標的遠程攻擊次數， 但每次此類一次攻擊為進行了， 除非它為進行了具有一個近距離， 減1於該命中擲骰。 ■ 模型在該單位執行不需要至進行絕望逃脫測試因為至撤退撤退當戰鬥震懾， 除了為那些該將移動越過敵方模型當如此如此。",
+                "$text": "當一個敵方單位只位於你軍隊中一個或更多工事的接戰範圍內時：\n- 該單位仍可被選為遠程攻擊的目標，但每次這類攻擊進行時，除非該攻擊使用手槍，否則命中擲骰減 1。\n- 該單位中的模型在處於戰鬥震懾狀態並撤退時，不需要進行孤注一擲逃脫測試；但會在移動時越過敵方模型的模型仍須進行測試。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -24775,7 +24775,7 @@
                 "typeId": "893f-9000-ccf7-648e"
               }
             ],
-            "name": "教派利爪與刀",
+            "name": "教派利爪與匕首",
             "typeId": "8a40-4aaa-c780-9046",
             "typeName": "近戰武器",
             "hidden": false,
@@ -24784,7 +24784,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "教派利爪與刀",
+        "name": "教派利爪與匕首",
         "hidden": false,
         "id": "661-4ada-993b-de26",
         "collective": true
@@ -24855,7 +24855,7 @@
                 "field": "hidden"
               }
             ],
-            "name": "深擊",
+            "name": "深入打擊",
             "id": "74ba-eeda-f22a-08dd",
             "hidden": false,
             "type": "rule",
@@ -24955,7 +24955,7 @@
           {
             "characteristics": [
               {
-                "$text": "當此模型正在領導一個單位時， 遠程武器由其裝備模型在該單位具有該 [致命命中] 能力。",
+                "$text": "當此模型正在領導一個單位時，該單位中模型裝備的遠程武器具有 [致命一擊] 能力。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -24969,7 +24969,7 @@
           {
             "characteristics": [
               {
-                "$text": "每場戰鬥一次， 於該任意階段開始時， 此模型可以使用此能力。 若如此， 直到該階段結束前， 此模型具有 4+ 特防。",
+                "$text": "每場戰鬥一次，在任意階段開始時，此模型可以使用此能力。若如此做，直到該階段結束前，此模型具有 4+ 特殊豁免。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -24990,7 +24990,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "此模型可以加入下列單位： - **^^侍僧混血^^** - **^^混血變異者^^** - **^^新信徒混血^^**"
+                "$text": "此模型可以附屬於下列單位：\n- **^^侍僧混血^^**\n- **^^混血變異者^^**\n- **^^新信徒混血^^**"
               }
             ]
           }
@@ -25223,7 +25223,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -25253,7 +25253,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -25283,7 +25283,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -25313,7 +25313,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -25329,7 +25329,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -25461,7 +25461,7 @@
                   }
                 ],
                 "type": "add",
-                "value": "Cannot take 3 Characters in a Genespawn Onslaught",
+                "value": "此編制不可選取 3 名角色。",
                 "field": "error"
               }
             ],
@@ -25775,7 +25775,7 @@
                 "field": "hidden"
               }
             ],
-            "name": "深擊",
+            "name": "深入打擊",
             "id": "5831-1d1e-d8ec-c775",
             "hidden": false,
             "type": "rule",
@@ -25840,7 +25840,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "教派利爪與刀",
+                    "name": "教派利爪與匕首",
                     "hidden": false,
                     "id": "57be-1fd1-6c72-c217",
                     "targetId": "661-4ada-993b-de26",
@@ -25937,7 +25937,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "教派利爪與刀",
+                    "name": "教派利爪與匕首",
                     "hidden": false,
                     "id": "df3d-011f-e488-42af",
                     "targetId": "661-4ada-993b-de26",
@@ -26026,7 +26026,7 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "反載具 4+",
+                            "$text": "反制載具 4+",
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -26091,7 +26091,7 @@
                           }
                         ],
                         "type": "add",
-                        "value": "Can only take 3 heavy mining tools with less than 10 models in unit",
+                        "value": "單位少於 10 個模型時，最多只能選取 3 件重型採礦工具。",
                         "field": "error"
                       }
                     ],
@@ -26349,7 +26349,7 @@
                           }
                         ],
                         "import": true,
-                        "name": "教派利爪與刀",
+                        "name": "教派利爪與匕首",
                         "hidden": false,
                         "id": "abc5-6c7d-4173-d8eb",
                         "targetId": "661-4ada-993b-de26",
@@ -26712,7 +26712,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -26742,7 +26742,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -26772,7 +26772,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -26802,7 +26802,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -26818,7 +26818,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -26986,7 +26986,7 @@
                 "field": "hidden"
               }
             ],
-            "name": "深擊",
+            "name": "深入打擊",
             "id": "2f2b-0156-4a3a-55aa",
             "hidden": false,
             "type": "rule",
@@ -27078,7 +27078,7 @@
           {
             "characteristics": [
               {
-                "$text": "當此模型正在領導一個單位時， 每次一個模型在該單位進行一次攻擊， 你可以重擲該命中擲骰。",
+                "$text": "當此模型正在領導一個單位時，該單位中的模型每次進行攻擊，可以重擲命中擲骰。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -27092,7 +27092,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可以加入下列單位： - **^^手持手焰槍的侍僧混血^^** - **^^手持自動手槍的侍僧混血^^** - **^^混血變異者^^** - **^^新信徒混血^^**",
+                "$text": "此模型可以附屬於下列單位：\n- **^^配備手焰槍的侍僧混血^^**\n- **^^配備自動手槍的侍僧混血^^**\n- **^^混血變異者^^**\n- **^^新信徒混血^^**",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -27114,7 +27114,7 @@
                       }
                     ],
                     "type": "set",
-                    "value": "This model can be attached to the following unit:\n- **^^Atalan Jackals^^**\n",
+                    "value": "此模型可以附屬於下列單位：\n- **^^阿塔蘭豺狼^^**\n",
                     "field": "9b8f-694b-e5e-b573",
                     "join": "\n\n"
                   },
@@ -27131,7 +27131,7 @@
                       }
                     ],
                     "type": "set",
-                    "value": "This model can be attached to the following unit:\n- **^^Aberrants^^**\n",
+                    "value": "此模型可以附屬於下列單位：\n- **^^畸變體^^**\n",
                     "field": "9b8f-694b-e5e-b573",
                     "join": "\n\n"
                   }
@@ -27360,7 +27360,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -27390,7 +27390,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -27420,7 +27420,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -27450,7 +27450,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -27466,7 +27466,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -27606,7 +27606,7 @@
                 "field": "hidden"
               }
             ],
-            "name": "深擊",
+            "name": "深入打擊",
             "id": "ee08-d730-0828-98cf",
             "hidden": false,
             "type": "rule",
@@ -27645,7 +27645,7 @@
             "targetId": "b4dd-3e1f-41cb-218f"
           },
           {
-            "name": "隱蔽",
+            "name": "隱匿",
             "id": "652f-49ae-a229-fd62",
             "hidden": false,
             "type": "rule",
@@ -27737,7 +27737,7 @@
           {
             "characteristics": [
               {
-                "$text": "每個戰鬥輪一次，當你軍隊中一個具有此能力的模型所屬單位被指定為某個計謀的目標時，該模型可以使用此能力。若使用，該次使用該計謀的 CP 花費降低 1 點指揮點。",
+                "$text": "每個戰鬥輪一次，當你軍隊中一個具有此能力的模型所屬單位被指定為計謀的目標時，該模型可以使用此能力。若如此做，該次使用該計謀的指揮點花費減少 1 點指揮點。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -27751,7 +27751,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可以加入下列單位： - **^^手持手焰槍的侍僧混血^^** - **^^手持自動手槍的侍僧混血^^** - **^^混血變異者^^** - **^^新信徒混血^^**",
+                "$text": "此模型可以附屬於下列單位：\n- **^^配備手焰槍的侍僧混血^^**\n- **^^配備自動手槍的侍僧混血^^**\n- **^^混血變異者^^**\n- **^^新信徒混血^^**",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -27773,7 +27773,7 @@
                       }
                     ],
                     "type": "set",
-                    "value": "This model can be attached to the following unit:\n- **^^Atalan Jackals^^**\n",
+                    "value": "此模型可以附屬於下列單位：\n- **^^阿塔蘭豺狼^^**\n",
                     "field": "9b8f-694b-e5e-b573",
                     "join": "\n\n"
                   },
@@ -27790,7 +27790,7 @@
                       }
                     ],
                     "type": "set",
-                    "value": "This model can be attached to the following unit:\n- **^^Aberrants^^**\n",
+                    "value": "此模型可以附屬於下列單位：\n- **^^畸變體^^**\n",
                     "field": "9b8f-694b-e5e-b573",
                     "join": "\n\n"
                   }
@@ -28016,7 +28016,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -28046,7 +28046,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -28076,7 +28076,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -28106,7 +28106,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -28122,7 +28122,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -28262,14 +28262,14 @@
                 "field": "hidden"
               }
             ],
-            "name": "深擊",
+            "name": "深入打擊",
             "id": "c9f0-9524-446d-a788",
             "hidden": false,
             "type": "rule",
             "targetId": "7cb5-dd6b-dd87-ad3b"
           },
           {
-            "name": "致命命中",
+            "name": "致命一擊",
             "id": "1f21-7f58-b760-7377",
             "hidden": false,
             "type": "rule",
@@ -28352,7 +28352,7 @@
                 "$text": "5+"
               }
             ],
-            "name": "聲音的教主",
+            "name": "教主之聲",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -28361,7 +28361,7 @@
           {
             "characteristics": [
               {
-                "$text": "此單位中模型裝備的遠程武器具有該 **[致命命中]** 能力。",
+                "$text": "此單位中模型裝備的遠程武器具有 **[致命一擊]** 能力。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -28375,7 +28375,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可以加入下列單位： - **^^手持手焰槍的侍僧混血^^** - **^^手持自動手槍的侍僧混血^^** - **^^混血變異者^^** - **^^新信徒混血^^**",
+                "$text": "此模型可以附屬於下列單位：\n- **^^配備手焰槍的侍僧混血^^**\n- **^^配備自動手槍的侍僧混血^^**\n- **^^混血變異者^^**\n- **^^新信徒混血^^**",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -28397,7 +28397,7 @@
                       }
                     ],
                     "type": "set",
-                    "value": "This model can be attached to the following unit:\n- **^^Atalan Jackals^^**\n",
+                    "value": "此模型可以附屬於下列單位：\n- **^^阿塔蘭豺狼^^**\n",
                     "field": "9b8f-694b-e5e-b573",
                     "join": "\n\n"
                   },
@@ -28414,7 +28414,7 @@
                       }
                     ],
                     "type": "set",
-                    "value": "This model can be attached to the following unit:\n- **^^Aberrants^^**\n",
+                    "value": "此模型可以附屬於下列單位：\n- **^^畸變體^^**\n",
                     "field": "9b8f-694b-e5e-b573",
                     "join": "\n\n"
                   }
@@ -28473,7 +28473,7 @@
             "primary": false
           },
           {
-            "name": "聲音的教主",
+            "name": "教主之聲",
             "hidden": false,
             "id": "04d0-fbf6-9e1e-7977",
             "targetId": "9408-bf33-e6b6-079d",
@@ -28650,7 +28650,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-ready)",
+                "value": "（戰備）",
                 "field": "name"
               },
               {
@@ -28680,7 +28680,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Blooded)",
+                "value": "（歷戰）",
                 "field": "name"
               },
               {
@@ -28710,7 +28710,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Battle-hardened)",
+                "value": "（身經百戰）",
                 "field": "name"
               },
               {
@@ -28740,7 +28740,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Heroic)",
+                "value": "（英雄）",
                 "field": "name"
               },
               {
@@ -28756,7 +28756,7 @@
                   }
                 ],
                 "type": "append",
-                "value": "(Legendary)",
+                "value": "（傳奇）",
                 "field": "name"
               }
             ],
@@ -28857,7 +28857,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "聲音的教主 ［試煉熔爐］",
+        "name": "教主之聲［試煉熔爐］",
         "hidden": false,
         "id": "678c-b59c-f85d-0a43"
       },
@@ -28896,7 +28896,7 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "反步兵 2+",
+                "$text": "反制步兵 2+",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -28967,7 +28967,7 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "反靈能者 2+，重型，精準",
+                "$text": "反制靈能者 2+，重型，精準",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -29058,7 +29058,7 @@
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
-            "name": "火焰噴射器",
+            "name": "噴火器",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "遠程武器",
             "hidden": false,
@@ -29106,7 +29106,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "火焰噴射器",
+        "name": "噴火器",
         "hidden": false,
         "id": "35af-1e2b-ca02-6936"
       },
@@ -29419,7 +29419,7 @@
             "targetId": "4640-43e7-30b-215a"
           },
           {
-            "name": "近距離",
+            "name": "手槍",
             "id": "1059-bd6e-25a8-2aeb",
             "hidden": false,
             "type": "rule",
@@ -29460,7 +29460,7 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "反步兵 2+，無視掩護，近距離",
+                "$text": "反制步兵 2+，無視掩護，手槍",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -29488,7 +29488,7 @@
             "primary": false
           },
           {
-            "name": "近距離武器",
+            "name": "手槍武器",
             "hidden": false,
             "id": "c5ee-fbac-50e6-712c",
             "targetId": "1db0-c6b5-19db-8d0c",
@@ -29755,7 +29755,7 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "反步兵 2+",
+                "$text": "反制步兵 2+",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -29840,7 +29840,7 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "反步兵 2+，額外攻擊",
+                "$text": "反制步兵 2+，額外攻擊",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -29933,7 +29933,7 @@
       },
       {
         "import": true,
-        "name": "傳教員",
+        "name": "傳聲者",
         "hidden": false,
         "type": "selectionEntry",
         "id": "3f2-2c6d-8edd-e659",
@@ -29941,7 +29941,7 @@
       },
       {
         "import": true,
-        "name": "哥利亞岩石研磨車",
+        "name": "哥利亞碎岩車",
         "hidden": false,
         "type": "selectionEntry",
         "id": "b6b2-af4a-8770-8626",
@@ -30041,7 +30041,7 @@
           }
         ],
         "import": true,
-        "name": "紐結者",
+        "name": "樞紐者",
         "hidden": false,
         "type": "selectionEntry",
         "id": "736-9c33-ae59-e8aa",
@@ -31391,7 +31391,7 @@
           }
         ],
         "import": true,
-        "name": "斥候哨兵",
+        "name": "斥侯哨兵",
         "hidden": false,
         "type": "selectionEntry",
         "id": "1ee4-62ac-f8e3-cf62",
@@ -31693,7 +31693,7 @@
           }
         ],
         "import": true,
-        "name": "美杜莎炮架炮組 ［傳奇］",
+        "name": "美杜莎炮架炮組［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "d733-321e-9ebc-19e0",
@@ -32029,7 +32029,7 @@
           }
         ],
         "import": true,
-        "name": "馬卡多 ［傳奇］",
+        "name": "馬卡多［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "f195-2bd2-677f-c701",
@@ -32071,7 +32071,7 @@
           }
         ],
         "import": true,
-        "name": "馬卡多殲滅者 ［傳奇］",
+        "name": "馬卡多殲滅者［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "1497-1ab9-c084-36cc",
@@ -32113,7 +32113,7 @@
           }
         ],
         "import": true,
-        "name": "馬卡多防禦者 ［傳奇］",
+        "name": "馬卡多防禦者［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "983f-e99b-41e0-856d",
@@ -32155,7 +32155,7 @@
           }
         ],
         "import": true,
-        "name": "馬卡多地獄火 ［傳奇］",
+        "name": "馬卡多地獄火［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "34a9-4d2-e07e-2f0f",
@@ -32197,7 +32197,7 @@
           }
         ],
         "import": true,
-        "name": "震地者炮架炮組 ［傳奇］",
+        "name": "震地者炮架炮組［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "1e45-5d8-83d3-c2d1",
@@ -32239,7 +32239,7 @@
           }
         ],
         "import": true,
-        "name": "風暴刃 ［傳奇］",
+        "name": "風暴刃［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "f317-6c72-c211-30bf",
@@ -32281,7 +32281,7 @@
           }
         ],
         "import": true,
-        "name": "馬卡里烏斯 ［傳奇］",
+        "name": "馬卡里烏斯［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "45f4-8ccb-37b8-1b93",
@@ -32323,7 +32323,7 @@
           }
         ],
         "import": true,
-        "name": "馬卡里烏斯殲滅者 ［傳奇］",
+        "name": "馬卡里烏斯殲滅者［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "aaed-c3ab-4aeb-e7cd",
@@ -32365,7 +32365,7 @@
           }
         ],
         "import": true,
-        "name": "馬卡里烏斯伏爾甘 ［傳奇］",
+        "name": "馬卡里烏斯伏爾甘［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "f127-548b-3a56-284f",
@@ -32407,7 +32407,7 @@
           }
         ],
         "import": true,
-        "name": "禁衛 ［傳奇］",
+        "name": "禁衛［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "686b-31f0-c201-76d4",
@@ -32449,7 +32449,7 @@
           }
         ],
         "import": true,
-        "name": "克拉蘇斯 ［傳奇］",
+        "name": "克拉蘇斯［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "9333-2a35-2297-6df",
@@ -32491,7 +32491,7 @@
           }
         ],
         "import": true,
-        "name": "巨像 ［傳奇］",
+        "name": "巨像［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "d0a2-dd28-e7db-8508",
@@ -32533,7 +32533,7 @@
           }
         ],
         "import": true,
-        "name": "瓦爾多 ［傳奇］",
+        "name": "瓦爾多［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "b37e-5968-5448-53e9",
@@ -32592,7 +32592,7 @@
           }
         ],
         "import": true,
-        "name": "戈爾貢重型運輸 ［傳奇］",
+        "name": "戈爾貢重型運輸［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "b691-ac32-3768-769d",
@@ -32760,7 +32760,7 @@
           }
         ],
         "import": true,
-        "name": "重型迫擊炮小隊 ［傳奇］",
+        "name": "重型迫擊炮小隊［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "f69c-857b-d6c5-6ad1",
@@ -32928,7 +32928,7 @@
           }
         ],
         "import": true,
-        "name": "震地者平台 ［傳奇］",
+        "name": "震地者平台［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "db2e-5ab8-3a0a-462a",
@@ -33012,7 +33012,7 @@
           }
         ],
         "import": true,
-        "name": "火蜥蜴斥候載具 ［傳奇］",
+        "name": "火蜥蜴斥侯載具［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "f00d-f15e-4e0a-f982",
@@ -33096,7 +33096,7 @@
           }
         ],
         "import": true,
-        "name": "陶洛斯突擊載具 ［傳奇］",
+        "name": "陶洛斯突擊載具［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "c7ff-da7e-9c97-d6dd",
@@ -33138,7 +33138,7 @@
           }
         ],
         "import": true,
-        "name": "火蜥蜴指揮載具 ［傳奇］",
+        "name": "火蜥蜴指揮載具［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "15b0-9b2a-5ec6-93f8",
@@ -33222,7 +33222,7 @@
           }
         ],
         "import": true,
-        "name": "半人馬輕型運載車 ［傳奇］",
+        "name": "半人馬輕型運載車［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "b0dc-2f9b-cb5a-d394",
@@ -33264,7 +33264,7 @@
           }
         ],
         "import": true,
-        "name": "馬卡里烏斯歐米茄 ［傳奇］",
+        "name": "馬卡里烏斯歐米茄［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "65e1-b02a-90a8-6ff2",
@@ -33524,7 +33524,7 @@
           }
         ],
         "import": true,
-        "name": "九頭蛇平台 ［傳奇］",
+        "name": "九頭蛇平台［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "faa3-fd3b-f418-b986",
@@ -33608,7 +33608,7 @@
           }
         ],
         "import": true,
-        "name": "彌諾陶洛斯 ［傳奇］",
+        "name": "彌諾陶洛斯［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "91b4-c703-ce24-8cfc",
@@ -34642,7 +34642,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "道路的飛升",
+            "name": "飛升之路",
             "hidden": false,
             "id": "3c2b-74c3-63f2-62f5",
             "type": "selectionEntryGroup",
@@ -34843,7 +34843,7 @@
       },
       {
         "import": true,
-        "name": "聲音的教主 ［試煉熔爐］",
+        "name": "教主之聲［試煉熔爐］",
         "hidden": false,
         "id": "aa47-f82b-0940-adc0",
         "targetId": "678c-b59c-f85d-0a43",
@@ -35276,7 +35276,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "每次一次遠程攻擊以其為目標此單位， 此單位具有該掩護加成對抗該攻擊。",
+                    "$text": "每次遠程攻擊以此單位為目標時，此單位對該攻擊獲得掩護加成。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -35376,7 +35376,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "每回合一次，若此單位完全位於一個地形特徵內，你可以以 0 點指揮點 將此單位作為警戒射擊或英雄干預計謀的目標。",
+                    "$text": "你可以以 0 點指揮點將此單位作為煙幕計謀的目標。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -35476,7 +35476,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "每次此單位被選擇射擊時， 若你選擇該最近敵方單位作為該目標的所有的那些攻擊次數， 加1到該命中擲骰當結算每個的那些攻擊次數。 在此外， 每次一個模型在此單位進行一次近戰攻擊， 加1到該命中擲骰。",
+                    "$text": "每次此單位被選擇射擊時，若所有攻擊都以距離最近的敵方單位為目標，則結算每次攻擊時命中擲骰加 1。此外，此單位中的模型每次進行近戰攻擊時，命中擲骰加 1。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -35611,7 +35611,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "每場戰鬥一次， 於該近戰階段開始時， 此單位可以使用此戰鬥特質。 若如此， 直到該階段結束前， 此單位具有該先攻能力。",
+                    "$text": "每場戰鬥一次，在近戰階段開始時，此單位可以使用此戰鬥特質。若如此做，直到該階段結束前，此單位具有先攻能力。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -35735,7 +35735,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "此單位中的模型具有一個 5+ 特防對抗遠程攻擊次數。",
+                    "$text": "此單位中的模型對遠程攻擊具有 5+ 特殊豁免。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -35850,7 +35850,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "每次此單位推進， 執行不進行一個推進擲骰。 改為， 直到該階段結束前， 加 6\" 至該移動屬性的模型在此單位。",
+                    "$text": "此單位每次推進時，不進行推進擲骰；改為直到該階段結束前，此單位中模型的移動屬性增加 6 吋。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -35965,7 +35965,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "每次一個攻擊以其為目標此單位， 惡化該穿甲的攻擊由 1 （最低為 0）。",
+                    "$text": "每次攻擊以此單位為目標時，該攻擊的穿甲屬性惡化 1（最低惡化至 0）。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -36065,7 +36065,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "當此模型獲得此戰鬥特質， 選擇一個 **^^基因竊取者教派^^** 單位在你的戰鬥序列為此模型至建立一個牢不可破的羈絆具有。 當此模型為領導該單位， 每回合一次， 你可以重擲一個命中擲骰， 一個致傷擲骰或一個豁免擲骰進行了為該單位。",
+                    "$text": "當此模型獲得此戰鬥特質時，從戰鬥序列中選擇一個 **^^基因竊取者教派^^** 單位，讓此模型與其建立牢不可破的羈絆。當此模型正在領導該單位時，每回合一次，可以重擲為該單位進行的一個命中擲骰、一個致傷擲骰或一個豁免擲骰。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -36200,7 +36200,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "每次一次近戰攻擊以其為目標此單位， 減1於該命中擲骰。",
+                    "$text": "每次近戰攻擊以此單位為目標時，該次命中擲骰減 1。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -36335,7 +36335,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "每次此單位貼近或整隊， 模型在此單位可以移動一個額外 2\"。",
+                    "$text": "此單位每次貼近或整隊時，此單位中的模型可以額外移動 2 吋。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -36435,7 +36435,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "改善此模型的領導力屬性由 1。 當一個友方 **^^基因竊取者教派^^** 單位為位於 12\" 的和可見至此模型， 模型在該單位可以使用此模型的領導力屬性改為的其自身。",
+                    "$text": "此模型的領導力屬性改善 1。當一個友方 **^^基因竊取者教派^^** 單位位於此模型 12 吋內且對此模型可見時，該單位中的模型可以使用此模型的領導力屬性代替自身屬性。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -36463,7 +36463,7 @@
                       }
                     ],
                     "type": "append",
-                    "value": "Brood Prophet",
+                    "value": "育巢先知",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "model-or-unit",
@@ -36579,7 +36579,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "每次此模型進行一次攻擊， 加1到該命中擲骰若此模型為領導一個單位的 5 或更多模型， 和 1 至該致傷擲骰作為同樣若此模型為領導一個單位的 10 或更多模型。",
+                    "$text": "此模型每次進行攻擊時，若此模型正在領導一個包含 5 個或更多模型的單位，命中擲骰加 1；若此模型正在領導一個包含 10 個或更多模型的單位，致傷擲骰也加 1。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -36612,7 +36612,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "改善該領導力屬性的模型在攜帶者的單位由 2。 每次攜帶者的單位失敗一個領導力測試， 攜帶者遭受 1 致命傷。",
+                        "$text": "攜帶者單位中模型的領導力屬性改善 2。攜帶者的單位每次領導力測試失敗時，攜帶者遭受 1 點致命傷。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -36733,7 +36733,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "Reverberation Coil",
+                        "value": "迴響線圈",
                         "field": "annotation",
                         "join": ", ",
                         "scope": "model-or-unit",
@@ -36761,7 +36761,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "每次你選擇攜帶者的單位作為該目標的一個戰鬥戰術計謀， 你可以選擇一個其他單位位於 12\" 的攜帶者的單位該為也一個合格目標為該計謀； 該選擇單位為也影響由該計謀。",
+                        "$text": "每次選擇攜帶者的單位作為戰鬥戰術計謀的目標時，可以選擇攜帶者單位 12 吋內另一個同樣符合該計謀目標資格的單位；該單位也會受到該計謀影響。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -36896,7 +36896,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "當一個敵方 **^^戰線^^** 單位為位於 9\" 的攜帶者的單位， 惡化該領導力屬性的模型在該敵方單位由 1， 和減1於該目標控制屬性的模型在該敵方單位 （最低為 0）。",
+                        "$text": "當一個敵方 **^^戰線^^** 單位位於攜帶者單位 9 吋內時，該敵方單位中模型的領導力屬性惡化 1，且目標控制屬性減 1（最低減至 0）。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -37023,7 +37023,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^侍僧聖像使^^** 模型只能。 當一個友方 **^^基因竊取者教派步兵^^** 或 **^^基因竊取者教派騎乘^^** 單位為位於 6\" 的攜帶者， 加1到該攻擊次數屬性的近戰武器由其裝備模型在該單位。",
+                        "$text": "僅限 **^^侍僧聖像使^^** 模型。當一個友方 **^^基因竊取者教派步兵^^** 或 **^^基因竊取者教派騎乘^^** 單位位於攜帶者 6 吋內時，該單位中模型裝備的近戰武器之攻擊次數屬性加 1。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -37166,7 +37166,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "改善該穿甲和傷害屬性的近戰武器由其裝備攜帶者由 1。",
+                        "$text": "攜帶者裝備的近戰武器之穿甲與傷害屬性各改善 1。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -37271,7 +37271,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "Vector Talon",
+                        "value": "向量爪刃",
                         "field": "annotation",
                         "join": ", ",
                         "scope": "model",
@@ -37341,7 +37341,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^步兵^^** 模型 （不包括 **^^教主^^** 模型） 只能。 加 3\" 至攜帶者的移動屬性， 和攜帶者獲得該下列能力： **滲透帷幕：** 每場戰鬥一次， 在結束時任何階段， 前提是此模型為不領導一個單位， 它可以使用此能力。 若如此， 移除它從戰場上和設置它最多再次任意位置在戰場上超過 9\" 水平遠離從所有敵方單位。",
+                        "$text": "僅限 **^^步兵^^** 模型（**^^教主^^** 模型除外）。\n攜帶者的移動屬性增加 3 吋，並獲得下列能力：\n**滲透帷幕：** 每場戰鬥一次，在任意階段結束時，若此模型未領導一個單位，則可以使用此能力。若如此做，將此模型從戰場上移除，然後重新設置於戰場上水平距離所有敵方單位超過 9 吋的任意位置。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -37469,7 +37469,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "Pervasion Veil",
+                        "value": "滲透帷幕",
                         "field": "annotation",
                         "join": ", ",
                         "scope": "model",
@@ -37784,7 +37784,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "- 減1於該韌性屬性的此模型。 - 惡化該武器技巧和射擊技巧屬性的武器由其裝備此模型由 1。",
+                    "$text": "- 此模型的韌性屬性減 1。\n- 此模型裝備武器的武器技巧與射擊技巧屬性各惡化 1。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -37834,7 +37834,7 @@
                       }
                     ],
                     "type": "append",
-                    "value": "Gene Affliction",
+                    "value": "基因折磨",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "model-or-unit",
@@ -37871,7 +37871,7 @@
                       }
                     ],
                     "type": "append",
-                    "value": "Gene Affliction",
+                    "value": "基因折磨",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "model-or-unit",
@@ -37890,7 +37890,7 @@
                       }
                     ],
                     "type": "append",
-                    "value": "Gene Affliction",
+                    "value": "基因折磨",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "model-or-unit",
@@ -37958,12 +37958,12 @@
               {
                 "characteristics": [
                   {
-                    "$text": "每次你分配一次攻擊至一個模型在此模型的單位， 你必須分配它至此模型。",
+                    "$text": "每次將一次攻擊分配給此模型所屬單位中的一個模型時，必須將該攻擊分配給此模型。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "失去的寵信",
+                "name": "失寵",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -37994,7 +37994,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "失去的寵信",
+            "name": "失寵",
             "hidden": false,
             "id": "0991-0eb3-f21c-33ec"
           },
@@ -38014,7 +38014,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "你不能目標此模型的單位具有核心計謀以外的計謀。",
+                    "$text": "此模型的單位只能成為核心計謀的目標。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -38070,7 +38070,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "- 此模型不能被附屬至一個單位該具有另一個模型附屬至它， 和沒有其他模型可以被附屬至一個單位此模型為附屬至。 - 於該近戰階段開始時， 若此模型的單位為位於交戰範圍的一個或更多敵方單位和位於 9\" 的一個或更多其他友方 **^^基因竊取者教派角色^^** 單位該為也位於交戰範圍的一個或更多敵方單位， 此模型的單位為不合格至近戰直到之後那些其他友方 **^^基因竊取者教派角色^^** 單位該為合格至近戰具有完成如此。",
+                    "$text": "- 若一個單位已附屬其他模型，此模型不能附屬於該單位；若此模型已附屬於一個單位，其他模型也不能再附屬於該單位。\n- 在近戰階段開始時，若此模型的單位位於一個或更多敵方單位的接戰範圍內，且距離另一個同樣位於一個或更多敵方單位接戰範圍內的友方 **^^基因竊取者教派角色^^** 單位 9 吋內，則此模型的單位必須等到所有符合近戰資格的這類友方 **^^基因竊取者教派角色^^** 單位完成近戰後，才符合近戰資格。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -38182,7 +38182,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "在你的衝鋒階段， 若此模型的單位為有資格宣告衝鋒和為位於 7\" 的一個或更多敵方單位， 你必須宣告衝鋒具有此模型的單位。",
+                    "$text": "在你的衝鋒階段，若此模型的單位符合宣告衝鋒的資格，且位於一個或更多敵方單位 7 吋內，則必須以此模型的單位宣告衝鋒。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -38359,7 +38359,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "之後每個遠征戰鬥， 你可以忽略你的首次失敗失去行動能力測試。",
+                        "$text": "每場遠征戰鬥結束後，可以忽略首次失敗的失去戰力測試。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -38572,7 +38572,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "之後每個遠征戰鬥， 一個一個 D6： 結果為4+時， 你獲得 1 額外徵用點數。",
+                        "$text": "每場遠征戰鬥結束後，擲一顆 D6：若結果為 4+，你額外獲得 1 點徵用點數。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -38643,7 +38643,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "每次你選擇一個單位至被偉大標記， 該單位獲得 1 額外 經驗值。",
+                        "$text": "每次選擇一個單位標記為偉業時，該單位額外獲得 1 點經驗值。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -38832,7 +38832,7 @@
             "sortIndex": 4
           }
         ],
-        "name": "道路的飛升",
+        "name": "飛升之路",
         "id": "c42c-8800-b96d-10b7",
         "hidden": false
       },
@@ -39269,7 +39269,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "在你的射擊階段， 每次你選擇一個 **^^交叉火力^^** 單位至射擊， 你可以選擇最多至兩個其他 **^^交叉火力^^** 單位來自你的遠征軍隊該為有資格射擊至執行一個致命交叉火力， 則， 你可以選擇一個敵方單位該會被一個合格目標為一個或更多遠程武器由其裝備模型在每個的選擇 **^^交叉火力^^** 單位。 直到該回合結束前， 該敵方單位為一個交叉火力目標。 每次一個的那些選擇 **^^交叉火力^^** 單位進行一次遠程攻擊， 模型在該單位可以只能目標其交叉火力目標， 和： - 若兩個 **^^交叉火力^^** 單位曾為選擇至執行一個致命交叉火力對抗該於敵方單位， 加1到該命中擲骰。 - 若三個 **^^交叉火力^^** 單位曾為選擇至執行一個致命交叉火力對抗該敵方單位， 加1到該命中擲骰和加1到該致傷擲骰。",
+                    "$text": "在你的射擊階段，每次選擇一個 **^^交叉火力^^** 單位射擊時，可以從遠征軍隊中再選擇最多兩個符合射擊資格的 **^^交叉火力^^** 單位，共同執行致命交叉火力。接著，選擇一個敵方單位；該敵方單位必須是每個已選 **^^交叉火力^^** 單位中模型所裝備的一把或更多遠程武器的合法目標。直到該回合結束前，該敵方單位成為交叉火力目標。\n\n這些已選 **^^交叉火力^^** 單位中的模型每次進行遠程攻擊時，只能以其交叉火力目標為目標，並套用下列效果：\n- 若選擇兩個 **^^交叉火力^^** 單位對該敵方單位執行致命交叉火力，命中擲骰加 1。\n- 若選擇三個 **^^交叉火力^^** 單位對該敵方單位執行致命交叉火力，命中擲骰加 1，且致傷擲骰加 1。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -39283,7 +39283,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "你獲得 6 謀劃點數， 該你可以花費至購買精明戰略能力至使用在該場戰鬥中。",
+                    "$text": "你獲得 6 點謀劃點數，可用於購買本場戰鬥中使用的精明戰略能力。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -39307,7 +39307,7 @@
                     "typeId": "ce0f-3aaf-c1bb-b973"
                   }
                 ],
-                "name": "眼線的教派",
+                "name": "教派之眼",
                 "typeId": "7c3a-e6af-b222-5e3d",
                 "typeName": "精明戰略能力",
                 "hidden": false,
@@ -39316,7 +39316,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "此單位中的模型具有該 **^^交叉火力^^** 關鍵字。 在你的射擊階段， 之後此單位完成射擊後， 選擇一個敵方 **^^步兵^^** 單位被一個或更多命中的那些攻擊次數該曾為一個交叉火力目標。 直到該開始的你的下一個回合， 該敵方單位為壓制。 當一個單位為壓制， 每次一個模型在該單位進行一次攻擊， 減1於該命中擲骰。",
+                    "$text": "此單位中的模型具有 **^^交叉火力^^** 關鍵字。在你的射擊階段，此單位完成射擊後，選擇一個既是交叉火力目標、又被其中一個或更多攻擊命中的敵方 **^^步兵^^** 單位。直到你的下一個回合開始前，該敵方單位受到壓制。受到壓制的單位中，模型每次進行攻擊時，命中擲骰減 1。",
                     "name": "Description",
                     "typeId": "9fe5-05bc-c31a-7d80"
                   },
@@ -39335,7 +39335,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "**^^步兵^^** 和 **^^騎乘^^** 單位只能。 所有此單位中的模型具有該隱蔽能力。",
+                    "$text": "僅限 **^^步兵^^** 與 **^^騎乘^^** 單位。此單位中的所有模型具有隱匿能力。",
                     "name": "Description",
                     "typeId": "9fe5-05bc-c31a-7d80"
                   },
@@ -39354,7 +39354,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "每場戰鬥一次，在指揮階段開始時，若此單位位於你控制的一個目標標記範圍內，你可以破壞該目標標記。若如此，將此單位的詭雷陷阱標記放置在該目標標記上；同一個目標標記一次不能有超過一個這類標記。當一個目標標記上有你的詭雷陷阱標記時，該目標標記視為已被破壞。每次一個敵方單位在該目標標記範圍內結束普通移動、推進、撤退或衝鋒移動時，擲一顆 D6；若結果為 2+，該敵方單位遭受 D3 點致命傷。",
+                    "$text": "每場戰鬥一次，在指揮階段開始時，若此單位位於你控制的一個目標標記範圍內，可以破壞該目標標記。若如此做，將此單位的詭雷陷阱標記放置在該目標標記上；同一個目標標記一次不能有超過一個這類標記。當一個目標標記上有你的詭雷陷阱標記時，該目標標記視為已被破壞。每次一個敵方單位在該目標標記範圍內結束普通、推進、撤退或衝鋒移動時，擲一顆 D6：若結果為 2+，該敵方單位遭受 D3 點致命傷。若在任意階段或回合結束時，該目標標記由對手控制，移除其上的己方詭雷陷阱標記。",
                     "name": "Description",
                     "typeId": "9fe5-05bc-c31a-7d80"
                   },
@@ -39373,7 +39373,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "此單位中的模型具有該 **^^交叉火力^^** 關鍵字。 每次此單位宣告衝鋒時， 若每個目標的衝鋒為一個交叉火力目標， 你可以重擲該衝鋒擲骰。 每次一個模型在此單位進行一次攻擊該以其為目標一個交叉火力目標， 你可以重擲該命中擲骰。",
+                    "$text": "此單位中的模型具有 **^^交叉火力^^** 關鍵字。此單位每次宣告衝鋒時，若該次衝鋒的所有目標都是交叉火力目標，可以重擲衝鋒擲骰。此單位中的模型每次以交叉火力目標為目標進行攻擊時，可以重擲命中擲骰。",
                     "name": "Description",
                     "typeId": "9fe5-05bc-c31a-7d80"
                   },
@@ -39392,7 +39392,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "此單位中的模型具有該 **^^交叉火力^^** 關鍵字。 在結束時對手的回合， 若此單位為不在交戰範圍的一個或更多敵方單位， 你可以移除此單位從戰場上和放置它進入戰略預備隊。",
+                    "$text": "此單位中的模型具有 **^^交叉火力^^** 關鍵字。在對手回合結束時，若此單位不在一個或更多敵方單位的接戰範圍內，可以將此單位從戰場上移除，並放入戰略預備隊。",
                     "name": "Description",
                     "typeId": "9fe5-05bc-c31a-7d80"
                   },
@@ -39411,7 +39411,7 @@
             ],
             "rules": [
               {
-                "description": "期間該選擇遠征祝福步驟， 你可以花費你的謀劃點數至購買一個或更多精明戰略能力。 所有謀劃點數未花費在結束時此步驟為失去。 每次你購買一個的這些能力， 選擇一個 **^^基因竊取者教派^^** 單位在你的遠征軍隊； 直到該結束的戰鬥， 該單位具有該能力和該首次時它為部署在戰場上， 放置該對應的精明戰略能力標記下一個至它至提醒你 （和你的對手） 該你具有已升級該單位該戰鬥。 你可以購買同一個精明戰略能力多個次， 但每個單位不能具有超過一個精明戰略能力每戰鬥。 註記該若一個單位具有一個精明戰略能力為被摧毀在該場戰鬥中和一個新相同單位為加入至你的遠征軍隊作為一個結果的教派伏擊能力， 該單位會不具有該精明戰略能力該原本單位曾經。",
+                "description": "在選擇遠征祝福步驟期間，可以花費謀劃點數購買一個或更多精明戰略能力。此步驟結束時，所有未花費的謀劃點數都會失去。每次購買其中一個能力時，選擇遠征軍隊中的一個 **^^基因竊取者教派^^** 單位；直到戰鬥結束前，該單位具有該能力。該單位首次設置於戰場上時，將對應的精明戰略能力標記放在其旁，以提醒雙方該單位已在本場戰鬥中獲得升級。可以多次購買同一個精明戰略能力，但每個單位每場戰鬥最多只能具有一個精明戰略能力。\n\n請注意：若一個具有精明戰略能力的單位在戰鬥中被摧毀，並因教派伏擊能力將一個相同的新單位加入你的遠征軍隊，該新單位不會具有原單位的精明戰略能力。",
                 "name": "精明戰略能力",
                 "id": "4e4f-26c3-bf56-f2ab",
                 "hidden": false
@@ -39419,7 +39419,7 @@
             ],
             "infoLinks": [
               {
-                "name": "隱蔽",
+                "name": "隱匿",
                 "id": "0fa0-ac11-70b0-d77e",
                 "hidden": false,
                 "type": "rule",
@@ -39492,7 +39492,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "每當一個教派寵眷者單位在一場遠征戰鬥中獲得 1 點或更多 經驗值 並在該戰鬥中存活，該場戰鬥結束後，為你遠征軍隊中每個同樣在該戰鬥中存活的其他單位各擲一顆 D6；每個結果為 6 的單位獲得 1 點經驗值。",
+                    "$text": "每當一個教派寵眷者單位在一場遠征戰鬥中獲得 1 點或更多經驗值，並在該戰鬥中存活，該場戰鬥結束後，為你遠征軍隊中每個同樣在該戰鬥中存活的其他單位各擲一顆 D6；每個擲骰結果為 6 的單位獲得 1 點經驗值。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -39635,7 +39635,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "此單位為有資格射擊在一個回合在該它已撤退。 每次一個模型在此單位進行一次遠程攻擊該以其為目標其交叉火力目標， 若此單位進行了一個撤退移動此回合， 該攻擊具有該 **[致命命中]** 能力。",
+                    "$text": "此單位即使在本回合撤退，仍符合射擊資格。若此單位本回合進行過撤退移動，此單位中的模型每次以其交叉火力目標為目標進行遠程攻擊時，該攻擊具有 **[致命一擊]** 能力。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -39649,7 +39649,7 @@
             ],
             "infoLinks": [
               {
-                "name": "致命命中",
+                "name": "致命一擊",
                 "id": "0924-2aca-f696-1371",
                 "hidden": false,
                 "type": "rule",
@@ -39744,7 +39744,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "你可以以 0 點指揮點 將此單位作為急速切入計謀的目標。",
+                    "$text": "你可以以 0 點指揮點將此單位作為快速入場計謀的目標。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -39944,7 +39944,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "每次你購買一個精明戰略能力， 若該升級為給予至此單位， 降低該謀劃點數需要至購買它由 1 （最低為 1）。 在此外， 於該升級遠征卡步驟， 若此單位會獲得 經驗值 從死亡販賣者， 它獲得 1 額外 經驗值。",
+                    "$text": "每次購買精明戰略能力時，若將該升級給予此單位，購買所需的謀劃點數減少 1（最低減至 1）。此外，在更新遠征卡步驟中，若此單位將因「死亡販賣者」獲得經驗值，則額外獲得 1 點經驗值。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -40044,7 +40044,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "每次一個模型在此單位進行一次遠程攻擊， 重擲一個命中擲骰的 1。 每次一個模型在此單位進行一次遠程攻擊該以其為目標其交叉火力目標， 該攻擊具有該 **[連擊 1]** 能力。",
+                    "$text": "此單位中的模型每次進行遠程攻擊時，重擲命中擲骰結果 1。此單位中的模型每次以其交叉火力目標為目標進行遠程攻擊時，該攻擊具有 **[連擊 1]** 能力。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -40153,7 +40153,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "此單位中模型裝備的遠程武器具有該 **[突擊]** 能力。",
+                    "$text": "此單位中模型裝備的遠程武器具有 **[突擊]** 能力。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -40170,7 +40170,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "Agile Guerillas",
+                    "value": "靈活游擊兵",
                     "field": "annotation",
                     "affects": "self.entries.recursive.profiles.Ranged Weapons",
                     "scope": "root-entry",
@@ -40178,7 +40178,7 @@
                   },
                   {
                     "type": "append",
-                    "value": "Assault",
+                    "value": "突擊",
                     "field": "7f1b-8591-2fcf-d01c",
                     "affects": "self.entries.recursive.profiles.Ranged Weapons",
                     "scope": "root-entry",
@@ -40218,12 +40218,12 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^豺狼阿爾法^^** 或 **^^聖匿者^^** 模型只能。 選擇一個遠程武器由其裝備攜帶者 （不包括一個武器該具有已被被替換由一個強化項或遠征聖物， 或已升級具有任何戰鬥特質）。 該武器為現在一個遠征聖物； 不此在攜帶者的遠征卡。 該武器獲得該 **[反-角色 4+]** 和 **[毀滅性創傷]** 能力。",
+                        "$text": "僅限 **^^豺狼阿爾法^^** 或 **^^聖匿者^^** 模型。選擇攜帶者裝備的一把遠程武器（不包含已被強化項或遠征聖物取代，或已獲得任何戰鬥特質升級的武器）。該武器現在是一件遠征聖物；在攜帶者的遠征卡上記錄此項。該武器獲得 **[反制角色 4+]** 與 **[毀滅性創傷]** 能力。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
-                    "name": "來自彼方的贈禮",
+                    "name": "來自彼端的贈禮",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "能力",
                     "hidden": false,
@@ -40375,7 +40375,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "來自彼方的贈禮",
+                "name": "來自彼端的贈禮",
                 "hidden": false,
                 "id": "1660-18c5-98c7-1bb1"
               },
@@ -40384,7 +40384,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^雷達克圖斯破壞者^^** 模型限定。若你的遠征軍隊包含精明戰略能力，攜帶者可以以 0 謀劃點數獲得詭雷陷阱精明戰略能力。此外，當攜帶者破壞一個目標標記時，每次一個敵方單位在該目標標記範圍內結束普通移動、推進、撤退或衝鋒移動，擲一顆 D6；若結果為 2+，該敵方單位遭受 D3+3 點致命傷，而不是 D3 點致命傷。",
+                        "$text": "僅限 **^^雷達克圖斯破壞者^^** 模型。若你的遠征軍隊包含精明戰略能力，攜帶者可以以 0 謀劃點數獲得詭雷陷阱精明戰略能力。此外，當攜帶者破壞一個目標標記時，每次一個敵方單位在該目標標記範圍內結束普通、推進、撤退或衝鋒移動時，擲一顆 D6：結果為 2+ 時，該敵方單位遭受 D3+3 點致命傷，而不是 D3 點致命傷。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -40520,7 +40520,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^傳教員^^** 模型只能。 每次一個敵方單位進行一個戰鬥震懾測試作為一個結果的攜帶者的新真理之聲能力， 減1於該測試和， 若該測試失敗， 該敵方單位遭受 3 致命傷。",
+                        "$text": "僅限 **^^傳聲者^^** 模型。每次敵方單位因攜帶者的「新真理之聲」能力進行戰鬥震懾測試時，該次測試減 1；若測試失敗，該敵方單位遭受 3 點致命傷。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -40664,7 +40664,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^首席^^** 模型只能。 若攜帶者為選擇至被你的 **^^戰略家^^**， 你獲得一個額外 3 謀劃點數至花費在精明戰略能力。 任何謀劃點數不花費由該結束的選擇遠征祝福步驟為不失去 - 改為， 每次一個新 **^^基因竊取者教派^^** 單位為加入至你的遠征軍隊透過該教派伏擊規則， 你可以花費任何剩餘謀劃點數至購買一個精明戰略能力為該新單位之前它為部署在戰場上。 任何謀劃點數不花費由該結束的戰鬥為失去。",
+                        "$text": "僅限 **^^首席^^** 模型。若選擇攜帶者作為你的 **^^戰略家^^**，獲得額外 3 點謀劃點數，用於購買精明戰略能力。選擇遠征祝福步驟結束時，未花費的謀劃點數不會失去；改為每當一個新的 **^^基因竊取者教派^^** 單位透過教派伏擊規則加入遠征軍隊時，可以在該新單位設置於戰場上之前，使用剩餘謀劃點數為其購買精明戰略能力。戰鬥結束時，所有未花費的謀劃點數都會失去。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -40807,7 +40807,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^首席^^** 或 **^^羅庫斯^^** 模型只能。 選擇一個武器由其裝備攜帶者 （不包括一個武器該具有已被被替換由一個強化項或遠征聖物， 或已升級具有任何戰鬥特質）。 該武器為現在一個遠征聖物； 註記此在攜帶者的遠征卡。 該武器具有該 **[致命命中]** 能力， 和每次攜帶者進行一次攻擊具有該武器， 你可以重擲該命中擲骰。",
+                        "$text": "僅限 **^^首席^^** 或 **^^羅庫斯^^** 模型。選擇攜帶者裝備的一把武器（不包含已被強化項或遠征聖物取代，或已獲得任何戰鬥特質升級的武器）。該武器現在是一件遠征聖物；在攜帶者的遠征卡上記錄此項。該武器具有 **[致命一擊]** 能力，且攜帶者每次使用該武器進行攻擊時，可以重擲命中擲骰。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -40935,7 +40935,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "致命命中",
+                    "name": "致命一擊",
                     "id": "3dde-dd49-fd71-89b4",
                     "hidden": false,
                     "type": "rule",
@@ -40953,7 +40953,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^教主^^** 或 **^^魔導師^^** 模型只能。 攜帶者可以使用其靈能魔寵能力一個額外時在該場戰鬥中 （此必須被在不同回合）。",
+                        "$text": "僅限 **^^教主^^** 或 **^^魔導師^^** 模型。攜帶者在本場戰鬥中可以額外使用一次靈能魔寵能力；兩次使用必須位於不同回合。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -41090,7 +41090,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^侍僧聖像使^^** 模型只能。 加 2 至攜帶者的目標控制屬性。 在此外， 當你使用該召喚教派能力， 你可以放置該教派伏擊標記任意位置在戰場上該為位於 18\" 的攜帶者和超過 9\" 水平遠離從所有敵方單位 （若此為不可能， 該召喚教派能力為不視為至具有已被使用和該標記為移除如常）。",
+                        "$text": "僅限 **^^侍僧聖像使^^** 模型。攜帶者的目標控制屬性加 2。此外，使用召集教派能力時，可以將教派伏擊標記放置於戰場上任意位置，但必須位於攜帶者 18 吋內，且水平距離所有敵方單位超過 9 吋。若無法如此放置，則視為未使用召集教派能力，並照常移除該標記。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -41210,7 +41210,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "Sacred Cult Banner",
+                        "value": "神聖教派旗幟",
                         "field": "annotation",
                         "join": ", ",
                         "scope": "model",
@@ -41238,7 +41238,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^紐結者^^** 模型只能。 每次攜帶者使用其教派滲透能力， 你可以選擇最多至兩個的你的教派伏擊標記該為在戰場上改為的選擇一個； 每個標記選擇該具有不已被移動此回合可以被移動最多至 6\"。",
+                        "$text": "僅限 **^^樞紐者^^** 模型。攜帶者每次使用教派滲透能力時，可以選擇戰場上的最多兩個己方教派伏擊標記，而非一個；每個本回合尚未移動的已選標記都可以移動最多 6 吋。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -41364,7 +41364,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^賜福者^^** 模型只能。 攜帶者的遠程靈能武器具有該 **[毀滅性創傷]** 能力和該射程屬性的那些武器為增加由 6\"。",
+                        "$text": "僅限 **^^賜福者^^** 模型。攜帶者的遠程靈能武器具有 **[毀滅性創傷]** 能力，且這些武器的射程屬性增加 6 吋。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -41484,7 +41484,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "The Unwilling Orb",
+                        "value": "不願之球",
                         "field": "annotation",
                         "join": ", ",
                         "scope": "model",
@@ -41499,7 +41499,7 @@
                       },
                       {
                         "type": "append",
-                        "value": "Devastating Wounds",
+                        "value": "毀滅性創傷",
                         "field": "7f1b-8591-2fcf-d01c",
                         "scope": "model",
                         "affects": "self.entries.4546-4a0c-b3be-e84c.profiles.Ranged Weapons",
@@ -41520,7 +41520,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^凱勒摩夫^^** 模型限定。每場戰鬥一次，在你的射擊階段，此單位完成射擊後，選擇一個被該次攻擊中一個或更多命中擊中的敵方單位（**^^載具^^** 除外）。直到戰鬥結束前，該敵方單位視為被淬毒。在每個指揮階段開始時，為戰場上每個被淬毒的單位各擲一顆 D6；若結果為 4+，該單位遭受 D3 點致命傷。",
+                        "$text": "僅限 **^^凱勒摩夫^^** 模型。每場戰鬥一次，在你的射擊階段，此單位完成射擊後，選擇一個被其中一個或更多攻擊命中的敵方單位（**^^載具^^** 除外）。直到戰鬥結束前，該敵方單位視為中毒。在每個指揮階段開始時，為戰場上的每個中毒單位擲一顆 D6：結果為 4+ 時，該單位遭受 D3 點致命傷。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -41646,7 +41646,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^生化賢者^^** 模型只能。 攜帶者可以使用其鍊金魔寵能力一個額外時在該場戰鬥中 （此必須被在不同回合）。",
+                        "$text": "僅限 **^^生化賢者^^** 模型。攜帶者在本場戰鬥中可以額外使用一次煉金使魔能力；兩次使用必須位於不同回合。",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -42105,7 +42105,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "Sword of the Void's Eye",
+                    "value": "虛空之眼之劍",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -42113,7 +42113,7 @@
                   },
                   {
                     "type": "append",
-                    "value": "Lethal Hits",
+                    "value": "致命一擊",
                     "field": "7f1b-8591-2fcf-d01c",
                     "join": ", ",
                     "scope": "upgrade",
@@ -42121,7 +42121,7 @@
                   },
                   {
                     "type": "append",
-                    "value": "Sword of the Void's Eye",
+                    "value": "虛空之眼之劍",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -42129,7 +42129,7 @@
                   },
                   {
                     "type": "append",
-                    "value": "Lethal Hits",
+                    "value": "致命一擊",
                     "field": "893f-9000-ccf7-648e",
                     "join": ", ",
                     "scope": "upgrade",
@@ -42265,7 +42265,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "The Gift From Beyond",
+                    "value": "來自彼端的贈禮",
                     "field": "annotation",
                     "join": ", ",
                     "scope": "upgrade",
@@ -42273,7 +42273,7 @@
                   },
                   {
                     "type": "append",
-                    "value": "Anti-Character 4+, Devastating Wounds",
+                    "value": "反制角色 4+，毀滅性創傷",
                     "field": "7f1b-8591-2fcf-d01c",
                     "join": ", ",
                     "scope": "upgrade",
@@ -42285,7 +42285,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "來自彼方的贈禮升級",
+            "name": "來自彼端的贈禮升級",
             "hidden": false,
             "id": "583d-852d-e23a-b7e8"
           }
@@ -42334,7 +42334,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "在你的指揮階段， 一個模型來自你的軍隊具有此能力可以使用它。 若如此， 選擇一個敵方單位位於 18\" 的它； 該敵方單位必須進行一個戰鬥震懾測試。",
+                    "$text": "在你的指揮階段，一個具有此能力的己方模型可以使用此能力。若如此做，選擇一個位於該模型 18 吋內的敵方單位；該敵方單位必須進行戰鬥震懾測試。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -42357,7 +42357,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "此單位中模型裝備的近戰武器具有該 **[反步兵 3+]** 能力",
+                    "$text": "此單位中模型裝備的近戰武器具有 **[反制步兵 3+]** 能力。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -42389,7 +42389,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "每回合一次， 當一個敵方單位結束一個普通移動、推進或撤退移動位於 9\" 的此模型， 若此模型為不在交戰範圍的一個或更多敵方單位， 它可以進行一個普通移動的最多至 6\"。",
+                    "$text": "每回合一次，當一個敵方單位在此模型 9 吋內結束普通、推進或撤退移動時，若此模型不在一個或更多敵方單位的接戰範圍內，則此模型可以進行最多 6 吋的普通移動。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -42412,7 +42412,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "在結束時對手的近戰階段， 若此單位為不在交戰範圍的任何敵方單位， 每場戰鬥一次， 你可以移除此單位從戰場上和放置它進入戰略預備隊。",
+                    "$text": "在對手的近戰階段結束時，若此單位不在任何敵方單位的接戰範圍內，每場戰鬥一次，可以將此單位從戰場上移除，並放入戰略預備隊。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -42435,7 +42435,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "在開始時該首次戰鬥輪， 選擇一個敵方單位至被此模型的獵物。 每次此模型進行一次攻擊該以其為目標它獵物， 你可以重擲該命中擲骰和你可以重擲該致傷擲骰。",
+                    "$text": "第一個戰鬥輪開始時，選擇一個敵方單位作為此模型的獵物。此模型每次以其獵物為目標進行攻擊時，可以重擲命中擲骰及致傷擲骰。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -42458,7 +42458,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "若此模型為沒有部分的一個附屬單位和若此模型裝備有沒有遠程武器 （不包括近距離武器）， 敵方單位不能使用該警戒射擊計謀至射擊於此模型。",
+                    "$text": "若此模型不屬於附屬單位，且未裝備任何遠程武器（手槍除外），敵方單位不能使用警戒射擊計謀對此模型射擊。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -42481,7 +42481,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "每場戰鬥一次， 於該任意階段開始時， 你可以選擇一個友方 **^^基因竊取者教派^^** 單位該為戰鬥震懾和位於 12\" 的此模型。 該單位為沒有再戰鬥震懾。",
+                    "$text": "每場戰鬥一次，在任意階段開始時，可以選擇一個位於此模型 12 吋內且處於戰鬥震懾狀態的友方 **^^基因竊取者教派^^** 單位。該單位不再處於戰鬥震懾狀態。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -42504,7 +42504,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "當此模型正在領導一個單位時， 近戰武器由其裝備模型在該單位具有該 **[致命命中]** 能力。",
+                    "$text": "當此模型正在領導一個單位時，該單位中模型裝備的近戰武器具有 **[致命一擊]** 能力。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -42556,7 +42556,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "改變此模型的移動屬性至 12\"， 其韌性屬性至 4， 移除該 **^^步兵^^** 關鍵字， 和加該 **^^騎乘^^** 關鍵字。 移除該深擊和滲透者能力 （若適用）， 它獲得該斥候 9\" 和隱蔽能力， 和替換此模型可以加入的單位列表為： **^^阿塔蘭豺狼^^**。",
+                    "$text": "將此模型的移動屬性改為 12 吋、韌性屬性改為 4，移除 **^^步兵^^** 關鍵字並加入 **^^騎乘^^** 關鍵字。移除深入打擊與滲透者能力（若適用），並獲得斥侯 9 吋與隱匿能力；此模型可附屬的單位列表改為：**^^阿塔蘭豺狼^^**。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -42599,7 +42599,7 @@
                   },
                   {
                     "type": "append",
-                    "value": "Dirtcycle",
+                    "value": "越野機車",
                     "field": "annotation",
                     "scope": "root-entry",
                     "affects": "profiles.Unit",
@@ -42658,7 +42658,7 @@
             ],
             "infoLinks": [
               {
-                "name": "隱蔽",
+                "name": "隱匿",
                 "id": "286b-30e5-61c8-ca03",
                 "hidden": false,
                 "type": "rule",
@@ -42672,7 +42672,7 @@
                     "field": "name"
                   }
                 ],
-                "name": "斥候",
+                "name": "斥侯",
                 "id": "c677-9f45-affd-9372",
                 "hidden": false,
                 "type": "rule",
@@ -42690,12 +42690,12 @@
               {
                 "characteristics": [
                   {
-                    "$text": "替換此模型可以加入的單位列表為： **^^畸變體^^**。",
+                    "$text": "將此模型可附屬的單位列表改為：**^^畸變體^^**。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "牧者的受福",
+                "name": "受福者牧人",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -42751,7 +42751,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "牧者的受福",
+            "name": "受福者牧人",
             "hidden": false,
             "id": "9fca-eb19-657f-a160"
           }
@@ -42866,7 +42866,7 @@
                   }
                 ],
                 "import": true,
-                "name": "火焰噴射器",
+                "name": "噴火器",
                 "hidden": false,
                 "id": "7563-425a-d38f-c3f6",
                 "targetId": "35af-1e2b-ca02-6936",
@@ -43020,7 +43020,7 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "突擊，爆炸，一次射擊",
+                        "$text": "突擊，爆炸，一次性",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -43034,8 +43034,8 @@
                 ],
                 "rules": [
                   {
-                    "description": "。攜帶者可以只能射擊具有此武器每場戰鬥一次",
-                    "name": "一次射擊",
+                    "description": "攜帶者每場戰鬥只能使用此武器射擊一次。",
+                    "name": "一次性",
                     "id": "4ff2-e851-92a5-aaa7",
                     "hidden": false
                   }
@@ -43305,7 +43305,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "重伐木槍",
+                    "name": "重型機槍",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -43353,7 +43353,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "重伐木槍",
+                "name": "重型機槍",
                 "hidden": false,
                 "id": "90f1-0e87-01a7-d14d"
               },
@@ -43765,7 +43765,7 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "近距離",
+                        "$text": "手槍",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -43779,7 +43779,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "近距離",
+                    "name": "手槍",
                     "id": "614b-10d6-de8b-c9f0",
                     "hidden": false,
                     "type": "rule",
@@ -43816,7 +43816,7 @@
                     "primary": false
                   },
                   {
-                    "name": "近距離武器",
+                    "name": "手槍武器",
                     "hidden": false,
                     "id": "0e96-b7a0-cc01-71ca",
                     "targetId": "1db0-c6b5-19db-8d0c",
@@ -43864,7 +43864,7 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "近距離",
+                        "$text": "手槍",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -43878,7 +43878,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "近距離",
+                    "name": "手槍",
                     "id": "039c-4c04-0e83-fdc6",
                     "hidden": false,
                     "type": "rule",
@@ -43895,7 +43895,7 @@
                     "primary": false
                   },
                   {
-                    "name": "近距離武器",
+                    "name": "手槍武器",
                     "hidden": false,
                     "id": "0808-b314-a6b7-91d8",
                     "targetId": "1db0-c6b5-19db-8d0c",
@@ -43973,7 +43973,7 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "毀滅性創傷，近距離",
+                        "$text": "毀滅性創傷，手槍",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -43994,7 +43994,7 @@
                     "targetId": "be1e-ac8e-1e2c-3528"
                   },
                   {
-                    "name": "近距離",
+                    "name": "手槍",
                     "id": "a138-29ec-eef9-0bab",
                     "hidden": false,
                     "type": "rule",
@@ -44027,7 +44027,7 @@
                 "id": "4cf5-7729-468d-5844"
               }
             ],
-            "name": "近距離",
+            "name": "手槍",
             "id": "950a-5207-2ae4-2acc",
             "hidden": false
           },
@@ -44252,7 +44252,7 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "反步兵 3+，精準",
+                        "$text": "反制步兵 3+，精準",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -44446,7 +44446,7 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "反載具 4+",
+                        "$text": "反制載具 4+",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -44743,12 +44743,12 @@
         "id": "5c5f-d483-11e3-3f12"
       },
       {
-        "name": "傳教員",
+        "name": "傳聲者",
         "hidden": false,
         "id": "e90-a1ac-e276-9652"
       },
       {
-        "name": "哥利亞岩石研磨車",
+        "name": "哥利亞碎岩車",
         "hidden": false,
         "id": "d059-fcf6-93f4-3da6"
       },
@@ -44768,7 +44768,7 @@
         "id": "d1ae-4000-bdd2-333b"
       },
       {
-        "name": "紐結者",
+        "name": "樞紐者",
         "hidden": false,
         "id": "8b0d-31c9-98a2-8430"
       },
@@ -44803,7 +44803,7 @@
         "hidden": false
       },
       {
-        "name": "聲音的教主",
+        "name": "教主之聲",
         "id": "9408-bf33-e6b6-079d",
         "hidden": false
       },
@@ -44817,7 +44817,7 @@
       {
         "characteristics": [
           {
-            "$text": "當此模型具有 1-3 傷剩餘， 每次此模型進行一次攻擊， 減1於該命中擲骰。",
+            "$text": "當此模型剩餘 1-3 點生命值時，每次此模型進行攻擊，命中擲骰減 1。",
             "name": "Description",
             "typeId": "9b8f-694b-e5e-b573"
           }
@@ -44919,7 +44919,7 @@
     ],
     "sharedRules": [
       {
-        "description": "若你的軍隊陣營為 **基因竊取者教派**，你會依戰鬥規模獲得下列數量的復起點數：\n\n- 遭遇戰：6 點復起點數\n- 打擊部隊：10 點復起點數\n- 猛攻：14 點復起點數\n\n每當你軍隊中的一個單位被摧毀時，若該單位的所有模型都具有此能力，你可以依該單位的起始兵力，花費下列相應數量的復起點數。\n\n**---畸變體---**\n5 個模型 = 4 點復起點數\n10 個模型 = 8 點復起點數\n\n**---配備自動手槍的侍從雜種、配備手持噴火器的侍從雜種、雜種變形體---**\n5 個模型 = 2 點復起點數\n10 個模型 = 4 點復起點數\n\n**---阿塔蘭豺狼騎手---**\n5 個模型 = 2 點復起點數\n10 個模型 = 6 點復起點數\n\n**---新徒雜種---**\n10 個模型 = 3 點復起點數\n20 個模型 = 6 點復起點數\n\n**---純種基因竊取者---**\n5 個模型 = 2 點復起點數\n10 個模型 = 6 點復起點數\n\n若如此做：\n- 將一個與被摧毀單位相同的新單位，以其起始兵力、所有生命值皆未損失，且其模型所裝備的任何 **[一次性]** 武器均視為尚未射擊的狀態，加入你的軍隊並置於教派伏擊中。\n- 在戰場上任意放置一個教派伏擊標記（見下文）；該標記必須水平距離所有敵方單位超過 9 吋。若無法如此放置，則不放置標記。\n\n**教派伏擊中的單位**\n教派伏擊是一種戰略預備隊。處於教派伏擊中的單位不能成為快速入場計謀的目標，但可以依下列方式，使用教派伏擊標記設置於戰場上；或於後續回合依戰略預備隊規則設置。處於教派伏擊中的單位不會在第三個戰鬥輪結束時自動被摧毀。\n\n**教派伏擊標記**\n教派伏擊標記使用直徑 32 毫米的圓形標記。若一個敵方模型（**航空器**除外）在你放置的教派伏擊標記 8 吋內結束任意類型的移動，該標記會從戰場上移除。在對手下一個移動階段結束時，對於每個仍位於戰場上的教派伏擊標記，你可以選擇一個正處於教派伏擊中的己方單位進行一次**入場移動**。進行該次入場移動時，將該單位設置為至少一個模型與該教派伏擊標記底座接觸，其他所有模型均完全位於該標記 3 吋內；之後將該標記從戰場上移除。單位可以在第一個戰鬥輪依此規則進行入場移動。",
+        "description": "若你的軍隊陣營為 **基因竊取者教派**，你會依戰鬥規模獲得下列數量的復起點數：\n\n- 遭遇戰：6 點復起點數\n- 打擊部隊：10 點復起點數\n- 猛攻：14 點復起點數\n\n每當你軍隊中的一個單位被摧毀時，若該單位的所有模型都具有此能力，你可以依該單位的起始兵力，花費下列相應數量的復起點數。\n\n**---畸變體---**\n5 個模型 = 4 點復起點數\n10 個模型 = 8 點復起點數\n\n**---配備自動手槍的侍僧混血、配備手焰槍的侍僧混血、混血變異者---**\n5 個模型 = 2 點復起點數\n10 個模型 = 4 點復起點數\n\n**---阿塔蘭豺狼---**\n5 個模型 = 2 點復起點數\n10 個模型 = 6 點復起點數\n\n**---新信徒混血---**\n10 個模型 = 3 點復起點數\n20 個模型 = 6 點復起點數\n\n**---純種基因竊取者---**\n5 個模型 = 2 點復起點數\n10 個模型 = 6 點復起點數\n\n若如此做：\n\n- 將一個與被摧毀單位完全相同的新單位加入你的軍隊，並置於教派伏擊中。該單位使用其起始兵力、所有生命值皆未損失，且其模型裝備的任何 **[一次性]** 武器均視為尚未射擊。\n- 在戰場上任意放置一個教派伏擊標記（見下文）；該標記必須水平距離所有敵方單位超過 9 吋。若無法如此放置，則不放置標記。\n\n**教派伏擊中的單位**\n教派伏擊是一種戰略預備隊。處於教派伏擊中的單位不能成為快速入場計謀的目標，但可以依下列方式，使用教派伏擊標記設置於戰場上；或於後續回合依戰略預備隊規則設置。處於教派伏擊中的單位不會在第三個戰鬥輪結束時自動被摧毀。\n\n**教派伏擊標記**\n教派伏擊標記使用直徑 32 毫米的圓形標記。若一個敵方模型（**航空器**除外）在你放置的教派伏擊標記 8 吋內結束任意類型的移動，該標記會從戰場上移除。在對手下一個移動階段結束時，對於每個仍位於戰場上的教派伏擊標記，你可以選擇一個正處於教派伏擊中的己方單位進行一次**入場移動**。進行該次**入場移動**時，將該單位設置為至少一個模型與該教派伏擊標記底座接觸，其他所有模型均完全位於該標記 3 吋內；之後將該標記從戰場上移除。單位可以在第一個戰鬥輪依此規則進行**入場移動**。",
         "modifiers": [
           {
             "conditions": [
