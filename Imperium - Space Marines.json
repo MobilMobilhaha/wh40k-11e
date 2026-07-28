@@ -10454,14 +10454,6 @@
         "id": "a5ca-1425-805a-360d",
         "type": "selectionEntry",
         "targetId": "3bc7-8328-a080-3958"
-      },
-      {
-        "import": true,
-        "name": "先鋒老兵小隊 （阿米吉多頓）",
-        "hidden": false,
-        "id": "72a0-0ee6-c0eb-587e",
-        "type": "selectionEntry",
-        "targetId": "c2b8-e7ef-084b-ed30"
       }
     ],
     "sharedSelectionEntries": [
@@ -15329,12 +15321,12 @@
           {
             "characteristics": [
               {
-                "$text": "每當此單位被選定進行射擊時，其可以使用此能力。如此做的話，直到該階段結束為止，此單位中模型所裝備的爆矢步槍攻擊次數值加 2，且你只能選擇一個敵方單位作為此單位所有攻擊的目標。",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "在己方射擊階段，當該單位被選擇進行射擊時，選擇最多一個可見的敵方單位。在進行那些攻擊時，該單位的爆矢步槍對該敵方單位進行的攻擊獲得 +2 A。"
               }
             ],
-            "name": "目標殲滅",
+            "name": "爆矢彈雨",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -16956,7 +16948,40 @@
         "import": true,
         "name": "電漿手槍",
         "hidden": false,
-        "id": "25c2-104f-fa0c-809e"
+        "id": "25c2-104f-fa0c-809e",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "Max 1 {this} per 5 models",
+            "field": "error",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 10,
+                    "field": "selections",
+                    "scope": "unit",
+                    "childId": "8a7f-b578-d274-9769",
+                    "shared": true,
+                    "childName": "Vanguard Veterans with Jump Packs"
+                  },
+                  {
+                    "type": "greaterThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "9e9c-bf4d-2d40-be82",
+                    "childId": "25c2-104f-fa0c-809e",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Plasma pistol"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "profiles": [
@@ -17760,7 +17785,7 @@
               }
             ],
             "type": "set",
-            "value": 170,
+            "value": 180,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -28154,9 +28179,9 @@
           {
             "characteristics": [
               {
-                "$text": "在近戰階段開始時，你可以選擇下列一項能力，套用至此單位中的模型，直到該階段結束為止：■ 帝國之劍：每當此單位中一個模型作出近戰攻擊時，重擲命中擲骰結果 1。■ 帝國之盾：每當為此單位中一個模型作特殊保護擲骰時，重擲擲骰結果 1。",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "（每回合，每個單位限一次）：在近戰階段中，當該單位被選擇進行近戰，或成為敵方單位的攻擊目標時，你可以選擇以下一項：\n\n▪ 該單位的近戰攻擊之命中擲骰結果 +1。\n▪ 或：以該單位為目標的攻擊之命中擲骰結果 -1。"
               }
             ],
             "name": "劍衛",
@@ -29032,7 +29057,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 100
+            "value": 105
           },
           {
             "name": "Crusade Points",
@@ -29057,6 +29082,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           },
           {
@@ -29189,7 +29224,7 @@
               }
             ],
             "type": "set",
-            "value": 200,
+            "value": 210,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -29313,6 +29348,39 @@
                 ]
               }
             ]
+          },
+          {
+            "type": "add",
+            "value": "All models must replace their Vanguard Veteran Weapon and Bolt pistol",
+            "field": "warning",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "9e9c-bf4d-2d40-be82",
+                    "childId": "6854-cb18-b20b-42f4",
+                    "shared": true,
+                    "childName": "Master-crafted Power Weapon",
+                    "includeChildSelections": true
+                  },
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "9e9c-bf4d-2d40-be82",
+                    "childId": "d466-dd6c-f7bd-6fea",
+                    "shared": true,
+                    "childName": "Vanguard Veteran Weapon",
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ],
+            "affects": "self.entries"
           }
         ],
         "selectionEntryGroups": [
@@ -29321,94 +29389,12 @@
               {
                 "constraints": [
                   {
-                    "type": "min",
-                    "value": 4,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "84ea-f94a-3737-d3a7"
-                  },
-                  {
                     "type": "max",
                     "value": 9,
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
                     "id": "1f4-2e60-49fb-3"
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "profiles": [
-                      {
-                        "characteristics": [
-                          {
-                            "$text": "近戰",
-                            "name": "Range",
-                            "typeId": "914c-b413-91e3-a132"
-                          },
-                          {
-                            "$text": "4",
-                            "name": "A",
-                            "typeId": "2337-daa1-6682-b110"
-                          },
-                          {
-                            "$text": "3+",
-                            "name": "WS",
-                            "typeId": "95d1-95f-45b4-11d6"
-                          },
-                          {
-                            "$text": "5",
-                            "name": "S",
-                            "typeId": "ab33-d393-96ce-ccba"
-                          },
-                          {
-                            "$text": "-1",
-                            "name": "AP",
-                            "typeId": "41a0-1301-112a-e2f2"
-                          },
-                          {
-                            "$text": "1",
-                            "name": "D",
-                            "typeId": "3254-9fe6-d824-513e"
-                          },
-                          {
-                            "$text": "-",
-                            "name": "Keywords",
-                            "typeId": "893f-9000-ccf7-648e"
-                          }
-                        ],
-                        "name": "先鋒老兵武器",
-                        "typeId": "8a40-4aaa-c780-9046",
-                        "typeName": "近戰武器",
-                        "hidden": false,
-                        "id": "ca66-54e3-a097-55b0"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "a516-284-62ac-8257"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "9343-e602-e906-688b"
-                      }
-                    ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "先鋒老兵武器",
-                    "hidden": false,
-                    "id": "4fab-9370-8ba1-b1bc",
-                    "collective": true
                   }
                 ],
                 "selectionEntryGroups": [
@@ -29554,7 +29540,28 @@
                 "import": true,
                 "name": "裝備跳躍背包的先鋒老兵",
                 "hidden": false,
-                "id": "5ca1-8654-298a-b29f"
+                "id": "5ca1-8654-298a-b29f",
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "先鋒老兵武器",
+                    "hidden": false,
+                    "id": "dd15-db0a-747d-d3a3",
+                    "type": "selectionEntry",
+                    "targetId": "d466-dd6c-f7bd-6fea",
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "0fbb-dbdd-a4fc-b2a4",
+                        "includeChildSelections": false
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -29576,24 +29583,6 @@
                   }
                 ],
                 "entryLinks": [
-                  {
-                    "entryLinks": [
-                      {
-                        "import": true,
-                        "name": "武器改造",
-                        "hidden": false,
-                        "id": "56d4-bf98-0ff9-ed04",
-                        "type": "selectionEntryGroup",
-                        "targetId": "f9da-852a-d7f0-92e9"
-                      }
-                    ],
-                    "import": true,
-                    "name": "先鋒老兵武器",
-                    "hidden": false,
-                    "type": "selectionEntry",
-                    "id": "5eaa-19f1-e3b2-8652",
-                    "targetId": "4fab-9370-8ba1-b1bc"
-                  },
                   {
                     "import": true,
                     "name": "終結者榮譽升級",
@@ -29627,7 +29616,27 @@
                         "import": true,
                         "name": "風暴盾",
                         "hidden": false,
-                        "id": "29e1-5f2e-8d3a-8c4"
+                        "id": "29e1-5f2e-8d3a-8c4",
+                        "modifiers": [
+                          {
+                            "type": "set",
+                            "value": true,
+                            "field": "hidden",
+                            "conditions": [
+                              {
+                                "type": "atLeast",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "9e9c-bf4d-2d40-be82",
+                                "childId": "2847-71d9-2b3e-67d7",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "includeChildForces": true,
+                                "childName": "Master-crafted Power Weapon"
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ],
                     "constraints": [
@@ -29665,7 +29674,27 @@
                         "hidden": false,
                         "type": "selectionEntry",
                         "id": "3920-2e53-55d7-7b50",
-                        "targetId": "18b0-8c2-173f-5"
+                        "targetId": "18b0-8c2-173f-5",
+                        "modifiers": [
+                          {
+                            "type": "set",
+                            "value": true,
+                            "field": "hidden",
+                            "conditions": [
+                              {
+                                "type": "atLeast",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "9e9c-bf4d-2d40-be82",
+                                "childId": "2847-71d9-2b3e-67d7",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "includeChildForces": true,
+                                "childName": "Master-crafted Power Weapon"
+                              }
+                            ]
+                          }
+                        ]
                       },
                       {
                         "entryLinks": [
@@ -29701,7 +29730,27 @@
                         "hidden": false,
                         "type": "selectionEntry",
                         "id": "d98-bf8b-7aed-fd6a",
-                        "targetId": "d8bf-e17f-d6fa-b7e8"
+                        "targetId": "d8bf-e17f-d6fa-b7e8",
+                        "modifiers": [
+                          {
+                            "type": "set",
+                            "value": true,
+                            "field": "hidden",
+                            "conditions": [
+                              {
+                                "type": "atLeast",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "9e9c-bf4d-2d40-be82",
+                                "childId": "2847-71d9-2b3e-67d7",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "includeChildForces": true,
+                                "childName": "Master-crafted Power Weapon"
+                              }
+                            ]
+                          }
+                        ]
                       },
                       {
                         "entryLinks": [
@@ -29719,7 +29768,27 @@
                         "hidden": false,
                         "type": "selectionEntry",
                         "id": "e2d-9908-69c-497a",
-                        "targetId": "9dc6-6ad8-818e-db2e"
+                        "targetId": "9dc6-6ad8-818e-db2e",
+                        "modifiers": [
+                          {
+                            "type": "set",
+                            "value": true,
+                            "field": "hidden",
+                            "conditions": [
+                              {
+                                "type": "atLeast",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "9e9c-bf4d-2d40-be82",
+                                "childId": "2847-71d9-2b3e-67d7",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "includeChildForces": true,
+                                "childName": "Master-crafted Power Weapon"
+                              }
+                            ]
+                          }
+                        ]
                       },
                       {
                         "entryLinks": [
@@ -29737,13 +29806,145 @@
                         "hidden": false,
                         "id": "1adf-6ccb-75ab-a0f5",
                         "type": "selectionEntry",
-                        "targetId": "5c5f-bb5a-eb8a-5460"
+                        "targetId": "5c5f-bb5a-eb8a-5460",
+                        "modifiers": [
+                          {
+                            "type": "set",
+                            "value": true,
+                            "field": "hidden",
+                            "conditions": [
+                              {
+                                "type": "atLeast",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "9e9c-bf4d-2d40-be82",
+                                "childId": "2847-71d9-2b3e-67d7",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "includeChildForces": true,
+                                "childName": "Master-crafted Power Weapon"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "import": true,
+                        "name": "重型爆矢手槍",
+                        "hidden": false,
+                        "id": "19ba-d90e-427b-25dc",
+                        "type": "selectionEntry",
+                        "targetId": "3b8f-1cb7-3c6e-4455",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "7ba2-0ec6-402b-3dee"
+                          }
+                        ],
+                        "modifiers": [
+                          {
+                            "type": "set",
+                            "value": 0,
+                            "field": "7ba2-0ec6-402b-3dee",
+                            "conditions": [
+                              {
+                                "type": "lessThan",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "childId": "2847-71d9-2b3e-67d7",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "childName": "Master-crafted Power Weapon"
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ],
                     "name": "手槍選項",
                     "hidden": false,
                     "id": "6f57-8789-8362-12e6",
                     "defaultSelectionEntryId": "3920-2e53-55d7-7b50"
+                  },
+                  {
+                    "name": "近戰武器",
+                    "id": "5f19-8441-54ab-662e",
+                    "hidden": false,
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "3374-f7e0-d365-1a67",
+                        "includeChildSelections": false
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "330f-3b74-62f9-222a",
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "defaultSelectionEntryId": "500d-0a3d-5f98-e883",
+                    "entryLinks": [
+                      {
+                        "import": true,
+                        "name": "精工動力武器",
+                        "hidden": false,
+                        "id": "2847-71d9-2b3e-67d7",
+                        "type": "selectionEntry",
+                        "targetId": "6854-cb18-b20b-42f4",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "f147-05eb-d520-8a51",
+                            "includeChildSelections": false
+                          }
+                        ],
+                        "modifiers": [
+                          {
+                            "type": "set",
+                            "value": 0,
+                            "field": "f147-05eb-d520-8a51",
+                            "conditions": [
+                              {
+                                "type": "atLeast",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "9e9c-bf4d-2d40-be82",
+                                "childId": "d466-dd6c-f7bd-6fea",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "includeChildForces": true,
+                                "childName": "Vanguard Veteran Weapon"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "import": true,
+                        "name": "先鋒老兵武器",
+                        "hidden": false,
+                        "id": "500d-0a3d-5f98-e883",
+                        "type": "selectionEntry",
+                        "targetId": "d466-dd6c-f7bd-6fea"
+                      }
+                    ]
                   }
                 ],
                 "profiles": [
@@ -29797,6 +29998,324 @@
                 "name": "裝備跳躍背包的先鋒老兵士官",
                 "hidden": false,
                 "id": "20d9-b1de-d9db-72ef"
+              },
+              {
+                "type": "model",
+                "import": true,
+                "name": "裝備精工動力武器的先鋒老兵",
+                "hidden": false,
+                "id": "6b2e-a790-5023-32df",
+                "profiles": [
+                  {
+                    "name": "裝備跳躍背包的先鋒老兵",
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "單位",
+                    "hidden": false,
+                    "id": "3c1e-5909-efd8-21ae",
+                    "characteristics": [
+                      {
+                        "$text": "12\"",
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1"
+                      },
+                      {
+                        "$text": "4",
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4"
+                      },
+                      {
+                        "$text": "3+",
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da"
+                      },
+                      {
+                        "$text": "2",
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe"
+                      },
+                      {
+                        "$text": "6+",
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 10,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "208d-a055-540b-1e62",
+                    "includeChildSelections": false
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "精工動力武器",
+                    "hidden": false,
+                    "id": "4dc3-9621-a7e1-decf",
+                    "type": "selectionEntry",
+                    "targetId": "6854-cb18-b20b-42f4",
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "b9ed-0d02-31c2-3a9f",
+                        "includeChildSelections": false
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "abf6-9972-b008-2ac1",
+                        "includeChildSelections": false
+                      }
+                    ]
+                  },
+                  {
+                    "import": true,
+                    "name": "重型爆矢手槍",
+                    "hidden": false,
+                    "id": "4fac-92b5-4669-7321",
+                    "type": "selectionEntry",
+                    "targetId": "83a1-feb8-d495-aa28",
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "a198-8e9a-a750-b4eb",
+                        "includeChildSelections": false
+                      },
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "bee0-6510-7c88-edfe",
+                        "includeChildSelections": false
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": 0,
+                    "field": "208d-a055-540b-1e62",
+                    "conditions": [
+                      {
+                        "type": "atLeast",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "9e9c-bf4d-2d40-be82",
+                        "childId": "d466-dd6c-f7bd-6fea",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true,
+                        "childName": "Vanguard Veteran Weapon"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "model",
+                "import": true,
+                "name": "裝備電漿手槍與精工動力武器的先鋒老兵",
+                "hidden": false,
+                "id": "2949-3e7a-e4a5-199b",
+                "profiles": [
+                  {
+                    "name": "裝備跳躍背包的先鋒老兵",
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "單位",
+                    "hidden": false,
+                    "id": "69c2-058f-58e1-0dce",
+                    "characteristics": [
+                      {
+                        "$text": "12\"",
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1"
+                      },
+                      {
+                        "$text": "4",
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4"
+                      },
+                      {
+                        "$text": "3+",
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da"
+                      },
+                      {
+                        "$text": "2",
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe"
+                      },
+                      {
+                        "$text": "6+",
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "20b7-a5a2-3de4-987c",
+                    "includeChildSelections": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "increment",
+                    "value": 1,
+                    "field": "20b7-a5a2-3de4-987c",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "atLeast",
+                            "value": 10,
+                            "field": "selections",
+                            "scope": "parent",
+                            "childId": "8a7f-b578-d274-9769",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true,
+                            "childName": "Vanguard Veterans with Jump Packs"
+                          },
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "9e9c-bf4d-2d40-be82",
+                            "childId": "d466-dd6c-f7bd-6fea",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true,
+                            "childName": "Vanguard Veteran Weapon"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": 0,
+                    "field": "20b7-a5a2-3de4-987c",
+                    "conditions": [
+                      {
+                        "type": "atLeast",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "9e9c-bf4d-2d40-be82",
+                        "childId": "d466-dd6c-f7bd-6fea",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true,
+                        "childName": "Vanguard Veteran Weapon"
+                      }
+                    ]
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "精工動力武器",
+                    "hidden": false,
+                    "id": "a3c7-2b66-b2d4-b832",
+                    "type": "selectionEntry",
+                    "targetId": "6854-cb18-b20b-42f4",
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "c350-0395-8424-9d45",
+                        "includeChildSelections": false
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "2ec5-9547-4933-6bba",
+                        "includeChildSelections": false
+                      }
+                    ]
+                  },
+                  {
+                    "import": true,
+                    "name": "電漿手槍",
+                    "hidden": false,
+                    "id": "0af0-28d4-1e94-9b48",
+                    "type": "selectionEntry",
+                    "targetId": "25c2-104f-fa0c-809e",
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "8948-cd7a-729b-e58f",
+                        "includeChildSelections": false
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "2c0c-2d02-dfd6-c6e9",
+                        "includeChildSelections": false
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "constraints": [
@@ -29820,7 +30339,8 @@
             "name": "裝備跳躍背包的先鋒老兵",
             "hidden": false,
             "id": "8a7f-b578-d274-9769",
-            "sortIndex": 2
+            "sortIndex": 2,
+            "defaultSelectionEntryId": "5ca1-8654-298a-b29f"
           }
         ],
         "infoLinks": [
@@ -30491,7 +31011,7 @@
                     "hidden": false,
                     "type": "selectionEntry",
                     "id": "6dc9-3494-9724-c104",
-                    "targetId": "4fab-9370-8ba1-b1bc"
+                    "targetId": "d466-dd6c-f7bd-6fea"
                   },
                   {
                     "import": true,
@@ -31791,7 +32311,7 @@
               }
             ],
             "type": "set",
-            "value": 190,
+            "value": 200,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -33278,7 +33798,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 90
+            "value": 80
           },
           {
             "name": "Crusade Points",
@@ -34276,7 +34796,7 @@
               }
             ],
             "type": "set",
-            "value": 180,
+            "value": 165,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -40028,7 +40548,14 @@
                         "hidden": false,
                         "id": "de57-75b5-f283-c8e1",
                         "type": "selectionEntry",
-                        "targetId": "e008-470a-83cb-c5e6"
+                        "targetId": "e008-470a-83cb-c5e6",
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 5
+                          }
+                        ]
                       }
                     ],
                     "selectionEntries": [
@@ -40293,7 +40820,14 @@
                         "hidden": false,
                         "type": "selectionEntry",
                         "id": "fa3d-edc1-e04f-7d7c",
-                        "targetId": "e008-470a-83cb-c5e6"
+                        "targetId": "e008-470a-83cb-c5e6",
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 5
+                          }
+                        ]
                       }
                     ],
                     "selectionEntries": [
@@ -46481,14 +47015,6 @@
           {
             "type": "max",
             "value": 3,
-            "field": "selections",
-            "scope": "roster",
-            "shared": true,
-            "id": "cec5-2793-a763-e647"
-          },
-          {
-            "type": "max",
-            "value": 3,
             "field": "75bb-ded1-c86d-bdf0",
             "scope": "self",
             "shared": true,
@@ -46511,6 +47037,15 @@
             "scope": "self",
             "shared": true,
             "id": "bb02-cebb-c802-dd01",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "2374-e159-9b0a-00d5",
             "includeChildSelections": true
           }
         ],
@@ -47172,6 +47707,23 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "2374-e159-9b0a-00d5",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
               }
             ]
           }
@@ -50292,6 +50844,12 @@
             "id": "50d5-37dd-3666-666b",
             "primary": false,
             "name": "陣營：阿斯塔特修會"
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "0918-e80e-6e34-8256",
+            "primary": false,
+            "name": "外殼"
           }
         ],
         "costs": [
@@ -51500,11 +52058,11 @@
                     "type": "lessThan",
                     "value": 4,
                     "field": "selections",
-                    "scope": "parent",
+                    "scope": "unit-self",
                     "childId": "83c3-d5a9-bc75-339f",
                     "shared": true,
                     "includeChildSelections": true,
-                    "includeChildForces": true,
+                    "includeChildForces": false,
                     "childName": "Outriders"
                   }
                 ]
@@ -51942,17 +52500,6 @@
                 ]
               }
             ],
-            "entryLinks": [
-              {
-                "import": true,
-                "name": "遠征",
-                "hidden": false,
-                "id": "49f4-9cff-dff0-1507",
-                "type": "selectionEntryGroup",
-                "targetId": "9a99-f13c-a667-e698",
-                "sortIndex": 1
-              }
-            ],
             "selectionEntryGroups": [
               {
                 "name": "戰爭裝備",
@@ -52135,289 +52682,15 @@
                 "sortIndex": 2
               }
             ],
-            "infoLinks": [
-              {
-                "name": "瞬間誓言",
-                "id": "c27e-e2f9-9431-87e1",
-                "hidden": false,
-                "type": "rule",
-                "targetId": "3b76-4053-ece9-6e7d"
-              },
-              {
-                "name": "聖殿誓言",
-                "id": "b79f-0eff-718d-c900",
-                "hidden": false,
-                "type": "rule",
-                "targetId": "f26c-4b28-aaea-40cf"
-              }
-            ],
-            "modifiers": [
-              {
-                "type": "add",
-                "value": "e9c7-1590-1bda-bf7f",
-                "field": "category",
-                "conditions": [
-                  {
-                    "type": "instanceOf",
-                    "value": 0,
-                    "field": "selections",
-                    "scope": "primary-catalogue",
-                    "childId": "470a-6daa-9014-12df",
-                    "shared": true,
-                    "includeChildSelections": false,
-                    "includeChildForces": false
-                  }
-                ]
-              },
-              {
-                "type": "set",
-                "value": 2,
-                "field": "36aa-a535-b3dc-4081",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "force",
-                    "childId": "d62d-db22-4893-4bc0",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "childName": "1. Incursion (1000 Point limit)"
-                  }
-                ]
-              }
-            ],
             "constraints": [
               {
                 "type": "max",
-                "value": 3,
-                "field": "75bb-ded1-c86d-bdf0",
-                "scope": "self",
-                "shared": true,
-                "id": "d4b6-2ac8-d147-7bab",
-                "includeChildSelections": false
-              },
-              {
-                "type": "max",
-                "value": 0,
-                "field": "716d-91b7-d55a-1022",
-                "scope": "self",
-                "shared": true,
-                "id": "705d-063b-1373-c413",
-                "includeChildSelections": true
-              },
-              {
-                "type": "min",
-                "value": 0,
-                "field": "716d-91b7-d55a-1022",
-                "scope": "self",
-                "shared": true,
-                "id": "1958-40d4-2afb-a7ad",
-                "includeChildSelections": true
-              },
-              {
-                "type": "max",
-                "value": 3,
+                "value": 1,
                 "field": "selections",
-                "scope": "force",
+                "scope": "parent",
                 "shared": true,
-                "id": "36aa-a535-b3dc-4081",
-                "includeChildSelections": true
-              }
-            ],
-            "modifierGroups": [
-              {
-                "type": "and",
-                "modifiers": [
-                  {
-                    "type": "set",
-                    "value": 6,
-                    "field": "d4b6-2ac8-d147-7bab",
-                    "conditions": [
-                      {
-                        "type": "atLeast",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "1511-18fe-f51e-7b9d",
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "increment",
-                    "value": 2,
-                    "field": "705d-063b-1373-c413",
-                    "repeats": [
-                      {
-                        "value": 1,
-                        "repeats": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "d1a5-4297-168b-11cd",
-                        "shared": true,
-                        "roundUp": false,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "increment",
-                    "value": 2,
-                    "field": "1958-40d4-2afb-a7ad",
-                    "repeats": [
-                      {
-                        "value": 1,
-                        "repeats": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "d1a5-4297-168b-11cd",
-                        "shared": true,
-                        "roundUp": false,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "append",
-                    "value": "(Battle-ready)",
-                    "field": "name",
-                    "conditionGroups": [
-                      {
-                        "type": "and",
-                        "conditions": [
-                          {
-                            "type": "atMost",
-                            "value": 5,
-                            "field": "selections",
-                            "scope": "self",
-                            "childId": "2dbf-4d49-5d74-85c9",
-                            "shared": true,
-                            "includeChildSelections": true
-                          },
-                          {
-                            "type": "atLeast",
-                            "value": 1,
-                            "field": "forces",
-                            "scope": "roster",
-                            "childId": "cac3-71d1-ea4b-795d",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "append",
-                    "value": "(Blooded)",
-                    "field": "name",
-                    "conditionGroups": [
-                      {
-                        "type": "and",
-                        "conditions": [
-                          {
-                            "type": "greaterThan",
-                            "value": 5,
-                            "field": "selections",
-                            "scope": "self",
-                            "childId": "2dbf-4d49-5d74-85c9",
-                            "shared": true,
-                            "includeChildSelections": true
-                          },
-                          {
-                            "type": "atMost",
-                            "value": 15,
-                            "field": "selections",
-                            "scope": "self",
-                            "childId": "2dbf-4d49-5d74-85c9",
-                            "shared": true,
-                            "includeChildSelections": true
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "append",
-                    "value": "(Battle-hardened)",
-                    "field": "name",
-                    "conditionGroups": [
-                      {
-                        "type": "and",
-                        "conditions": [
-                          {
-                            "type": "greaterThan",
-                            "value": 15,
-                            "field": "selections",
-                            "scope": "self",
-                            "childId": "2dbf-4d49-5d74-85c9",
-                            "shared": true,
-                            "includeChildSelections": true
-                          },
-                          {
-                            "type": "atMost",
-                            "value": 30,
-                            "field": "selections",
-                            "scope": "self",
-                            "childId": "2dbf-4d49-5d74-85c9",
-                            "shared": true,
-                            "includeChildSelections": true
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "append",
-                    "value": "(Heroic)",
-                    "field": "name",
-                    "conditionGroups": [
-                      {
-                        "type": "and",
-                        "conditions": [
-                          {
-                            "type": "greaterThan",
-                            "value": 30,
-                            "field": "selections",
-                            "scope": "self",
-                            "childId": "2dbf-4d49-5d74-85c9",
-                            "shared": true,
-                            "includeChildSelections": true
-                          },
-                          {
-                            "type": "atMost",
-                            "value": 50,
-                            "field": "selections",
-                            "scope": "self",
-                            "childId": "2dbf-4d49-5d74-85c9",
-                            "shared": true,
-                            "includeChildSelections": true
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "append",
-                    "value": "(Legendary)",
-                    "field": "name",
-                    "conditions": [
-                      {
-                        "type": "greaterThan",
-                        "value": 50,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "2dbf-4d49-5d74-85c9",
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  }
-                ],
-                "comment": "遠征修正值"
+                "id": "f174-0485-705a-c108",
+                "includeChildSelections": false
               }
             ],
             "sortIndex": 3
@@ -55818,7 +56091,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 75
+            "value": 85
           },
           {
             "name": "Crusade Points",
@@ -55838,6 +56111,31 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
         ],
@@ -56593,7 +56891,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 120
+            "value": 125
           },
           {
             "name": "Crusade Points",
@@ -56613,6 +56911,31 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
         ],
@@ -57511,7 +57834,7 @@
               }
             ],
             "type": "set",
-            "value": 240,
+            "value": 250,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -57914,6 +58237,12 @@
             "id": "8ef6-2a80-73a9-2256",
             "primary": false,
             "name": "冰雹型風暴速攻艇"
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "fff8-72f5-c404-4c68",
+            "primary": false,
+            "name": "外殼"
           }
         ],
         "profiles": [
@@ -58600,6 +58929,12 @@
             "id": "dac4-c1ba-e917-1053",
             "primary": false,
             "name": "陣營：阿斯塔特修會"
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "3a4d-1386-60cb-2430",
+            "primary": false,
+            "name": "外殼"
           }
         ],
         "profiles": [
@@ -59380,7 +59715,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 130
+            "value": 140
           },
           {
             "name": "Crusade Points",
@@ -59620,6 +59955,12 @@
             "id": "d385-ae29-e082-b645",
             "primary": false,
             "name": "陣營：阿斯塔特修會"
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "ba3c-0420-1e91-c90c",
+            "primary": false,
+            "name": "外殼"
           }
         ],
         "modifiers": [
@@ -72667,7 +73008,7 @@
             "targetId": "b927-8eeb-7cc3-8dec",
             "id": "a051-a5d8-56b9-dd6b",
             "primary": false,
-            "name": "骨架"
+            "name": "外殼"
           }
         ],
         "profiles": [
@@ -73656,7 +73997,7 @@
             "targetId": "b927-8eeb-7cc3-8dec",
             "id": "e211-2617-18db-a2b7",
             "primary": false,
-            "name": "骨架"
+            "name": "外殼"
           }
         ],
         "costs": [
@@ -74410,7 +74751,7 @@
             "targetId": "b927-8eeb-7cc3-8dec",
             "id": "0ff5-e2bf-61d5-40af",
             "primary": false,
-            "name": "骨架"
+            "name": "外殼"
           }
         ],
         "profiles": [
@@ -75878,7 +76219,7 @@
             "targetId": "b927-8eeb-7cc3-8dec",
             "id": "141e-a8c3-646a-13bc",
             "primary": false,
-            "name": "骨架"
+            "name": "外殼"
           }
         ],
         "constraints": [
@@ -76907,7 +77248,7 @@
             "targetId": "b927-8eeb-7cc3-8dec",
             "id": "c753-f443-d4c8-2c33",
             "primary": false,
-            "name": "骨架"
+            "name": "外殼"
           }
         ],
         "modifiers": [
@@ -77562,7 +77903,7 @@
             "targetId": "b927-8eeb-7cc3-8dec",
             "id": "f24b-3292-25a1-88b5",
             "primary": false,
-            "name": "骨架"
+            "name": "外殼"
           }
         ],
         "constraints": [
@@ -78498,7 +78839,7 @@
             "targetId": "b927-8eeb-7cc3-8dec",
             "id": "5338-f30e-b392-03e8",
             "primary": false,
-            "name": "骨架"
+            "name": "外殼"
           }
         ],
         "profiles": [
@@ -79323,7 +79664,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 240
+            "value": 255
           },
           {
             "name": "Crusade Points",
@@ -79953,7 +80294,59 @@
                     "import": true,
                     "name": "重型雷射殲擊砲",
                     "hidden": false,
-                    "id": "d41d-4177-a5f1-de"
+                    "id": "d41d-4177-a5f1-de",
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 10
+                      },
+                      {
+                        "name": "Crusade Points",
+                        "typeId": "b03b-c239-15a5-da55",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Battle Honours",
+                        "typeId": "75bb-ded1-c86d-bdf0",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Experience",
+                        "typeId": "a623-fe74-1d33-cddf",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Weapon Modifications",
+                        "typeId": "716d-91b7-d55a-1022",
+                        "value": 0
+                      },
+                      {
+                        "name": "Blackstone Fragments",
+                        "typeId": "ac6b-ced3-9b5e-9a6e",
+                        "value": 0
+                      },
+                      {
+                        "name": "Detachment Points",
+                        "typeId": "82ae-1066-5107-6ae0",
+                        "value": 0
+                      },
+                      {
+                        "name": "Enhancements",
+                        "typeId": "f759-1bc4-cb3a-f0d2",
+                        "value": 0
+                      },
+                      {
+                        "name": "Honour Points",
+                        "typeId": "8135-9a2f-6627-09e2",
+                        "value": 0
+                      },
+                      {
+                        "name": "Relic Fragments",
+                        "typeId": "0ece-6541-4662-ece2",
+                        "value": 0
+                      }
+                    ]
                   }
                 ],
                 "name": "砲塔武器",
@@ -80009,7 +80402,7 @@
             "targetId": "b927-8eeb-7cc3-8dec",
             "id": "ff48-468a-c746-bcaf",
             "primary": false,
-            "name": "骨架"
+            "name": "外殼"
           }
         ],
         "modifiers": [
@@ -80140,8 +80533,8 @@
             ]
           },
           {
-            "type": "decrement",
-            "value": 10,
+            "type": "set",
+            "value": 230,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
@@ -80152,17 +80545,10 @@
                     "value": 1,
                     "field": "selections",
                     "scope": "primary-catalogue",
-                    "childId": "94bb-3284-ee14-57a1",
                     "shared": true,
-                    "childName": "Imperium - Adeptus Astartes - Space Wolves"
-                  },
-                  {
-                    "type": "instanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "primary-catalogue",
                     "childId": "470a-6daa-9014-12df",
-                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
                     "childName": "Imperium - Adeptus Astartes - Dark Angels"
                   },
                   {
@@ -80172,7 +80558,20 @@
                     "scope": "primary-catalogue",
                     "childId": "4ef9-15ce-e3e6-36de",
                     "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
                     "childName": "Imperium - Adeptus Astartes - Blood Angels"
+                  },
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "94bb-3284-ee14-57a1",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "childName": "Imperium - Adeptus Astartes - Space Wolves"
                   },
                   {
                     "type": "instanceOf",
@@ -80181,6 +80580,8 @@
                     "scope": "primary-catalogue",
                     "childId": "f89b-84e0-6e3b-f1e2",
                     "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
                     "childName": "Imperium - Adeptus Astartes - Deathwatch"
                   }
                 ]
@@ -80409,7 +80810,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 75
+            "value": 65
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
           }
         ],
         "constraints": [
@@ -80642,7 +81088,7 @@
             "targetId": "b927-8eeb-7cc3-8dec",
             "id": "e21a-c74b-c367-99f7",
             "primary": false,
-            "name": "骨架"
+            "name": "外殼"
           }
         ],
         "modifierGroups": [
@@ -81000,6 +81446,46 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "a14e-75ca-ef91-397f",
+                        "shared": true,
+                        "childName": "Rhino"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "type": "model",
@@ -81013,7 +81499,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 95
+            "value": 85
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
           }
         ],
         "categoryLinks": [
@@ -81063,7 +81594,7 @@
             "targetId": "b927-8eeb-7cc3-8dec",
             "id": "3a7c-2490-fc3e-7c6c",
             "primary": false,
-            "name": "骨架"
+            "name": "外殼"
           }
         ],
         "profiles": [
@@ -81646,6 +82177,46 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "ed11-25b9-a0eb-89f4",
+                        "shared": true,
+                        "childName": "Razorback"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "type": "model",
@@ -81659,7 +82230,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 70
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
           }
         ],
         "categoryLinks": [
@@ -82253,6 +82869,46 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "bfb1-7512-e1a3-9fa2",
+                        "shared": true,
+                        "childName": "Impulsor"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "constraints": [
@@ -82568,7 +83224,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 60
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
           }
         ],
         "profiles": [
@@ -82621,7 +83322,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "此模型必須在預備隊中開始戰鬥，且可以在你的第一、第二或第三個移動階段的增援步驟中設置，無視任何任務規則。任何登載於此模型中的單位，必須在此模型設置於戰場上後立即下車，且其設置位置必須距離所有敵方模型超過 8 吋。"
+                "$text": "該模型在戰鬥開始時必須位於預備隊中。無論任務規則如何規定，它都可以在你的第一、第二或第三個移動階段的增援步驟中被設置。任意搭乘該模型的單位在其被設置於戰場上後必須立刻下車，且必須被設置在所有敵方模型的 8\" 外。"
               }
             ],
             "name": "空降艙突擊",
@@ -82740,6 +83441,12 @@
             "id": "8edc-dfa4-9f39-ce19",
             "primary": true,
             "name": "專用運輸載具"
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "043a-a4ac-7bac-0eb7",
+            "primary": false,
+            "name": "外殼"
           }
         ],
         "constraints": [
@@ -83006,6 +83713,46 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "4d57-c5c8-c1a1-e8a6",
+                        "shared": true,
+                        "childName": "Drop Pod"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -86128,6 +86875,12 @@
             "id": "d20f-7ab9-173e-14f9",
             "primary": false,
             "name": "陣營：阿斯塔特修會"
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "5896-abe8-a53c-572c",
+            "primary": false,
+            "name": "外殼"
           }
         ],
         "constraints": [
@@ -90094,7 +90847,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 60
+            "value": 70
           },
           {
             "name": "Crusade Points",
@@ -90399,6 +91152,46 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "78eb-9334-f5c0-6095",
+                        "shared": true,
+                        "childName": "Librarian"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -95399,6 +96192,25 @@
                     "id": "0224-bfd2-568d-0f47",
                     "type": "selectionEntry",
                     "targetId": "18b0-8c2-173f-5"
+                  },
+                  {
+                    "import": true,
+                    "name": "赦免者爆彈手槍",
+                    "hidden": false,
+                    "id": "70ef-c78f-3a10-a6f7",
+                    "type": "selectionEntry",
+                    "targetId": "a490-361-c9c4-afeb",
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "64ba-4147-8fa4-d95c",
+                        "includeChildSelections": false
+                      }
+                    ]
                   }
                 ],
                 "name": "武器",
@@ -97288,7 +98100,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 95
           },
           {
             "name": "Crusade Points",
@@ -97313,6 +98125,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           },
           {
@@ -104738,13 +105560,6 @@
             "targetId": "fdf1-64a5-906c-3474"
           },
           {
-            "name": "特殊保護",
-            "hidden": false,
-            "type": "profile",
-            "id": "951b-e78a-f956-b70",
-            "targetId": "db19-dee7-9530-ef0e"
-          },
-          {
             "name": "領袖",
             "type": "rule",
             "id": "2814-e93f-5a97-a2c6",
@@ -104796,39 +105611,39 @@
             ],
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "4",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "5",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "5"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "id": "c1ba-2289-ba1-9cb8",
@@ -104842,7 +105657,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "此模型可以附屬於以下單位：■ 突擊仲裁者小隊\n■ 劍衛老兵小隊\n■ 連隊英雄、十字軍小隊\n■ 死亡守望老兵\n■ 德西穆斯殺戮小隊\n■ 堅城殺戮小隊\n■ 地獄轟擊者小隊\n■ 焚獄者小隊\n■ 內環侍從\n■ 仲裁者小隊\n■ 肅衛老兵小隊\n■ 劍之兄弟小隊\n■ 戰術小隊\n■ 維崔克斯榮譽衛隊 * 此模型不能附屬於劍衛老兵小隊，除非其裝備聖物盾；也不能附屬於地獄轟擊者小隊，除非其裝備電漿手槍。"
+                "$text": "此模型可以附屬於以下單位：\n\n■ 突擊仲裁者小隊\n■ 劍衛老兵小隊\n■ 連隊英雄、十字軍小隊\n■ 死亡守望老兵\n■ 德西穆斯殺戮小隊\n■ 堅城殺戮小隊\n■ 地獄轟擊者小隊\n■ 焚獄者小隊\n■ 內環侍從\n■ 仲裁者小隊\n■ 肅衛老兵小隊\n■ 劍之兄弟小隊\n■ 戰術小隊\n■ 維崔克斯榮譽衛隊\n"
               }
             ],
             "name": "領袖",
@@ -106874,12 +107689,6 @@
             "id": "f5a1-6e93-de56-d28b",
             "primary": false,
             "name": "飛行"
-          },
-          {
-            "targetId": "63f1-e6e8-f6f6-a4f0",
-            "id": "da1c-1264-1ad3-fdf5",
-            "primary": false,
-            "name": "飛行器"
           },
           {
             "targetId": "75e8-57c4-40e3-1817",
@@ -127341,20 +128150,6 @@
             "typeName": "能力",
             "hidden": false,
             "id": "cb97-8ee0-1cbf-e38f"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "你必須將一個連長或戰團長模型附屬於此單位。若無法這麼做，此單位不參與戰鬥，並視為已被摧毀。",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "連隊英雄",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
-            "hidden": false,
-            "id": "8a9-4b06-b80-76df"
           }
         ],
         "infoLinks": [
@@ -128924,7 +129719,56 @@
         "import": true,
         "name": "阿斯塔特榴彈發射器",
         "hidden": false,
-        "id": "ca2b-3d9a-e739-cb21"
+        "id": "ca2b-3d9a-e739-cb21",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "Max 1 {this} per 3 models",
+            "field": "error",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "212d-f302-aaaf-5c12",
+                    "childId": "ca2b-3d9a-e739-cb21",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Astartes grenade launcher"
+                  }
+                ],
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "greaterThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "212d-f302-aaaf-5c12",
+                        "childId": "ca2b-3d9a-e739-cb21",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 6,
+                        "field": "selections",
+                        "scope": "212d-f302-aaaf-5c12",
+                        "childId": "any",
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -138527,7 +139371,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 80
           },
           {
             "name": "Crusade Points",
@@ -138966,7 +139810,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 95
+            "value": 105
           },
           {
             "name": "Crusade Points",
@@ -139276,611 +140120,6 @@
         ]
       },
       {
-        "type": "unit",
-        "import": true,
-        "name": "先鋒老兵小隊 （阿米吉多頓）",
-        "hidden": false,
-        "id": "c2b8-e7ef-084b-ed30",
-        "costs": [
-          {
-            "name": "pts",
-            "typeId": "51b2-306e-1021-d207",
-            "value": 100
-          },
-          {
-            "name": "Crusade Points",
-            "typeId": "b03b-c239-15a5-da55",
-            "value": 0
-          },
-          {
-            "name": "Crusade: Battle Honours",
-            "typeId": "75bb-ded1-c86d-bdf0",
-            "value": 0
-          },
-          {
-            "name": "Crusade: Experience",
-            "typeId": "a623-fe74-1d33-cddf",
-            "value": 0
-          },
-          {
-            "name": "Crusade: Weapon Modifications",
-            "typeId": "716d-91b7-d55a-1022",
-            "value": 0
-          },
-          {
-            "name": "Blackstone Fragments",
-            "typeId": "ac6b-ced3-9b5e-9a6e",
-            "value": 0
-          },
-          {
-            "name": "Detachment Points",
-            "typeId": "82ae-1066-5107-6ae0",
-            "value": 0
-          },
-          {
-            "name": "Enhancements",
-            "typeId": "f759-1bc4-cb3a-f0d2",
-            "value": 0
-          },
-          {
-            "name": "Honour Points",
-            "typeId": "8135-9a2f-6627-09e2",
-            "value": 0
-          },
-          {
-            "name": "Relic Fragments",
-            "typeId": "0ece-6541-4662-ece2",
-            "value": 0
-          }
-        ],
-        "modifiers": [
-          {
-            "type": "add",
-            "value": "Not Valid for Matched Play",
-            "field": "error"
-          },
-          {
-            "type": "set",
-            "value": 2,
-            "field": "4aee-4152-d36d-11c3",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "force",
-                "childId": "d62d-db22-4893-4bc0",
-                "shared": true,
-                "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          }
-        ],
-        "profiles": [
-          {
-            "name": "先鋒老兵小隊 （阿米吉多頓）",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "單位",
-            "hidden": false,
-            "id": "bf3f-4593-8f4d-42ec",
-            "characteristics": [
-              {
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "12\""
-              },
-              {
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "4"
-              },
-              {
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da",
-                "$text": "3+"
-              },
-              {
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "2"
-              },
-              {
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc",
-                "$text": "6+"
-              },
-              {
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8",
-                "$text": "1"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
-              }
-            ]
-          },
-          {
-            "name": "先鋒突擊",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
-            "hidden": false,
-            "id": "c68e-2835-c396-39af",
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "先鋒突擊：在此單位作出衝鋒移動的回合中，此單位的近戰武器具有［致命一擊］能力。"
-              }
-            ]
-          }
-        ],
-        "selectionEntryGroups": [
-          {
-            "name": "先鋒老兵",
-            "id": "507b-1deb-0f5d-e8aa",
-            "hidden": false,
-            "constraints": [
-              {
-                "type": "min",
-                "value": 5,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "ba4a-980f-4048-d68f",
-                "includeChildSelections": false
-              },
-              {
-                "type": "max",
-                "value": 5,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "86f9-8e89-09ca-f4ed",
-                "includeChildSelections": false
-              }
-            ],
-            "selectionEntries": [
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "先鋒老兵",
-                "hidden": false,
-                "id": "070e-39fb-cb85-9d12",
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 3,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "0099-c0e7-5376-0f5d",
-                    "includeChildSelections": false
-                  },
-                  {
-                    "type": "min",
-                    "value": 3,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "48e7-cda4-b1c4-6602",
-                    "includeChildSelections": false
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "import": true,
-                    "name": "重型爆矢手槍",
-                    "hidden": false,
-                    "id": "a83d-94ee-3d8f-a2d7",
-                    "type": "selectionEntry",
-                    "targetId": "83a1-feb8-d495-aa28",
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "ee1e-96c3-d5f2-d76b",
-                        "includeChildSelections": false
-                      },
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "7f58-3d4f-aca3-1599",
-                        "includeChildSelections": false
-                      }
-                    ]
-                  },
-                  {
-                    "import": true,
-                    "name": "精工動力武器",
-                    "hidden": false,
-                    "id": "7a14-80a5-986e-d059",
-                    "type": "selectionEntry",
-                    "targetId": "6854-cb18-b20b-42f4",
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "e47a-d7cc-ea5f-8bdc",
-                        "includeChildSelections": false
-                      },
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "3d6c-4ac9-b549-4523",
-                        "includeChildSelections": false
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "裝備電漿手槍的先鋒老兵",
-                "hidden": false,
-                "id": "bcb4-2e42-2a87-a6e2",
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "9fe1-ddf7-6dac-1d62",
-                    "includeChildSelections": false
-                  },
-                  {
-                    "type": "min",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "aa55-5696-11a8-f2d9",
-                    "includeChildSelections": false
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "import": true,
-                    "name": "精工動力武器",
-                    "hidden": false,
-                    "id": "be62-6547-231d-6ac4",
-                    "type": "selectionEntry",
-                    "targetId": "6854-cb18-b20b-42f4",
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "3558-b73e-cc53-0c55",
-                        "includeChildSelections": false
-                      },
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "46a5-e5c5-f64c-a988",
-                        "includeChildSelections": false
-                      }
-                    ]
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "電漿手槍",
-                    "hidden": false,
-                    "id": "2930-38bc-ddb6-5134",
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "3346-6828-ce0f-470a",
-                        "includeChildSelections": false
-                      },
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "7243-7870-e91a-9513",
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "profiles": [
-                      {
-                        "name": "➤ 電漿手槍 - 標準",
-                        "typeId": "f77d-b953-8fa4-b762",
-                        "typeName": "遠程武器",
-                        "hidden": false,
-                        "id": "7485-39d6-2b35-f282",
-                        "characteristics": [
-                          {
-                            "name": "Range",
-                            "typeId": "9896-9419-16a1-92fc",
-                            "$text": "12\""
-                          },
-                          {
-                            "name": "A",
-                            "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "D3"
-                          },
-                          {
-                            "name": "BS",
-                            "typeId": "94d-8a98-cf90-183e",
-                            "$text": "3+"
-                          },
-                          {
-                            "name": "S",
-                            "typeId": "2229-f494-25db-c5d3",
-                            "$text": "7"
-                          },
-                          {
-                            "name": "AP",
-                            "typeId": "9ead-8a10-520-de15",
-                            "$text": "-2"
-                          },
-                          {
-                            "name": "D",
-                            "typeId": "a354-c1c8-a745-f9e3",
-                            "$text": "1"
-                          },
-                          {
-                            "name": "Keywords",
-                            "typeId": "7f1b-8591-2fcf-d01c",
-                            "$text": "近距離"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "➤ 電漿手槍 - 超充能",
-                        "typeId": "f77d-b953-8fa4-b762",
-                        "typeName": "遠程武器",
-                        "hidden": false,
-                        "id": "eb0f-4669-2df0-9dab",
-                        "characteristics": [
-                          {
-                            "name": "Range",
-                            "typeId": "9896-9419-16a1-92fc",
-                            "$text": "12\""
-                          },
-                          {
-                            "name": "A",
-                            "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
-                          },
-                          {
-                            "name": "BS",
-                            "typeId": "94d-8a98-cf90-183e",
-                            "$text": "3+"
-                          },
-                          {
-                            "name": "S",
-                            "typeId": "2229-f494-25db-c5d3",
-                            "$text": "8"
-                          },
-                          {
-                            "name": "AP",
-                            "typeId": "9ead-8a10-520-de15",
-                            "$text": "-3"
-                          },
-                          {
-                            "name": "D",
-                            "typeId": "a354-c1c8-a745-f9e3",
-                            "$text": "2"
-                          },
-                          {
-                            "name": "Keywords",
-                            "typeId": "7f1b-8591-2fcf-d01c",
-                            "$text": "危險，近距離"
-                          }
-                        ]
-                      }
-                    ],
-                    "infoLinks": [
-                      {
-                        "name": "近距離",
-                        "id": "254f-a2d6-f0cf-3768",
-                        "hidden": false,
-                        "type": "rule",
-                        "targetId": "5238-5ad4-52f7-6eb4"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "先鋒老兵士官",
-                "hidden": false,
-                "id": "a51f-b0d7-398a-6899",
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "1ab3-20d1-a217-9fac",
-                    "includeChildSelections": false
-                  },
-                  {
-                    "type": "min",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "e77e-6386-6c33-84a2",
-                    "includeChildSelections": false
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "import": true,
-                    "name": "精工動力武器",
-                    "hidden": false,
-                    "id": "f648-2d63-0775-14f5",
-                    "type": "selectionEntry",
-                    "targetId": "6854-cb18-b20b-42f4",
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "bdd4-77a7-3310-b79c",
-                        "includeChildSelections": false
-                      },
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "6ba5-be00-76c9-4ffc",
-                        "includeChildSelections": false
-                      }
-                    ]
-                  },
-                  {
-                    "import": true,
-                    "name": "重型爆矢手槍",
-                    "hidden": false,
-                    "id": "d80d-3d02-9118-0dd1",
-                    "type": "selectionEntry",
-                    "targetId": "83a1-feb8-d495-aa28",
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "3b97-8392-6e4d-f313",
-                        "includeChildSelections": false
-                      },
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "0998-7ca1-e601-6ffc",
-                        "includeChildSelections": false
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "constraints": [
-          {
-            "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "roster",
-            "shared": true,
-            "id": "4aee-4152-d36d-11c3",
-            "includeChildSelections": true
-          }
-        ],
-        "infoLinks": [
-          {
-            "name": "瞬間誓言",
-            "id": "eae4-5aff-32df-a9a1",
-            "hidden": false,
-            "type": "rule",
-            "targetId": "3b76-4053-ece9-6e7d"
-          },
-          {
-            "name": "聖殿誓言",
-            "id": "257b-c6bd-bcbd-bc2e",
-            "hidden": false,
-            "type": "rule",
-            "targetId": "f26c-4b28-aaea-40cf"
-          },
-          {
-            "name": "深度打擊",
-            "id": "c17d-042c-95df-b479",
-            "hidden": false,
-            "type": "rule",
-            "targetId": "7cb5-dd6b-dd87-ad3b"
-          }
-        ],
-        "categoryLinks": [
-          {
-            "targetId": "cf47-a0d7-7207-29dc",
-            "id": "9868-4eaf-06ad-343c",
-            "primary": true,
-            "name": "步兵"
-          },
-          {
-            "targetId": "e33d-891d-33aa-e9bf",
-            "id": "de66-457d-ea8e-4666",
-            "primary": false,
-            "name": "爆裂物"
-          },
-          {
-            "targetId": "dda2-bb0a-215e-ad9c",
-            "id": "fcf7-399a-63b9-d506",
-            "primary": false,
-            "name": "跳躍背包"
-          },
-          {
-            "targetId": "17c0-599-955a-bdab",
-            "id": "ceea-80b7-7f08-b81e",
-            "primary": false,
-            "name": "跳躍背包先鋒老兵小隊"
-          },
-          {
-            "targetId": "6e7-40c-58d9-e402",
-            "id": "c961-f039-69d2-2d91",
-            "primary": false,
-            "name": "陣營：阿斯塔特修會"
-          },
-          {
-            "targetId": "c619-2086-bbcf-69c9",
-            "id": "1ce6-3d0a-4270-416e",
-            "primary": false,
-            "name": "飛行"
-          },
-          {
-            "targetId": "aff3-d6a3-2a95-9dc",
-            "id": "66c5-e11f-e6db-c96f",
-            "primary": false,
-            "name": "帝國"
-          }
-        ]
-      },
-      {
         "type": "upgrade",
         "import": true,
         "name": "精工動力武器",
@@ -139933,6 +140172,70 @@
             ]
           }
         ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "先鋒老兵武器",
+        "hidden": false,
+        "id": "d466-dd6c-f7bd-6fea",
+        "profiles": [
+          {
+            "name": "先鋒老兵武器",
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "近戰武器",
+            "hidden": false,
+            "id": "6ec9-8e25-4423-7b48",
+            "characteristics": [
+              {
+                "$text": "近戰",
+                "name": "Range",
+                "typeId": "914c-b413-91e3-a132"
+              },
+              {
+                "$text": "4",
+                "name": "A",
+                "typeId": "2337-daa1-6682-b110"
+              },
+              {
+                "$text": "3+",
+                "name": "WS",
+                "typeId": "95d1-95f-45b4-11d6"
+              },
+              {
+                "$text": "5",
+                "name": "S",
+                "typeId": "ab33-d393-96ce-ccba"
+              },
+              {
+                "$text": "-1",
+                "name": "AP",
+                "typeId": "41a0-1301-112a-e2f2"
+              },
+              {
+                "$text": "1",
+                "name": "D",
+                "typeId": "3254-9fe6-d824-513e"
+              },
+              {
+                "$text": "-",
+                "name": "Keywords",
+                "typeId": "893f-9000-ccf7-648e"
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "1e8d-e4cf-64cc-1e90"
+          }
+        ],
+        "collective": true
       }
     ],
     "sharedProfiles": [
@@ -140118,6 +140421,15 @@
             "scope": "parent",
             "shared": true,
             "id": "23da-d33f-3805-f52e"
+          },
+          {
+            "type": "max",
+            "value": -1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "20be-ecfe-ceea-c787",
+            "includeChildSelections": false
           }
         ],
         "selectionEntries": [
@@ -140128,6 +140440,13 @@
                 "hidden": false,
                 "id": "7031-b0e8-8f5b-904a",
                 "targetId": "0936-9767-1cc7-52ae",
+                "primary": false
+              },
+              {
+                "name": "3DP Detachment",
+                "hidden": false,
+                "id": "fa3b-602a-5d15-13a1",
+                "targetId": "7d80-2de5-816e-9d2b",
                 "primary": false
               }
             ],
@@ -140425,6 +140744,13 @@
                 "id": "baf9-a9de-0cad-c202",
                 "targetId": "0936-9767-1cc7-52ae",
                 "primary": false
+              },
+              {
+                "name": "3DP Detachment",
+                "hidden": false,
+                "id": "4619-586e-92da-9752",
+                "targetId": "7d80-2de5-816e-9d2b",
+                "primary": false
               }
             ]
           },
@@ -140524,10 +140850,18 @@
             ],
             "categoryLinks": [
               {
+                "name": "奪取並堅守",
+                "hidden": false,
+                "id": "b350-c344-6bd9-1ce1",
                 "targetId": "1cc1-f11a-4e8f-1bcc",
-                "id": "7ab4-23e5-63ef-9e2e",
-                "primary": false,
-                "name": "奪取並堅守"
+                "primary": false
+              },
+              {
+                "name": "3DP Detachment",
+                "hidden": false,
+                "id": "e04f-9d58-8867-30ed",
+                "targetId": "7d80-2de5-816e-9d2b",
+                "primary": false
               }
             ]
           },
@@ -140697,11 +141031,10 @@
             ],
             "categoryLinks": [
               {
-                "name": "淨化敵人",
-                "hidden": false,
-                "id": "df34-5974-6a35-2783",
-                "targetId": "6fe0-3dbe-f7e0-10bb",
-                "primary": false
+                "targetId": "1cc1-f11a-4e8f-1bcc",
+                "id": "094c-fe7d-9e07-350a",
+                "primary": false,
+                "name": "奪取並堅守"
               }
             ]
           },
@@ -140784,11 +141117,10 @@
             ],
             "categoryLinks": [
               {
-                "name": "淨化敵人",
-                "hidden": false,
-                "id": "3f2d-acc8-1567-0512",
-                "targetId": "6fe0-3dbe-f7e0-10bb",
-                "primary": false
+                "targetId": "0936-9767-1cc7-52ae",
+                "id": "03e9-f8e3-d02f-584b",
+                "primary": false,
+                "name": "優先資產"
               }
             ]
           },
@@ -140875,6 +141207,13 @@
                 "hidden": false,
                 "id": "b0d9-7509-9ec2-d543",
                 "targetId": "ecf8-cf72-7d5b-1b5b",
+                "primary": false
+              },
+              {
+                "name": "3DP Detachment",
+                "hidden": false,
+                "id": "85e1-5ae4-76c4-d850",
+                "targetId": "7d80-2de5-816e-9d2b",
                 "primary": false
               }
             ],
@@ -141115,11 +141454,10 @@
             ],
             "categoryLinks": [
               {
-                "name": "優先資產",
-                "hidden": false,
-                "id": "1849-1b50-1995-0c99",
-                "targetId": "0936-9767-1cc7-52ae",
-                "primary": false
+                "targetId": "6fe0-3dbe-f7e0-10bb",
+                "id": "3469-7704-7974-41f4",
+                "primary": false,
+                "name": "淨化敵人"
               }
             ]
           },
@@ -141246,7 +141584,7 @@
             ],
             "rules": [
               {
-                "description": "你軍隊中的^^**阿斯塔特修會**^^單位在其進擊或後撤的回合中可以射擊。你軍隊中的^^**阿斯塔特修會騎乘**^^單位在其進擊或後撤的回合中可以射擊並宣告衝鋒。你軍隊中的^^**先驅者小隊**^^單位獲得^^**戰線**^^關鍵詞。",
+                "description": "己方^^**阿斯塔特修會**^^單位擁有：\n\n▪ 此單位的遠程攻擊擁有［突擊］。\n▪ 當此單位被選擇進行後撤移動時，該後撤移動不會使此單位失去射擊資格。\n\n己方^^**阿斯塔特修會騎乘**^^單位擁有：\n▪ 此單位的遠程攻擊擁有［突擊］。\n▪ 當此單位被選擇進行進擊移動時，該進擊移動不會使此單位失去宣告衝鋒的資格。\n▪ 當此單位被選擇進行後撤移動時，該後撤移動不會使此單位失去射擊及宣告衝鋒的資格。\n\n你軍隊中的^^**先驅者小隊**^^單位獲得^^**戰線**^^關鍵詞。",
                 "name": "機動大師",
                 "id": "1bba-5194-cc08-9e1b",
                 "hidden": false
@@ -141467,7 +141805,7 @@
             ],
             "rules": [
               {
-                "description": "在你對手回合結束時，你可以選擇你軍隊中若干個^^**阿斯塔特修會跳躍背包**^^單位（不包括位於一個或更多敵方單位交戰範圍內的單位）。你可以選擇的最大單位數取決於戰鬥規模，如下：入侵戰 - 最多 1 個單位\n打擊部隊 - 最多 2 個單位\n猛攻戰 - 最多 3 個單位 完成選擇後，將那些單位從戰場上移除並放入戰略預備隊。在你的下一個移動階段的增援步驟中，使用其深度打擊能力設置每一個那些單位。",
+                "description": "在你對手回合結束時，你可以選擇你軍隊中若干個^^**阿斯塔特修會跳躍背包**^^單位（不包括位於一個或更多敵方單位交戰範圍內的單位）。你可以選擇的最大單位數取決於戰鬥規模，如下：\n\n入侵戰 - 最多 1 個單位\n打擊部隊 - 最多 2 個單位\n猛攻戰 - 最多 3 個單位\n\n▪ 將那些單位置入戰略預備隊。\n▪ 那些單位必須在你的下一個移動階段進行一次入場移動（包括你的第一回合）。",
                 "name": "烈火之翼",
                 "id": "1392-f0fa-6671-5a85",
                 "hidden": false
@@ -142094,6 +142432,13 @@
                 "id": "a78e-bb61-a9af-b7f0",
                 "primary": false,
                 "name": "恩典"
+              },
+              {
+                "name": "3DP Detachment",
+                "hidden": false,
+                "id": "d2b2-2098-98c0-1ee1",
+                "targetId": "7d80-2de5-816e-9d2b",
+                "primary": false
               }
             ]
           },
@@ -142197,6 +142542,13 @@
                 "id": "0265-c86b-26ea-4f41",
                 "primary": false,
                 "name": "優先資產"
+              },
+              {
+                "name": "3DP Detachment",
+                "hidden": false,
+                "id": "d671-ff9a-2b81-8e1a",
+                "targetId": "7d80-2de5-816e-9d2b",
+                "primary": false
               }
             ]
           },
@@ -142811,10 +143163,10 @@
             ],
             "categoryLinks": [
               {
-                "targetId": "ecf8-cf72-7d5b-1b5b",
-                "id": "115e-aed8-ae0c-ee78",
+                "targetId": "6fe0-3dbe-f7e0-10bb",
+                "id": "d3e3-460e-57ec-77d7",
                 "primary": false,
-                "name": "干擾"
+                "name": "淨化敵人"
               }
             ]
           },
@@ -142914,11 +143266,10 @@
             ],
             "categoryLinks": [
               {
-                "name": "淨化敵人",
-                "hidden": false,
-                "id": "697e-954a-f955-4b0d",
-                "targetId": "6fe0-3dbe-f7e0-10bb",
-                "primary": false
+                "targetId": "0936-9767-1cc7-52ae",
+                "id": "59a3-246e-574e-9d90",
+                "primary": false,
+                "name": "優先資產"
               }
             ]
           },
@@ -143027,11 +143378,10 @@
             ],
             "categoryLinks": [
               {
-                "name": "優先資產",
-                "hidden": false,
-                "id": "ed57-367f-3fa4-a760",
-                "targetId": "0936-9767-1cc7-52ae",
-                "primary": false
+                "targetId": "6fe0-3dbe-f7e0-10bb",
+                "id": "36d7-d027-d9c3-3de9",
+                "primary": false,
+                "name": "淨化敵人"
               }
             ]
           },
@@ -143235,11 +143585,10 @@
             ],
             "categoryLinks": [
               {
-                "name": "優先資產",
-                "hidden": false,
-                "id": "30d8-59f7-744a-c984",
-                "targetId": "0936-9767-1cc7-52ae",
-                "primary": false
+                "targetId": "6fe0-3dbe-f7e0-10bb",
+                "id": "882c-f111-a55c-e055",
+                "primary": false,
+                "name": "淨化敵人"
               }
             ]
           },
@@ -143447,6 +143796,13 @@
                 "hidden": false,
                 "id": "6eec-2e48-91bc-7560",
                 "targetId": "0936-9767-1cc7-52ae",
+                "primary": false
+              },
+              {
+                "name": "3DP Detachment",
+                "hidden": false,
+                "id": "d205-754c-aff5-6e17",
+                "targetId": "7d80-2de5-816e-9d2b",
                 "primary": false
               }
             ]
@@ -143660,6 +144016,13 @@
                 "id": "9d7f-b455-6256-d79b",
                 "primary": false,
                 "name": "受詛者"
+              },
+              {
+                "name": "3DP Detachment",
+                "hidden": false,
+                "id": "33f5-77d9-cbb2-12c0",
+                "targetId": "7d80-2de5-816e-9d2b",
+                "primary": false
               }
             ]
           },
@@ -144062,6 +144425,13 @@
                 "id": "ae07-9a57-cf2b-4daa",
                 "targetId": "1cc1-f11a-4e8f-1bcc",
                 "primary": false
+              },
+              {
+                "name": "3DP Detachment",
+                "hidden": false,
+                "id": "b0f0-c6f7-ef13-ace8",
+                "targetId": "7d80-2de5-816e-9d2b",
+                "primary": false
               }
             ]
           },
@@ -144231,11 +144601,10 @@
             ],
             "categoryLinks": [
               {
-                "name": "干擾",
-                "hidden": false,
-                "id": "e647-ba31-f329-d2b4",
-                "targetId": "ecf8-cf72-7d5b-1b5b",
-                "primary": false
+                "targetId": "b4a7-5083-fe94-4d24",
+                "id": "0576-50d7-cf36-b3b1",
+                "primary": false,
+                "name": "偵察"
               }
             ]
           },
@@ -144318,10 +144687,10 @@
             ],
             "categoryLinks": [
               {
-                "targetId": "b4a7-5083-fe94-4d24",
-                "id": "330a-ff64-156d-77ea",
+                "targetId": "ecf8-cf72-7d5b-1b5b",
+                "id": "58b4-16e2-ac36-1308",
                 "primary": false,
-                "name": "偵察"
+                "name": "干擾"
               }
             ]
           },
@@ -144410,10 +144779,10 @@
             ],
             "categoryLinks": [
               {
-                "targetId": "6fe0-3dbe-f7e0-10bb",
-                "id": "9ff4-bc85-8253-e3e0",
+                "targetId": "ecf8-cf72-7d5b-1b5b",
+                "id": "250f-a6a6-6f93-d790",
                 "primary": false,
-                "name": "淨化敵人"
+                "name": "干擾"
               }
             ],
             "constraints": [
@@ -145373,6 +145742,92 @@
                 "description": "在宣告戰鬥編隊步驟開始時，任何單位設置前，此單位可以拆分成兩個單位，每個單位各包含五個模型。"
               }
             ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "復仇大軍",
+            "hidden": false,
+            "id": "6619-187e-e309-3313",
+            "categoryLinks": [
+              {
+                "targetId": "1cc1-f11a-4e8f-1bcc",
+                "id": "939b-cf4e-7722-e020",
+                "primary": false,
+                "name": "奪取並堅守"
+              }
+            ],
+            "rules": [
+              {
+                "name": "帝皇攻勢",
+                "id": "e07c-7099-bd2b-ae63",
+                "hidden": false,
+                "description": "當一個己方阿斯塔特修會飛行步兵單位進行一次入場移動／衝鋒移動時，在該回合中，該單位的攻擊可以重擲結果為 1 的命中擲骰。"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "4336-1aa4-b00f-5893",
+                "includeChildSelections": false
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 1
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 0
+              },
+              {
+                "name": "Honour Points",
+                "typeId": "8135-9a2f-6627-09e2",
+                "value": 0
+              },
+              {
+                "name": "Relic Fragments",
+                "typeId": "0ece-6541-4662-ece2",
+                "value": 0
+              }
+            ]
           }
         ],
         "name": "分遣隊",
@@ -145412,6 +145867,47 @@
                 "id": "70e6-4f2f-de76-c6b2",
                 "targetId": "1cc1-f11a-4e8f-1bcc",
                 "primary": false
+              },
+              {
+                "name": "3DP Detachment",
+                "hidden": false,
+                "id": "06b1-4b40-bd28-ade5",
+                "targetId": "7d80-2de5-816e-9d2b",
+                "primary": false
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 1,
+            "field": "20be-ecfe-ceea-c787",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "d62d-db22-4893-4bc0",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "1. Incursion (1000 Point limit)"
+                  },
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "childId": "7d80-2de5-816e-9d2b",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "3DP Detachment"
+                  }
+                ]
               }
             ]
           }
@@ -145454,7 +145950,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 10
+                    "value": 20
                   },
                   {
                     "name": "Crusade Points",
@@ -147139,9 +147635,9 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "僅限阿斯塔特修會模型。持有者第一次被摧毀時，在該階段結束時擲一顆 D6。若結果為 2+，將持有者盡可能靠近其被摧毀的位置重新設置在戰場上，且不在任何敵方單位的交戰範圍內，並以 3 點生命值剩餘。若持有者被摧毀時處於戰鬥震懾狀態，則改為以完整生命值剩餘復原。",
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573"
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "僅限阿斯塔特修會模型。（每場戰鬥一次，每支軍隊）當此模型被摧毀時，在該階段結束時擲一枚 D6：\n▪ 2+：將此模型盡可能靠近其被摧毀的位置重新設置在戰場上，且不處於交戰狀態。此模型不再是聯合單位的一部分，且其單位的起始兵力為 1。此模型剩餘 3 點生命值；若此模型被摧毀時處於戰鬥震懾狀態，則改為剩餘完整生命值。"
                       }
                     ],
                     "name": "英雄裹布",
@@ -149027,7 +149523,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 10
+                    "value": 20
                   },
                   {
                     "name": "Crusade Points",
@@ -153932,7 +154428,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 20
+                    "value": 25
                   },
                   {
                     "name": "Crusade Points",
@@ -153986,7 +154482,7 @@
                       {
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "阿斯塔特修會靈能者模型限定。此單位的遠程攻擊具有：［反怪物／載具 5+］。若此單位具有烈焰術學科能力，則還具有［連擊 1］。"
+                        "$text": "僅限阿斯塔特修會靈能者模型。此單位的遠程攻擊擁有：\n\n▪［致命一擊］。\n▪ 若此單位擁有烈焰學派技能，則還擁有［連擊 1］。"
                       }
                     ],
                     "name": "齊射",
@@ -154041,7 +154537,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 15
+                    "value": 25
                   },
                   {
                     "name": "Crusade Points",
@@ -154129,7 +154625,7 @@
                       {
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "阿斯塔特修會靈能者模型限定。▪ 在結束時：你對手的近戰階段，你可以將此單位放入戰略預備隊。▪ 若此單位具有念動力學科能力，此單位具有深度打擊。"
+                        "$text": "僅限阿斯塔特修會靈能者模型。\n▪ 若此單位擁有念動學派技能，則此單位擁有深入打擊。\n▪ 在你對手的近戰階段結束時，若此單位不處於交戰狀態，你可以使用此能力。若使用：\n  ▫ 將此單位置入戰略預備隊。\n  ▫ 此單位可以在你的下一個移動階段進行一次入場移動（包括你的第一回合）。"
                       }
                     ]
                   }
@@ -157096,9 +157592,9 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "僅限阿斯塔特修會模型。持有者第一次被摧毀時，將其從戰場移除，然後在該階段結束時擲一顆 D6：若結果為 2+，將持有者盡可能靠近其被摧毀的位置重新設置在戰場上，且不在一個或更多敵方單位的交戰範圍內，並以 3 點生命值剩餘。",
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573"
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "僅限阿斯塔特修會模型。（每場戰鬥一次，每支軍隊）當此模型被摧毀時，在該階段結束時擲一枚 D6：\n\n▪ 2+：將此模型盡可能靠近其被摧毀的位置重新設置在戰場上，且不處於交戰狀態。此模型不再是聯合單位的一部分，且其單位的起始兵力為 1。此模型剩餘 3 點生命值。"
                       }
                     ],
                     "name": "雷狼堅毅",
@@ -157459,9 +157955,9 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "太空野狼模型限定。持有者的移動值加 2 吋。在宣告戰鬥編隊步驟中，持有者可以附屬至一個狼人步兵單位。",
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573"
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "僅限太空野狼模型。持有者的移動屬性 +2\"。"
                       }
                     ],
                     "name": "狼性附身",
@@ -162241,7 +162737,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 10
+                    "value": 20
                   },
                   {
                     "name": "Crusade Points",
@@ -167727,6 +168223,433 @@
                 "shared": true,
                 "id": "c2ad-eafd-c2ff-1c4e",
                 "includeChildSelections": false
+              }
+            ]
+          },
+          {
+            "name": "活聖蹟強化項目",
+            "id": "7524-bf67-baa7-f85e",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "指引預兆",
+                "hidden": false,
+                "id": "97e6-f903-d88c-b983",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "c290-586f-f344-b4bc",
+                    "includeChildSelections": true
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "指引預兆",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "能力",
+                    "hidden": false,
+                    "id": "42b3-9b78-6549-f4b5",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "僅限帝皇冠軍模型。在第一個戰鬥輪開始時，你可以從以下能力中選擇最多三項。此模型擁有那些能力直到戰鬥結束：\n\n▪ 神皇之器（每場戰鬥一次，每支軍隊）：在近戰階段中，當此單位被選擇進行近戰時，若此單位與一個敵方角色單位交戰，你可以使用此能力。若使用，此模型的近戰攻擊擁有［毀滅傷害］。\n\n▪ 預見邪祟之路：此單位的偵測範圍 -3\"。\n\n▪ 驚世暴行之視：此模型的近戰攻擊擁有 +2 A。\n\n▪ 懲戒預兆：以此單位為目標的近戰攻擊擁有［危險］。\n\n▪ 神聖介入之兆：當你以英雄介入計謀指定此單位為目標時，該次使用 -1 CP。\n\n▪ 審判先驅：當一個與此模型交戰的敵方單位（怪獸／載具單位除外）被選擇進行後撤移動時，擲一枚 D6：\n  ▫ 2+：該敵方單位受到 D6 點致命傷。"
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 15
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
+                  },
+                  {
+                    "name": "Honour Points",
+                    "typeId": "8135-9a2f-6627-09e2",
+                    "value": 0
+                  },
+                  {
+                    "name": "Relic Fragments",
+                    "typeId": "0ece-6541-4662-ece2",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "root-entry",
+                        "childId": "1ba5-20a1-4dd6-9a4f",
+                        "shared": true,
+                        "childName": "Emperor's Champion"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "7bd3-602e-280c-ecad",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "The Living Miracle"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "復仇大軍強化項目",
+            "id": "6cb1-8d6a-7d79-266c",
+            "hidden": false,
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "c0a5-0a8a-94ed-0bd0",
+                "includeChildSelections": false
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "復仇天使",
+                "hidden": false,
+                "id": "8a01-65e4-0ce6-91cf",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
+                  },
+                  {
+                    "name": "Honour Points",
+                    "typeId": "8135-9a2f-6627-09e2",
+                    "value": 0
+                  },
+                  {
+                    "name": "Relic Fragments",
+                    "typeId": "0ece-6541-4662-ece2",
+                    "value": 0
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "復仇天使",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "能力",
+                    "hidden": false,
+                    "id": "883d-bcbb-741c-9749",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "僅限阿斯塔特修會飛行步兵模型。當該單位結束一次入場移動時，選擇最多一個位於該單位 9\" 內的敵方單位。該敵方單位必須進行一次戰鬥震懾擲骰，且該次戰鬥震懾擲骰結果 -1。"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "a508-409a-a3d0-2462",
+                    "includeChildSelections": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "c619-2086-bbcf-69c9",
+                        "shared": true,
+                        "childName": "Fly",
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "歐克蠻人災星",
+                "hidden": false,
+                "id": "aa90-2488-e3dc-26c9",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
+                  },
+                  {
+                    "name": "Honour Points",
+                    "typeId": "8135-9a2f-6627-09e2",
+                    "value": 0
+                  },
+                  {
+                    "name": "Relic Fragments",
+                    "typeId": "0ece-6541-4662-ece2",
+                    "value": 0
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "歐克蠻人災星",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "近戰武器",
+                    "hidden": false,
+                    "id": "a550-a367-911f-55c1",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "近戰"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "4"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "2+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "8"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-2"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "劈砍 2"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "歐克蠻人災星",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "能力",
+                    "hidden": false,
+                    "id": "2522-e1a7-baca-c023",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "僅限阿斯塔特修會飛行步兵模型。此模型擁有以下武器："
+                      }
+                    ]
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "劈砍",
+                    "id": "3017-c0a5-f00a-4d05",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "bf16-5d16-4725-f912"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "256e-ef74-5486-ea56",
+                    "includeChildSelections": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "c619-2086-bbcf-69c9",
+                        "shared": true,
+                        "childName": "Fly",
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -199208,7 +200131,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "id": "e0af-67df-9d63-8fb7",
     "name": "帝國 - 阿斯塔特修會 - 星際戰士",
-    "revision": 4,
+    "revision": 5,
     "battleScribeVersion": 2.03,
     "library": false,
     "gameSystemId": "sys-352e-adc2-7639-d610",
