@@ -5040,7 +5040,7 @@
             "id": "c157-2b76-38f1-74a5"
           }
         ],
-        "comment": "修女會 (AP-1)",
+        "comment": "戰鬥修女（AP -1）",
         "profiles": [
           {
             "characteristics": [
@@ -19170,7 +19170,7 @@
                 ],
                 "categoryLinks": [
                   {
-                    "name": "肅清敵人",
+                    "name": "淨化敵軍",
                     "hidden": false,
                     "id": "a713-7378-23c7-28a9",
                     "targetId": "6fe0-3dbe-f7e0-10bb",
@@ -23127,7 +23127,7 @@
             ],
             "type": "model",
             "import": true,
-            "name": "終結者 Justicar",
+            "name": "終結者仲裁官",
             "hidden": false,
             "id": "3bb7-e998-8feb-81fa",
             "sortIndex": 2
@@ -23611,7 +23611,7 @@
                 "id": "2d90-f418-5954-3241"
               }
             ],
-            "name": "4 終結者s",
+            "name": "4 名終結者",
             "id": "773d-7091-408f-67a7",
             "hidden": false,
             "defaultSelectionEntryId": "c44d-6380-a431-c369",
@@ -31668,7 +31668,7 @@
                     "id": "f9a1-8bb4-2784-c88c"
                   }
                 ],
-                "name": "Centreline 武器",
+                "name": "中線武器",
                 "id": "ad85-69a3-97af-48d5",
                 "hidden": false,
                 "publicationId": "4115-3627-e608-39f6",
@@ -31863,7 +31863,7 @@
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ],
-                            "name": "St或mstrike 飛彈發射器",
+                            "name": "暴風打擊飛彈發射器",
                             "typeId": "f77d-b953-8fa4-b762",
                             "typeName": "遠程武器",
                             "hidden": false,
@@ -31884,7 +31884,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "St或mstrike 飛彈發射器",
+                        "name": "暴風打擊飛彈發射器",
                         "hidden": false,
                         "id": "5b9e-365b-10dd-a51e",
                         "publicationId": "4115-3627-e608-39f6",
@@ -31893,7 +31893,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "2 St或mstrike 飛彈發射器s",
+                    "name": "2 具暴風打擊飛彈發射器",
                     "hidden": false,
                     "id": "8817-444f-e500-aeef"
                   }
@@ -32409,7 +32409,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Death至Alien",
+            "name": "異形必死",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -34670,7 +34670,7 @@
                 "id": "6df0-9620-e71b-00b8"
               }
             ],
-            "name": "死亡守望終結者s",
+            "name": "死亡守望終結者",
             "id": "19c2-4e30-0044-49ac",
             "hidden": false,
             "publicationId": "4115-3627-e608-39f6",
@@ -36124,7 +36124,7 @@
                                     "typeId": "7f1b-8591-2fcf-d01c"
                                   }
                                 ],
-                                "name": "H和火焰噴射器",
+                                "name": "手持火焰噴射器",
                                 "typeId": "f77d-b953-8fa4-b762",
                                 "typeName": "遠程武器",
                                 "hidden": false,
@@ -36175,7 +36175,7 @@
                             ],
                             "type": "upgrade",
                             "import": true,
-                            "name": "H和火焰噴射器",
+                            "name": "手持火焰噴射器",
                             "hidden": false,
                             "id": "55e4-ab4b-a3e2-5715"
                           },
@@ -37809,7 +37809,7 @@
                         "includeChildSelections": false
                       }
                     ],
-                    "name": "跨界者s 具有電漿焚化槍",
+                    "name": "裝備電漿焚化槍的仲裁者",
                     "id": "1b78-df28-3957-fa4a",
                     "hidden": false
                   }
@@ -39086,7 +39086,7 @@
                           }
                         ],
                         "type": "add",
-                        "value": "最大 2 重型跨界者s 具有動力拳套",
+                        "value": "最多 2 名裝備動力拳套的重裝仲裁者",
                         "field": "error"
                       }
                     ],
@@ -39101,7 +39101,7 @@
                     ],
                     "type": "model",
                     "import": true,
-                    "name": "殺戮小隊重裝仲裁者裝備動力拳套與flamest或m 拳套",
+                    "name": "殺戮小隊重裝仲裁者裝備動力拳套與火焰風暴手甲",
                     "hidden": false,
                     "id": "ec81-a1af-ba62-03fa"
                   },
@@ -39457,7 +39457,7 @@
                           }
                         ],
                         "type": "add",
-                        "value": "最大 2 重型跨界者s 具有動力拳套",
+                        "value": "最多 2 名裝備動力拳套的重裝仲裁者",
                         "field": "error"
                       }
                     ],
@@ -39472,7 +39472,7 @@
                     ],
                     "type": "model",
                     "import": true,
-                    "name": "殺戮小隊重裝仲裁者裝備動力拳套與auto 爆彈風暴 拳套",
+                    "name": "殺戮小隊重裝仲裁者裝備動力拳套與自動爆彈風暴手甲",
                     "hidden": false,
                     "id": "46f0-e2c9-0116-353b"
                   },
@@ -40177,7 +40177,7 @@
                           }
                         ],
                         "type": "add",
-                        "value": "最大 2 重型跨界者s 具有跳躍背包",
+                        "value": "最多 2 名裝備跳躍背包的重裝仲裁者",
                         "field": "error"
                       }
                     ],
@@ -40481,7 +40481,7 @@
                           }
                         ],
                         "type": "add",
-                        "value": "最大 2 重型跨界者s 具有跳躍背包",
+                        "value": "最多 2 名裝備跳躍背包的重裝仲裁者",
                         "field": "error"
                       }
                     ],
@@ -40539,7 +40539,7 @@
                   }
                 ],
                 "type": "add",
-                "value": "最大 2 重型跨界者s 具有跳躍背包",
+                "value": "最多 2 名裝備跳躍背包的重裝仲裁者",
                 "field": "error"
               }
             ],
@@ -40874,7 +40874,7 @@
             "primary": false
           },
           {
-            "name": "殺戮小隊 Cassius",
+            "name": "卡西烏斯殺戮小隊",
             "hidden": false,
             "id": "0985-8095-6162-c236",
             "targetId": "ca02-4767-b068-1ccf",
@@ -42931,7 +42931,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "死亡守望 twin 爆彈槍",
+                    "name": "死亡守望雙聯爆彈槍",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -42940,7 +42940,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "死亡守望 twin 爆彈槍",
+                "name": "死亡守望雙聯爆彈槍",
                 "hidden": false,
                 "id": "12a7-5529-2700-0ec5",
                 "publicationId": "4115-3627-e608-39f6",
@@ -43048,7 +43048,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Catechism的Death",
+            "name": "死亡教義問答",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -43155,7 +43155,7 @@
         ],
         "type": "unit",
         "import": true,
-        "name": "殺戮小隊 Cassius ［傳奇］",
+        "name": "卡西烏斯殺戮小隊［傳奇］",
         "hidden": false,
         "id": "88af-6e47-7162-b1be",
         "publicationId": "4115-3627-e608-39f6",
@@ -43192,7 +43192,7 @@
             "primary": false
           },
           {
-            "name": "Proteus 殺戮小隊",
+            "name": "普羅透斯殺戮小隊",
             "hidden": false,
             "id": "c8fb-e470-78ba-58b9",
             "targetId": "1b81-a12a-8e8e-5dd4",
@@ -43302,7 +43302,7 @@
                             "$text": ""
                           }
                         ],
-                        "name": "殺戮小隊 Biker",
+                        "name": "殺戮小隊摩托騎手",
                         "typeId": "c547-1836-d8a-ff4f",
                         "typeName": "單位",
                         "hidden": false,
@@ -43415,14 +43415,14 @@
                             "targetId": "1234-cfc0-d913-d09a"
                           }
                         ],
-                        "name": "額外 Equipment",
+                        "name": "額外裝備",
                         "id": "8562-3309-7064-4669",
                         "hidden": false
                       }
                     ],
                     "type": "model",
                     "import": true,
-                    "name": "殺戮小隊 Biker",
+                    "name": "殺戮小隊摩托騎手",
                     "hidden": false,
                     "id": "a3b8-07ce-1710-f2f4"
                   },
@@ -46008,7 +46008,7 @@
                     ],
                     "type": "model",
                     "import": true,
-                    "name": "殺戮小隊老兵裝備死亡守望 Thunder Hammer",
+                    "name": "殺戮小隊老兵裝備死亡守望雷霆鎚",
                     "hidden": false,
                     "id": "64ea-9061-6196-a72b"
                   },
@@ -46195,7 +46195,7 @@
                                         "typeId": "7f1b-8591-2fcf-d01c"
                                       }
                                     ],
-                                    "name": "Frag 砲",
+                                    "name": "破片砲",
                                     "typeId": "f77d-b953-8fa4-b762",
                                     "typeName": "遠程武器",
                                     "hidden": false,
@@ -46257,7 +46257,7 @@
                                 ],
                                 "type": "upgrade",
                                 "import": true,
-                                "name": "Frag 砲",
+                                "name": "破片砲",
                                 "hidden": false,
                                 "id": "e8e5-892a-7287-5441"
                               }
@@ -46772,7 +46772,7 @@
         ],
         "type": "unit",
         "import": true,
-        "name": "Proteus 殺戮小隊 ［傳奇］",
+        "name": "普羅透斯殺戮小隊［傳奇］",
         "hidden": false,
         "id": "4681-2af4-acf9-2bce"
       },
@@ -46884,7 +46884,7 @@
             "primary": false
           },
           {
-            "name": "Spectrus 殺戮小隊",
+            "name": "斯佩克特魯斯殺戮小隊",
             "hidden": false,
             "id": "8a96-8ef5-60da-f4b0",
             "targetId": "2b33-05a8-bf42-72f9",
@@ -47672,7 +47672,7 @@
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "Occulus bolt 卡賓槍",
+                        "name": "奧庫魯斯爆彈卡賓槍",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "遠程武器",
                         "hidden": false,
@@ -47707,7 +47707,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Occulus bolt 卡賓槍",
+                    "name": "奧庫魯斯爆彈卡賓槍",
                     "hidden": false,
                     "id": "eb16-e5cb-79b7-6305",
                     "publicationId": "4115-3627-e608-39f6",
@@ -47771,7 +47771,7 @@
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ],
-                        "name": "Paired combat 刃s",
+                        "name": "雙持戰鬥刀刃",
                         "typeId": "8a40-4aaa-c780-9046",
                         "typeName": "近戰武器",
                         "hidden": false,
@@ -47799,7 +47799,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Paired combat 刃s",
+                    "name": "雙持戰鬥刀刃",
                     "hidden": false,
                     "id": "c564-80ee-09f2-00a0",
                     "publicationId": "4115-3627-e608-39f6",
@@ -47970,7 +47970,7 @@
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "Special-issue 爆彈手槍",
+                        "name": "特製爆彈手槍",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "遠程武器",
                         "hidden": false,
@@ -48005,7 +48005,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Special-issue 爆彈手槍",
+                    "name": "特製爆彈手槍",
                     "hidden": false,
                     "id": "1f26-79f8-7e06-fa49",
                     "publicationId": "4115-3627-e608-39f6",
@@ -48316,7 +48316,7 @@
                         "id": "c775-4f9b-0bc1-179d"
                       }
                     ],
-                    "name": "戰鬥刀 replacement",
+                    "name": "替換戰鬥刀",
                     "id": "385f-2b00-0a85-56a5",
                     "hidden": false,
                     "defaultSelectionEntryId": "4241-1e8b-615b-a277"
@@ -48767,7 +48767,7 @@
                         "id": "d8a6-4e47-e9d3-e665"
                       }
                     ],
-                    "name": "遠程武器 Choice",
+                    "name": "遠程武器選擇",
                     "id": "2a7d-60a7-2a46-0065",
                     "hidden": false,
                     "defaultSelectionEntryId": "4234-7553-7e7e-8d4a"
@@ -49065,7 +49065,7 @@
         ],
         "type": "unit",
         "import": true,
-        "name": "Spectrus 殺戮小隊 ［傳奇］",
+        "name": "斯佩克特魯斯殺戮小隊［傳奇］",
         "hidden": false,
         "id": "f527-0a42-15b4-1924"
       },
@@ -49136,7 +49136,7 @@
                     "$text": ""
                   }
                 ],
-                "name": "老兵 Biker Sergeant",
+                "name": "老兵摩托騎手士官",
                 "typeId": "c547-1836-d8a-ff4f",
                 "typeName": "單位",
                 "hidden": false,
@@ -49392,7 +49392,7 @@
                             "typeId": "9b8f-694b-e5e-b573"
                           }
                         ],
-                        "name": "阿斯塔特 Shield",
+                        "name": "阿斯塔特盾牌",
                         "typeId": "9cc3-6d83-4dd3-9b64",
                         "typeName": "能力",
                         "hidden": false,
@@ -49413,14 +49413,14 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "阿斯塔特 Shield",
+                    "name": "阿斯塔特盾牌",
                     "hidden": false,
                     "id": "10e9-87e5-c87e-35c1",
                     "publicationId": "4115-3627-e608-39f6",
                     "page": 17
                   }
                 ],
-                "name": "額外 Equipment",
+                "name": "額外裝備",
                 "id": "30d5-8582-99bf-f12c",
                 "hidden": false,
                 "publicationId": "4115-3627-e608-39f6",
@@ -49429,7 +49429,7 @@
             ],
             "type": "model",
             "import": true,
-            "name": "老兵 Biker Sergeant",
+            "name": "老兵摩托騎手士官",
             "hidden": false,
             "id": "5d12-adc5-6312-52d5",
             "publicationId": "4115-3627-e608-39f6",
@@ -49476,7 +49476,7 @@
                     "$text": ""
                   }
                 ],
-                "name": "老兵 Biker",
+                "name": "老兵摩托騎手",
                 "typeId": "c547-1836-d8a-ff4f",
                 "typeName": "單位",
                 "hidden": false,
@@ -49589,7 +49589,7 @@
             ],
             "type": "model",
             "import": true,
-            "name": "老兵 Biker",
+            "name": "老兵摩托騎手",
             "hidden": false,
             "id": "a56b-6949-bb1d-ab5c",
             "publicationId": "4115-3627-e608-39f6",
@@ -49620,7 +49620,7 @@
             "primary": false
           },
           {
-            "name": "老兵 Bike 小隊",
+            "name": "老兵摩托小隊",
             "hidden": false,
             "id": "bdcd-9abe-6cc3-b3c7",
             "targetId": "f6a3-3911-2359-24e2",
@@ -49950,7 +49950,7 @@
         ],
         "type": "unit",
         "import": true,
-        "name": "老兵 Bike 小隊 ［傳奇］",
+        "name": "老兵摩托小隊［傳奇］",
         "hidden": false,
         "id": "50a9-30aa-e03a-847d",
         "publicationId": "4115-3627-e608-39f6",
@@ -50207,7 +50207,7 @@
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ],
-                "name": "Hellfire 極端",
+                "name": "極限地獄火",
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "遠程武器",
                 "hidden": false,
@@ -50248,7 +50248,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "Hellfire 極端",
+            "name": "極限地獄火",
             "hidden": false,
             "id": "843d-94dc-6b7c-7712",
             "publicationId": "4115-3627-e608-39f6",
@@ -50312,7 +50312,7 @@
                     "typeId": "893f-9000-ccf7-648e"
                   }
                 ],
-                "name": "Master-crafted 動力武器",
+                "name": "大師打造動力武器",
                 "typeId": "8a40-4aaa-c780-9046",
                 "typeName": "近戰武器",
                 "hidden": false,
@@ -50323,7 +50323,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "Master-crafted 動力武器",
+            "name": "大師打造動力武器",
             "hidden": false,
             "id": "79aa-e495-e7b9-bdcb",
             "publicationId": "4115-3627-e608-39f6",
@@ -50523,7 +50523,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Rites的Battle",
+            "name": "戰鬥儀式",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -51541,7 +51541,7 @@
         "id": "1234-cfc0-d913-d09a"
       },
       {
-        "comment": "甲冑y - 4+",
+        "comment": "武庫－4+",
         "profiles": [
           {
             "characteristics": [
@@ -51637,7 +51637,7 @@
         "collective": true
       },
       {
-        "comment": "甲冑y - 4+",
+        "comment": "武庫－4+",
         "profiles": [
           {
             "characteristics": [
@@ -51718,7 +51718,7 @@
         "page": 29
       },
       {
-        "comment": "甲冑y",
+        "comment": "武庫",
         "profiles": [
           {
             "characteristics": [
@@ -52082,7 +52082,7 @@
         "collective": true
       },
       {
-        "comment": "甲冑y - 3+",
+        "comment": "武庫－3+",
         "profiles": [
           {
             "characteristics": [
@@ -52399,7 +52399,7 @@
             "targetId": "be1e-ac8e-1e2c-3528"
           }
         ],
-        "comment": "甲冑y - 3+",
+        "comment": "武庫－3+",
         "type": "upgrade",
         "import": true,
         "name": "突擊砲",
@@ -52467,7 +52467,7 @@
                 "join": ""
               }
             ],
-            "name": "➤ 旋風飛彈發射器 - frag",
+            "name": "➤ 旋風飛彈發射器－破片",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "遠程武器",
             "hidden": false,
@@ -52532,7 +52532,7 @@
                 "join": ""
               }
             ],
-            "name": "➤ 旋風飛彈發射器 - krak",
+            "name": "➤ 旋風飛彈發射器－穿甲",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "遠程武器",
             "hidden": false,
@@ -52698,7 +52698,7 @@
                 "typeId": "893f-9000-ccf7-648e"
               }
             ],
-            "name": "Power 拳套",
+            "name": "動力拳套",
             "typeId": "8a40-4aaa-c780-9046",
             "typeName": "近戰武器",
             "hidden": false,
@@ -52786,7 +52786,7 @@
         "id": "3290-2132-2fac-6d54"
       },
       {
-        "comment": "甲冑y",
+        "comment": "武庫",
         "profiles": [
           {
             "characteristics": [
@@ -53415,7 +53415,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "Death Cult 刃s",
+                    "name": "死亡教派刀刃",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -53443,7 +53443,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Death Cult 刃s",
+                "name": "死亡教派刀刃",
                 "hidden": false,
                 "id": "05a0-b6ef-1ab3-10af"
               }
@@ -53807,13 +53807,13 @@
                   }
                 ],
                 "type": "set",
-                "value": "Missionary 裝備熱熔槍",
+                "value": "傳教士裝備熱熔槍",
                 "field": "name"
               }
             ],
             "type": "model",
             "import": true,
-            "name": "Missionary 裝備電漿槍",
+            "name": "傳教士裝備電漿槍",
             "hidden": false,
             "id": "3610-79a8-91cf-97bc",
             "sortIndex": 4
@@ -53899,7 +53899,7 @@
             ],
             "type": "model",
             "import": true,
-            "name": "Missionary 裝備火焰噴射器",
+            "name": "傳教士裝備火焰噴射器",
             "hidden": false,
             "id": "1310-edc2-eefd-eae1",
             "sortIndex": 8
@@ -54455,7 +54455,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "教會 Sermon",
+            "name": "國教部佈道",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -56091,7 +56091,7 @@
                     "$text": ""
                   }
                 ],
-                "name": "Stent或-I-52",
+                "name": "斯滕托爾-I-52",
                 "typeId": "c547-1836-d8a-ff4f",
                 "typeName": "單位",
                 "hidden": false,
@@ -56100,7 +56100,7 @@
             ],
             "type": "model",
             "import": true,
-            "name": "Stent或-I-52",
+            "name": "斯滕托爾-I-52",
             "hidden": false,
             "id": "6aa8-6a7e-a94e-acee",
             "sortIndex": 3
@@ -56184,7 +56184,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Vox-cast Proclamations (靈光)",
+            "name": "聲訊廣播宣告（靈光）",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -56332,7 +56332,7 @@
           },
           {
             "import": true,
-            "name": "Special-issue 爆彈手槍",
+            "name": "特製爆彈手槍",
             "hidden": false,
             "id": "e834-17c5-8485-89ed",
             "type": "selectionEntry",
@@ -56494,7 +56494,7 @@
                 "id": "d2a2-f2ef-c279-93e4"
               }
             ],
-            "name": "Exchange 卡賓槍",
+            "name": "替換卡賓槍",
             "id": "3a1c-4f3d-3010-e969",
             "hidden": false,
             "defaultSelectionEntryId": "542e-e8cb-cf58-e32b"
@@ -56579,7 +56579,7 @@
         "id": "050d-797a-bb9a-2e8b"
       },
       {
-        "comment": "Decimus 殺戮小隊",
+        "comment": "德西穆斯殺戮小隊",
         "constraints": [
           {
             "type": "min",
@@ -56639,7 +56639,7 @@
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
-            "name": "Special-issue 爆彈手槍",
+            "name": "特製爆彈手槍",
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "遠程武器",
             "hidden": false,
@@ -56671,7 +56671,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "Special-issue 爆彈手槍",
+        "name": "特製爆彈手槍",
         "hidden": false,
         "id": "16ef-ec6b-7315-b169"
       },
@@ -56875,7 +56875,7 @@
               }
             ],
             "type": "set",
-            "value": "死亡守望老兵裝備動力武器和shield",
+            "value": "死亡守望老兵裝備動力武器與盾牌",
             "field": "name"
           }
         ],
@@ -57016,7 +57016,7 @@
             "targetId": "1897-c22c-9597-12b1"
           }
         ],
-        "comment": "Decimus 殺戮小隊 only",
+        "comment": "僅限德西穆斯殺戮小隊",
         "type": "upgrade",
         "import": true,
         "name": "動力武器",
@@ -57146,7 +57146,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "Stalker 爆彈步槍",
+                    "name": "追獵者爆彈步槍",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -57178,7 +57178,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Stalker 爆彈步槍",
+                "name": "追獵者爆彈步槍",
                 "hidden": false,
                 "id": "de2c-7723-f9e6-f06e"
               }
@@ -57193,7 +57193,7 @@
                 "targetId": "313c-0c8f-db17-c947"
               }
             ],
-            "name": "Exchange 步槍",
+            "name": "替換步槍",
             "id": "8808-1d05-7b6f-00db",
             "hidden": false,
             "defaultSelectionEntryId": "de2c-7723-f9e6-f06e"
@@ -57278,7 +57278,7 @@
         "id": "3435-d900-05e9-19e6"
       },
       {
-        "comment": "Decimus 殺戮小隊",
+        "comment": "德西穆斯殺戮小隊",
         "entryLinks": [
           {
             "constraints": [
@@ -57524,7 +57524,7 @@
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "Hellst或m 爆彈步槍",
+                        "name": "地獄風暴爆彈步槍",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "遠程武器",
                         "hidden": false,
@@ -57556,7 +57556,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "Hellst或m 爆彈步槍",
+                    "name": "地獄風暴爆彈步槍",
                     "hidden": false,
                     "id": "2509-50f3-832d-1daf"
                   },
@@ -57639,7 +57639,7 @@
                             "join": ""
                           }
                         ],
-                        "name": "➤ 阿斯塔特榴彈發射器 - frag",
+                        "name": "➤ 阿斯塔特榴彈發射器－破片",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "遠程武器",
                         "hidden": false,
@@ -57683,7 +57683,7 @@
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "➤ 阿斯塔特榴彈發射器 - krak",
+                        "name": "➤ 阿斯塔特榴彈發射器－穿甲",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "遠程武器",
                         "hidden": false,
@@ -57708,7 +57708,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Hellst或m 爆彈步槍和榴彈發射器",
+                "name": "地獄風暴爆彈步槍與榴彈發射器",
                 "hidden": false,
                 "id": "5278-f5a0-cd37-faea"
               },
@@ -57878,7 +57878,7 @@
               }
             ],
             "type": "set",
-            "value": "Gravis 老兵裝備破片砲",
+            "value": "重裝型裝甲老兵裝備破片砲",
             "field": "name"
           },
           {
@@ -57936,7 +57936,7 @@
                 "$text": ""
               }
             ],
-            "name": "Gravis 老兵",
+            "name": "重裝型裝甲老兵",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -58083,7 +58083,7 @@
             "id": "51a5-2208-9f0b-9a53"
           }
         ],
-        "comment": "Decimus 殺戮小隊",
+        "comment": "德西穆斯殺戮小隊",
         "type": "model",
         "import": true,
         "name": "殺戮小隊軍士",
@@ -58165,7 +58165,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Death至Alien",
+            "name": "異形必死",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -58505,11 +58505,11 @@
                 ],
                 "selectionEntries": [
                   {
-                    "comment": "Decimus 殺戮小隊",
+                    "comment": "德西穆斯殺戮小隊",
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "Special-issue 爆彈手槍",
+                        "name": "特製爆彈手槍",
                         "hidden": false,
                         "id": "dbee-c9e1-7241-f6de",
                         "type": "selectionEntry",
@@ -58707,7 +58707,7 @@
                 "includeChildSelections": false
               }
             ],
-            "name": "單位 composition",
+            "name": "單位組成",
             "id": "ae81-1cbf-bd9d-bb9c",
             "hidden": false,
             "defaultSelectionEntryId": "dc49-0e3b-208b-c2ad"
@@ -59066,7 +59066,7 @@
         "id": "b040-ce24-7e1a-c903"
       },
       {
-        "comment": "Decimus 殺戮小隊",
+        "comment": "德西穆斯殺戮小隊",
         "profiles": [
           {
             "characteristics": [
@@ -59277,7 +59277,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Moment的Gl或y",
+            "name": "榮耀時刻",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -59863,7 +59863,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Your 守望是 Not Yet Ended",
+            "name": "守望尚未結束",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -60460,7 +60460,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Towering Reputation (靈光)",
+            "name": "威名遠揚（靈光）",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -61153,7 +61153,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "Stub卡賓槍",
+                    "name": "短管卡賓槍",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -61171,7 +61171,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Stub卡賓槍",
+                "name": "短管卡賓槍",
                 "hidden": false,
                 "id": "73bf-b36b-d09a-f166",
                 "sortIndex": 2
@@ -61236,7 +61236,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "Butcher 刃",
+                    "name": "屠夫刀刃",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -61245,7 +61245,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Butcher 刃",
+                "name": "屠夫刀刃",
                 "hidden": false,
                 "id": "75e6-175a-f129-33a1",
                 "sortIndex": 3
@@ -61310,7 +61310,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "Garralisk's claws和teeth",
+                    "name": "格拉利斯克的爪與牙",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -61328,7 +61328,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Garralisk's claws和teeth",
+                "name": "格拉利斯克的爪與牙",
                 "hidden": false,
                 "id": "58a8-b639-ba4c-8096",
                 "sortIndex": 4
@@ -61588,7 +61588,7 @@
         "id": "3494-754d-59d1-1d6c"
       },
       {
-        "comment": "角色s",
+        "comment": "角色",
         "constraints": [
           {
             "type": "max",
@@ -61804,7 +61804,7 @@
                 "type": "and"
               }
             ],
-            "comment": "遠征 relic",
+            "comment": "遠征聖物",
             "type": "increment",
             "value": 1,
             "field": "77aa-f5f6-f7b5-b974"
@@ -62067,7 +62067,7 @@
                 "type": "and"
               }
             ],
-            "comment": "Inq + 特務",
+            "comment": "審判官＋特務",
             "type": "increment",
             "value": 1,
             "field": "2842-fde8-36ca-60f7"
@@ -62147,7 +62147,7 @@
                 "type": "and"
               }
             ],
-            "comment": "Inq + 特務",
+            "comment": "審判官＋特務",
             "type": "increment",
             "value": 1,
             "field": "2842-fde8-36ca-60f7"
@@ -62307,7 +62307,7 @@
                 "type": "and"
               }
             ],
-            "comment": "Inq + 特務",
+            "comment": "審判官＋特務",
             "type": "increment",
             "value": 1,
             "field": "2842-fde8-36ca-60f7"
@@ -62430,7 +62430,7 @@
                 "type": "and"
               }
             ],
-            "comment": "遠征 relic",
+            "comment": "遠征聖物",
             "type": "increment",
             "value": 1,
             "field": "2842-fde8-36ca-60f7"
@@ -62652,7 +62652,7 @@
                 "type": "and"
               }
             ],
-            "comment": "遠征 relic",
+            "comment": "遠征聖物",
             "type": "increment",
             "value": 1,
             "field": "7cb1-09e0-acd9-5a8f"
@@ -62764,22 +62764,22 @@
         "hidden": false
       },
       {
-        "name": "殺戮小隊 Cassius",
+        "name": "卡西烏斯殺戮小隊",
         "id": "ca02-4767-b068-1ccf",
         "hidden": false
       },
       {
-        "name": "Proteus 殺戮小隊",
+        "name": "普羅透斯殺戮小隊",
         "id": "1b81-a12a-8e8e-5dd4",
         "hidden": false
       },
       {
-        "name": "Spectrus 殺戮小隊",
+        "name": "斯佩克特魯斯殺戮小隊",
         "id": "2b33-05a8-bf42-72f9",
         "hidden": false
       },
       {
-        "name": "老兵 Bike 小隊",
+        "name": "老兵摩托小隊",
         "id": "f6a3-3911-2359-24e2",
         "hidden": false
       },
@@ -62799,13 +62799,13 @@
         "hidden": true
       },
       {
-        "comment": "遠征 content",
+        "comment": "遠征內容",
         "name": "純潔派",
         "id": "34d8-ef3d-2c30-1671",
         "hidden": false
       },
       {
-        "comment": "遠征 content",
+        "comment": "遠征內容",
         "name": "激進派",
         "id": "22a1-b48a-b3d4-dc02",
         "hidden": false
@@ -64692,7 +64692,7 @@
           }
         ],
         "import": true,
-        "name": "Spectrus 殺戮小隊 ［傳奇］",
+        "name": "斯佩克特魯斯殺戮小隊［傳奇］",
         "hidden": false,
         "id": "cca2-5a13-02ce-2bdc",
         "type": "selectionEntry",
@@ -64776,7 +64776,7 @@
           }
         ],
         "import": true,
-        "name": "Proteus 殺戮小隊 ［傳奇］",
+        "name": "普羅透斯殺戮小隊［傳奇］",
         "hidden": false,
         "id": "2c07-dc65-676c-5fdf",
         "type": "selectionEntry",
@@ -64867,7 +64867,7 @@
           }
         ],
         "import": true,
-        "name": "老兵 Bike 小隊 ［傳奇］",
+        "name": "老兵摩托小隊［傳奇］",
         "hidden": false,
         "id": "d00d-4cfb-7136-ea46",
         "type": "selectionEntry",
@@ -65005,7 +65005,7 @@
           }
         ],
         "import": true,
-        "name": "殺戮小隊 Cassius ［傳奇］",
+        "name": "卡西烏斯殺戮小隊［傳奇］",
         "hidden": false,
         "id": "6b90-1de8-ccbd-7e23",
         "type": "selectionEntry",
@@ -65050,7 +65050,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "暗影行動s",
+            "name": "暗影行動",
             "hidden": false,
             "id": "799f-0299-f473-611e",
             "type": "selectionEntryGroup",
@@ -65083,7 +65083,7 @@
           }
         ],
         "import": true,
-        "name": "Order的Battle",
+        "name": "戰鬥序列",
         "hidden": false,
         "id": "b6eb-58c5-ab93-0f88",
         "type": "selectionEntry",
@@ -65868,7 +65868,7 @@
     "catalogueLinks": [
       {
         "type": "catalogue",
-        "name": "Unaligned 對於ces",
+        "name": "無陣營部隊",
         "id": "86e9-bde3-3f93-f02a",
         "targetId": "581a-46b9-5b86-44b7",
         "importRootEntries": true
@@ -65882,7 +65882,7 @@
       },
       {
         "type": "catalogue",
-        "name": "帝國 - Imperial Knights - Library",
+        "name": "帝國－帝國騎士－資料庫",
         "id": "a989-d962-d348-900a",
         "targetId": "1b6d-dc06-5db9-c7d1",
         "importRootEntries": true
@@ -66289,12 +66289,12 @@
               {
                 "characteristics": [
                   {
-                    "$text": "在你對手的射擊階段開始時，選擇一個位於此模型 12\" 內且對此模型可見的敵方步兵單位，然後擲一個 D6：若結果為 1，此模型遭受 D3 點致命傷；若結果為 2-5，直到此階段結束，該單位中的模型每次進行攻擊時，命中擲骰減 1；若結果為 6，直到此階段結束，該單位不符合射擊資格。",
+                    "$text": "在你對手的射擊階段開始時，選擇一個位於持有者 12\" 內且對持有者可見的敵方載具單位（不含泰坦單位）。該單位必須進行一次領導測試。若通過，直到此階段結束，每當該單位中的模型進行攻擊時，命中擲骰減 1；若失敗，該單位在此階段不符合射擊資格。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "Amulet的Auto-chastisement",
+                "name": "自我懲戒護符",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -66310,7 +66310,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "Amulet的Auto-chastisement",
+            "name": "自我懲戒護符",
             "hidden": false,
             "id": "85ba-c01b-fc50-12c3",
             "sortIndex": 13
@@ -66503,7 +66503,7 @@
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "No Escape (靈光)",
+                "name": "無處可逃（靈光）",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -66813,7 +66813,7 @@
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "對於midable Resolve",
+                "name": "堅定決心",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -66832,7 +66832,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "對於midable Resolve",
+                    "value": "堅定決心",
                     "field": "annotation",
                     "join": "，",
                     "scope": "model-or-unit",
@@ -66858,7 +66858,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "對於midable Resolve",
+            "name": "堅定決心",
             "hidden": false,
             "id": "7175-709a-91a9-9b44",
             "sortIndex": 10
@@ -66941,7 +66941,7 @@
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "惡魔 Slayer",
+                "name": "惡魔殺手",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -66960,7 +66960,7 @@
                 "modifiers": [
                   {
                     "type": "append",
-                    "value": "惡魔 Slayer",
+                    "value": "惡魔殺手",
                     "field": "annotation",
                     "join": "，",
                     "scope": "model",
@@ -67028,7 +67028,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "惡魔 Slayer",
+            "name": "惡魔殺手",
             "hidden": false,
             "id": "57c9-449c-c11c-6611",
             "sortIndex": 9
@@ -67111,7 +67111,7 @@
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "Grimoire的True Names (靈光)",
+                "name": "真名魔典（靈光）",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -67127,7 +67127,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "Grimoire的True Names",
+            "name": "真名魔典",
             "hidden": false,
             "id": "eebd-ca6a-65e2-0694",
             "sortIndex": 12
@@ -67210,7 +67210,7 @@
                     "$text": "每場戰鬥一次，若持有者在戰場上，你可以以 0CP 使用「快速介入」計謀。這麼做時，你必須指定你軍隊中的一個灰騎士終結者小隊單位為目標；使用該計謀時，該單位可以設置於戰場上任何距離所有敵方單位超過 6\" 的位置。"
                   }
                 ],
-                "name": "Gift的Prescient",
+                "name": "預知之禮",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -67226,7 +67226,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "Gift的Prescient",
+            "name": "預知之禮",
             "hidden": false,
             "id": "ee2f-4840-645c-ba0d",
             "sortIndex": 11
@@ -67294,7 +67294,7 @@
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "Digital 武器",
+                "name": "數位武器",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -67310,7 +67310,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "Digital 武器",
+            "name": "數位武器",
             "hidden": false,
             "id": "e180-015c-b361-d651",
             "sortIndex": 3
@@ -67378,7 +67378,7 @@
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "秘密 Operation",
+                "name": "秘密行動",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -67394,7 +67394,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "秘密 Operation",
+            "name": "秘密行動",
             "hidden": false,
             "id": "c390-c4f9-4c37-5475",
             "sortIndex": 1
@@ -67578,7 +67578,7 @@
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "Combat L和ers",
+                "name": "戰鬥登陸者",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -67594,7 +67594,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "Combat L和ers",
+            "name": "戰鬥登陸者",
             "hidden": false,
             "id": "ab5d-7944-acf3-eb56",
             "sortIndex": 2
@@ -68870,7 +68870,7 @@
         "defaultSelectionEntryId": "ad9-d7f5-59b8-cd0d"
       },
       {
-        "comment": "遠征 content",
+        "comment": "遠征內容",
         "selectionEntries": [
           {
             "constraints": [
@@ -69745,7 +69745,7 @@
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "Devotion至Throne",
+                "name": "奉獻王座",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -69754,7 +69754,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "Devotion至Throne",
+            "name": "奉獻王座",
             "hidden": false,
             "id": "6c06-a1f1-5009-ea94"
           },
@@ -70061,7 +70061,7 @@
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "Repress和Detain",
+                "name": "鎮壓並拘禁",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -70070,7 +70070,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "Repress和Detain",
+            "name": "鎮壓並拘禁",
             "hidden": false,
             "id": "31bd-c020-13ee-5a97"
           },
@@ -71179,7 +71179,7 @@
             "id": "e1e1-d394-084d-45a5"
           }
         ],
-        "name": "Codex 戰鬥特性s",
+        "name": "法典戰鬥特性",
         "id": "90b6-659b-9dfc-c972",
         "hidden": false,
         "collapsible": true
@@ -71342,7 +71342,7 @@
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
-                    "name": "Tainted 刃",
+                    "name": "污染之刃",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "能力",
                     "hidden": false,
@@ -71491,7 +71491,7 @@
                     "modifiers": [
                       {
                         "type": "append",
-                        "value": "Tainted 刃",
+                        "value": "污染之刃",
                         "field": "annotation",
                         "join": "，",
                         "scope": "model",
@@ -71600,12 +71600,12 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Tainted 刃",
+                "name": "污染之刃",
                 "hidden": false,
                 "id": "cba0-c572-0470-4c3d"
               }
             ],
-            "name": "反制quity Relics",
+            "name": "古物聖物",
             "id": "0430-fa91-9f33-51b1",
             "hidden": false,
             "sortIndex": 2
@@ -71844,7 +71844,7 @@
                             "typeId": "5269-3f5d-d7dd-6e17"
                           }
                         ],
-                        "name": "武器 From A Lost Age",
+                        "name": "失落時代的武器",
                         "typeId": "f439-34bd-8d5f-0f9c",
                         "typeName": "考古科技奇物",
                         "hidden": false,
@@ -71863,7 +71863,7 @@
                 "id": "e223-fd93-39af-f2f1"
               }
             ],
-            "name": "傳奇 Relics",
+            "name": "傳奇聖物",
             "id": "a8b7-ea6f-0d92-68bf",
             "hidden": false,
             "sortIndex": 3
@@ -72240,8 +72240,8 @@
             "sortIndex": 1
           }
         ],
-        "comment": "遠征 content",
-        "name": "Codex 遠征 Relics",
+        "comment": "遠征內容",
+        "name": "法典遠征聖物",
         "id": "79ca-bc79-91d7-f964",
         "hidden": false,
         "collapsible": true
@@ -72296,7 +72296,7 @@
             "field": "hidden"
           }
         ],
-        "comment": "遠征 content",
+        "comment": "遠征內容",
         "selectionEntryGroups": [
           {
             "selectionEntries": [
@@ -72317,7 +72317,7 @@
               {
                 "type": "upgrade",
                 "import": true,
-                "name": "敵方單位 Destroyed",
+                "name": "摧毀的敵方單位",
                 "hidden": false,
                 "id": "a538-a9b1-560f-9eb0"
               }
@@ -72350,7 +72350,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "Codex 戰鬥特性s",
+                    "name": "法典戰鬥特性",
                     "hidden": false,
                     "id": "2008-0656-5ee2-0e31",
                     "type": "selectionEntryGroup",
@@ -72358,7 +72358,7 @@
                   }
                 ],
                 "import": true,
-                "name": "戰鬥特性s",
+                "name": "戰鬥特性",
                 "hidden": false,
                 "id": "c7fd-46ea-71ac-423f",
                 "type": "selectionEntryGroup",
@@ -72368,7 +72368,7 @@
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "Codex 遠征 Relics",
+                    "name": "法典遠征聖物",
                     "hidden": false,
                     "id": "3c52-e0b4-d533-3f2d",
                     "type": "selectionEntryGroup",
@@ -72376,7 +72376,7 @@
                   }
                 ],
                 "import": true,
-                "name": "遠征 Relics",
+                "name": "遠征聖物",
                 "hidden": false,
                 "id": "4045-74ae-8431-261f",
                 "type": "selectionEntryGroup",
@@ -72392,7 +72392,7 @@
               },
               {
                 "import": true,
-                "name": "Tyrannic War 戰鬥榮譽s",
+                "name": "泰倫戰爭戰鬥榮譽",
                 "hidden": false,
                 "id": "203c-d719-1b0e-741c",
                 "type": "selectionEntryGroup",
@@ -72407,7 +72407,7 @@
                 "targetId": "66c2-2a46-e7ed-a935"
               }
             ],
-            "name": "戰鬥榮譽s",
+            "name": "戰鬥榮譽",
             "id": "5fcd-0edb-9654-b7b4",
             "hidden": false,
             "collapsible": true,
@@ -72420,7 +72420,7 @@
         "collapsible": true
       },
       {
-        "comment": "遠征 content",
+        "comment": "遠征內容",
         "selectionEntryGroups": [
           {
             "selectionEntries": [
@@ -72562,7 +72562,7 @@
                 "collapsible": true
               }
             ],
-            "name": "First 威脅",
+            "name": "第一威脅",
             "id": "3ede-a1d8-9aa8-b900",
             "hidden": false,
             "sortIndex": 1,
@@ -72708,7 +72708,7 @@
                 "collapsible": true
               }
             ],
-            "name": "Second 威脅",
+            "name": "第二威脅",
             "id": "d5af-6f4e-3e3a-a917",
             "hidden": false,
             "sortIndex": 2,
@@ -72854,7 +72854,7 @@
                 "collapsible": true
               }
             ],
-            "name": "Third 威脅",
+            "name": "第三威脅",
             "id": "9f02-4440-f2e1-fbea",
             "hidden": false,
             "sortIndex": 3,
@@ -72895,13 +72895,13 @@
             "field": "annotation"
           }
         ],
-        "name": "暗影行動s",
+        "name": "暗影行動",
         "id": "68a2-ada5-3cd4-c5a3",
         "hidden": false,
         "collapsible": true
       },
       {
-        "comment": "遠征 content",
+        "comment": "遠征內容",
         "selectionEntries": [
           {
             "profiles": [
@@ -73004,7 +73004,7 @@
         "hidden": false
       },
       {
-        "comment": "遠征 content",
+        "comment": "遠征內容",
         "selectionEntries": [
           {
             "profiles": [
@@ -73021,7 +73021,7 @@
                     "typeId": "c014-629e-ddcc-34a1"
                   }
                 ],
-                "name": "特務 Provocateur",
+                "name": "煽動特務",
                 "typeId": "2a13-4d84-cf7a-7b63",
                 "typeName": "威脅",
                 "hidden": false,
@@ -73030,7 +73030,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "特務 Provocateur",
+            "name": "煽動特務",
             "hidden": false,
             "id": "ecc5-fc24-6bfc-d851"
           },
@@ -73107,7 +73107,7 @@
         "hidden": false
       },
       {
-        "comment": "遠征 content",
+        "comment": "遠征內容",
         "selectionEntries": [
           {
             "profiles": [
@@ -73152,7 +73152,7 @@
                     "typeId": "c014-629e-ddcc-34a1"
                   }
                 ],
-                "name": "Compromised 特務",
+                "name": "身分暴露的特務",
                 "typeId": "2a13-4d84-cf7a-7b63",
                 "typeName": "威脅",
                 "hidden": false,
@@ -73161,7 +73161,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "Compromised 特務",
+            "name": "身分暴露的特務",
             "hidden": false,
             "id": "b3ce-506c-fa18-c030"
           },
@@ -73180,7 +73180,7 @@
                     "typeId": "c014-629e-ddcc-34a1"
                   }
                 ],
-                "name": "敵方 Sympathiser",
+                "name": "通敵者",
                 "typeId": "2a13-4d84-cf7a-7b63",
                 "typeName": "威脅",
                 "hidden": false,
@@ -73189,7 +73189,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "敵方 Sympathiser",
+            "name": "通敵者",
             "hidden": false,
             "id": "1931-0280-8a27-5bfa"
           }
@@ -73210,7 +73210,7 @@
         "hidden": false
       },
       {
-        "comment": "遠征 content",
+        "comment": "遠征內容",
         "selectionEntries": [
           {
             "constraints": [
@@ -73416,7 +73416,7 @@
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "Secret 對於ces",
+                "name": "秘密部隊",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -73469,7 +73469,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "Secret 對於ces",
+            "name": "秘密部隊",
             "hidden": false,
             "id": "f111-b1b8-a9f2-a5b1"
           },
@@ -74432,7 +74432,7 @@
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
-                "name": "Nowhere至Hide",
+                "name": "無處藏身",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "能力",
                 "hidden": false,
@@ -74451,7 +74451,7 @@
             ],
             "type": "upgrade",
             "import": true,
-            "name": "Nowhere至Hide",
+            "name": "無處藏身",
             "hidden": false,
             "id": "fd3b-1a1b-ffbb-6a58"
           },
@@ -74835,14 +74835,14 @@
                 ],
                 "categoryLinks": [
                   {
-                    "name": "Attacks D 值+0 Modifier",
+                    "name": "攻擊次數 D 值＋0 修正",
                     "hidden": false,
                     "id": "fa34-fe93-484e-954b",
                     "targetId": "6337-b83b-0d1e-5770",
                     "primary": false
                   },
                   {
-                    "name": "Damage D 值+0 Modifier",
+                    "name": "傷害 D 值＋0 修正",
                     "hidden": false,
                     "id": "4995-64bc-9f25-b7e6",
                     "targetId": "982b-de77-dd2d-d9bd",
@@ -75740,7 +75740,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "Master-crafted bolt sniper 步槍",
+                    "name": "大師打造爆彈狙擊步槍",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -75759,7 +75759,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Master-crafted bolt sniper 步槍",
+                "name": "大師打造爆彈狙擊步槍",
                 "hidden": false,
                 "id": "295b-783f-341f-4788"
               },
@@ -78628,7 +78628,7 @@
             "id": "5269-3f5d-d7dd-6e17"
           }
         ],
-        "comment": "遠征 content",
+        "comment": "遠征內容",
         "name": "考古科技奇物",
         "id": "f439-34bd-8d5f-0f9c",
         "hidden": false,
@@ -78645,7 +78645,7 @@
             "id": "c014-629e-ddcc-34a1"
           }
         ],
-        "comment": "遠征 content",
+        "comment": "遠征內容",
         "name": "威脅",
         "id": "2a13-4d84-cf7a-7b63",
         "hidden": false,
