@@ -5817,7 +5817,7 @@
                     "targetId": "8a6e-a41f-3712-fc55",
                     "id": "daee-9c70-8225-c9f8",
                     "type": "profile",
-                    "name": "牛頭人",
+                    "name": "牛格林",
                     "hidden": false
                   }
                 ],
@@ -5896,7 +5896,7 @@
                     "entryLinks": [
                       {
                         "import": true,
-                        "name": "牛頭人重鎚",
+                        "name": "牛格林重鎚",
                         "hidden": false,
                         "id": "d0a5-273b-9702-f15e",
                         "type": "selectionEntry",
@@ -5937,7 +5937,7 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "牛頭人",
+                "name": "牛格林",
                 "hidden": false,
                 "id": "14ad-5a42-3eac-8d10"
               }
@@ -5977,7 +5977,7 @@
                       }
                     ],
                     "type": "set",
-                    "value": "2 牛頭人",
+                    "value": "2 牛格林",
                     "field": "name"
                   },
                   {
@@ -6000,7 +6000,7 @@
                 "type": "and"
               }
             ],
-            "name": "2-5 牛頭人",
+            "name": "2-5 牛格林",
             "hidden": false,
             "id": "b124-92e5-384a-9ae5",
             "defaultSelectionEntryId": "14ad-5a42-3eac-8d10",
@@ -6029,7 +6029,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "牛頭人",
+                    "name": "牛格林",
                     "id": "8202-6447-8eeb-cd63",
                     "hidden": false,
                     "targetId": "8a6e-a41f-3712-fc55",
@@ -6089,7 +6089,7 @@
                           }
                         ],
                         "import": true,
-                        "name": "牛頭人重鎚",
+                        "name": "牛格林重鎚",
                         "hidden": false,
                         "id": "c5d8-dfde-ef04-ef25",
                         "type": "selectionEntry",
@@ -6182,12 +6182,12 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "牛頭人骨頭老大",
+                "name": "牛格林骨頭老大",
                 "hidden": false,
                 "id": "a2cd-292-ccd6-3944"
               }
             ],
-            "name": "牛頭人骨頭老大",
+            "name": "牛格林骨頭老大",
             "id": "483c-0d47-0040-e64f",
             "hidden": false,
             "sortIndex": 3
@@ -35261,7 +35261,7 @@
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ],
-                        "name": "牛頭人重鎚",
+                        "name": "牛格林重鎚",
                         "typeId": "8a40-4aaa-c780-9046",
                         "typeName": "近戰武器",
                         "hidden": false,
@@ -35289,7 +35289,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "牛頭人重鎚",
+                    "name": "牛格林重鎚",
                     "hidden": false,
                     "id": "03e6-eb5c-2a4c-f5cb"
                   }
@@ -56515,7 +56515,7 @@
                 "typeId": "893f-9000-ccf7-648e"
               }
             ],
-            "name": "牛頭人重鎚",
+            "name": "牛格林重鎚",
             "typeId": "8a40-4aaa-c780-9046",
             "typeName": "近戰武器",
             "hidden": false,
@@ -56524,7 +56524,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "牛頭人重鎚",
+        "name": "牛格林重鎚",
         "hidden": false,
         "id": "5bf-ab9e-390c-cc84"
       },
@@ -103183,7 +103183,7 @@
         "id": "8c06-495-6e38-891f"
       },
       {
-        "comment": "Bullgryn",
+        "comment": "牛格林",
         "profiles": [
           {
             "characteristics": [
@@ -130843,7 +130843,7 @@
             "$text": ""
           }
         ],
-        "name": "牛頭人",
+        "name": "牛格林",
         "typeId": "c547-1836-d8a-ff4f",
         "typeName": "單位",
         "hidden": false,
@@ -148737,7 +148737,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "牛頭人重鎚",
+                    "name": "牛格林重鎚",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -148794,7 +148794,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "牛頭人重鎚",
+                "name": "牛格林重鎚",
                 "hidden": false,
                 "id": "3d0a-f783-d2ac-1829"
               },
