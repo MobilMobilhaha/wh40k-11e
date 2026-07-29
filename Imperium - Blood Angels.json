@@ -3289,39 +3289,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "4",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
               },
               {
-                "$text": "2+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "但丁指揮官",
@@ -3394,13 +3394,6 @@
             "type": "rule",
             "id": "9b64-f32e-a05d-fa35",
             "targetId": "3b76-4053-ece9-6e7d"
-          },
-          {
-            "name": "特殊保護",
-            "hidden": false,
-            "type": "profile",
-            "id": "36e7-4ae0-3619-8e6",
-            "targetId": "db19-dee7-9530-ef0e"
           }
         ],
         "selectionEntries": [
@@ -12706,10 +12699,10 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "（每場戰鬥每支軍隊一次）在對手的衝鋒階段結束時（第一戰鬥輪除外），你可以選擇一個本階段進行過衝鋒移動的敵方單位。此單位可以進行一次進場移動，且必須被設置為與該敵方單位交戰。"
+                "$text": "（每支軍隊，每場戰鬥限一次）在對手衝鋒階段結束時（第一個戰鬥輪次除外），你可以選擇一個在該階段中進行過衝鋒移動的敵方單位。此單位可以進行一次入場移動，且設置後必須與該敵方單位處於交戰狀態。該次移動不會使此單位失去進行移動的資格。"
               }
             ],
-            "name": "奇蹟救主",
+            "name": "奇蹟拯救者",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
