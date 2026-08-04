@@ -842,7 +842,7 @@
           {
             "characteristics": [
               {
-                "$text": "在你的指揮階段，你可以選擇此模型 6\" 內一個己方槍蟲單位，將最多 D3+3 個已被摧毀的槍蟲模型放回該單位。同一槍蟲單位每個階段只能被此技能選擇一次。",
+                "$text": "在你的指揮階段，你可以選擇此模型 6\" 內一個己方槍蟲單位，將最多 D3+3 個已被摧毀的槍蟲模型放回該單位。每個階段，同一個槍蟲單位只能被此技能選擇一次。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -1115,7 +1115,7 @@
                             "join": ""
                           }
                         ],
-                        "name": "➤ 巨型鐮刀爪－重擊",
+                        "name": "➤ 大型鐮刀爪－重擊",
                         "typeId": "8a40-4aaa-c780-9046",
                         "typeName": "近戰武器",
                         "hidden": false,
@@ -1159,7 +1159,7 @@
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ],
-                        "name": "➤ 巨型鐮刀爪－橫掃",
+                        "name": "➤ 大型鐮刀爪－橫掃",
                         "typeId": "8a40-4aaa-c780-9046",
                         "typeName": "近戰武器",
                         "hidden": false,
@@ -1194,7 +1194,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "巨型鐮刀爪",
+                    "name": "大型鐮刀爪",
                     "hidden": false,
                     "id": "4f0d-da49-a7d-5e4b",
                     "collective": false
@@ -1293,7 +1293,7 @@
                     "collective": false
                   }
                 ],
-                "name": "巨型鐮刀爪",
+                "name": "大型鐮刀爪",
                 "id": "80c2-fb4d-2e3b-8ee2",
                 "hidden": false,
                 "collective": false,
@@ -1549,7 +1549,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -2096,7 +2096,7 @@
         ],
         "modifierGroups": [
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -2568,7 +2568,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditionGroups": [
@@ -3177,7 +3177,7 @@
         ],
         "modifierGroups": [
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -3796,7 +3796,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditionGroups": [
@@ -5178,7 +5178,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditionGroups": [
@@ -6889,7 +6889,7 @@
             ],
             "modifierGroups": [
               {
-                "comment": "跳幫行動修正",
+                "comment": "登艦行動修正",
                 "modifiers": [
                   {
                     "conditions": [
@@ -7129,7 +7129,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditionGroups": [
@@ -7676,7 +7676,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditionGroups": [
@@ -8552,7 +8552,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -9132,7 +9132,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -9964,7 +9964,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -10581,7 +10581,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -10664,7 +10664,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "➤ 巨型鐮刀爪－重擊",
+                    "name": "➤ 大型鐮刀爪－重擊",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -10708,7 +10708,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "➤ 巨型鐮刀爪－橫掃",
+                    "name": "➤ 大型鐮刀爪－橫掃",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -10727,7 +10727,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "巨型鐮刀爪",
+                "name": "大型鐮刀爪",
                 "hidden": false,
                 "id": "4b96-d104-c37f-f697"
               }
@@ -11289,7 +11289,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -11945,7 +11945,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -12649,7 +12649,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -13199,7 +13199,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditionGroups": [
@@ -13627,7 +13627,7 @@
                 ],
                 "modifierGroups": [
                   {
-                    "comment": "跳幫行動修正",
+                    "comment": "登艦行動修正",
                     "modifiers": [
                       {
                         "conditions": [
@@ -14104,7 +14104,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -14494,7 +14494,7 @@
         ],
         "modifierGroups": [
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -14678,7 +14678,7 @@
         ],
         "modifierGroups": [
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -15094,7 +15094,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -15966,7 +15966,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -17272,7 +17272,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -17864,7 +17864,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -18985,7 +18985,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -19748,7 +19748,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -20256,7 +20256,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -21418,7 +21418,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -21893,7 +21893,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -22538,7 +22538,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -23346,7 +23346,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -23474,7 +23474,7 @@
             "name": "利刺聖役獸"
           },
           {
-            "name": "骨架",
+            "name": "外殼",
             "hidden": false,
             "id": "af9d-bd3b-4786-36a8",
             "targetId": "b927-8eeb-7cc3-8dec",
@@ -23845,7 +23845,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -24088,7 +24088,7 @@
             "name": "鐮爪聖役獸"
           },
           {
-            "name": "骨架",
+            "name": "外殼",
             "hidden": false,
             "id": "4ce3-56bf-a466-e585",
             "targetId": "b927-8eeb-7cc3-8dec",
@@ -24459,7 +24459,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -24729,7 +24729,7 @@
             "name": "悍嫗獸"
           },
           {
-            "name": "骨架",
+            "name": "外殼",
             "hidden": false,
             "id": "574b-e940-fedd-20be",
             "targetId": "b927-8eeb-7cc3-8dec",
@@ -24842,8 +24842,8 @@
           {
             "characteristics": [
               {
-                "$text": "此模型具有 20 個石像鬼模型與 1 個有翼泰倫王蟲模型的運輸容量。",
-                "name": "容量",
+                "$text": "此模型具有 20 個石像鬼模型與 1 個有翼泰倫王蟲模型的搭載容量。",
+                "name": "搭載容量",
                 "typeId": "30f2-be70-861d-1b84"
               }
             ],
@@ -25098,7 +25098,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -25427,7 +25427,7 @@
             "name": "聖師獸"
           },
           {
-            "name": "骨架",
+            "name": "外殼",
             "hidden": false,
             "id": "d054-1eb7-4a3e-ee71",
             "targetId": "b927-8eeb-7cc3-8dec",
@@ -25547,8 +25547,8 @@
           {
             "characteristics": [
               {
-                "$text": "此模型具有 20 個泰倫蟲族步兵模型的運輸容量。每個耐傷屬性大於 1 的模型佔用 3 個模型空間。此模型不能運輸具有飛行關鍵詞的模型。",
-                "name": "容量",
+                "$text": "此模型具有 20 個泰倫蟲族步兵模型的搭載容量。每個耐傷屬性大於 1 的模型佔用 3 個模型空間。此模型不能運輸具有飛行關鍵詞的模型。",
+                "name": "搭載容量",
                 "typeId": "30f2-be70-861d-1b84"
               }
             ],
@@ -25803,7 +25803,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -26836,7 +26836,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditionGroups": [
@@ -27104,7 +27104,7 @@
             "name": "雙刃巨獸"
           },
           {
-            "name": "骨架",
+            "name": "外殼",
             "hidden": false,
             "id": "c764-ff7e-6847-e428",
             "targetId": "b927-8eeb-7cc3-8dec",
@@ -27419,7 +27419,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -27502,7 +27502,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "巨型鐮刀爪",
+                    "name": "大型鐮刀爪",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -27530,7 +27530,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "巨型鐮刀爪",
+                "name": "大型鐮刀爪",
                 "hidden": false,
                 "id": "53c7-e0f7-810f-91fd"
               }
@@ -28015,7 +28015,7 @@
         ],
         "modifierGroups": [
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -28504,7 +28504,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -29088,7 +29088,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -29291,7 +29291,7 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "被魚叉刺中",
+                        "$text": "魚叉命中",
                         "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -29305,8 +29305,8 @@
                 ],
                 "rules": [
                   {
-                    "description": "持有者以此武器射擊後，選擇一個遭該武器至少一次攻擊命中的敵方凶獸或載具單位。直到該回合結束，每當持有者將該單位選為衝鋒目標時，該次衝鋒擲骰加 2。",
-                    "name": "被魚叉刺中",
+                    "description": "持有者以此武器射擊後，選擇一個被上述攻擊命中的敵方凶獸或載具單位。直到該回合結束，每當持有者將該單位選為衝鋒目標時，該次衝鋒擲骰加 2。",
+                    "name": "魚叉命中",
                     "id": "62c7-3cb5-45c-cc3b",
                     "hidden": false
                   }
@@ -29899,7 +29899,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -32099,7 +32099,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
@@ -32605,7 +32605,7 @@
             "type": "and"
           },
           {
-            "comment": "跳幫行動修正",
+            "comment": "登艦行動修正",
             "modifiers": [
               {
                 "conditions": [
