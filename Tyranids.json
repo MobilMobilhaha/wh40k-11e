@@ -102,7 +102,7 @@
         "id": "cf46-6271-340e-cf05"
       },
       {
-        "name": "劍子手",
+        "name": "劊子手",
         "hidden": false,
         "id": "2070-d263-505a-48cc"
       },
@@ -187,7 +187,7 @@
         "hidden": false
       },
       {
-        "name": "掘地者",
+        "name": "掘進者",
         "id": "7dcd-38cd-5892-32b5",
         "hidden": false
       }
@@ -464,7 +464,7 @@
       },
       {
         "import": true,
-        "name": "劍子手",
+        "name": "劊子手",
         "hidden": false,
         "type": "selectionEntry",
         "id": "f925-323-cb9f-9de6",
@@ -616,7 +616,7 @@
       },
       {
         "import": true,
-        "name": "瑪蘭索普［傳奇］",
+        "name": "殮屍蟲［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "1913-3800-bc84-cbff",
@@ -994,7 +994,7 @@
                   }
                 ],
                 "import": true,
-                "name": "毒刺齊射",
+                "name": "毒針彈幕",
                 "hidden": false,
                 "id": "3ca7-ce2a-18b6-82d3",
                 "targetId": "5e02-c4ce-b7e6-d59",
@@ -2858,7 +2858,7 @@
               }
             ],
             "id": "3125-a7a9-2716-8a9f",
-            "name": "阿爾法領袖",
+            "name": "頭領生物",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力"
@@ -2880,7 +2880,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可以附屬於下列單位：\n▪ 劍子手獸群",
+                "$text": "此模型可以附屬於下列單位：\n▪ 劊子手獸群",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -3653,7 +3653,7 @@
             "type": "and"
           },
           {
-            "comment": "武士生體形態猛攻修正",
+            "comment": "戰鬥生物總攻修正",
             "modifiers": [
               {
                 "type": "set-primary",
@@ -3723,7 +3723,7 @@
               },
               {
                 "type": "append",
-                "value": "武士生體形態猛攻",
+                "value": "戰鬥生物總攻",
                 "field": "annotation",
                 "scope": "root-entry",
                 "affects": "self.entries.recursive.profiles.Unit",
@@ -4070,7 +4070,7 @@
                           }
                         ],
                         "import": true,
-                        "name": "棘拳",
+                        "name": "刺拳槍",
                         "hidden": false,
                         "id": "10f0-acb5-9e50-73b3",
                         "type": "selectionEntry",
@@ -4370,7 +4370,7 @@
                           }
                         ],
                         "import": true,
-                        "name": "棘拳",
+                        "name": "刺拳槍",
                         "hidden": false,
                         "id": "5e4a-ca3c-36f1-1fa7",
                         "type": "selectionEntry",
@@ -5035,7 +5035,7 @@
             "type": "and"
           },
           {
-            "comment": "武士生體形態猛攻修正",
+            "comment": "戰鬥生物總攻修正",
             "modifiers": [
               {
                 "type": "set-primary",
@@ -5105,7 +5105,7 @@
               },
               {
                 "type": "append",
-                "value": "武士生體形態猛攻",
+                "value": "戰鬥生物總攻",
                 "field": "annotation",
                 "scope": "root-entry",
                 "affects": "self.entries.recursive.profiles.Unit",
@@ -5950,7 +5950,7 @@
                               }
                             ],
                             "id": "5706-4241-5044-27d",
-                            "name": "槍蟲棘拳",
+                            "name": "槍蟲刺拳槍",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
                             "typeName": "遠程武器"
@@ -6003,7 +6003,7 @@
                           }
                         ],
                         "id": "9c0-e0b9-9c51-3734",
-                        "name": "槍蟲棘拳",
+                        "name": "槍蟲刺拳槍",
                         "hidden": false,
                         "collective": true,
                         "import": true,
@@ -8224,7 +8224,7 @@
               }
             ],
             "id": "097a-e5ac-6ab9-4d1d",
-            "name": "攫握卷鬚",
+            "name": "抓握觸須",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力"
@@ -9601,7 +9601,7 @@
           {
             "characteristics": [
               {
-                "$text": "在你的指揮階段，你可以選擇最多兩個位於此模型所屬單位 18\" 內的己方泰倫蟲族單位。直到你下一個指揮階段開始前，被選擇的單位一律視為位於你軍隊的突觸範圍內。",
+                "$text": "在你的指揮階段，你可以選擇最多兩個與此模型所屬單位相距不超過 18\" 的己方泰倫蟲族單位。直到你下一個指揮階段開始前，被選擇的單位一律視為位於你軍隊的突觸範圍內。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -12447,7 +12447,7 @@
                 "$text": "此單位 6\" 內的己方泰倫蟲族單位擁有隱匿技能。"
               }
             ],
-            "name": "航胞孢子（靈氣）",
+            "name": "骯髒孢子（靈氣）",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -13872,7 +13872,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "精神汲取（靈氣，靈能）",
+            "name": "靈魂吸取（靈氣，靈能）",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -14423,7 +14423,7 @@
             "targetId": "374e-ed33-a96f-a014",
             "id": "b547-e6f2-fe1e-cca",
             "type": "profile",
-            "name": "生體雷場",
+            "name": "生物雷",
             "hidden": false
           },
           {
@@ -14528,7 +14528,7 @@
             "targetId": "374e-ed33-a96f-a014",
             "id": "e2de-7919-8b6a-a26",
             "type": "profile",
-            "name": "生體雷場",
+            "name": "生物雷",
             "hidden": false
           },
           {
@@ -14716,7 +14716,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "共生瞄準",
+            "name": "共生體鎖定",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -16189,7 +16189,7 @@
                     "$text": ""
                   }
                 ],
-                "name": "劍子手",
+                "name": "劊子手",
                 "typeId": "c547-1836-d8a-ff4f",
                 "typeName": "單位",
                 "hidden": false,
@@ -16386,7 +16386,7 @@
                               }
                             ],
                             "import": true,
-                            "name": "劍子手粉碎爪",
+                            "name": "劊子手粉碎爪",
                             "hidden": false,
                             "id": "abb5-fd10-dab8-81bb",
                             "type": "selectionEntry",
@@ -16434,7 +16434,7 @@
                                     "typeId": "893f-9000-ccf7-648e"
                                   }
                                 ],
-                                "name": "劍子手鐮刀爪",
+                                "name": "劊子手鐮刀爪",
                                 "typeId": "8a40-4aaa-c780-9046",
                                 "typeName": "近戰武器",
                                 "hidden": false,
@@ -16453,12 +16453,12 @@
                             ],
                             "type": "upgrade",
                             "import": true,
-                            "name": "劍子手鐮刀爪",
+                            "name": "劊子手鐮刀爪",
                             "hidden": false,
                             "id": "a651-932c-cad2-cfc"
                           }
                         ],
-                        "name": "劍子手鐮刀爪",
+                        "name": "劊子手鐮刀爪",
                         "id": "7a95-2f54-7352-bd0d",
                         "hidden": false,
                         "defaultSelectionEntryId": "a651-932c-cad2-cfc",
@@ -16535,7 +16535,7 @@
                               }
                             ],
                             "import": true,
-                            "name": "劍子手粉碎爪",
+                            "name": "劊子手粉碎爪",
                             "hidden": false,
                             "id": "88b8-21cc-861b-625d",
                             "type": "selectionEntry",
@@ -16664,7 +16664,7 @@
                                     "typeId": "7f1b-8591-2fcf-d01c"
                                   }
                                 ],
-                                "name": "絞棘炮",
+                                "name": "刺棘絞藤炮",
                                 "typeId": "f77d-b953-8fa4-b762",
                                 "typeName": "遠程武器",
                                 "hidden": false,
@@ -16692,7 +16692,7 @@
                             ],
                             "type": "upgrade",
                             "import": true,
-                            "name": "絞棘炮",
+                            "name": "刺棘絞藤炮",
                             "hidden": false,
                             "id": "db68-3a0d-122e-9337"
                           },
@@ -16736,7 +16736,7 @@
                                     "typeId": "893f-9000-ccf7-648e"
                                   }
                                 ],
-                                "name": "劍子手額外鐮刀爪",
+                                "name": "劊子手額外鐮刀爪",
                                 "typeId": "8a40-4aaa-c780-9046",
                                 "typeName": "近戰武器",
                                 "hidden": false,
@@ -16773,12 +16773,12 @@
                             ],
                             "type": "upgrade",
                             "import": true,
-                            "name": "劍子手額外鐮刀爪",
+                            "name": "劊子手額外鐮刀爪",
                             "hidden": false,
                             "id": "8d02-ef7c-e2b-1f12"
                           }
                         ],
-                        "name": "劍子手額外鐮刀爪",
+                        "name": "劊子手額外鐮刀爪",
                         "id": "5f3d-a52c-cd27-c5fd",
                         "hidden": false,
                         "defaultSelectionEntryId": "8d02-ef7c-e2b-1f12",
@@ -16995,7 +16995,7 @@
             ],
             "type": "model",
             "import": true,
-            "name": "劍子手",
+            "name": "劊子手",
             "hidden": false,
             "id": "92a2-7511-1173-a696",
             "sortIndex": 2
@@ -17057,7 +17057,7 @@
             "targetId": "2070-d263-505a-48cc",
             "id": "8395-2660-93a6-17dd",
             "primary": false,
-            "name": "劍子手"
+            "name": "劊子手"
           },
           {
             "targetId": "d1d8-6ae0-1be7-e9e",
@@ -17296,7 +17296,7 @@
         ],
         "type": "unit",
         "import": true,
-        "name": "劍子手",
+        "name": "劊子手",
         "hidden": false,
         "id": "9efd-5564-f0f5-21ea",
         "modifiers": [
@@ -17465,7 +17465,7 @@
                 "typeId": "893f-9000-ccf7-648e"
               }
             ],
-            "name": "劍子手粉碎爪",
+            "name": "劊子手粉碎爪",
             "typeId": "8a40-4aaa-c780-9046",
             "typeName": "近戰武器",
             "hidden": false,
@@ -17474,7 +17474,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "劍子手粉碎爪",
+        "name": "劊子手粉碎爪",
         "hidden": false,
         "id": "9f9-fe82-ea19-7304"
       },
@@ -19290,7 +19290,7 @@
                   }
                 ],
                 "import": true,
-                "name": "毒刺齊射",
+                "name": "毒針彈幕",
                 "hidden": false,
                 "id": "cf6e-fa82-c365-e9b8",
                 "targetId": "5e02-c4ce-b7e6-d59",
@@ -19980,7 +19980,7 @@
         ],
         "infoLinks": [
           {
-            "name": "受損：剩餘 1-4 點生命",
+            "name": "受損：剩餘 1-4 點耐傷",
             "hidden": false,
             "type": "profile",
             "id": "4093-f5a6-a5ff-1245",
@@ -20458,7 +20458,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "觸手飛彈",
+                    "name": "觸須電蟲",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -20477,7 +20477,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "觸手飛彈",
+                "name": "觸須電蟲",
                 "hidden": false,
                 "id": "aec6-60b3-14e1-f778"
               },
@@ -20670,7 +20670,7 @@
                   }
                 ],
                 "import": true,
-                "name": "毒刺齊射",
+                "name": "毒針彈幕",
                 "hidden": false,
                 "id": "2919-620c-2f30-6719",
                 "targetId": "5e02-c4ce-b7e6-d59",
@@ -20928,7 +20928,7 @@
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "雙聯裝絞棘炮",
+                        "name": "雙聯刺棘絞藤炮",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "遠程武器",
                         "hidden": false,
@@ -20963,7 +20963,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "雙聯裝絞棘炮",
+                    "name": "雙聯刺棘絞藤炮",
                     "hidden": false,
                     "id": "109b-84f8-daf5-a67f"
                   },
@@ -21056,7 +21056,7 @@
                     "id": "1b79-a02e-5101-25f9"
                   }
                 ],
-                "name": "絞棘炮",
+                "name": "刺棘絞藤炮",
                 "id": "54ce-bcd7-5b5b-7a78",
                 "hidden": false,
                 "defaultSelectionEntryId": "109b-84f8-daf5-a67f"
@@ -21099,7 +21099,7 @@
                   }
                 ],
                 "import": true,
-                "name": "毒刺齊射",
+                "name": "毒針彈幕",
                 "hidden": false,
                 "id": "ec77-632-6fab-ec9d",
                 "targetId": "5e02-c4ce-b7e6-d59",
@@ -21167,7 +21167,7 @@
             "type": "rule"
           },
           {
-            "name": "受損：剩餘 1-4 點生命",
+            "name": "受損：剩餘 1-4 點耐傷",
             "hidden": false,
             "type": "profile",
             "id": "6781-1b79-2b2e-b406",
@@ -22698,7 +22698,7 @@
                 "targetId": "56f9-bb79-7be0-dbf2",
                 "id": "989f-3baf-5944-8750",
                 "type": "selectionEntry",
-                "name": "靈能碎裂洪流",
+                "name": "噬靈洪流",
                 "hidden": false
               }
             ],
@@ -28099,7 +28099,7 @@
           {
             "characteristics": [
               {
-                "$text": "當此模型正在領導一個單位時，該單位的航胞孢子靈氣技能範圍增加至 9\"。",
+                "$text": "當此模型正在領導一個單位時，該單位的骯髒孢子靈氣技能範圍增加至 9\"。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -28619,7 +28619,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "瑪蘭索普［傳奇］",
+        "name": "殮屍蟲［傳奇］",
         "hidden": false,
         "id": "c17f-f55f-a3cb-530b"
       },
@@ -28748,7 +28748,7 @@
             "type": "profile"
           },
           {
-            "name": "變形使命",
+            "name": "多變的目的",
             "id": "89e0-62a6-ab3c-ebc6",
             "hidden": false,
             "targetId": "8632-ccbf-8430-3428",
@@ -29550,7 +29550,7 @@
             "targetId": "86aa-437f-260b-5cad"
           },
           {
-            "name": "變形使命",
+            "name": "多變的目的",
             "id": "495e-d8a2-095b-b857",
             "hidden": false,
             "targetId": "8632-ccbf-8430-3428",
@@ -29982,7 +29982,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "巨獸撕裂爪",
+                    "name": "凶獸撕裂爪",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -30019,7 +30019,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "巨獸撕裂爪",
+                "name": "凶獸撕裂爪",
                 "hidden": false,
                 "id": "d7b3-df20-933-63b7"
               },
@@ -30685,7 +30685,7 @@
               }
             ],
             "id": "62fa-923a-2569-ee13",
-            "name": "棘拳",
+            "name": "刺拳槍",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "遠程武器"
@@ -30722,7 +30722,7 @@
           }
         ],
         "id": "a0cf-e5fd-7773-8242",
-        "name": "棘拳",
+        "name": "刺拳槍",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -31552,7 +31552,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "絞棘炮",
+                    "name": "刺棘絞藤炮",
                     "hidden": false,
                     "id": "ebc6-5d4f-5ec5-b222",
                     "collective": false,
@@ -31707,7 +31707,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "絞棘炮",
+                    "name": "刺棘絞藤炮",
                     "hidden": false,
                     "id": "bb4e-c104-1a32-ad5d",
                     "collective": false,
@@ -31772,7 +31772,7 @@
                     "type": "selectionEntry"
                   }
                 ],
-                "name": "巨獸鐮刀爪",
+                "name": "凶獸鐮刀爪",
                 "id": "6f57-d5fd-f3ed-ae3",
                 "hidden": false,
                 "collective": false,
@@ -32628,11 +32628,11 @@
           },
           {
             "type": "and",
-            "comment": "武士生體形態猛攻修正",
+            "comment": "戰鬥生物總攻修正",
             "modifiers": [
               {
                 "type": "append",
-                "value": "武士生體形態猛攻",
+                "value": "戰鬥生物總攻",
                 "field": "annotation",
                 "scope": "root-entry",
                 "affects": "self.entries.recursive.profiles.Unit",
@@ -33037,7 +33037,7 @@
             "targetId": "374e-ed33-a96f-a014",
             "id": "2bc1-09a8-ead8-f6b4",
             "type": "profile",
-            "name": "生體雷場",
+            "name": "生物雷",
             "hidden": false
           },
           {
@@ -33268,7 +33268,7 @@
             "targetId": "374e-ed33-a96f-a014",
             "id": "ee85-ffe6-94ed-aebc",
             "type": "profile",
-            "name": "生體雷場",
+            "name": "生物雷",
             "hidden": false
           },
           {
@@ -33393,7 +33393,7 @@
             "typeId": "9b8f-694b-e5e-b573"
           }
         ],
-        "name": "生體雷場",
+        "name": "生物雷",
         "typeId": "9cc3-6d83-4dd3-9b64",
         "typeName": "能力",
         "hidden": false,
