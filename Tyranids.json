@@ -851,7 +851,7 @@
             "name": "生成槍蟲",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力"
+            "typeName": "技能"
           },
           {
             "characteristics": [
@@ -865,7 +865,7 @@
             "name": "始祖母蟲（靈氣，靈能）",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力"
+            "typeName": "技能"
           }
         ],
         "infoLinks": [
@@ -1668,7 +1668,7 @@
             "name": "蟲巢指揮官",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力"
+            "typeName": "技能"
           },
           {
             "characteristics": [
@@ -1682,7 +1682,7 @@
             "name": "險惡身形（靈氣）",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力"
+            "typeName": "技能"
           },
           {
             "characteristics": [
@@ -1696,7 +1696,7 @@
             "name": "蟲巢意志支配（靈氣）",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力"
+            "typeName": "技能"
           },
           {
             "characteristics": [
@@ -1708,7 +1708,7 @@
             ],
             "name": "領袖",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "99ef-a339-35c2-ec3"
           }
@@ -2221,7 +2221,7 @@
             "name": "陰險洞察",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力"
+            "typeName": "技能"
           },
           {
             "characteristics": [
@@ -2233,7 +2233,7 @@
             ],
             "name": "催眠凝視（靈能）",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "75d5-d9e0-5f01-60bf"
           },
@@ -2247,7 +2247,7 @@
             ],
             "name": "領袖",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "78d5-4fce-3f26-7817"
           }
@@ -2861,7 +2861,7 @@
             "name": "頭領生物",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力"
+            "typeName": "技能"
           },
           {
             "characteristics": [
@@ -2875,19 +2875,19 @@
             "name": "不可阻擋的凶獸",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力"
+            "typeName": "技能"
           },
           {
             "characteristics": [
               {
-                "$text": "此模型可以附屬於下列單位：\n▪ 劊子手獸群",
+                "$text": "此模型可以附屬於下列單位：\n▪ 劊子手",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
             "name": "領袖",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "e546-54e1-550a-a1d9"
           }
@@ -3220,7 +3220,7 @@
             "name": "適應性掠食者",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力"
+            "typeName": "技能"
           }
         ],
         "categoryLinks": [
@@ -4623,14 +4623,14 @@
               {
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "在近戰階段，當此單位被選擇進行近戰，或成為一個敵方單位的攻擊目標時，你可以選擇以下一項：\n▪ 此單位近戰攻擊的力量屬性加 1。\n▪ 此單位的韌性屬性加 1。"
+                "$text": "在近戰階段，當此單位被選擇進行近戰，或成為敵方單位的目標時，你可以選擇以下一項：\n▪ 此單位近戰攻擊的力量屬性加 1。\n▪ 此單位的韌性屬性加 1。"
               }
             ],
             "id": "1be5-8ccf-3d43-2b32",
             "name": "適應性本能（每個回合，每個單位限一次）",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力"
+            "typeName": "技能"
           }
         ],
         "categoryLinks": [
@@ -5687,7 +5687,7 @@
             "name": "鬼祟恐怖",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力"
+            "typeName": "技能"
           }
         ],
         "categoryLinks": [
@@ -7347,7 +7347,7 @@
             "name": "跳躍突進",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力"
+            "typeName": "技能"
           }
         ],
         "categoryLinks": [
@@ -8227,7 +8227,7 @@
             "name": "抓握觸須",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力"
+            "typeName": "技能"
           },
           {
             "characteristics": [
@@ -8241,7 +8241,7 @@
             "name": "劇毒瘴氣（靈氣）",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力"
+            "typeName": "技能"
           }
         ],
         "infoLinks": [
@@ -8822,7 +8822,7 @@
             "name": "守護生物",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力"
+            "typeName": "技能"
           }
         ],
         "categoryLinks": [
@@ -9582,7 +9582,7 @@
             "name": "節點鞭笞（靈能）",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力"
+            "typeName": "技能"
           },
           {
             "characteristics": [
@@ -9596,7 +9596,7 @@
             "name": "靈能恐懼（靈能）",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力"
+            "typeName": "技能"
           },
           {
             "characteristics": [
@@ -9610,7 +9610,7 @@
             "name": "突觸中繼",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力"
+            "typeName": "技能"
           },
           {
             "characteristics": [
@@ -9622,7 +9622,7 @@
             ],
             "name": "領袖",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "f6b2-d409-9b06-a66b"
           }
@@ -10257,7 +10257,7 @@
             ],
             "name": "腦質擴散（靈氣，靈能）",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "a372-8f4-cc33-ec1c"
           }
@@ -10915,14 +10915,14 @@
           {
             "characteristics": [
               {
-                "$text": "在你的射擊階段，此單位射擊後，選擇一個遭該次射擊至少一次攻擊命中的敵方單位。直到該階段結束，該敵方單位不能獲得掩護增益。",
+                "$text": "在你的射擊階段，此單位射擊後，選擇一個被上述攻擊命中的敵方單位。直到該階段結束，該敵方單位不能獲得掩護增益。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
             "name": "灼熱噴灑",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "f6a1-151a-9d0d-37d2"
           }
@@ -11727,7 +11727,7 @@
             ],
             "name": "駭人景象",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "bad8-3f0b-a255-140"
           }
@@ -12449,7 +12449,7 @@
             ],
             "name": "骯髒孢子（靈氣）",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "a29d-56f5-8a83-57d0"
           }
@@ -12952,7 +12952,7 @@
             ],
             "name": "神經細胞",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "3a53-28b0-3c8e-6108"
           }
@@ -13874,7 +13874,7 @@
             ],
             "name": "靈魂吸取（靈氣，靈能）",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "36f5-a5b7-9e6-9f40"
           },
@@ -13888,7 +13888,7 @@
             ],
             "name": "亞空間力場（靈氣，靈能）",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "6356-2345-a0cf-9555"
           }
@@ -14711,14 +14711,14 @@
           {
             "characteristics": [
               {
-                "$text": "在你的射擊階段，此模型射擊後，選擇一個遭該次射擊至少一次攻擊命中的敵方單位。直到該階段結束，每當一個己方泰倫蟲族模型以該單位為目標進行攻擊時，重擲結果為 1 的命中擲骰。",
+                "$text": "在你的射擊階段，此模型射擊後，選擇一個被上述攻擊命中的敵方單位。直到該階段結束，每當一個己方泰倫蟲族模型以該單位為目標進行攻擊時，重擲結果為 1 的命中擲骰。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
             "name": "共生體鎖定",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "e00d-271e-a667-e79f"
           },
@@ -15755,7 +15755,7 @@
             ],
             "name": "散布孢子雷",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "487e-7acf-a416-11a0"
           }
@@ -17035,7 +17035,7 @@
             ],
             "name": "猛烈突襲",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "c938-60e9-2b21-17fb"
           }
@@ -17565,14 +17565,14 @@
           {
             "characteristics": [
               {
-                "$text": "在你的射擊階段，此模型射擊後，選擇一個遭該次射擊至少一次攻擊命中的單位。該單位必須進行戰鬥震懾擲骰，且該次擲骰結果減 1。",
+                "$text": "在你的射擊階段，此模型射擊後，選擇一個被上述攻擊命中的單位。該單位必須進行戰鬥震懾擲骰，且該次擲骰結果減 1。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
             "name": "死亡尖嘯",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "9989-4ee6-2244-2805"
           }
@@ -18309,7 +18309,7 @@
             ],
             "name": "防禦姿態",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "a0c-34d4-cdc0-6e62"
           }
@@ -19133,7 +19133,7 @@
             ],
             "name": "韌性生物",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "9a87-bb69-19da-2528"
           }
@@ -19973,7 +19973,7 @@
             ],
             "name": "空中掠食者",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "aaf-ca1a-79f3-94c3"
           }
@@ -20814,7 +20814,7 @@
             ],
             "name": "孢子雷囊",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "ad40-62a4-c6ff-6036"
           },
@@ -21612,7 +21612,7 @@
             ],
             "name": "播種黏液",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "1fbb-7493-b68-98a3"
           },
@@ -21626,7 +21626,7 @@
             ],
             "name": "蟲巢防禦",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "d8c3-9917-c6c8-7b77"
           }
@@ -21978,7 +21978,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "抽擊鞭",
+                    "name": "剝皮鞭",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -21997,7 +21997,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "抽擊鞭",
+                "name": "剝皮鞭",
                 "hidden": false,
                 "id": "12e6-c37b-5d71-7eaf"
               },
@@ -22205,12 +22205,12 @@
               {
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "在你的射擊階段，此模型射擊後，選擇一個遭該次射擊至少一次攻擊命中的敵方單位。直到該回合結束，每當一個己方泰倫蟲族單位以該敵方單位為目標進行近戰攻擊時，該次攻擊的護甲穿透屬性提高 1。同一敵方單位每回合只能受此技能影響一次。"
+                "$text": "在你的射擊階段，此模型射擊後，選擇一個被上述攻擊命中的敵方單位。直到該回合結束，每當一個己方泰倫蟲族單位以該敵方單位為目標進行近戰攻擊時，該次攻擊的護甲穿透屬性提高 1。同一敵方單位每回合只能受此技能影響一次。"
               }
             ],
             "name": "生物刺激",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "5171-dc2c-e7b0-2d4"
           },
@@ -22224,7 +22224,7 @@
             ],
             "name": "進食狂潮",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "34b3-35ff-995a-560d"
           }
@@ -23076,14 +23076,14 @@
           {
             "characteristics": [
               {
-                "$text": "在你的射擊階段，此單位射擊後，選擇一個遭該次射擊至少一次攻擊命中的敵方步兵單位。直到對手下一個回合結束，該敵方單位進入擾亂狀態。當一個單位處於擾亂狀態時，其移動屬性減 2，且為該單位進行突進擲骰和衝鋒擲骰時，擲骰結果均減 2。",
+                "$text": "在你的射擊階段，此單位射擊後，選擇一個被上述攻擊命中的敵方步兵單位。直到對手下一個回合結束，該敵方單位進入擾亂狀態。當一個單位處於擾亂狀態時，其移動屬性減 2，且為該單位進行突進擲骰和衝鋒擲骰時，擲骰結果均減 2。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
             "name": "擾亂轟擊",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "1c11-4ca1-8dae-1971"
           }
@@ -23552,14 +23552,14 @@
           {
             "characteristics": [
               {
-                "$text": "在你的射擊階段，此模型射擊後，選擇一個遭該次射擊至少一次攻擊命中的敵方單位（不含巨型單位）。直到你下一個回合開始，若此模型仍位於戰場上，該敵方單位進入壓制狀態。當一個單位處於壓制狀態時，每當該單位中的一個模型進行攻擊時，該次命中擲骰減 1。",
+                "$text": "在你的射擊階段，此模型射擊後，選擇一個被上述攻擊命中的敵方單位（不含巨型單位）。直到你下一個回合開始，若此模型仍位於戰場上，該敵方單位進入壓制狀態。當一個單位處於壓制狀態時，每當該單位中的一個模型進行攻擊時，該次命中擲骰減 1。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
             "name": "增生倒刺",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "a1bc-d961-dde5-52c4"
           }
@@ -24173,7 +24173,7 @@
             ],
             "name": "不可抗拒之力",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "4510-7130-a4d1-7da2"
           }
@@ -24821,7 +24821,7 @@
             ],
             "name": "受損：剩餘 1-10 點耐傷",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "6db6-76da-f8c0-7bfb"
           },
@@ -24835,7 +24835,7 @@
             ],
             "name": "狂熱代謝",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "ffbc-add5-8823-38f1"
           },
@@ -25468,7 +25468,7 @@
             ],
             "name": "受損：剩餘 1-10 點耐傷",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "e1fc-f768-9ec6-be50"
           },
@@ -25482,7 +25482,7 @@
             ],
             "name": "頂級獸",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "cda-47a4-2046-4c2c"
           },
@@ -25496,7 +25496,7 @@
             ],
             "name": "潛行前進",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "9746-a65-6ca-1ead"
           },
@@ -26499,7 +26499,7 @@
             ],
             "name": "先鋒掠食者",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "96f0-f77f-527d-7554"
           }
@@ -27073,7 +27073,7 @@
             ],
             "name": "消化棘刺",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "a205-6bf5-658a-a9c6"
           }
@@ -27642,7 +27642,7 @@
             ],
             "name": "幾丁質恐怖",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "b9cf-6189-5e16-a81a"
           }
@@ -28106,7 +28106,7 @@
             ],
             "name": "強化毒性瘴氣",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "31d0-c053-ceb2-e8eb"
           },
@@ -28120,7 +28120,7 @@
             ],
             "name": "獵物適應",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "b3e2-5880-7bec-cc20"
           },
@@ -28134,7 +28134,7 @@
             ],
             "name": "領袖",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "4f4b-61cc-6bb1-1c97"
           }
@@ -28829,7 +28829,7 @@
             ],
             "name": "魚叉倒刺",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "5808-f5eb-b2d5-65d7"
           }
@@ -29665,7 +29665,7 @@
                 ],
                 "name": "反常抗性",
                 "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "能力",
+                "typeName": "技能",
                 "hidden": false,
                 "id": "365e-a0cc-81f6-c188"
               }
@@ -31901,7 +31901,7 @@
             ],
             "name": "猛攻（靈氣，靈能）",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "d038-2f3d-1c4a-a15"
           },
@@ -31915,7 +31915,7 @@
             ],
             "name": "領袖",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "c13f-316a-bbdf-74fd"
           }
@@ -32243,7 +32243,7 @@
             "name": "頭領戰士",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力"
+            "typeName": "技能"
           },
           {
             "characteristics": [
@@ -32255,7 +32255,7 @@
             ],
             "name": "好鬥首領",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "096f-f8cd-c75b-4210"
           },
@@ -32269,7 +32269,7 @@
             ],
             "name": "領袖",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "能力",
+            "typeName": "技能",
             "hidden": false,
             "id": "452a-c278-78c7-a027"
           }
@@ -33381,7 +33381,7 @@
         ],
         "name": "漂浮死亡",
         "typeId": "9cc3-6d83-4dd3-9b64",
-        "typeName": "能力",
+        "typeName": "技能",
         "hidden": false,
         "id": "9c62-16b6-ad61-163d"
       },
@@ -33395,7 +33395,7 @@
         ],
         "name": "生物雷",
         "typeId": "9cc3-6d83-4dd3-9b64",
-        "typeName": "能力",
+        "typeName": "技能",
         "hidden": false,
         "id": "374e-ed33-a96f-a014"
       },
@@ -33497,7 +33497,7 @@
         ],
         "name": "單一目標",
         "typeId": "9cc3-6d83-4dd3-9b64",
-        "typeName": "能力",
+        "typeName": "技能",
         "hidden": false,
         "id": "286e-4c57-b171-2344"
       },
@@ -33555,7 +33555,7 @@
         ],
         "name": "漂浮死亡",
         "typeId": "9cc3-6d83-4dd3-9b64",
-        "typeName": "能力",
+        "typeName": "技能",
         "hidden": false,
         "id": "d7bb-5382-f348-1d3f"
       },
