@@ -23,12 +23,12 @@
       },
       {
         "id": "5c1a-a178-5951-d42",
-        "name": "泰倫武士（遠程生體武器）",
+        "name": "裝備遠程活體武器的泰倫武士",
         "hidden": false
       },
       {
         "id": "fb3c-c529-4e6c-2251",
-        "name": "泰倫武士（近戰生體武器）",
+        "name": "裝備近戰活體武器的泰倫武士",
         "hidden": false
       },
       {
@@ -43,7 +43,7 @@
       },
       {
         "id": "0a83-07b1-7b88-6a46",
-        "name": "毒煙蟲",
+        "name": "毒鞭獸",
         "hidden": false
       },
       {
@@ -92,7 +92,7 @@
         "id": "51f8-b488-5f21-c390"
       },
       {
-        "name": "離子砲獸",
+        "name": "離子炮獸",
         "hidden": false,
         "id": "d52d-1fd6-4cbf-cba1"
       },
@@ -102,7 +102,7 @@
         "id": "cf46-6271-340e-cf05"
       },
       {
-        "name": "劊子手",
+        "name": "劍子手",
         "hidden": false,
         "id": "2070-d263-505a-48cc"
       },
@@ -132,7 +132,7 @@
         "id": "cc05-aeb3-b2d6-3732"
       },
       {
-        "name": "孢囊要塞",
+        "name": "孢子要塞",
         "hidden": false,
         "id": "37-442e-b3d4-98aa"
       },
@@ -147,12 +147,12 @@
         "id": "a80e-ff32-72b3-9ba3"
       },
       {
-        "name": "倒鉤蟲嗣",
+        "name": "利刺聖役獸",
         "hidden": false,
         "id": "4c30-3dbf-b2b7-3a7"
       },
       {
-        "name": "鐮爪蟲嗣",
+        "name": "鐮爪聖役獸",
         "hidden": false,
         "id": "88c0-f898-8500-5639"
       },
@@ -249,7 +249,7 @@
       },
       {
         "id": "d950-10bf-1754-d11e",
-        "name": "泰倫武士（遠程生體武器）",
+        "name": "裝備遠程活體武器的泰倫武士",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -258,7 +258,7 @@
       },
       {
         "id": "a365-c488-23d5-a5e3",
-        "name": "泰倫武士（近戰生體武器）",
+        "name": "裝備近戰活體武器的泰倫武士",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -285,7 +285,7 @@
       },
       {
         "id": "e9a0-f638-7793-94c8",
-        "name": "石像鬼蟲",
+        "name": "石像鬼",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -294,7 +294,7 @@
       },
       {
         "id": "abfa-6d02-8cf0-0e7e",
-        "name": "毒煙蟲",
+        "name": "毒鞭獸",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -416,7 +416,7 @@
       },
       {
         "import": true,
-        "name": "蟒洛克",
+        "name": "沙蟒",
         "hidden": false,
         "type": "selectionEntry",
         "id": "1893-956f-b717-6cc8",
@@ -424,7 +424,7 @@
       },
       {
         "import": true,
-        "name": "泰剛",
+        "name": "掘蟒",
         "hidden": false,
         "type": "selectionEntry",
         "id": "50be-fcba-8fb6-5e13",
@@ -440,7 +440,7 @@
       },
       {
         "import": true,
-        "name": "離子砲獸",
+        "name": "離子炮獸",
         "hidden": false,
         "type": "selectionEntry",
         "id": "53a9-7a08-b3dd-1547",
@@ -464,7 +464,7 @@
       },
       {
         "import": true,
-        "name": "劊子手",
+        "name": "劍子手",
         "hidden": false,
         "type": "selectionEntry",
         "id": "f925-323-cb9f-9de6",
@@ -496,7 +496,7 @@
       },
       {
         "import": true,
-        "name": "泰倫孢囊",
+        "name": "孢子艙",
         "hidden": false,
         "type": "selectionEntry",
         "id": "968d-6764-71d1-55d",
@@ -520,7 +520,7 @@
       },
       {
         "import": true,
-        "name": "孢囊要塞",
+        "name": "孢子要塞",
         "hidden": false,
         "type": "selectionEntry",
         "id": "b0f2-86e1-24d3-bd1e",
@@ -552,7 +552,7 @@
       },
       {
         "import": true,
-        "name": "倒鉤蟲嗣［傳奇］",
+        "name": "利刺聖役獸［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "c08c-3f82-eca5-bc5b",
@@ -560,7 +560,7 @@
       },
       {
         "import": true,
-        "name": "鐮爪蟲嗣［傳奇］",
+        "name": "鐮爪聖役獸［傳奇］",
         "hidden": false,
         "type": "selectionEntry",
         "id": "ca37-6c54-394c-2803",
@@ -592,7 +592,7 @@
       },
       {
         "import": true,
-        "name": "掘蟒蟲",
+        "name": "蛇蟲",
         "hidden": false,
         "type": "selectionEntry",
         "id": "908f-17f2-34bf-89b4",
@@ -739,7 +739,7 @@
       },
       {
         "import": true,
-        "name": "黏液孢子（孢囊要塞）",
+        "name": "黏液孢子（孢子要塞）",
         "hidden": false,
         "id": "4d65-b3c0-b075-e79e",
         "targetId": "9943-934a-221b-e0c0",
@@ -828,7 +828,7 @@
                 "typeId": "bef7-942a-1a23-59f8"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": ""
               }
@@ -842,8 +842,8 @@
           {
             "characteristics": [
               {
-                "$text": "在你的指揮階段，你可選擇此模型 6 吋內一個友方槍蟲單位，將最多 D3+3 個已被摧毀的槍蟲模型放回該單位。每個槍蟲單位每個階段只能被此能力選擇一次。",
-                "name": "Description",
+                "$text": "在你的指揮階段，你可以選擇此模型 6\" 內一個己方槍蟲單位，將最多 D3+3 個已被摧毀的槍蟲模型放回該單位。同一槍蟲單位每個階段只能被此技能選擇一次。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -856,13 +856,13 @@
           {
             "characteristics": [
               {
-                "$text": "當一個友方槍蟲單位位於此模型 6 吋內時，該單位中的模型所裝備的遠程武器獲得［致命一擊］能力。",
-                "name": "Description",
+                "$text": "當一個己方槍蟲單位位於此模型 6\" 內時，該單位中模型裝備的遠程武器擁有［致命一擊］技能。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
             "id": "7697-fdc6-4658-3f1c",
-            "name": "巢群始祖（靈氣，靈能）",
+            "name": "始祖母蟲（靈氣，靈能）",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力"
@@ -878,7 +878,7 @@
               }
             ],
             "id": "9ae4-fb97-1652-8ad2",
-            "name": "致命毀滅",
+            "name": "致命破滅",
             "hidden": false,
             "targetId": "b68a-5ded-65ac-98c",
             "type": "rule"
@@ -898,7 +898,7 @@
             "targetId": "86aa-437f-260b-5cad"
           },
           {
-            "name": "受損：剩餘 1-5 點生命值",
+            "name": "受損：剩餘 1-5 點耐傷",
             "hidden": false,
             "type": "profile",
             "id": "b482-7059-4d45-669e",
@@ -915,7 +915,7 @@
           },
           {
             "id": "830e-4c0-344b-a5a6",
-            "name": "怪獸",
+            "name": "凶獸",
             "hidden": false,
             "targetId": "9693-cf84-fe69-37a9",
             "primary": false
@@ -1048,7 +1048,7 @@
                         "characteristics": [
                           {
                             "$text": "近戰",
-                            "name": "Range",
+                            "name": "射程",
                             "typeId": "914c-b413-91e3-a132"
                           },
                           {
@@ -1078,7 +1078,7 @@
                           },
                           {
                             "$text": "-",
-                            "name": "Keywords",
+                            "name": "關鍵詞",
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ],
@@ -1115,7 +1115,7 @@
                             "join": ""
                           }
                         ],
-                        "name": "➤ 巨型鐮狀利爪－重擊",
+                        "name": "➤ 巨型鐮刀爪－重擊",
                         "typeId": "8a40-4aaa-c780-9046",
                         "typeName": "近戰武器",
                         "hidden": false,
@@ -1125,7 +1125,7 @@
                         "characteristics": [
                           {
                             "$text": "近戰",
-                            "name": "Range",
+                            "name": "射程",
                             "typeId": "914c-b413-91e3-a132"
                           },
                           {
@@ -1155,11 +1155,11 @@
                           },
                           {
                             "$text": "-",
-                            "name": "Keywords",
+                            "name": "關鍵詞",
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ],
-                        "name": "➤ 巨型鐮狀利爪－橫掃",
+                        "name": "➤ 巨型鐮刀爪－橫掃",
                         "typeId": "8a40-4aaa-c780-9046",
                         "typeName": "近戰武器",
                         "hidden": false,
@@ -1194,7 +1194,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "巨型鐮狀利爪",
+                    "name": "巨型鐮刀爪",
                     "hidden": false,
                     "id": "4f0d-da49-a7d-5e4b",
                     "collective": false
@@ -1218,7 +1218,7 @@
                         "characteristics": [
                           {
                             "$text": "近戰",
-                            "name": "Range",
+                            "name": "射程",
                             "typeId": "914c-b413-91e3-a132"
                           },
                           {
@@ -1248,7 +1248,7 @@
                           },
                           {
                             "$text": "-",
-                            "name": "Keywords",
+                            "name": "關鍵詞",
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ],
@@ -1293,7 +1293,7 @@
                     "collective": false
                   }
                 ],
-                "name": "巨型鐮狀利爪",
+                "name": "巨型鐮刀爪",
                 "id": "80c2-fb4d-2e3b-8ee2",
                 "hidden": false,
                 "collective": false,
@@ -1591,7 +1591,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -1645,7 +1645,7 @@
                 "$text": "3"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": "4+"
               }
@@ -1659,8 +1659,8 @@
           {
             "characteristics": [
               {
-                "$text": "在你的指揮階段開始時，若此模型在戰場上，你獲得 1 點指揮點。",
-                "name": "Description",
+                "$text": "在你的指揮階段開始時，若此模型在戰場上，你獲得 1 點指揮點數。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -1673,13 +1673,13 @@
           {
             "characteristics": [
               {
-                "name": "Description",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "每回合一次，當對手將其軍隊中一個位於此模型 12 吋內的單位選為計謀目標時，你可啟用此能力。若如此做，該次使用該計謀需要額外花費 1 點指揮點。"
+                "$text": "每回合一次，當對手將其軍隊中一個位於此模型 12\" 內的單位選為計謀目標時，你可以使用此技能。若如此做，該次使用該計謀需要額外花費 1 點指揮點數。"
               }
             ],
             "id": "4b18-f7de-620b-3b73",
-            "name": "惡意存在（靈氣）",
+            "name": "險惡身形（靈氣）",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力"
@@ -1687,8 +1687,8 @@
           {
             "characteristics": [
               {
-                "$text": "當一個友方泰倫蟲族單位位於此模型 9 吋內時，該單位視為位於你軍隊的突觸範圍內。",
-                "name": "Description",
+                "$text": "當一個己方泰倫蟲族單位位於此模型 9\" 內時，該單位視為位於你軍隊的突觸範圍內。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -1701,8 +1701,8 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可加入以下單位：\n- 暴君護衛",
-                "name": "Description",
+                "$text": "此模型可以附屬於下列單位：\n▪ 暴君護衛",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -1723,7 +1723,7 @@
               }
             ],
             "id": "245c-6475-1960-2a0d",
-            "name": "致命毀滅",
+            "name": "致命破滅",
             "hidden": false,
             "targetId": "b68a-5ded-65ac-98c",
             "type": "rule"
@@ -1781,7 +1781,7 @@
           },
           {
             "id": "84a0-31b3-d591-4a46",
-            "name": "怪獸",
+            "name": "凶獸",
             "hidden": false,
             "targetId": "9693-cf84-fe69-37a9",
             "primary": false
@@ -1913,7 +1913,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -1943,11 +1943,11 @@
                       },
                       {
                         "$text": "雙聯",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "骨質軍刀",
+                    "name": "堅骨利刃",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -1972,7 +1972,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "骨質軍刀",
+                "name": "堅骨利刃",
                 "hidden": false,
                 "id": "7a17-4fb0-c0f5-e22",
                 "collective": false
@@ -2007,7 +2007,7 @@
                     "characteristics": [
                       {
                         "$text": "18\"",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
@@ -2037,7 +2037,7 @@
                       },
                       {
                         "$text": "靈能，洪流",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
@@ -2198,7 +2198,7 @@
                 "$text": "1"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": "4+"
               }
@@ -2212,13 +2212,13 @@
           {
             "characteristics": [
               {
-                "$text": "當此模型率領一個單位時，該單位中的模型所裝備的武器獲得［毀滅傷害］能力。",
-                "name": "Description",
+                "$text": "當此模型正在領導一個單位時，該單位中模型裝備的武器擁有［毀滅傷害］技能。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
             "id": "a5e1-ca7f-aaef-7fda",
-            "name": "凶殘洞察",
+            "name": "陰險洞察",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力"
@@ -2227,7 +2227,7 @@
             "characteristics": [
               {
                 "$text": "在近戰階段開始時，選擇此模型交戰範圍內一個敵方單位。直到該階段結束，每當該單位中的一個模型進行攻擊時，該次命中擲骰減 1。",
-                "name": "Description",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -2240,8 +2240,8 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可加入以下單位：\n- 基因竊取者",
-                "name": "Description",
+                "$text": "此模型可以附屬於下列單位：\n▪ 基因竊取者",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -2336,7 +2336,7 @@
             "targetId": "5ff0-d52d-e2b8-9de",
             "id": "303e-eb75-57c2-25a3",
             "primary": false,
-            "name": "先鋒入侵者"
+            "name": "入侵先鋒"
           },
           {
             "targetId": "4129-a453-686a-d38a",
@@ -2667,7 +2667,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -2697,7 +2697,7 @@
                       },
                       {
                         "$text": "毀滅傷害，雙聯",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
@@ -2784,7 +2784,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -2838,7 +2838,7 @@
                 "typeId": "bef7-942a-1a23-59f8"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": ""
               }
@@ -2852,8 +2852,8 @@
           {
             "characteristics": [
               {
-                "$text": "當此模型率領一個單位時，每當該單位中的一個模型進行攻擊時，你可重擲該次命中擲骰。",
-                "name": "Description",
+                "$text": "當此模型正在領導一個單位時，每當該單位中的一個模型進行攻擊時，你可以重擲該次命中擲骰。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -2866,13 +2866,13 @@
           {
             "characteristics": [
               {
-                "$text": "在每名玩家的指揮階段開始時，此模型恢復最多 D3 點已失去的生命值。",
-                "name": "Description",
+                "$text": "在每名玩家的指揮階段開始時，此模型恢復最多 D3 點已失去的耐傷。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
             "id": "2c91-cffe-25ce-bd74",
-            "name": "不可阻擋的怪獸",
+            "name": "不可阻擋的凶獸",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力"
@@ -2880,8 +2880,8 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可加入以下單位：\n- 劊子手獸群",
-                "name": "Description",
+                "$text": "此模型可以附屬於下列單位：\n▪ 劍子手獸群",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -2902,7 +2902,7 @@
           },
           {
             "id": "7d6f-eca2-13c7-89c9",
-            "name": "怪獸",
+            "name": "凶獸",
             "hidden": false,
             "targetId": "9693-cf84-fe69-37a9",
             "primary": false
@@ -2974,7 +2974,7 @@
                 "characteristics": [
                   {
                     "$text": "近戰",
-                    "name": "Range",
+                    "name": "射程",
                     "typeId": "914c-b413-91e3-a132"
                   },
                   {
@@ -3004,7 +3004,7 @@
                   },
                   {
                     "$text": "-",
-                    "name": "Keywords",
+                    "name": "關鍵詞",
                     "typeId": "893f-9000-ccf7-648e"
                   }
                 ],
@@ -3018,7 +3018,7 @@
                 "characteristics": [
                   {
                     "$text": "近戰",
-                    "name": "Range",
+                    "name": "射程",
                     "typeId": "914c-b413-91e3-a132"
                   },
                   {
@@ -3048,7 +3048,7 @@
                   },
                   {
                     "$text": "-",
-                    "name": "Keywords",
+                    "name": "關鍵詞",
                     "typeId": "893f-9000-ccf7-648e"
                   }
                 ],
@@ -3143,7 +3143,7 @@
                 "field": "name"
               }
             ],
-            "name": "無視傷痛",
+            "name": "不覺疼痛",
             "id": "5b03-44b8-63b6-2691",
             "hidden": false,
             "type": "rule",
@@ -3211,8 +3211,8 @@
           {
             "characteristics": [
               {
-                "$text": "此單位在執行撤退的回合中仍有資格射擊並宣告衝鋒。",
-                "name": "Description",
+                "$text": "此單位即使在本回合後撤，仍可以射擊並宣告衝鋒。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -3233,7 +3233,7 @@
           },
           {
             "id": "1d4d-b52d-f655-f8a",
-            "name": "泰倫武士（遠程生體武器）",
+            "name": "裝備遠程活體武器的泰倫武士",
             "hidden": false,
             "targetId": "5c1a-a178-5951-d42",
             "primary": false
@@ -3333,7 +3333,7 @@
                     "childId": "d62d-db22-4893-4bc0",
                     "shared": true,
                     "includeChildSelections": true,
-                    "childName": "1. Incursion (1000 Point limit)"
+                    "childName": "1. 入侵戰（1000 點上限）"
                   },
                   {
                     "type": "lessThan",
@@ -3688,7 +3688,7 @@
                         "childId": "d62d-db22-4893-4bc0",
                         "shared": true,
                         "includeChildSelections": true,
-                        "childName": "1. Incursion (1000 Point limit)"
+                        "childName": "1. 入侵戰（1000 點上限）"
                       },
                       {
                         "type": "atLeast",
@@ -3776,7 +3776,7 @@
                         "childId": "d62d-db22-4893-4bc0",
                         "shared": true,
                         "includeChildSelections": true,
-                        "childName": "1. Incursion (1000 Point limit)"
+                        "childName": "1. 入侵戰（1000 點上限）"
                       },
                       {
                         "type": "atLeast",
@@ -3918,7 +3918,7 @@
                         "typeId": "bef7-942a-1a23-59f8"
                       },
                       {
-                        "name": "InSv",
+                        "name": "無敵豁免",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": ""
                       }
@@ -4182,7 +4182,7 @@
                           }
                         ],
                         "import": true,
-                        "name": "倒刺絞殺槍",
+                        "name": "絞藤炮",
                         "hidden": false,
                         "id": "b63f-c5f0-cd3f-5423",
                         "type": "selectionEntry",
@@ -4291,7 +4291,7 @@
                         "typeId": "bef7-942a-1a23-59f8"
                       },
                       {
-                        "name": "InSv",
+                        "name": "無敵豁免",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": ""
                       }
@@ -4480,7 +4480,7 @@
                           }
                         ],
                         "import": true,
-                        "name": "倒刺絞殺槍",
+                        "name": "絞藤炮",
                         "hidden": false,
                         "id": "878-220f-453e-e676",
                         "type": "selectionEntry",
@@ -4610,7 +4610,7 @@
           }
         ],
         "id": "a125-b6fb-2945-56a",
-        "name": "泰倫武士（遠程生體武器）",
+        "name": "裝備遠程活體武器的泰倫武士",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -4621,13 +4621,13 @@
           {
             "characteristics": [
               {
-                "$text": "在近戰階段開始時，選擇以下一項：\n- 侵略指令：直到該階段結束，每當此單位中的一個模型進行近戰攻擊時，重擲結果為 1 的命中擲骰。\n- 生體再生：直到該階段結束，每當為此單位中的一個模型進行保護擲骰時，重擲結果為 1 的保護擲骰。",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "name": "說明",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "在近戰階段，當此單位被選擇進行近戰，或成為一個敵方單位的攻擊目標時，你可以選擇以下一項：\n▪ 此單位近戰攻擊的力量屬性加 1。\n▪ 此單位的韌性屬性加 1。"
               }
             ],
             "id": "1be5-8ccf-3d43-2b32",
-            "name": "適應本能",
+            "name": "適應性本能（每個回合，每個單位限一次）",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力"
@@ -4650,7 +4650,7 @@
           },
           {
             "id": "dfec-5366-3785-f80d",
-            "name": "泰倫武士（近戰生體武器）",
+            "name": "裝備近戰活體武器的泰倫武士",
             "hidden": false,
             "targetId": "fb3c-c529-4e6c-2251",
             "primary": false
@@ -4715,7 +4715,7 @@
                     "childId": "d62d-db22-4893-4bc0",
                     "shared": true,
                     "includeChildSelections": true,
-                    "childName": "1. Incursion (1000 Point limit)"
+                    "childName": "1. 入侵戰（1000 點上限）"
                   },
                   {
                     "type": "lessThan",
@@ -5070,7 +5070,7 @@
                         "childId": "d62d-db22-4893-4bc0",
                         "shared": true,
                         "includeChildSelections": true,
-                        "childName": "1. Incursion (1000 Point limit)"
+                        "childName": "1. 入侵戰（1000 點上限）"
                       },
                       {
                         "type": "atLeast",
@@ -5158,7 +5158,7 @@
                         "childId": "d62d-db22-4893-4bc0",
                         "shared": true,
                         "includeChildSelections": true,
-                        "childName": "1. Incursion (1000 Point limit)"
+                        "childName": "1. 入侵戰（1000 點上限）"
                       },
                       {
                         "type": "atLeast",
@@ -5306,7 +5306,7 @@
                         "typeId": "bef7-942a-1a23-59f8"
                       },
                       {
-                        "name": "InSv",
+                        "name": "無敵豁免",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": ""
                       }
@@ -5482,7 +5482,7 @@
                         "typeId": "bef7-942a-1a23-59f8"
                       },
                       {
-                        "name": "InSv",
+                        "name": "無敵豁免",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": ""
                       }
@@ -5610,7 +5610,7 @@
           }
         ],
         "id": "5815-871c-9260-287a",
-        "name": "泰倫武士（近戰生體武器）",
+        "name": "裝備近戰活體武器的泰倫武士",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -5659,9 +5659,9 @@
           {
             "characteristics": [
               {
-                "name": "Description",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "在對手的移動階段，若一個敵方單位結束一次移動時位於此單位 8 吋內，且此單位不在敵方單位的交戰範圍內，則此單位可進行最多 D6 吋的普通移動。"
+                "$text": "在對手的移動階段，若一個敵方單位在此單位 8\" 內完成一次移動，且此單位不在任何敵方單位的交戰範圍內，則此單位可以進行一次最多 D6\" 的常規移動。"
               }
             ],
             "modifiers": [
@@ -5684,7 +5684,7 @@
               }
             ],
             "id": "c28c-89a4-5758-10b7",
-            "name": "潛伏恐怖",
+            "name": "鬼祟恐怖",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力"
@@ -5721,7 +5721,7 @@
           },
           {
             "id": "3db-42f0-a792-ba6a",
-            "name": "無盡群集",
+            "name": "無盡蟲潮",
             "hidden": false,
             "targetId": "c5eb-961b-14b1-ae50",
             "primary": false
@@ -5771,7 +5771,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -5829,7 +5829,7 @@
                             "characteristics": [
                               {
                                 "$text": "18\"",
-                                "name": "Range",
+                                "name": "射程",
                                 "typeId": "9896-9419-16a1-92fc"
                               },
                               {
@@ -5859,12 +5859,12 @@
                               },
                               {
                                 "$text": "突擊",
-                                "name": "Keywords",
+                                "name": "關鍵詞",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ],
                             "id": "2266-dc23-d46-d265",
-                            "name": "血肉鑽槍",
+                            "name": "蝕肉槍",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
                             "typeName": "遠程武器"
@@ -5903,7 +5903,7 @@
                           }
                         ],
                         "id": "d66a-eb66-bb41-acce",
-                        "name": "血肉鑽槍",
+                        "name": "蝕肉槍",
                         "hidden": false,
                         "collective": true,
                         "import": true,
@@ -5915,7 +5915,7 @@
                             "characteristics": [
                               {
                                 "$text": "12\"",
-                                "name": "Range",
+                                "name": "射程",
                                 "typeId": "9896-9419-16a1-92fc"
                               },
                               {
@@ -5945,7 +5945,7 @@
                               },
                               {
                                 "$text": "突擊，手槍，雙聯",
-                                "name": "Keywords",
+                                "name": "關鍵詞",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ],
@@ -6015,7 +6015,7 @@
                             "characteristics": [
                               {
                                 "$text": "18\"",
-                                "name": "Range",
+                                "name": "射程",
                                 "typeId": "9896-9419-16a1-92fc"
                               },
                               {
@@ -6045,7 +6045,7 @@
                               },
                               {
                                 "$text": "-",
-                                "name": "Keywords",
+                                "name": "關鍵詞",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ],
@@ -6296,7 +6296,7 @@
                         "characteristics": [
                           {
                             "$text": "18\"",
-                            "name": "Range",
+                            "name": "射程",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -6326,7 +6326,7 @@
                           },
                           {
                             "$text": "爆炸，重型",
-                            "name": "Keywords",
+                            "name": "關鍵詞",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
@@ -6523,7 +6523,7 @@
                         "characteristics": [
                           {
                             "$text": "24\"",
-                            "name": "Range",
+                            "name": "射程",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -6553,7 +6553,7 @@
                           },
                           {
                             "$text": "重型",
-                            "name": "Keywords",
+                            "name": "關鍵詞",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
@@ -6705,7 +6705,7 @@
                         "characteristics": [
                           {
                             "$text": "18\"",
-                            "name": "Range",
+                            "name": "射程",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -6735,7 +6735,7 @@
                           },
                           {
                             "$text": "突擊，毀滅傷害，洪流",
-                            "name": "Keywords",
+                            "name": "關鍵詞",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
@@ -7338,8 +7338,8 @@
           {
             "characteristics": [
               {
-                "$text": "此單位在執行推進的回合中仍有資格宣告衝鋒。",
-                "name": "Description",
+                "$text": "此單位即使在本回合突進，仍可以宣告衝鋒。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -7374,7 +7374,7 @@
           },
           {
             "id": "2f82-1ff2-1086-ad62",
-            "name": "無盡群集",
+            "name": "無盡蟲潮",
             "hidden": false,
             "targetId": "c5eb-961b-14b1-ae50",
             "primary": false
@@ -7467,7 +7467,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -7978,7 +7978,7 @@
                         "typeId": "bef7-942a-1a23-59f8"
                       },
                       {
-                        "name": "InSv",
+                        "name": "無敵豁免",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": ""
                       }
@@ -7997,7 +7997,7 @@
                         "characteristics": [
                           {
                             "$text": "近戰",
-                            "name": "Range",
+                            "name": "射程",
                             "typeId": "914c-b413-91e3-a132"
                           },
                           {
@@ -8027,7 +8027,7 @@
                           },
                           {
                             "$text": "-",
-                            "name": "Keywords",
+                            "name": "關鍵詞",
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ],
@@ -8204,13 +8204,13 @@
                 "typeId": "bef7-942a-1a23-59f8"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": ""
               }
             ],
             "id": "6a1d-69fc-336d-702a",
-            "name": "毒煙蟲",
+            "name": "毒鞭獸",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位"
@@ -8218,8 +8218,8 @@
           {
             "characteristics": [
               {
-                "$text": "每當一個敵方單位（不含泰坦級單位）位於你的軍隊中一個或多個具有此能力的單位交戰範圍內，且被選擇進行撤退時，你可擲一個 D6：若結果為 3+，該敵方單位必須改為保持靜止。",
-                "name": "Description",
+                "$text": "每當一個敵方單位（不含巨型單位）位於你軍隊中至少一個具有此技能之單位的交戰範圍內，且被選擇進行後撤時，你可以擲一顆 D6：若結果為 3+，該敵方單位必須改為保持靜止。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -8232,13 +8232,13 @@
           {
             "characteristics": [
               {
-                "$text": "在你的移動階段結束時，為此模型 6 吋內的每個敵方單位各擲一個 D6：若結果為 2-3，該單位受到 1 點致命傷害；若結果為 4-5，該單位受到 D3 點致命傷害；若結果為 6，該單位受到 D6 點致命傷害。",
-                "name": "Description",
+                "$text": "在你的移動階段結束時，為此模型 6\" 內的每個敵方單位各擲一顆 D6：若結果為 2-3，該單位遭受 1 點致命傷；若結果為 4-5，該單位遭受 D3 點致命傷；若結果為 6，該單位遭受 D6 點致命傷。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
             "id": "a599-0bf5-3022-ecc6",
-            "name": "超毒瘴氣（靈氣）",
+            "name": "劇毒瘴氣（靈氣）",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力"
@@ -8254,14 +8254,14 @@
               }
             ],
             "id": "1219-5397-f3de-cdc6",
-            "name": "致命毀滅",
+            "name": "致命破滅",
             "hidden": false,
             "targetId": "b68a-5ded-65ac-98c",
             "type": "rule"
           },
           {
             "id": "ab7d-eb66-c5e7-3adc",
-            "name": "受損：剩餘 1-5 點生命值",
+            "name": "受損：剩餘 1-5 點耐傷",
             "hidden": false,
             "targetId": "384f-e5ff-31a2-1295",
             "type": "profile"
@@ -8277,7 +8277,7 @@
         "categoryLinks": [
           {
             "id": "3b4f-0fe2-927b-6beb",
-            "name": "怪獸",
+            "name": "凶獸",
             "hidden": false,
             "targetId": "9693-cf84-fe69-37a9",
             "primary": true
@@ -8291,7 +8291,7 @@
           },
           {
             "id": "8034-3e32-0910-3c98",
-            "name": "毒煙蟲",
+            "name": "毒鞭獸",
             "hidden": false,
             "targetId": "0a83-07b1-7b88-6a46",
             "primary": false
@@ -8308,7 +8308,7 @@
           {
             "name": "分",
             "typeId": "51b2-306e-1021-d207",
-            "value": 135
+            "value": 120
           },
           {
             "name": "遠征點",
@@ -8607,7 +8607,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -8636,12 +8636,12 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "反制步兵 2+",
-                        "name": "Keywords",
+                        "$text": "針對步兵 2+",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "巨型毒鞭",
+                    "name": "巨型劇毒觸鬚",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -8651,7 +8651,7 @@
                     "characteristics": [
                       {
                         "$text": "9\"",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
@@ -8680,8 +8680,8 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "反制步兵 2+",
-                        "name": "Keywords",
+                        "$text": "針對步兵 2+",
+                        "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
@@ -8704,7 +8704,7 @@
                         "join": ""
                       }
                     ],
-                    "name": "巨型毒鞭",
+                    "name": "巨型劇毒觸鬚",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -8713,7 +8713,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "反制",
+                    "name": "針對",
                     "id": "a5f6-5a40-3cdf-a27b",
                     "hidden": false,
                     "targetId": "4111-82e3-9444-e942",
@@ -8732,7 +8732,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "巨型毒鞭",
+                "name": "巨型劇毒觸鬚",
                 "hidden": false,
                 "id": "b702-ef60-5d60-bd40",
                 "collective": false
@@ -8745,7 +8745,7 @@
           }
         ],
         "id": "30d0-521c-1d45-f57b",
-        "name": "毒煙蟲",
+        "name": "毒鞭獸",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -8764,7 +8764,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -8813,8 +8813,8 @@
           {
             "characteristics": [
               {
-                "$text": "當一個角色模型率領此單位時，該角色具有無視傷痛 5+ 能力。",
-                "name": "Description",
+                "$text": "當一個角色模型率領此單位時，該角色具有不覺疼痛 5+ 技能。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -8885,7 +8885,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -9216,7 +9216,7 @@
                         "typeId": "bef7-942a-1a23-59f8"
                       },
                       {
-                        "name": "InSv",
+                        "name": "無敵豁免",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": ""
                       }
@@ -9261,7 +9261,7 @@
                             "characteristics": [
                               {
                                 "$text": "近戰",
-                                "name": "Range",
+                                "name": "射程",
                                 "typeId": "914c-b413-91e3-a132"
                               },
                               {
@@ -9291,11 +9291,11 @@
                               },
                               {
                                 "$text": "-",
-                                "name": "Keywords",
+                                "name": "關鍵詞",
                                 "typeId": "893f-9000-ccf7-648e"
                               }
                             ],
-                            "name": "鐮狀利爪與撕裂爪",
+                            "name": "鐮刀爪與撕裂爪",
                             "typeId": "8a40-4aaa-c780-9046",
                             "typeName": "近戰武器",
                             "hidden": false,
@@ -9314,7 +9314,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "鐮狀利爪與撕裂爪",
+                        "name": "鐮刀爪與撕裂爪",
                         "hidden": false,
                         "id": "72c5-1443-529a-59ad",
                         "collective": false
@@ -9325,7 +9325,7 @@
                             "characteristics": [
                               {
                                 "$text": "近戰",
-                                "name": "Range",
+                                "name": "射程",
                                 "typeId": "914c-b413-91e3-a132"
                               },
                               {
@@ -9355,11 +9355,11 @@
                               },
                               {
                                 "$text": "-",
-                                "name": "Keywords",
+                                "name": "關鍵詞",
                                 "typeId": "893f-9000-ccf7-648e"
                               }
                             ],
-                            "name": "骨劈刀、鞭索與撕裂爪",
+                            "name": "骨劈刀、抽擊鞭與撕裂爪",
                             "typeId": "8a40-4aaa-c780-9046",
                             "typeName": "近戰武器",
                             "hidden": false,
@@ -9378,7 +9378,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "骨劈刀、鞭索與撕裂爪",
+                        "name": "骨劈刀、抽擊鞭與撕裂爪",
                         "hidden": false,
                         "id": "a6ee-80cb-5346-3c2a",
                         "collective": false
@@ -9389,7 +9389,7 @@
                             "characteristics": [
                               {
                                 "$text": "近戰",
-                                "name": "Range",
+                                "name": "射程",
                                 "typeId": "914c-b413-91e3-a132"
                               },
                               {
@@ -9419,7 +9419,7 @@
                               },
                               {
                                 "$text": "雙聯",
-                                "name": "Keywords",
+                                "name": "關鍵詞",
                                 "typeId": "893f-9000-ccf7-648e"
                               }
                             ],
@@ -9559,7 +9559,7 @@
                 "$text": "3"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": "4+"
               }
@@ -9573,8 +9573,8 @@
           {
             "characteristics": [
               {
-                "$text": "當此模型率領一個單位時，每當該單位中的一個模型進行攻擊時，該次命中擲骰加 1。若目標處於戰鬥震懾狀態，則該次致傷擲骰也加 1。",
-                "name": "Description",
+                "$text": "當此模型正在領導一個單位時，每當該單位中的一個模型進行攻擊時，該次命中擲骰加 1。若目標處於戰鬥震懾狀態，則該次致傷擲骰也加 1。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -9587,8 +9587,8 @@
           {
             "characteristics": [
               {
-                "$text": "當你釋放亞空間陰影時，若你的軍隊中有一個或多個腦蟲暴君位於戰場上，則戰場上每個敵方單位因此必須進行的戰鬥震懾測試承受 -1 修正。",
-                "name": "Description",
+                "$text": "當你釋放亞空間陰影時，若你的軍隊中有至少一個腦蟲暴君位於戰場上，則戰場上每個敵方單位因此進行的戰鬥震懾擲骰結果減 1。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -9601,8 +9601,8 @@
           {
             "characteristics": [
               {
-                "$text": "在你的指揮階段，你可選擇此模型所屬單位 18 吋內最多兩個友方泰倫蟲族單位。直到你下一個指揮階段開始前，被選擇的單位一律視為位於你軍隊的突觸範圍內。",
-                "name": "Description",
+                "$text": "在你的指揮階段，你可以選擇最多兩個位於此模型所屬單位 18\" 內的己方泰倫蟲族單位。直到你下一個指揮階段開始前，被選擇的單位一律視為位於你軍隊的突觸範圍內。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -9615,8 +9615,8 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可加入以下單位：\n- 神經蟲\n- 暴君護衛\n- 腦蟲",
-                "name": "Description",
+                "$text": "此模型可以附屬於下列單位：\n▪ 神經蟲\n▪ 暴君護衛\n▪ 腦蟲",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -9660,7 +9660,7 @@
           },
           {
             "id": "853d-9869-05d1-9342",
-            "name": "怪獸",
+            "name": "凶獸",
             "hidden": false,
             "targetId": "9693-cf84-fe69-37a9",
             "primary": false
@@ -9718,7 +9718,7 @@
           {
             "name": "分",
             "typeId": "51b2-306e-1021-d207",
-            "value": 115
+            "value": 130
           },
           {
             "name": "遠征點",
@@ -9995,7 +9995,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -10025,7 +10025,7 @@
                       },
                       {
                         "$text": "-",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
@@ -10153,7 +10153,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -10164,7 +10164,7 @@
           {
             "name": "分",
             "typeId": "51b2-306e-1021-d207",
-            "value": 180
+            "value": 190
           },
           {
             "name": "遠征點",
@@ -10236,7 +10236,7 @@
                 "$text": "4"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": "4+"
               }
@@ -10250,8 +10250,8 @@
           {
             "characteristics": [
               {
-                "$text": "當一個敵方單位位於此模型 6 吋內時，每當該單位中的一個模型進行攻擊時，該次命中擲骰減 1；若該敵方單位低於半數兵力，則該次致傷擲骰也減 1。",
-                "name": "Description",
+                "$text": "當一個敵方單位位於此模型 6\" 內時，每當該單位中的一個模型進行攻擊時，該次命中擲骰減 1；若該敵方單位低於半數兵力，則該次致傷擲骰也減 1。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -10264,7 +10264,7 @@
         ],
         "infoLinks": [
           {
-            "name": "受損：剩餘 1-5 點生命值",
+            "name": "受損：剩餘 1-5 點耐傷",
             "hidden": false,
             "type": "profile",
             "id": "f446-5608-f827-23a9",
@@ -10278,7 +10278,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命毀滅",
+            "name": "致命破滅",
             "hidden": false,
             "type": "rule",
             "id": "6f1e-5487-d9a1-7caf",
@@ -10304,7 +10304,7 @@
             "targetId": "9693-cf84-fe69-37a9",
             "id": "890b-c1b4-7b7a-541d",
             "primary": true,
-            "name": "怪獸"
+            "name": "凶獸"
           },
           {
             "targetId": "13bf-2bee-3ae0-b414",
@@ -10630,7 +10630,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -10660,11 +10660,11 @@
                       },
                       {
                         "$text": "-",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "➤ 巨型鐮狀利爪－重擊",
+                    "name": "➤ 巨型鐮刀爪－重擊",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -10674,7 +10674,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -10704,11 +10704,11 @@
                       },
                       {
                         "$text": "-",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "➤ 巨型鐮狀利爪－橫掃",
+                    "name": "➤ 巨型鐮刀爪－橫掃",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -10727,7 +10727,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "巨型鐮狀利爪",
+                "name": "巨型鐮刀爪",
                 "hidden": false,
                 "id": "4b96-d104-c37f-f697"
               }
@@ -10813,7 +10813,7 @@
                         "scope": "self",
                         "childId": "2c2d-a2f9-61a8-a6c6",
                         "shared": true,
-                        "childName": "Maleceptor"
+                        "childName": "靈腦獸"
                       }
                     ]
                   }
@@ -10834,7 +10834,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -10915,8 +10915,8 @@
           {
             "characteristics": [
               {
-                "$text": "在你的射擊階段，此單位射擊後，選擇一個被該次射擊的一次或多次攻擊命中的敵方單位。直到該階段結束，該敵方單位不能獲得掩護增益。",
-                "name": "Description",
+                "$text": "在你的射擊階段，此單位射擊後，選擇一個遭該次射擊至少一次攻擊命中的敵方單位。直到該階段結束，該敵方單位不能獲得掩護增益。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -10979,7 +10979,7 @@
               }
             ],
             "id": "e42a-58bc-f34c-8df8",
-            "name": "致命毀滅",
+            "name": "致命破滅",
             "hidden": false,
             "targetId": "b68a-5ded-65ac-98c",
             "type": "rule"
@@ -11057,7 +11057,7 @@
                         "scope": "self",
                         "childId": "d2c6-bd0b-3205-3319",
                         "shared": true,
-                        "childName": "Pyrovores"
+                        "childName": "噴焰蟲"
                       }
                     ]
                   }
@@ -11078,7 +11078,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -11368,7 +11368,7 @@
                         "typeId": "bef7-942a-1a23-59f8"
                       },
                       {
-                        "name": "InSv",
+                        "name": "無敵豁免",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": ""
                       }
@@ -11402,7 +11402,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "無視掩護",
+                        "name": "無視掩體",
                         "id": "1b4b-c6bb-fc3-6946",
                         "hidden": false,
                         "type": "rule",
@@ -11428,7 +11428,7 @@
                         "characteristics": [
                           {
                             "$text": "12\"",
-                            "name": "Range",
+                            "name": "射程",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -11457,12 +11457,12 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "無視掩護，洪流，雙聯",
-                            "name": "Keywords",
+                            "$text": "無視掩體，洪流，雙聯",
+                            "name": "關鍵詞",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "火焰噴吐",
+                        "name": "吐焰炮",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "遠程武器",
                         "hidden": false,
@@ -11481,7 +11481,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "火焰噴吐",
+                    "name": "吐焰炮",
                     "hidden": false,
                     "id": "68e6-6c48-4d98-7faa",
                     "collective": true
@@ -11577,7 +11577,7 @@
             "targetId": "9693-cf84-fe69-37a9",
             "id": "813-228e-f2b5-59c9",
             "primary": true,
-            "name": "怪獸"
+            "name": "凶獸"
           },
           {
             "targetId": "7850-cc5a-c191-b80d",
@@ -11606,7 +11606,7 @@
         ],
         "infoLinks": [
           {
-            "name": "受損：剩餘 1-5 點生命值",
+            "name": "受損：剩餘 1-5 點耐傷",
             "hidden": false,
             "type": "profile",
             "id": "8b82-e5b1-1d0-c5bb",
@@ -11621,7 +11621,7 @@
               }
             ],
             "id": "42fa-7ae3-ac9e-80fd",
-            "name": "致命毀滅",
+            "name": "致命破滅",
             "hidden": false,
             "targetId": "b68a-5ded-65ac-98c",
             "type": "rule"
@@ -11706,7 +11706,7 @@
                 "typeId": "bef7-942a-1a23-59f8"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": ""
               }
@@ -11720,8 +11720,8 @@
           {
             "characteristics": [
               {
-                "$text": "每當此模型被選擇進行戰鬥時，結算其攻擊後，若一個或多個敵方單位被這些攻擊摧毀，則此模型 6 吋內每個敵方單位都必須進行戰鬥震懾測試。",
-                "name": "Description",
+                "$text": "每當此模型被選擇進行近戰時，結算其攻擊後，若至少一個敵方單位因這些攻擊而被摧毀，則此模型 6\" 內每個敵方單位都必須進行戰鬥震懾擲骰。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -11976,7 +11976,7 @@
                     "characteristics": [
                       {
                         "$text": "12\"",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
@@ -12006,7 +12006,7 @@
                       },
                       {
                         "$text": "精準",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
@@ -12068,7 +12068,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -12098,7 +12098,7 @@
                       },
                       {
                         "$text": "額外攻擊",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
@@ -12247,7 +12247,7 @@
                         "scope": "self",
                         "childId": "6249-358f-27d7-ef60",
                         "shared": true,
-                        "childName": "Haruspex"
+                        "childName": "巨噬獸"
                       }
                     ]
                   }
@@ -12268,7 +12268,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -12385,7 +12385,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -12424,7 +12424,7 @@
         ],
         "infoLinks": [
           {
-            "name": "匿蹤",
+            "name": "隱匿",
             "hidden": false,
             "type": "rule",
             "id": "3893-c4d3-8d4c-9e90",
@@ -12442,12 +12442,12 @@
           {
             "characteristics": [
               {
-                "$text": "當一個友方泰倫蟲族單位位於此單位 6 吋範圍內時，每當一次遠程攻擊以該單位為目標時，該單位中的模型對該次攻擊獲得掩護增益。此外，當一個友方泰倫蟲族單位（不含怪獸）位於此單位 6 吋範圍內時，該單位中的模型具有匿蹤能力。",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "name": "說明",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "此單位 6\" 內的己方泰倫蟲族單位擁有隱匿技能。"
               }
             ],
-            "name": "惡臭孢子（靈氣）",
+            "name": "航胞孢子（靈氣）",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -12730,7 +12730,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "反制",
+                        "name": "針對",
                         "id": "c47e-6d29-3a5e-585c",
                         "hidden": false,
                         "type": "rule",
@@ -12742,7 +12742,7 @@
                         "characteristics": [
                           {
                             "$text": "近戰",
-                            "name": "Range",
+                            "name": "射程",
                             "typeId": "914c-b413-91e3-a132"
                           },
                           {
@@ -12771,12 +12771,12 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "反制步兵 2+",
-                            "name": "Keywords",
+                            "$text": "針對步兵 2+",
+                            "name": "關鍵詞",
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ],
-                        "name": "毒鞭",
+                        "name": "劇毒觸鬚",
                         "typeId": "8a40-4aaa-c780-9046",
                         "typeName": "近戰武器",
                         "hidden": false,
@@ -12795,7 +12795,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "毒鞭",
+                    "name": "劇毒觸鬚",
                     "hidden": false,
                     "id": "32f5-1c15-ec16-130d",
                     "collective": true
@@ -12835,7 +12835,7 @@
                         "typeId": "bef7-942a-1a23-59f8"
                       },
                       {
-                        "name": "InSv",
+                        "name": "無敵豁免",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": ""
                       }
@@ -12890,7 +12890,7 @@
             "targetId": "c5eb-961b-14b1-ae50",
             "id": "59e4-cbcf-1a15-988a",
             "primary": false,
-            "name": "無盡群集"
+            "name": "無盡蟲潮"
           },
           {
             "targetId": "d1d8-6ae0-1be7-e9e",
@@ -12936,7 +12936,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -12945,12 +12945,12 @@
           {
             "characteristics": [
               {
-                "$text": "當此單位位於你的友方泰倫蟲族單位（不含神經蟲單位）的突觸範圍內時，此單位具有突觸關鍵字。",
-                "name": "Description",
+                "$text": "當此單位位於一個己方泰倫蟲族單位（不含神經蟲單位）的突觸範圍內時，此單位具有突觸關鍵詞。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "神經細胞體",
+            "name": "神經細胞",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -13434,7 +13434,7 @@
                         "typeId": "bef7-942a-1a23-59f8"
                       },
                       {
-                        "name": "InSv",
+                        "name": "無敵豁免",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": ""
                       }
@@ -13557,7 +13557,7 @@
                         "typeId": "bef7-942a-1a23-59f8"
                       },
                       {
-                        "name": "InSv",
+                        "name": "無敵豁免",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": ""
                       }
@@ -13790,7 +13790,42 @@
           {
             "name": "分",
             "typeId": "51b2-306e-1021-d207",
-            "value": 100
+            "value": 90
+          },
+          {
+            "name": "遠征點",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "遠征：戰鬥榮譽",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "遠征：經驗值",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "遠征：武器改造",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "黑石碎片",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "分遣隊點數",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "強化",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "modifiers": [
@@ -13823,7 +13858,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -13832,8 +13867,8 @@
           {
             "characteristics": [
               {
-                "$text": "若一個敵方單位位於此單位 6 吋範圍內，且此單位包含一個神經索普，則每當該敵方單位未通過戰鬥震懾測試時，該敵方單位會受到 D3 點致命傷害，且此單位中的一個模型恢復最多 D3 點已失去生命值。",
-                "name": "Description",
+                "$text": "若一個敵方單位位於此單位 6\" 範圍內，且此單位包含一個靈吸蟲，則每當該敵方單位的戰鬥震懾擲骰失敗時，該敵方單位遭受 D3 點致命傷，且此單位中的一個模型恢復最多 D3 點已失去的耐傷。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -13846,8 +13881,8 @@
           {
             "characteristics": [
               {
-                "$text": "當一個友方泰倫蟲族單位位於此單位 6 吋內時，該單位中的模型具有 6+ 特殊保護擲骰。",
-                "name": "Description",
+                "$text": "當一個己方泰倫蟲族單位位於此單位 6\" 內時，該單位中的模型具有 6+ 無敵豁免。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -14204,7 +14239,7 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "神經索普",
+                "name": "靈吸蟲",
                 "hidden": false,
                 "id": "f187-5924-8ec5-1c33",
                 "infoLinks": [
@@ -14217,7 +14252,7 @@
                     "modifiers": [
                       {
                         "type": "set",
-                        "value": "神經索普",
+                        "value": "靈吸蟲",
                         "field": "name"
                       }
                     ]
@@ -14225,7 +14260,7 @@
                 ]
               }
             ],
-            "name": "神經索普",
+            "name": "靈吸蟲",
             "id": "3104-5610-d101-27c1",
             "hidden": false,
             "sortIndex": 2
@@ -14392,7 +14427,7 @@
             "hidden": false
           },
           {
-            "name": "深度打擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "17e9-4bdf-1233-b7fe",
@@ -14497,7 +14532,7 @@
             "hidden": false
           },
           {
-            "name": "深度打擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "2ee8-78aa-d871-6009",
@@ -14618,7 +14653,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -14676,8 +14711,8 @@
           {
             "characteristics": [
               {
-                "$text": "在你的射擊階段，此模型射擊後，選擇一個被該次射擊中一次或多次攻擊命中的敵方單位。直到該階段結束，每當一個友方泰倫蟲族模型以該單位為目標進行攻擊時，可重擲該次命中擲骰結果中的 1。",
-                "name": "Description",
+                "$text": "在你的射擊階段，此模型射擊後，選擇一個遭該次射擊至少一次攻擊命中的敵方單位。直到該階段結束，每當一個己方泰倫蟲族模型以該單位為目標進行攻擊時，重擲結果為 1 的命中擲骰。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -14720,12 +14755,12 @@
                 "typeId": "bef7-942a-1a23-59f8"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": ""
               }
             ],
-            "name": "離子砲獸",
+            "name": "離子炮獸",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -14741,14 +14776,14 @@
                 "field": "name"
               }
             ],
-            "name": "致命毀滅",
+            "name": "致命破滅",
             "hidden": false,
             "type": "rule",
             "id": "5c62-aa98-4bd4-c8a3",
             "targetId": "b68a-5ded-65ac-98c"
           },
           {
-            "name": "受損：剩餘 1-5 點生命值",
+            "name": "受損：剩餘 1-5 點耐傷",
             "hidden": false,
             "type": "profile",
             "id": "f2a9-630e-54d2-d200",
@@ -14767,7 +14802,7 @@
             "targetId": "9693-cf84-fe69-37a9",
             "id": "b1f9-19bb-91f-88d7",
             "primary": true,
-            "name": "怪獸"
+            "name": "凶獸"
           },
           {
             "targetId": "7850-cc5a-c191-b80d",
@@ -14779,7 +14814,7 @@
             "targetId": "d52d-1fd6-4cbf-cba1",
             "id": "3fd3-dda9-3d3f-87d4",
             "primary": false,
-            "name": "離子砲獸"
+            "name": "離子炮獸"
           },
           {
             "targetId": "d1d8-6ae0-1be7-e9e",
@@ -15090,7 +15125,7 @@
                     "characteristics": [
                       {
                         "$text": "36\"",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
@@ -15120,11 +15155,11 @@
                       },
                       {
                         "$text": "爆炸，重型",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "生體電漿炮",
+                    "name": "活體等離子炮",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -15179,7 +15214,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "生體電漿炮",
+                "name": "活體等離子炮",
                 "hidden": false,
                 "id": "d8a9-d590-f7b2-2641"
               },
@@ -15209,7 +15244,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -15239,7 +15274,7 @@
                       },
                       {
                         "$text": "-",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
@@ -15275,7 +15310,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "離子砲獸",
+        "name": "離子炮獸",
         "hidden": false,
         "id": "bbfd-5b01-5bd3-a28b",
         "modifiers": [
@@ -15311,7 +15346,7 @@
                         "scope": "self",
                         "childId": "bbfd-5b01-5bd3-a28b",
                         "shared": true,
-                        "childName": "Exocrine"
+                        "childName": "離子炮獸"
                       }
                     ]
                   }
@@ -15332,7 +15367,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -15496,7 +15531,7 @@
                     "typeId": "bef7-942a-1a23-59f8"
                   },
                   {
-                    "name": "InSv",
+                    "name": "無敵豁免",
                     "typeId": "55a7-5b54-c60d-11dc",
                     "$text": ""
                   }
@@ -15575,7 +15610,7 @@
                         "characteristics": [
                           {
                             "$text": "48\"",
-                            "name": "Range",
+                            "name": "射程",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -15604,8 +15639,8 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "爆炸，毀滅傷害，重型，間接火力",
-                            "name": "Keywords",
+                            "$text": "爆炸，毀滅傷害，重型，曲射",
+                            "name": "關鍵詞",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
@@ -15639,7 +15674,7 @@
                         "targetId": "1202-10a8-78e9-4c67"
                       },
                       {
-                        "name": "間接火力",
+                        "name": "曲射",
                         "id": "1f3d-bb55-1f52-b250",
                         "hidden": false,
                         "type": "rule",
@@ -15695,7 +15730,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命毀滅",
+            "name": "致命破滅",
             "hidden": false,
             "type": "rule",
             "id": "4f05-d3cd-974b-ded3",
@@ -15713,12 +15748,12 @@
           {
             "characteristics": [
               {
-                "name": "Description",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "每回合一次，在你的射擊階段，當具有此能力的一個單位被選擇進行射擊時，該單位可啟用此能力，取代使用其遠程武器進行任何攻擊。若如此做，你可將一個新的孢子雷單位加入你的軍隊，並將其部署在完全位於此單位 48 吋內，且水平距離所有敵方單位超過 8 吋的戰場上任意位置。該孢子雷單位包含的模型數量等同於此單位目前的模型數量。"
+                "$text": "每回合一次，在你的射擊階段，當一個擁有此技能的單位被選擇進行射擊時，該單位可以使用此技能，而不是以其遠程武器進行攻擊。若如此做，你可以將一個新孢子雷單位加入你的軍隊，並將其部署在戰場上任意一個完全位於此單位 48\" 內、且與所有敵方單位水平距離超過 8\" 的位置。該孢子雷單位包含的模型數量等同於此單位目前的模型數量。"
               }
             ],
-            "name": "播撒孢子雷",
+            "name": "散布孢子雷",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -16014,7 +16049,7 @@
                 "childId": "model",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "model"
+                "childName": "模型"
               }
             ]
           },
@@ -16031,7 +16066,7 @@
                 "childId": "model",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "model"
+                "childName": "模型"
               }
             ]
           },
@@ -16048,7 +16083,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -16149,12 +16184,12 @@
                     "typeId": "bef7-942a-1a23-59f8"
                   },
                   {
-                    "name": "InSv",
+                    "name": "無敵豁免",
                     "typeId": "55a7-5b54-c60d-11dc",
                     "$text": ""
                   }
                 ],
-                "name": "劊子手",
+                "name": "劍子手",
                 "typeId": "c547-1836-d8a-ff4f",
                 "typeName": "單位",
                 "hidden": false,
@@ -16220,7 +16255,7 @@
                         "characteristics": [
                           {
                             "$text": "近戰",
-                            "name": "Range",
+                            "name": "射程",
                             "typeId": "914c-b413-91e3-a132"
                           },
                           {
@@ -16250,7 +16285,7 @@
                           },
                           {
                             "$text": "-",
-                            "name": "Keywords",
+                            "name": "關鍵詞",
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ],
@@ -16351,7 +16386,7 @@
                               }
                             ],
                             "import": true,
-                            "name": "劊子手粉碎爪",
+                            "name": "劍子手粉碎爪",
                             "hidden": false,
                             "id": "abb5-fd10-dab8-81bb",
                             "type": "selectionEntry",
@@ -16365,7 +16400,7 @@
                                 "characteristics": [
                                   {
                                     "$text": "近戰",
-                                    "name": "Range",
+                                    "name": "射程",
                                     "typeId": "914c-b413-91e3-a132"
                                   },
                                   {
@@ -16395,11 +16430,11 @@
                                   },
                                   {
                                     "$text": "-",
-                                    "name": "Keywords",
+                                    "name": "關鍵詞",
                                     "typeId": "893f-9000-ccf7-648e"
                                   }
                                 ],
-                                "name": "劊子手鐮狀利爪",
+                                "name": "劍子手鐮刀爪",
                                 "typeId": "8a40-4aaa-c780-9046",
                                 "typeName": "近戰武器",
                                 "hidden": false,
@@ -16418,12 +16453,12 @@
                             ],
                             "type": "upgrade",
                             "import": true,
-                            "name": "劊子手鐮狀利爪",
+                            "name": "劍子手鐮刀爪",
                             "hidden": false,
                             "id": "a651-932c-cad2-cfc"
                           }
                         ],
-                        "name": "劊子手鐮狀利爪",
+                        "name": "劍子手鐮刀爪",
                         "id": "7a95-2f54-7352-bd0d",
                         "hidden": false,
                         "defaultSelectionEntryId": "a651-932c-cad2-cfc",
@@ -16500,7 +16535,7 @@
                               }
                             ],
                             "import": true,
-                            "name": "劊子手粉碎爪",
+                            "name": "劍子手粉碎爪",
                             "hidden": false,
                             "id": "88b8-21cc-861b-625d",
                             "type": "selectionEntry",
@@ -16514,7 +16549,7 @@
                                 "characteristics": [
                                   {
                                     "$text": "36\"",
-                                    "name": "Range",
+                                    "name": "射程",
                                     "typeId": "9896-9419-16a1-92fc"
                                   },
                                   {
@@ -16544,7 +16579,7 @@
                                   },
                                   {
                                     "$text": "爆炸",
-                                    "name": "Keywords",
+                                    "name": "關鍵詞",
                                     "typeId": "7f1b-8591-2fcf-d01c"
                                   }
                                 ],
@@ -16595,7 +16630,7 @@
                                 "characteristics": [
                                   {
                                     "$text": "36\"",
-                                    "name": "Range",
+                                    "name": "射程",
                                     "typeId": "9896-9419-16a1-92fc"
                                   },
                                   {
@@ -16625,7 +16660,7 @@
                                   },
                                   {
                                     "$text": "爆炸",
-                                    "name": "Keywords",
+                                    "name": "關鍵詞",
                                     "typeId": "7f1b-8591-2fcf-d01c"
                                   }
                                 ],
@@ -16667,7 +16702,7 @@
                                 "characteristics": [
                                   {
                                     "$text": "近戰",
-                                    "name": "Range",
+                                    "name": "射程",
                                     "typeId": "914c-b413-91e3-a132"
                                   },
                                   {
@@ -16697,11 +16732,11 @@
                                   },
                                   {
                                     "$text": "額外攻擊",
-                                    "name": "Keywords",
+                                    "name": "關鍵詞",
                                     "typeId": "893f-9000-ccf7-648e"
                                   }
                                 ],
-                                "name": "劊子手額外鐮狀利爪",
+                                "name": "劍子手額外鐮刀爪",
                                 "typeId": "8a40-4aaa-c780-9046",
                                 "typeName": "近戰武器",
                                 "hidden": false,
@@ -16738,12 +16773,12 @@
                             ],
                             "type": "upgrade",
                             "import": true,
-                            "name": "劊子手額外鐮狀利爪",
+                            "name": "劍子手額外鐮刀爪",
                             "hidden": false,
                             "id": "8d02-ef7c-e2b-1f12"
                           }
                         ],
-                        "name": "劊子手額外鐮狀利爪",
+                        "name": "劍子手額外鐮刀爪",
                         "id": "5f3d-a52c-cd27-c5fd",
                         "hidden": false,
                         "defaultSelectionEntryId": "8d02-ef7c-e2b-1f12",
@@ -16768,7 +16803,7 @@
                             "characteristics": [
                               {
                                 "$text": "12\"",
-                                "name": "Range",
+                                "name": "射程",
                                 "typeId": "9896-9419-16a1-92fc"
                               },
                               {
@@ -16798,11 +16833,11 @@
                               },
                               {
                                 "$text": "突擊，爆炸",
-                                "name": "Keywords",
+                                "name": "關鍵詞",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ],
-                            "name": "生體電漿",
+                            "name": "活體等離子",
                             "typeId": "f77d-b953-8fa4-b762",
                             "typeName": "遠程武器",
                             "hidden": false,
@@ -16846,7 +16881,7 @@
                         ],
                         "type": "upgrade",
                         "import": true,
-                        "name": "生體電漿",
+                        "name": "活體等離子",
                         "hidden": false,
                         "id": "9f36-934c-859a-35fb",
                         "sortIndex": 1
@@ -16868,7 +16903,7 @@
                             "characteristics": [
                               {
                                 "$text": "6\"",
-                                "name": "Range",
+                                "name": "射程",
                                 "typeId": "9896-9419-16a1-92fc"
                               },
                               {
@@ -16898,7 +16933,7 @@
                               },
                               {
                                 "$text": "突擊",
-                                "name": "Keywords",
+                                "name": "關鍵詞",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ],
@@ -16960,7 +16995,7 @@
             ],
             "type": "model",
             "import": true,
-            "name": "劊子手",
+            "name": "劍子手",
             "hidden": false,
             "id": "92a2-7511-1173-a696",
             "sortIndex": 2
@@ -16975,7 +17010,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命毀滅",
+            "name": "致命破滅",
             "hidden": false,
             "type": "rule",
             "id": "3be-2160-2101-68",
@@ -16993,12 +17028,12 @@
           {
             "characteristics": [
               {
-                "name": "Description",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "在對手的射擊階段，當一個敵方單位射擊後，若此單位中的一個模型因這些攻擊而失去一點或更多生命值，則此單位可進行最多 D6+2 吋的突進移動。"
+                "$text": "在對手的射擊階段，當一個敵方單位射擊後，若此單位中有模型因該敵方單位的攻擊而失去至少 1 點耐傷，則此單位可以進行一次最多 D6+2\" 的迸發移動。"
               }
             ],
-            "name": "猛烈突擊",
+            "name": "猛烈突襲",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -17010,7 +17045,7 @@
             "targetId": "9693-cf84-fe69-37a9",
             "id": "e724-8754-ce5c-c475",
             "primary": true,
-            "name": "怪獸"
+            "name": "凶獸"
           },
           {
             "targetId": "7850-cc5a-c191-b80d",
@@ -17022,7 +17057,7 @@
             "targetId": "2070-d263-505a-48cc",
             "id": "8395-2660-93a6-17dd",
             "primary": false,
-            "name": "劊子手"
+            "name": "劍子手"
           },
           {
             "targetId": "d1d8-6ae0-1be7-e9e",
@@ -17261,7 +17296,7 @@
         ],
         "type": "unit",
         "import": true,
-        "name": "劊子手",
+        "name": "劍子手",
         "hidden": false,
         "id": "9efd-5564-f0f5-21ea",
         "modifiers": [
@@ -17278,7 +17313,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -17290,7 +17325,7 @@
             "characteristics": [
               {
                 "$text": "24\"",
-                "name": "Range",
+                "name": "射程",
                 "typeId": "9896-9419-16a1-92fc"
               },
               {
@@ -17320,7 +17355,7 @@
               },
               {
                 "$text": "-",
-                "name": "Keywords",
+                "name": "關鍵詞",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
@@ -17343,7 +17378,7 @@
             "characteristics": [
               {
                 "$text": "18\"",
-                "name": "Range",
+                "name": "射程",
                 "typeId": "9896-9419-16a1-92fc"
               },
               {
@@ -17373,7 +17408,7 @@
               },
               {
                 "$text": "-",
-                "name": "Keywords",
+                "name": "關鍵詞",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
@@ -17396,7 +17431,7 @@
             "characteristics": [
               {
                 "$text": "近戰",
-                "name": "Range",
+                "name": "射程",
                 "typeId": "914c-b413-91e3-a132"
               },
               {
@@ -17426,11 +17461,11 @@
               },
               {
                 "$text": "-",
-                "name": "Keywords",
+                "name": "關鍵詞",
                 "typeId": "893f-9000-ccf7-648e"
               }
             ],
-            "name": "劊子手粉碎爪",
+            "name": "劍子手粉碎爪",
             "typeId": "8a40-4aaa-c780-9046",
             "typeName": "近戰武器",
             "hidden": false,
@@ -17439,7 +17474,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "劊子手粉碎爪",
+        "name": "劍子手粉碎爪",
         "hidden": false,
         "id": "9f9-fe82-ea19-7304"
       },
@@ -17516,7 +17551,7 @@
                 "typeId": "bef7-942a-1a23-59f8"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": ""
               }
@@ -17530,8 +17565,8 @@
           {
             "characteristics": [
               {
-                "$text": "在你的射擊階段，此模型射擊後，選擇一個被該次射擊的一次或多次攻擊命中的單位。該單位必須進行戰鬥震懾測試，且該測試承受 -1 修正。",
-                "name": "Description",
+                "$text": "在你的射擊階段，此模型射擊後，選擇一個遭該次射擊至少一次攻擊命中的單位。該單位必須進行戰鬥震懾擲骰，且該次擲骰結果減 1。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -17551,7 +17586,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命毀滅",
+            "name": "致命破滅",
             "hidden": false,
             "type": "rule",
             "id": "c87b-6fe4-6f54-fbe7",
@@ -17570,7 +17605,7 @@
             "targetId": "9693-cf84-fe69-37a9",
             "id": "de69-b3b8-41e9-cf41",
             "primary": true,
-            "name": "怪獸"
+            "name": "凶獸"
           },
           {
             "targetId": "7850-cc5a-c191-b80d",
@@ -17860,7 +17895,7 @@
                     "characteristics": [
                       {
                         "$text": "18\"",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
@@ -17890,11 +17925,11 @@
                       },
                       {
                         "$text": "突擊，爆炸",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "生體電漿尖嘯",
+                    "name": "活體等離子尖嘯",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -17949,7 +17984,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "生體電漿尖嘯",
+                "name": "活體等離子尖嘯",
                 "hidden": false,
                 "id": "e02b-2fde-1ec3-28a1"
               },
@@ -17959,7 +17994,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -17989,7 +18024,7 @@
                       },
                       {
                         "$text": "-",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
@@ -18081,7 +18116,7 @@
                         "scope": "self",
                         "childId": "8e53-d4a-a69f-e71d",
                         "shared": true,
-                        "childName": "Screamer-killer"
+                        "childName": "尖嘯殺手"
                       }
                     ]
                   }
@@ -18102,7 +18137,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -18195,7 +18230,7 @@
                         "scope": "self",
                         "childId": "ac7a-2560-c083-45b8",
                         "shared": true,
-                        "childName": "Hive Guard"
+                        "childName": "蟲巢護衛"
                       }
                     ]
                   }
@@ -18216,7 +18251,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -18268,7 +18303,7 @@
             "characteristics": [
               {
                 "$text": "每當你以此單位為目標使用監視射擊計謀時，在結算該計謀期間，未修正命中擲骰結果為 5+ 即造成命中；若此單位位於你控制的一個目標標記的範圍內，則改為未修正命中擲骰結果為 4+ 即造成命中。",
-                "name": "Description",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -18372,7 +18407,7 @@
                         "typeId": "bef7-942a-1a23-59f8"
                       },
                       {
-                        "name": "InSv",
+                        "name": "無敵豁免",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": ""
                       }
@@ -18391,7 +18426,7 @@
                         "characteristics": [
                           {
                             "$text": "24\"",
-                            "name": "Range",
+                            "name": "射程",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -18420,8 +18455,8 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "反制載具 2+",
-                            "name": "Keywords",
+                            "$text": "針對載具 2+",
+                            "name": "關鍵詞",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
@@ -18434,7 +18469,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "反制",
+                        "name": "針對",
                         "hidden": false,
                         "type": "rule",
                         "id": "f0f9-4bd6-953b-6185",
@@ -18569,7 +18604,7 @@
                         "typeId": "bef7-942a-1a23-59f8"
                       },
                       {
-                        "name": "InSv",
+                        "name": "無敵豁免",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": ""
                       }
@@ -18588,7 +18623,7 @@
                         "characteristics": [
                           {
                             "$text": "36\"",
-                            "name": "Range",
+                            "name": "射程",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -18617,8 +18652,8 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "重型，間接火力",
-                            "name": "Keywords",
+                            "$text": "重型，曲射",
+                            "name": "關鍵詞",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
@@ -18638,7 +18673,7 @@
                         "targetId": "1202-10a8-78e9-4c67"
                       },
                       {
-                        "name": "間接火力",
+                        "name": "曲射",
                         "hidden": false,
                         "type": "rule",
                         "id": "a461-29bf-3ea0-a140",
@@ -18984,7 +19019,7 @@
             "targetId": "9693-cf84-fe69-37a9",
             "id": "c256-c89d-e02d-4c41",
             "primary": true,
-            "name": "怪獸"
+            "name": "凶獸"
           },
           {
             "targetId": "7850-cc5a-c191-b80d",
@@ -19077,7 +19112,7 @@
                 "typeId": "bef7-942a-1a23-59f8"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": ""
               }
@@ -19091,8 +19126,8 @@
           {
             "characteristics": [
               {
-                "$text": "每場戰鬥一次，當一次攻擊被分配給此模型時，你可將該攻擊的傷害屬性改為 0。",
-                "name": "Description",
+                "$text": "每場戰鬥一次，當一次攻擊被分配給此模型時，你可以將該攻擊的傷害屬性改為 0。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -19105,7 +19140,7 @@
         ],
         "infoLinks": [
           {
-            "name": "受損：剩餘 1-5 點生命值",
+            "name": "受損：剩餘 1-5 點耐傷",
             "hidden": false,
             "type": "profile",
             "id": "4d0e-4016-4ea5-7dff",
@@ -19119,7 +19154,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命毀滅",
+            "name": "致命破滅",
             "hidden": false,
             "type": "rule",
             "id": "d5b6-ccb5-77dd-51f8",
@@ -19142,7 +19177,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -19172,7 +19207,7 @@
                       },
                       {
                         "$text": "-",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
@@ -19292,30 +19327,6 @@
                         "import": true,
                         "name": "武器改造",
                         "hidden": false,
-                        "id": "6da4-d899-33ea-3d6f",
-                        "type": "selectionEntryGroup",
-                        "targetId": "f9da-852a-d7f0-92e9"
-                      }
-                    ],
-                    "targetId": "e4bc-cc82-fb71-3b6d",
-                    "id": "d262-4214-141c-9a25",
-                    "type": "selectionEntry",
-                    "name": "破裂炮",
-                    "hidden": false,
-                    "costs": [
-                      {
-                        "name": "分",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 20
-                      }
-                    ]
-                  },
-                  {
-                    "entryLinks": [
-                      {
-                        "import": true,
-                        "name": "武器改造",
-                        "hidden": false,
                         "id": "bea6-3109-cd81-497f",
                         "type": "selectionEntryGroup",
                         "targetId": "f9da-852a-d7f0-92e9"
@@ -19324,7 +19335,7 @@
                     "targetId": "5a91-5299-277-82a9",
                     "id": "01d2-b6bd-7d9c-5564",
                     "type": "selectionEntry",
-                    "name": "血肉鑽槍巢",
+                    "name": "蝕肉槍巢",
                     "hidden": false
                   },
                   {
@@ -19352,10 +19363,135 @@
                     ]
                   }
                 ],
-                "name": "血肉鑽槍巢",
+                "name": "蝕肉槍巢",
                 "id": "5e-6218-175-3b8d",
                 "hidden": false,
-                "defaultSelectionEntryId": "5a91-5299-277-82a9"
+                "defaultSelectionEntryId": "5a91-5299-277-82a9",
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "破裂炮",
+                    "hidden": false,
+                    "id": "e4bc-cc82-fb71-3b6d",
+                    "profiles": [
+                      {
+                        "name": "破裂炮",
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "遠程武器",
+                        "hidden": false,
+                        "id": "3040-2e2-ec95-592d",
+                        "characteristics": [
+                          {
+                            "name": "射程",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "48\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "2"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "18"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-4"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "D6+6"
+                          },
+                          {
+                            "name": "關鍵詞",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "重型"
+                          }
+                        ]
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "name": "重型",
+                        "id": "bd3d-eeda-9f0d-7a42",
+                        "hidden": false,
+                        "type": "rule",
+                        "targetId": "1202-10a8-78e9-4c67"
+                      }
+                    ],
+                    "categoryLinks": [
+                      {
+                        "name": "遠程武器",
+                        "hidden": false,
+                        "id": "2b02-4e89-b8e7-1edc",
+                        "targetId": "eeda-8544-a2f3-3fab",
+                        "primary": false
+                      }
+                    ],
+                    "entryLinks": [
+                      {
+                        "import": true,
+                        "name": "武器改造",
+                        "hidden": false,
+                        "id": "6da4-d899-33ea-3d6f",
+                        "type": "selectionEntryGroup",
+                        "targetId": "f9da-852a-d7f0-92e9"
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "分",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 20
+                      },
+                      {
+                        "name": "遠征點",
+                        "typeId": "b03b-c239-15a5-da55",
+                        "value": 0
+                      },
+                      {
+                        "name": "遠征：戰鬥榮譽",
+                        "typeId": "75bb-ded1-c86d-bdf0",
+                        "value": 0
+                      },
+                      {
+                        "name": "遠征：經驗值",
+                        "typeId": "a623-fe74-1d33-cddf",
+                        "value": 0
+                      },
+                      {
+                        "name": "遠征：武器改造",
+                        "typeId": "716d-91b7-d55a-1022",
+                        "value": 0
+                      },
+                      {
+                        "name": "黑石碎片",
+                        "typeId": "ac6b-ced3-9b5e-9a6e",
+                        "value": 0
+                      },
+                      {
+                        "name": "分遣隊點數",
+                        "typeId": "82ae-1066-5107-6ae0",
+                        "value": 0
+                      },
+                      {
+                        "name": "強化",
+                        "typeId": "f759-1bc4-cb3a-f0d2",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "name": "裝備",
@@ -19672,7 +19808,7 @@
                         "scope": "self",
                         "childId": "1705-379b-330d-36d4",
                         "shared": true,
-                        "childName": "Tyrannofex"
+                        "childName": "暴虐獸"
                       }
                     ]
                   }
@@ -19693,7 +19829,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -19705,13 +19841,13 @@
             "targetId": "63f1-e6e8-f6f6-a4f0",
             "id": "8c44-f439-c3b6-820c",
             "primary": false,
-            "name": "航空器"
+            "name": "飛行器"
           },
           {
             "targetId": "9693-cf84-fe69-37a9",
             "id": "cf64-4514-f72-d1e8",
             "primary": true,
-            "name": "怪獸"
+            "name": "凶獸"
           },
           {
             "targetId": "c619-2086-bbcf-69c9",
@@ -19741,7 +19877,7 @@
             "targetId": "5ff0-d52d-e2b8-9de",
             "id": "da0-8fd9-a996-8a1e",
             "primary": false,
-            "name": "先鋒入侵者"
+            "name": "入侵先鋒"
           }
         ],
         "constraints": [
@@ -19816,7 +19952,7 @@
                 "$text": "-"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": ""
               }
@@ -19830,8 +19966,8 @@
           {
             "characteristics": [
               {
-                "$text": "每當此模型進行遠程攻擊，且目標為具有飛行關鍵字的單位時，該次命中擲骰加 1。",
-                "name": "Description",
+                "$text": "每當此模型進行遠程攻擊，且目標為具有飛行關鍵詞的單位時，該次命中擲骰加 1。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -19858,7 +19994,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命毀滅",
+            "name": "致命破滅",
             "hidden": false,
             "type": "rule",
             "id": "2f65-f7f2-5245-4345",
@@ -20180,7 +20316,7 @@
                     "characteristics": [
                       {
                         "$text": "12\"",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
@@ -20210,7 +20346,7 @@
                       },
                       {
                         "$text": "洪流",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
@@ -20269,7 +20405,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "反制",
+                    "name": "針對",
                     "id": "de0e-f1b8-d93a-18ed",
                     "hidden": false,
                     "type": "rule",
@@ -20288,7 +20424,7 @@
                     "characteristics": [
                       {
                         "$text": "36\"",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
@@ -20317,8 +20453,8 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "反制載具 4+，毀滅傷害",
-                        "name": "Keywords",
+                        "$text": "針對載具 4+，毀滅傷害",
+                        "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
@@ -20369,7 +20505,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -20398,12 +20534,12 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "反制飛行 2+，額外攻擊",
-                        "name": "Keywords",
+                        "$text": "針對飛行 2+，額外攻擊",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "胸腔棘刺",
+                    "name": "胸骨刺",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -20412,7 +20548,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "反制",
+                    "name": "針對",
                     "id": "6411-fa23-82f1-251e",
                     "hidden": false,
                     "type": "rule",
@@ -20454,7 +20590,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "胸腔棘刺",
+                "name": "胸骨刺",
                 "hidden": false,
                 "id": "ac83-180d-b9e4-1f4d"
               }
@@ -20567,7 +20703,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -20634,7 +20770,7 @@
             "targetId": "9693-cf84-fe69-37a9",
             "id": "864b-286c-6496-ca4f",
             "primary": true,
-            "name": "怪獸"
+            "name": "凶獸"
           },
           {
             "targetId": "c619-2086-bbcf-69c9",
@@ -20646,7 +20782,7 @@
             "targetId": "63f1-e6e8-f6f6-a4f0",
             "id": "cc29-cd99-2f01-4c6b",
             "primary": false,
-            "name": "航空器"
+            "name": "飛行器"
           },
           {
             "targetId": "7850-cc5a-c191-b80d",
@@ -20664,16 +20800,16 @@
             "targetId": "5ff0-d52d-e2b8-9de",
             "id": "479d-a85-8390-21d9",
             "primary": false,
-            "name": "先鋒入侵者"
+            "name": "入侵先鋒"
           }
         ],
         "profiles": [
           {
             "characteristics": [
               {
-                "name": "Description",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "在對手的戰鬥階段結束時，你可執行以下其中一項：\n- 選擇一個位於此單位 24 吋內且此單位可見的敵方單位（不含孤狼行動者單位），並為該單位擲 6 個 D6：每個 3+ 的結果會使該單位受到 1 點致命傷害。\n- 將一個包含 D3 個模型的新孢子雷單位加入你的軍隊，並將其部署在戰場上任意位置；該位置必須位於此模型 6 吋內，且水平距離所有敵方單位超過 8 吋。每回合不能為超過一個模型選擇此選項。"
+                "$text": "在對手的近戰階段結束時，選擇以下一項：\n▪ 選擇此單位 24\" 內一個可見的敵方單位（獨行特工單位除外），為該單位擲六顆 D6：每有一顆擲骰結果為 3+，該單位遭受 1 點致命傷。\n▪ 將一個包含 D3 個模型的新孢子雷單位加入你的軍隊，並將其部署在戰場上任意一個位於此模型 6\" 內、且與所有敵方單位水平距離超過 8\" 的位置。每回合最多只能有一個模型選擇此選項。"
               }
             ],
             "name": "孢子雷囊",
@@ -20715,7 +20851,7 @@
                 "$text": "-"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": ""
               }
@@ -20758,7 +20894,7 @@
                         "characteristics": [
                           {
                             "$text": "36\"",
-                            "name": "Range",
+                            "name": "射程",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -20788,7 +20924,7 @@
                           },
                           {
                             "$text": "爆炸，雙聯",
-                            "name": "Keywords",
+                            "name": "關鍵詞",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
@@ -20837,7 +20973,7 @@
                         "characteristics": [
                           {
                             "$text": "36\"",
-                            "name": "Range",
+                            "name": "射程",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -20867,7 +21003,7 @@
                           },
                           {
                             "$text": "爆炸，雙聯",
-                            "name": "Keywords",
+                            "name": "關鍵詞",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
@@ -21025,7 +21161,7 @@
               }
             ],
             "id": "7ca-dd0d-45fd-b2e1",
-            "name": "致命毀滅",
+            "name": "致命破滅",
             "hidden": false,
             "targetId": "b68a-5ded-65ac-98c",
             "type": "rule"
@@ -21323,7 +21459,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -21335,7 +21471,7 @@
             "characteristics": [
               {
                 "$text": "近戰",
-                "name": "Range",
+                "name": "射程",
                 "typeId": "914c-b413-91e3-a132"
               },
               {
@@ -21365,7 +21501,7 @@
               },
               {
                 "$text": "-",
-                "name": "Keywords",
+                "name": "關鍵詞",
                 "typeId": "893f-9000-ccf7-648e"
               }
             ],
@@ -21455,12 +21591,12 @@
                 "typeId": "bef7-942a-1a23-59f8"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": ""
               }
             ],
-            "name": "孢囊要塞",
+            "name": "孢子要塞",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -21469,12 +21605,12 @@
           {
             "characteristics": [
               {
-                "name": "Description",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "每回合一次，在你的射擊階段，當具有此能力的一個單位被選擇進行射擊時，該單位可啟用此能力，取代使用其遠程武器進行任何攻擊。若如此做，你可將一個新的黏液孢子單位加入你的軍隊，該單位包含 1 個模型，並將其部署在完全位於此模型 18 吋內，且水平距離所有敵方單位超過 8 吋的戰場上任意位置。"
+                "$text": "每回合一次，在你的射擊階段，當一個擁有此技能的單位被選擇進行射擊時，該單位可以使用此技能，而不是以其遠程武器進行攻擊。若如此做，你可以將一個包含 1 個模型的新黏液孢子單位加入你的軍隊，並將其部署在戰場上任意一個完全位於此模型 18\" 內、且與所有敵方單位水平距離超過 8\" 的位置。"
               }
             ],
-            "name": "播撒黏液孢子",
+            "name": "播種黏液",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -21483,8 +21619,8 @@
           {
             "characteristics": [
               {
-                "$text": "你可花費 0 點指揮點，將此模型選為監視射擊計謀的目標；即使你本回合已經將另一個不同單位選為該計謀的目標，仍可如此做。此模型每回合只能被該計謀選為目標一次。",
-                "name": "Description",
+                "$text": "你可以花費 0 點指揮點數，將此模型選為監視射擊計謀的目標；即使你本回合已經將另一個不同單位選為該計謀的目標，仍可如此做。此模型每回合只能被該計謀選為目標一次。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -21504,7 +21640,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命毀滅",
+            "name": "致命破滅",
             "hidden": false,
             "type": "rule",
             "id": "6692-883a-b0c2-f7ba",
@@ -21523,13 +21659,13 @@
             "targetId": "9693-cf84-fe69-37a9",
             "id": "b33d-55d7-f753-c33e",
             "primary": true,
-            "name": "怪獸"
+            "name": "凶獸"
           },
           {
             "targetId": "37-442e-b3d4-98aa",
             "id": "c3c5-7379-2cee-7839",
             "primary": false,
-            "name": "孢囊要塞"
+            "name": "孢子要塞"
           },
           {
             "targetId": "7850-cc5a-c191-b80d",
@@ -21808,7 +21944,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -21838,11 +21974,11 @@
                       },
                       {
                         "$text": "-",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "剝肉鞭",
+                    "name": "抽擊鞭",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -21861,7 +21997,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "剝肉鞭",
+                "name": "抽擊鞭",
                 "hidden": false,
                 "id": "12e6-c37b-5d71-7eaf"
               },
@@ -21891,7 +22027,7 @@
                     "characteristics": [
                       {
                         "$text": "24\"",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
@@ -21921,11 +22057,11 @@
                       },
                       {
                         "$text": "蟲巢防禦",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "孢囊要塞生體武器",
+                    "name": "孢子要塞活體武器",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -21944,7 +22080,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "孢囊要塞生體武器",
+                "name": "孢子要塞活體武器",
                 "hidden": false,
                 "id": "f341-b48f-4d59-8e51"
               }
@@ -21957,7 +22093,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "孢囊要塞",
+        "name": "孢子要塞",
         "hidden": false,
         "id": "2cdd-3bf1-55e0-7641",
         "modifiers": [
@@ -21974,7 +22110,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -22053,7 +22189,7 @@
                 "typeId": "bef7-942a-1a23-59f8"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": ""
               }
@@ -22067,12 +22203,12 @@
           {
             "characteristics": [
               {
-                "name": "Description",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "在你的射擊階段，此模型射擊後，選擇一個被該次射擊中一次或多次攻擊命中的敵方單位。直到該回合結束，每當一個友方泰倫蟲族單位以該敵方單位為目標進行近戰攻擊時，該次攻擊的穿甲屬性改善 1。每個敵方單位每回合只能受到此能力影響一次。"
+                "$text": "在你的射擊階段，此模型射擊後，選擇一個遭該次射擊至少一次攻擊命中的敵方單位。直到該回合結束，每當一個己方泰倫蟲族單位以該敵方單位為目標進行近戰攻擊時，該次攻擊的護甲穿透屬性提高 1。同一敵方單位每回合只能受此技能影響一次。"
               }
             ],
-            "name": "生體刺激",
+            "name": "生物刺激",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -22081,8 +22217,8 @@
           {
             "characteristics": [
               {
-                "$text": "每當此模型進行近戰攻擊且目標單位低於其初始兵力時，該次命中擲骰加 1。若該目標也低於半數兵力，則該次致傷擲骰也加 1。",
-                "name": "Description",
+                "$text": "每當此模型進行近戰攻擊且目標單位低於其起始兵力時，該次命中擲骰加 1。若該目標也低於半數兵力，則該次致傷擲骰也加 1。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -22102,7 +22238,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命毀滅",
+            "name": "致命破滅",
             "hidden": false,
             "type": "rule",
             "id": "3e12-eda5-4f34-a234",
@@ -22123,7 +22259,7 @@
                 "field": "name"
               }
             ],
-            "name": "無視傷痛",
+            "name": "不覺疼痛",
             "id": "6b0b-4942-06bb-37fc",
             "hidden": false,
             "type": "rule",
@@ -22135,7 +22271,7 @@
             "targetId": "9693-cf84-fe69-37a9",
             "id": "4595-c2d1-3255-fdf7",
             "primary": true,
-            "name": "怪獸"
+            "name": "凶獸"
           },
           {
             "targetId": "7850-cc5a-c191-b80d",
@@ -22453,7 +22589,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -22482,12 +22618,12 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "反制靈能者 4+，毀滅傷害",
-                        "name": "Keywords",
+                        "$text": "針對靈能者 4+，毀滅傷害",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "鐮爪與觸鬚巨口",
+                    "name": "利爪與觸手武器",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -22496,7 +22632,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "反制",
+                    "name": "針對",
                     "id": "8d31-90c2-97a5-bba9",
                     "hidden": false,
                     "type": "rule",
@@ -22522,7 +22658,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "鐮爪與觸鬚巨口",
+                "name": "利爪與觸手武器",
                 "hidden": false,
                 "id": "9edf-e542-77fa-e4c2"
               }
@@ -22591,7 +22727,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -22718,7 +22854,7 @@
                     "typeId": "bef7-942a-1a23-59f8"
                   },
                   {
-                    "name": "InSv",
+                    "name": "無敵豁免",
                     "typeId": "55a7-5b54-c60d-11dc",
                     "$text": ""
                   }
@@ -22757,7 +22893,7 @@
                         "characteristics": [
                           {
                             "$text": "24\"",
-                            "name": "Range",
+                            "name": "射程",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -22787,11 +22923,11 @@
                           },
                           {
                             "$text": "爆炸，重型",
-                            "name": "Keywords",
+                            "name": "關鍵詞",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
-                        "name": "倒刺發射器",
+                        "name": "活體生物發射器",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "遠程武器",
                         "hidden": false,
@@ -22835,7 +22971,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "倒刺發射器",
+                    "name": "活體生物發射器",
                     "hidden": false,
                     "id": "ca62-b3d7-75d-82fc",
                     "collective": true
@@ -22864,7 +23000,7 @@
                         "characteristics": [
                           {
                             "$text": "近戰",
-                            "name": "Range",
+                            "name": "射程",
                             "typeId": "914c-b413-91e3-a132"
                           },
                           {
@@ -22894,7 +23030,7 @@
                           },
                           {
                             "$text": "-",
-                            "name": "Keywords",
+                            "name": "關鍵詞",
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ],
@@ -22940,8 +23076,8 @@
           {
             "characteristics": [
               {
-                "$text": "在你的射擊階段，此單位射擊後，選擇一個被該次射擊的一次或多次攻擊命中的敵方步兵單位。直到對手的下一個回合結束前，該敵方單位受到擾亂。當一個單位受到擾亂時，其移動屬性減 2，且為該單位進行推進擲骰和衝鋒擲骰時，擲骰結果均承受 -2 修正。",
-                "name": "Description",
+                "$text": "在你的射擊階段，此單位射擊後，選擇一個遭該次射擊至少一次攻擊命中的敵方步兵單位。直到對手下一個回合結束，該敵方單位進入擾亂狀態。當一個單位處於擾亂狀態時，其移動屬性減 2，且為該單位進行突進擲骰和衝鋒擲骰時，擲骰結果均減 2。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -22990,7 +23126,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -23323,7 +23459,7 @@
             "targetId": "9693-cf84-fe69-37a9",
             "id": "3a89-cf75-9981-73da",
             "primary": true,
-            "name": "怪獸"
+            "name": "凶獸"
           },
           {
             "targetId": "7850-cc5a-c191-b80d",
@@ -23335,7 +23471,7 @@
             "targetId": "4c30-3dbf-b2b7-3a7",
             "id": "5910-ad1f-d05d-f710",
             "primary": false,
-            "name": "倒鉤蟲嗣"
+            "name": "利刺聖役獸"
           },
           {
             "name": "骨架",
@@ -23354,14 +23490,14 @@
                 "field": "name"
               }
             ],
-            "name": "致命毀滅",
+            "name": "致命破滅",
             "hidden": false,
             "type": "rule",
             "id": "9e8a-6872-e97f-4812",
             "targetId": "b68a-5ded-65ac-98c"
           },
           {
-            "name": "受損：剩餘 1-6 點生命值",
+            "name": "受損：剩餘 1-6 點耐傷",
             "hidden": false,
             "type": "profile",
             "id": "eb36-da06-6f49-8b33",
@@ -23402,12 +23538,12 @@
                 "typeId": "bef7-942a-1a23-59f8"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": ""
               }
             ],
-            "name": "倒鉤蟲嗣",
+            "name": "利刺聖役獸",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -23416,8 +23552,8 @@
           {
             "characteristics": [
               {
-                "$text": "在你的射擊階段，此模型射擊後，選擇一個被該次射擊中一次或多次攻擊命中的敵方單位（不含泰坦級單位）。直到你的下一個回合開始前，若此模型仍位於戰場上，該敵方單位受到壓制。當一個單位受到壓制時，每當該單位中的一個模型進行攻擊時，該次命中擲骰減 1。",
-                "name": "Description",
+                "$text": "在你的射擊階段，此模型射擊後，選擇一個遭該次射擊至少一次攻擊命中的敵方單位（不含巨型單位）。直到你下一個回合開始，若此模型仍位於戰場上，該敵方單位進入壓制狀態。當一個單位處於壓制狀態時，每當該單位中的一個模型進行攻擊時，該次命中擲骰減 1。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -23498,7 +23634,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -23758,7 +23894,7 @@
                     "characteristics": [
                       {
                         "$text": "48\"",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
@@ -23788,7 +23924,7 @@
                       },
                       {
                         "$text": "爆炸",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
@@ -23848,7 +23984,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -23878,11 +24014,11 @@
                       },
                       {
                         "$text": "-",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "蟲嗣鐮狀利爪",
+                    "name": "聖役獸鐮刀爪",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -23901,7 +24037,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "蟲嗣鐮狀利爪",
+                "name": "聖役獸鐮刀爪",
                 "hidden": false,
                 "id": "ae36-f62b-6df6-edac"
               }
@@ -23914,7 +24050,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "倒鉤蟲嗣［傳奇］",
+        "name": "利刺聖役獸［傳奇］",
         "hidden": false,
         "id": "afd0-a0ca-68c3-d912"
       },
@@ -23937,7 +24073,7 @@
             "targetId": "9693-cf84-fe69-37a9",
             "id": "40bf-e0d7-e9e1-92e",
             "primary": true,
-            "name": "怪獸"
+            "name": "凶獸"
           },
           {
             "targetId": "7850-cc5a-c191-b80d",
@@ -23949,7 +24085,7 @@
             "targetId": "88c0-f898-8500-5639",
             "id": "fd5d-8380-cbc8-4127",
             "primary": false,
-            "name": "鐮爪蟲嗣"
+            "name": "鐮爪聖役獸"
           },
           {
             "name": "骨架",
@@ -23961,7 +24097,7 @@
         ],
         "infoLinks": [
           {
-            "name": "受損：剩餘 1-6 點生命值",
+            "name": "受損：剩餘 1-6 點耐傷",
             "hidden": false,
             "type": "profile",
             "id": "1c7d-b200-d07b-cafd",
@@ -23975,7 +24111,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命毀滅",
+            "name": "致命破滅",
             "hidden": false,
             "type": "rule",
             "id": "bb8a-1f09-b2b-e1bc",
@@ -24016,12 +24152,12 @@
                 "typeId": "bef7-942a-1a23-59f8"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": ""
               }
             ],
-            "name": "鐮爪蟲嗣",
+            "name": "鐮爪聖役獸",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -24030,8 +24166,8 @@
           {
             "characteristics": [
               {
-                "$text": "此模型在執行撤退的回合中仍有資格宣告衝鋒。",
-                "name": "Description",
+                "$text": "此模型即使在本回合後撤，仍可以宣告衝鋒。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -24112,7 +24248,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -24372,7 +24508,7 @@
                     "characteristics": [
                       {
                         "$text": "18\"",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
@@ -24402,7 +24538,7 @@
                       },
                       {
                         "$text": "洪流",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
@@ -24471,7 +24607,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -24501,11 +24637,11 @@
                       },
                       {
                         "$text": "-",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "蟲嗣鐮狀利爪",
+                    "name": "聖役獸鐮刀爪",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -24524,7 +24660,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "蟲嗣鐮狀利爪",
+                "name": "聖役獸鐮刀爪",
                 "hidden": false,
                 "id": "fd4c-4550-3b90-4608"
               }
@@ -24537,7 +24673,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "鐮爪蟲嗣［傳奇］",
+        "name": "鐮爪聖役獸［傳奇］",
         "hidden": false,
         "id": "218c-639e-22e0-59ce"
       },
@@ -24560,13 +24696,13 @@
             "targetId": "9693-cf84-fe69-37a9",
             "id": "9cff-b910-4160-f4f1",
             "primary": true,
-            "name": "怪獸"
+            "name": "凶獸"
           },
           {
             "targetId": "5929-ad51-d006-e008",
             "id": "eaaa-8724-ba79-adaa",
             "primary": false,
-            "name": "泰坦級"
+            "name": "巨型"
           },
           {
             "targetId": "c619-2086-bbcf-69c9",
@@ -24578,7 +24714,7 @@
             "targetId": "75e8-57c4-40e3-1817",
             "id": "3e10-d632-a5cb-ec48",
             "primary": false,
-            "name": "運輸"
+            "name": "運輸工具"
           },
           {
             "targetId": "7850-cc5a-c191-b80d",
@@ -24609,7 +24745,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命毀滅",
+            "name": "致命破滅",
             "hidden": false,
             "type": "rule",
             "id": "bfe2-e63c-249f-5caa",
@@ -24664,7 +24800,7 @@
                 "$text": "0"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": ""
               }
@@ -24678,12 +24814,12 @@
           {
             "characteristics": [
               {
-                "$text": "當此模型剩餘 1-10 點生命值時，每當此模型進行攻擊時，該次命中擲骰減 1。",
-                "name": "Description",
+                "$text": "當此模型剩餘 1-10 點耐傷時，每當此模型進行攻擊時，該次命中擲骰減 1。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "受損：剩餘 1-10 點生命值",
+            "name": "受損：剩餘 1-10 點耐傷",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -24692,8 +24828,8 @@
           {
             "characteristics": [
               {
-                "$text": "每當此模型被選擇進行射擊時，你可啟用此能力。若如此做，直到該階段結束，每當此模型進行攻擊時，該次致傷擲骰加 1。完成這些攻擊的結算後，擲一個 D6：若結果為 2+，此模型受到 D3 點致命傷害。",
-                "name": "Description",
+                "$text": "每當此模型被選擇進行射擊時，你可以使用此技能。若如此做，直到該階段結束，每當此模型進行攻擊時，該次致傷擲骰加 1。完成這些攻擊的結算後，擲一顆 D6：若結果為 2+，此模型遭受 D3 點致命傷。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -24706,14 +24842,14 @@
           {
             "characteristics": [
               {
-                "$text": "此模型具有 20 個石像蟲模型與 1 個有翼泰倫王蟲模型的運輸容量。",
-                "name": "Capacity",
+                "$text": "此模型具有 20 個石像鬼模型與 1 個有翼泰倫王蟲模型的運輸容量。",
+                "name": "容量",
                 "typeId": "30f2-be70-861d-1b84"
               }
             ],
             "name": "悍嫗獸",
             "typeId": "74f8-5443-9d6d-1f1e",
-            "typeName": "運輸",
+            "typeName": "運輸工具",
             "hidden": false,
             "id": "f7ae-d1e5-c7e4-386f"
           }
@@ -25011,7 +25147,7 @@
                     "characteristics": [
                       {
                         "$text": "48\"",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
@@ -25041,7 +25177,7 @@
                       },
                       {
                         "$text": "爆炸",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
@@ -25101,7 +25237,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -25131,11 +25267,11 @@
                       },
                       {
                         "$text": "-",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "巨像鐮狀利爪",
+                    "name": "巨像鐮刀爪",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -25163,7 +25299,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "巨像鐮狀利爪",
+                "name": "巨像鐮刀爪",
                 "hidden": false,
                 "id": "aca-e888-a5af-389e"
               }
@@ -25212,7 +25348,7 @@
                         "scope": "self",
                         "childId": "9b5c-3b5a-1f80-9a74",
                         "shared": true,
-                        "childName": "Harridan"
+                        "childName": "悍嫗獸"
                       }
                     ]
                   }
@@ -25233,7 +25369,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -25258,13 +25394,13 @@
             "targetId": "9693-cf84-fe69-37a9",
             "id": "8a44-267c-9ca8-4a0d",
             "primary": true,
-            "name": "怪獸"
+            "name": "凶獸"
           },
           {
             "targetId": "5929-ad51-d006-e008",
             "id": "9314-d5f-62c1-4ce6",
             "primary": false,
-            "name": "泰坦級"
+            "name": "巨型"
           },
           {
             "targetId": "d666-e2c9-b6cc-5716",
@@ -25276,7 +25412,7 @@
             "targetId": "75e8-57c4-40e3-1817",
             "id": "6825-4330-937a-662a",
             "primary": false,
-            "name": "運輸"
+            "name": "運輸工具"
           },
           {
             "targetId": "7850-cc5a-c191-b80d",
@@ -25307,7 +25443,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命毀滅",
+            "name": "致命破滅",
             "hidden": false,
             "type": "rule",
             "id": "2ff0-d1ea-5d20-8818",
@@ -25325,12 +25461,12 @@
           {
             "characteristics": [
               {
-                "$text": "當此模型剩餘 1-10 點生命值時，此模型的目標控制值屬性減 6，且每當此模型進行攻擊時，該次命中擲骰承受 -1 修正。",
-                "name": "Description",
+                "$text": "當此模型剩餘 1-10 點耐傷時，此模型的目標控制屬性減 6，且每當此模型進行攻擊時，該次命中擲骰減 1。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "受損：剩餘 1-10 點生命值",
+            "name": "受損：剩餘 1-10 點耐傷",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -25340,7 +25476,7 @@
             "characteristics": [
               {
                 "$text": "每當此模型進行攻擊且目標為處於戰鬥震懾狀態的單位時，該次命中擲骰加 1。",
-                "name": "Description",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -25353,8 +25489,8 @@
           {
             "characteristics": [
               {
-                "$text": "每當此模型進行普通移動、推進或撤退移動時，它可越過模型（不含泰坦級模型）以及高度為 4 吋或以下的地形要素，視同這些模型與地形不存在。",
-                "name": "Description",
+                "$text": "每當此模型進行常規移動、突進或後撤移動時，此模型可以越過模型（不含巨型模型）以及高度為 4\" 或以下的地形要素，視同這些模型與地形不存在。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -25397,7 +25533,7 @@
                 "$text": "12"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": "5+"
               }
@@ -25411,14 +25547,14 @@
           {
             "characteristics": [
               {
-                "$text": "此模型具有 20 個泰倫蟲族步兵模型的運輸容量。每個生命值屬性大於 1 的模型佔用 3 個模型空間。此模型不能運輸具有飛行關鍵字的模型。",
-                "name": "Capacity",
+                "$text": "此模型具有 20 個泰倫蟲族步兵模型的運輸容量。每個耐傷屬性大於 1 的模型佔用 3 個模型空間。此模型不能運輸具有飛行關鍵詞的模型。",
+                "name": "容量",
                 "typeId": "30f2-be70-861d-1b84"
               }
             ],
             "name": "聖師獸",
             "typeId": "74f8-5443-9d6d-1f1e",
-            "typeName": "運輸",
+            "typeName": "運輸工具",
             "hidden": false,
             "id": "eff-a90a-8077-bb0d"
           }
@@ -25716,7 +25852,7 @@
                     "characteristics": [
                       {
                         "$text": "12\"",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
@@ -25746,11 +25882,11 @@
                       },
                       {
                         "$text": "突擊，洪流",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "生體電漿洪流",
+                    "name": "活體等離子洪流",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -25794,7 +25930,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "生體電漿洪流",
+                "name": "活體等離子洪流",
                 "hidden": false,
                 "id": "56dc-ab08-2e4f-2c38"
               },
@@ -25822,7 +25958,7 @@
                     "characteristics": [
                       {
                         "$text": "48\"",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
@@ -25852,7 +25988,7 @@
                       },
                       {
                         "$text": "爆炸",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
@@ -25912,7 +26048,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -25942,11 +26078,11 @@
                       },
                       {
                         "$text": "額外攻擊",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "鞭索囊",
+                    "name": "抽擊鞭囊",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -25983,7 +26119,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "鞭索囊",
+                "name": "抽擊鞭囊",
                 "hidden": false,
                 "id": "733f-4e53-5615-d1a9"
               },
@@ -26011,7 +26147,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -26041,11 +26177,11 @@
                       },
                       {
                         "$text": "-",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "泰坦級鐮狀利爪",
+                    "name": "巨型鐮刀爪",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -26064,7 +26200,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "泰坦級鐮狀利爪",
+                "name": "巨型鐮刀爪",
                 "hidden": false,
                 "id": "acb7-b003-2b0d-1d2"
               }
@@ -26113,7 +26249,7 @@
                         "scope": "self",
                         "childId": "fbc0-3a2b-1d7d-23d9",
                         "shared": true,
-                        "childName": "Hierophant"
+                        "childName": "聖師獸"
                       }
                     ]
                   }
@@ -26134,7 +26270,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -26177,7 +26313,7 @@
             "targetId": "5ff0-d52d-e2b8-9de",
             "id": "9ae3-a2f3-fd4-e0f3",
             "primary": false,
-            "name": "先鋒入侵者"
+            "name": "入侵先鋒"
           }
         ],
         "selectionEntryGroups": [
@@ -26236,7 +26372,7 @@
                         "$text": "1"
                       },
                       {
-                        "name": "InSv",
+                        "name": "無敵豁免",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "5+"
                       }
@@ -26275,7 +26411,7 @@
                             "characteristics": [
                               {
                                 "$text": "近戰",
-                                "name": "Range",
+                                "name": "射程",
                                 "typeId": "914c-b413-91e3-a132"
                               },
                               {
@@ -26305,7 +26441,7 @@
                               },
                               {
                                 "$text": "-",
-                                "name": "Keywords",
+                                "name": "關鍵詞",
                                 "typeId": "893f-9000-ccf7-648e"
                               }
                             ],
@@ -26356,8 +26492,8 @@
           {
             "characteristics": [
               {
-                "$text": "每當此單位中的一個模型進行攻擊時，重擲結果為 1 的命中擲骰。若目標位於一個或多個目標標記的範圍內，則結果為 1 的致傷擲骰也重擲。",
-                "name": "Description",
+                "$text": "每當此單位中的一個模型進行攻擊時，重擲結果為 1 的命中擲骰。若目標位於至少一個目標標記的範圍內，則也重擲結果為 1 的致傷擲骰。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -26479,7 +26615,7 @@
                         "scope": "self",
                         "childId": "853e-48b8-4cc5-3704",
                         "shared": true,
-                        "childName": "Genestealers"
+                        "childName": "基因竊取者"
                       }
                     ]
                   }
@@ -26500,7 +26636,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -26802,7 +26938,7 @@
             "characteristics": [
               {
                 "$text": "近戰",
-                "name": "Range",
+                "name": "射程",
                 "typeId": "914c-b413-91e3-a132"
               },
               {
@@ -26832,7 +26968,7 @@
               },
               {
                 "$text": "-",
-                "name": "Keywords",
+                "name": "關鍵詞",
                 "typeId": "893f-9000-ccf7-648e"
               }
             ],
@@ -26868,14 +27004,14 @@
                 "field": "name"
               }
             ],
-            "name": "致命毀滅",
+            "name": "致命破滅",
             "hidden": false,
             "type": "rule",
             "id": "7d06-16ba-56c8-d133",
             "targetId": "b68a-5ded-65ac-98c"
           },
           {
-            "name": "受損：剩餘 1-5 點生命值",
+            "name": "受損：剩餘 1-5 點耐傷",
             "hidden": false,
             "type": "profile",
             "id": "798-f429-148-64e3",
@@ -26916,7 +27052,7 @@
                 "$text": "5"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": "5+"
               }
@@ -26930,8 +27066,8 @@
           {
             "characteristics": [
               {
-                "$text": "每當此模型進行戰鬥時，在其攻擊結算後，若有一個或多個敵方模型（不含載具模型）因此被摧毀，則此模型恢復最多 D3 點生命值。",
-                "name": "Description",
+                "$text": "每當此模型進行近戰時，結算其攻擊後，若有至少一個敵方模型（不含載具模型）因此被摧毀，則此模型恢復最多 D3 點耐傷。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -26953,7 +27089,7 @@
             "targetId": "9693-cf84-fe69-37a9",
             "id": "8167-d160-c4d1-3448",
             "primary": true,
-            "name": "怪獸"
+            "name": "凶獸"
           },
           {
             "targetId": "7850-cc5a-c191-b80d",
@@ -27045,7 +27181,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -27332,7 +27468,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -27362,11 +27498,11 @@
                       },
                       {
                         "$text": "雙聯",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "巨型鐮狀利爪",
+                    "name": "巨型鐮刀爪",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -27394,7 +27530,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "巨型鐮狀利爪",
+                "name": "巨型鐮刀爪",
                 "hidden": false,
                 "id": "53c7-e0f7-810f-91fd"
               }
@@ -27430,7 +27566,7 @@
             "targetId": "b00b-5bae-444f-964e",
             "id": "ab1a-9487-37bd-61e9",
             "primary": true,
-            "name": "蟲群"
+            "name": "集群"
           },
           {
             "targetId": "7850-cc5a-c191-b80d",
@@ -27485,7 +27621,7 @@
                 "typeId": "bef7-942a-1a23-59f8"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": ""
               }
@@ -27499,8 +27635,8 @@
           {
             "characteristics": [
               {
-                "$text": "當一個敵方單位位於一個或多個具有此能力的單位交戰範圍內時，該敵方單位中的模型的目標控制值屬性減半。",
-                "name": "Description",
+                "$text": "當一個敵方單位位於至少一個具有此技能的單位交戰範圍內時，該敵方單位中模型的目標控制屬性減半。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -27568,7 +27704,7 @@
                         "characteristics": [
                           {
                             "$text": "近戰",
-                            "name": "Range",
+                            "name": "射程",
                             "typeId": "914c-b413-91e3-a132"
                           },
                           {
@@ -27598,7 +27734,7 @@
                           },
                           {
                             "$text": "連擊 1",
-                            "name": "Keywords",
+                            "name": "關鍵詞",
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ],
@@ -27668,7 +27804,7 @@
                         "characteristics": [
                           {
                             "$text": "近戰",
-                            "name": "Range",
+                            "name": "射程",
                             "typeId": "914c-b413-91e3-a132"
                           },
                           {
@@ -27698,7 +27834,7 @@
                           },
                           {
                             "$text": "連擊 1",
-                            "name": "Keywords",
+                            "name": "關鍵詞",
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ],
@@ -27749,7 +27885,7 @@
                         "characteristics": [
                           {
                             "$text": "6\"",
-                            "name": "Range",
+                            "name": "射程",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -27779,7 +27915,7 @@
                           },
                           {
                             "$text": "手槍",
-                            "name": "Keywords",
+                            "name": "關鍵詞",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ],
@@ -27833,7 +27969,7 @@
         ],
         "infoLinks": [
           {
-            "name": "深度打擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "ac5a-3844-c128-8a6b",
@@ -27872,7 +28008,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -27949,12 +28085,12 @@
                 "typeId": "bef7-942a-1a23-59f8"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": ""
               }
             ],
-            "name": "馬蘭索普",
+            "name": "殮屍蟲",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "單位",
             "hidden": false,
@@ -27963,8 +28099,8 @@
           {
             "characteristics": [
               {
-                "$text": "當此模型率領一個單位時，該單位的惡臭孢子靈氣能力範圍增加至 9 吋。",
-                "name": "Description",
+                "$text": "當此模型正在領導一個單位時，該單位的航胞孢子靈氣技能範圍增加至 9\"。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -27977,8 +28113,8 @@
           {
             "characteristics": [
               {
-                "$text": "每當此模型所屬單位被選擇進行戰鬥時，選擇以下一項能力；直到該階段結束，該能力套用於該單位中的模型所裝備的所有近戰武器：\n- ［連擊 1］\n- ［騎槍］\n- ［致命一擊］",
-                "name": "Description",
+                "$text": "每當此模型所屬單位被選擇進行近戰時，選擇以下一項技能。直到該階段結束，該單位中模型所裝備的所有近戰武器擁有該技能：\n▪ ［連擊 1］\n▪ ［騎槍］\n▪ ［致命一擊］",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -27991,8 +28127,8 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可加入以下單位：\n- 毒煙蟲",
-                "name": "Description",
+                "$text": "此模型可以附屬於下列單位：\n▪ 毒煙蟲",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -28050,7 +28186,7 @@
         ],
         "infoLinks": [
           {
-            "name": "匿蹤",
+            "name": "隱匿",
             "hidden": false,
             "type": "rule",
             "id": "5bea-b4ec-22fd-2a21",
@@ -28146,7 +28282,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -28417,7 +28553,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -28447,7 +28583,7 @@
                       },
                       {
                         "$text": "-",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
@@ -28577,7 +28713,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命毀滅",
+            "name": "致命破滅",
             "hidden": false,
             "type": "rule",
             "id": "81b8-a3a1-8095-1b09",
@@ -28598,7 +28734,7 @@
             "targetId": "86aa-437f-260b-5cad"
           },
           {
-            "name": "受損：剩餘 1-5 點生命值",
+            "name": "受損：剩餘 1-5 點耐傷",
             "hidden": false,
             "type": "profile",
             "id": "644b-6f95-7723-9f23",
@@ -28630,7 +28766,7 @@
                     "scope": "force",
                     "childId": "8d8b-a030-83d5-f4e6",
                     "shared": true,
-                    "childName": "Talons of the Norn Queen",
+                    "childName": "諾恩女王之爪",
                     "includeChildSelections": true
                   }
                 ]
@@ -28672,7 +28808,7 @@
                 "typeId": "bef7-942a-1a23-59f8"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": ""
               }
@@ -28686,8 +28822,8 @@
           {
             "characteristics": [
               {
-                "$text": "每回合一次，當此單位交戰範圍內一個敵方單位被選擇進行撤退時，擲一個 D6；若結果為 2+，該單位受到 D6 點致命傷害。",
-                "name": "Description",
+                "$text": "每回合一次，當此單位交戰範圍內一個敵方單位被選擇進行後撤時，擲一顆 D6；若結果為 2+，該單位遭受 D6 點致命傷。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -28703,7 +28839,7 @@
             "targetId": "9693-cf84-fe69-37a9",
             "id": "c7a-d00e-ac04-597a",
             "primary": true,
-            "name": "怪獸"
+            "name": "凶獸"
           },
           {
             "targetId": "7850-cc5a-c191-b80d",
@@ -29001,7 +29137,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -29031,11 +29167,11 @@
                       },
                       {
                         "$text": "-",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "怪獸鐮狀利爪",
+                    "name": "凶獸鐮刀爪",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -29054,7 +29190,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "怪獸鐮狀利爪",
+                "name": "凶獸鐮刀爪",
                 "hidden": false,
                 "id": "59a4-4504-cb52-93b1"
               },
@@ -29082,7 +29218,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -29112,7 +29248,7 @@
                       },
                       {
                         "$text": "額外攻擊",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
@@ -29126,7 +29262,7 @@
                     "characteristics": [
                       {
                         "$text": "12\"",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
@@ -29156,7 +29292,7 @@
                       },
                       {
                         "$text": "被魚叉刺中",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
@@ -29169,7 +29305,7 @@
                 ],
                 "rules": [
                   {
-                    "description": "持用者以此武器射擊後，選擇一個被該武器一個或多個攻擊命中的敵方怪獸或載具單位。直到該回合結束，每當持用者選擇該單位作為衝鋒目標時，該次衝鋒擲骰加 2。",
+                    "description": "持有者以此武器射擊後，選擇一個遭該武器至少一次攻擊命中的敵方凶獸或載具單位。直到該回合結束，每當持有者將該單位選為衝鋒目標時，該次衝鋒擲骰加 2。",
                     "name": "被魚叉刺中",
                     "id": "62c7-3cb5-45c-cc3b",
                     "hidden": false
@@ -29254,7 +29390,7 @@
                         "scope": "self",
                         "childId": "6a9b-8e2f-edac-fa2d",
                         "shared": true,
-                        "childName": "Norn Assimilator"
+                        "childName": "諾恩同化者"
                       }
                     ]
                   }
@@ -29275,7 +29411,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -29358,7 +29494,7 @@
                 "$text": "5"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": "4+"
               }
@@ -29379,7 +29515,7 @@
             "hidden": false
           },
           {
-            "name": "受損：剩餘 1-5 點生命值",
+            "name": "受損：剩餘 1-5 點耐傷",
             "hidden": false,
             "type": "profile",
             "id": "c081-cca9-6155-769b",
@@ -29393,7 +29529,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命毀滅",
+            "name": "致命破滅",
             "hidden": false,
             "type": "rule",
             "id": "c59b-5fba-be8e-a85e",
@@ -29432,7 +29568,7 @@
                     "scope": "force",
                     "childId": "8d8b-a030-83d5-f4e6",
                     "shared": true,
-                    "childName": "Talons of the Norn Queen",
+                    "childName": "諾恩女王之爪",
                     "includeChildSelections": true
                   }
                 ]
@@ -29445,7 +29581,7 @@
             "targetId": "9693-cf84-fe69-37a9",
             "id": "b71b-31e2-32c3-b52c",
             "primary": true,
-            "name": "怪獸"
+            "name": "凶獸"
           },
           {
             "targetId": "13bf-2bee-3ae0-b414",
@@ -29522,8 +29658,8 @@
               {
                 "characteristics": [
                   {
-                    "$text": "此模型對致命傷害具有無視傷痛 4+ 能力。",
-                    "name": "Description",
+                    "$text": "此模型對致命傷具有不覺疼痛 4+ 技能。",
+                    "name": "說明",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ],
@@ -29536,7 +29672,7 @@
             ],
             "infoLinks": [
               {
-                "name": "無視傷痛",
+                "name": "不覺疼痛",
                 "id": "064d-e504-deed-ca85",
                 "hidden": false,
                 "type": "rule",
@@ -29812,7 +29948,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -29842,7 +29978,7 @@
                       },
                       {
                         "$text": "額外攻擊",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
@@ -29911,7 +30047,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -29941,11 +30077,11 @@
                       },
                       {
                         "$text": "-",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "怪獸鐮狀利爪",
+                    "name": "凶獸鐮刀爪",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -29964,7 +30100,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "怪獸鐮狀利爪",
+                "name": "凶獸鐮刀爪",
                 "hidden": false,
                 "id": "dc69-1094-613-6daf"
               },
@@ -29992,7 +30128,7 @@
                     "characteristics": [
                       {
                         "$text": "18\"",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
@@ -30022,7 +30158,7 @@
                       },
                       {
                         "$text": "精準，靈能",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
@@ -30045,7 +30181,7 @@
                         "join": ""
                       }
                     ],
-                    "name": "➤ 靈能觸鬚－神經寄生",
+                    "name": "➤ 靈能卷鬚－神經寄生",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -30055,7 +30191,7 @@
                     "characteristics": [
                       {
                         "$text": "18\"",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
@@ -30085,7 +30221,7 @@
                       },
                       {
                         "$text": "熱熔 2，靈能",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
@@ -30108,7 +30244,7 @@
                         "join": ""
                       }
                     ],
-                    "name": "➤ 靈能觸鬚－神經長矛",
+                    "name": "➤ 靈能卷鬚－神經長矛",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -30118,7 +30254,7 @@
                     "characteristics": [
                       {
                         "$text": "18\"",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
@@ -30148,7 +30284,7 @@
                       },
                       {
                         "$text": "爆炸，靈能",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
@@ -30171,7 +30307,7 @@
                         "join": ""
                       }
                     ],
-                    "name": "➤ 靈能觸鬚－神經爆擊",
+                    "name": "➤ 靈能卷鬚－神經爆擊",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -30222,7 +30358,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "靈能觸鬚",
+                "name": "靈能卷鬚",
                 "hidden": false,
                 "id": "c102-d98b-dc50-5b53"
               }
@@ -30271,7 +30407,7 @@
                         "scope": "self",
                         "childId": "5720-2873-8c2c-edc3",
                         "shared": true,
-                        "childName": "Norn Emissary"
+                        "childName": "諾恩使者"
                       }
                     ]
                   }
@@ -30292,7 +30428,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -30304,7 +30440,7 @@
             "characteristics": [
               {
                 "$text": "24\"",
-                "name": "Range",
+                "name": "射程",
                 "typeId": "9896-9419-16a1-92fc"
               },
               {
@@ -30334,7 +30470,7 @@
               },
               {
                 "$text": "-",
-                "name": "Keywords",
+                "name": "關鍵詞",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
@@ -30365,7 +30501,7 @@
             "characteristics": [
               {
                 "$text": "36\"",
-                "name": "Range",
+                "name": "射程",
                 "typeId": "9896-9419-16a1-92fc"
               },
               {
@@ -30395,7 +30531,7 @@
               },
               {
                 "$text": "爆炸",
-                "name": "Keywords",
+                "name": "關鍵詞",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
@@ -30444,7 +30580,7 @@
             "characteristics": [
               {
                 "$text": "36\"",
-                "name": "Range",
+                "name": "射程",
                 "typeId": "9896-9419-16a1-92fc"
               },
               {
@@ -30474,12 +30610,12 @@
               },
               {
                 "$text": "爆炸",
-                "name": "Keywords",
+                "name": "關鍵詞",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
             "id": "2e94-38d5-4a74-287",
-            "name": "倒刺絞殺槍",
+            "name": "絞藤炮",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "遠程武器"
@@ -30502,7 +30638,7 @@
           }
         ],
         "id": "ab3c-2e92-685c-c39d",
-        "name": "倒刺絞殺槍",
+        "name": "絞藤炮",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -30514,7 +30650,7 @@
             "characteristics": [
               {
                 "$text": "12\"",
-                "name": "Range",
+                "name": "射程",
                 "typeId": "9896-9419-16a1-92fc"
               },
               {
@@ -30544,7 +30680,7 @@
               },
               {
                 "$text": "突擊，手槍，雙聯",
-                "name": "Keywords",
+                "name": "關鍵詞",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
@@ -30598,7 +30734,7 @@
             "characteristics": [
               {
                 "$text": "18\"",
-                "name": "Range",
+                "name": "射程",
                 "typeId": "9896-9419-16a1-92fc"
               },
               {
@@ -30628,7 +30764,7 @@
               },
               {
                 "$text": "-",
-                "name": "Keywords",
+                "name": "關鍵詞",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
@@ -30659,7 +30795,7 @@
             "characteristics": [
               {
                 "$text": "近戰",
-                "name": "Range",
+                "name": "射程",
                 "typeId": "914c-b413-91e3-a132"
               },
               {
@@ -30689,7 +30825,7 @@
               },
               {
                 "$text": "雙聯",
-                "name": "Keywords",
+                "name": "關鍵詞",
                 "typeId": "893f-9000-ccf7-648e"
               }
             ],
@@ -30716,7 +30852,7 @@
             "targetId": "cf93-ad4d-2f08-a79d"
           }
         ],
-        "comment": "近戰生體武器",
+        "comment": "近戰活體武器",
         "id": "cce-e9cd-6bac-df4d",
         "name": "泰倫武士爪與鐮爪",
         "hidden": false,
@@ -30730,7 +30866,7 @@
             "characteristics": [
               {
                 "$text": "近戰",
-                "name": "Range",
+                "name": "射程",
                 "typeId": "914c-b413-91e3-a132"
               },
               {
@@ -30760,7 +30896,7 @@
               },
               {
                 "$text": "-",
-                "name": "Keywords",
+                "name": "關鍵詞",
                 "typeId": "893f-9000-ccf7-648e"
               }
             ],
@@ -30771,7 +30907,7 @@
             "typeName": "近戰武器"
           }
         ],
-        "comment": "攻擊次數1 力量3",
+        "comment": "A1 S3",
         "id": "65d0-a5c5-919a-6444",
         "name": "幾丁質爪與齒",
         "hidden": false,
@@ -30785,7 +30921,7 @@
             "characteristics": [
               {
                 "$text": "近戰",
-                "name": "Range",
+                "name": "射程",
                 "typeId": "914c-b413-91e3-a132"
               },
               {
@@ -30815,7 +30951,7 @@
               },
               {
                 "$text": "-",
-                "name": "Keywords",
+                "name": "關鍵詞",
                 "typeId": "893f-9000-ccf7-648e"
               }
             ],
@@ -30826,7 +30962,7 @@
             "id": "4cef-23d4-e266-6a8e"
           }
         ],
-        "comment": "攻擊次數3 力量5",
+        "comment": "A3 S5",
         "type": "upgrade",
         "import": true,
         "name": "幾丁質爪與齒",
@@ -30840,7 +30976,7 @@
             "characteristics": [
               {
                 "$text": "近戰",
-                "name": "Range",
+                "name": "射程",
                 "typeId": "914c-b413-91e3-a132"
               },
               {
@@ -30870,7 +31006,7 @@
               },
               {
                 "$text": "-",
-                "name": "Keywords",
+                "name": "關鍵詞",
                 "typeId": "893f-9000-ccf7-648e"
               }
             ],
@@ -30881,7 +31017,7 @@
             "id": "7fa8-d847-7497-3e8d"
           }
         ],
-        "comment": "攻擊次數2 力量3",
+        "comment": "A2 S3",
         "type": "upgrade",
         "import": true,
         "name": "幾丁質爪與齒",
@@ -30895,7 +31031,7 @@
             "characteristics": [
               {
                 "$text": "近戰",
-                "name": "Range",
+                "name": "射程",
                 "typeId": "914c-b413-91e3-a132"
               },
               {
@@ -30925,7 +31061,7 @@
               },
               {
                 "$text": "-",
-                "name": "Keywords",
+                "name": "關鍵詞",
                 "typeId": "893f-9000-ccf7-648e"
               }
             ],
@@ -30949,7 +31085,7 @@
             "characteristics": [
               {
                 "$text": "24\"",
-                "name": "Range",
+                "name": "射程",
                 "typeId": "9896-9419-16a1-92fc"
               },
               {
@@ -30979,7 +31115,7 @@
               },
               {
                 "$text": "爆炸，靈能",
-                "name": "Keywords",
+                "name": "關鍵詞",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
@@ -31029,7 +31165,7 @@
             "characteristics": [
               {
                 "$text": "24\"",
-                "name": "Range",
+                "name": "射程",
                 "typeId": "9896-9419-16a1-92fc"
               },
               {
@@ -31059,7 +31195,7 @@
               },
               {
                 "$text": "致命一擊，靈能",
-                "name": "Keywords",
+                "name": "關鍵詞",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ],
@@ -31157,7 +31293,7 @@
                 "field": "name"
               }
             ],
-            "name": "致命毀滅",
+            "name": "致命破滅",
             "id": "c1b-3112-2cfe-dac",
             "hidden": false,
             "targetId": "b68a-5ded-65ac-98c",
@@ -31194,7 +31330,7 @@
         ],
         "categoryLinks": [
           {
-            "name": "怪獸",
+            "name": "凶獸",
             "hidden": false,
             "id": "121b-5c62-2542-1433",
             "targetId": "9693-cf84-fe69-37a9",
@@ -31302,7 +31438,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "怪獸骨劍與剝肉鞭",
+                    "name": "凶獸堅骨劍與抽擊鞭",
                     "hidden": false,
                     "id": "5889-181a-3b21-9b7e",
                     "collective": false,
@@ -31448,7 +31584,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "怪獸鐮狀利爪",
+                    "name": "凶獸鐮刀爪",
                     "hidden": false,
                     "id": "f717-3d3-4448-5cfc",
                     "collective": false,
@@ -31456,7 +31592,7 @@
                     "type": "selectionEntry"
                   }
                 ],
-                "name": "怪獸骨劍與剝肉鞭",
+                "name": "凶獸堅骨劍與抽擊鞭",
                 "id": "2cd2-d174-61dc-7b97",
                 "hidden": false,
                 "collective": false,
@@ -31514,7 +31650,7 @@
                       }
                     ],
                     "import": true,
-                    "name": "怪獸鐮狀利爪",
+                    "name": "凶獸鐮刀爪",
                     "hidden": false,
                     "id": "5fe8-e07-2888-42bc",
                     "collective": false,
@@ -31636,7 +31772,7 @@
                     "type": "selectionEntry"
                   }
                 ],
-                "name": "巨獸鐮狀利爪",
+                "name": "巨獸鐮刀爪",
                 "id": "6f57-d5fd-f3ed-ae3",
                 "hidden": false,
                 "collective": false,
@@ -31744,7 +31880,7 @@
                 "$text": "3"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": "4+"
               }
@@ -31758,9 +31894,9 @@
           {
             "characteristics": [
               {
-                "name": "Description",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "當一個友方泰倫蟲族單位位於此模型 6 吋內時，該單位中的模型所裝備的遠程武器獲得［突擊］與［致命一擊］能力。"
+                "$text": "當一個己方泰倫蟲族單位位於此模型 6\" 內時，該單位中模型裝備的遠程武器擁有［突擊］與［致命一擊］技能。"
               }
             ],
             "name": "猛攻（靈氣，靈能）",
@@ -31772,8 +31908,8 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可加入以下單位：\n- 暴君護衛",
-                "name": "Description",
+                "$text": "此模型可以附屬於下列單位：\n▪ 暴君護衛",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -32005,7 +32141,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -32084,7 +32220,7 @@
                 "typeId": "bef7-942a-1a23-59f8"
               },
               {
-                "name": "InSv",
+                "name": "無敵豁免",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": ""
               }
@@ -32098,13 +32234,13 @@
           {
             "characteristics": [
               {
-                "$text": "此模型所屬單位中的模型所裝備的武器具有［連擊 1］能力。",
-                "name": "Description",
+                "$text": "此模型所屬單位內所有模型裝備的武器具有［連擊 1］技能。",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
             "id": "8fcc-7183-e211-b017",
-            "name": "阿爾法戰士",
+            "name": "頭領戰士",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力"
@@ -32112,12 +32248,12 @@
           {
             "characteristics": [
               {
-                "name": "Description",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "在對手的射擊階段，當一個敵方單位射擊後，若此單位中有一個模型被這些攻擊摧毀，則此單位可進行最多 D6 吋的突進移動。"
+                "$text": "在對手的射擊階段，當一個敵方單位射擊後，若此單位中有模型因該敵方單位的攻擊而被摧毀，則此單位可以進行最多 D6\" 的迸發移動。"
               }
             ],
-            "name": "侵略性領袖獸",
+            "name": "好鬥首領",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -32126,8 +32262,8 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可加入以下單位：\n- 刀蟲\n- 槍蟲\n- 泰倫武士（近戰生體武器）\n- 泰倫武士（遠程生體武器）",
-                "name": "Description",
+                "$text": "此模型可以附屬於下列單位：\n▪ 刀蟲\n▪ 槍蟲\n▪ 裝備近戰活體武器的泰倫武士\n▪ 裝備遠程活體武器的泰倫武士",
+                "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -32557,7 +32693,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -32587,7 +32723,7 @@
                       },
                       {
                         "$text": "-",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
@@ -32661,7 +32797,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -32691,11 +32827,11 @@
                       },
                       {
                         "$text": "額外攻擊",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "鞭索",
+                    "name": "抽擊鞭",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -32746,7 +32882,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "鞭索",
+                "name": "抽擊鞭",
                 "hidden": false,
                 "id": "32e4-9330-cef7-a94b",
                 "collective": false
@@ -32781,7 +32917,7 @@
                     "characteristics": [
                       {
                         "$text": "近戰",
-                        "name": "Range",
+                        "name": "射程",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -32811,11 +32947,11 @@
                       },
                       {
                         "$text": "-",
-                        "name": "Keywords",
+                        "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "鐮狀利爪",
+                    "name": "鐮刀爪",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -32850,7 +32986,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "鐮狀利爪",
+                "name": "鐮刀爪",
                 "hidden": false,
                 "id": "1d0f-10bb-2fcb-2277",
                 "collective": false
@@ -32882,7 +33018,7 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
           }
@@ -32905,7 +33041,7 @@
             "hidden": false
           },
           {
-            "name": "深度打擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "8352-4ffe-7c89-fa6b",
@@ -33136,7 +33272,7 @@
             "hidden": false
           },
           {
-            "name": "深度打擊",
+            "name": "深入打擊",
             "hidden": false,
             "type": "rule",
             "id": "7c27-2420-3b22-d9fc",
@@ -33229,7 +33365,7 @@
         ],
         "type": "unit",
         "import": true,
-        "name": "黏液孢子（孢囊要塞）",
+        "name": "黏液孢子（孢子要塞）",
         "hidden": false,
         "id": "9943-934a-221b-e0c0"
       }
@@ -33238,8 +33374,8 @@
       {
         "characteristics": [
           {
-            "$text": "每當此單位或一個敵方單位完成移動時，對此單位中的每個位於一個或多個敵方單位 3 吋內的模型，選擇其中一個敵方單位。此單位中的該模型會被摧毀，然後擲一個 D6：若結果為 2-5，該敵方單位受到 D3 點致命傷害；若結果為 6，該敵方單位受到 D6 點致命傷害。",
-            "name": "Description",
+            "$text": "每當此單位或一個敵方單位完成移動時，對此單位中每個與至少一個敵方單位相距不超過 3\" 的模型，選擇其中一個敵方單位。該模型被摧毀，然後擲一顆 D6：若結果為 2-5，該敵方單位遭受 D3 點致命傷；若結果為 6，該敵方單位遭受 D6 點致命傷。",
+            "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
         ],
@@ -33252,8 +33388,8 @@
       {
         "characteristics": [
           {
-            "$text": "敵方單位不能在此單位 6 吋範圍內開始或結束推進移動。",
-            "name": "Description",
+            "$text": "敵方單位不能在此單位 6\" 範圍內開始或結束突進移動。",
+            "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
         ],
@@ -33296,7 +33432,7 @@
             "typeId": "bef7-942a-1a23-59f8"
           },
           {
-            "name": "InSv",
+            "name": "無敵豁免",
             "typeId": "55a7-5b54-c60d-11dc",
             "$text": ""
           }
@@ -33340,7 +33476,7 @@
             "typeId": "bef7-942a-1a23-59f8"
           },
           {
-            "name": "InSv",
+            "name": "無敵豁免",
             "typeId": "55a7-5b54-c60d-11dc",
             "$text": ""
           }
@@ -33354,8 +33490,8 @@
       {
         "characteristics": [
           {
-            "$text": "在第一個戰鬥輪開始時，選擇以下一項：\n- 選擇一個敵方單位。直到戰鬥結束，每當此模型以該單位為目標進行攻擊時，你可重擲命中擲骰，並且可重擲致傷擲骰。\n- 選擇一個目標標記。直到戰鬥結束，當此模型位於該目標標記的範圍內時，它具有無視傷痛 5+ 能力，且目標控制值屬性為 15。",
-            "name": "Description",
+            "$text": "在第一個戰鬥輪開始時，選擇以下一項：\n▪ 選擇一個敵方單位。直到戰鬥結束，每當此模型以該單位為目標進行攻擊時，你可以重擲命中擲骰，並且可以重擲致傷擲骰。\n▪ 選擇一個目標標記。直到戰鬥結束，當此模型位於該目標標記的範圍內時，此模型具有不覺疼痛 5+ 技能，且目標控制屬性為 15。",
+            "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
         ],
@@ -33398,7 +33534,7 @@
             "typeId": "bef7-942a-1a23-59f8"
           },
           {
-            "name": "InSv",
+            "name": "無敵豁免",
             "typeId": "55a7-5b54-c60d-11dc",
             "$text": ""
           }
@@ -33412,8 +33548,8 @@
       {
         "characteristics": [
           {
-            "$text": "每當此單位或一個敵方單位完成移動時，對此單位中的每個位於一個或多個敵方單位 3 吋內的模型，選擇其中一個敵方單位。此單位中的該模型會被摧毀，然後擲一個 D6：若結果為 2-5，該敵方單位受到 1 點致命傷害；若結果為 6，該敵方單位受到 D3 點致命傷害。",
-            "name": "Description",
+            "$text": "每當此單位或一個敵方單位完成移動時，對此單位中每個與至少一個敵方單位相距不超過 3\" 的模型，選擇其中一個敵方單位。該模型被摧毀，然後擲一顆 D6：若結果為 2-5，該敵方單位遭受 1 點致命傷；若結果為 6，該敵方單位遭受 D3 點致命傷。",
+            "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
         ],
@@ -33456,7 +33592,7 @@
             "typeId": "bef7-942a-1a23-59f8"
           },
           {
-            "name": "InSv",
+            "name": "無敵豁免",
             "typeId": "55a7-5b54-c60d-11dc",
             "$text": ""
           }
@@ -33500,7 +33636,7 @@
             "$text": "1"
           },
           {
-            "name": "InSv",
+            "name": "無敵豁免",
             "typeId": "55a7-5b54-c60d-11dc",
             "$text": "4+"
           }
