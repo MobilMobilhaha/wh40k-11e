@@ -2906,14 +2906,14 @@
     "catalogueLinks": [
       {
         "id": "e373-3c0a-1185-467a",
-        "name": "帝國 - 星界軍 - 圖書館",
+        "name": "帝國 - 星界軍 - 資料庫",
         "targetId": "5a44-f048-114b-e3ff",
         "type": "catalogue",
         "importRootEntries": false
       },
       {
         "type": "catalogue",
-        "name": "帝國 - 帝國騎士 - 圖書館",
+        "name": "帝國 - 帝國騎士 - 資料庫",
         "id": "38dd-a3d5-684f-2dea",
         "targetId": "1b6d-dc06-5db9-c7d1",
         "importRootEntries": true
@@ -2927,7 +2927,7 @@
       },
       {
         "type": "catalogue",
-        "name": "圖書館 - 巨物",
+        "name": "資料庫 - 巨物",
         "id": "60ee-b4f-eafc-93d1",
         "targetId": "7481-280e-b55e-7867"
       },
