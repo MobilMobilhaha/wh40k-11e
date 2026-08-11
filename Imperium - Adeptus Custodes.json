@@ -373,7 +373,7 @@
       },
       {
         "id": "dee1-2f23-d810-23dd",
-        "name": "裝備阿德拉斯長矛與皮里瑟特長矛的禁軍衛士",
+        "name": "裝備阿德拉斯長矛或熱熔長矛的禁軍衛隊",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -8985,7 +8985,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "皮里瑟特長矛",
+                    "name": "熱熔長矛",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -9048,7 +9048,7 @@
                         "join": ""
                       }
                     ],
-                    "name": "皮里瑟特長矛",
+                    "name": "熱熔長矛",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -9133,7 +9133,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "皮里瑟特長矛與守護盾",
+                "name": "熱熔長矛與守護盾",
                 "hidden": false,
                 "id": "661f-4fd-3300-5e9b",
                 "collective": false
@@ -16861,7 +16861,7 @@
                           }
                         ],
                         "id": "5e9-c849-b704-35e",
-                        "name": "皮里瑟特長矛",
+                        "name": "熱熔長矛",
                         "hidden": false,
                         "typeId": "8a40-4aaa-c780-9046",
                         "typeName": "近戰武器"
@@ -16924,7 +16924,7 @@
                           }
                         ],
                         "id": "37f1-ff21-5dd9-540",
-                        "name": "皮里瑟特長矛",
+                        "name": "熱熔長矛",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "遠程武器"
@@ -16970,7 +16970,7 @@
                     ],
                     "type": "upgrade",
                     "import": true,
-                    "name": "皮里瑟特長矛",
+                    "name": "熱熔長矛",
                     "hidden": false,
                     "id": "e3e9-329-2dad-dd49",
                     "collective": true
@@ -17023,7 +17023,7 @@
                   }
                 ],
                 "id": "f6a0-f67b-e333-0252",
-                "name": "禁軍衛士 （皮里瑟特長矛）",
+                "name": "禁軍衛士 （熱熔長矛）",
                 "hidden": false,
                 "collective": false,
                 "import": true,
@@ -17293,7 +17293,7 @@
           }
         ],
         "id": "af0f-5212-907e-7125",
-        "name": "裝備阿德拉斯長矛與皮里瑟特長矛的禁軍衛士",
+        "name": "裝備阿德拉斯長矛與熱熔長矛的禁軍衛士",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -17348,7 +17348,7 @@
                         "scope": "self",
                         "childId": "af0f-5212-907e-7125",
                         "shared": true,
-                        "childName": "裝備阿德拉斯長矛與皮里瑟特長矛的禁軍衛士"
+                        "childName": "裝備阿德拉斯長矛與熱熔長矛的禁軍衛士"
                       }
                     ]
                   }
@@ -40069,7 +40069,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "皮里瑟特長矛",
+                    "name": "熱熔長矛",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -40117,7 +40117,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "皮里瑟特長矛",
+                "name": "熱熔長矛",
                 "hidden": false,
                 "id": "9ced-fd50-a2f9-a562",
                 "sortIndex": 5
@@ -40885,7 +40885,7 @@
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ],
-                    "name": "皮里瑟特長矛",
+                    "name": "熱熔長矛",
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "近戰武器",
                     "hidden": false,
@@ -40933,7 +40933,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "皮里瑟特長矛",
+                "name": "熱熔長矛",
                 "hidden": false,
                 "id": "c86f-3471-85b9-880f"
               },
@@ -41639,7 +41639,7 @@
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
-                    "name": "皮里瑟特長矛",
+                    "name": "熱熔長矛",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "遠程武器",
                     "hidden": false,
@@ -41687,7 +41687,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "皮里瑟特長矛",
+                "name": "熱熔長矛",
                 "hidden": false,
                 "id": "a4d1-d302-d225-ec44",
                 "sortIndex": 5
