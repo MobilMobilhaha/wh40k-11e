@@ -22,23 +22,8 @@
         "hidden": false
       },
       {
-        "id": "5c1a-a178-5951-d42",
-        "name": "裝備遠程活體武器的泰倫武士",
-        "hidden": false
-      },
-      {
-        "id": "fb3c-c529-4e6c-2251",
-        "name": "裝備近戰活體武器的泰倫武士",
-        "hidden": false
-      },
-      {
         "id": "b054-c3e8-d71d-1a7e",
         "name": "槍蟲",
-        "hidden": false
-      },
-      {
-        "id": "2b2c-c30e-6d51-a4cc",
-        "name": "刀蟲",
         "hidden": false
       },
       {
@@ -67,21 +52,6 @@
         "id": "aee4-5cb5-329b-bb3e"
       },
       {
-        "name": "毒煙蟲",
-        "hidden": false,
-        "id": "c84f-d7e4-d853-88f3"
-      },
-      {
-        "name": "神經蟲",
-        "hidden": false,
-        "id": "50be-2da9-b98b-2a55"
-      },
-      {
-        "name": "腦蟲",
-        "hidden": false,
-        "id": "7214-3728-6fad-2681"
-      },
-      {
         "name": "黏液孢子",
         "hidden": false,
         "id": "fda1-7891-2955-69e0"
@@ -100,11 +70,6 @@
         "name": "吐菌蟲",
         "hidden": false,
         "id": "cf46-6271-340e-cf05"
-      },
-      {
-        "name": "劊子手",
-        "hidden": false,
-        "id": "2070-d263-505a-48cc"
       },
       {
         "name": "尖嘯殺手",
@@ -675,7 +640,7 @@
           }
         ],
         "import": true,
-        "name": "戰鬥序列",
+        "name": "作戰序列",
         "hidden": false,
         "id": "696a-985e-e79f-e357",
         "type": "selectionEntry",
@@ -751,6 +716,14 @@
         "hidden": false,
         "id": "d1a5-352d-83ad-9b58",
         "targetId": "7173-1bd9-b60b-6555",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "孢子雷（天妖）",
+        "hidden": false,
+        "id": "ac36-7939-4242-de37",
+        "targetId": "f464-429b-4606-199a",
         "type": "selectionEntry"
       }
     ],
@@ -842,7 +815,7 @@
           {
             "characteristics": [
               {
-                "$text": "在你的指揮階段，你可以選擇此模型 6\" 內一個己方槍蟲單位，將最多 D3+3 個已被摧毀的槍蟲模型放回該單位。每個階段，同一個槍蟲單位只能被此技能選擇一次。",
+                "$text": "在你的指揮階段，你可以選擇此模型 6 吋內的一個己方槍蟲單位，將最多 D3+3 個已被摧毀的槍蟲模型放回該單位。每個階段，同一個槍蟲單位只能被此技能選擇一次。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -856,7 +829,7 @@
           {
             "characteristics": [
               {
-                "$text": "當一個己方槍蟲單位位於此模型 6\" 內時，該單位中模型裝備的遠程武器擁有［致命一擊］技能。",
+                "$text": "當一個己方槍蟲單位位於此模型 6 吋內時，該單位中模型裝備的遠程武器擁有 **[致命一擊]** 技能。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -1077,7 +1050,7 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
+                            "$text": "",
                             "name": "關鍵詞",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -1154,7 +1127,7 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
+                            "$text": "",
                             "name": "關鍵詞",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -1247,7 +1220,7 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
+                            "$text": "",
                             "name": "關鍵詞",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -1675,7 +1648,7 @@
               {
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "每回合一次，當對手將其軍隊中一個位於此模型 12\" 內的單位選為計謀目標時，你可以使用此技能。若如此做，該次使用該計謀需要額外花費 1 點指揮點數。"
+                "$text": "每回合一次，當對手使用一個計謀，將其軍隊中一個位於此模型 12 吋內的單位選為目標時，你可以使用此技能。若如此做，該次使用該計謀需要額外花費 1 點指揮點數。"
               }
             ],
             "id": "4b18-f7de-620b-3b73",
@@ -1687,9 +1660,9 @@
           {
             "characteristics": [
               {
-                "$text": "當一個己方泰倫蟲族單位位於此模型 9\" 內時，該單位視為位於你軍隊的突觸範圍內。",
                 "name": "說明",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "當一個己方 **泰倫蟲族** 單位位於此模型 9 吋內時，該單位視為位於你軍隊的突觸範圍內。"
               }
             ],
             "id": "b3b4-4208-4997-9506",
@@ -1701,7 +1674,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可以附屬於下列單位：\n▪ 暴君護衛",
+                "$text": "此模型可以與下列單位組成聯合單位：\n▪ 暴君護衛",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -2123,7 +2096,37 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "model"
+        "type": "model",
+        "associations": [
+          {
+            "min": 0,
+            "max": 1,
+            "scope": "force",
+            "childId": "unit",
+            "name": "領導",
+            "id": "e28c-fc90-ea51-a43a",
+            "label": "Leader",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "9655-9e08-b63f-c29e",
+                    "shared": true,
+                    "childName": "暴君護衛"
+                  }
+                ]
+              }
+            ],
+            "includeChildSelections": true,
+            "childName": "單位",
+            "action": "group"
+          }
+        ]
       },
       {
         "constraints": [
@@ -2212,9 +2215,9 @@
           {
             "characteristics": [
               {
-                "$text": "當此模型正在領導一個單位時，該單位中模型裝備的武器擁有［毀滅傷害］技能。",
                 "name": "說明",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "當此模型正在領導一個單位時，該單位中模型裝備的武器具有 **[毀滅傷害]** 技能。"
               }
             ],
             "id": "a5e1-ca7f-aaef-7fda",
@@ -2240,7 +2243,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可以附屬於下列單位：\n▪ 基因竊取者",
+                "$text": "此模型可以與下列單位組成聯合單位：\n▪ 基因竊取者",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -2632,6 +2635,37 @@
               }
             ],
             "type": "and"
+          },
+          {
+            "type": "and",
+            "modifiers": [
+              {
+                "type": "append",
+                "value": "陰險洞察",
+                "field": "annotation",
+                "affects": "self.entries.group.recursive.associations.profiles.Melee Weapons",
+                "join": ", "
+              },
+              {
+                "type": "append",
+                "value": "毀滅傷害",
+                "field": "893f-9000-ccf7-648e",
+                "affects": "self.entries.group.recursive.associations.profiles.Melee Weapons",
+                "join": ", ",
+                "skipIfPresent": "Devastating Wounds"
+              }
+            ],
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "associations",
+                "scope": "self",
+                "childId": "any",
+                "shared": true
+              }
+            ],
+            "comment": "陰險洞察所屬單位修正"
           }
         ],
         "selectionEntryGroups": [
@@ -2788,6 +2822,36 @@
               }
             ]
           }
+        ],
+        "associations": [
+          {
+            "min": 0,
+            "max": 1,
+            "scope": "force",
+            "childId": "unit",
+            "name": "領導",
+            "id": "4fd6-fbb5-a090-1aa8",
+            "label": "Leader",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "64ce-d746-b778-34d8",
+                    "shared": true,
+                    "childName": "基因竊取者"
+                  }
+                ]
+              }
+            ],
+            "includeChildSelections": true,
+            "childName": "單位",
+            "action": "group"
+          }
         ]
       },
       {
@@ -2880,7 +2944,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可以附屬於下列單位：\n▪ 劊子手",
+                "$text": "此模型可以與下列單位組成聯合單位：\n▪ 劊子手",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -3003,7 +3067,7 @@
                     "typeId": "3254-9fe6-d824-513e"
                   },
                   {
-                    "$text": "-",
+                    "$text": "",
                     "name": "關鍵詞",
                     "typeId": "893f-9000-ccf7-648e"
                   }
@@ -3047,7 +3111,7 @@
                     "typeId": "3254-9fe6-d824-513e"
                   },
                   {
-                    "$text": "-",
+                    "$text": "",
                     "name": "關鍵詞",
                     "typeId": "893f-9000-ccf7-648e"
                   }
@@ -3204,14 +3268,44 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "model"
+        "type": "model",
+        "associations": [
+          {
+            "min": 0,
+            "max": 1,
+            "scope": "force",
+            "childId": "unit",
+            "name": "領導",
+            "id": "ace0-f11a-b3d5-25c8",
+            "label": "Leader",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "2070-d263-505a-48cc",
+                    "shared": true,
+                    "childName": "劊子手"
+                  }
+                ]
+              }
+            ],
+            "includeChildSelections": true,
+            "childName": "單位",
+            "action": "group"
+          }
+        ]
       },
       {
         "profiles": [
           {
             "characteristics": [
               {
-                "$text": "此單位即使在本回合後撤，仍可以射擊並宣告衝鋒。",
+                "$text": "此單位即使在本回合後撤，仍可以射擊並宣布衝鋒。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -3386,6 +3480,39 @@
             "shared": true,
             "id": "cfb9-71c7-2784-89e8",
             "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "f759-1bc4-cb3a-f0d2",
+            "scope": "root-entry",
+            "shared": true,
+            "id": "ccc1-c12a-34c0-5780",
+            "childId": "any",
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement."
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "associations",
+            "scope": "self",
+            "shared": true,
+            "id": "6f62-da2d-1976-0700",
+            "childId": "1556-9b56-fba6-4370",
+            "childName": "領袖"
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "associations",
+            "scope": "self",
+            "shared": true,
+            "id": "01b5-bc81-0e4b-5897",
+            "childId": "7dcd-7f61-69a7-0294",
+            "childName": "輔助"
           }
         ],
         "infoLinks": [
@@ -3402,6 +3529,52 @@
             "type": "rule",
             "id": "de76-d3df-7b8e-2703",
             "targetId": "86aa-437f-260b-5cad"
+          },
+          {
+            "name": "隱匿",
+            "id": "4255-24b5-92e2-a57e",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "bec5-4288-34a6-ccfa",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2b0d-6060-7697-47a0",
+                        "shared": true,
+                        "childName": "變色生物",
+                        "includeChildForces": false,
+                        "traverseAssociationGroup": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "associations",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true,
+                        "childName": "任意",
+                        "includeChildForces": false,
+                        "traverseAssociationGroup": false,
+                        "includeChildSelections": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "comment": "變色生物所屬單位技能"
           }
         ],
         "entryLinks": [
@@ -4768,6 +4941,39 @@
             "shared": true,
             "id": "8025-480c-1bb5-0f80",
             "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "f759-1bc4-cb3a-f0d2",
+            "scope": "root-entry",
+            "shared": true,
+            "id": "babd-ffdd-a6ee-c8e8",
+            "childId": "any",
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement."
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "associations",
+            "scope": "self",
+            "shared": true,
+            "id": "146d-103f-5fbb-35e5",
+            "childId": "1556-9b56-fba6-4370",
+            "childName": "領袖"
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "associations",
+            "scope": "self",
+            "shared": true,
+            "id": "3f08-f106-7a51-5a33",
+            "childId": "7dcd-7f61-69a7-0294",
+            "childName": "輔助"
           }
         ],
         "infoLinks": [
@@ -4784,6 +4990,52 @@
             "type": "rule",
             "id": "72af-f501-afc8-f297",
             "targetId": "86aa-437f-260b-5cad"
+          },
+          {
+            "name": "隱匿",
+            "id": "c643-d700-df90-0105",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "bec5-4288-34a6-ccfa",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2b0d-6060-7697-47a0",
+                        "shared": true,
+                        "childName": "變色生物",
+                        "includeChildForces": false,
+                        "traverseAssociationGroup": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "associations",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true,
+                        "childName": "任意",
+                        "includeChildForces": false,
+                        "traverseAssociationGroup": false,
+                        "includeChildSelections": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "comment": "變色生物所屬單位技能"
           }
         ],
         "entryLinks": [
@@ -5653,6 +5905,39 @@
             "shared": true,
             "id": "563f-3f23-8751-81ec",
             "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "f759-1bc4-cb3a-f0d2",
+            "scope": "root-entry",
+            "shared": true,
+            "id": "3641-548e-5e5e-b706",
+            "childId": "any",
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement."
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "associations",
+            "scope": "self",
+            "shared": true,
+            "id": "5566-2ae7-620d-2be2",
+            "childId": "1556-9b56-fba6-4370",
+            "childName": "領袖"
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "associations",
+            "scope": "self",
+            "shared": true,
+            "id": "3ecc-962d-1217-a13a",
+            "childId": "7dcd-7f61-69a7-0294",
+            "childName": "輔助"
           }
         ],
         "profiles": [
@@ -5661,7 +5946,7 @@
               {
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "在對手的移動階段，若一個敵方單位在此單位 8\" 內完成一次移動，且此單位不在任何敵方單位的交戰範圍內，則此單位可以進行一次最多 D6\" 的常規移動。"
+                "$text": "在對手的移動階段，若一個敵方單位在此單位 8 吋內完成一次移動，且此單位不在任何敵方單位的交戰範圍內，則此單位可以進行一次最多 D6 吋的常規移動。"
               }
             ],
             "modifiers": [
@@ -6044,7 +6329,7 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "-",
+                                "$text": "",
                                 "name": "關鍵詞",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
@@ -7332,13 +7617,46 @@
             "shared": true,
             "id": "528e-789e-c3bd-ebbb",
             "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "f759-1bc4-cb3a-f0d2",
+            "scope": "root-entry",
+            "shared": true,
+            "id": "2288-2986-2d4a-b165",
+            "childId": "any",
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement."
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "associations",
+            "scope": "self",
+            "shared": true,
+            "id": "fa6b-ccaf-1433-7600",
+            "childId": "1556-9b56-fba6-4370",
+            "childName": "領袖"
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "associations",
+            "scope": "self",
+            "shared": true,
+            "id": "0f34-47f1-e941-4615",
+            "childId": "7dcd-7f61-69a7-0294",
+            "childName": "輔助"
           }
         ],
         "profiles": [
           {
             "characteristics": [
               {
-                "$text": "此單位即使在本回合突進，仍可以宣告衝鋒。",
+                "$text": "此單位即使在本回合突進，仍可以宣布衝鋒。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -8026,7 +8344,7 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
+                            "$text": "",
                             "name": "關鍵詞",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -8232,7 +8550,7 @@
           {
             "characteristics": [
               {
-                "$text": "在你的移動階段結束時，為此模型 6\" 內的每個敵方單位各擲一顆 D6：若結果為 2-3，該單位遭受 1 點致命傷；若結果為 4-5，該單位遭受 D3 點致命傷；若結果為 6，該單位遭受 D6 點致命傷。",
+                "$text": "在你的移動階段結束時，為此模型 6 吋內的每個敵方單位各擲一顆 D6：若結果為 2-3，該單位遭受 1 點致命傷；若結果為 4-5，該單位遭受 D3 點致命傷；若結果為 6，該單位遭受 D6 點致命傷。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -8807,15 +9125,48 @@
             "shared": true,
             "id": "9c9e-31d9-8f73-c78f",
             "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "f759-1bc4-cb3a-f0d2",
+            "scope": "root-entry",
+            "shared": true,
+            "id": "f92b-e016-5e90-0e52",
+            "childId": "any",
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement."
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "associations",
+            "scope": "self",
+            "shared": true,
+            "id": "a22f-f1b5-456b-499e",
+            "childId": "1556-9b56-fba6-4370",
+            "childName": "領袖"
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "associations",
+            "scope": "self",
+            "shared": true,
+            "id": "8899-001a-846d-b025",
+            "childId": "7dcd-7f61-69a7-0294",
+            "childName": "輔助"
           }
         ],
         "profiles": [
           {
             "characteristics": [
               {
-                "$text": "當一個角色模型率領此單位時，該角色具有不覺疼痛 5+ 技能。",
                 "name": "說明",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "當一個**角色**模型正在領導此單位時，該**角色**具有不覺疼痛 5+ 技能。"
               }
             ],
             "id": "f47f-6b2a-77db-863e",
@@ -8888,6 +9239,13 @@
                 "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
+          },
+          {
+            "type": "add",
+            "value": "5e10-6d62-2624-80a8",
+            "field": "add-info",
+            "comment": "守護生物所屬單位技能",
+            "affects": "group"
           }
         ],
         "costs": [
@@ -9290,7 +9648,7 @@
                                 "typeId": "3254-9fe6-d824-513e"
                               },
                               {
-                                "$text": "-",
+                                "$text": "",
                                 "name": "關鍵詞",
                                 "typeId": "893f-9000-ccf7-648e"
                               }
@@ -9354,7 +9712,7 @@
                                 "typeId": "3254-9fe6-d824-513e"
                               },
                               {
-                                "$text": "-",
+                                "$text": "",
                                 "name": "關鍵詞",
                                 "typeId": "893f-9000-ccf7-648e"
                               }
@@ -9601,13 +9959,13 @@
           {
             "characteristics": [
               {
-                "$text": "在你的指揮階段，你可以選擇最多兩個與此模型所屬單位相距不超過 18\" 的己方泰倫蟲族單位。直到你下一個指揮階段開始前，被選擇的單位一律視為位於你軍隊的突觸範圍內。",
                 "name": "說明",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "在你的指揮階段，你可以選擇最多兩個與此模型所屬單位相距不超過 18 吋的己方泰倫蟲族單位。直到你下一個指揮階段開始前，被選擇的單位一律視為位於你軍隊的突觸範圍內。\n\n**設計師註釋：** *在每個被選擇的單位旁放置一個「神經中繼」指示物作為提醒。*"
               }
             ],
             "id": "808e-ed23-9487-8b66",
-            "name": "突觸中繼",
+            "name": "神經中繼",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "技能"
@@ -9615,7 +9973,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可以附屬於下列單位：\n▪ 神經蟲\n▪ 暴君護衛\n▪ 腦蟲",
+                "$text": "此模型可以與下列單位組成聯合單位：\n▪ 神經蟲\n▪ 暴君護衛\n▪ 腦蟲",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -10024,7 +10382,7 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
+                        "$text": "",
                         "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -10157,6 +10515,54 @@
               }
             ]
           }
+        ],
+        "associations": [
+          {
+            "min": 0,
+            "max": 1,
+            "scope": "force",
+            "childId": "unit",
+            "name": "領導",
+            "id": "181b-f164-25e8-1773",
+            "label": "Leader",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "50be-2da9-b98b-2a55",
+                    "shared": true,
+                    "childName": "神經蟲"
+                  },
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "9655-9e08-b63f-c29e",
+                    "shared": true,
+                    "childName": "暴君護衛"
+                  },
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "7214-3728-6fad-2681",
+                    "shared": true,
+                    "childName": "腦蟲"
+                  }
+                ]
+              }
+            ],
+            "includeChildSelections": true,
+            "childName": "單位",
+            "action": "group"
+          }
         ]
       },
       {
@@ -10250,7 +10656,7 @@
           {
             "characteristics": [
               {
-                "$text": "當一個敵方單位位於此模型 6\" 內時，每當該單位中的一個模型進行攻擊時，該次命中擲骰減 1；若該敵方單位低於半數兵力，則該次致傷擲骰也減 1。",
+                "$text": "當一個敵方單位位於此模型 6 吋內時，每當該單位中的一個模型進行攻擊時，該次命中擲骰減 1；若該敵方單位低於半數兵力，則該次致傷擲骰也減 1。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -10659,7 +11065,7 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
+                        "$text": "",
                         "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -10703,7 +11109,7 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
+                        "$text": "",
                         "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -10915,7 +11321,7 @@
           {
             "characteristics": [
               {
-                "$text": "在你的射擊階段，此單位射擊後，選擇一個被上述攻擊命中的敵方單位。直到該階段結束，該敵方單位不能獲得掩護增益。",
+                "$text": "在你的射擊階段，此單位射擊後，選擇一個被上述攻擊命中的敵方單位。直到該階段結束，該敵方單位不能獲得掩體增益。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -11720,7 +12126,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當此模型被選擇進行近戰時，結算其攻擊後，若至少一個敵方單位因這些攻擊而被摧毀，則此模型 6\" 內每個敵方單位都必須進行戰鬥震懾擲骰。",
+                "$text": "每當此模型被選擇進行近戰時，結算其攻擊後，若至少一個敵方單位因這些攻擊而被摧毀，則此模型 6 吋內每個敵方單位都必須進行戰鬥震懾擲骰。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -12311,6 +12717,39 @@
             "shared": true,
             "id": "253f-90c6-8088-9a69",
             "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "f759-1bc4-cb3a-f0d2",
+            "scope": "root-entry",
+            "shared": true,
+            "id": "6dba-2dc7-a224-7875",
+            "childId": "any",
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement."
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "associations",
+            "scope": "self",
+            "shared": true,
+            "id": "877d-afd1-aa74-b6f1",
+            "childId": "1556-9b56-fba6-4370",
+            "childName": "領袖"
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "associations",
+            "scope": "self",
+            "shared": true,
+            "id": "0f00-09b7-4897-a1d0",
+            "childId": "7dcd-7f61-69a7-0294",
+            "childName": "輔助"
           }
         ],
         "costs": [
@@ -12444,7 +12883,7 @@
               {
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "此單位 6\" 內的己方泰倫蟲族單位擁有隱匿技能。"
+                "$text": "此單位 6 吋內的己方 **泰倫蟲族** 單位具有隱匿技能。"
               }
             ],
             "name": "骯髒孢子（靈氣）",
@@ -12993,6 +13432,39 @@
             "shared": true,
             "id": "618f-2e64-0d7e-a23e",
             "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "f759-1bc4-cb3a-f0d2",
+            "scope": "root-entry",
+            "shared": true,
+            "id": "6c17-f6fa-bb44-04d5",
+            "childId": "any",
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement."
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "associations",
+            "scope": "self",
+            "shared": true,
+            "id": "636e-830e-78b7-5936",
+            "childId": "1556-9b56-fba6-4370",
+            "childName": "領袖"
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "associations",
+            "scope": "self",
+            "shared": true,
+            "id": "1cf2-441f-68fc-02b8",
+            "childId": "7dcd-7f61-69a7-0294",
+            "childName": "輔助"
           }
         ],
         "infoLinks": [
@@ -13740,6 +14212,39 @@
             "shared": true,
             "id": "479b-8f2b-14ec-6e28",
             "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "f759-1bc4-cb3a-f0d2",
+            "scope": "root-entry",
+            "shared": true,
+            "id": "df36-f456-e6a8-d48c",
+            "childId": "any",
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement."
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "associations",
+            "scope": "self",
+            "shared": true,
+            "id": "cdc9-779d-006a-88c2",
+            "childId": "1556-9b56-fba6-4370",
+            "childName": "領袖"
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "associations",
+            "scope": "self",
+            "shared": true,
+            "id": "0c12-3dd7-1f93-bf2f",
+            "childId": "7dcd-7f61-69a7-0294",
+            "childName": "輔助"
           }
         ],
         "categoryLinks": [
@@ -13867,7 +14372,7 @@
           {
             "characteristics": [
               {
-                "$text": "若一個敵方單位位於此單位 6\" 範圍內，且此單位包含一個靈吸蟲，則每當該敵方單位的戰鬥震懾擲骰失敗時，該敵方單位遭受 D3 點致命傷，且此單位中的一個模型恢復最多 D3 點已失去的耐傷。",
+                "$text": "若一個敵方單位位於此單位 6 吋範圍內，且此單位包含一個靈吸蟲，則每當該敵方單位的戰鬥震懾擲骰失敗時，該敵方單位遭受 D3 點致命傷，且此單位中的一個模型恢復最多 D3 點已失去的耐傷。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -13881,7 +14386,7 @@
           {
             "characteristics": [
               {
-                "$text": "當一個己方泰倫蟲族單位位於此單位 6\" 內時，該單位中的模型具有 6+ 無敵豁免。",
+                "$text": "當一個己方泰倫蟲族單位位於此單位 6 吋內時，該單位中的模型具有 6+ 無敵豁免。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -15273,7 +15778,7 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
+                        "$text": "",
                         "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -15750,7 +16255,7 @@
               {
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "每回合一次，在你的射擊階段，當一個擁有此技能的單位被選擇進行射擊時，該單位可以使用此技能，而不是以其遠程武器進行攻擊。若如此做，你可以將一個新孢子雷單位加入你的軍隊，並將其部署在戰場上任意一個完全位於此單位 48\" 內、且與所有敵方單位水平距離超過 8\" 的位置。該孢子雷單位包含的模型數量等同於此單位目前的模型數量。"
+                "$text": "每回合一次，在你的射擊階段，當一個擁有此技能的單位被選擇進行射擊時，該單位可以使用此技能，而不是以其遠程武器進行攻擊。若如此做，你可以將一個新孢子雷單位加入你的軍隊，並將其部署在戰場上任意一個完全位於此單位 48 吋內、且與所有敵方單位水平距離超過 8 吋的位置。該孢子雷單位包含的模型數量等同於此單位目前的模型數量。"
               }
             ],
             "name": "散布孢子雷",
@@ -16126,6 +16631,39 @@
             "shared": true,
             "id": "a928-89d0-60de-6e30",
             "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "f759-1bc4-cb3a-f0d2",
+            "scope": "root-entry",
+            "shared": true,
+            "id": "d1fe-7004-c91f-8eac",
+            "childId": "any",
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement."
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "associations",
+            "scope": "self",
+            "shared": true,
+            "id": "6002-3eb8-54ed-1381",
+            "childId": "1556-9b56-fba6-4370",
+            "childName": "領袖"
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "associations",
+            "scope": "self",
+            "shared": true,
+            "id": "5284-c068-d5e9-b29a",
+            "childId": "7dcd-7f61-69a7-0294",
+            "childName": "輔助"
           }
         ],
         "selectionEntries": [
@@ -16284,7 +16822,7 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
+                            "$text": "",
                             "name": "關鍵詞",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -16429,7 +16967,7 @@
                                     "typeId": "3254-9fe6-d824-513e"
                                   },
                                   {
-                                    "$text": "-",
+                                    "$text": "",
                                     "name": "關鍵詞",
                                     "typeId": "893f-9000-ccf7-648e"
                                   }
@@ -16985,7 +17523,7 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "圖騰存在升級",
+                "name": "圖騰威儀升級",
                 "hidden": false,
                 "id": "7a6a-998d-27ea-ec0d",
                 "type": "selectionEntry",
@@ -17030,7 +17568,7 @@
               {
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "在對手的射擊階段，當一個敵方單位射擊後，若此單位中有模型因該敵方單位的攻擊而失去至少 1 點耐傷，則此單位可以進行一次最多 D6+2\" 的迸發移動。"
+                "$text": "在對手的射擊階段，當一個敵方單位射擊後，若此單位中有模型因該敵方單位的攻擊而失去至少 1 點耐傷，則此單位可以進行一次最多 D6+2 吋的迸發移動。"
               }
             ],
             "name": "猛烈突襲",
@@ -17354,7 +17892,7 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "-",
+                "$text": "",
                 "name": "關鍵詞",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -17407,7 +17945,7 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "-",
+                "$text": "",
                 "name": "關鍵詞",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -17460,7 +17998,7 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
+                "$text": "",
                 "name": "關鍵詞",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -18023,7 +18561,7 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
+                        "$text": "",
                         "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -19206,7 +19744,7 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
+                        "$text": "",
                         "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -20809,7 +21347,7 @@
               {
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "在對手的近戰階段結束時，選擇以下一項：\n▪ 選擇此單位 24\" 內一個可見的敵方單位（獨行特工單位除外），為該單位擲六顆 D6：每有一顆擲骰結果為 3+，該單位遭受 1 點致命傷。\n▪ 將一個包含 D3 個模型的新孢子雷單位加入你的軍隊，並將其部署在戰場上任意一個位於此模型 6\" 內、且與所有敵方單位水平距離超過 8\" 的位置。每回合最多只能有一個模型選擇此選項。"
+                "$text": "在對手的近戰階段結束時，選擇以下一項：\n▪ 選擇此單位 24 吋內的一個可見敵方單位（獨行特工單位除外），為該單位擲六顆 D6：每有一顆擲骰結果為 3+，該單位遭受 1 點致命傷。\n▪ 將一個包含 D3 個模型的新孢子雷單位加入你的軍隊，並將其部署在戰場上任意一個位於此模型 6 吋內、且與所有敵方單位水平距離超過 8 吋的位置。每回合最多只能有一個模型選擇此選項。"
               }
             ],
             "name": "孢子雷囊",
@@ -21500,7 +22038,7 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
+                "$text": "",
                 "name": "關鍵詞",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -21607,7 +22145,7 @@
               {
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "每回合一次，在你的射擊階段，當一個擁有此技能的單位被選擇進行射擊時，該單位可以使用此技能，而不是以其遠程武器進行攻擊。若如此做，你可以將一個包含 1 個模型的新黏液孢子單位加入你的軍隊，並將其部署在戰場上任意一個完全位於此模型 18\" 內、且與所有敵方單位水平距離超過 8\" 的位置。"
+                "$text": "每回合一次，在你的射擊階段，當一個擁有此技能的單位被選擇進行射擊時，該單位可以使用此技能，而不是以其遠程武器進行攻擊。若如此做，你可以將一個包含 1 個模型的新黏液孢子單位加入你的軍隊，並將其部署在戰場上任意一個完全位於此模型 18 吋內、且與所有敵方單位水平距離超過 8 吋的位置。"
               }
             ],
             "name": "播種黏液",
@@ -21973,7 +22511,7 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
+                        "$text": "",
                         "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -23029,7 +23567,7 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
+                            "$text": "",
                             "name": "關鍵詞",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -24013,7 +24551,7 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
+                        "$text": "",
                         "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -24166,7 +24704,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型即使在本回合後撤，仍可以宣告衝鋒。",
+                "$text": "此模型即使在本回合後撤，仍可以宣布衝鋒。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -24636,7 +25174,7 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
+                        "$text": "",
                         "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -24828,7 +25366,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當此模型被選擇進行射擊時，你可以使用此技能。若如此做，直到該階段結束，每當此模型進行攻擊時，該次致傷擲骰加 1。完成這些攻擊的結算後，擲一顆 D6：若結果為 2+，此模型遭受 D3 點致命傷。",
+                "$text": "每當此模型被選擇進行射擊時，你可以使用此技能。若如此做，直到該階段結束，每當此模型進行攻擊時，該次致傷擲骰加 1。結算完這些攻擊後，擲一顆 D6：若結果為 2+，此模型遭受 D3 點致命傷。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -25266,7 +25804,7 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
+                        "$text": "",
                         "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -25489,7 +26027,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當此模型進行常規移動、突進或後撤移動時，此模型可以越過模型（不含巨型模型）以及高度為 4\" 或以下的地形要素，視同這些模型與地形不存在。",
+                "$text": "每當此模型進行常規移動、突進或後撤移動時，此模型可以越過模型（不含巨型模型）以及高度為 4 吋或以下的地形要素，視同這些模型與地形不存在。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -25547,7 +26085,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型具有 20 個泰倫蟲族步兵模型的搭載容量。每個耐傷屬性大於 1 的模型佔用 3 個模型空間。此模型不能運輸具有飛行關鍵詞的模型。",
+                "$text": "此模型具有 20 個泰倫蟲族步兵模型的搭載容量。每個耐傷屬性大於 1 的模型會佔用相當於 3 個模型的空間。此模型不能運輸具有飛行關鍵詞的模型。",
                 "name": "搭載容量",
                 "typeId": "30f2-be70-861d-1b84"
               }
@@ -26176,7 +26714,7 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
+                        "$text": "",
                         "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -26410,39 +26948,39 @@
                           {
                             "characteristics": [
                               {
-                                "$text": "近戰",
                                 "name": "射程",
-                                "typeId": "914c-b413-91e3-a132"
+                                "typeId": "914c-b413-91e3-a132",
+                                "$text": "近戰"
                               },
                               {
-                                "$text": "4",
                                 "name": "A",
-                                "typeId": "2337-daa1-6682-b110"
+                                "typeId": "2337-daa1-6682-b110",
+                                "$text": "4"
                               },
                               {
-                                "$text": "2+",
                                 "name": "WS",
-                                "typeId": "95d1-95f-45b4-11d6"
+                                "typeId": "95d1-95f-45b4-11d6",
+                                "$text": "2+"
                               },
                               {
-                                "$text": "4",
                                 "name": "S",
-                                "typeId": "ab33-d393-96ce-ccba"
+                                "typeId": "ab33-d393-96ce-ccba",
+                                "$text": "4"
                               },
                               {
-                                "$text": "-2",
                                 "name": "AP",
-                                "typeId": "41a0-1301-112a-e2f2"
+                                "typeId": "41a0-1301-112a-e2f2",
+                                "$text": "-2"
                               },
                               {
-                                "$text": "1",
                                 "name": "D",
-                                "typeId": "3254-9fe6-d824-513e"
+                                "typeId": "3254-9fe6-d824-513e",
+                                "$text": "1"
                               },
                               {
-                                "$text": "-",
                                 "name": "關鍵詞",
-                                "typeId": "893f-9000-ccf7-648e"
+                                "typeId": "893f-9000-ccf7-648e",
+                                "$text": ""
                               }
                             ],
                             "name": "基因竊取者爪與鐮爪",
@@ -26525,6 +27063,52 @@
             "type": "rule",
             "id": "47c5-6071-3c6d-b0dd",
             "targetId": "86aa-437f-260b-5cad"
+          },
+          {
+            "name": "隱匿",
+            "id": "4b98-f8a7-8a66-9745",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "bec5-4288-34a6-ccfa",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2b0d-6060-7697-47a0",
+                        "shared": true,
+                        "childName": "變色生物",
+                        "includeChildForces": false,
+                        "traverseAssociationGroup": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "associations",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true,
+                        "childName": "任意",
+                        "includeChildForces": false,
+                        "traverseAssociationGroup": false,
+                        "includeChildSelections": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "comment": "變色生物所屬單位技能"
           }
         ],
         "constraints": [
@@ -26563,6 +27147,39 @@
             "shared": true,
             "id": "7eaa-2f2c-2716-4a55",
             "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "f759-1bc4-cb3a-f0d2",
+            "scope": "root-entry",
+            "shared": true,
+            "id": "1e6b-388d-aaf0-d9a1",
+            "childId": "any",
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement."
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "associations",
+            "scope": "self",
+            "shared": true,
+            "id": "1b18-2d6c-e243-cc44",
+            "childId": "1556-9b56-fba6-4370",
+            "childName": "領袖"
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "associations",
+            "scope": "self",
+            "shared": true,
+            "id": "24dc-11fb-b9a4-51a1",
+            "childId": "7dcd-7f61-69a7-0294",
+            "childName": "輔助"
           }
         ],
         "modifiers": [
@@ -26967,7 +27584,7 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
+                "$text": "",
                 "name": "關鍵詞",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -26986,7 +27603,7 @@
             "value": 0
           }
         ],
-        "comment": "遠程戰士",
+        "comment": "遠程武士",
         "id": "d9b4-8d0f-91f9-d114",
         "name": "泰倫武士爪與鐮爪",
         "hidden": false,
@@ -27066,7 +27683,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當此模型進行近戰時，結算其攻擊後，若有至少一個敵方模型（不含載具模型）因此被摧毀，則此模型恢復最多 D3 點耐傷。",
+                "$text": "每當此模型進行近戰時，結算其攻擊後，若有至少一個敵方模型（不含載具模型）因此被摧毀，則此模型恢復最多 D3 點已失去的耐傷。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -27566,7 +28183,7 @@
             "targetId": "b00b-5bae-444f-964e",
             "id": "ab1a-9487-37bd-61e9",
             "primary": true,
-            "name": "集群"
+            "name": "蟲群"
           },
           {
             "targetId": "7850-cc5a-c191-b80d",
@@ -27635,7 +28252,7 @@
           {
             "characteristics": [
               {
-                "$text": "當一個敵方單位位於至少一個具有此技能的單位交戰範圍內時，該敵方單位中模型的目標控制屬性減半。",
+                "$text": "當一個敵方單位位於至少一個具有此技能之單位的交戰範圍內時，該敵方單位中模型的目標控制屬性減半。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -28099,7 +28716,7 @@
           {
             "characteristics": [
               {
-                "$text": "當此模型正在領導一個單位時，該單位的骯髒孢子靈氣技能範圍增加至 9\"。",
+                "$text": "當此模型正在領導一個單位時，該單位的骯髒孢子靈氣技能範圍增加至 9 吋。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -28113,7 +28730,7 @@
           {
             "characteristics": [
               {
-                "$text": "每當此模型所屬單位被選擇進行近戰時，選擇以下一項技能。直到該階段結束，該單位中模型所裝備的所有近戰武器擁有該技能：\n▪ ［連擊 1］\n▪ ［騎槍］\n▪ ［致命一擊］",
+                "$text": "每當此模型所屬單位被選擇進行近戰時，選擇以下一項技能。直到該階段結束，該單位中模型所裝備的所有近戰武器擁有該技能：\n▪ **[連擊 1]**\n▪ **[騎槍]**\n▪ **[致命一擊]**",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -28127,7 +28744,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可以附屬於下列單位：\n▪ 毒煙蟲",
+                "$text": "此模型可以與下列單位組成聯合單位：\n▪ 毒煙蟲",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -28181,6 +28798,13 @@
             "hidden": false,
             "id": "c34d-9566-6924-ff48",
             "targetId": "1556-9b56-fba6-4370",
+            "primary": false
+          },
+          {
+            "name": "殮屍蟲",
+            "hidden": false,
+            "id": "9635-7652-2afa-40a3",
+            "targetId": "a634-9edf-3a8-b3f1",
             "primary": false
           }
         ],
@@ -28582,7 +29206,7 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
+                        "$text": "",
                         "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -28621,7 +29245,37 @@
         "import": true,
         "name": "殮屍蟲［傳奇］",
         "hidden": false,
-        "id": "c17f-f55f-a3cb-530b"
+        "id": "c17f-f55f-a3cb-530b",
+        "associations": [
+          {
+            "min": 0,
+            "max": 1,
+            "scope": "force",
+            "childId": "unit",
+            "name": "領導",
+            "id": "84d2-2d28-5523-7dc9",
+            "label": "Leader",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "c84f-d7e4-d853-88f3",
+                    "shared": true,
+                    "childName": "毒煙蟲"
+                  }
+                ]
+              }
+            ],
+            "includeChildSelections": true,
+            "childName": "單位",
+            "action": "group"
+          }
+        ]
       },
       {
         "costs": [
@@ -28822,7 +29476,7 @@
           {
             "characteristics": [
               {
-                "$text": "每回合一次，當此單位交戰範圍內一個敵方單位被選擇進行後撤時，擲一顆 D6；若結果為 2+，該單位遭受 D6 點致命傷。",
+                "$text": "每回合一次，當位於此單位交戰範圍內的一個敵方單位被選擇進行後撤時，擲一顆 D6；若結果為 2+，該單位遭受 D6 點致命傷。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -29166,7 +29820,7 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
+                        "$text": "",
                         "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -30076,7 +30730,7 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
+                        "$text": "",
                         "name": "關鍵詞",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -30469,7 +31123,7 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "-",
+                "$text": "",
                 "name": "關鍵詞",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -30763,7 +31417,7 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "-",
+                "$text": "",
                 "name": "關鍵詞",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -30895,7 +31549,7 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
+                "$text": "",
                 "name": "關鍵詞",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -30950,7 +31604,7 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
+                "$text": "",
                 "name": "關鍵詞",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -31005,7 +31659,7 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
+                "$text": "",
                 "name": "關鍵詞",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -31060,7 +31714,7 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
+                "$text": "",
                 "name": "關鍵詞",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -31896,7 +32550,7 @@
               {
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "當一個己方泰倫蟲族單位位於此模型 6\" 內時，該單位中模型裝備的遠程武器擁有［突擊］與［致命一擊］技能。"
+                "$text": "當一個己方泰倫蟲族單位位於此模型 6 吋內時，該單位中模型裝備的遠程武器擁有 **[突擊]** 與 **[致命一擊]** 技能。"
               }
             ],
             "name": "猛攻（靈氣，靈能）",
@@ -31908,7 +32562,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可以附屬於下列單位：\n▪ 暴君護衛",
+                "$text": "此模型可以與下列單位組成聯合單位：\n▪ 暴君護衛",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -32119,6 +32773,36 @@
               }
             ],
             "type": "and"
+          },
+          {
+            "type": "and",
+            "modifiers": [
+              {
+                "type": "append",
+                "value": "猛攻",
+                "field": "annotation",
+                "affects": "self.entries.group.recursive.associations.profiles.Ranged Weapons",
+                "join": ", "
+              },
+              {
+                "type": "append",
+                "value": "突擊，致命一擊",
+                "field": "7f1b-8591-2fcf-d01c",
+                "affects": "self.entries.group.recursive.associations.profiles.Ranged Weapons",
+                "join": ", "
+              }
+            ],
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "associations",
+                "scope": "self",
+                "childId": "any",
+                "shared": true
+              }
+            ],
+            "comment": "猛攻所屬單位修正"
           }
         ],
         "type": "model",
@@ -32144,6 +32828,36 @@
                 "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
+          }
+        ],
+        "associations": [
+          {
+            "min": 0,
+            "max": 1,
+            "scope": "force",
+            "childId": "unit",
+            "name": "領導",
+            "id": "2bc0-bb5c-8117-8758",
+            "label": "Leader",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "9655-9e08-b63f-c29e",
+                    "shared": true,
+                    "childName": "暴君護衛"
+                  }
+                ]
+              }
+            ],
+            "includeChildSelections": true,
+            "childName": "單位",
+            "action": "group"
           }
         ]
       },
@@ -32234,7 +32948,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型所屬單位內所有模型裝備的武器具有［連擊 1］技能。",
+                "$text": "此模型所屬單位內所有模型裝備的武器具有 **[連擊 1]** 技能。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -32250,7 +32964,7 @@
               {
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "在對手的射擊階段，當一個敵方單位射擊後，若此單位中有模型因該敵方單位的攻擊而被摧毀，則此單位可以進行最多 D6\" 的迸發移動。"
+                "$text": "在對手的射擊階段，當一個敵方單位射擊後，若此單位中有模型因該敵方單位的攻擊而被摧毀，則此單位可以進行最多 D6 吋的迸發移動。"
               }
             ],
             "name": "好鬥首領",
@@ -32262,7 +32976,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型可以附屬於下列單位：\n▪ 刀蟲\n▪ 槍蟲\n▪ 裝備近戰活體武器的泰倫武士\n▪ 裝備遠程活體武器的泰倫武士",
+                "$text": "此模型可以與下列單位組成聯合單位：\n▪ 刀蟲\n▪ 槍蟲\n▪ 裝備近戰活體武器的泰倫武士\n▪ 裝備遠程活體武器的泰倫武士",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -32658,6 +33372,116 @@
                 "includeChildForces": true
               }
             ]
+          },
+          {
+            "type": "and",
+            "modifiers": [
+              {
+                "type": "append",
+                "value": "頭領戰士",
+                "field": "annotation",
+                "affects": "self.entries.group.recursive.associations.profiles.Ranged Weapons",
+                "join": ", ",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "associations",
+                    "scope": "self",
+                    "childId": "any",
+                    "shared": true
+                  }
+                ],
+                "skipIfPresent": "Alpha Warrior"
+              },
+              {
+                "type": "append",
+                "value": "連擊 1",
+                "field": "7f1b-8591-2fcf-d01c",
+                "affects": "self.entries.group.recursive.associations.profiles.Ranged Weapons",
+                "join": ", ",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "associations",
+                    "scope": "self",
+                    "childId": "any",
+                    "shared": true
+                  }
+                ],
+                "skipIfPresent": "Sustained Hits 1"
+              },
+              {
+                "type": "append",
+                "value": "頭領戰士",
+                "field": "annotation",
+                "affects": "self.entries.group.recursive.associations.profiles.Melee Weapons",
+                "join": ", ",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "associations",
+                    "scope": "self",
+                    "childId": "any",
+                    "shared": true
+                  }
+                ],
+                "skipIfPresent": "Alpha Warrior"
+              },
+              {
+                "type": "append",
+                "value": "連擊 1",
+                "field": "893f-9000-ccf7-648e",
+                "affects": "self.entries.group.recursive.associations.profiles.Melee Weapons",
+                "join": ", ",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "associations",
+                    "scope": "self",
+                    "childId": "any",
+                    "shared": true
+                  }
+                ],
+                "skipIfPresent": "Sustained Hits 1"
+              },
+              {
+                "type": "append",
+                "value": "頭領戰士",
+                "field": "annotation",
+                "affects": "self.entries.recursive.profiles.Ranged Weapons",
+                "join": ", ",
+                "skipIfPresent": "Alpha Warrior"
+              },
+              {
+                "type": "append",
+                "value": "連擊 1",
+                "field": "7f1b-8591-2fcf-d01c",
+                "affects": "self.entries.recursive.profiles.Ranged Weapons",
+                "join": ", ",
+                "skipIfPresent": "Sustained Hits 1"
+              },
+              {
+                "type": "append",
+                "value": "頭領戰士",
+                "field": "annotation",
+                "affects": "self.entries.recursive.profiles.Melee Weapons",
+                "join": ", ",
+                "skipIfPresent": "Alpha Warrior"
+              },
+              {
+                "type": "append",
+                "value": "連擊 1",
+                "field": "893f-9000-ccf7-648e",
+                "affects": "self.entries.recursive.profiles.Melee Weapons",
+                "join": ", ",
+                "skipIfPresent": "Sustained Hits 1"
+              }
+            ],
+            "comment": "頭領戰士所屬單位修正"
           }
         ],
         "selectionEntryGroups": [
@@ -32692,39 +33516,39 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "近戰",
                         "name": "射程",
-                        "typeId": "914c-b413-91e3-a132"
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "近戰"
                       },
                       {
-                        "$text": "4",
                         "name": "A",
-                        "typeId": "2337-daa1-6682-b110"
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "4"
                       },
                       {
-                        "$text": "2+",
                         "name": "WS",
-                        "typeId": "95d1-95f-45b4-11d6"
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "2+"
                       },
                       {
-                        "$text": "8",
                         "name": "S",
-                        "typeId": "ab33-d393-96ce-ccba"
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "8"
                       },
                       {
-                        "$text": "-2",
                         "name": "AP",
-                        "typeId": "41a0-1301-112a-e2f2"
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-2"
                       },
                       {
-                        "$text": "3",
                         "name": "D",
-                        "typeId": "3254-9fe6-d824-513e"
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "3"
                       },
                       {
-                        "$text": "-",
                         "name": "關鍵詞",
-                        "typeId": "893f-9000-ccf7-648e"
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": ""
                       }
                     ],
                     "name": "撕裂爪",
@@ -32916,39 +33740,39 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "近戰",
                         "name": "射程",
-                        "typeId": "914c-b413-91e3-a132"
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "近戰"
                       },
                       {
-                        "$text": "6",
                         "name": "A",
-                        "typeId": "2337-daa1-6682-b110"
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "6"
                       },
                       {
-                        "$text": "2+",
                         "name": "WS",
-                        "typeId": "95d1-95f-45b4-11d6"
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "2+"
                       },
                       {
-                        "$text": "6",
                         "name": "S",
-                        "typeId": "ab33-d393-96ce-ccba"
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "6"
                       },
                       {
-                        "$text": "-2",
                         "name": "AP",
-                        "typeId": "41a0-1301-112a-e2f2"
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-2"
                       },
                       {
-                        "$text": "2",
                         "name": "D",
-                        "typeId": "3254-9fe6-d824-513e"
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "2"
                       },
                       {
-                        "$text": "-",
                         "name": "關鍵詞",
-                        "typeId": "893f-9000-ccf7-648e"
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": ""
                       }
                     ],
                     "name": "鐮刀爪",
@@ -33021,6 +33845,63 @@
                 "childName": "1. 入侵戰（1000 點上限）"
               }
             ]
+          }
+        ],
+        "associations": [
+          {
+            "min": 0,
+            "max": 1,
+            "scope": "force",
+            "childId": "unit",
+            "name": "領導",
+            "id": "3289-f0d7-5ec4-43bf",
+            "label": "Leader",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "2b2c-c30e-6d51-a4cc",
+                    "shared": true,
+                    "childName": "刀蟲"
+                  },
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "b054-c3e8-d71d-1a7e",
+                    "shared": true,
+                    "childName": "槍蟲"
+                  },
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "fb3c-c529-4e6c-2251",
+                    "shared": true,
+                    "childName": "裝備近戰活體武器的泰倫武士"
+                  },
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "5c1a-a178-5951-d42",
+                    "shared": true,
+                    "childName": "裝備遠程活體武器的泰倫武士"
+                  }
+                ]
+              }
+            ],
+            "includeChildSelections": true,
+            "childName": "單位",
+            "action": "group"
           }
         ]
       },
@@ -33368,13 +34249,187 @@
         "name": "黏液孢子（孢子要塞）",
         "hidden": false,
         "id": "9943-934a-221b-e0c0"
+      },
+      {
+        "infoLinks": [
+          {
+            "targetId": "d7bb-5382-f348-1d3f",
+            "id": "9434-f909-4d2d-0fb5",
+            "type": "profile",
+            "name": "漂浮死亡",
+            "hidden": false
+          },
+          {
+            "targetId": "374e-ed33-a96f-a014",
+            "id": "5946-3715-69a4-1672",
+            "type": "profile",
+            "name": "生物雷",
+            "hidden": false
+          },
+          {
+            "name": "深入打擊",
+            "hidden": false,
+            "type": "rule",
+            "id": "7590-5c16-e2ff-e1d0",
+            "targetId": "7cb5-dd6b-dd87-ad3b"
+          },
+          {
+            "name": "突觸",
+            "hidden": false,
+            "type": "rule",
+            "id": "5759-cd74-3fe0-31f7",
+            "targetId": "86aa-437f-260b-5cad"
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "51f8-b488-5f21-c390",
+            "id": "7daf-e4c4-3b74-7412",
+            "primary": false,
+            "name": "孢子雷"
+          },
+          {
+            "targetId": "4c3e-9310-a516-3590",
+            "id": "2b98-0788-862a-edb2",
+            "primary": false,
+            "name": "野獸"
+          },
+          {
+            "targetId": "c619-2086-bbcf-69c9",
+            "id": "df92-dbb4-21d6-2d67",
+            "primary": false,
+            "name": "飛行"
+          },
+          {
+            "targetId": "7850-cc5a-c191-b80d",
+            "id": "ca4a-55ef-61d3-ff48",
+            "primary": false,
+            "name": "大吞噬者"
+          },
+          {
+            "targetId": "d1d8-6ae0-1be7-e9e",
+            "id": "113d-fd0e-3c32-2acd",
+            "primary": false,
+            "name": "陣營：泰倫蟲族"
+          },
+          {
+            "name": "參考",
+            "hidden": false,
+            "id": "ec83-090d-1a6d-61a0",
+            "targetId": "eef1-be80-500a-edfc",
+            "primary": true
+          }
+        ],
+        "selectionEntries": [
+          {
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "0bbd-dff6-b7a1-d25f",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 3,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "25a0-a981-83e9-352f",
+                "includeChildSelections": false
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "孢子雷",
+                "id": "5493-7958-df5a-2f65",
+                "hidden": false,
+                "targetId": "84d8-d3ab-da07-7449",
+                "type": "profile"
+              }
+            ],
+            "type": "model",
+            "import": true,
+            "name": "孢子雷",
+            "hidden": false,
+            "id": "8030-15f3-813d-ee94"
+          }
+        ],
+        "modifiers": [
+          {
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "cc05-aeb3-b2d6-3732",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true,
+                "childName": "天妖"
+              }
+            ],
+            "type": "set",
+            "value": true,
+            "field": "hidden"
+          }
+        ],
+        "costs": [
+          {
+            "name": "遠征點",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "遠征：戰鬥榮譽",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "遠征：經驗值",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "遠征：武器改造",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "黑石碎片",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "a4bc-85b4-29ca-7023",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "comment": "生成單位參考版本",
+        "type": "unit",
+        "import": true,
+        "name": "孢子雷（天妖）",
+        "hidden": false,
+        "id": "f464-429b-4606-199a"
       }
     ],
     "sharedProfiles": [
       {
         "characteristics": [
           {
-            "$text": "每當此單位或一個敵方單位完成移動時，對此單位中每個與至少一個敵方單位相距不超過 3\" 的模型，選擇其中一個敵方單位。該模型被摧毀，然後擲一顆 D6：若結果為 2-5，該敵方單位遭受 D3 點致命傷；若結果為 6，該敵方單位遭受 D6 點致命傷。",
+            "$text": "每當此單位或一個敵方單位完成移動時，對此單位中每個與至少一個敵方單位相距不超過 3 吋的模型，選擇其中一個敵方單位。此單位中的此單位中的該模型被摧毀，然後擲一顆 D6：若結果為 2-5，該敵方單位遭受 D3 點致命傷；若結果為 6，該敵方單位遭受 D6 點致命傷。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
@@ -33388,7 +34443,7 @@
       {
         "characteristics": [
           {
-            "$text": "敵方單位不能在此單位 6\" 範圍內開始或結束突進移動。",
+            "$text": "敵方單位不能在此單位 6 吋範圍內開始或結束突進移動。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
@@ -33548,7 +34603,7 @@
       {
         "characteristics": [
           {
-            "$text": "每當此單位或一個敵方單位完成移動時，對此單位中每個與至少一個敵方單位相距不超過 3\" 的模型，選擇其中一個敵方單位。該模型被摧毀，然後擲一顆 D6：若結果為 2-5，該敵方單位遭受 1 點致命傷；若結果為 6，該敵方單位遭受 D3 點致命傷。",
+            "$text": "每當此單位或一個敵方單位完成移動時，對此單位中每個與至少一個敵方單位相距不超過 3 吋的模型，選擇其中一個敵方單位。此單位中的此單位中的該模型被摧毀，然後擲一顆 D6：若結果為 2-5，該敵方單位遭受 1 點致命傷；若結果為 6，該敵方單位遭受 D3 點致命傷。",
             "name": "說明",
             "typeId": "9b8f-694b-e5e-b573"
           }
