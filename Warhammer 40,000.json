@@ -145,20 +145,36 @@
             "type": "set",
             "value": false,
             "field": "hidden",
-            "conditions": [
+            "scope": "roster",
+            "conditionGroups": [
               {
-                "type": "instanceOf",
-                "value": 1,
-                "field": "selections",
-                "scope": "self",
-                "childId": "bb9d-299a-ed60-2d8a",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "childName": "Army Roster"
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "bb9d-299a-ed60-2d8a",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "childName": "Army Roster"
+                  },
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "ff7b-8f73-1756-650a",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "childName": "Crusade Army"
+                  }
+                ]
               }
-            ],
-            "scope": "roster"
+            ]
           }
         ],
         "hidden": true
@@ -2102,6 +2118,11 @@
         "hidden": false
       },
       {
+        "name": "殺戮小隊",
+        "hidden": false,
+        "id": "81b0-a893-4fb7-c298"
+      },
+      {
         "name": "盟友：叛亂星際戰士",
         "id": "92e6-f82e-0a48-2276",
         "hidden": false
@@ -2146,6 +2167,16 @@
             "includeChildSelections": true
           }
         ]
+      },
+      {
+        "name": "熱熔武器",
+        "id": "a5ab-185a-4855-0cb8",
+        "hidden": true
+      },
+      {
+        "id": "3d1c-7f16-1489-fac3",
+        "name": "附魔者",
+        "hidden": false
       }
     ],
     "forceEntries": [
@@ -2586,10 +2617,10 @@
             "id": "606d-06be-c4b4-f877",
             "includeChildSelections": true,
             "includeChildForces": true,
-            "message": "You cannot have more than {value} Enhancements in your army.1"
+            "message": "You cannot have more than {value} Enhancements in your army."
           }
         ],
-        "readme": "請透過資料中的「回報問題」功能回報任何問題。網頁版可在應用程式右上角找到；行動版可在軍表選單中找到。回報時請依照實際遇到的問題選擇正確選項。\n**請不要在 Discord 回報問題！**\n\n**提醒：你的遠征軍團包含遠征模式中該陣營可用的所有模型；你的遠征軍隊則是你打算在一場戰鬥中使用的單位清單。**"
+        "readme": "##領袖功能的已知問題——無需再次回報下列問題\n- 死亡守望完全沒有領袖選項\n- 部分太空野狼角色無法領導獵首者\n- 部分星際戰士史詩英雄無法領導單位\n\n\n請透過資料中的「回報問題」功能回報任何其他問題。網頁版可在應用程式右上角找到；行動版可在軍表選單中找到。回報時請依照實際遇到的問題選擇正確選項。\n**請不要在 Discord 回報問題！**\n\n\n\n"
       },
       {
         "categoryLinks": [
@@ -2770,6 +2801,72 @@
                 "type": "set",
                 "value": 1,
                 "field": "21dc-d454-3048-5aeb"
+              },
+              {
+                "type": "set",
+                "value": 3,
+                "field": "017d-e82d-5b4d-d32e",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "baf8-997f-e323-a090",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "2. Strike Force (2000 Point limit)"
+                      }
+                    ],
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "force",
+                            "childId": "d62d-db22-4893-4bc0",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "1. Incursion (1000 Point limit)"
+                          },
+                          {
+                            "type": "atLeast",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "force",
+                            "childId": "7d80-2de5-816e-9d2b",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "3DP Detachment"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "set",
+                "value": 4,
+                "field": "017d-e82d-5b4d-d32e",
+                "conditions": [
+                  {
+                    "type": "equalTo",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "4204-82d0-908c-a62a",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "3. Onslaught (3000 Point limit)"
+                  }
+                ]
               }
             ],
             "constraints": [
@@ -2800,6 +2897,15 @@
                 "scope": "force",
                 "shared": true,
                 "id": "57b7-ac0e-5d06-9ddb",
+                "includeChildSelections": true
+              },
+              {
+                "type": "max",
+                "value": 2,
+                "field": "82ae-1066-5107-6ae0",
+                "scope": "force",
+                "shared": true,
+                "id": "017d-e82d-5b4d-d32e",
                 "includeChildSelections": true
               }
             ],
@@ -6567,6 +6673,192 @@
         "id": "3342-2180-9c5d-925f",
         "hidden": false,
         "description": "戰鬥開始前，在「集結軍隊」步驟中，對你軍隊中的每個**領袖**和**輔助**單位，你可以選擇一個該單位能夠領導的友方**小隊**單位。該單位將在本場戰鬥中領導該**小隊**單位，並與其組成**聯合**單位。 \n除非另有說明，否則每個**小隊**單位只能有一個**領袖**單位和一個**輔助**單位附屬於其上。"
+      },
+      {
+        "description": "此技能一律以 **不覺疼痛 X+** 的形式呈現。每次具有此技能的模型即將失去一點耐傷時，擲一顆 D6：若結果為 **X+**，則不會失去該點耐傷。 ",
+        "id": "9258-3a36-5e40-f185",
+        "name": "不覺疼痛 6+*",
+        "publicationId": "48fc-15aa-b307-9443",
+        "page": 23,
+        "hidden": false
+      },
+      {
+        "description": "此技能一律以 **不覺疼痛 X+** 的形式呈現。每次具有此技能的模型即將失去一點耐傷時，擲一顆 D6：若結果為 **X+**，則不會失去該點耐傷。 ",
+        "id": "5e10-6d62-2624-80a8",
+        "name": "不覺疼痛 5+",
+        "publicationId": "48fc-15aa-b307-9443",
+        "page": 23,
+        "hidden": false
+      },
+      {
+        "description": "此技能一律以 **不覺疼痛 X+** 的形式呈現。每次具有此技能的模型即將失去一點耐傷時，擲一顆 D6：若結果為 **X+**，則不會失去該點耐傷。 ",
+        "id": "eed0-ef83-b6cf-dddf",
+        "name": "不覺疼痛 4+",
+        "publicationId": "48fc-15aa-b307-9443",
+        "page": 23,
+        "hidden": false
+      },
+      {
+        "description": "此技能一律以 **不覺疼痛 X+** 的形式呈現。每次具有此技能的模型即將失去一點耐傷時，擲一顆 D6：若結果為 **X+**，則不會失去該點耐傷。 ",
+        "id": "699c-55ed-7fee-65ab",
+        "name": "不覺疼痛 4+*",
+        "publicationId": "48fc-15aa-b307-9443",
+        "page": 23,
+        "hidden": false
+      },
+      {
+        "description": "此技能一律以 **不覺疼痛 X+** 的形式呈現。每次具有此技能的模型即將失去一點耐傷時，擲一顆 D6：若結果為 **X+**，則不會失去該點耐傷。 ",
+        "id": "faec-8b1b-5a21-0087",
+        "name": "不覺疼痛 5+*",
+        "publicationId": "48fc-15aa-b307-9443",
+        "page": 23,
+        "hidden": false
+      },
+      {
+        "description": "此技能一律以 **不覺疼痛 X+** 的形式呈現。每次具有此技能的模型即將失去一點耐傷時，擲一顆 D6：若結果為 **X+**，則不會失去該點耐傷。 ",
+        "id": "676c-ecb5-d24d-3540",
+        "name": "不覺疼痛 6+",
+        "publicationId": "48fc-15aa-b307-9443",
+        "page": 23,
+        "hidden": false
+      },
+      {
+        "description": "此技能一律以**斥侯 X 吋**的形式呈現。在「解析戰前技能」步驟中，若一個單位中的每個模型都具有此技能，你可以執行下列其中一項： \n- 若該單位在**戰略預備隊**中，你可以將該單位設置在完全位於你的部署區內的任意位置。 \n- 若該單位完全位於你的部署區內，該單位可以進行一次**斥侯移動**。 \n- 若該單位搭乘在一個完全位於你的部署區內的**專用運輸**中，且搭乘在該**專用運輸**內的每個模型都具有斥侯技能，該**專用運輸**可以進行一次**斥侯移動**。",
+        "modifiers": [
+          {
+            "conditions": [
+              {
+                "type": "instanceOf",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ],
+            "type": "set",
+            "value": true,
+            "field": "hidden"
+          }
+        ],
+        "id": "08fb-4cb5-36fb-d638",
+        "name": "斥侯 6 吋",
+        "publicationId": "48fc-15aa-b307-9443",
+        "page": 39,
+        "hidden": false
+      },
+      {
+        "description": "此技能一律以**斥侯 X 吋**的形式呈現。在「解析戰前技能」步驟中，若一個單位中的每個模型都具有此技能，你可以執行下列其中一項： \n- 若該單位在**戰略預備隊**中，你可以將該單位設置在完全位於你的部署區內的任意位置。 \n- 若該單位完全位於你的部署區內，該單位可以進行一次**斥侯移動**。 \n- 若該單位搭乘在一個完全位於你的部署區內的**專用運輸**中，且搭乘在該**專用運輸**內的每個模型都具有斥侯技能，該**專用運輸**可以進行一次**斥侯移動**。",
+        "modifiers": [
+          {
+            "conditions": [
+              {
+                "type": "instanceOf",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ],
+            "type": "set",
+            "value": true,
+            "field": "hidden"
+          }
+        ],
+        "id": "9ea5-acc2-a2ac-257b",
+        "name": "斥侯 9 吋",
+        "publicationId": "48fc-15aa-b307-9443",
+        "page": 39,
+        "hidden": false
+      },
+      {
+        "description": "此技能一律以**斥侯 X 吋**的形式呈現。在「解析戰前技能」步驟中，若一個單位中的每個模型都具有此技能，你可以執行下列其中一項： \n- 若該單位在**戰略預備隊**中，你可以將該單位設置在完全位於你的部署區內的任意位置。 \n- 若該單位完全位於你的部署區內，該單位可以進行一次**斥侯移動**。 \n- 若該單位搭乘在一個完全位於你的部署區內的**專用運輸**中，且搭乘在該**專用運輸**內的每個模型都具有斥侯技能，該**專用運輸**可以進行一次**斥侯移動**。",
+        "modifiers": [
+          {
+            "conditions": [
+              {
+                "type": "instanceOf",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ],
+            "type": "set",
+            "value": true,
+            "field": "hidden"
+          }
+        ],
+        "id": "6a04-6476-b45b-aef8",
+        "name": "斥侯 7 吋",
+        "publicationId": "48fc-15aa-b307-9443",
+        "page": 39,
+        "hidden": false
+      },
+      {
+        "description": "此技能一律以**斥侯 X 吋**的形式呈現。在「解析戰前技能」步驟中，若一個單位中的每個模型都具有此技能，你可以執行下列其中一項： \n- 若該單位在**戰略預備隊**中，你可以將該單位設置在完全位於你的部署區內的任意位置。 \n- 若該單位完全位於你的部署區內，該單位可以進行一次**斥侯移動**。 \n- 若該單位搭乘在一個完全位於你的部署區內的**專用運輸**中，且搭乘在該**專用運輸**內的每個模型都具有斥侯技能，該**專用運輸**可以進行一次**斥侯移動**。",
+        "modifiers": [
+          {
+            "conditions": [
+              {
+                "type": "instanceOf",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ],
+            "type": "set",
+            "value": true,
+            "field": "hidden"
+          }
+        ],
+        "id": "a5f4-4af8-4735-7384",
+        "name": "斥侯 8 吋",
+        "publicationId": "48fc-15aa-b307-9443",
+        "page": 39,
+        "hidden": false
+      },
+      {
+        "name": "斥侯 5 吋",
+        "id": "b4d7-ba95-ed79-bafe",
+        "hidden": false,
+        "description": "此技能一律以**斥侯 X 吋**的形式呈現。在「解析戰前技能」步驟中，若一個單位中的每個模型都具有此技能，你可以執行下列其中一項： \n- 若該單位在**戰略預備隊**中，你可以將該單位設置在完全位於你的部署區內的任意位置。 \n- 若該單位完全位於你的部署區內，該單位可以進行一次**斥侯移動**。 \n- 若該單位搭乘在一個完全位於你的部署區內的**專用運輸**中，且搭乘在該**專用運輸**內的每個模型都具有斥侯技能，該**專用運輸**可以進行一次**斥侯移動**。",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "instanceOf",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          }
+        ],
+        "publicationId": "48fc-15aa-b307-9443",
+        "page": 39
+      },
+      {
+        "name": "不覺疼痛 3+*",
+        "id": "8ef2-30ad-3fc1-f7e4",
+        "hidden": false,
+        "description": "此技能一律以 **不覺疼痛 X+** 的形式呈現。每次具有此技能的模型即將失去一點耐傷時，擲一顆 D6：若結果為 **X+**，則不會失去該點耐傷。 ",
+        "publicationId": "48fc-15aa-b307-9443",
+        "page": 23
       }
     ],
     "sharedProfiles": [
@@ -8061,8 +8353,8 @@
                         "type": "decrement",
                         "value": 1,
                         "field": "e703-ecb6-5ce7-aec1",
-                        "affects": "self.entries.profiles.Unit",
-                        "scope": "model-or-unit"
+                        "affects": "self.entries.group.recursive.profiles.Unit",
+                        "scope": "root-entry"
                       },
                       {
                         "conditions": [
@@ -8080,8 +8372,9 @@
                         "value": "嚴重損傷",
                         "field": "annotation",
                         "join": ", ",
-                        "affects": "self.entries.profiles.Unit",
-                        "scope": "model-or-unit"
+                        "affects": "self.entries.group.recursive.profiles.Unit",
+                        "scope": "root-entry",
+                        "skipIfPresent": "Crippling Damage"
                       },
                       {
                         "conditionGroups": [
@@ -8111,8 +8404,8 @@
                         "type": "floor",
                         "value": 0,
                         "field": "e703-ecb6-5ce7-aec1",
-                        "affects": "self.entries.profiles.Unit",
-                        "scope": "model-or-unit"
+                        "affects": "self.entries.group.recursive.profiles.Unit",
+                        "scope": "root-entry"
                       }
                     ],
                     "type": "and"
@@ -8304,8 +8597,8 @@
                         "type": "decrement",
                         "value": 1,
                         "field": "bef7-942a-1a23-59f8",
-                        "scope": "model-or-unit",
-                        "affects": "self.entries.profiles.Unit"
+                        "scope": "root-entry",
+                        "affects": "self.entries.group.recursive.profiles.Unit"
                       },
                       {
                         "conditions": [
@@ -8323,8 +8616,9 @@
                         "value": "疲憊",
                         "field": "annotation",
                         "join": ", ",
-                        "scope": "model-or-unit",
-                        "affects": "self.entries.profiles.Unit"
+                        "scope": "root-entry",
+                        "affects": "self.entries.group.recursive.profiles.Unit",
+                        "skipIfPresent": "Fatigued"
                       },
                       {
                         "conditions": [
@@ -8341,8 +8635,8 @@
                         "type": "floor",
                         "value": 0,
                         "field": "bef7-942a-1a23-59f8",
-                        "scope": "model-or-unit",
-                        "affects": "self.entries.profiles.Unit"
+                        "scope": "root-entry",
+                        "affects": "self.entries.group.recursive.profiles.Unit"
                       }
                     ],
                     "comment": "Battle Scars: Fatigued",
@@ -8578,15 +8872,6 @@
                     "id": "fe00-d1ed-cc9f-af99"
                   }
                 ],
-                "infoLinks": [
-                  {
-                    "name": "連擊",
-                    "id": "7729-92d6-11fd-8079",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "1897-c22c-9597-12b1"
-                  }
-                ],
                 "modifierGroups": [
                   {
                     "modifiers": [
@@ -8595,16 +8880,18 @@
                         "value": "致命戰士",
                         "field": "annotation",
                         "join": ", ",
-                        "scope": "model",
-                        "affects": "self.entries.recursive.profiles.Melee Weapons"
+                        "scope": "root-entry",
+                        "affects": "self.entries.group.recursive.9cfd-1c32-585f-7d5c.profiles.Melee Weapons",
+                        "skipIfPresent": "Deadly Combatant"
                       },
                       {
                         "type": "append",
                         "value": "Sustained Hits 1",
                         "field": "893f-9000-ccf7-648e",
-                        "scope": "model",
-                        "affects": "self.entries.recursive.profiles.Melee Weapons",
-                        "join": ", "
+                        "scope": "root-entry",
+                        "affects": "self.entries.group.recursive.9cfd-1c32-585f-7d5c.profiles.Melee Weapons",
+                        "join": ", ",
+                        "skipIfPresent": "Sustained Hits 1"
                       }
                     ],
                     "type": "and"
@@ -8717,6 +9004,13 @@
                     "type": "set",
                     "value": 2,
                     "field": "b03b-c239-15a5-da55"
+                  },
+                  {
+                    "type": "add",
+                    "value": "9ea5-acc2-a2ac-257b",
+                    "field": "add-info",
+                    "affects": "group",
+                    "scope": "root-entry"
                   }
                 ],
                 "profiles": [
@@ -8733,23 +9027,6 @@
                     "typeName": "技能",
                     "hidden": false,
                     "id": "173a-2c06-c7ff-d8fe"
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "modifiers": [
-                      {
-                        "type": "append",
-                        "value": "9\"",
-                        "field": "name",
-                        "join": " "
-                      }
-                    ],
-                    "name": "斥侯",
-                    "id": "a312-8941-6a90-db23",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "ada6-bac1-ffe0-d6f7"
                   }
                 ],
                 "type": "upgrade",
@@ -8859,6 +9136,13 @@
                     "type": "set",
                     "value": 2,
                     "field": "b03b-c239-15a5-da55"
+                  },
+                  {
+                    "type": "add",
+                    "value": "676c-ecb5-d24d-3540",
+                    "field": "add-info",
+                    "scope": "root-entry",
+                    "affects": "self.entries.group.recursive.9cfd-1c32-585f-7d5c"
                   }
                 ],
                 "profiles": [
@@ -8875,23 +9159,6 @@
                     "typeName": "技能",
                     "hidden": false,
                     "id": "5cea-d2a8-a199-3ada"
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "modifiers": [
-                      {
-                        "type": "append",
-                        "value": "5+",
-                        "field": "name",
-                        "join": " "
-                      }
-                    ],
-                    "name": "不覺疼痛",
-                    "id": "985a-b647-e243-3b3f",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "9bf4-280f-bbe2-6fbb"
                   }
                 ],
                 "type": "upgrade",
@@ -9226,6 +9493,13 @@
                     "type": "set",
                     "value": 2,
                     "field": "b03b-c239-15a5-da55"
+                  },
+                  {
+                    "type": "add",
+                    "value": "bec5-4288-34a6-ccfa",
+                    "field": "add-info",
+                    "scope": "root-entry",
+                    "affects": "group"
                   }
                 ],
                 "profiles": [
@@ -9242,15 +9516,6 @@
                     "typeName": "技能",
                     "hidden": false,
                     "id": "6494-52de-0f34-f84a"
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "name": "隱匿",
-                    "id": "5f2c-04a4-18d1-29a2",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "bec5-4288-34a6-ccfa"
                   }
                 ],
                 "type": "upgrade",
@@ -9497,7 +9762,30 @@
                 "import": true,
                 "name": "祝福船體",
                 "hidden": false,
-                "id": "1ff1-67fa-af94-1449"
+                "id": "1ff1-67fa-af94-1449",
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "set",
+                        "value": "5+",
+                        "field": "55a7-5b54-c60d-11dc",
+                        "affects": "self.entries.group.recursive.profiles.Unit",
+                        "scope": "root-entry"
+                      },
+                      {
+                        "type": "append",
+                        "value": "受祝外殼",
+                        "field": "annotation",
+                        "affects": "self.entries.group.recursive.profiles.Unit",
+                        "scope": "root-entry",
+                        "join": ", ",
+                        "skipIfPresent": "Blessed Hull"
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -9961,15 +10249,16 @@
                         "value": "古科技能量電池",
                         "field": "annotation",
                         "join": ", ",
-                        "scope": "model-or-unit",
-                        "affects": "self.entries.recursive.profiles.Unit"
+                        "scope": "root-entry",
+                        "affects": "self.entries.group.recursive.profiles.Unit",
+                        "skipIfPresent": "Archeotech Power Cell"
                       },
                       {
                         "type": "increment",
                         "value": 2,
                         "field": "e703-ecb6-5ce7-aec1",
-                        "scope": "model-or-unit",
-                        "affects": "self.entries.recursive.profiles.Unit",
+                        "scope": "root-entry",
+                        "affects": "self.entries.group.recursive.profiles.Unit",
                         "join": ", "
                       }
                     ],
@@ -10173,6 +10462,13 @@
                     "type": "set",
                     "value": 2,
                     "field": "b03b-c239-15a5-da55"
+                  },
+                  {
+                    "type": "add",
+                    "value": "676c-ecb5-d24d-3540",
+                    "field": "add-info",
+                    "affects": "group",
+                    "scope": "root-entry"
                   }
                 ],
                 "profiles": [
@@ -10189,23 +10485,6 @@
                     "typeName": "技能",
                     "hidden": false,
                     "id": "2872-cb8d-09c1-83b9"
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "modifiers": [
-                      {
-                        "type": "append",
-                        "value": "6+",
-                        "field": "name",
-                        "join": " "
-                      }
-                    ],
-                    "name": "不覺疼痛",
-                    "id": "ae9d-f329-6a26-2288",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "9bf4-280f-bbe2-6fbb"
                   }
                 ],
                 "type": "upgrade",
@@ -10290,6 +10569,13 @@
                     "type": "set",
                     "value": 2,
                     "field": "b03b-c239-15a5-da55"
+                  },
+                  {
+                    "type": "add",
+                    "value": "9ea5-acc2-a2ac-257b",
+                    "field": "add-info",
+                    "scope": "root-entry",
+                    "affects": "group"
                   }
                 ],
                 "profiles": [
@@ -10306,23 +10592,6 @@
                     "typeName": "技能",
                     "hidden": false,
                     "id": "bf52-1646-5b05-6b57"
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "modifiers": [
-                      {
-                        "type": "append",
-                        "value": "9\"",
-                        "field": "name",
-                        "join": " "
-                      }
-                    ],
-                    "name": "斥侯",
-                    "id": "51ab-7e2f-8922-7189",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "ada6-bac1-ffe0-d6f7"
                   }
                 ],
                 "type": "upgrade",
@@ -10434,14 +10703,15 @@
                         "field": "annotation",
                         "join": ", ",
                         "scope": "root-entry",
-                        "affects": "self.entries.recursive.profiles.Unit"
+                        "affects": "self.entries.group.recursive.profiles.Unit",
+                        "skipIfPresent": "Obdurate Obedience"
                       },
                       {
                         "type": "increment",
                         "value": 1,
                         "field": "bef7-942a-1a23-59f8",
                         "scope": "root-entry",
-                        "affects": "self.entries.recursive.profiles.Unit",
+                        "affects": "self.entries.group.recursive.profiles.Unit",
                         "join": ", "
                       }
                     ],
@@ -10857,14 +11127,15 @@
                         "field": "annotation",
                         "join": ", ",
                         "scope": "root-entry",
-                        "affects": "self.entries.recursive.profiles.Unit"
+                        "affects": "self.entries.group.recursive.profiles.Unit",
+                        "skipIfPresent": "Hunter's Celerity"
                       },
                       {
                         "type": "increment",
                         "value": 2,
                         "field": "e703-ecb6-5ce7-aec1",
                         "scope": "root-entry",
-                        "affects": "self.entries.recursive.profiles.Unit",
+                        "affects": "self.entries.group.recursive.profiles.Unit",
                         "join": ", "
                       }
                     ],
@@ -10969,15 +11240,6 @@
                     "typeName": "技能",
                     "hidden": false,
                     "id": "47e7-f968-b74f-deb3"
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "name": "突擊",
-                    "id": "778b-0a0b-2f1e-b392",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "fc8a-8c24-bae9-cc1c"
                   }
                 ],
                 "type": "upgrade",
@@ -11594,6 +11856,13 @@
                     "type": "set",
                     "value": 2,
                     "field": "b03b-c239-15a5-da55"
+                  },
+                  {
+                    "type": "add",
+                    "value": "bec5-4288-34a6-ccfa",
+                    "field": "add-info",
+                    "scope": "root-entry",
+                    "affects": "group"
                   }
                 ],
                 "profiles": [
@@ -11610,15 +11879,6 @@
                     "typeName": "技能",
                     "hidden": false,
                     "id": "583e-2616-8cf8-969d"
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "name": "隱匿",
-                    "id": "ce48-cc2a-f75e-658d",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "bec5-4288-34a6-ccfa"
                   }
                 ],
                 "type": "upgrade",
@@ -11728,6 +11988,13 @@
                     "type": "set",
                     "value": 2,
                     "field": "b03b-c239-15a5-da55"
+                  },
+                  {
+                    "type": "add",
+                    "value": "c05d-f4c3-f091-4938",
+                    "field": "add-info",
+                    "scope": "root-entry",
+                    "affects": "group"
                   }
                 ],
                 "profiles": [
@@ -11744,15 +12011,6 @@
                     "typeName": "技能",
                     "hidden": false,
                     "id": "6151-b5a1-a259-9dc5"
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "name": "滲透者",
-                    "id": "55f1-55c1-b3a7-2f99",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "c05d-f4c3-f091-4938"
                   }
                 ],
                 "type": "upgrade",
@@ -12153,15 +12411,6 @@
                     "id": "dac1-5e52-30c4-14d1"
                   }
                 ],
-                "infoLinks": [
-                  {
-                    "name": "隱匿",
-                    "id": "a276-06fd-afa7-fad0",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "bec5-4288-34a6-ccfa"
-                  }
-                ],
                 "type": "upgrade",
                 "import": true,
                 "name": "據點潛獵者",
@@ -12532,6 +12781,13 @@
                     "type": "set",
                     "value": 2,
                     "field": "b03b-c239-15a5-da55"
+                  },
+                  {
+                    "type": "add",
+                    "value": "676c-ecb5-d24d-3540",
+                    "field": "add-info",
+                    "scope": "root-entry",
+                    "affects": "group"
                   }
                 ],
                 "profiles": [
@@ -12548,23 +12804,6 @@
                     "typeName": "技能",
                     "hidden": false,
                     "id": "be58-26c9-487b-41de"
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "modifiers": [
-                      {
-                        "type": "append",
-                        "value": "6+",
-                        "field": "name",
-                        "join": " "
-                      }
-                    ],
-                    "name": "不覺疼痛",
-                    "id": "f4dc-92c4-3280-8e72",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "9bf4-280f-bbe2-6fbb"
                   }
                 ],
                 "type": "upgrade",
@@ -13263,6 +13502,13 @@
                     "type": "set",
                     "value": 2,
                     "field": "b03b-c239-15a5-da55"
+                  },
+                  {
+                    "type": "add",
+                    "value": "676c-ecb5-d24d-3540",
+                    "field": "add-info",
+                    "scope": "root-entry",
+                    "affects": "group"
                   }
                 ],
                 "profiles": [
@@ -13279,23 +13525,6 @@
                     "typeName": "技能",
                     "hidden": false,
                     "id": "61e0-a37c-ca60-b36b"
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "modifiers": [
-                      {
-                        "type": "append",
-                        "value": "6+",
-                        "field": "name",
-                        "join": " "
-                      }
-                    ],
-                    "name": "不覺疼痛",
-                    "id": "0398-a57e-e8d9-b0a0",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "9bf4-280f-bbe2-6fbb"
                   }
                 ],
                 "type": "upgrade",
@@ -13395,6 +13624,13 @@
                     "type": "set",
                     "value": 2,
                     "field": "b03b-c239-15a5-da55"
+                  },
+                  {
+                    "type": "add",
+                    "value": "c05d-f4c3-f091-4938",
+                    "field": "add-info",
+                    "scope": "root-entry",
+                    "affects": "group"
                   }
                 ],
                 "profiles": [
@@ -13411,15 +13647,6 @@
                     "typeName": "技能",
                     "hidden": false,
                     "id": "a261-085b-c6ac-de92"
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "name": "滲透者",
-                    "id": "e6d9-3e84-e61f-22f3",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "c05d-f4c3-f091-4938"
                   }
                 ],
                 "type": "upgrade",
@@ -13749,6 +13976,12 @@
                     "type": "set",
                     "value": 2,
                     "field": "b03b-c239-15a5-da55"
+                  },
+                  {
+                    "type": "add",
+                    "value": "5a61-81ac-eb7c-a87e",
+                    "field": "category",
+                    "scope": "root-entry"
                   }
                 ],
                 "profiles": [
@@ -13765,15 +13998,6 @@
                     "typeName": "技能",
                     "hidden": false,
                     "id": "9354-4ef9-eda9-04a1"
-                  }
-                ],
-                "categoryLinks": [
-                  {
-                    "name": "榴彈",
-                    "hidden": false,
-                    "id": "f152-e9b6-b627-99ba",
-                    "targetId": "5a61-81ac-eb7c-a87e",
-                    "primary": false
                   }
                 ],
                 "type": "upgrade",
@@ -14014,15 +14238,16 @@
                         "value": "毀滅騎手",
                         "field": "annotation",
                         "join": ", ",
-                        "scope": "model-or-unit",
-                        "affects": "self.entries.recursive.profiles.Unit"
+                        "scope": "root-entry",
+                        "affects": "self.entries.group.recursive.profiles.Unit",
+                        "skipIfPresent": "Riders of Ruin"
                       },
                       {
                         "type": "increment",
                         "value": 2,
                         "field": "e703-ecb6-5ce7-aec1",
-                        "scope": "model-or-unit",
-                        "affects": "self.entries.recursive.profiles.Unit",
+                        "scope": "root-entry",
+                        "affects": "self.entries.group.recursive.profiles.Unit",
                         "join": ", "
                       }
                     ],
@@ -14372,15 +14597,6 @@
                     "typeName": "技能",
                     "hidden": false,
                     "id": "6c9b-3ccc-ef75-6f19"
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "name": "連擊",
-                    "id": "86e3-1496-abf2-6f4b",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "1897-c22c-9597-12b1"
                   }
                 ],
                 "type": "upgrade",
@@ -14846,15 +15062,16 @@
                         "value": "凶獸動能",
                         "field": "annotation",
                         "join": ", ",
-                        "scope": "model-or-unit",
-                        "affects": "self.entries.recursive.profiles.Unit"
+                        "scope": "root-entry",
+                        "affects": "self.entries.group.recursive.profiles.Unit",
+                        "skipIfPresent": "Monstrous Momentum"
                       },
                       {
                         "type": "increment",
                         "value": 2,
                         "field": "e703-ecb6-5ce7-aec1",
-                        "scope": "model-or-unit",
-                        "affects": "self.entries.recursive.profiles.Unit",
+                        "scope": "root-entry",
+                        "affects": "self.entries.group.recursive.profiles.Unit",
                         "join": ", "
                       }
                     ],
@@ -14984,15 +15201,16 @@
                         "value": "巨獸",
                         "field": "annotation",
                         "join": ", ",
-                        "scope": "model-or-unit",
-                        "affects": "self.entries.recursive.profiles.Unit"
+                        "scope": "root-entry",
+                        "affects": "self.entries.group.recursive.profiles.Unit",
+                        "skipIfPresent": "Behemoth"
                       },
                       {
                         "type": "increment",
                         "value": 2,
                         "field": "750a-a2ec-90d3-21fe",
-                        "scope": "model-or-unit",
-                        "affects": "self.entries.recursive.profiles.Unit",
+                        "scope": "root-entry",
+                        "affects": "self.entries.group.recursive.profiles.Unit",
                         "join": ", "
                       }
                     ],
@@ -15442,15 +15660,6 @@
                     "typeName": "技能",
                     "hidden": false,
                     "id": "6db2-5b25-f309-17df"
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "name": "不覺疼痛",
-                    "id": "4a71-e625-47ad-091f",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "9bf4-280f-bbe2-6fbb"
                   }
                 ],
                 "type": "upgrade",
@@ -16035,6 +16244,13 @@
                     "type": "set",
                     "value": 2,
                     "field": "b03b-c239-15a5-da55"
+                  },
+                  {
+                    "type": "add",
+                    "value": "08fb-4cb5-36fb-d638",
+                    "field": "add-info",
+                    "affects": "group",
+                    "scope": "root-entry"
                   }
                 ],
                 "profiles": [
@@ -16051,23 +16267,6 @@
                     "typeName": "技能",
                     "hidden": false,
                     "id": "30c1-2035-0347-3366"
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "modifiers": [
-                      {
-                        "type": "append",
-                        "value": "6\"",
-                        "field": "name",
-                        "join": " "
-                      }
-                    ],
-                    "name": "斥侯",
-                    "id": "6300-6e6a-5a25-e9d4",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "ada6-bac1-ffe0-d6f7"
                   }
                 ],
                 "type": "upgrade",
@@ -16887,15 +17086,16 @@
                         "value": "強化耐久",
                         "field": "annotation",
                         "join": ", ",
-                        "scope": "model-or-unit",
-                        "affects": "self.entries.recursive.profiles.Unit"
+                        "scope": "root-entry",
+                        "affects": "self.entries.group.recursive.profiles.Unit",
+                        "skipIfPresent": "Enhanced Endurance"
                       },
                       {
                         "type": "increment",
                         "value": 1,
                         "field": "d29d-cf75-fc2d-34a4",
-                        "scope": "model-or-unit",
-                        "affects": "self.entries.recursive.profiles.Unit",
+                        "scope": "root-entry",
+                        "affects": "self.entries.group.recursive.profiles.Unit",
                         "join": ", "
                       }
                     ],
@@ -17066,15 +17266,6 @@
                     "typeName": "技能",
                     "hidden": false,
                     "id": "85d8-e908-b885-b5b1"
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "name": "隱匿",
-                    "id": "e478-ecc1-acbb-cef9",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "bec5-4288-34a6-ccfa"
                   }
                 ],
                 "type": "upgrade",
@@ -17373,6 +17564,11 @@
                         "type": "set",
                         "value": 2,
                         "field": "b03b-c239-15a5-da55"
+                      },
+                      {
+                        "type": "add",
+                        "value": "699c-55ed-7fee-65ab",
+                        "field": "add-info"
                       }
                     ],
                     "costs": [
@@ -17400,15 +17596,6 @@
                         "name": "Military Power",
                         "typeId": "1cbe-d9c9-86a8-2d41",
                         "value": 0
-                      }
-                    ],
-                    "infoLinks": [
-                      {
-                        "name": "不覺疼痛",
-                        "id": "7e23-f156-3254-c948",
-                        "hidden": false,
-                        "type": "rule",
-                        "targetId": "9bf4-280f-bbe2-6fbb"
                       }
                     ],
                     "type": "upgrade",
@@ -17509,6 +17696,13 @@
                         "type": "set",
                         "value": 2,
                         "field": "b03b-c239-15a5-da55"
+                      },
+                      {
+                        "type": "add",
+                        "value": "7cb5-dd6b-dd87-ad3b",
+                        "field": "add-info",
+                        "scope": "root-entry",
+                        "affects": "group"
                       }
                     ],
                     "costs": [
@@ -17536,15 +17730,6 @@
                         "name": "Military Power",
                         "typeId": "1cbe-d9c9-86a8-2d41",
                         "value": 0
-                      }
-                    ],
-                    "infoLinks": [
-                      {
-                        "name": "深度打擊",
-                        "id": "40e5-6240-f490-7841",
-                        "hidden": false,
-                        "type": "rule",
-                        "targetId": "7cb5-dd6b-dd87-ad3b"
                       }
                     ],
                     "type": "upgrade",
@@ -17645,6 +17830,13 @@
                         "type": "set",
                         "value": 2,
                         "field": "b03b-c239-15a5-da55"
+                      },
+                      {
+                        "type": "add",
+                        "value": "bec5-4288-34a6-ccfa",
+                        "field": "add-info",
+                        "scope": "root-entry",
+                        "affects": "group"
                       }
                     ],
                     "costs": [
@@ -18449,7 +18641,30 @@
                     "import": true,
                     "name": "古老者面紗",
                     "hidden": false,
-                    "id": "cd94-4667-d67c-ead3"
+                    "id": "cd94-4667-d67c-ead3",
+                    "modifierGroups": [
+                      {
+                        "type": "and",
+                        "modifiers": [
+                          {
+                            "type": "set",
+                            "value": "4+",
+                            "field": "55a7-5b54-c60d-11dc",
+                            "scope": "model",
+                            "affects": "profiles.Unit"
+                          },
+                          {
+                            "type": "append",
+                            "value": "遠古帷幕",
+                            "field": "annotation",
+                            "scope": "model",
+                            "affects": "profiles.Unit",
+                            "join": ", ",
+                            "skipIfPresent": "Veil of Ancients"
+                          }
+                        ]
+                      }
+                    ]
                   },
                   {
                     "profiles": [
@@ -18567,9 +18782,9 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "選擇持有者裝備的一件武器（不包括已被強化替換，或透過「武器改造」表升級的武器），然後從下列技能中選擇一項讓該武器獲得。該武器現在是一件遠征聖物；在持有者的遠征卡上記錄此事，並為該武器取一個合適名稱。\n\n- **[致命一擊]**\n- **[精準]**\n- **[連擊 1]**",
                             "name": "Description",
-                            "typeId": "9b8f-694b-e5e-b573"
+                            "typeId": "9b8f-694b-e5e-b573",
+                            "$text": "選擇持有者裝備的一件武器（不包括已被強化替換，或透過「武器改造」表升級的武器），然後從下列技能中選擇一項讓該武器獲得。該武器現在是一件遠征聖物；在持有者的遠征卡上記錄此事，並為該武器取一個合適名稱。\n- **[致命一擊]**\n- **[精準]**\n- **[連擊 1]**"
                           }
                         ],
                         "name": "技術曼德賴特寶藏",
@@ -18690,29 +18905,6 @@
                         "name": "Military Power",
                         "typeId": "1cbe-d9c9-86a8-2d41",
                         "value": 0
-                      }
-                    ],
-                    "infoLinks": [
-                      {
-                        "name": "致命一擊",
-                        "id": "f8df-411c-2f49-7716",
-                        "hidden": false,
-                        "type": "rule",
-                        "targetId": "d1d1-611e-5191-1095"
-                      },
-                      {
-                        "name": "連擊",
-                        "id": "128d-cc2b-de55-f91c",
-                        "hidden": false,
-                        "type": "rule",
-                        "targetId": "1897-c22c-9597-12b1"
-                      },
-                      {
-                        "name": "精準",
-                        "id": "9925-0721-d889-af63",
-                        "hidden": false,
-                        "type": "rule",
-                        "targetId": "9143-31ae-e0a6-6007"
                       }
                     ],
                     "type": "upgrade",
@@ -21156,7 +21348,8 @@
                             "field": "annotation",
                             "join": ", ",
                             "scope": "model-or-unit",
-                            "affects": "self.entries.recursive.4546-4a0c-b3be-e84c.profiles.Ranged Weapons"
+                            "affects": "self.entries.recursive.4546-4a0c-b3be-e84c.profiles.Ranged Weapons",
+                            "skipIfPresent": "Sigil of Psychic Amplification"
                           },
                           {
                             "type": "increment",
@@ -21551,15 +21744,6 @@
                         "value": 0
                       }
                     ],
-                    "infoLinks": [
-                      {
-                        "name": "深度打擊",
-                        "id": "2112-ff9a-7443-9d68",
-                        "hidden": false,
-                        "type": "rule",
-                        "targetId": "7cb5-dd6b-dd87-ad3b"
-                      }
-                    ],
                     "type": "upgrade",
                     "import": true,
                     "name": "位移力場",
@@ -21579,9 +21763,9 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "選擇持有者裝備的一件近戰武器（不包括已被強化或遠征聖物替換，或透過任何戰鬥特質升級的武器）。該武器現在是一件遠征聖物，且：\n\n- 每次以該武器進行攻擊時，你可以重擲致傷擲骰。\n- 每場戰鬥一次，在近戰階段開始時，持有者可以釋放儲存在該武器中的力量。若如此做，直到該回合結束前，該武器具有 **[毀滅傷害]** 技能，且其力量屬性與攻擊屬性增加目前的戰鬥輪數。",
                             "name": "Description",
-                            "typeId": "9b8f-694b-e5e-b573"
+                            "typeId": "9b8f-694b-e5e-b573",
+                            "$text": "選擇持有者裝備的一件近戰武器（不包括已被強化或遠征聖物替換，或透過任何戰鬥特質升級的武器）。該武器現在是一件遠征聖物，且：\n- 每次以該武器進行攻擊時，你可以重擲致傷擲骰。\n- 每場戰鬥一次，在近戰階段開始時，持有者可以釋放儲存在該武器中的力量。若如此做，直到該回合結束前，該武器具有 **[毀滅傷害]** 技能，且其力量屬性與攻擊屬性增加目前的戰鬥輪數。"
                           }
                         ],
                         "name": "命運鍛造武器",
@@ -21720,15 +21904,6 @@
                         "value": 0
                       }
                     ],
-                    "infoLinks": [
-                      {
-                        "name": "毀滅傷害",
-                        "id": "eeea-7900-bac9-d131",
-                        "hidden": false,
-                        "type": "rule",
-                        "targetId": "be1e-ac8e-1e2c-3528"
-                      }
-                    ],
                     "type": "upgrade",
                     "import": true,
                     "name": "命運鍛造武器",
@@ -21827,6 +22002,13 @@
                         "type": "set",
                         "value": 2,
                         "field": "b03b-c239-15a5-da55"
+                      },
+                      {
+                        "type": "add",
+                        "value": "bec5-4288-34a6-ccfa",
+                        "field": "add-info",
+                        "affects": "group",
+                        "scope": "root-entry"
                       }
                     ],
                     "costs": [
@@ -21858,13 +22040,6 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "隱匿",
-                        "id": "e867-6ee3-04ca-75c7",
-                        "hidden": false,
-                        "type": "rule",
-                        "targetId": "bec5-4288-34a6-ccfa"
-                      },
-                      {
                         "name": "獨行特工",
                         "id": "7c9b-b292-0a2b-fea5",
                         "hidden": false,
@@ -21883,9 +22058,9 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "在對手的移動階段結束時，你可以選擇一個在該階段中設置於戰場上、且位於持有者所在單位 12 吋內的敵方單位；持有者所在單位接著可以選擇下列其中一項：\n\n- 射擊，但解析這些攻擊時，持有者所在單位只能以該敵方單位為目標，且該敵方單位必須是合格目標。\n- 對該敵方單位宣布衝鋒。即使這次衝鋒成功，持有者所在單位本回合也不會獲得任何衝鋒加成。",
                             "name": "Description",
-                            "typeId": "9b8f-694b-e5e-b573"
+                            "typeId": "9b8f-694b-e5e-b573",
+                            "$text": "在對手的移動階段結束時，你可以選擇一個在該階段中設置於戰場上、且位於持有者所在單位 12 吋內的敵方單位；持有者所在單位接著可以選擇下列其中一項：\n- 射擊，但解析這些攻擊時，持有者所在單位只能以該敵方單位為目標，且該敵方單位必須是合格目標。\n- 對該敵方單位宣布衝鋒。即使這次衝鋒成功，持有者所在單位本回合也不會獲得任何衝鋒加成。"
                           }
                         ],
                         "name": "莉瑞絲之鏡",
@@ -22120,19 +22295,11 @@
                     ],
                     "infoLinks": [
                       {
-                        "modifiers": [
-                          {
-                            "type": "append",
-                            "value": "5+",
-                            "field": "name",
-                            "join": " "
-                          }
-                        ],
-                        "name": "不覺疼痛",
+                        "name": "不覺疼痛 5+",
                         "id": "fc3e-81ef-fa4f-b8aa",
                         "hidden": false,
                         "type": "rule",
-                        "targetId": "9bf4-280f-bbe2-6fbb"
+                        "targetId": "5e10-6d62-2624-80a8"
                       }
                     ],
                     "type": "upgrade",
@@ -22361,7 +22528,33 @@
                     "import": true,
                     "name": "轉換力場",
                     "hidden": false,
-                    "id": "1f9e-4e81-c90e-ddd7"
+                    "id": "1f9e-4e81-c90e-ddd7",
+                    "modifierGroups": [
+                      {
+                        "type": "and",
+                        "modifiers": [
+                          {
+                            "type": "append",
+                            "value": "轉換力場",
+                            "field": "annotation",
+                            "affects": "self.entries.group.recursive.profiles.Unit",
+                            "scope": "root-entry",
+                            "join": ", ",
+                            "skipIfPresent": "Conversion Field"
+                          },
+                          {
+                            "type": "replace",
+                            "value": "5+*",
+                            "field": "55a7-5b54-c60d-11dc",
+                            "affects": "self.entries.group.recursive.profiles.Unit",
+                            "scope": "root-entry",
+                            "join": "",
+                            "skipIfPresent": "+",
+                            "arg": "-"
+                          }
+                        ]
+                      }
+                    ]
                   },
                   {
                     "profiles": [
@@ -22540,9 +22733,9 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "在你的指揮階段開始時，若持有者位於你控制的一個目標標記範圍內，你可以選擇下列其中一項：\n\n- 移除持有者所在單位具有的一個亞空間指示物。若如此做，獲得 1 點指揮點。\n- 為此模型進行一次領導力測試。若通過該測試，獲得 1 點指揮點。",
                             "name": "Description",
-                            "typeId": "9b8f-694b-e5e-b573"
+                            "typeId": "9b8f-694b-e5e-b573",
+                            "$text": "在你的指揮階段開始時，若持有者位於你控制的一個目標標記範圍內，你可以選擇下列其中一項：\n- 移除持有者所在單位具有的一個亞空間指示物。若如此做，獲得 1 點指揮點。\n- 為此模型進行一次領導力測試。若通過該測試，獲得 1 點指揮點。"
                           }
                         ],
                         "name": "阿瑪格頓血焰",
@@ -22754,6 +22947,13 @@
                         "type": "set",
                         "value": 2,
                         "field": "b03b-c239-15a5-da55"
+                      },
+                      {
+                        "type": "add",
+                        "value": "7cb5-dd6b-dd87-ad3b",
+                        "field": "add-info",
+                        "scope": "root-entry",
+                        "affects": "group"
                       }
                     ],
                     "costs": [
@@ -22781,15 +22981,6 @@
                         "name": "Military Power",
                         "typeId": "1cbe-d9c9-86a8-2d41",
                         "value": 0
-                      }
-                    ],
-                    "infoLinks": [
-                      {
-                        "name": "深度打擊",
-                        "id": "db10-cb75-7f59-5720",
-                        "hidden": false,
-                        "type": "rule",
-                        "targetId": "7cb5-dd6b-dd87-ad3b"
                       }
                     ],
                     "type": "upgrade",
@@ -22944,22 +23135,6 @@
                         "value": 0
                       }
                     ],
-                    "infoLinks": [
-                      {
-                        "name": "毀滅傷害",
-                        "id": "2807-ea1e-dc0a-3d59",
-                        "hidden": false,
-                        "type": "rule",
-                        "targetId": "be1e-ac8e-1e2c-3528"
-                      },
-                      {
-                        "name": "針對",
-                        "id": "c3ee-c53d-f362-5fe5",
-                        "hidden": false,
-                        "type": "rule",
-                        "targetId": "4111-82e3-9444-e942"
-                      }
-                    ],
                     "type": "upgrade",
                     "import": true,
                     "name": "名望武器",
@@ -23089,11 +23264,11 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "不覺疼痛",
+                        "name": "不覺疼痛 5+*",
                         "id": "e42a-7953-1dc6-850a",
                         "hidden": false,
                         "type": "rule",
-                        "targetId": "9bf4-280f-bbe2-6fbb"
+                        "targetId": "faec-8b1b-5a21-0087"
                       }
                     ],
                     "type": "upgrade",
@@ -23493,15 +23668,6 @@
                         "value": 0
                       }
                     ],
-                    "infoLinks": [
-                      {
-                        "name": "連擊",
-                        "id": "470d-656c-08d7-1df9",
-                        "hidden": false,
-                        "type": "rule",
-                        "targetId": "1897-c22c-9597-12b1"
-                      }
-                    ],
                     "modifierGroups": [
                       {
                         "modifiers": [
@@ -23515,11 +23681,12 @@
                           },
                           {
                             "type": "append",
-                            "value": "Sustained Hits 2",
+                            "value": "連擊 2",
                             "field": "7f1b-8591-2fcf-d01c",
                             "scope": "root-entry",
                             "affects": "self.entries.recursive.4546-4a0c-b3be-e84c.profiles.Ranged Weapons",
-                            "join": ", "
+                            "join": ", ",
+                            "skipIfPresent": "Sustained Hits 2"
                           },
                           {
                             "type": "append",
@@ -23531,11 +23698,12 @@
                           },
                           {
                             "type": "append",
-                            "value": "Sustained Hits 2",
-                            "field": "7f1b-8591-2fcf-d01c",
+                            "value": "連擊 2",
+                            "field": "893f-9000-ccf7-648e",
                             "scope": "root-entry",
                             "affects": "self.entries.recursive.4546-4a0c-b3be-e84c.profiles.Melee Weapons",
-                            "join": ", "
+                            "join": ", ",
+                            "skipIfPresent": "Sustained Hits 2"
                           }
                         ],
                         "type": "and"
@@ -24838,15 +25006,6 @@
                     "id": "717f-8db9-3efd-b18a"
                   }
                 ],
-                "infoLinks": [
-                  {
-                    "name": "針對",
-                    "id": "22a4-0330-7c8c-11ca",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "4111-82e3-9444-e942"
-                  }
-                ],
                 "modifierGroups": [
                   {
                     "modifiers": [
@@ -24855,32 +25014,54 @@
                         "value": "泰坦剋星",
                         "field": "annotation",
                         "join": ", ",
-                        "scope": "model-or-unit",
-                        "affects": "self.entries.recursive.profiles.Melee Weapons"
+                        "scope": "root-entry",
+                        "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+                        "skipIfPresent": "Titan's Bane"
                       },
                       {
                         "type": "append",
-                        "value": "Anti-Monster 4+, Anti-Vehicle 4+",
+                        "value": "針對-凶獸 4+",
                         "field": "893f-9000-ccf7-648e",
-                        "scope": "model-or-unit",
-                        "affects": "self.entries.recursive.profiles.Melee Weapons",
-                        "join": ", "
+                        "scope": "root-entry",
+                        "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+                        "join": ", ",
+                        "skipIfPresent": "Anti-Monster 4+"
+                      },
+                      {
+                        "type": "append",
+                        "value": "針對-載具 4+",
+                        "field": "893f-9000-ccf7-648e",
+                        "scope": "root-entry",
+                        "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+                        "join": ", ",
+                        "skipIfPresent": "Anti-Vehicle 4+"
                       },
                       {
                         "type": "append",
                         "value": "泰坦剋星",
                         "field": "annotation",
                         "join": ", ",
-                        "scope": "model-or-unit",
-                        "affects": "self.entries.recursive.profiles.Ranged Weapons"
+                        "scope": "root-entry",
+                        "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                        "skipIfPresent": "Titan's Bane"
                       },
                       {
                         "type": "append",
-                        "value": "Anti-Monster 4+, Anti-Vehicle 4+",
+                        "value": "針對-凶獸 4+",
                         "field": "7f1b-8591-2fcf-d01c",
-                        "scope": "model-or-unit",
-                        "affects": "self.entries.recursive.profiles.Ranged Weapons",
-                        "join": ", "
+                        "scope": "root-entry",
+                        "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                        "join": ", ",
+                        "skipIfPresent": "Anti-Monster 4+"
+                      },
+                      {
+                        "type": "append",
+                        "value": "針對-載具 4+",
+                        "field": "7f1b-8591-2fcf-d01c",
+                        "scope": "root-entry",
+                        "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                        "join": ", ",
+                        "skipIfPresent": "Anti-Vehicle 4+"
                       }
                     ],
                     "type": "and"
@@ -24952,6 +25133,13 @@
                     "type": "set",
                     "value": 2,
                     "field": "b03b-c239-15a5-da55"
+                  },
+                  {
+                    "type": "add",
+                    "value": "faec-8b1b-5a21-0087",
+                    "field": "add-info",
+                    "scope": "root-entry",
+                    "affects": "group"
                   }
                 ],
                 "profiles": [
@@ -24968,15 +25156,6 @@
                     "typeName": "技能",
                     "hidden": false,
                     "id": "38ac-2ed6-0bd7-e628"
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "name": "不覺疼痛",
-                    "id": "37a1-4cee-41c4-34ad",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "9bf4-280f-bbe2-6fbb"
                   }
                 ],
                 "type": "upgrade",
@@ -25640,6 +25819,13 @@
                     "type": "set",
                     "value": 2,
                     "field": "b03b-c239-15a5-da55"
+                  },
+                  {
+                    "type": "add",
+                    "value": "24-c886-e8ba-5a89",
+                    "field": "add-info",
+                    "affects": "group",
+                    "scope": "root-entry"
                   }
                 ],
                 "profiles": [
@@ -25656,15 +25842,6 @@
                     "typeName": "技能",
                     "hidden": false,
                     "id": "1b98-4934-a009-a454"
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "name": "先攻",
-                    "id": "4044-f647-fded-050e",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "24-c886-e8ba-5a89"
                   }
                 ],
                 "type": "upgrade",
@@ -25751,15 +25928,6 @@
                     "id": "6251-f857-24af-2a45"
                   }
                 ],
-                "infoLinks": [
-                  {
-                    "name": "連擊",
-                    "id": "5516-19a9-d714-1bd8",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "1897-c22c-9597-12b1"
-                  }
-                ],
                 "modifierGroups": [
                   {
                     "modifiers": [
@@ -25768,16 +25936,18 @@
                         "value": "巨獸狂怒",
                         "field": "annotation",
                         "join": ", ",
-                        "scope": "model-or-unit",
-                        "affects": "self.entries.recursive.profiles.Melee Weapons"
+                        "scope": "root-entry",
+                        "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+                        "skipIfPresent": "Gargantuan Rage"
                       },
                       {
                         "type": "append",
                         "value": "Sustained Hits 1",
                         "field": "893f-9000-ccf7-648e",
-                        "scope": "model-or-unit",
-                        "affects": "self.entries.recursive.profiles.Melee Weapons",
-                        "join": ", "
+                        "scope": "root-entry",
+                        "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+                        "join": ", ",
+                        "skipIfPresent": "Sustained Hits 1"
                       }
                     ],
                     "type": "and"
@@ -26141,9 +26311,9 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "在戰鬥開始時，若持有者是你的**戰主**，直到戰鬥結束前，其獲得與你在「選擇戰略態勢」步驟中所選戰略態勢對應的下列技能：\n\n- **侵略：** 持有者所在單位中的模型具有斥侯 6 吋技能。\n- **均衡：** 持有者具有獨行特工技能。\n- **防禦：** 持有者所在單位中的模型具有隱匿技能。",
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573"
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "在戰鬥開始時，若持有者是你的**戰主**，直到戰鬥結束前，其獲得與你在「選擇戰略態勢」步驟中所選戰略態勢對應的下列技能：\n- **侵略：** 持有者所在單位中的模型具有斥侯 6 吋技能。\n- **均衡：** 持有者具有獨行特工技能。\n- **防禦：** 持有者所在單位中的模型具有隱匿技能。"
                       }
                     ],
                     "name": "貪婪機會主義者",
@@ -27379,9 +27549,9 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "在「宣布戰鬥編隊」步驟中，選擇下列其中一項：\n\n- 當此模型正在領導一個單位時，該單位中模型裝備的武器具有 **[針對-無束敵手 4+]** 技能。\n- 選擇一項阿瑪格頓戰鬥特質（此戰鬥特質必須是若該模型不是**史詩英雄**時本可擁有的戰鬥特質）。直到戰鬥結束前，此**史詩英雄**模型以及其加入的任何單位都具有該戰鬥特質。",
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573"
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "在「宣布戰鬥編隊」步驟中，選擇下列其中一項：\n- 當此模型正在領導一個單位時，該單位中模型裝備的武器具有 **[針對-無束敵手 4+]** 技能。\n- 選擇一項阿瑪格頓戰鬥特質（此戰鬥特質必須是若該模型不是**史詩英雄**時本可擁有的戰鬥特質）。直到戰鬥結束前，此**史詩英雄**模型以及其加入的任何單位都具有該戰鬥特質。"
                       }
                     ],
                     "name": "前線冠軍",
@@ -27389,15 +27559,6 @@
                     "typeName": "技能",
                     "hidden": false,
                     "id": "4773-1d4a-88a5-fced"
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "name": "針對",
-                    "id": "5422-edab-3e98-ef3e",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "4111-82e3-9444-e942"
                   }
                 ],
                 "type": "upgrade",
@@ -27663,9 +27824,9 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "若你的遠征軍中包含一個或多個具有此遠征技能的**史詩英雄**模型，則在「選擇遠征祝福」步驟中，選擇下列其中一項：\n\n- 若你是弱勢方，擲一顆 D6：若結果為 4+，你可以額外選擇一項遠征祝福。\n- 若你不是弱勢方，擲一顆 D6：若結果為 6，則你可以改為選擇一項遠征祝福。",
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573"
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "若你的遠征軍中包含一個或多個具有此遠征技能的**史詩英雄**模型，則在「選擇遠征祝福」步驟中，選擇下列其中一項：\n- 若你是弱勢方，擲一顆 D6：若結果為 4+，你可以額外選擇一項遠征祝福。\n- 若你不是弱勢方，擲一顆 D6：若結果為 6，則你可以改為選擇一項遠征祝福。"
                       }
                     ],
                     "name": "戰略冠軍",
@@ -27718,9 +27879,9 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "若你的遠征軍中包含一個或多個具有此遠征技能的**史詩英雄**模型，選擇下列其中一項：\n\n- 在「判定攻擊方與防守方」步驟中，當判定誰是攻擊方、誰是防守方時，你可以重擲你的骰子。\n- 在「設置亞空間事件」步驟結束時，擲一顆 D6：若結果為 4+，你可以選擇將該場戰鬥使用的亞空間事件強度增加或降低 1（最低為 1，最高為 3）。",
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573"
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "若你的遠征軍中包含一個或多個具有此遠征技能的**史詩英雄**模型，選擇下列其中一項：\n- 在「判定攻擊方與防守方」步驟中，當判定誰是攻擊方、誰是防守方時，你可以重擲你的骰子。\n- 在「設置亞空間事件」步驟結束時，擲一顆 D6：若結果為 4+，你可以選擇將該場戰鬥使用的亞空間事件強度增加或降低 1（最低為 1，最高為 3）。"
                       }
                     ],
                     "name": "隱密冠軍",
@@ -30303,7 +30464,30 @@
             "import": true,
             "name": "命運眷顧者",
             "hidden": false,
-            "id": "7864-987f-04b1-abbe"
+            "id": "7864-987f-04b1-abbe",
+            "modifierGroups": [
+              {
+                "type": "and",
+                "modifiers": [
+                  {
+                    "type": "append",
+                    "value": "命運眷顧者",
+                    "field": "annotation",
+                    "affects": "self.entries.group.recursive.profiles.Unit",
+                    "scope": "root-entry",
+                    "join": ", ",
+                    "skipIfPresent": "Fortune's Favoured"
+                  },
+                  {
+                    "type": "set",
+                    "value": "6+",
+                    "field": "55a7-5b54-c60d-11dc",
+                    "affects": "self.entries.group.recursive.profiles.Unit",
+                    "scope": "root-entry"
+                  }
+                ]
+              }
+            ]
           },
           {
             "constraints": [
@@ -30481,6 +30665,13 @@
                 "type": "set",
                 "value": 2,
                 "field": "b03b-c239-15a5-da55"
+              },
+              {
+                "type": "add",
+                "value": "bec5-4288-34a6-ccfa",
+                "field": "add-info",
+                "scope": "root-entry",
+                "affects": "group"
               }
             ],
             "profiles": [
@@ -30497,15 +30688,6 @@
                 "typeName": "技能",
                 "hidden": false,
                 "id": "7aa7-8172-3499-0ead"
-              }
-            ],
-            "infoLinks": [
-              {
-                "name": "隱匿",
-                "id": "20b7-ab61-607a-fef0",
-                "hidden": false,
-                "type": "rule",
-                "targetId": "bec5-4288-34a6-ccfa"
               }
             ],
             "type": "upgrade",
@@ -30716,15 +30898,16 @@
                     "value": "徒步兵",
                     "field": "annotation",
                     "join": ", ",
-                    "scope": "model-or-unit",
-                    "affects": "self.entries.recursive.profiles.Unit"
+                    "scope": "root-entry",
+                    "affects": "self.entries.group.recursive.profiles.Unit",
+                    "skipIfPresent": "Footsloggers"
                   },
                   {
                     "type": "increment",
                     "value": 1,
                     "field": "e703-ecb6-5ce7-aec1",
-                    "scope": "model-or-unit",
-                    "affects": "self.entries.recursive.profiles.Unit",
+                    "scope": "root-entry",
+                    "affects": "self.entries.group.recursive.profiles.Unit",
                     "join": ", "
                   }
                 ],
@@ -30928,6 +31111,13 @@
                 "type": "set",
                 "value": 2,
                 "field": "b03b-c239-15a5-da55"
+              },
+              {
+                "type": "add",
+                "value": "9258-3a36-5e40-f185",
+                "field": "add-info",
+                "affects": "group",
+                "scope": "root-entry"
               }
             ],
             "profiles": [
@@ -30944,15 +31134,6 @@
                 "typeName": "技能",
                 "hidden": false,
                 "id": "3c30-003c-fc9e-29ce"
-              }
-            ],
-            "infoLinks": [
-              {
-                "name": "不覺疼痛",
-                "id": "ea99-4ed5-7483-c1c2",
-                "hidden": false,
-                "type": "rule",
-                "targetId": "9bf4-280f-bbe2-6fbb"
               }
             ],
             "type": "upgrade",
@@ -31078,28 +31259,21 @@
                     "value": "進階懸吊器",
                     "field": "annotation",
                     "join": ", ",
-                    "scope": "model-or-unit",
-                    "affects": "self.entries.recursive.profiles.Ranged Weapons"
+                    "scope": "root-entry",
+                    "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                    "skipIfPresent": "Advanced Suspensors"
                   },
                   {
                     "type": "append",
                     "value": "Assault",
                     "field": "7f1b-8591-2fcf-d01c",
-                    "scope": "model-or-unit",
-                    "affects": "self.entries.recursive.profiles.Ranged Weapons",
-                    "join": ", "
+                    "scope": "root-entry",
+                    "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                    "join": ", ",
+                    "skipIfPresent": "Assault"
                   }
                 ],
                 "type": "and"
-              }
-            ],
-            "infoLinks": [
-              {
-                "name": "突擊",
-                "id": "b3e0-7002-cb6a-7a28",
-                "hidden": false,
-                "type": "rule",
-                "targetId": "fc8a-8c24-bae9-cc1c"
               }
             ],
             "type": "upgrade",
@@ -31225,15 +31399,16 @@
                     "value": "額外裝甲",
                     "field": "annotation",
                     "join": ", ",
-                    "scope": "model-or-unit",
-                    "affects": "self.entries.recursive.profiles.Unit"
+                    "scope": "root-entry",
+                    "affects": "self.entries.group.recursive.profiles.Unit",
+                    "skipIfPresent": "Extra Armour"
                   },
                   {
                     "type": "increment",
                     "value": 1,
                     "field": "d29d-cf75-fc2d-34a4",
-                    "scope": "model-or-unit",
-                    "affects": "self.entries.recursive.profiles.Unit",
+                    "scope": "root-entry",
+                    "affects": "self.entries.group.recursive.profiles.Unit",
                     "join": ", "
                   }
                 ],
@@ -31667,6 +31842,13 @@
                 "type": "set",
                 "value": 2,
                 "field": "b03b-c239-15a5-da55"
+              },
+              {
+                "type": "add",
+                "value": "08fb-4cb5-36fb-d638",
+                "field": "add-info",
+                "affects": "group",
+                "scope": "root-entry"
               }
             ],
             "profiles": [
@@ -31683,23 +31865,6 @@
                 "typeName": "技能",
                 "hidden": false,
                 "id": "d57e-3ffa-56bd-894f"
-              }
-            ],
-            "infoLinks": [
-              {
-                "modifiers": [
-                  {
-                    "type": "append",
-                    "value": "6\"",
-                    "field": "name",
-                    "join": " "
-                  }
-                ],
-                "name": "斥侯",
-                "id": "7b76-b0ae-2894-e709",
-                "hidden": false,
-                "type": "rule",
-                "targetId": "ada6-bac1-ffe0-d6f7"
               }
             ],
             "type": "upgrade",
@@ -32315,15 +32480,6 @@
                 "id": "7c37-65c5-df4f-62c3"
               }
             ],
-            "infoLinks": [
-              {
-                "name": "滲透者",
-                "id": "7f8d-1cff-ab1e-8784",
-                "hidden": false,
-                "type": "rule",
-                "targetId": "c05d-f4c3-f091-4938"
-              }
-            ],
             "type": "upgrade",
             "import": true,
             "name": "遮蔽儀式（靈能）",
@@ -32445,15 +32601,16 @@
                     "value": "亞空間焦點",
                     "field": "annotation",
                     "join": ", ",
-                    "scope": "model-or-unit",
-                    "affects": "self.entries.recursive.4546-4a0c-b3be-e84c.profiles.Ranged Weapons"
+                    "scope": "root-entry",
+                    "affects": "self.entries.group.recursive.4546-4a0c-b3be-e84c.profiles.Ranged Weapons",
+                    "skipIfPresent": "Warp Focus"
                   },
                   {
                     "type": "increment",
                     "value": 1,
                     "field": "2229-f494-25db-c5d3",
-                    "scope": "model-or-unit",
-                    "affects": "self.entries.recursive.4546-4a0c-b3be-e84c.profiles.Ranged Weapons",
+                    "scope": "root-entry",
+                    "affects": "self.entries.group.recursive.4546-4a0c-b3be-e84c.profiles.Ranged Weapons",
                     "join": ", "
                   },
                   {
@@ -32461,15 +32618,16 @@
                     "value": "亞空間焦點",
                     "field": "annotation",
                     "join": ", ",
-                    "scope": "model-or-unit",
-                    "affects": "self.entries.recursive.4546-4a0c-b3be-e84c.profiles.Melee Weapons"
+                    "scope": "root-entry",
+                    "affects": "self.entries.group.recursive.4546-4a0c-b3be-e84c.profiles.Melee Weapons",
+                    "skipIfPresent": "Warp Focus"
                   },
                   {
                     "type": "increment",
                     "value": 1,
                     "field": "ab33-d393-96ce-ccba",
-                    "scope": "model-or-unit",
-                    "affects": "self.entries.recursive.4546-4a0c-b3be-e84c.profiles.Melee Weapons",
+                    "scope": "root-entry",
+                    "affects": "self.entries.group.recursive.4546-4a0c-b3be-e84c.profiles.Melee Weapons",
                     "join": ", "
                   }
                 ],
@@ -33012,7 +33170,7 @@
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "id": "sys-352e-adc2-7639-d610",
     "name": "戰鎚40K 第11版",
-    "revision": 8,
+    "revision": 11,
     "battleScribeVersion": 2.03,
     "type": "gameSystem",
     "readme": ""
