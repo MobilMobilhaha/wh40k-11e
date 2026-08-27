@@ -377,7 +377,7 @@
               }
             ],
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "fc1c-9e73-5136-fee6",
             "type": "selectionEntry",
@@ -1277,7 +1277,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "5e43-ee60-e18e-65c",
@@ -4249,7 +4249,7 @@
               }
             ],
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "f8ab-2b4e-fb91-4802",
             "type": "selectionEntry",
@@ -4720,7 +4720,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "d2f-28c3-9ec6-4d5a",
@@ -7786,7 +7786,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "328e-bbfe-41d9-3846",
@@ -8606,7 +8606,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "f24b-5d5f-5b77-7cf9",
@@ -12391,7 +12391,7 @@
               }
             ],
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "3cde-d5e1-fdcf-e256",
             "type": "selectionEntry",
@@ -12968,7 +12968,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "7fc2-aef4-ba09-b925",
@@ -13574,7 +13574,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "5173-fe-a786-f146",
@@ -14582,7 +14582,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "bacc-f1c0-cc5c-6a1e",
@@ -15271,7 +15271,7 @@
           },
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "d098-2087-7b6e-f7e5",
@@ -18236,7 +18236,7 @@
               }
             ],
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "f5a1-1ab4-2c72-6650",
             "type": "selectionEntry",
@@ -18778,7 +18778,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "1cfa-105a-1dc9-c439",
@@ -19356,7 +19356,7 @@
               }
             ],
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "e333-ba83-4b40-4f7b",
@@ -19504,7 +19504,7 @@
           {
             "characteristics": [
               {
-                "$text": "- 軍隊中不能包含超過一個 **^^族長^^** 模型。\n- 若軍隊中包含此模型，此模型必須成為你的 **^^戰主^^**。",
+                "$text": "- 軍隊中不能包含超過一個 **^^族長^^** 模型。\n- 若軍隊中包含此模型，此模型必須成為你的 **^^戰帥^^**。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -20198,7 +20198,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "2b6e-5120-b57f-21cd",
@@ -21017,7 +21017,7 @@
               }
             ],
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "2f5f-e832-9bfc-c71e",
             "type": "selectionEntry",
@@ -21716,7 +21716,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "62d9-98f8-420f-796f",
@@ -22646,7 +22646,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "9776-8215-7261-b70d",
@@ -23758,7 +23758,7 @@
             "targetId": "5c0e-4c31-d51b-e470",
             "id": "8a2a-f521-d0d6-634c",
             "primary": false,
-            "name": "戰主"
+            "name": "戰帥"
           }
         ],
         "constraints": [
@@ -23784,7 +23784,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "戰主",
+        "name": "戰帥",
         "hidden": false,
         "id": "2665-129e-3c44-1270"
       },
@@ -25164,7 +25164,7 @@
           },
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "e750-a444-fd93-c9c2",
             "type": "selectionEntry",
@@ -26698,7 +26698,7 @@
               }
             ],
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "d750-2064-f85a-1db3",
             "type": "selectionEntry",
@@ -27350,7 +27350,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "a90a-b36d-56fc-7532",
             "type": "selectionEntry",
@@ -28016,7 +28016,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "2349-8d11-8989-0f5a",
             "type": "selectionEntry",
@@ -28640,7 +28640,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "e878-94d8-86db-a645",
             "type": "selectionEntry",

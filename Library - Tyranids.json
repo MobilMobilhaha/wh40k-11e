@@ -471,7 +471,7 @@
         "entryLinks": [
           {
             "id": "4fc9-cd8c-b426-f2d4",
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "collective": false,
             "import": true,
@@ -1017,7 +1017,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "cafa-9b65-e363-2844",
@@ -1698,7 +1698,7 @@
               }
             ],
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": true,
             "type": "selectionEntry",
             "id": "82b2-c335-94dc-3d4c",
@@ -1838,7 +1838,7 @@
           {
             "characteristics": [
               {
-                "$text": "此模型不能成為你的戰主。",
+                "$text": "此模型不能成為你的戰帥。",
                 "name": "說明",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -2997,7 +2997,7 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "戰主",
+                "name": "戰帥",
                 "hidden": false,
                 "id": "0f30-1fbe-b9e1-6161",
                 "collective": false,
@@ -4243,7 +4243,7 @@
               }
             ],
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "cef3-2698-193e-7eb4",
             "type": "selectionEntry",
@@ -5671,7 +5671,7 @@
               }
             ],
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "1374-3645-0ebe-6d01",
             "type": "selectionEntry",
@@ -6387,7 +6387,7 @@
           },
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "1d8c-61cd-7450-a058",
@@ -7468,7 +7468,7 @@
               }
             ],
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "5a94-e725-d771-6f44",
             "type": "selectionEntry",
@@ -8069,7 +8069,7 @@
               }
             ],
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "88a0-58bc-2c37-0b00",
             "collective": false,
@@ -9883,7 +9883,7 @@
               }
             ],
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "b1dc-c22a-b592-afbd",
             "type": "selectionEntry",
@@ -10168,7 +10168,7 @@
         "categoryLinks": [
           {
             "id": "463c-5eaf-3d99-5917",
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "targetId": "5c0e-4c31-d51b-e470",
             "primary": false
@@ -10199,7 +10199,7 @@
           }
         ],
         "id": "ceab-62d9-31bf-7c61",
-        "name": "戰主",
+        "name": "戰帥",
         "hidden": false,
         "collective": false,
         "import": true,
@@ -10781,7 +10781,7 @@
               }
             ],
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "0873-17ec-1fb4-899b",
             "type": "selectionEntry",
@@ -11611,7 +11611,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "8778-7748-cdc4-0f93",
             "type": "selectionEntry",
@@ -12613,7 +12613,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "4da5-c2c0-b250-05ac",
             "type": "selectionEntry",
@@ -13329,7 +13329,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "c61c-d618-ec49-8a17",
             "type": "selectionEntry",
@@ -14899,7 +14899,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "f866-abf5-a5a5-1bfb",
@@ -25028,7 +25028,7 @@
           {
             "rules": [
               {
-                "description": "死亡躍襲者失去獵殺生物規則，並可以成為你的戰主。",
+                "description": "死亡躍襲者失去獵殺生物規則，並可以成為你的戰帥。",
                 "name": "先鋒首領",
                 "id": "299e-060b-6c02-ebb2",
                 "hidden": false
@@ -25224,7 +25224,7 @@
           {
             "rules": [
               {
-                "description": "你軍隊中的**^^沙蟒^^**與**^^掘蟒^^**單位具有掘進者關鍵詞。\n\n在集結軍隊步驟中，你可以選擇你軍隊中最多 2 個**^^掘蟒^^**模型。所選單位獲得**^^角色^^**關鍵詞。\n\n**設計師註解：** *這表示所選模型可以獲得強化，且其中一個可以被選為你的**^^戰主^^**。*",
+                "description": "你軍隊中的**^^沙蟒^^**與**^^掘蟒^^**單位具有掘進者關鍵詞。\n\n在集結軍隊步驟中，你可以選擇你軍隊中最多 2 個**^^掘蟒^^**模型。所選單位獲得**^^角色^^**關鍵詞。\n\n**設計師註解：** *這表示所選模型可以獲得強化，且其中一個可以被選為你的**^^戰帥^^**。*",
                 "name": "關鍵詞",
                 "id": "bdb0-bcca-2c70-32f3",
                 "hidden": false
@@ -29631,7 +29631,7 @@
           {
             "rules": [
               {
-                "description": "你可以在軍隊中編入星界軍單位，即使它們沒有基因竊取者教派陣營關鍵詞。你可以編入這類單位的合計分數費用如下：\n\n－突襲：最多 500 分\n－打擊部隊：最多 1000 分\n－猛攻：最多 1500 分\n\n一個基因竊取者教派模型必須成為你的戰主；你的軍隊中的星界軍模型若具有指揮之聲技能，則失去該技能。使用此規則時，你不能在軍隊中編入具有以下任一關鍵詞的單位：飛行器；政委；史詩英雄；米利塔魯姆暴風兵；歐格林；拉特林；技術神甫機械師；國教牧師。",
+                "description": "你可以在軍隊中編入星界軍單位，即使它們沒有基因竊取者教派陣營關鍵詞。你可以編入這類單位的合計分數費用如下：\n\n－突襲：最多 500 分\n－打擊部隊：最多 1000 分\n－猛攻：最多 1500 分\n\n一個基因竊取者教派模型必須成為你的戰帥；你的軍隊中的星界軍模型若具有指揮之聲技能，則失去該技能。使用此規則時，你不能在軍隊中編入具有以下任一關鍵詞的單位：飛行器；政委；史詩英雄；米利塔魯姆暴風兵；歐格林；拉特林；技術神甫機械師；國教牧師。",
                 "name": "族裔兄弟",
                 "id": "fc33-afdd-30e9-47b1",
                 "hidden": false
@@ -29732,7 +29732,7 @@
           {
             "rules": [
               {
-                "description": "你可以在軍隊中編入泰倫蟲族先鋒入侵者單位（不含飛行器、族群領主與基因竊取者單位）。這些單位的合計分數費用依戰鬥規模而定：\n\n■ 突襲：最多 500 分\n■ 打擊部隊：最多 1000 分\n■ 猛攻：最多 1500 分\n\n你的軍隊中的泰倫蟲族模型不能成為你的戰主。",
+                "description": "你可以在軍隊中編入泰倫蟲族先鋒入侵者單位（不含飛行器、族群領主與基因竊取者單位）。這些單位的合計分數費用依戰鬥規模而定：\n\n■ 突襲：最多 500 分\n■ 打擊部隊：最多 1000 分\n■ 猛攻：最多 1500 分\n\n你的軍隊中的泰倫蟲族模型不能成為你的戰帥。",
                 "name": "星之子的祝福",
                 "id": "a351-e932-e0b3-2ed7",
                 "hidden": false

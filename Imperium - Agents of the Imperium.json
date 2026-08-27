@@ -690,12 +690,12 @@
             "targetId": "5c0e-4c31-d51b-e470",
             "id": "9c91-b5ef-47-dfbc",
             "primary": false,
-            "name": "戰主"
+            "name": "戰帥"
           }
         ],
         "type": "upgrade",
         "import": true,
-        "name": "戰主",
+        "name": "戰帥",
         "hidden": false,
         "id": "bb9a-14e7-b947-793b"
       },
@@ -2578,7 +2578,7 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "戰主",
+                "name": "戰帥",
                 "hidden": false,
                 "id": "9f83-e49a-8994-bec4",
                 "type": "selectionEntry",
@@ -11061,7 +11061,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "5da9-c8e4-6ea5-7fd5",
@@ -11872,7 +11872,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "c040-6812-c249-124e",
@@ -12411,7 +12411,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "531e-3c4f-2985-80a7",
@@ -12812,7 +12812,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "321-12e6-f83e-d431",
@@ -12974,7 +12974,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "fc86-3c06-2d72-446f",
@@ -14204,7 +14204,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "24fa-ccdd-ffc7-611e",
@@ -15123,7 +15123,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "8f99-7f31-45d9-516c",
@@ -15287,7 +15287,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "b68e-8cb9-be43-4199",
@@ -15716,7 +15716,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "2a9f-4e65-8fcf-564",
@@ -17817,7 +17817,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "type": "selectionEntry",
             "id": "be2f-71c7-280d-9970",
@@ -19756,7 +19756,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "6524-1272-7886-fe54",
             "type": "selectionEntry",
@@ -20780,7 +20780,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "0d5f-836a-62ea-13db",
             "type": "selectionEntry",
@@ -30452,12 +30452,12 @@
           {
             "characteristics": [
               {
-                "$text": "此模型不能被選為你的戰主。當一個審判官模型正在領導一個包含一個或更多喬卡羅武器匠模型的單位時，該單位中喬卡羅武器匠模型的目標控制屬性為 1。",
+                "$text": "此模型不能被選為你的戰帥。當一個審判官模型正在領導一個包含一個或更多喬卡羅武器匠模型的單位時，該單位中喬卡羅武器匠模型的目標控制屬性為 1。",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "武器匠，而非戰主",
+            "name": "武器匠，而非戰帥",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "能力",
             "hidden": false,
@@ -41096,7 +41096,7 @@
               {
                 "categoryLinks": [
                   {
-                    "name": "戰主",
+                    "name": "戰帥",
                     "hidden": false,
                     "id": "01b9-09f5-a4dc-3544",
                     "targetId": "5c0e-4c31-d51b-e470",
@@ -41116,7 +41116,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "戰主",
+                "name": "戰帥",
                 "hidden": false,
                 "id": "b1fd-11a5-ab4b-4c49"
               }
@@ -59351,7 +59351,7 @@
           },
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "b579-6be3-82fd-f4d2",
             "type": "selectionEntry",
@@ -59962,7 +59962,7 @@
           },
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "7f37-2ec7-3b55-d57b",
             "type": "selectionEntry",
@@ -60534,7 +60534,7 @@
           },
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "9ad3-65ff-f76c-1116",
             "type": "selectionEntry",
@@ -61375,7 +61375,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "707e-8f12-7b55-a81f",
             "type": "selectionEntry",
@@ -64192,7 +64192,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "23e6-67c7-39cb-49a2",
             "type": "selectionEntry",
@@ -64287,7 +64287,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "戰主",
+            "name": "戰帥",
             "hidden": false,
             "id": "4a17-9276-7b3b-f471",
             "type": "selectionEntry",
@@ -65517,7 +65517,7 @@
       {
         "characteristics": [
           {
-            "$text": "此模型不能被選為你的戰主。若你的軍隊陣營是帝國特務，則在宣告戰鬥編制步驟中，你可以將此模型替換為另一個不同的刺客庭模型，但新模型的分數值不得高於被替換模型的分數值。你的軍隊不能包含同一模型的複數個體（例如，替換此模型後，你的軍隊不能包含兩個維迪卡刺客模型）。",
+            "$text": "此模型不能被選為你的戰帥。若你的軍隊陣營是帝國特務，則在宣告戰鬥編制步驟中，你可以將此模型替換為另一個不同的刺客庭模型，但新模型的分數值不得高於被替換模型的分數值。你的軍隊不能包含同一模型的複數個體（例如，替換此模型後，你的軍隊不能包含兩個維迪卡刺客模型）。",
             "name": "Description",
             "typeId": "9b8f-694b-e5e-b573"
           }
@@ -69000,7 +69000,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "此模型的武器具有 **［毀滅傷害］** 能力；若此模型是一個 **^^審判官^^**，它獲得 **^^激進派^^** 關鍵字。此外，若此模型是你的 **^^戰主^^**，在戰鬥結束時你獲得 1 個額外密謀點。若此模型因任何原因獲得 **^^純潔派^^** 關鍵字，它立即失去此戰鬥特性與 **^^激進派^^** 關鍵字。",
+                    "$text": "此模型的武器具有 **［毀滅傷害］** 能力；若此模型是一個 **^^審判官^^**，它獲得 **^^激進派^^** 關鍵字。此外，若此模型是你的 **^^戰帥^^**，在戰鬥結束時你獲得 1 個額外密謀點。若此模型因任何原因獲得 **^^純潔派^^** 關鍵字，它立即失去此戰鬥特性與 **^^激進派^^** 關鍵字。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -70554,7 +70554,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "若此模型是你的 **^^戰主^^**，即使你不是弱勢方，也可以使用一項遠征祝福。",
+                    "$text": "若此模型是你的 **^^戰帥^^**，即使你不是弱勢方，也可以使用一項遠征祝福。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -71144,7 +71144,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "此模型具有不覺疼痛 4+ 能力；若此模型是一個 **^^審判官^^**，它具有 **^^純潔派^^** 關鍵字。此外，若此模型是你的 **^^戰主^^**，在戰鬥結束時你獲得 1 個額外影響力點。若此模型因任何原因獲得 **^^激進派^^** 關鍵字，它立即失去此戰鬥特性與 **^^純潔派^^** 關鍵字。",
+                    "$text": "此模型具有不覺疼痛 4+ 能力；若此模型是一個 **^^審判官^^**，它具有 **^^純潔派^^** 關鍵字。此外，若此模型是你的 **^^戰帥^^**，在戰鬥結束時你獲得 1 個額外影響力點。若此模型因任何原因獲得 **^^激進派^^** 關鍵字，它立即失去此戰鬥特性與 **^^純潔派^^** 關鍵字。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
@@ -73324,7 +73324,7 @@
               {
                 "characteristics": [
                   {
-                    "$text": "若持有者是你的 **^^戰主^^**，以 1 指揮點開始戰鬥。若持有者在戰鬥結束時位於戰場上，且你贏得該場戰鬥，擲一個 D6：若擲出 4+，你獲得 1 個徵用點。",
+                    "$text": "若持有者是你的 **^^戰帥^^**，以 1 指揮點開始戰鬥。若持有者在戰鬥結束時位於戰場上，且你贏得該場戰鬥，擲一個 D6：若擲出 4+，你獲得 1 個徵用點。",
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
