@@ -91,7 +91,7 @@
         "type": "selectionEntry"
       },
       {
-        "name": "角鬥士槍騎兵",
+        "name": "角鬥士槍騎型",
         "id": "c73d-867-173b-8d9a",
         "hidden": false,
         "import": true,
@@ -5529,7 +5529,7 @@
         ]
       },
       {
-        "name": "角鬥士槍騎兵",
+        "name": "角鬥士槍騎型",
         "id": "7dec-dc3d-c40a-8ce",
         "hidden": false,
         "import": true,
@@ -5554,7 +5554,7 @@
             "targetId": "6df-937-16bc-8c1a"
           },
           {
-            "name": "角鬥士槍騎兵",
+            "name": "角鬥士槍騎型",
             "id": "232c-eb3b-d114-18b5",
             "primary": false,
             "targetId": "ec5d-5626-6109-81d5"
@@ -5965,7 +5965,7 @@
                       },
                       {
                         "childId": "7dec-dc3d-c40a-8ce",
-                        "childName": "角鬥士槍騎兵",
+                        "childName": "角鬥士槍騎型",
                         "field": "selections",
                         "scope": "self",
                         "shared": true,
@@ -5981,7 +5981,7 @@
         ],
         "profiles": [
           {
-            "name": "角鬥士槍騎兵",
+            "name": "角鬥士槍騎型",
             "id": "526a-783d-a210-1dbf",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
