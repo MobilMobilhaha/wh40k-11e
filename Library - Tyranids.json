@@ -1553,7 +1553,7 @@
             "childId": "unit",
             "name": "領導",
             "id": "d2a9-2587-f926-7842",
-            "label": "Leader",
+            "label": "領袖",
             "conditionGroups": [
               {
                 "type": "or",
@@ -3906,7 +3906,7 @@
             "childId": "unit",
             "name": "領導",
             "id": "eed9-dcf3-684b-5fce",
-            "label": "Leader",
+            "label": "領袖",
             "conditionGroups": [
               {
                 "type": "or",
@@ -7096,7 +7096,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement."
+            "message": "一個聯合單位最多只能選擇 1 項強化。"
           },
           {
             "type": "max",
@@ -10338,7 +10338,7 @@
             "targetId": "b00b-5bae-444f-964e",
             "id": "849d-dbc9-c194-fd16",
             "primary": true,
-            "name": "蟲群"
+            "name": "集群"
           },
           {
             "targetId": "7850-cc5a-c191-b80d",
@@ -12030,7 +12030,7 @@
             "childId": "unit",
             "name": "領導",
             "id": "d48e-f97b-5525-d340",
-            "label": "Leader",
+            "label": "領袖",
             "conditionGroups": [
               {
                 "type": "or",
@@ -12988,7 +12988,7 @@
             "childId": "unit",
             "name": "領導",
             "id": "30e6-b6c5-6b5c-4e5c",
-            "label": "Leader",
+            "label": "領袖",
             "conditionGroups": [
               {
                 "type": "or",
@@ -14336,7 +14336,7 @@
             "targetId": "b00b-5bae-444f-964e",
             "id": "6674-86fa-9d07-8e76",
             "primary": false,
-            "name": "蟲群"
+            "name": "集群"
           },
           {
             "targetId": "7850-cc5a-c191-b80d",
@@ -19345,7 +19345,7 @@
                   }
                 ],
                 "id": "4632-bb29-3e38-bb30",
-                "name": "突觸協同",
+                "name": "突觸戰略",
                 "hidden": false,
                 "collective": false,
                 "import": true,
@@ -29518,7 +29518,7 @@
             ],
             "categoryLinks": [
               {
-                "name": "純種",
+                "name": "奪取與堅守",
                 "hidden": false,
                 "id": "4bf1-c5d2-9fb1-bc85",
                 "targetId": "a552-36b4-181a-b833",
@@ -30097,7 +30097,7 @@
             "id": "7acd-d099-e648-0838",
             "categoryLinks": [
               {
-                "name": "純種",
+                "name": "優先資產",
                 "hidden": false,
                 "id": "871e-63d8-6f0e-b979",
                 "targetId": "a552-36b4-181a-b833",
