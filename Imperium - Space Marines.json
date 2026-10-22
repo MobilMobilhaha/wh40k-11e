@@ -699,7 +699,7 @@
         "hidden": true
       },
       {
-        "name": "爆彈武器",
+        "name": "爆矢武器",
         "id": "1c08-e7e4-55b9-8e30",
         "hidden": true
       },
@@ -724,7 +724,7 @@
         "hidden": false
       },
       {
-        "name": "伏爾坎·赫斯坦",
+        "name": "伏爾甘·赫斯坦",
         "id": "8425-f97a-408-9f8a",
         "hidden": false
       },
@@ -831,7 +831,7 @@
         "hidden": false
       },
       {
-        "name": "維克特里克斯榮譽衛隊",
+        "name": "常勝護衛",
         "id": "22cb-9e28-8b9f-bbdf",
         "hidden": false
       },
@@ -856,7 +856,7 @@
         "hidden": false
       },
       {
-        "name": "裝備爆彈步槍的死亡連隊戰士",
+        "name": "裝備爆矢步槍的死亡連隊戰士",
         "id": "3055-9a0b-b062-5f31",
         "hidden": false
       },
@@ -896,7 +896,7 @@
         "hidden": false
       },
       {
-        "name": "艾瑟恩·尚",
+        "name": "艾索·沙恩",
         "id": "137d-c790-9826-095d",
         "hidden": false
       },
@@ -11950,7 +11950,7 @@
             "characteristics": [
               {
                 "name": "說明",
-                "$text": "此模型可以附屬於以下單位：\n侵略者小隊、裝備重型爆彈槍的消滅者小隊、裝備熔融步槍的消滅者小隊、重型仲裁者小隊、因多米特戰鬥小隊。",
+                "$text": "此模型可以附屬於以下單位：\n侵略者小隊、裝備重型爆矢槍的消滅者小隊、裝備熔融步槍的消滅者小隊、重型仲裁者小隊、因多米特戰鬥小隊。",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -12035,7 +12035,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "精工重型爆彈步槍與精工動力武器",
+                "name": "精工重型爆矢步槍與精工動力武器",
                 "id": "e767-518d-893b-648c",
                 "collective": false,
                 "hidden": false,
@@ -12100,7 +12100,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "精工重型爆彈步槍",
+                    "name": "精工重型爆矢步槍",
                     "id": "de40-d864-ad47-c0ce",
                     "import": true,
                     "type": "upgrade",
@@ -12166,7 +12166,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "精工重型爆彈步槍",
+                        "name": "精工重型爆矢步槍",
                         "id": "1581-69b-5b7b-d849",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -12214,7 +12214,7 @@
                 ]
               },
               {
-                "name": "爆彈風暴拳套、動力拳套，且聖物武器",
+                "name": "爆矢風暴拳套、動力拳套，且聖物武器",
                 "id": "dc86-5f80-455a-b73c",
                 "collective": false,
                 "hidden": false,
@@ -12345,7 +12345,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "爆彈風暴手套",
+                    "name": "爆矢風暴手套",
                     "id": "402c-f0c9-b2ba-df3b",
                     "hidden": false,
                     "import": true,
@@ -12391,7 +12391,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "爆彈風暴手套",
+                        "name": "爆矢風暴手套",
                         "id": "62b4-6432-2145-826d",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -12435,7 +12435,7 @@
                         ]
                       },
                       {
-                        "name": "爆彈風暴手套",
+                        "name": "爆矢風暴手套",
                         "id": "01b1-345c-8d75-4a0e",
                         "hidden": false,
                         "typeId": "8a40-4aaa-c780-9046",
@@ -12829,7 +12829,7 @@
         ]
       },
       {
-        "name": "爆彈手槍",
+        "name": "爆矢手槍",
         "id": "b273-b85e-4018-a0cd",
         "collective": false,
         "comment": "BS2+",
@@ -12845,7 +12845,7 @@
             "targetId": "eeda-8544-a2f3-3fab"
           },
           {
-            "name": "爆彈武器",
+            "name": "爆矢武器",
             "id": "3984-6eef-5e08-d61b",
             "hidden": false,
             "primary": false,
@@ -12870,7 +12870,7 @@
         ],
         "profiles": [
           {
-            "name": "爆彈手槍",
+            "name": "爆矢手槍",
             "id": "3104-8d29-e431-05d7",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -13134,7 +13134,7 @@
             "targetId": "eeda-8544-a2f3-3fab"
           },
           {
-            "name": "爆彈武器",
+            "name": "爆矢武器",
             "id": "816c-1a8e-d593-4fa7",
             "hidden": false,
             "primary": false,
@@ -13881,7 +13881,7 @@
             "sortIndex": 4,
             "entryLinks": [
               {
-                "name": "爆彈手槍",
+                "name": "爆矢手槍",
                 "id": "8d43-adfc-b9a1-14e6",
                 "hidden": false,
                 "import": true,
@@ -14833,7 +14833,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "風暴爆彈槍",
+                    "name": "風暴爆矢槍",
                     "id": "bee5-946-b680-1efe",
                     "hidden": false,
                     "import": true,
@@ -15256,7 +15256,7 @@
         ]
       },
       {
-        "name": "風暴爆彈槍",
+        "name": "風暴爆矢槍",
         "id": "eb61-5cd0-5242-74cc",
         "collective": true,
         "comment": "S5 BS3+",
@@ -15271,7 +15271,7 @@
             "targetId": "eeda-8544-a2f3-3fab"
           },
           {
-            "name": "爆彈武器",
+            "name": "爆矢武器",
             "id": "f916-9eb9-c26d-2bd9",
             "hidden": false,
             "primary": false,
@@ -15289,7 +15289,7 @@
         ],
         "profiles": [
           {
-            "name": "風暴爆彈槍",
+            "name": "風暴爆矢槍",
             "id": "83a0-da0c-752f-b4b3",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -16502,7 +16502,7 @@
         ]
       },
       {
-        "name": "精工爆彈槍",
+        "name": "精工爆矢槍",
         "id": "442d-a6c1-5b5b-3a57",
         "hidden": false,
         "import": true,
@@ -16516,7 +16516,7 @@
             "targetId": "eeda-8544-a2f3-3fab"
           },
           {
-            "name": "爆彈武器",
+            "name": "爆矢武器",
             "id": "6301-3884-3110-eb74",
             "hidden": false,
             "primary": false,
@@ -16525,7 +16525,7 @@
         ],
         "profiles": [
           {
-            "name": "精工爆彈槍",
+            "name": "精工爆矢槍",
             "id": "ceda-d902-8ff-e126",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -17451,7 +17451,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "b231-4afe-7568-3505",
                     "collective": false,
                     "hidden": false,
@@ -17856,7 +17856,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "312d-e959-8e7d-4f3a",
                     "collective": false,
                     "hidden": false,
@@ -18041,7 +18041,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "6c49-d913-160a-6531",
                     "collective": false,
                     "hidden": false,
@@ -18220,7 +18220,7 @@
         ]
       },
       {
-        "name": "爆彈手槍",
+        "name": "爆矢手槍",
         "id": "18b0-8c2-173f-5",
         "collective": true,
         "comment": "BS3+",
@@ -18236,7 +18236,7 @@
             "targetId": "eeda-8544-a2f3-3fab"
           },
           {
-            "name": "爆彈武器",
+            "name": "爆矢武器",
             "id": "b9b9-f05b-029b-a7f1",
             "hidden": false,
             "primary": false,
@@ -18261,7 +18261,7 @@
         ],
         "profiles": [
           {
-            "name": "爆彈手槍",
+            "name": "爆矢手槍",
             "id": "d093-797a-4c76-eea3",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -19362,7 +19362,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "fee7-a7c3-205e-1790",
                     "hidden": false,
                     "import": true,
@@ -19492,7 +19492,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "5d03-ed3c-ba29-b772",
                     "hidden": false,
                     "import": true,
@@ -21208,7 +21208,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "d2f8-3a63-13bc-6fe9",
                     "hidden": false,
                     "import": true,
@@ -21313,7 +21313,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "重型爆彈步槍",
+                    "name": "重型爆矢步槍",
                     "id": "6881-277b-1f28-22f2",
                     "collective": true,
                     "hidden": false,
@@ -21355,7 +21355,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "重型爆彈步槍",
+                        "name": "重型爆矢步槍",
                         "id": "7305-cc13-aeed-5de0",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -21472,7 +21472,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "4a52-7eb9-daec-ae8e",
                     "hidden": false,
                     "import": true,
@@ -21561,7 +21561,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "重型爆彈步槍",
+                    "name": "重型爆矢步槍",
                     "id": "36dc-bea0-75e7-f76a",
                     "hidden": false,
                     "import": true,
@@ -21612,7 +21612,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "重型爆彈步槍",
+                        "name": "重型爆矢步槍",
                         "id": "5de2-b272-87ee-2e58",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -21703,7 +21703,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "f8d8-e15f-b0e2-1d16",
                     "hidden": false,
                     "import": true,
@@ -22469,7 +22469,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "60ac-e5fb-8c18-cb23",
                     "collective": false,
                     "hidden": false,
@@ -22691,7 +22691,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "7ba0-e0a-341f-f3fe",
                     "collective": false,
                     "hidden": false,
@@ -23470,7 +23470,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "cd78-ba6a-c45e-d0cb",
                     "collective": false,
                     "hidden": false,
@@ -23782,7 +23782,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "ab39-8daf-3727-d6ec",
                     "collective": false,
                     "hidden": false,
@@ -24482,7 +24482,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "7524-1927-3f5f-31b3",
                     "hidden": false,
                     "import": true,
@@ -24534,7 +24534,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈槍",
+                    "name": "爆矢槍",
                     "id": "5e28-835d-c82d-b8f2",
                     "hidden": false,
                     "import": true,
@@ -24805,7 +24805,7 @@
                         ]
                       },
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "206f-d005-75c8-2fe5",
                         "hidden": false,
                         "import": true,
@@ -24993,7 +24993,7 @@
                         ]
                       },
                       {
-                        "name": "風暴爆彈槍",
+                        "name": "風暴爆矢槍",
                         "id": "5dd6-9e07-55aa-18ab",
                         "hidden": false,
                         "import": true,
@@ -25065,7 +25065,7 @@
                         ]
                       },
                       {
-                        "name": "爆彈槍",
+                        "name": "爆矢槍",
                         "id": "b78-35f8-147e-6ac1",
                         "hidden": false,
                         "import": true,
@@ -25158,7 +25158,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "2b56-ee28-d399-a360",
                     "hidden": false,
                     "import": true,
@@ -25339,7 +25339,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "2d7-6d94-7b68-c94f",
                     "hidden": false,
                     "import": true,
@@ -25894,7 +25894,7 @@
         ]
       },
       {
-        "name": "爆彈槍",
+        "name": "爆矢槍",
         "id": "beac-9df8-7247-c8ab",
         "collective": true,
         "comment": "S4",
@@ -25910,7 +25910,7 @@
             "targetId": "eeda-8544-a2f3-3fab"
           },
           {
-            "name": "爆彈武器",
+            "name": "爆矢武器",
             "id": "a186-2b01-c65e-fc0f",
             "hidden": false,
             "primary": false,
@@ -25919,7 +25919,7 @@
         ],
         "profiles": [
           {
-            "name": "爆彈槍",
+            "name": "爆矢槍",
             "id": "4540-ab37-18b4-3e56",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -27650,7 +27650,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "裝備爆彈槍的斥侯",
+                "name": "裝備爆矢槍的斥侯",
                 "id": "1008-b543-bfc2-4959",
                 "hidden": false,
                 "import": true,
@@ -27701,7 +27701,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈槍",
+                    "name": "爆矢槍",
                     "id": "3256-e6ac-d5b2-e40c",
                     "hidden": false,
                     "import": true,
@@ -27727,7 +27727,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "d55-815-395c-12c7",
                     "hidden": false,
                     "import": true,
@@ -27838,7 +27838,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "199e-ab71-f29f-51a2",
                     "hidden": false,
                     "import": true,
@@ -27959,7 +27959,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈槍",
+                        "name": "爆矢槍",
                         "id": "3a23-5cef-c475-6b59",
                         "hidden": false,
                         "import": true,
@@ -28240,7 +28240,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "1ab7-7996-2c8-2570",
                     "hidden": false,
                     "import": true,
@@ -28460,7 +28460,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "5076-e3eb-c3f8-6438",
                     "hidden": false,
                     "import": true,
@@ -29206,7 +29206,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "eb0f-e5de-6cf7-a473",
                     "hidden": false,
                     "import": true,
@@ -29354,7 +29354,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "5477-3bfa-cc49-bd9e",
                     "hidden": false,
                     "import": true,
@@ -29610,7 +29610,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "8998-4abe-766-b832",
                     "hidden": false,
                     "import": true,
@@ -31139,7 +31139,7 @@
             "affects": "self.entries",
             "field": "error",
             "type": "add",
-            "value": "所有模型均須將重型爆彈手槍替換為戰鬥盾牌",
+            "value": "所有模型均須將重型爆矢手槍替換為戰鬥盾牌",
             "conditionGroups": [
               {
                 "type": "and",
@@ -31275,7 +31275,7 @@
                     ]
                   },
                   {
-                    "name": "重型爆彈手槍",
+                    "name": "重型爆矢手槍",
                     "id": "d2e8-08f4-5e4a-6292",
                     "hidden": false,
                     "import": true,
@@ -32643,7 +32643,7 @@
                         "type": "selectionEntry"
                       },
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "9311-cda1-9bd6-1827",
                         "hidden": false,
                         "import": true,
@@ -32816,7 +32816,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "aed6-a6f1-3d35-81b",
                         "hidden": false,
                         "import": true,
@@ -35721,7 +35721,7 @@
                     ],
                     "selectionEntries": [
                       {
-                        "name": "自動爆彈風暴拳套 & 破片風暴榴彈發射器",
+                        "name": "自動爆矢風暴拳套 & 破片風暴榴彈發射器",
                         "id": "ed32-b8d3-55db-3fd7",
                         "hidden": false,
                         "import": true,
@@ -35765,7 +35765,7 @@
                             ]
                           },
                           {
-                            "name": "自動爆彈風暴手套",
+                            "name": "自動爆矢風暴手套",
                             "id": "18f6-bfa8-6801-97b2",
                             "hidden": false,
                             "import": true,
@@ -35804,7 +35804,7 @@
                                 "conditions": [
                                   {
                                     "childId": "ed32-b8d3-55db-3fd7",
-                                    "childName": "自動爆彈風暴拳套 & 破片風暴榴彈發射器",
+                                    "childName": "自動爆矢風暴拳套 & 破片風暴榴彈發射器",
                                     "field": "selections",
                                     "includeChildSelections": true,
                                     "scope": "unit",
@@ -35895,7 +35895,7 @@
                                 "conditions": [
                                   {
                                     "childId": "ed32-b8d3-55db-3fd7",
-                                    "childName": "自動爆彈風暴拳套 & 破片風暴榴彈發射器",
+                                    "childName": "自動爆矢風暴拳套 & 破片風暴榴彈發射器",
                                     "field": "selections",
                                     "includeChildSelections": true,
                                     "scope": "unit",
@@ -36162,7 +36162,7 @@
                     ],
                     "selectionEntries": [
                       {
-                        "name": "自動爆彈風暴拳套 & 破片風暴榴彈發射器",
+                        "name": "自動爆矢風暴拳套 & 破片風暴榴彈發射器",
                         "id": "fadc-09df-dcd0-a837",
                         "hidden": false,
                         "import": true,
@@ -36216,7 +36216,7 @@
                             ]
                           },
                           {
-                            "name": "自動爆彈風暴手套",
+                            "name": "自動爆矢風暴手套",
                             "id": "b8e0-0f56-ce5f-34d1",
                             "hidden": false,
                             "import": true,
@@ -38496,7 +38496,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "風暴爆彈槍",
+                    "name": "風暴爆矢槍",
                     "id": "74ca-e23c-79e3-ae1a",
                     "hidden": false,
                     "import": true,
@@ -38718,7 +38718,7 @@
                     ]
                   },
                   {
-                    "name": "風暴爆彈槍",
+                    "name": "風暴爆矢槍",
                     "id": "9565-e4c1-2ea3-3b51",
                     "hidden": false,
                     "import": true,
@@ -38814,7 +38814,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "風暴爆彈槍",
+                    "name": "風暴爆矢槍",
                     "id": "f522-5c41-8552-e368",
                     "hidden": false,
                     "import": true,
@@ -39106,7 +39106,7 @@
                         ],
                         "entryLinks": [
                           {
-                            "name": "風暴爆彈槍",
+                            "name": "風暴爆矢槍",
                             "id": "4e2a-2986-9dfc-f296",
                             "hidden": false,
                             "import": true,
@@ -44887,7 +44887,7 @@
                         ]
                       },
                       {
-                        "name": "風暴爆彈槍",
+                        "name": "風暴爆矢槍",
                         "id": "3fd2-5b07-58b3-6143",
                         "hidden": false,
                         "import": true,
@@ -46120,7 +46120,7 @@
                         ]
                       },
                       {
-                        "name": "風暴爆彈槍",
+                        "name": "風暴爆矢槍",
                         "id": "1ed-bcae-bd03-99e2",
                         "hidden": false,
                         "import": true,
@@ -50359,7 +50359,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "ad8a-8104-dc08-4f0e",
                         "hidden": false,
                         "import": true,
@@ -50864,7 +50864,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "6cfc-4a4c-8040-c830",
                         "hidden": false,
                         "import": true,
@@ -51099,7 +51099,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "336f-46ab-21be-1499",
                     "hidden": false,
                     "import": true,
@@ -51774,7 +51774,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "d1d1-b62a-20f4-78ab",
                         "hidden": false,
                         "import": true,
@@ -52283,7 +52283,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "a96d-cee1-20f5-4400",
                         "hidden": false,
                         "import": true,
@@ -52519,7 +52519,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "7d44-f97e-9224-6c35",
                     "hidden": false,
                     "import": true,
@@ -54369,7 +54369,7 @@
             ],
             "entryLinks": [
               {
-                "name": "爆彈手槍",
+                "name": "爆矢手槍",
                 "id": "e493-6e39-dcea-4027",
                 "hidden": false,
                 "import": true,
@@ -54441,7 +54441,7 @@
                 ]
               },
               {
-                "name": "雙聯爆彈槍",
+                "name": "雙聯爆矢槍",
                 "id": "b6f8-5198-5256-55cf",
                 "hidden": false,
                 "import": true,
@@ -54604,7 +54604,7 @@
         ]
       },
       {
-        "name": "雙聯爆彈槍",
+        "name": "雙聯爆矢槍",
         "id": "a578-8e45-2a54-509d",
         "collective": true,
         "hidden": false,
@@ -54630,7 +54630,7 @@
         ],
         "profiles": [
           {
-            "name": "雙聯爆彈槍",
+            "name": "雙聯爆矢槍",
             "id": "57f1-496-1641-7d36",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -55093,7 +55093,7 @@
             ],
             "entryLinks": [
               {
-                "name": "爆彈手槍",
+                "name": "爆矢手槍",
                 "id": "b4bb-6854-871-8b2d",
                 "hidden": false,
                 "import": true,
@@ -55145,7 +55145,7 @@
                 ]
               },
               {
-                "name": "雙聯爆彈槍",
+                "name": "雙聯爆矢槍",
                 "id": "cd24-8d2b-e9b1-509d",
                 "hidden": false,
                 "import": true,
@@ -55356,7 +55356,7 @@
                     ]
                   },
                   {
-                    "name": "雙聯爆彈槍",
+                    "name": "雙聯爆矢槍",
                     "id": "f298-ff16-7c14-ab04",
                     "hidden": false,
                     "import": true,
@@ -55487,7 +55487,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "4ba2-32e0-91f-30a4",
                         "hidden": false,
                         "import": true,
@@ -55505,7 +55505,7 @@
                         ]
                       },
                       {
-                        "name": "爆彈槍",
+                        "name": "爆矢槍",
                         "id": "1a46-2a5a-7c6-3dc3",
                         "hidden": false,
                         "import": true,
@@ -55613,7 +55613,7 @@
                         ]
                       },
                       {
-                        "name": "風暴爆彈槍",
+                        "name": "風暴爆矢槍",
                         "id": "6bc8-3cc-9e83-1d6f",
                         "hidden": false,
                         "import": true,
@@ -55724,7 +55724,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "be35-475-8fee-31e1",
                     "hidden": false,
                     "import": true,
@@ -55750,7 +55750,7 @@
                     ]
                   },
                   {
-                    "name": "雙聯爆彈槍",
+                    "name": "雙聯爆矢槍",
                     "id": "4216-800-4d73-8c8c",
                     "hidden": false,
                     "import": true,
@@ -55872,7 +55872,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "雙聯爆彈槍",
+                    "name": "雙聯爆矢槍",
                     "id": "e55c-75ee-1971-d8fe",
                     "hidden": false,
                     "import": true,
@@ -56022,7 +56022,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "雙聯爆彈槍",
+                    "name": "雙聯爆矢槍",
                     "id": "c1d0-cf59-9da0-7e2d",
                     "hidden": false,
                     "import": true,
@@ -56763,7 +56763,7 @@
                 ]
               },
               {
-                "name": "裝備雙聯爆彈槍的偵察機車手",
+                "name": "裝備雙聯爆矢槍的偵察機車手",
                 "id": "6c92-6680-fbe1-642f",
                 "hidden": false,
                 "import": true,
@@ -56780,7 +56780,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "雙聯爆彈槍",
+                    "name": "雙聯爆矢槍",
                     "id": "c1e2-33f9-c3b0-472d",
                     "hidden": false,
                     "import": true,
@@ -57086,7 +57086,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "雙聯爆彈槍",
+                        "name": "雙聯爆矢槍",
                         "id": "5a05-15f0-2a15-8e88",
                         "hidden": false,
                         "import": true,
@@ -57148,7 +57148,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "dbd9-d93d-1e49-eda7",
                         "hidden": false,
                         "import": true,
@@ -57166,7 +57166,7 @@
                         ]
                       },
                       {
-                        "name": "爆彈槍",
+                        "name": "爆矢槍",
                         "id": "9977-7cb-bcb7-d3fc",
                         "hidden": false,
                         "import": true,
@@ -57274,7 +57274,7 @@
                         ]
                       },
                       {
-                        "name": "風暴爆彈槍",
+                        "name": "風暴爆矢槍",
                         "id": "1ac-8ec3-b58e-92bc",
                         "hidden": false,
                         "import": true,
@@ -57868,7 +57868,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "bee9-f3f9-3895-edb6",
                     "hidden": false,
                     "import": true,
@@ -58016,7 +58016,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "759c-59a8-bc67-f749",
                     "hidden": false,
                     "import": true,
@@ -64030,7 +64030,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "64d9-976-6c0a-d06f",
                         "hidden": false,
                         "import": true,
@@ -64131,7 +64131,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "1477-adae-b502-dd22",
                     "hidden": false,
                     "import": true,
@@ -64900,7 +64900,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "ce5a-e2c7-b6d6-2f65",
                     "hidden": false,
                     "import": true,
@@ -65194,7 +65194,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "55f1-4c41-76a7-a85e",
                     "hidden": false,
                     "import": true,
@@ -65974,7 +65974,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "a6b1-b8e9-a5d3-ede7",
                     "hidden": false,
                     "import": true,
@@ -66160,7 +66160,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "f2d1-2098-d300-6caf",
                     "hidden": false,
                     "import": true,
@@ -66334,7 +66334,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "8b44-4db1-462a-ee1c",
                     "hidden": false,
                     "import": true,
@@ -67009,7 +67009,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "破壞者戰士裝備爆彈槍",
+                "name": "破壞者戰士裝備爆矢槍",
                 "id": "9724-313-f5d0-e06c",
                 "hidden": false,
                 "import": true,
@@ -67026,7 +67026,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈槍",
+                    "name": "爆矢槍",
                     "id": "cceb-fe52-be26-5475",
                     "hidden": false,
                     "import": true,
@@ -67078,7 +67078,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "489b-cc00-3434-97aa",
                     "hidden": false,
                     "import": true,
@@ -67174,7 +67174,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "ecd8-89e6-e9ea-417f",
                     "hidden": false,
                     "import": true,
@@ -67533,7 +67533,7 @@
                             ]
                           },
                           {
-                            "name": "爆彈手槍",
+                            "name": "爆矢手槍",
                             "id": "15a0-95fc-f8f5-f2eb",
                             "hidden": false,
                             "import": true,
@@ -67739,7 +67739,7 @@
                             ]
                           },
                           {
-                            "name": "爆彈槍",
+                            "name": "爆矢槍",
                             "id": "add8-664e-adee-3412",
                             "hidden": false,
                             "import": true,
@@ -68310,7 +68310,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "2c3f-71aa-d0c7-2d4",
                     "hidden": false,
                     "import": true,
@@ -68648,7 +68648,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "5832-1916-13b8-5e72",
                     "hidden": false,
                     "import": true,
@@ -69571,7 +69571,7 @@
                 "sortIndex": 2,
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "289e-2144-399a-9a38",
                     "hidden": false,
                     "import": true,
@@ -71395,7 +71395,7 @@
                 ]
               },
               {
-                "name": "風暴爆彈槍",
+                "name": "風暴爆矢槍",
                 "id": "a03-e284-285-feee",
                 "hidden": false,
                 "import": true,
@@ -72100,7 +72100,7 @@
                 ]
               },
               {
-                "name": "風暴爆彈槍",
+                "name": "風暴爆矢槍",
                 "id": "eba5-4fe8-7040-b66",
                 "hidden": false,
                 "import": true,
@@ -72823,7 +72823,7 @@
                 ]
               },
               {
-                "name": "風暴爆彈槍",
+                "name": "風暴爆矢槍",
                 "id": "76ec-5510-99df-f946",
                 "hidden": false,
                 "import": true,
@@ -73533,7 +73533,7 @@
                 ]
               },
               {
-                "name": "風暴爆彈槍",
+                "name": "風暴爆矢槍",
                 "id": "5276-c1f0-720c-6f25",
                 "hidden": false,
                 "import": true,
@@ -74345,7 +74345,7 @@
                 ]
               },
               {
-                "name": "風暴爆彈槍",
+                "name": "風暴爆矢槍",
                 "id": "1b91-1c80-b0c9-145c",
                 "hidden": false,
                 "import": true,
@@ -77442,7 +77442,7 @@
                 ]
               },
               {
-                "name": "風暴爆彈槍",
+                "name": "風暴爆矢槍",
                 "id": "1e4d-e2bb-83e6-99e1",
                 "hidden": false,
                 "import": true,
@@ -78262,7 +78262,7 @@
                 ]
               },
               {
-                "name": "風暴爆彈槍",
+                "name": "風暴爆矢槍",
                 "id": "8ec3-76a5-fcd8-ea80",
                 "hidden": false,
                 "import": true,
@@ -79106,7 +79106,7 @@
                 ]
               },
               {
-                "name": "風暴爆彈槍",
+                "name": "風暴爆矢槍",
                 "id": "6d6d-4c14-761f-58ee",
                 "hidden": false,
                 "import": true,
@@ -79973,7 +79973,7 @@
                 ]
               },
               {
-                "name": "風暴爆彈槍",
+                "name": "風暴爆矢槍",
                 "id": "d8fc-6404-720b-31ee",
                 "hidden": false,
                 "import": true,
@@ -82700,7 +82700,7 @@
                 ]
               },
               {
-                "name": "風暴爆彈槍",
+                "name": "風暴爆矢槍",
                 "id": "c709-10f8-7baa-7ade",
                 "hidden": false,
                 "import": true,
@@ -83364,7 +83364,7 @@
                 ]
               },
               {
-                "name": "風暴爆彈槍",
+                "name": "風暴爆矢槍",
                 "id": "d0d4-714c-a20b-fc4e",
                 "hidden": false,
                 "import": true,
@@ -89205,7 +89205,7 @@
             "sortIndex": 4,
             "entryLinks": [
               {
-                "name": "雙聯爆彈槍",
+                "name": "雙聯爆矢槍",
                 "id": "3c76-b1da-4831-c243",
                 "hidden": false,
                 "import": true,
@@ -89292,7 +89292,7 @@
             ],
             "selectionEntryGroups": [
               {
-                "name": "替換爆彈手槍",
+                "name": "替換爆矢手槍",
                 "id": "ff9b-7d31-69e6-1ef0",
                 "defaultSelectionEntryId": "e25e-ba6e-b399-919",
                 "hidden": false,
@@ -89352,7 +89352,7 @@
                     ]
                   },
                   {
-                    "name": "精工爆彈槍",
+                    "name": "精工爆矢槍",
                     "id": "51bf-de7-994a-4a70",
                     "hidden": false,
                     "import": true,
@@ -89407,7 +89407,7 @@
                     ]
                   },
                   {
-                    "name": "風暴爆彈槍",
+                    "name": "風暴爆矢槍",
                     "id": "bb61-26af-a2c2-7f19",
                     "hidden": false,
                     "import": true,
@@ -89461,7 +89461,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "e25e-ba6e-b399-919",
                     "hidden": false,
                     "import": true,
@@ -90775,7 +90775,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "4e9d-2724-513d-216a",
                         "hidden": false,
                         "import": true,
@@ -93585,7 +93585,7 @@
             "sortIndex": 4,
             "entryLinks": [
               {
-                "name": "爆彈手槍",
+                "name": "爆矢手槍",
                 "id": "dff0-8633-95b-d5d2",
                 "hidden": false,
                 "import": true,
@@ -94776,7 +94776,7 @@
             "sortIndex": 4,
             "entryLinks": [
               {
-                "name": "爆彈手槍",
+                "name": "爆矢手槍",
                 "id": "13d4-7b6b-f1a0-9a6f",
                 "hidden": false,
                 "import": true,
@@ -96461,7 +96461,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈槍",
+                    "name": "爆矢槍",
                     "id": "8507-d65a-ad3-a9f2",
                     "hidden": false,
                     "import": true,
@@ -96479,7 +96479,7 @@
                     ]
                   },
                   {
-                    "name": "風暴爆彈槍",
+                    "name": "風暴爆矢槍",
                     "id": "b237-a317-4658-c062",
                     "hidden": false,
                     "import": true,
@@ -96551,7 +96551,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "28c2-c07f-ed3a-e98e",
                     "hidden": false,
                     "import": true,
@@ -97299,7 +97299,7 @@
             "sortIndex": 4,
             "entryLinks": [
               {
-                "name": "赦免者爆彈手槍",
+                "name": "赦免者爆矢手槍",
                 "id": "b75-79bb-8f05-9ec4",
                 "hidden": false,
                 "import": true,
@@ -97446,7 +97446,7 @@
         ]
       },
       {
-        "name": "赦免者爆彈手槍",
+        "name": "赦免者爆矢手槍",
         "id": "a490-361-c9c4-afeb",
         "hidden": false,
         "import": true,
@@ -97467,7 +97467,7 @@
             "targetId": "1db0-c6b5-19db-8d0c"
           },
           {
-            "name": "爆彈武器",
+            "name": "爆矢武器",
             "id": "1bb9-e756-9e4f-3ce5",
             "hidden": false,
             "primary": false,
@@ -97485,7 +97485,7 @@
         ],
         "profiles": [
           {
-            "name": "赦免者爆彈手槍",
+            "name": "赦免者爆矢手槍",
             "id": "cb64-ddb1-cbc3-3621",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -98264,7 +98264,7 @@
                     "type": "selectionEntry"
                   },
                   {
-                    "name": "風暴爆彈槍",
+                    "name": "風暴爆矢槍",
                     "id": "3839-e5de-5695-f328",
                     "hidden": false,
                     "import": true,
@@ -98932,7 +98932,7 @@
             "sortIndex": 4,
             "entryLinks": [
               {
-                "name": "赦免者爆彈手槍",
+                "name": "赦免者爆矢手槍",
                 "id": "ef74-78ef-da87-3eb0",
                 "hidden": false,
                 "import": true,
@@ -99006,7 +99006,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "連裝爆彈步槍",
+                "name": "連裝爆矢步槍",
                 "id": "9921-9571-d897-8f4b",
                 "hidden": false,
                 "import": true,
@@ -99754,7 +99754,7 @@
                 ]
               },
               {
-                "name": "赦罪者爆彈手槍",
+                "name": "赦罪者爆矢手槍",
                 "id": "b0e3-0e0b-0f4f-ba55",
                 "hidden": false,
                 "import": true,
@@ -102991,7 +102991,7 @@
             "sortIndex": 4,
             "entryLinks": [
               {
-                "name": "爆彈手槍",
+                "name": "爆矢手槍",
                 "id": "7fd-6272-6423-81da",
                 "hidden": false,
                 "import": true,
@@ -103835,7 +103835,7 @@
             "sortIndex": 4,
             "entryLinks": [
               {
-                "name": "赦免者爆彈手槍",
+                "name": "赦免者爆矢手槍",
                 "id": "7c7b-e0a5-f7ce-a060",
                 "hidden": false,
                 "import": true,
@@ -104606,7 +104606,7 @@
             "characteristics": [
               {
                 "name": "說明",
-                "$text": "此模型可以附屬於以下單位：\n侵略者小隊、裝備重型爆彈槍的消滅者小隊、裝備熔融步槍的消滅者小隊、重型仲裁者小隊、因多米特戰鬥小隊。",
+                "$text": "此模型可以附屬於以下單位：\n侵略者小隊、裝備重型爆矢槍的消滅者小隊、裝備熔融步槍的消滅者小隊、重型仲裁者小隊、因多米特戰鬥小隊。",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -104620,7 +104620,7 @@
             "sortIndex": 4,
             "entryLinks": [
               {
-                "name": "赦免者爆彈手槍",
+                "name": "赦免者爆矢手槍",
                 "id": "55c0-7a85-42af-ef54",
                 "hidden": false,
                 "import": true,
@@ -105378,7 +105378,7 @@
             "sortIndex": 4,
             "entryLinks": [
               {
-                "name": "爆彈手槍",
+                "name": "爆矢手槍",
                 "id": "77b-6414-98b9-322a",
                 "hidden": false,
                 "import": true,
@@ -106828,7 +106828,7 @@
             "sortIndex": 4,
             "entryLinks": [
               {
-                "name": "風暴爆彈槍",
+                "name": "風暴爆矢槍",
                 "id": "8c33-cb7-3d9b-b4a3",
                 "hidden": false,
                 "import": true,
@@ -107425,7 +107425,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "ebcc-2261-39af-7c0",
                         "hidden": false,
                         "import": true,
@@ -107679,7 +107679,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "dbd0-aee0-302e-4fb1",
                         "hidden": false,
                         "import": true,
@@ -107769,7 +107769,7 @@
                         ]
                       },
                       {
-                        "name": "爆彈槍",
+                        "name": "爆矢槍",
                         "id": "b4c2-318a-276f-acf5",
                         "hidden": false,
                         "import": true,
@@ -108066,7 +108066,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "d2aa-a712-f5ae-c2d3",
                         "hidden": false,
                         "import": true,
@@ -108288,7 +108288,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "e68d-feb8-fe95-829c",
                         "hidden": false,
                         "import": true,
@@ -108733,7 +108733,7 @@
                         ]
                       },
                       {
-                        "name": "風暴爆彈槍",
+                        "name": "風暴爆矢槍",
                         "id": "e4f8-03e4-5659-260a",
                         "hidden": false,
                         "import": true,
@@ -108751,7 +108751,7 @@
                         ]
                       },
                       {
-                        "name": "爆彈槍",
+                        "name": "爆矢槍",
                         "id": "bc7e-9074-a9ba-6107",
                         "hidden": false,
                         "import": true,
@@ -109554,7 +109554,7 @@
             "sortIndex": 4,
             "entryLinks": [
               {
-                "name": "赦免者爆彈手槍",
+                "name": "赦免者爆矢手槍",
                 "id": "3125-bf-a712-d29f",
                 "hidden": false,
                 "import": true,
@@ -109786,7 +109786,7 @@
             ]
           },
           {
-            "name": "➤ 爆彈步槍－飽和射擊",
+            "name": "➤ 爆矢步槍－飽和射擊",
             "id": "1246-9297-174a-fcf7",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -110029,7 +110029,7 @@
                   },
                   {
                     "childId": "22cb-9e28-8b9f-bbdf",
-                    "childName": "維克特里克斯榮譽衛隊",
+                    "childName": "常勝護衛",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
@@ -110602,7 +110602,7 @@
             "characteristics": [
               {
                 "name": "說明",
-                "$text": "此模型可以附屬於以下單位：\n突擊仲裁者小隊、劍衛老兵小隊、連隊英雄、十字軍小隊、死亡守望老兵、德西穆斯戰鬥小隊、寂滅小隊、福提斯戰鬥小隊、地獄轟擊者小隊、焚獄者小隊、內環侍衛、仲裁者小隊、肅衛老兵小隊、聖劍兄弟會小隊、先鋒老兵小隊、維克特里克斯榮譽衛隊。",
+                "$text": "此模型可以附屬於以下單位：\n突擊仲裁者小隊、劍衛老兵小隊、連隊英雄、十字軍小隊、死亡守望老兵、德西穆斯戰鬥小隊、寂滅小隊、福提斯戰鬥小隊、地獄轟擊者小隊、焚獄者小隊、內環侍衛、仲裁者小隊、肅衛老兵小隊、聖劍兄弟會小隊、先鋒老兵小隊、常勝護衛。",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -110663,7 +110663,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "87a5-6849-3981-d57e",
                     "collective": false,
                     "hidden": false,
@@ -111819,7 +111819,7 @@
                 ]
               },
               {
-                "name": "風暴爆彈槍",
+                "name": "風暴爆矢槍",
                 "id": "828b-bc4e-425f-7b5e",
                 "hidden": false,
                 "import": true,
@@ -113265,7 +113265,7 @@
             "targetId": "eeda-8544-a2f3-3fab"
           },
           {
-            "name": "爆彈武器",
+            "name": "爆矢武器",
             "id": "e032-085e-adf4-ebaf",
             "hidden": false,
             "primary": false,
@@ -114200,7 +114200,7 @@
                 ]
               },
               {
-                "name": "風暴爆彈槍",
+                "name": "風暴爆矢槍",
                 "id": "c341-c2b8-96-d261",
                 "hidden": false,
                 "import": true,
@@ -115913,7 +115913,7 @@
                 ]
               },
               {
-                "name": "風暴爆彈槍",
+                "name": "風暴爆矢槍",
                 "id": "a155-c2c2-f057-333",
                 "hidden": false,
                 "import": true,
@@ -117395,7 +117395,7 @@
                         ]
                       },
                       {
-                        "name": "風暴爆彈槍",
+                        "name": "風暴爆矢槍",
                         "id": "10ce-2f08-bf92-a2ea",
                         "hidden": false,
                         "import": true,
@@ -120088,7 +120088,7 @@
                 ]
               },
               {
-                "name": "風暴爆彈槍",
+                "name": "風暴爆矢槍",
                 "id": "2f05-19ea-9edb-ae9",
                 "hidden": false,
                 "import": true,
@@ -120935,7 +120935,7 @@
                         ]
                       },
                       {
-                        "name": "風暴爆彈槍",
+                        "name": "風暴爆矢槍",
                         "id": "b10e-29b-9c3c-53ca",
                         "hidden": false,
                         "import": true,
@@ -122625,7 +122625,7 @@
                 ]
               },
               {
-                "name": "風暴爆彈槍",
+                "name": "風暴爆矢槍",
                 "id": "978-dd57-946c-901f",
                 "hidden": false,
                 "import": true,
@@ -124146,7 +124146,7 @@
                 ]
               },
               {
-                "name": "風暴爆彈槍",
+                "name": "風暴爆矢槍",
                 "id": "fd1d-d298-a5ec-52ae",
                 "hidden": false,
                 "import": true,
@@ -124854,7 +124854,7 @@
                 ]
               },
               {
-                "name": "風暴爆彈槍",
+                "name": "風暴爆矢槍",
                 "id": "605e-560-1ff8-fc08",
                 "hidden": false,
                 "import": true,
@@ -125409,7 +125409,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "雙聯爆彈槍",
+                    "name": "雙聯爆矢槍",
                     "id": "3024-276d-914d-1a65",
                     "hidden": false,
                     "import": true,
@@ -125529,7 +125529,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈槍",
+                        "name": "爆矢槍",
                         "id": "20e2-e4ef-4621-19ef",
                         "hidden": false,
                         "import": true,
@@ -125547,7 +125547,7 @@
                         ]
                       },
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "bdba-ef68-826d-7d34",
                         "defaultAmount": 1,
                         "hidden": false,
@@ -125584,7 +125584,7 @@
                         ]
                       },
                       {
-                        "name": "風暴爆彈槍",
+                        "name": "風暴爆矢槍",
                         "id": "758f-9861-f1c2-42b9",
                         "hidden": false,
                         "import": true,
@@ -125774,7 +125774,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "雙聯爆彈槍",
+                    "name": "雙聯爆矢槍",
                     "id": "5553-75e3-d396-975f",
                     "hidden": false,
                     "import": true,
@@ -126041,7 +126041,7 @@
                         ]
                       },
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "fd29-a81-9fe9-8945",
                         "defaultAmount": 1,
                         "hidden": false,
@@ -126698,7 +126698,7 @@
             "sortIndex": 4,
             "entryLinks": [
               {
-                "name": "爆彈手槍",
+                "name": "爆矢手槍",
                 "id": "ccc7-f845-d138-d635",
                 "defaultAmount": 1,
                 "hidden": false,
@@ -126735,7 +126735,7 @@
                 ]
               },
               {
-                "name": "雙聯爆彈槍",
+                "name": "雙聯爆矢槍",
                 "id": "e5d7-15a8-ecb2-23de",
                 "hidden": false,
                 "import": true,
@@ -127490,7 +127490,7 @@
                 ]
               },
               {
-                "name": "雙聯爆彈槍",
+                "name": "雙聯爆矢槍",
                 "id": "7b3a-9f66-e822-a209",
                 "hidden": false,
                 "import": true,
@@ -127587,7 +127587,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "f263-9292-b600-ae30",
                     "defaultAmount": 1,
                     "hidden": false,
@@ -127606,7 +127606,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈槍",
+                    "name": "爆矢槍",
                     "id": "c4ba-ed5b-fc73-5bd",
                     "hidden": false,
                     "import": true,
@@ -127660,7 +127660,7 @@
                     ]
                   },
                   {
-                    "name": "風暴爆彈槍",
+                    "name": "風暴爆矢槍",
                     "id": "5799-9ed8-d709-a5a3",
                     "hidden": false,
                     "import": true,
@@ -128341,7 +128341,7 @@
                 ]
               },
               {
-                "name": "爆彈手槍",
+                "name": "爆矢手槍",
                 "id": "ce7d-4e3-2adf-c77b",
                 "defaultAmount": 1,
                 "hidden": false,
@@ -128378,7 +128378,7 @@
                 ]
               },
               {
-                "name": "雙聯爆彈槍",
+                "name": "雙聯爆矢槍",
                 "id": "c43-7dc1-44b5-206",
                 "hidden": false,
                 "import": true,
@@ -129029,7 +129029,7 @@
             "sortIndex": 4,
             "entryLinks": [
               {
-                "name": "雙聯爆彈槍",
+                "name": "雙聯爆矢槍",
                 "id": "6e15-506a-285f-184a",
                 "hidden": false,
                 "import": true,
@@ -129192,7 +129192,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "20a2-f386-d104-3b0c",
                     "defaultAmount": 1,
                     "hidden": false,
@@ -129247,7 +129247,7 @@
                     ]
                   },
                   {
-                    "name": "風暴爆彈槍",
+                    "name": "風暴爆矢槍",
                     "id": "d01e-66cc-f059-955d",
                     "hidden": false,
                     "import": true,
@@ -129267,7 +129267,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "爆彈槍",
+                    "name": "爆矢槍",
                     "id": "5b3-4586-f600-6a8b",
                     "hidden": false,
                     "import": true,
@@ -129293,7 +129293,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "爆彈槍",
+                        "name": "爆矢槍",
                         "id": "8b15-a8da-d80a-405b",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -129999,7 +129999,7 @@
             "type": "selectionEntryGroup"
           },
           {
-            "name": "雙聯爆彈槍",
+            "name": "雙聯爆矢槍",
             "id": "a497-b897-709b-ffa2",
             "hidden": false,
             "import": true,
@@ -130526,7 +130526,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈槍",
+                    "name": "爆矢槍",
                     "id": "516a-5831-9473-9055",
                     "hidden": false,
                     "import": true,
@@ -130544,7 +130544,7 @@
                     ]
                   },
                   {
-                    "name": "風暴爆彈槍",
+                    "name": "風暴爆矢槍",
                     "id": "b64d-a9ab-80a0-736c",
                     "hidden": false,
                     "import": true,
@@ -130580,7 +130580,7 @@
                     ]
                   },
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "7729-ba8f-d87a-e51f",
                     "defaultAmount": 1,
                     "hidden": false,
@@ -133621,7 +133621,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "cc94-34b5-4fab-f266",
                     "hidden": false,
                     "import": true,
@@ -133701,7 +133701,7 @@
                     ]
                   },
                   {
-                    "name": "精工爆彈步槍",
+                    "name": "精工爆矢步槍",
                     "id": "14bc-9fb5-5542-8181",
                     "hidden": false,
                     "import": true,
@@ -133824,7 +133824,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "27d-1b00-1f3d-63d3",
                     "hidden": false,
                     "import": true,
@@ -134041,7 +134041,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "6544-72c6-e92d-aa9",
                     "hidden": false,
                     "import": true,
@@ -134121,7 +134121,7 @@
                     ]
                   },
                   {
-                    "name": "精工爆彈步槍",
+                    "name": "精工爆矢步槍",
                     "id": "6cbe-21d8-ed99-c42b",
                     "hidden": false,
                     "import": true,
@@ -134235,7 +134235,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "b186-7687-2dfb-30b6",
                     "hidden": false,
                     "import": true,
@@ -135754,7 +135754,7 @@
         "type": "upgrade",
         "categoryLinks": [
           {
-            "name": "爆彈武器",
+            "name": "爆矢武器",
             "id": "96df-3e7b-5beb-c75e",
             "hidden": false,
             "primary": false,
@@ -136828,7 +136828,7 @@
         "type": "upgrade",
         "categoryLinks": [
           {
-            "name": "爆彈武器",
+            "name": "爆矢武器",
             "id": "ff74-bd1f-b78b-68c2",
             "hidden": false,
             "primary": false,
@@ -137701,7 +137701,7 @@
         ]
       },
       {
-        "name": "風暴爆彈槍",
+        "name": "風暴爆矢槍",
         "id": "9f00-4659-692a-9dc1",
         "collective": true,
         "comment": "BS2+",
@@ -137716,7 +137716,7 @@
             "targetId": "eeda-8544-a2f3-3fab"
           },
           {
-            "name": "爆彈武器",
+            "name": "爆矢武器",
             "id": "32d2-ab27-e6a8-9c1c",
             "hidden": false,
             "primary": false,
@@ -137734,7 +137734,7 @@
         ],
         "profiles": [
           {
-            "name": "風暴爆彈槍",
+            "name": "風暴爆矢槍",
             "id": "d1b5-8c33-e154-5b7d",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -139900,7 +139900,7 @@
                           },
                           {
                             "childId": "3055-9a0b-b062-5f31",
-                            "childName": "裝備爆彈步槍的死亡連隊戰士",
+                            "childName": "裝備爆矢步槍的死亡連隊戰士",
                             "field": "selections",
                             "scope": "self",
                             "shared": true,
@@ -140803,7 +140803,7 @@
               {
                 "field": "9b8f-694b-e5e-b573",
                 "type": "set",
-                "value": "此模型可附屬於下列單位：\n- ^^**死亡連隊戰士^^**\n- ^^**裝備爆彈步槍的死亡連隊戰士^^**",
+                "value": "此模型可附屬於下列單位：\n- ^^**死亡連隊戰士^^**\n- ^^**裝備爆矢步槍的死亡連隊戰士^^**",
                 "conditions": [
                   {
                     "childId": "a62c-8cb3-b57b-5cbb",
@@ -141468,7 +141468,7 @@
                           },
                           {
                             "childId": "3055-9a0b-b062-5f31",
-                            "childName": "裝備爆彈步槍的死亡連隊戰士",
+                            "childName": "裝備爆矢步槍的死亡連隊戰士",
                             "field": "selections",
                             "scope": "self",
                             "shared": true,
@@ -142283,7 +142283,7 @@
               {
                 "field": "9b8f-694b-e5e-b573",
                 "type": "set",
-                "value": "此模型可附屬於下列單位：\n- ^^**死亡連隊戰士^^**\n- ^^**裝備爆彈步槍的死亡連隊戰士^^**",
+                "value": "此模型可附屬於下列單位：\n- ^^**死亡連隊戰士^^**\n- ^^**裝備爆矢步槍的死亡連隊戰士^^**",
                 "conditions": [
                   {
                     "childId": "a62c-8cb3-b57b-5cbb",
@@ -144386,7 +144386,7 @@
                     ]
                   },
                   {
-                    "name": "雙聯風暴爆彈槍",
+                    "name": "雙聯風暴爆矢槍",
                     "id": "3d55-41f5-9679-e065",
                     "comment": "熔爐變體",
                     "hidden": false,
@@ -144420,7 +144420,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "雙聯風暴爆彈槍",
+                        "name": "雙聯風暴爆矢槍",
                         "id": "d891-2a74-d729-0975",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -145149,7 +145149,7 @@
         ]
       },
       {
-        "name": "爆彈風暴拳套",
+        "name": "爆矢風暴拳套",
         "id": "3b0-59b8-806b-654",
         "import": true,
         "type": "upgrade",
@@ -145171,7 +145171,7 @@
         ],
         "profiles": [
           {
-            "name": "爆彈風暴拳套",
+            "name": "爆矢風暴拳套",
             "id": "f8a8-8b7c-3853-6fac",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -145464,7 +145464,7 @@
             "characteristics": [
               {
                 "name": "說明",
-                "$text": "在你的射擊階段，當此單位被選擇射擊時，你可以選擇一個其可見的敵方單位。此單位以該敵方單位為目標的重型爆彈槍具有**[爆炸 1]**。",
+                "$text": "在你的射擊階段，當此單位被選擇射擊時，你可以選擇一個其可見的敵方單位。此單位以該敵方單位為目標的重型爆矢槍具有**[爆炸 1]**。",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -145525,7 +145525,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "d299-94ac-7617-4cad",
                     "hidden": false,
                     "import": true,
@@ -145684,7 +145684,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "重型爆彈槍",
+                        "name": "重型爆矢槍",
                         "id": "0395-a1fb-ca7c-db89",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -145759,7 +145759,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "2475-81c5-7f27-bd75",
                     "hidden": false,
                     "import": true,
@@ -145815,7 +145815,7 @@
                     ]
                   },
                   {
-                    "name": "重型爆彈槍",
+                    "name": "重型爆矢槍",
                     "id": "8c53-0a7e-0d7e-cf91",
                     "hidden": false,
                     "import": true,
@@ -147156,7 +147156,7 @@
             "sortIndex": 4,
             "entryLinks": [
               {
-                "name": "赦罪者爆彈手槍",
+                "name": "赦罪者爆矢手槍",
                 "id": "4601-3565-b93b-0fca",
                 "hidden": false,
                 "import": true,
@@ -147939,7 +147939,7 @@
             "characteristics": [
               {
                 "name": "說明",
-                "$text": "此模型可以附屬於以下單位：\n\n■ 突擊仲裁者小隊\n■ 劍衛老兵小隊\n■ 十字軍小隊\n■ 死亡連隊戰士\n■ 裝備爆彈步槍的死亡連隊戰士\n■ 死亡守望老兵\n■ 德西穆斯戰鬥小隊\n■ 福提斯戰鬥小隊\n■ 地獄爆破者小隊\n■ 焚獄者小隊\n■ 內環侍衛\n■ 仲裁者小隊\n■ 資深衛士老兵小隊\n■ 聖劍兄弟會小隊\n■ 戰術小隊",
+                "$text": "此模型可以附屬於以下單位：\n\n■ 突擊仲裁者小隊\n■ 劍衛老兵小隊\n■ 十字軍小隊\n■ 死亡連隊戰士\n■ 裝備爆矢步槍的死亡連隊戰士\n■ 死亡守望老兵\n■ 德西穆斯戰鬥小隊\n■ 福提斯戰鬥小隊\n■ 地獄爆破者小隊\n■ 焚獄者小隊\n■ 內環侍衛\n■ 仲裁者小隊\n■ 資深衛士老兵小隊\n■ 聖劍兄弟會小隊\n■ 戰術小隊",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -147967,7 +147967,7 @@
             "sortIndex": 4,
             "entryLinks": [
               {
-                "name": "赦罪者爆彈手槍",
+                "name": "赦罪者爆矢手槍",
                 "id": "67f2-52c9-25ba-2b3f",
                 "hidden": false,
                 "import": true,
@@ -148866,7 +148866,7 @@
                     ]
                   },
                   {
-                    "name": "重型爆彈手槍",
+                    "name": "重型爆矢手槍",
                     "id": "b042-b5c2-ee70-768c",
                     "hidden": false,
                     "import": true,
@@ -149169,7 +149169,7 @@
         ]
       },
       {
-        "name": "爆彈手槍",
+        "name": "爆矢手槍",
         "id": "5ac1-eb4e-d3cb-9d08",
         "hidden": false,
         "import": true,
@@ -149185,7 +149185,7 @@
         ],
         "profiles": [
           {
-            "name": "爆彈手槍",
+            "name": "爆矢手槍",
             "id": "ea8d-6500-0225-4e3f",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -149231,7 +149231,7 @@
         ]
       },
       {
-        "name": "精工爆彈步槍",
+        "name": "精工爆矢步槍",
         "id": "4155-dfd5-7b6b-f175",
         "hidden": false,
         "import": true,
@@ -149254,7 +149254,7 @@
         ],
         "profiles": [
           {
-            "name": "精工爆彈步槍",
+            "name": "精工爆矢步槍",
             "id": "cbb4-6af3-b38c-e7d8",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -149855,7 +149855,7 @@
             "targetId": "eeda-8544-a2f3-3fab"
           },
           {
-            "name": "爆彈武器",
+            "name": "爆矢武器",
             "id": "939f-26d3-3ecc-80ae",
             "hidden": false,
             "primary": false,
@@ -150069,7 +150069,7 @@
         ]
       },
       {
-        "name": "自動爆彈風暴手套",
+        "name": "自動爆矢風暴手套",
         "id": "9718-b2f2-fe42-5faa",
         "hidden": false,
         "import": true,
@@ -150092,7 +150092,7 @@
         ],
         "profiles": [
           {
-            "name": "自動爆彈風暴手套",
+            "name": "自動爆矢風暴手套",
             "id": "df1a-c42d-d68e-34b6",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -150762,7 +150762,7 @@
                     "sortIndex": 2,
                     "entryLinks": [
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "8b02-bd1a-1c87-d2d3",
                         "hidden": false,
                         "import": true,
@@ -150873,7 +150873,7 @@
                         ]
                       },
                       {
-                        "name": "連裝爆彈步槍",
+                        "name": "連裝爆矢步槍",
                         "id": "56d1-7ad4-aded-cfa2",
                         "hidden": false,
                         "import": true,
@@ -150923,7 +150923,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "連裝爆彈步槍",
+                            "name": "連裝爆矢步槍",
                             "id": "409d-5562-fb7a-a473",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
@@ -151488,7 +151488,7 @@
         ]
       },
       {
-        "name": "重型爆彈槍",
+        "name": "重型爆矢槍",
         "id": "5610-e793-4bdc-84a4",
         "comment": "RF2, SH1",
         "hidden": false,
@@ -151512,7 +151512,7 @@
         ],
         "profiles": [
           {
-            "name": "重型爆彈槍",
+            "name": "重型爆矢槍",
             "id": "93a7-3a89-5acc-f91b",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -151786,7 +151786,7 @@
         ]
       },
       {
-        "name": "死亡守望爆彈步槍",
+        "name": "死亡守望爆矢步槍",
         "id": "ad6a-c679-52ea-6059",
         "collective": true,
         "hidden": false,
@@ -151827,7 +151827,7 @@
         ],
         "profiles": [
           {
-            "name": "死亡守望爆彈步槍",
+            "name": "死亡守望爆矢步槍",
             "id": "1e8c-da24-6662-a2e3",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -152455,7 +152455,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "颶風爆彈槍",
+                "name": "颶風爆矢槍",
                 "id": "39fd-529-fe62-955e",
                 "hidden": false,
                 "import": true,
@@ -152500,7 +152500,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "颶風爆彈槍",
+                    "name": "颶風爆矢槍",
                     "id": "85c5-d77a-762-df62",
                     "hidden": false,
                     "page": 19,
@@ -153618,7 +153618,7 @@
             ]
           },
           {
-            "name": "特製爆彈手槍",
+            "name": "特製爆矢手槍",
             "id": "e58d-035c-fd4e-5b50",
             "hidden": false,
             "import": true,
@@ -153680,7 +153680,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "死亡守望神射手爆彈卡賓槍",
+                "name": "死亡守望神射手爆矢卡賓槍",
                 "id": "2fde-1e35-34a9-0b37",
                 "hidden": false,
                 "import": true,
@@ -153703,7 +153703,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "死亡守望神射手爆彈卡賓槍",
+                    "name": "死亡守望神射手爆矢卡賓槍",
                     "id": "a87d-8d8f-1f70-fe13",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -153832,7 +153832,7 @@
         ],
         "entryLinks": [
           {
-            "name": "爆彈手槍",
+            "name": "爆矢手槍",
             "id": "48cf-b425-da09-cdb5",
             "hidden": false,
             "import": true,
@@ -154043,7 +154043,7 @@
         ]
       },
       {
-        "name": "死亡守望老兵（配備潛獵者爆彈步槍）",
+        "name": "死亡守望老兵（配備潛獵者爆矢步槍）",
         "id": "9ae9-4f7e-a148-cbfa",
         "comment": "德西穆斯戰鬥小隊",
         "hidden": false,
@@ -154060,7 +154060,7 @@
         ],
         "entryLinks": [
           {
-            "name": "爆彈手槍",
+            "name": "爆矢手槍",
             "id": "48a1-fc8d-05b2-106f",
             "hidden": false,
             "import": true,
@@ -154180,7 +154180,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "潛獵者爆彈步槍",
+                "name": "潛獵者爆矢步槍",
                 "id": "4b89-bd85-ed45-0ce4",
                 "hidden": false,
                 "import": true,
@@ -154210,7 +154210,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "潛獵者爆彈步槍",
+                    "name": "潛獵者爆矢步槍",
                     "id": "3af1-cf3a-2bff-56d0",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -154723,7 +154723,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "老兵（配備爆彈槍與動力武器）",
+                "name": "老兵（配備爆矢槍與動力武器）",
                 "id": "ba3d-91bd-62a4-44ec",
                 "hidden": false,
                 "import": true,
@@ -154742,7 +154742,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈槍",
+                    "name": "爆矢槍",
                     "id": "1c2e-9cff-4924-70b1",
                     "hidden": false,
                     "import": true,
@@ -155066,7 +155066,7 @@
                 ]
               },
               {
-                "name": "老兵（配備地獄火重型爆彈槍與近戰武器）",
+                "name": "老兵（配備地獄火重型爆矢槍與近戰武器）",
                 "id": "7581-22bb-9ade-6b0c",
                 "hidden": false,
                 "import": true,
@@ -155111,7 +155111,7 @@
                     ]
                   },
                   {
-                    "name": "地獄火重型爆彈槍",
+                    "name": "地獄火重型爆矢槍",
                     "id": "727-7b34-85fa-4cd0",
                     "collective": true,
                     "hidden": false,
@@ -155179,7 +155179,7 @@
                 ]
               },
               {
-                "name": "老兵（配備風暴盾牌與爆彈槍）",
+                "name": "老兵（配備風暴盾牌與爆矢槍）",
                 "id": "3ec4-62ab-71f2-9cf3",
                 "hidden": false,
                 "import": true,
@@ -155198,7 +155198,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈槍",
+                    "name": "爆矢槍",
                     "id": "4d68-8e19-3190-d67a",
                     "hidden": false,
                     "import": true,
@@ -155397,7 +155397,7 @@
                 ]
               },
               {
-                "name": "老兵（配備潛獵者型爆彈槍與近戰武器）",
+                "name": "老兵（配備潛獵者型爆矢槍與近戰武器）",
                 "id": "f026-8957-5e60-f8e5",
                 "hidden": false,
                 "import": true,
@@ -155483,7 +155483,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "潛獵者型爆彈槍",
+                    "name": "潛獵者型爆矢槍",
                     "id": "a21d-235b-bf6e-5ff7",
                     "collective": true,
                     "hidden": false,
@@ -155527,7 +155527,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "潛獵者型爆彈槍",
+                        "name": "潛獵者型爆矢槍",
                         "id": "f075-0a7f-670e-f7cf",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -155956,7 +155956,7 @@
                     ]
                   },
                   {
-                    "name": "中士（爆彈槍與異相刃）",
+                    "name": "中士（爆矢槍與異相刃）",
                     "id": "f7c8-4603-da2e-b40e",
                     "hidden": false,
                     "import": true,
@@ -155984,7 +155984,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈槍",
+                        "name": "爆矢槍",
                         "id": "fe70-7756-df6b-d413",
                         "hidden": false,
                         "import": true,
@@ -156946,7 +156946,7 @@
                     "type": "selectionEntry"
                   },
                   {
-                    "name": "死亡守望老兵（配備潛獵者爆彈步槍）",
+                    "name": "死亡守望老兵（配備潛獵者爆矢步槍）",
                     "id": "f253-3812-3f51-926c",
                     "hidden": false,
                     "import": true,
@@ -157033,7 +157033,7 @@
                     ]
                   },
                   {
-                    "name": "格拉維斯老兵（配備地獄火重型爆彈槍）",
+                    "name": "格拉維斯老兵（配備地獄火重型爆矢槍）",
                     "id": "49b8-f2b6-a45c-be63",
                     "hidden": false,
                     "import": true,
@@ -157122,7 +157122,7 @@
                     "type": "selectionEntry"
                   },
                   {
-                    "name": "死亡守望老兵（配備潛獵者爆彈步槍）",
+                    "name": "死亡守望老兵（配備潛獵者爆矢步槍）",
                     "id": "7d75-fc7c-85a5-6c4d",
                     "hidden": false,
                     "import": true,
@@ -157209,7 +157209,7 @@
                     ]
                   },
                   {
-                    "name": "格拉維斯老兵（配備地獄火重型爆彈槍）",
+                    "name": "格拉維斯老兵（配備地獄火重型爆矢槍）",
                     "id": "738d-ec99-12e9-5c38",
                     "hidden": false,
                     "import": true,
@@ -157278,7 +157278,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "特製爆彈手槍",
+                        "name": "特製爆矢手槍",
                         "id": "0171-67ff-8b71-cbc2",
                         "hidden": false,
                         "import": true,
@@ -157481,7 +157481,7 @@
         ]
       },
       {
-        "name": "地獄火重型爆彈槍",
+        "name": "地獄火重型爆矢槍",
         "id": "ef13-323d-7627-dc7",
         "collective": true,
         "hidden": false,
@@ -157536,7 +157536,7 @@
         ],
         "profiles": [
           {
-            "name": "➤ 地獄火重型爆彈槍 (爆彈)",
+            "name": "➤ 地獄火重型爆矢槍 (爆矢)",
             "id": "af16-5bb-e048-e76e",
             "hidden": false,
             "page": "",
@@ -157581,7 +157581,7 @@
             ]
           },
           {
-            "name": "➤ 地獄火重型爆彈槍 (地獄火)",
+            "name": "➤ 地獄火重型爆矢槍 (地獄火)",
             "id": "dde2-d05e-7d2e-f4c6",
             "hidden": false,
             "page": 29,
@@ -158030,7 +158030,7 @@
         ]
       },
       {
-        "name": "特製爆彈手槍",
+        "name": "特製爆矢手槍",
         "id": "bd52-0d98-f3a0-e291",
         "comment": "德西穆斯戰鬥小隊",
         "hidden": false,
@@ -158081,7 +158081,7 @@
         ],
         "profiles": [
           {
-            "name": "特製爆彈手槍",
+            "name": "特製爆矢手槍",
             "id": "22e9-d6ae-0929-7455",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -158127,7 +158127,7 @@
         ]
       },
       {
-        "name": "特製爆彈手槍",
+        "name": "特製爆矢手槍",
         "id": "2bf6-dfb9-fea9-7a94",
         "collective": true,
         "hidden": false,
@@ -158181,7 +158181,7 @@
         ],
         "profiles": [
           {
-            "name": "特製爆彈手槍",
+            "name": "特製爆矢手槍",
             "id": "e1ab-6cb7-25ff-3ae9",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -158938,7 +158938,7 @@
                 "type": "selectionEntry"
               },
               {
-                "name": "爆彈手槍",
+                "name": "爆矢手槍",
                 "id": "514c-5b0d-824e-2572",
                 "collective": false,
                 "hidden": false,
@@ -159020,7 +159020,7 @@
             ],
             "selectionEntryGroups": [
               {
-                "name": "替換爆彈步槍",
+                "name": "替換爆矢步槍",
                 "id": "4acb-0096-9317-afdf",
                 "defaultSelectionEntryId": "204a-238e-5c6d-85aa",
                 "hidden": false,
@@ -159082,7 +159082,7 @@
                     ]
                   },
                   {
-                    "name": "死亡守望爆彈步槍",
+                    "name": "死亡守望爆矢步槍",
                     "id": "204a-238e-5c6d-85aa",
                     "hidden": false,
                     "import": true,
@@ -159305,7 +159305,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "戰鬥小隊戰鬥修士（重型爆彈手槍與鏈鋸劍）",
+                "name": "戰鬥小隊戰鬥修士（重型爆矢手槍與鏈鋸劍）",
                 "id": "3c99-1b17-8b08-ce52",
                 "collective": false,
                 "hidden": false,
@@ -159360,7 +159360,7 @@
                     ]
                   },
                   {
-                    "name": "重型爆彈手槍",
+                    "name": "重型爆矢手槍",
                     "id": "c9a4-fa46-ac36-aff2",
                     "hidden": false,
                     "import": true,
@@ -159437,7 +159437,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "f82c-7c13-8110-8fb5",
                     "collective": false,
                     "hidden": false,
@@ -159673,7 +159673,7 @@
                     ]
                   },
                   {
-                    "name": "戰鬥小隊戰鬥修士（配備爆彈手槍與焚化槍）",
+                    "name": "戰鬥小隊戰鬥修士（配備爆矢手槍與焚化槍）",
                     "id": "e980-d865-fec5-10d3",
                     "collective": false,
                     "hidden": false,
@@ -159731,7 +159731,7 @@
                         ]
                       },
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "8990-e4fe-995a-e7d3",
                         "hidden": false,
                         "import": true,
@@ -159903,7 +159903,7 @@
                         ]
                       },
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "c8e8-42c1-17ae-1655",
                         "hidden": false,
                         "import": true,
@@ -160045,7 +160045,7 @@
                         ]
                       },
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "e243-f440-4e99-69d3",
                         "hidden": false,
                         "import": true,
@@ -160250,7 +160250,7 @@
                         ]
                       },
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "ef0c-c761-a7f1-56dd",
                         "hidden": false,
                         "import": true,
@@ -160410,7 +160410,7 @@
                 ]
               },
               {
-                "name": "戰鬥小隊戰鬥修士（爆彈步槍）",
+                "name": "戰鬥小隊戰鬥修士（爆矢步槍）",
                 "id": "f58b-38e5-fd1d-7505",
                 "defaultSelectionEntryId": "7bf3-4c74-4427-717c",
                 "hidden": false,
@@ -160436,7 +160436,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "戰鬥小隊戰鬥修士（爆彈步槍）",
+                    "name": "戰鬥小隊戰鬥修士（爆矢步槍）",
                     "id": "7bf3-4c74-4427-717c",
                     "collective": false,
                     "hidden": false,
@@ -160465,7 +160465,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "6443-96b2-f81e-91ad",
                         "collective": false,
                         "hidden": false,
@@ -160492,7 +160492,7 @@
                         ]
                       },
                       {
-                        "name": "死亡守望爆彈步槍",
+                        "name": "死亡守望爆矢步槍",
                         "id": "47a5-9e86-6347-9228",
                         "hidden": false,
                         "import": true,
@@ -160566,7 +160566,7 @@
                         "repeats": [
                           {
                             "childId": "6b7a-74a4-f316-36cf",
-                            "childName": "戰鬥小隊戰鬥修士（爆彈步槍與榴彈發射器）",
+                            "childName": "戰鬥小隊戰鬥修士（爆矢步槍與榴彈發射器）",
                             "field": "selections",
                             "includeChildSelections": true,
                             "repeats": 1,
@@ -160580,7 +160580,7 @@
                     ]
                   },
                   {
-                    "name": "戰鬥小隊戰鬥修士（爆彈步槍與榴彈發射器）",
+                    "name": "戰鬥小隊戰鬥修士（爆矢步槍與榴彈發射器）",
                     "id": "6b7a-74a4-f316-36cf",
                     "collective": false,
                     "hidden": false,
@@ -160598,7 +160598,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "1b27-e339-9aa8-350a",
                         "collective": false,
                         "hidden": false,
@@ -160625,7 +160625,7 @@
                         ]
                       },
                       {
-                        "name": "死亡守望爆彈步槍",
+                        "name": "死亡守望爆矢步槍",
                         "id": "a688-2bd6-ab6f-58fe",
                         "hidden": false,
                         "import": true,
@@ -160717,7 +160717,7 @@
         ]
       },
       {
-        "name": "格拉維斯老兵（配備地獄火重型爆彈槍）",
+        "name": "格拉維斯老兵（配備地獄火重型爆矢槍）",
         "id": "550a-f5c4-d6a9-a09e",
         "comment": "德西穆斯戰鬥小隊",
         "hidden": false,
@@ -160734,7 +160734,7 @@
         ],
         "entryLinks": [
           {
-            "name": "爆彈手槍",
+            "name": "爆矢手槍",
             "id": "627f-c831-6ef3-6dfa",
             "hidden": false,
             "import": true,
@@ -160809,7 +160809,7 @@
           {
             "field": "name",
             "type": "set",
-            "value": "裝備地獄風暴爆彈步槍的重裝老兵",
+            "value": "裝備地獄風暴爆矢步槍的重裝老兵",
             "conditions": [
               {
                 "childId": "e2b3-c14f-5a6a-b660",
@@ -160908,7 +160908,7 @@
                 "type": "selectionEntry"
               },
               {
-                "name": "地獄火重型爆彈槍",
+                "name": "地獄火重型爆矢槍",
                 "id": "eb92-7d50-f15b-4ad5",
                 "hidden": false,
                 "import": true,
@@ -160918,7 +160918,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "地獄風暴爆彈步槍與榴彈發射器",
+                "name": "地獄風暴爆矢步槍與榴彈發射器",
                 "id": "e2b3-c14f-5a6a-b660",
                 "hidden": false,
                 "import": true,
@@ -160955,7 +160955,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "地獄風暴爆彈步槍",
+                    "name": "地獄風暴爆矢步槍",
                     "id": "7c66-f2f6-a3fc-0867",
                     "hidden": false,
                     "import": true,
@@ -161005,7 +161005,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "地獄風暴爆彈步槍",
+                        "name": "地獄風暴爆矢步槍",
                         "id": "cfc4-f2e1-4f31-d0a2",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -161567,7 +161567,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "ae82-6562-497e-de55",
                         "hidden": false,
                         "import": true,
@@ -161749,7 +161749,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "ff42-27b7-67c-e679",
                         "hidden": false,
                         "import": true,
@@ -161993,7 +161993,7 @@
                 "hidden": false,
                 "selectionEntries": [
                   {
-                    "name": "戰鬥小隊重型戰鬥修士（配備動力拳套與自動爆彈風暴手套）",
+                    "name": "戰鬥小隊重型戰鬥修士（配備動力拳套與自動爆矢風暴手套）",
                     "id": "31bd-dd30-6128-356e",
                     "hidden": false,
                     "import": true,
@@ -162067,7 +162067,7 @@
                     ],
                     "selectionEntries": [
                       {
-                        "name": "自動爆彈風暴手套",
+                        "name": "自動爆矢風暴手套",
                         "id": "65e9-cc14-1fc1-267f",
                         "hidden": false,
                         "import": true,
@@ -162120,7 +162120,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "自動爆彈風暴手套",
+                            "name": "自動爆矢風暴手套",
                             "id": "5be5-bda3-d931-b3cb",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
@@ -162315,7 +162315,7 @@
                         "repeats": [
                           {
                             "childId": "31bd-dd30-6128-356e",
-                            "childName": "戰鬥小隊重型戰鬥修士（配備動力拳套與自動爆彈風暴手套）",
+                            "childName": "戰鬥小隊重型戰鬥修士（配備動力拳套與自動爆矢風暴手套）",
                             "field": "selections",
                             "includeChildSelections": true,
                             "repeats": 1,
@@ -162333,7 +162333,7 @@
                         "repeats": [
                           {
                             "childId": "31bd-dd30-6128-356e",
-                            "childName": "戰鬥小隊重型戰鬥修士（配備動力拳套與自動爆彈風暴手套）",
+                            "childName": "戰鬥小隊重型戰鬥修士（配備動力拳套與自動爆矢風暴手套）",
                             "field": "selections",
                             "includeChildSelections": true,
                             "repeats": 1,
@@ -162640,7 +162640,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "7a47-2296-2512-45e6",
                         "hidden": false,
                         "import": true,
@@ -162737,7 +162737,7 @@
                         "repeats": [
                           {
                             "childId": "83ce-4339-bfd5-7635",
-                            "childName": "戰鬥小隊重型戰鬥修士（配備重型爆彈槍）",
+                            "childName": "戰鬥小隊重型戰鬥修士（配備重型爆矢槍）",
                             "field": "selections",
                             "includeChildSelections": true,
                             "repeats": 1,
@@ -162755,7 +162755,7 @@
                         "repeats": [
                           {
                             "childId": "83ce-4339-bfd5-7635",
-                            "childName": "戰鬥小隊重型戰鬥修士（配備重型爆彈槍）",
+                            "childName": "戰鬥小隊重型戰鬥修士（配備重型爆矢槍）",
                             "field": "selections",
                             "includeChildSelections": true,
                             "repeats": 1,
@@ -162769,7 +162769,7 @@
                     ],
                     "selectionEntries": [
                       {
-                        "name": "死亡守望重型爆彈步槍",
+                        "name": "死亡守望重型爆矢步槍",
                         "id": "5654-5bdd-c713-10c0",
                         "hidden": false,
                         "import": true,
@@ -162829,7 +162829,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "死亡守望重型爆彈步槍",
+                            "name": "死亡守望重型爆矢步槍",
                             "id": "706c-da54-2d65-4603",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
@@ -162877,7 +162877,7 @@
                     ]
                   },
                   {
-                    "name": "戰鬥小隊重型戰鬥修士（配備重型爆彈槍）",
+                    "name": "戰鬥小隊重型戰鬥修士（配備重型爆矢槍）",
                     "id": "83ce-4339-bfd5-7635",
                     "hidden": false,
                     "import": true,
@@ -162894,7 +162894,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "ff70-fa6d-3525-c08a",
                         "hidden": false,
                         "import": true,
@@ -162985,7 +162985,7 @@
                     ],
                     "selectionEntries": [
                       {
-                        "name": "死亡守望重型爆彈槍",
+                        "name": "死亡守望重型爆矢槍",
                         "id": "46ee-696e-8631-b41e",
                         "hidden": false,
                         "import": true,
@@ -163050,7 +163050,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "死亡守望重型爆彈槍",
+                            "name": "死亡守望重型爆矢槍",
                             "id": "8dbf-1436-3106-296a",
                             "hidden": false,
                             "page": 25,
@@ -163593,7 +163593,7 @@
             "sortIndex": 2,
             "selectionEntries": [
               {
-                "name": "戰鬥小隊滲透者（配備神射手爆彈卡賓槍）",
+                "name": "戰鬥小隊滲透者（配備神射手爆矢卡賓槍）",
                 "id": "a39b-9d32-c3ee-a14f",
                 "defaultAmount": 10,
                 "hidden": false,
@@ -163624,7 +163624,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "ac01-79aa-e24f-38e",
                     "hidden": false,
                     "import": true,
@@ -163749,7 +163749,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "死亡守望神射手爆彈卡賓槍",
+                    "name": "死亡守望神射手爆矢卡賓槍",
                     "id": "7ce0-d222-824c-1713",
                     "hidden": false,
                     "import": true,
@@ -163800,7 +163800,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "死亡守望神射手爆彈卡賓槍",
+                        "name": "死亡守望神射手爆矢卡賓槍",
                         "id": "70e2-227f-7fe-f661",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -163848,7 +163848,7 @@
                 ]
               },
               {
-                "name": "戰鬥小隊滲透者（配備奧克盧斯爆彈卡賓槍）",
+                "name": "戰鬥小隊滲透者（配備奧克盧斯爆矢卡賓槍）",
                 "id": "477e-f891-4b7c-e003",
                 "hidden": false,
                 "import": true,
@@ -163876,7 +163876,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "684b-9e41-83a2-7221",
                     "hidden": false,
                     "import": true,
@@ -163931,7 +163931,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "死亡守望奧克盧斯爆彈卡賓槍",
+                    "name": "死亡守望奧克盧斯爆矢卡賓槍",
                     "id": "bd3-53d3-d134-ab8f",
                     "hidden": false,
                     "import": true,
@@ -163989,7 +163989,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "死亡守望奧克盧斯爆彈卡賓槍",
+                        "name": "死亡守望奧克盧斯爆矢卡賓槍",
                         "id": "a612-8000-b81-e736",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -164149,7 +164149,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "爆彈手槍",
+                    "name": "爆矢手槍",
                     "id": "f24f-1446-d7a3-2403",
                     "hidden": false,
                     "import": true,
@@ -164240,7 +164240,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "死亡守望神射手爆彈卡賓槍",
+                    "name": "死亡守望神射手爆矢卡賓槍",
                     "id": "eaaa-a55e-ee06-4295",
                     "hidden": false,
                     "import": true,
@@ -164291,7 +164291,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "死亡守望神射手爆彈卡賓槍",
+                        "name": "死亡守望神射手爆矢卡賓槍",
                         "id": "64ad-a661-43fb-f2de",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -164447,7 +164447,7 @@
                         "type": "selectionEntry"
                       },
                       {
-                        "name": "特製爆彈手槍",
+                        "name": "特製爆矢手槍",
                         "id": "2182-9a65-1614-4907",
                         "collective": true,
                         "hidden": false,
@@ -164473,7 +164473,7 @@
                         "repeats": [
                           {
                             "childId": "9a84-da58-e70a-f057",
-                            "childName": "戰鬥小隊滲透者（配備爆彈卡賓槍）",
+                            "childName": "戰鬥小隊滲透者（配備爆矢卡賓槍）",
                             "field": "selections",
                             "includeChildSelections": true,
                             "repeats": 1,
@@ -164491,7 +164491,7 @@
                         "repeats": [
                           {
                             "childId": "9a84-da58-e70a-f057",
-                            "childName": "戰鬥小隊滲透者（配備爆彈卡賓槍）",
+                            "childName": "戰鬥小隊滲透者（配備爆矢卡賓槍）",
                             "field": "selections",
                             "includeChildSelections": true,
                             "repeats": 1,
@@ -164602,7 +164602,7 @@
                     ]
                   },
                   {
-                    "name": "戰鬥小隊滲透者（配備爆彈卡賓槍）",
+                    "name": "戰鬥小隊滲透者（配備爆矢卡賓槍）",
                     "id": "9a84-da58-e70a-f057",
                     "hidden": false,
                     "import": true,
@@ -164620,7 +164620,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "特製爆彈手槍",
+                        "name": "特製爆矢手槍",
                         "id": "66cf-99fb-f01f-4bda",
                         "collective": true,
                         "hidden": false,
@@ -164685,7 +164685,7 @@
                     ],
                     "selectionEntries": [
                       {
-                        "name": "死亡守望爆彈卡賓槍",
+                        "name": "死亡守望爆矢卡賓槍",
                         "id": "1b2b-2c12-fa9e-a9ed",
                         "collective": true,
                         "hidden": false,
@@ -164737,7 +164737,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "死亡守望爆彈卡賓槍",
+                            "name": "死亡守望爆矢卡賓槍",
                             "id": "f97d-f908-b6d2-220b",
                             "hidden": false,
                             "page": 24,
@@ -164789,7 +164789,7 @@
                 ]
               },
               {
-                "name": "戰鬥小隊滲透者（爆彈狙擊步槍）",
+                "name": "戰鬥小隊滲透者（爆矢狙擊步槍）",
                 "id": "284f-9201-42f6-f4f2",
                 "defaultSelectionEntryId": "ca58-2c6d-1b85-bc76",
                 "hidden": false,
@@ -164816,7 +164816,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "戰鬥小隊滲透者（配備煽動者爆彈卡賓槍）",
+                    "name": "戰鬥小隊滲透者（配備煽動者爆矢卡賓槍）",
                     "id": "b55d-e297-921b-9915",
                     "hidden": false,
                     "import": true,
@@ -164836,7 +164836,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "adac-6eb5-5e8f-0221",
                         "hidden": false,
                         "import": true,
@@ -164927,7 +164927,7 @@
                     ],
                     "selectionEntries": [
                       {
-                        "name": "煽動者爆彈卡賓槍",
+                        "name": "煽動者爆矢卡賓槍",
                         "id": "4f5b-2465-8b5f-66b8",
                         "collective": true,
                         "hidden": false,
@@ -164996,7 +164996,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "煽動者爆彈卡賓槍",
+                            "name": "煽動者爆矢卡賓槍",
                             "id": "af00-9cba-2f76-8b15",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
@@ -165064,7 +165064,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "26fe-f6b9-75dc-887c",
                         "hidden": false,
                         "import": true,
@@ -165193,7 +165193,7 @@
                     ]
                   },
                   {
-                    "name": "戰鬥小隊滲透者（配備爆彈狙擊步槍）",
+                    "name": "戰鬥小隊滲透者（配備爆矢狙擊步槍）",
                     "id": "ca58-2c6d-1b85-bc76",
                     "hidden": false,
                     "import": true,
@@ -165223,7 +165223,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈手槍",
+                        "name": "爆矢手槍",
                         "id": "8ce3-531b-4210-e200",
                         "hidden": false,
                         "import": true,
@@ -165320,7 +165320,7 @@
                         "repeats": [
                           {
                             "childId": "b55d-e297-921b-9915",
-                            "childName": "戰鬥小隊滲透者（配備煽動者爆彈卡賓槍）",
+                            "childName": "戰鬥小隊滲透者（配備煽動者爆矢卡賓槍）",
                             "field": "selections",
                             "includeChildSelections": true,
                             "repeats": 1,
@@ -165349,7 +165349,7 @@
                         "repeats": [
                           {
                             "childId": "b55d-e297-921b-9915",
-                            "childName": "戰鬥小隊滲透者（配備煽動者爆彈卡賓槍）",
+                            "childName": "戰鬥小隊滲透者（配備煽動者爆矢卡賓槍）",
                             "field": "selections",
                             "includeChildSelections": true,
                             "repeats": 1,
@@ -165374,7 +165374,7 @@
                     ],
                     "selectionEntries": [
                       {
-                        "name": "爆彈狙擊步槍",
+                        "name": "爆矢狙擊步槍",
                         "id": "a0dc-70d3-af1f-f83b",
                         "collective": true,
                         "hidden": false,
@@ -165430,7 +165430,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "爆彈狙擊步槍",
+                            "name": "爆矢狙擊步槍",
                             "id": "482f-8359-6be6-4028",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
@@ -166074,7 +166074,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "重型爆彈手槍",
+                        "name": "重型爆矢手槍",
                         "id": "b5d8-2f4e-9266-2c18",
                         "hidden": false,
                         "import": true,
@@ -166243,7 +166243,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "重型戰鬥修士（配備突擊爆彈槍）",
+                    "name": "重型戰鬥修士（配備突擊爆矢槍）",
                     "id": "d773-5ee0-d647-efaa",
                     "hidden": false,
                     "import": true,
@@ -166389,7 +166389,7 @@
                     ],
                     "selectionEntries": [
                       {
-                        "name": "突擊爆彈槍",
+                        "name": "突擊爆矢槍",
                         "id": "8d1c-e6d8-5d46-6a3a",
                         "collapsible": true,
                         "collective": true,
@@ -166448,7 +166448,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "突擊爆彈槍",
+                            "name": "突擊爆矢槍",
                             "id": "aae9-d039-e99b-9311",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
@@ -166774,7 +166774,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "戰鬥修士（配備重型爆彈手槍與跳躍背包）",
+                    "name": "戰鬥修士（配備重型爆矢手槍與跳躍背包）",
                     "id": "13c9-7b74-3736-15b4",
                     "hidden": false,
                     "import": true,
@@ -166831,7 +166831,7 @@
                         ]
                       },
                       {
-                        "name": "重型爆彈手槍",
+                        "name": "重型爆矢手槍",
                         "id": "1ee6-4b59-4262-1803",
                         "hidden": false,
                         "import": true,
@@ -169695,7 +169695,7 @@
               {
                 "name": "伏爾坎的追尋",
                 "id": "317f-19b4-6fb6-0761",
-                "description": "每場戰鬥中，你可以額外選擇一次破壞者條令。\n\n友方阿斯塔特修會單位的遠程攻擊若以 12 吋內的單位為目標，力量值 +1。\n\n若你的軍隊包含伏爾坎·赫斯坦單位，友方煉獄者小隊單位具有以下能力：\n▪ 當此單位被選擇進行突進或撤退移動時，該移動不會使此單位失去開始執行行動的資格。\n▪ 當此單位開始執行行動時，該行動不會使此單位失去射擊資格。\n\n限制：你的軍隊可以包含火蜥蜴單位，但不能包含來自任何其他戰團的阿斯塔特修會單位。",
+                "description": "每場戰鬥中，你可以額外選擇一次破壞者條令。\n\n友方阿斯塔特修會單位的遠程攻擊若以 12 吋內的單位為目標，力量值 +1。\n\n若你的軍隊包含伏爾甘·赫斯坦單位，友方煉獄者小隊單位具有以下能力：\n▪ 當此單位被選擇進行突進或撤退移動時，該移動不會使此單位失去開始執行行動的資格。\n▪ 當此單位開始執行行動時，該行動不會使此單位失去射擊資格。\n\n限制：你的軍隊可以包含火蜥蜴單位，但不能包含來自任何其他戰團的阿斯塔特修會單位。",
                 "hidden": false
               }
             ]
@@ -169903,7 +169903,7 @@
               {
                 "name": "疾風猛攻",
                 "id": "32d2-d63a-d2b0-274a",
-                "description": "每場戰鬥中，你可以各額外選擇一次突擊條令或戰術條令。\n\n友方阿斯塔特修會騎乘／速攻艇單位的突進擲骰結果 +1。\n\n友方蘇博登汗單位具有以下能力：\n\n第一可汗之怒：在近戰階段結束時，若此單位在本階段有資格戰鬥，你可以啟用此能力。若如此做：\n▪ 若此單位未處於交戰範圍內，此單位可以進行普通移動。\n▪ 若此單位處於交戰範圍內，此單位可以進行撤退移動。\n\n限制：你的軍隊可以包含白疤單位，但不能包含來自任何其他戰團的阿斯塔特修會單位。",
+                "description": "每場戰鬥中，你可以各額外選擇一次突擊條令或戰術條令。\n\n友方阿斯塔特修會騎乘／速攻艇單位的突進擲骰結果 +1。\n\n友方蘇博登可汗單位具有以下能力：\n\n第一可汗之怒：在近戰階段結束時，若此單位在本階段有資格戰鬥，你可以啟用此能力。若如此做：\n▪ 若此單位未處於交戰範圍內，此單位可以進行普通移動。\n▪ 若此單位處於交戰範圍內，此單位可以進行撤退移動。\n\n限制：你的軍隊可以包含白疤單位，但不能包含來自任何其他戰團的阿斯塔特修會單位。",
                 "hidden": false
               }
             ]
@@ -189908,7 +189908,7 @@
                     "characteristics": [
                       {
                         "name": "說明",
-                        "$text": "選擇持有者裝備的一把遠程武器；該武器成為遠征聖物。每場戰鬥一次，持有者以該武器射擊時，你可以選擇改為發射渦旋爆彈，而非以該武器正常射擊。若如此做，使用渦旋爆彈配置檔結算該次射擊。",
+                        "$text": "選擇持有者裝備的一把遠程武器；該武器成為遠征聖物。每場戰鬥一次，持有者以該武器射擊時，你可以選擇改為發射渦旋爆矢，而非以該武器正常射擊。若如此做，使用渦旋爆矢配置檔結算該次射擊。",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ]
@@ -201337,7 +201337,7 @@
                 "characteristics": [
                   {
                     "name": "說明",
-                    "$text": "選擇持有者裝備的一把名稱中包含「爆彈」的手槍武器，例如爆彈手槍（透過武器改裝升級的武器除外；若無法如此選擇，則不能選擇此回收聖物戰鬥榮譽）。該武器成為遠征聖物，具有**[精準]**與**[無視掩護]**能力，且其傷害與穿甲值特徵值各 +1。",
+                    "$text": "選擇持有者裝備的一把名稱中包含「爆矢」的手槍武器，例如爆矢手槍（透過武器改裝升級的武器除外；若無法如此選擇，則不能選擇此回收聖物戰鬥榮譽）。該武器成為遠征聖物，具有**[精準]**與**[無視掩護]**能力，且其傷害與穿甲值特徵值各 +1。",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ]
@@ -211029,7 +211029,7 @@
                 "characteristics": [
                   {
                     "name": "說明",
-                    "$text": "僅限**^^步兵^^**。將此模型的移動特徵值改為 12 吋、韌性改為 5、傷害改為 5。移除**^^步兵^^**與**^^戰術型^^**關鍵詞，新增**^^騎乘^^**關鍵詞；除下一步選擇的武器外，此模型額外裝備 1 把雙聯爆彈步槍；可附屬的單位清單改為：**^^騎手小隊^^**。",
+                    "$text": "僅限**^^步兵^^**。將此模型的移動特徵值改為 12 吋、韌性改為 5、傷害改為 5。移除**^^步兵^^**與**^^戰術型^^**關鍵詞，新增**^^騎乘^^**關鍵詞；除下一步選擇的武器外，此模型額外裝備 1 把雙聯爆矢步槍；可附屬的單位清單改為：**^^騎手小隊^^**。",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ]
@@ -211421,7 +211421,7 @@
                 "characteristics": [
                   {
                     "name": "說明",
-                    "$text": "僅限**^^步兵^^**。此模型獲得 6+ 不覺疼痛；除非其所屬單位位於一個或多個友方**^^牧師^^**模型 12 吋內，否則不得被選擇撤退，且其目標控制特徵值為 0。新增**^^死亡連隊^^**關鍵詞，可附屬的單位清單改為：^^**死亡連隊戰士^^**、^^**裝備爆彈步槍的死亡連隊戰士^^**。",
+                    "$text": "僅限**^^步兵^^**。此模型獲得 6+ 不覺疼痛；除非其所屬單位位於一個或多個友方**^^牧師^^**模型 12 吋內，否則不得被選擇撤退，且其目標控制特徵值為 0。新增**^^死亡連隊^^**關鍵詞，可附屬的單位清單改為：^^**死亡連隊戰士^^**、^^**裝備爆矢步槍的死亡連隊戰士^^**。",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ]
@@ -213602,7 +213602,7 @@
                 ]
               },
               {
-                "name": "風暴爆彈槍",
+                "name": "風暴爆矢槍",
                 "id": "d69c-4b21-ed9a-f0c4",
                 "hidden": false,
                 "import": true,
@@ -213907,7 +213907,7 @@
                 ]
               },
               {
-                "name": "安傑魯斯爆彈槍",
+                "name": "安傑魯斯爆矢槍",
                 "id": "d892-7ac5-78d0-ea19",
                 "hidden": false,
                 "import": true,
@@ -213978,7 +213978,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "安傑魯斯爆彈槍",
+                    "name": "安傑魯斯爆矢槍",
                     "id": "6547-55ce-6532-d20b",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -214688,7 +214688,7 @@
             ],
             "entryLinks": [
               {
-                "name": "赦免者爆彈手槍",
+                "name": "赦免者爆矢手槍",
                 "id": "30db-2f88-3a20-e3c5",
                 "hidden": false,
                 "import": true,
@@ -214717,7 +214717,7 @@
                 ]
               },
               {
-                "name": "爆彈手槍",
+                "name": "爆矢手槍",
                 "id": "5284-2611-768a-4389",
                 "hidden": false,
                 "import": true,
@@ -214833,7 +214833,7 @@
                 ]
               },
               {
-                "name": "爆彈風暴拳套",
+                "name": "爆矢風暴拳套",
                 "id": "199f-677d-24f7-33ff",
                 "hidden": false,
                 "import": true,
@@ -217627,7 +217627,7 @@
             ]
           },
           {
-            "name": "旋風飛彈發射器、風暴爆彈槍及／或近戰武器",
+            "name": "旋風飛彈發射器、風暴爆矢槍及／或近戰武器",
             "id": "5aba-f512-d3a5-b7b9",
             "hidden": false,
             "import": true,
@@ -217704,7 +217704,7 @@
         ],
         "selectionEntries": [
           {
-            "name": "風暴爆彈槍與動力武器",
+            "name": "風暴爆矢槍與動力武器",
             "id": "3b41-ef3b-efd7-6784",
             "collective": false,
             "hidden": false,
@@ -217722,7 +217722,7 @@
             ],
             "entryLinks": [
               {
-                "name": "風暴爆彈槍",
+                "name": "風暴爆矢槍",
                 "id": "475d-1834-93f0-1c28",
                 "hidden": false,
                 "import": true,
@@ -218104,7 +218104,7 @@
             ]
           },
           {
-            "name": "風暴爆彈槍與鏈鋸拳套",
+            "name": "風暴爆矢槍與鏈鋸拳套",
             "id": "7adb-f0b7-a934-18ad",
             "hidden": false,
             "import": true,
@@ -218121,7 +218121,7 @@
             ],
             "entryLinks": [
               {
-                "name": "風暴爆彈槍",
+                "name": "風暴爆矢槍",
                 "id": "1788-c658-8277-62c4",
                 "hidden": false,
                 "import": true,
@@ -218199,7 +218199,7 @@
             ]
           },
           {
-            "name": "動力拳套與風暴爆彈槍",
+            "name": "動力拳套與風暴爆矢槍",
             "id": "3a4f-9d8a-d055-f0b7",
             "hidden": false,
             "import": true,
@@ -218256,7 +218256,7 @@
                 ]
               },
               {
-                "name": "風暴爆彈槍",
+                "name": "風暴爆矢槍",
                 "id": "9e5d-f7a0-1d27-884c",
                 "hidden": false,
                 "import": true,

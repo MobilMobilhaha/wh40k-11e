@@ -36,7 +36,7 @@
     "Deep Strike": "深入打擊",
     "Detachment": "分遣隊",
     "Devastating Wounds": "毀滅傷害",
-    "Devastator Doctrine": "破壞者教條",
+    "Devastator Doctrine": "破壞者條令",
     "Engagement Range": "交戰範圍",
     "Fall Back": "撤退",
     "Feel No Pain": "不覺疼痛",
@@ -71,7 +71,7 @@
     "Strategic Reserves": "戰略預備隊",
     "Stratagem": "計謀",
     "Sustained Hits": "連擊",
-    "Tactical Doctrine": "戰術教條",
+    "Tactical Doctrine": "戰術條令",
     "Torrent": "洪流",
     "Twin-linked": "雙聯",
     "Warlord": "軍閥",
@@ -81,7 +81,19 @@
     "Objective Control characteristic": "目標控制屬性",
     "Stealth": "隱匿",
     "Doctrine": "條令",
-    "Toughness": "韌性"
+    "Toughness": "韌性",
+    "Assault Doctrine": "突擊條令",
+    "Bolt weapon": "爆矢武器",
+    "Bolt pistol": "爆矢手槍",
+    "Boltgun": "爆矢槍",
+    "Bolt rifle": "爆矢步槍",
+    "Heavy Bolt Pistol": "重型爆矢手槍",
+    "Heavy Bolt Rifle": "重型爆矢步槍",
+    "Heavy Bolter": "重型爆矢槍",
+    "Storm bolter": "風暴爆矢槍",
+    "Boltstorm Gauntlet": "爆矢風暴拳套",
+    "Eradicator Squad with Heavy Bolters": "裝備重型爆矢槍的根除者小隊",
+    "Eradicator Squad": "根除者小隊"
   },
   "faction_terms_confirmed_this_pass": {
     "Astartes Chainsword": "阿斯塔特鏈鋸劍",
@@ -91,7 +103,7 @@
     "Death Company": "死亡連隊",
     "Deathwatch": "死亡守望",
     "Deathwing": "死翼",
-    "Eradicator Squad with Heavy Bolters": "裝備重型爆彈槍的消滅者小隊",
+    "Eradicator Squad with Heavy Bolters": "裝備重型爆矢槍的根除者小隊",
     "Eradicator Squad with Melta Rifles": "裝備熔融步槍的消滅者小隊",
     "Oath of Moment": "瞬間誓言",
     "Ravenwing": "鴉翼",
@@ -106,10 +118,13 @@
     "Mastered Doctrines": "精熟條令",
     "Shadowmark Talon": "影標之爪",
     "Unparalleled Tactician": "無雙戰術大師",
-    "Codex Discipline": "聖典紀律"
+    "Codex Discipline": "聖典紀律",
+    "Aethon Shaan": "艾索·沙恩",
+    "Suboden Khan": "蘇博登可汗",
+    "Victrix Honour Guard": "常勝護衛",
+    "Vulkan He’stan": "伏爾甘·赫斯坦"
   },
   "notes": [
-    "星際戰士分遣隊及玩家可見欄位逐 ID 依新版英文 JSON 更新；陣營包官方中文 PDF 用語優先，例如 Combat Doctrine＝戰鬥條令、Ceramite Sentinels＝陶鋼哨兵、Blade of Ultramar＝奧特拉瑪之刃、Forgefather’s Seekers＝鑄造之父的探尋者、Shadowmark Talon＝影標之爪。核心規則中文 PDF 詞彙：Sustained Hits＝連擊、Lethal Hits＝致命一擊、Feel No Pain＝不覺疼痛、Fights First＝先攻、Stealth＝隱匿、Ignores Cover＝無視掩護、Toughness＝韌性、Wound roll＝致傷擲骰。",
-    "星際戰士分遣隊及玩家可見欄位逐 ID 依新版英文 JSON 更新；陣營包官方中文 PDF 用語優先，例如 Combat Doctrine＝戰鬥條令、Ceramite Sentinels＝陶鋼哨兵、Blade of Ultramar＝奧特拉瑪之刃、Forgefather’s Seekers＝鑄造之父的探尋者、Shadowmark Talon＝影標之爪。核心規則中文 PDF 詞彙：Sustained Hits＝連擊、Lethal Hits＝致命一擊、Feel No Pain＝不覺疼痛、Fights First＝先攻、Stealth＝隱匿、Ignores Cover＝無視掩護、Toughness＝韌性、Wound roll＝致傷擲骰、Stratagem＝計謀。"
+    "星際戰士分遣隊、資料表名稱與玩家可見欄位逐 ID 依新版英文 JSON 更新；陣營包官方中文 PDF 用語優先，例如 Combat Doctrine＝戰鬥條令、Bolt 系列武器＝爆矢、Ceramite Sentinels＝陶鋼哨兵、Blade of Ultramar＝奧特拉瑪之刃、Forgefather’s Seekers＝鑄造之父的探尋者、Shadowmark Talon＝影標之爪、Victrix Honour Guard＝常勝護衛、Aethon Shaan＝艾索·沙恩、Vulkan He’stan＝伏爾甘·赫斯坦。核心規則中文 PDF 詞彙：Sustained Hits＝連擊、Lethal Hits＝致命一擊、Feel No Pain＝不覺疼痛、Fights First＝先攻、Stealth＝隱匿、Ignores Cover＝無視掩護、Toughness＝韌性、Wound roll＝致傷擲骰、Stratagem＝計謀。"
   ]
-}
+}\n
