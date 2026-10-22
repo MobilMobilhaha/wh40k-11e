@@ -215,7 +215,7 @@
         ]
       },
       {
-        "name": "戰鬥小隊 戰鬥修士",
+        "name": "戰鬥小隊戰鬥修士",
         "id": "c06b-bca8-50c3-b63e",
         "hidden": false,
         "page": 23,
@@ -317,7 +317,7 @@
         ]
       },
       {
-        "name": "戰鬥小隊 重型 戰鬥修士",
+        "name": "戰鬥小隊重型戰鬥修士",
         "id": "0c56-a376-2f28-4266",
         "hidden": false,
         "page": 25,
@@ -368,7 +368,7 @@
         ]
       },
       {
-        "name": "戰鬥小隊 滲透者",
+        "name": "戰鬥小隊滲透者",
         "id": "0ea5-a4b3-fd52-f94b",
         "hidden": false,
         "page": 27,
@@ -450,7 +450,7 @@
             "childId": "單位",
             "childName": "單位",
             "includeChildSelections": true,
-            "label": "Led by",
+            "label": "領導者",
             "max": 1,
             "min": 0,
             "scope": "force",
@@ -609,7 +609,7 @@
             "value": 0
           },
           {
-            "name": "黑石 碎片",
+            "name": "黑石碎片",
             "typeId": "ac6b-ced3-9b5e-9a6e",
             "value": 0
           },
@@ -629,7 +629,7 @@
             "value": 0
           },
           {
-            "name": "聖物 碎片",
+            "name": "聖物碎片",
             "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
@@ -1029,7 +1029,7 @@
                 "type": "upgrade",
                 "categoryLinks": [
                   {
-                    "name": "射程d 武器",
+                    "name": "遠程武器",
                     "id": "a761-8615-375a-c8ba",
                     "hidden": false,
                     "primary": false,
@@ -1210,7 +1210,7 @@
             "childId": "單位",
             "childName": "單位",
             "includeChildSelections": true,
-            "label": "Led by",
+            "label": "領導者",
             "max": 1,
             "min": 0,
             "scope": "force",
@@ -1347,7 +1347,7 @@
             "value": 0
           },
           {
-            "name": "黑石 碎片",
+            "name": "黑石碎片",
             "typeId": "ac6b-ced3-9b5e-9a6e",
             "value": 0
           },
@@ -1367,7 +1367,7 @@
             "value": 0
           },
           {
-            "name": "聖物 碎片",
+            "name": "聖物碎片",
             "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
@@ -1642,7 +1642,7 @@
                   },
                   {
                     "name": "關鍵詞",
-                    "$text": "針對步兵 4+, 毀滅傷害, 無視掩體, 洪流",
+                    "$text": "針對步兵 4+、毀滅傷害、無視掩體、洪流",
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ]
@@ -1650,7 +1650,7 @@
             ]
           },
           {
-            "name": "大師鍛造 動力 武器",
+            "name": "大師鍛造動力武器",
             "id": "7c1e-5549-391f-bdbd",
             "hidden": false,
             "import": true,
@@ -1677,7 +1677,7 @@
             ],
             "profiles": [
               {
-                "name": "大師鍛造 動力 武器",
+                "name": "大師鍛造動力武器",
                 "id": "f25c-9d73-6855-c35a",
                 "hidden": false,
                 "page": 9,
@@ -1745,7 +1745,7 @@
         ]
       },
       {
-        "name": "地獄火 重型 爆彈槍",
+        "name": "地獄火重型爆彈槍",
         "id": "ef13-323d-7627-dc7",
         "collective": true,
         "comment": "軍械庫",
@@ -1801,7 +1801,7 @@
         ],
         "profiles": [
           {
-            "name": "➤ 地獄火 重型 爆彈槍 (爆彈)",
+            "name": "➤ 地獄火重型爆彈槍 (爆彈)",
             "id": "af16-5bb-e048-e76e",
             "hidden": false,
             "page": "",
@@ -1840,13 +1840,13 @@
               },
               {
                 "name": "關鍵詞",
-                "$text": "重型, 速射 2, 連擊 1",
+                "$text": "重型、速射 2、連擊 1",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ]
           },
           {
-            "name": "➤ 地獄火 重型 爆彈槍 (地獄火)",
+            "name": "➤ 地獄火重型爆彈槍 (地獄火)",
             "id": "dde2-d05e-7d2e-f4c6",
             "hidden": false,
             "page": 29,
@@ -1886,7 +1886,7 @@
               },
               {
                 "name": "關鍵詞",
-                "$text": "爆炸 1, 洪流",
+                "$text": "爆炸 1、洪流",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ]
@@ -1965,7 +1965,7 @@
               },
               {
                 "name": "關鍵詞",
-                "$text": "針對步兵 4+, 毀滅傷害, 速射 1",
+                "$text": "針對步兵 4+、毀滅傷害、速射 1",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ]
@@ -2474,7 +2474,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "颶風 爆彈槍",
+                "name": "颶風爆彈槍",
                 "id": "39fd-529-fe62-955e",
                 "hidden": false,
                 "import": true,
@@ -2519,7 +2519,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "颶風 爆彈槍",
+                    "name": "颶風爆彈槍",
                     "id": "85c5-d77a-762-df62",
                     "hidden": false,
                     "page": 19,
@@ -2559,7 +2559,7 @@
                       },
                       {
                         "name": "關鍵詞",
-                        "$text": "速射 6, 雙聯",
+                        "$text": "速射 6、雙聯",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ]
@@ -2657,7 +2657,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "雙聯 突擊 炮",
+                    "name": "雙聯突擊炮",
                     "id": "bec1-3ae1-84d2-6990",
                     "hidden": false,
                     "import": true,
@@ -2675,7 +2675,7 @@
                     ]
                   },
                   {
-                    "name": "雙聯 雷射炮",
+                    "name": "雙聯雷射炮",
                     "id": "291a-6ee1-3f8c-2ae8",
                     "hidden": false,
                     "import": true,
@@ -2685,7 +2685,7 @@
                 ]
               },
               {
-                "name": "飛彈 選項",
+                "name": "飛彈選項",
                 "id": "f7b7-2fa0-265f-69ec",
                 "defaultSelectionEntryId": "659f-cdb6-c687-5096",
                 "hidden": false,
@@ -2842,7 +2842,7 @@
                     ],
                     "selectionEntries": [
                       {
-                        "name": "風暴打擊 飛彈 發射器",
+                        "name": "風暴打擊飛彈發射器",
                         "id": "8d31-e74f-7724-1f53",
                         "hidden": false,
                         "import": true,
@@ -2881,7 +2881,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "風暴打擊 飛彈 發射器",
+                            "name": "風暴打擊飛彈發射器",
                             "id": "58c9-ffce-1cb1-e267",
                             "hidden": false,
                             "page": 19,
@@ -3842,7 +3842,7 @@
                 ]
               },
               {
-                "name": "碎片 炮",
+                "name": "碎片炮",
                 "id": "25bb-751f-5e1a-d283",
                 "hidden": false,
                 "import": true,
@@ -3892,7 +3892,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "碎片 炮",
+                    "name": "碎片炮",
                     "id": "6001-82d7-a43b-beb4",
                     "hidden": false,
                     "page": 11,
@@ -3932,7 +3932,7 @@
                       },
                       {
                         "name": "關鍵詞",
-                        "$text": "爆炸, 重型, 速射 D3",
+                        "$text": "爆炸、重型、速射 D3",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ]
@@ -4184,7 +4184,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "雙聯 閃電爪",
+                "name": "雙聯閃電爪",
                 "id": "e102-1304-5c21-e122",
                 "hidden": false,
                 "import": true,
@@ -4220,7 +4220,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "雙聯 閃電爪",
+                    "name": "雙聯閃電爪",
                     "id": "991-c41b-7d4c-ac72",
                     "hidden": false,
                     "page": 11,
@@ -4390,7 +4390,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "靈能 淨化",
+                "name": "靈能淨化",
                 "id": "c48b-daed-df-20b",
                 "hidden": false,
                 "import": true,
@@ -4426,7 +4426,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "靈能 淨化",
+                    "name": "靈能淨化",
                     "id": "ed52-578f-6e11-809d",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -4875,7 +4875,7 @@
                       },
                       {
                         "name": "BS",
-                        "$text": "N/A",
+                        "$text": "不適用",
                         "typeId": "94d-8a98-cf90-183e"
                       },
                       {
@@ -4895,7 +4895,7 @@
                       },
                       {
                         "name": "關鍵詞",
-                        "$text": "無視掩體, 洪流",
+                        "$text": "無視掩體、洪流",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ]
@@ -5267,7 +5267,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "死亡守望 雙聯 爆彈槍",
+                "name": "死亡守望雙聯爆彈槍",
                 "id": "eb83-8a1f-796b-5756",
                 "hidden": false,
                 "import": true,
@@ -5294,7 +5294,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "死亡守望 雙聯 爆彈槍",
+                    "name": "死亡守望雙聯爆彈槍",
                     "id": "19d9-7128-75c6-fa69",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -5585,7 +5585,7 @@
             "value": 0
           },
           {
-            "name": "黑石 碎片",
+            "name": "黑石碎片",
             "typeId": "ac6b-ced3-9b5e-9a6e",
             "value": 0
           },
@@ -5605,7 +5605,7 @@
             "value": 0
           },
           {
-            "name": "聖物 碎片",
+            "name": "聖物碎片",
             "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
@@ -5944,7 +5944,7 @@
             "characteristics": [
               {
                 "name": "描述",
-                "$text": "戰鬥開始時，你可以在戰場上為此單位放置一枚傳送信標標記。若如此做：\n\n- 當你對此單位使用「快速切入」策略時，可以使用該傳送信標標記。如此做時，該次策略的 CP 消耗減少 1；但結算該策略時，必須將此單位部署在該標記 3 吋內，且不在任何敵方單位 8 吋內。之後移除該標記。\n- 若一個敵方單位結束移動時位於該標記 1 吋內，則移除該標記。",
+                "$text": "戰鬥開始時，你可以在戰場上為此單位放置一枚傳送信標標記。若如此做：\n\n- 當你對此單位使用「快速切入」策略時，可以使用該傳送信標標記。如此做時，該次策略的指揮點數消耗減少 1 點；但結算該策略時，必須將此單位部署在該標記 3 吋內，且不在任何敵方單位 8 吋內。之後移除該標記。\n- 若一個敵方單位結束移動時位於該標記 1 吋內，則移除該標記。",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -5952,7 +5952,7 @@
         ],
         "selectionEntryGroups": [
           {
-            "name": "死亡守望 終結者s",
+            "name": "死亡守望終結者小隊",
             "id": "50fb-8de8-f1cf-86b3",
             "defaultSelectionEntryId": "45fa-9a7-8352-362e",
             "hidden": false,
@@ -6005,7 +6005,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "終結者 武器",
+                    "name": "終結者武器",
                     "id": "b0bb-4681-d665-438d",
                     "hidden": false,
                     "import": true,
@@ -6024,7 +6024,7 @@
                 ]
               },
               {
-                "name": "死亡守望 終結者 配備 重型 武器",
+                "name": "死亡守望終結者（配備重型武器）",
                 "id": "259f-d98e-e052-ec64",
                 "hidden": false,
                 "import": true,
@@ -6042,7 +6042,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "終結者 重型 武器",
+                    "name": "終結者重型武器",
                     "id": "b9fb-4e47-ec43-c1fb",
                     "hidden": false,
                     "import": true,
@@ -6061,7 +6061,7 @@
                 ]
               },
               {
-                "name": "死亡守望 終結者 中士",
+                "name": "死亡守望終結者中士",
                 "id": "4595-7ad2-617a-c07d",
                 "hidden": false,
                 "import": true,
@@ -6087,14 +6087,14 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "終結者 武器",
+                    "name": "終結者武器",
                     "id": "7b76-66c2-1264-06ac",
                     "hidden": false,
                     "targetId": "52a3-786b-962d-44c3",
                     "type": "selectionEntryGroup"
                   },
                   {
-                    "name": "終結者 榮譽 升級",
+                    "name": "終結者榮譽升級",
                     "id": "b5ad-3548-05bd-d122",
                     "hidden": false,
                     "import": true,
@@ -6127,7 +6127,7 @@
         "name": "爆彈槍",
         "id": "4d-5d79-b348-19ee",
         "collective": true,
-        "comment": "S5",
+        "comment": "力量 5",
         "hidden": false,
         "import": true,
         "type": "upgrade",
@@ -6315,7 +6315,7 @@
             "value": 0
           },
           {
-            "name": "黑石 碎片",
+            "name": "黑石碎片",
             "typeId": "ac6b-ced3-9b5e-9a6e",
             "value": 0
           },
@@ -6335,7 +6335,7 @@
             "value": 0
           },
           {
-            "name": "聖物 碎片",
+            "name": "聖物碎片",
             "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
@@ -6625,7 +6625,7 @@
         ],
         "profiles": [
           {
-            "name": "福提斯 教條",
+            "name": "福提斯教條",
             "id": "cd92-208e-7559-9c9b",
             "hidden": false,
             "page": 23,
@@ -6643,7 +6643,7 @@
         ],
         "selectionEntries": [
           {
-            "name": "戰鬥小隊 中士",
+            "name": "戰鬥小隊中士",
             "id": "4962-be6c-d809-e206",
             "hidden": false,
             "import": true,
@@ -6671,7 +6671,7 @@
             ],
             "entryLinks": [
               {
-                "name": "榴彈 發射器",
+                "name": "榴彈發射器",
                 "id": "ab02-913c-6cba-5d5c",
                 "hidden": false,
                 "import": true,
@@ -6709,7 +6709,7 @@
                 ]
               },
               {
-                "name": "終結者 榮譽 升級",
+                "name": "終結者榮譽升級",
                 "id": "ced4-f796-802a-345f",
                 "hidden": false,
                 "import": true,
@@ -6746,7 +6746,7 @@
             ],
             "profiles": [
               {
-                "name": "戰鬥小隊 中士",
+                "name": "戰鬥小隊中士",
                 "id": "ef04-837e-5305-2883",
                 "hidden": false,
                 "page": 23,
@@ -6799,7 +6799,7 @@
             ],
             "selectionEntryGroups": [
               {
-                "name": "替換 爆彈 步槍",
+                "name": "替換爆彈步槍",
                 "id": "4acb-0096-9317-afdf",
                 "defaultSelectionEntryId": "204a-238e-5c6d-85aa",
                 "hidden": false,
@@ -6861,7 +6861,7 @@
                     ]
                   },
                   {
-                    "name": "死亡守望 爆彈 步槍",
+                    "name": "死亡守望爆彈步槍",
                     "id": "204a-238e-5c6d-85aa",
                     "hidden": false,
                     "import": true,
@@ -6935,7 +6935,7 @@
                 ]
               },
               {
-                "name": "替換 匕首 與 拳套",
+                "name": "替換匕首與拳套",
                 "id": "b3c3-8a5c-46a6-3094",
                 "defaultSelectionEntryId": "bc0c-9310-bfcf-de55",
                 "hidden": false,
@@ -7057,7 +7057,7 @@
         ],
         "selectionEntryGroups": [
           {
-            "name": "小隊 成員",
+            "name": "小隊成員",
             "id": "2453-11c-9b7f-47c7",
             "defaultSelectionEntryId": "7bf3-4c74-4427-717c",
             "hidden": false,
@@ -7139,7 +7139,7 @@
                     ]
                   },
                   {
-                    "name": "重型 爆彈 手槍",
+                    "name": "重型爆彈手槍",
                     "id": "c9a4-fa46-ac36-aff2",
                     "hidden": false,
                     "import": true,
@@ -7179,7 +7179,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "戰鬥小隊 戰鬥修士",
+                    "name": "戰鬥小隊戰鬥修士",
                     "id": "14d6-0269-16fe-5a58",
                     "hidden": false,
                     "targetId": "c06b-bca8-50c3-b63e",
@@ -7188,7 +7188,7 @@
                 ]
               },
               {
-                "name": "戰鬥小隊 戰鬥修士 配備 焚火槍",
+                "name": "戰鬥小隊戰鬥修士（配備焚火槍）",
                 "id": "2061-4f19-0a98-e5ff",
                 "collective": false,
                 "hidden": false,
@@ -7300,7 +7300,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "戰鬥小隊 戰鬥修士",
+                    "name": "戰鬥小隊戰鬥修士",
                     "id": "a356-2611-17d6-3af9",
                     "hidden": false,
                     "targetId": "c06b-bca8-50c3-b63e",
@@ -7311,7 +7311,7 @@
             ],
             "selectionEntryGroups": [
               {
-                "name": "戰鬥小隊 戰鬥修士 配備 電漿 焚化槍",
+                "name": "戰鬥小隊戰鬥修士（配備電漿焚化槍）",
                 "id": "1309-c8b7-fa8c-86ab",
                 "defaultSelectionEntryId": "e980-d865-fec5-10d3",
                 "hidden": false,
@@ -7338,7 +7338,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "戰鬥小隊 戰鬥修士 配備 電漿 手槍 與 焚化槍",
+                    "name": "戰鬥小隊戰鬥修士（配備電漿手槍與焚化槍）",
                     "id": "dd1b-4fab-d15c-bacf",
                     "collective": false,
                     "hidden": false,
@@ -7413,7 +7413,7 @@
                         ]
                       },
                       {
-                        "name": "電漿 焚化槍",
+                        "name": "電漿焚化槍",
                         "id": "e6aa-739c-e716-e6c3",
                         "hidden": false,
                         "import": true,
@@ -7443,7 +7443,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "戰鬥小隊 戰鬥修士",
+                        "name": "戰鬥小隊戰鬥修士",
                         "id": "f1d7-d7de-c11d-3c70",
                         "hidden": false,
                         "targetId": "c06b-bca8-50c3-b63e",
@@ -7452,7 +7452,7 @@
                     ]
                   },
                   {
-                    "name": "戰鬥小隊 戰鬥修士 配備 爆彈 手槍 與 焚化槍",
+                    "name": "戰鬥小隊戰鬥修士（配備爆彈手槍與焚化槍）",
                     "id": "e980-d865-fec5-10d3",
                     "collective": false,
                     "hidden": false,
@@ -7538,7 +7538,7 @@
                         ]
                       },
                       {
-                        "name": "電漿 焚化槍",
+                        "name": "電漿焚化槍",
                         "id": "12ec-227f-02cb-91df",
                         "hidden": false,
                         "import": true,
@@ -7568,7 +7568,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "戰鬥小隊 戰鬥修士",
+                        "name": "戰鬥小隊戰鬥修士",
                         "id": "46c7-2080-180a-0bc2",
                         "hidden": false,
                         "targetId": "c06b-bca8-50c3-b63e",
@@ -7581,7 +7581,7 @@
                         "conditions": [
                           {
                             "childId": "dd1b-4fab-d15c-bacf",
-                            "childName": "戰鬥小隊 戰鬥修士 配備 電漿 手槍 與 焚化槍",
+                            "childName": "戰鬥小隊戰鬥修士（配備電漿手槍與焚化槍）",
                             "field": "selections",
                             "includeChildSelections": true,
                             "scope": "單位",
@@ -7608,7 +7608,7 @@
                 ]
               },
               {
-                "name": "戰鬥小隊 戰鬥修士 配備 飛彈 發射器",
+                "name": "戰鬥小隊戰鬥修士（配備飛彈發射器）",
                 "id": "c346-db09-d839-e0b0",
                 "defaultSelectionEntryId": "ccfb-e995-308b-4b7a",
                 "hidden": false,
@@ -7635,7 +7635,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "戰鬥小隊 戰鬥修士 配備 維戈爾 發射器",
+                    "name": "戰鬥小隊戰鬥修士（配備維戈爾發射器）",
                     "id": "65e5-1485-c2a9-8cc2",
                     "collective": false,
                     "hidden": false,
@@ -7710,7 +7710,7 @@
                         ]
                       },
                       {
-                        "name": "卡斯特蘭 發射器",
+                        "name": "卡斯特蘭發射器",
                         "id": "5fad-cb88-bc24-405f",
                         "hidden": false,
                         "import": true,
@@ -7738,7 +7738,7 @@
                         ]
                       },
                       {
-                        "name": "維戈爾 發射器",
+                        "name": "維戈爾發射器",
                         "id": "45c4-cf62-c6fb-0a20",
                         "hidden": false,
                         "import": true,
@@ -7768,7 +7768,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "戰鬥小隊 戰鬥修士",
+                        "name": "戰鬥小隊戰鬥修士",
                         "id": "c3f7-8cd6-b214-9019",
                         "hidden": false,
                         "targetId": "c06b-bca8-50c3-b63e",
@@ -7777,7 +7777,7 @@
                     ]
                   },
                   {
-                    "name": "戰鬥小隊 戰鬥修士 配備 超級碎片 飛彈 發射器",
+                    "name": "戰鬥小隊戰鬥修士（配備超級碎片飛彈發射器）",
                     "id": "ccfb-e995-308b-4b7a",
                     "collective": false,
                     "hidden": false,
@@ -7852,7 +7852,7 @@
                         ]
                       },
                       {
-                        "name": "卡斯特蘭 發射器",
+                        "name": "卡斯特蘭發射器",
                         "id": "4bbe-a651-0949-34cd",
                         "hidden": false,
                         "import": true,
@@ -7882,7 +7882,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "戰鬥小隊 戰鬥修士",
+                        "name": "戰鬥小隊戰鬥修士",
                         "id": "1845-cfdb-f8a3-6596",
                         "hidden": false,
                         "targetId": "c06b-bca8-50c3-b63e",
@@ -7891,7 +7891,7 @@
                     ],
                     "selectionEntries": [
                       {
-                        "name": "超級碎片 飛彈 發射器",
+                        "name": "超級碎片飛彈發射器",
                         "id": "7089-6582-2a5d-93f6",
                         "hidden": false,
                         "import": true,
@@ -7934,7 +7934,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "超級碎片 飛彈 發射器",
+                            "name": "超級碎片飛彈發射器",
                             "id": "4aaf-3138-04dc-608f",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
@@ -7972,7 +7972,7 @@
                               },
                               {
                                 "name": "關鍵詞",
-                                "$text": "爆炸 1, 重型",
+                                "$text": "爆炸 1、重型",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -7982,7 +7982,7 @@
                     ]
                   },
                   {
-                    "name": "戰鬥小隊 戰鬥修士 配備 超級穿甲 飛彈 發射器",
+                    "name": "戰鬥小隊戰鬥修士（配備超級穿甲飛彈發射器）",
                     "id": "0690-3f67-1f92-3968",
                     "collective": false,
                     "hidden": false,
@@ -8057,7 +8057,7 @@
                         ]
                       },
                       {
-                        "name": "卡斯特蘭 發射器",
+                        "name": "卡斯特蘭發射器",
                         "id": "0915-80ce-d6c4-31c1",
                         "hidden": false,
                         "import": true,
@@ -8087,7 +8087,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "戰鬥小隊 戰鬥修士",
+                        "name": "戰鬥小隊戰鬥修士",
                         "id": "57d8-b7d5-3710-a0eb",
                         "hidden": false,
                         "targetId": "c06b-bca8-50c3-b63e",
@@ -8096,7 +8096,7 @@
                     ],
                     "selectionEntries": [
                       {
-                        "name": "超級穿甲 飛彈 發射器",
+                        "name": "超級穿甲飛彈發射器",
                         "id": "7ab4-5c71-f281-06e1",
                         "hidden": false,
                         "import": true,
@@ -8139,7 +8139,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "超級穿甲 飛彈 發射器",
+                            "name": "超級穿甲飛彈發射器",
                             "id": "b7a5-8147-72e3-89fe",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
@@ -8271,7 +8271,7 @@
                         ]
                       },
                       {
-                        "name": "死亡守望 爆彈 步槍",
+                        "name": "死亡守望爆彈步槍",
                         "id": "47a5-9e86-6347-9228",
                         "hidden": false,
                         "import": true,
@@ -8290,7 +8290,7 @@
                         ]
                       },
                       {
-                        "name": "匕首 與 拳套",
+                        "name": "匕首與拳套",
                         "id": "784a-bc6d-3fb0-44ca",
                         "hidden": false,
                         "import": true,
@@ -8320,7 +8320,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "戰鬥小隊 戰鬥修士",
+                        "name": "戰鬥小隊戰鬥修士",
                         "id": "298f-7937-276d-208d",
                         "hidden": false,
                         "targetId": "c06b-bca8-50c3-b63e",
@@ -8377,7 +8377,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆彈 手槍",
+                        "name": "爆彈手槍",
                         "id": "1b27-e339-9aa8-350a",
                         "collective": false,
                         "hidden": false,
@@ -8404,7 +8404,7 @@
                         ]
                       },
                       {
-                        "name": "死亡守望 爆彈 步槍",
+                        "name": "死亡守望爆彈步槍",
                         "id": "a688-2bd6-ab6f-58fe",
                         "hidden": false,
                         "import": true,
@@ -8423,7 +8423,7 @@
                         ]
                       },
                       {
-                        "name": "匕首 與 拳套",
+                        "name": "匕首與拳套",
                         "id": "3db4-9d58-8edc-70e6",
                         "hidden": false,
                         "import": true,
@@ -8451,7 +8451,7 @@
                         ]
                       },
                       {
-                        "name": "榴彈 發射器",
+                        "name": "榴彈發射器",
                         "id": "f469-170b-7eff-8e7c",
                         "hidden": false,
                         "import": true,
@@ -8481,7 +8481,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "戰鬥小隊 戰鬥修士",
+                        "name": "戰鬥小隊戰鬥修士",
                         "id": "804d-855b-7e75-433d",
                         "hidden": false,
                         "targetId": "c06b-bca8-50c3-b63e",
@@ -8618,7 +8618,7 @@
             "value": 0
           },
           {
-            "name": "黑石 碎片",
+            "name": "黑石碎片",
             "typeId": "ac6b-ced3-9b5e-9a6e",
             "value": 0
           },
@@ -8638,7 +8638,7 @@
             "value": 0
           },
           {
-            "name": "聖物 碎片",
+            "name": "聖物碎片",
             "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
@@ -8928,7 +8928,7 @@
         ],
         "profiles": [
           {
-            "name": "因多米特 教條",
+            "name": "因多米特教條",
             "id": "f8b6-3181-7e49-fb57",
             "hidden": false,
             "page": 25,
@@ -8946,7 +8946,7 @@
         ],
         "selectionEntryGroups": [
           {
-            "name": "小隊 成員",
+            "name": "小隊成員",
             "id": "cecf-b6a2-6407-628a",
             "defaultSelectionEntryId": "84f7-2150-fe04-4f8b",
             "hidden": false,
@@ -8973,13 +8973,13 @@
             ],
             "selectionEntryGroups": [
               {
-                "name": "戰鬥小隊 重型 戰鬥修士 配備 熱熔 武器",
+                "name": "戰鬥小隊重型戰鬥修士（配備熱熔武器）",
                 "id": "3c68-34fc-53e0-334f",
                 "defaultSelectionEntryId": "d171-7d41-4be1-3382",
                 "hidden": false,
                 "selectionEntries": [
                   {
-                    "name": "戰鬥小隊 重型 戰鬥修士 配備 熱熔 步槍",
+                    "name": "戰鬥小隊重型戰鬥修士（配備熱熔步槍）",
                     "id": "d171-7d41-4be1-3382",
                     "hidden": false,
                     "import": true,
@@ -9078,7 +9078,7 @@
                         ]
                       },
                       {
-                        "name": "終結者 榮譽 升級",
+                        "name": "終結者榮譽升級",
                         "id": "d728-a8d8-70b1-7b91",
                         "hidden": false,
                         "import": true,
@@ -9086,7 +9086,7 @@
                         "type": "selectionEntry"
                       },
                       {
-                        "name": "熱熔 步槍",
+                        "name": "熱熔步槍",
                         "id": "0b8b-e8e1-2961-86b9",
                         "hidden": false,
                         "import": true,
@@ -9124,7 +9124,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "戰鬥小隊 重型 戰鬥修士",
+                        "name": "戰鬥小隊重型戰鬥修士",
                         "id": "dff2-d657-da80-f7d0",
                         "hidden": false,
                         "targetId": "0c56-a376-2f28-4266",
@@ -9260,7 +9260,7 @@
                         ]
                       },
                       {
-                        "name": "終結者 榮譽 升級",
+                        "name": "終結者榮譽升級",
                         "id": "6389-c97f-ac1b-bb89",
                         "hidden": false,
                         "import": true,
@@ -9270,7 +9270,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "戰鬥小隊 重型 戰鬥修士",
+                        "name": "戰鬥小隊重型戰鬥修士",
                         "id": "174e-6c78-bd3f-7282",
                         "hidden": false,
                         "targetId": "0c56-a376-2f28-4266",
@@ -9370,7 +9370,7 @@
                               },
                               {
                                 "name": "關鍵詞",
-                                "$text": "重型, 熱熔 3",
+                                "$text": "重型、熱熔 3",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -9426,13 +9426,13 @@
                 ]
               },
               {
-                "name": "戰鬥小隊 重型 戰鬥修士 配備 雙聯 動力 拳套",
+                "name": "戰鬥小隊重型戰鬥修士（配備雙聯動力拳套）",
                 "id": "5fc8-18a9-cf52-c762",
                 "defaultSelectionEntryId": "0d9b-e508-49a1-0b5f",
                 "hidden": false,
                 "selectionEntries": [
                   {
-                    "name": "戰鬥小隊 重型 戰鬥修士 配備 動力 拳套 與 自動 爆彈風暴手套",
+                    "name": "戰鬥小隊重型戰鬥修士（配備動力拳套與自動爆彈風暴手套）",
                     "id": "31bd-dd30-6128-356e",
                     "hidden": false,
                     "import": true,
@@ -9451,7 +9451,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "終結者 榮譽 升級",
+                        "name": "終結者榮譽升級",
                         "id": "4265-34cc-a6f5-40d6",
                         "hidden": false,
                         "import": true,
@@ -9459,7 +9459,7 @@
                         "type": "selectionEntry"
                       },
                       {
-                        "name": "碎片風暴 榴彈 發射器",
+                        "name": "碎片風暴榴彈發射器",
                         "id": "c671-17f7-c2d0-b42e",
                         "hidden": false,
                         "import": true,
@@ -9497,7 +9497,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "戰鬥小隊 重型 戰鬥修士",
+                        "name": "戰鬥小隊重型戰鬥修士",
                         "id": "25ce-ffcf-d012-4815",
                         "hidden": false,
                         "targetId": "0c56-a376-2f28-4266",
@@ -9506,7 +9506,7 @@
                     ],
                     "selectionEntries": [
                       {
-                        "name": "自動 爆彈風暴手套",
+                        "name": "自動爆彈風暴手套",
                         "id": "65e9-cc14-1fc1-267f",
                         "hidden": false,
                         "import": true,
@@ -9559,7 +9559,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "自動 爆彈風暴手套",
+                            "name": "自動爆彈風暴手套",
                             "id": "5be5-bda3-d931-b3cb",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
@@ -9597,7 +9597,7 @@
                               },
                               {
                                 "name": "關鍵詞",
-                                "$text": "近距離, 雙聯",
+                                "$text": "近距離、雙聯",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -9605,7 +9605,7 @@
                         ]
                       },
                       {
-                        "name": "雙聯 動力 拳套",
+                        "name": "雙聯動力拳套",
                         "id": "9592-92a8-cd44-dcc0",
                         "hidden": false,
                         "import": true,
@@ -9651,7 +9651,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "雙聯 動力 拳套",
+                            "name": "雙聯動力拳套",
                             "id": "09a6-8358-2593-150b",
                             "hidden": false,
                             "page": 25,
@@ -9701,7 +9701,7 @@
                     ]
                   },
                   {
-                    "name": "戰鬥小隊 重型 戰鬥修士 配備 動力 拳套 與 火焰風暴手套",
+                    "name": "戰鬥小隊重型戰鬥修士（配備動力拳套與火焰風暴手套）",
                     "id": "0d9b-e508-49a1-0b5f",
                     "hidden": false,
                     "import": true,
@@ -9729,7 +9729,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "終結者 榮譽 升級",
+                        "name": "終結者榮譽升級",
                         "id": "3da8-a578-d806-e786",
                         "hidden": false,
                         "import": true,
@@ -9739,7 +9739,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "戰鬥小隊 重型 戰鬥修士",
+                        "name": "戰鬥小隊重型戰鬥修士",
                         "id": "792d-93bb-7cdf-f52d",
                         "hidden": false,
                         "targetId": "0c56-a376-2f28-4266",
@@ -9754,7 +9754,7 @@
                         "repeats": [
                           {
                             "childId": "31bd-dd30-6128-356e",
-                            "childName": "戰鬥小隊 重型 戰鬥修士 配備 動力 拳套 與 自動 爆彈風暴手套",
+                            "childName": "戰鬥小隊重型戰鬥修士（配備動力拳套與自動爆彈風暴手套）",
                             "field": "selections",
                             "includeChildSelections": true,
                             "repeats": 1,
@@ -9772,7 +9772,7 @@
                         "repeats": [
                           {
                             "childId": "31bd-dd30-6128-356e",
-                            "childName": "戰鬥小隊 重型 戰鬥修士 配備 動力 拳套 與 自動 爆彈風暴手套",
+                            "childName": "戰鬥小隊重型戰鬥修士（配備動力拳套與自動爆彈風暴手套）",
                             "field": "selections",
                             "includeChildSelections": true,
                             "repeats": 1,
@@ -9893,7 +9893,7 @@
                               },
                               {
                                 "name": "關鍵詞",
-                                "$text": "爆炸 2, 洪流, 雙聯",
+                                "$text": "爆炸 2、洪流、雙聯",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -9939,7 +9939,7 @@
                               },
                               {
                                 "name": "關鍵詞",
-                                "$text": "近距離, 洪流, 雙聯",
+                                "$text": "近距離、洪流、雙聯",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -9947,7 +9947,7 @@
                         ]
                       },
                       {
-                        "name": "雙聯 動力 拳套",
+                        "name": "雙聯動力拳套",
                         "id": "5e96-4ab9-4531-8073",
                         "hidden": false,
                         "import": true,
@@ -9993,7 +9993,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "雙聯 動力 拳套",
+                            "name": "雙聯動力拳套",
                             "id": "9589-a0c0-1e08-519e",
                             "hidden": false,
                             "page": 25,
@@ -10045,13 +10045,13 @@
                 ]
               },
               {
-                "name": "戰鬥小隊 重型 戰鬥修士",
+                "name": "戰鬥小隊重型戰鬥修士",
                 "id": "0d29-7325-4b94-4e87",
                 "defaultSelectionEntryId": "84f7-2150-fe04-4f8b",
                 "hidden": false,
                 "selectionEntries": [
                   {
-                    "name": "戰鬥小隊 重型 戰鬥修士",
+                    "name": "戰鬥小隊重型戰鬥修士",
                     "id": "84f7-2150-fe04-4f8b",
                     "defaultAmount": 10,
                     "hidden": false,
@@ -10151,7 +10151,7 @@
                         ]
                       },
                       {
-                        "name": "終結者 榮譽 升級",
+                        "name": "終結者榮譽升級",
                         "id": "4145-ce8e-bc84-7fa4",
                         "hidden": false,
                         "import": true,
@@ -10161,7 +10161,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "戰鬥小隊 重型 戰鬥修士",
+                        "name": "戰鬥小隊重型戰鬥修士",
                         "id": "a7fe-c69e-a0d7-bfdd",
                         "hidden": false,
                         "targetId": "0c56-a376-2f28-4266",
@@ -10176,7 +10176,7 @@
                         "repeats": [
                           {
                             "childId": "83ce-4339-bfd5-7635",
-                            "childName": "戰鬥小隊 重型 戰鬥修士 配備 重型 爆彈槍",
+                            "childName": "戰鬥小隊重型戰鬥修士（配備重型爆彈槍）",
                             "field": "selections",
                             "includeChildSelections": true,
                             "repeats": 1,
@@ -10194,7 +10194,7 @@
                         "repeats": [
                           {
                             "childId": "83ce-4339-bfd5-7635",
-                            "childName": "戰鬥小隊 重型 戰鬥修士 配備 重型 爆彈槍",
+                            "childName": "戰鬥小隊重型戰鬥修士（配備重型爆彈槍）",
                             "field": "selections",
                             "includeChildSelections": true,
                             "repeats": 1,
@@ -10208,7 +10208,7 @@
                     ],
                     "selectionEntries": [
                       {
-                        "name": "死亡守望 重型 爆彈 步槍",
+                        "name": "死亡守望重型爆彈步槍",
                         "id": "5654-5bdd-c713-10c0",
                         "hidden": false,
                         "import": true,
@@ -10268,7 +10268,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "死亡守望 重型 爆彈 步槍",
+                            "name": "死亡守望重型爆彈步槍",
                             "id": "706c-da54-2d65-4603",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
@@ -10306,7 +10306,7 @@
                               },
                               {
                                 "name": "關鍵詞",
-                                "$text": "突擊, 重型, 致命一擊",
+                                "$text": "突擊、重型、致命一擊",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -10316,7 +10316,7 @@
                     ]
                   },
                   {
-                    "name": "戰鬥小隊 重型 戰鬥修士 配備 重型 爆彈槍",
+                    "name": "戰鬥小隊重型戰鬥修士（配備重型爆彈槍）",
                     "id": "83ce-4339-bfd5-7635",
                     "hidden": false,
                     "import": true,
@@ -10405,7 +10405,7 @@
                         ]
                       },
                       {
-                        "name": "終結者 榮譽 升級",
+                        "name": "終結者榮譽升級",
                         "id": "47d0-7b82-29c2-8bee",
                         "hidden": false,
                         "import": true,
@@ -10415,7 +10415,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "戰鬥小隊 重型 戰鬥修士",
+                        "name": "戰鬥小隊重型戰鬥修士",
                         "id": "1678-ef83-9c6b-0947",
                         "hidden": false,
                         "targetId": "0c56-a376-2f28-4266",
@@ -10424,7 +10424,7 @@
                     ],
                     "selectionEntries": [
                       {
-                        "name": "死亡守望 重型爆彈槍",
+                        "name": "死亡守望重型爆彈槍",
                         "id": "46ee-696e-8631-b41e",
                         "hidden": false,
                         "import": true,
@@ -10489,7 +10489,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "死亡守望 重型爆彈槍",
+                            "name": "死亡守望重型爆彈槍",
                             "id": "8dbf-1436-3106-296a",
                             "hidden": false,
                             "page": 25,
@@ -10529,7 +10529,7 @@
                               },
                               {
                                 "name": "關鍵詞",
-                                "$text": "突擊, 重型, 致命一擊, 連擊 1",
+                                "$text": "突擊、重型、致命一擊、連擊 1",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -10676,7 +10676,7 @@
             "value": 0
           },
           {
-            "name": "黑石 碎片",
+            "name": "黑石碎片",
             "typeId": "ac6b-ced3-9b5e-9a6e",
             "value": 0
           },
@@ -10696,7 +10696,7 @@
             "value": 0
           },
           {
-            "name": "聖物 碎片",
+            "name": "聖物碎片",
             "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
@@ -11007,7 +11007,7 @@
         ],
         "profiles": [
           {
-            "name": "斯佩克特魯斯 教條",
+            "name": "斯佩克特魯斯教條",
             "id": "afc0-1ac-ce23-3a4f",
             "hidden": false,
             "page": 27,
@@ -11025,14 +11025,14 @@
         ],
         "selectionEntryGroups": [
           {
-            "name": "小隊 成員",
+            "name": "小隊成員",
             "id": "da91-b248-f816-b72b",
             "defaultSelectionEntryId": "a39b-9d32-c3ee-a14f",
             "hidden": false,
             "sortIndex": 2,
             "selectionEntries": [
               {
-                "name": "戰鬥小隊 滲透者 配備 神射手 爆彈 卡賓槍",
+                "name": "戰鬥小隊滲透者（配備神射手爆彈卡賓槍）",
                 "id": "a39b-9d32-c3ee-a14f",
                 "defaultAmount": 10,
                 "hidden": false,
@@ -11135,7 +11135,7 @@
                     ]
                   },
                   {
-                    "name": "終結者 榮譽 升級",
+                    "name": "終結者榮譽升級",
                     "id": "7a91-e995-cd0b-9bdb",
                     "hidden": false,
                     "import": true,
@@ -11145,7 +11145,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "戰鬥小隊 滲透者",
+                    "name": "戰鬥小隊滲透者",
                     "id": "be70-1f70-b812-cbf6",
                     "hidden": false,
                     "targetId": "0ea5-a4b3-fd52-f94b",
@@ -11188,7 +11188,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "死亡守望 神射手 爆彈 卡賓槍",
+                    "name": "死亡守望神射手爆彈卡賓槍",
                     "id": "7ce0-d222-824c-1713",
                     "hidden": false,
                     "import": true,
@@ -11239,7 +11239,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "死亡守望 神射手 爆彈 卡賓槍",
+                        "name": "死亡守望神射手爆彈卡賓槍",
                         "id": "70e2-227f-7fe-f661",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -11277,7 +11277,7 @@
                           },
                           {
                             "name": "關鍵詞",
-                            "$text": "重型, 致命一擊",
+                            "$text": "重型、致命一擊",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ]
@@ -11287,7 +11287,7 @@
                 ]
               },
               {
-                "name": "戰鬥小隊 滲透者 配備 奧克盧斯 爆彈 卡賓槍",
+                "name": "戰鬥小隊滲透者（配備奧克盧斯爆彈卡賓槍）",
                 "id": "477e-f891-4b7c-e003",
                 "hidden": false,
                 "import": true,
@@ -11351,7 +11351,7 @@
                     ]
                   },
                   {
-                    "name": "終結者 榮譽 升級",
+                    "name": "終結者榮譽升級",
                     "id": "6fbf-2681-c4aa-a1ca",
                     "hidden": false,
                     "import": true,
@@ -11361,7 +11361,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "戰鬥小隊 滲透者",
+                    "name": "戰鬥小隊滲透者",
                     "id": "408a-c9ea-46dc-84bf",
                     "hidden": false,
                     "targetId": "0ea5-a4b3-fd52-f94b",
@@ -11370,7 +11370,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "死亡守望 奧克盧斯 爆彈 卡賓槍",
+                    "name": "死亡守望奧克盧斯爆彈卡賓槍",
                     "id": "bd3-53d3-d134-ab8f",
                     "hidden": false,
                     "import": true,
@@ -11428,7 +11428,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "死亡守望 奧克盧斯 爆彈 卡賓槍",
+                        "name": "死亡守望奧克盧斯爆彈卡賓槍",
                         "id": "a612-8000-b81-e736",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -11466,7 +11466,7 @@
                           },
                           {
                             "name": "關鍵詞",
-                            "$text": "突擊, 無視掩體, 致命一擊",
+                            "$text": "突擊、無視掩體、致命一擊",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ]
@@ -11660,7 +11660,7 @@
                     ]
                   },
                   {
-                    "name": "終結者 榮譽 升級",
+                    "name": "終結者榮譽升級",
                     "id": "f58c-139e-7f6c-3a56",
                     "hidden": false,
                     "import": true,
@@ -11670,7 +11670,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "戰鬥小隊 滲透者",
+                    "name": "戰鬥小隊滲透者",
                     "id": "0bc5-82ce-283d-1bf3",
                     "hidden": false,
                     "targetId": "0ea5-a4b3-fd52-f94b",
@@ -11679,7 +11679,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "死亡守望 神射手 爆彈 卡賓槍",
+                    "name": "死亡守望神射手爆彈卡賓槍",
                     "id": "eaaa-a55e-ee06-4295",
                     "hidden": false,
                     "import": true,
@@ -11730,7 +11730,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "死亡守望 神射手 爆彈 卡賓槍",
+                        "name": "死亡守望神射手爆彈卡賓槍",
                         "id": "64ad-a661-43fb-f2de",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -11768,7 +11768,7 @@
                           },
                           {
                             "name": "關鍵詞",
-                            "$text": "重型, 致命一擊",
+                            "$text": "重型、致命一擊",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ]
@@ -11878,7 +11878,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "終結者 榮譽 升級",
+                        "name": "終結者榮譽升級",
                         "id": "2823-f8e6-00fb-fee3",
                         "hidden": false,
                         "import": true,
@@ -11886,7 +11886,7 @@
                         "type": "selectionEntry"
                       },
                       {
-                        "name": "特製 爆彈 手槍",
+                        "name": "特製爆彈手槍",
                         "id": "2182-9a65-1614-4907",
                         "collective": true,
                         "hidden": false,
@@ -11897,7 +11897,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "戰鬥小隊 滲透者",
+                        "name": "戰鬥小隊滲透者",
                         "id": "94b2-b981-eedb-226b",
                         "hidden": false,
                         "targetId": "0ea5-a4b3-fd52-f94b",
@@ -11912,7 +11912,7 @@
                         "repeats": [
                           {
                             "childId": "9a84-da58-e70a-f057",
-                            "childName": "戰鬥小隊 滲透者 配備 爆彈 卡賓槍",
+                            "childName": "戰鬥小隊滲透者（配備爆彈卡賓槍）",
                             "field": "selections",
                             "includeChildSelections": true,
                             "repeats": 1,
@@ -11930,7 +11930,7 @@
                         "repeats": [
                           {
                             "childId": "9a84-da58-e70a-f057",
-                            "childName": "戰鬥小隊 滲透者 配備 爆彈 卡賓槍",
+                            "childName": "戰鬥小隊滲透者（配備爆彈卡賓槍）",
                             "field": "selections",
                             "includeChildSelections": true,
                             "repeats": 1,
@@ -12041,7 +12041,7 @@
                     ]
                   },
                   {
-                    "name": "戰鬥小隊 滲透者 配備 爆彈 卡賓槍",
+                    "name": "戰鬥小隊滲透者（配備爆彈卡賓槍）",
                     "id": "9a84-da58-e70a-f057",
                     "hidden": false,
                     "import": true,
@@ -12059,7 +12059,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "特製 爆彈 手槍",
+                        "name": "特製爆彈手槍",
                         "id": "66cf-99fb-f01f-4bda",
                         "collective": true,
                         "hidden": false,
@@ -12105,7 +12105,7 @@
                         ]
                       },
                       {
-                        "name": "終結者 榮譽 升級",
+                        "name": "終結者榮譽升級",
                         "id": "b2a8-710b-65d6-0f3b",
                         "hidden": false,
                         "import": true,
@@ -12115,7 +12115,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "戰鬥小隊 滲透者",
+                        "name": "戰鬥小隊滲透者",
                         "id": "1514-abdf-b5f7-2860",
                         "hidden": false,
                         "targetId": "0ea5-a4b3-fd52-f94b",
@@ -12124,7 +12124,7 @@
                     ],
                     "selectionEntries": [
                       {
-                        "name": "死亡守望 爆彈 卡賓槍",
+                        "name": "死亡守望爆彈卡賓槍",
                         "id": "1b2b-2c12-fa9e-a9ed",
                         "collective": true,
                         "hidden": false,
@@ -12176,7 +12176,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "死亡守望 爆彈 卡賓槍",
+                            "name": "死亡守望爆彈卡賓槍",
                             "id": "f97d-f908-b6d2-220b",
                             "hidden": false,
                             "page": 24,
@@ -12216,7 +12216,7 @@
                               },
                               {
                                 "name": "關鍵詞",
-                                "$text": "致命一擊, 精準",
+                                "$text": "致命一擊、精準",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -12255,7 +12255,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "戰鬥小隊 滲透者 配備 煽動者 爆彈 卡賓槍",
+                    "name": "戰鬥小隊滲透者（配備煽動者爆彈卡賓槍）",
                     "id": "b55d-e297-921b-9915",
                     "hidden": false,
                     "import": true,
@@ -12347,7 +12347,7 @@
                         ]
                       },
                       {
-                        "name": "終結者 榮譽 升級",
+                        "name": "終結者榮譽升級",
                         "id": "8c28-3fc5-dbcf-5cd0",
                         "hidden": false,
                         "import": true,
@@ -12357,7 +12357,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "戰鬥小隊 滲透者",
+                        "name": "戰鬥小隊滲透者",
                         "id": "9f0a-0604-0640-bbc3",
                         "hidden": false,
                         "targetId": "0ea5-a4b3-fd52-f94b",
@@ -12366,7 +12366,7 @@
                     ],
                     "selectionEntries": [
                       {
-                        "name": "煽動者 爆彈 卡賓槍",
+                        "name": "煽動者爆彈卡賓槍",
                         "id": "4f5b-2465-8b5f-66b8",
                         "collective": true,
                         "hidden": false,
@@ -12435,7 +12435,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "煽動者 爆彈 卡賓槍",
+                            "name": "煽動者爆彈卡賓槍",
                             "id": "af00-9cba-2f76-8b15",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
@@ -12483,7 +12483,7 @@
                     ]
                   },
                   {
-                    "name": "戰鬥小隊 滲透者 配備 雷射 步槍",
+                    "name": "戰鬥小隊滲透者（配備雷射步槍）",
                     "id": "e0ff-56bb-613d-802f",
                     "hidden": false,
                     "import": true,
@@ -12575,7 +12575,7 @@
                         ]
                       },
                       {
-                        "name": "終結者 榮譽 升級",
+                        "name": "終結者榮譽升級",
                         "id": "4cb4-d567-5b89-f2ad",
                         "hidden": false,
                         "import": true,
@@ -12583,7 +12583,7 @@
                         "type": "selectionEntry"
                       },
                       {
-                        "name": "雷射 步槍",
+                        "name": "雷射步槍",
                         "id": "9fac-8013-550b-e3fa",
                         "hidden": false,
                         "import": true,
@@ -12623,7 +12623,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "戰鬥小隊 滲透者",
+                        "name": "戰鬥小隊滲透者",
                         "id": "2b50-d7fb-0f1e-1adf",
                         "hidden": false,
                         "targetId": "0ea5-a4b3-fd52-f94b",
@@ -12632,7 +12632,7 @@
                     ]
                   },
                   {
-                    "name": "戰鬥小隊 滲透者 配備 爆彈 狙擊 步槍",
+                    "name": "戰鬥小隊滲透者（配備爆彈狙擊步槍）",
                     "id": "ca58-2c6d-1b85-bc76",
                     "hidden": false,
                     "import": true,
@@ -12734,7 +12734,7 @@
                         ]
                       },
                       {
-                        "name": "終結者 榮譽 升級",
+                        "name": "終結者榮譽升級",
                         "id": "309e-1cf5-8b07-b927",
                         "hidden": false,
                         "import": true,
@@ -12744,7 +12744,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "戰鬥小隊 滲透者",
+                        "name": "戰鬥小隊滲透者",
                         "id": "85d0-f219-77fd-482d",
                         "hidden": false,
                         "targetId": "0ea5-a4b3-fd52-f94b",
@@ -12759,7 +12759,7 @@
                         "repeats": [
                           {
                             "childId": "b55d-e297-921b-9915",
-                            "childName": "戰鬥小隊 滲透者 配備 煽動者 爆彈 卡賓槍",
+                            "childName": "戰鬥小隊滲透者（配備煽動者爆彈卡賓槍）",
                             "field": "selections",
                             "includeChildSelections": true,
                             "repeats": 1,
@@ -12770,7 +12770,7 @@
                           },
                           {
                             "childId": "e0ff-56bb-613d-802f",
-                            "childName": "戰鬥小隊 滲透者 配備 雷射 步槍",
+                            "childName": "戰鬥小隊滲透者（配備雷射步槍）",
                             "field": "selections",
                             "includeChildSelections": true,
                             "repeats": 1,
@@ -12788,7 +12788,7 @@
                         "repeats": [
                           {
                             "childId": "b55d-e297-921b-9915",
-                            "childName": "戰鬥小隊 滲透者 配備 煽動者 爆彈 卡賓槍",
+                            "childName": "戰鬥小隊滲透者（配備煽動者爆彈卡賓槍）",
                             "field": "selections",
                             "includeChildSelections": true,
                             "repeats": 1,
@@ -12799,7 +12799,7 @@
                           },
                           {
                             "childId": "e0ff-56bb-613d-802f",
-                            "childName": "戰鬥小隊 滲透者 配備 雷射 步槍",
+                            "childName": "戰鬥小隊滲透者（配備雷射步槍）",
                             "field": "selections",
                             "includeChildSelections": true,
                             "repeats": 1,
@@ -12813,7 +12813,7 @@
                     ],
                     "selectionEntries": [
                       {
-                        "name": "爆彈 狙擊 步槍",
+                        "name": "爆彈狙擊步槍",
                         "id": "a0dc-70d3-af1f-f83b",
                         "collective": true,
                         "hidden": false,
@@ -12869,7 +12869,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "爆彈 狙擊 步槍",
+                            "name": "爆彈狙擊步槍",
                             "id": "482f-8359-6be6-4028",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
@@ -12907,7 +12907,7 @@
                               },
                               {
                                 "name": "關鍵詞",
-                                "$text": "重型, 精準",
+                                "$text": "重型、精準",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -12923,7 +12923,7 @@
         ]
       },
       {
-        "name": "電漿 焚化槍",
+        "name": "電漿焚化槍",
         "id": "386c-b933-68ce-5e31",
         "collective": true,
         "hidden": false,
@@ -12954,7 +12954,7 @@
         ],
         "profiles": [
           {
-            "name": "➤ 電漿 焚化槍－標準",
+            "name": "➤ 電漿焚化槍－標準",
             "id": "2333-a3fe-e6af-747",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -12992,13 +12992,13 @@
               },
               {
                 "name": "關鍵詞",
-                "$text": "突擊, 重型",
+                "$text": "突擊、重型",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ]
           },
           {
-            "name": "➤ 電漿 焚化槍－超載",
+            "name": "➤ 電漿焚化槍－超載",
             "id": "7bcf-8a8f-67e6-2dca",
             "hidden": false,
             "page": 23,
@@ -13038,7 +13038,7 @@
               },
               {
                 "name": "關鍵詞",
-                "$text": "突擊, 危險, 重型",
+                "$text": "突擊、危險、重型",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ]
@@ -13172,7 +13172,7 @@
             "value": 0
           },
           {
-            "name": "黑石 碎片",
+            "name": "黑石碎片",
             "typeId": "ac6b-ced3-9b5e-9a6e",
             "value": 0
           },
@@ -13192,7 +13192,7 @@
             "value": 0
           },
           {
-            "name": "聖物 碎片",
+            "name": "聖物碎片",
             "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
@@ -13465,7 +13465,7 @@
         ],
         "selectionEntryGroups": [
           {
-            "name": "小隊 裝備配置",
+            "name": "小隊裝備配置",
             "id": "9f9a-7a8b-0040-8ae0",
             "defaultSelectionEntryId": "ba3d-91bd-62a4-44ec",
             "hidden": false,
@@ -13509,7 +13509,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "老兵 配備 爆彈槍 與 動力 武器",
+                "name": "老兵（配備爆彈槍與動力武器）",
                 "id": "ba3d-91bd-62a4-44ec",
                 "hidden": false,
                 "import": true,
@@ -13577,7 +13577,7 @@
                 ]
               },
               {
-                "name": "老兵 配備 重型 雷霆 錘",
+                "name": "老兵（配備重型雷霆錘）",
                 "id": "8079-3417-5f9a-d8f0",
                 "hidden": false,
                 "import": true,
@@ -13633,7 +13633,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "重型 雷霆 錘",
+                    "name": "重型雷霆錘",
                     "id": "9317-df05-c108-8b92",
                     "collective": true,
                     "hidden": false,
@@ -13670,7 +13670,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "重型 雷霆 錘",
+                        "name": "重型雷霆錘",
                         "id": "570f-3c96-ba40-74ce",
                         "hidden": false,
                         "page": 13,
@@ -13720,7 +13720,7 @@
                 ]
               },
               {
-                "name": "老兵 配備 碎片 炮 與 近戰武器",
+                "name": "老兵（配備碎片炮與近戰武器）",
                 "id": "4b26-70ff-0fc2-e6f0",
                 "hidden": false,
                 "import": true,
@@ -13765,7 +13765,7 @@
                     ]
                   },
                   {
-                    "name": "碎片 炮",
+                    "name": "碎片炮",
                     "id": "0fbb-cae1-e956-19ea",
                     "hidden": false,
                     "import": true,
@@ -13834,7 +13834,7 @@
                 ]
               },
               {
-                "name": "老兵 配備 地獄火 重型 爆彈槍 與 近戰武器",
+                "name": "老兵（配備地獄火重型爆彈槍與近戰武器）",
                 "id": "7581-22bb-9ade-6b0c",
                 "hidden": false,
                 "import": true,
@@ -13879,7 +13879,7 @@
                     ]
                   },
                   {
-                    "name": "地獄火 重型 爆彈槍",
+                    "name": "地獄火重型爆彈槍",
                     "id": "727-7b34-85fa-4cd0",
                     "collective": true,
                     "hidden": false,
@@ -13947,7 +13947,7 @@
                 ]
               },
               {
-                "name": "老兵 配備 風暴 盾牌 與 爆彈槍",
+                "name": "老兵（配備風暴盾牌與爆彈槍）",
                 "id": "3ec4-62ab-71f2-9cf3",
                 "hidden": false,
                 "import": true,
@@ -13985,7 +13985,7 @@
                     ]
                   },
                   {
-                    "name": "風暴 盾牌",
+                    "name": "風暴盾牌",
                     "id": "7eed-c1c2-aa6b-97f4",
                     "hidden": false,
                     "import": true,
@@ -14060,7 +14060,7 @@
                 ]
               },
               {
-                "name": "老兵 配備 風暴 盾牌 與 動力 武器",
+                "name": "老兵（配備風暴盾牌與動力武器）",
                 "id": "1327-d6d3-7532-4d83",
                 "hidden": false,
                 "import": true,
@@ -14098,7 +14098,7 @@
                     ]
                   },
                   {
-                    "name": "風暴 盾牌",
+                    "name": "風暴盾牌",
                     "id": "7805-96fb-00c1-f2e5",
                     "hidden": false,
                     "import": true,
@@ -14147,7 +14147,7 @@
                 ]
               },
               {
-                "name": "老兵 配備 潛獵者型 爆彈槍 與 近戰武器",
+                "name": "老兵（配備潛獵者型爆彈槍與近戰武器）",
                 "id": "f026-8957-5e60-f8e5",
                 "hidden": false,
                 "import": true,
@@ -14233,7 +14233,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "潛獵者型 爆彈槍",
+                    "name": "潛獵者型爆彈槍",
                     "id": "a21d-235b-bf6e-5ff7",
                     "collective": true,
                     "hidden": false,
@@ -14277,7 +14277,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "潛獵者型 爆彈槍",
+                        "name": "潛獵者型爆彈槍",
                         "id": "f075-0a7f-670e-f7cf",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -14315,7 +14315,7 @@
                           },
                           {
                             "name": "關鍵詞",
-                            "$text": "重型, 精準",
+                            "$text": "重型、精準",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ]
@@ -14325,7 +14325,7 @@
                 ]
               },
               {
-                "name": "老兵 配備 死亡守望 霰彈槍 與 近戰武器",
+                "name": "老兵（配備死亡守望霰彈槍與近戰武器）",
                 "id": "de39-4ccb-2c26-a77c",
                 "hidden": false,
                 "import": true,
@@ -14411,7 +14411,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "死亡守望 霰彈槍",
+                    "name": "死亡守望霰彈槍",
                     "id": "2af8-d30a-f422-6eeb",
                     "collective": true,
                     "hidden": false,
@@ -14448,7 +14448,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "死亡守望 霰彈槍",
+                        "name": "死亡守望霰彈槍",
                         "id": "6a1d-eee5-b22d-dd3b",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -14672,7 +14672,7 @@
                         ]
                       },
                       {
-                        "name": "風暴 盾牌",
+                        "name": "風暴盾牌",
                         "id": "87e3-dc53-bb1a-07c0",
                         "hidden": false,
                         "import": true,
@@ -14680,7 +14680,7 @@
                         "type": "selectionEntry"
                       },
                       {
-                        "name": "終結者 榮譽 升級",
+                        "name": "終結者榮譽升級",
                         "id": "e211-ba56-d5a9-429f",
                         "hidden": false,
                         "import": true,
@@ -14792,7 +14792,7 @@
                         ]
                       },
                       {
-                        "name": "終結者 榮譽 升級",
+                        "name": "終結者榮譽升級",
                         "id": "e79f-1370-e06c-cd2d",
                         "hidden": false,
                         "import": true,
@@ -14818,7 +14818,7 @@
                     ]
                   },
                   {
-                    "name": "中士 配備 組合武器 與 動力 武器",
+                    "name": "中士（配備組合武器與動力武器）",
                     "id": "8df2-9d40-3b87-bdd4",
                     "hidden": false,
                     "import": true,
@@ -14913,7 +14913,7 @@
                         ]
                       },
                       {
-                        "name": "終結者 榮譽 升級",
+                        "name": "終結者榮譽升級",
                         "id": "04fc-c693-e3fb-c573",
                         "hidden": false,
                         "import": true,
@@ -15034,7 +15034,7 @@
                         ]
                       },
                       {
-                        "name": "終結者 榮譽 升級",
+                        "name": "終結者榮譽升級",
                         "id": "75a0-5c6e-2408-8865",
                         "hidden": false,
                         "import": true,
@@ -15060,7 +15060,7 @@
                     ]
                   },
                   {
-                    "name": "中士 配備 風暴 盾牌 與 組合武器",
+                    "name": "中士（配備風暴盾牌與組合武器）",
                     "id": "9496-f6ed-9ea0-d750",
                     "hidden": false,
                     "import": true,
@@ -15126,7 +15126,7 @@
                         ]
                       },
                       {
-                        "name": "風暴 盾牌",
+                        "name": "風暴盾牌",
                         "id": "63b5-dee7-6265-32e3",
                         "hidden": false,
                         "import": true,
@@ -15134,7 +15134,7 @@
                         "type": "selectionEntry"
                       },
                       {
-                        "name": "終結者 榮譽 升級",
+                        "name": "終結者榮譽升級",
                         "id": "f942-10a6-170e-4095",
                         "hidden": false,
                         "import": true,
@@ -15231,7 +15231,7 @@
         ]
       },
       {
-        "name": "風暴 盾牌",
+        "name": "風暴盾牌",
         "id": "b547-440b-71ea-f424",
         "collective": true,
         "hidden": false,
@@ -15286,7 +15286,7 @@
                   },
                   {
                     "childId": "b547-440b-71ea-f424",
-                    "childName": "風暴 盾牌",
+                    "childName": "風暴盾牌",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "單位",
@@ -15310,12 +15310,12 @@
             "field": "annotation",
             "scope": "parent",
             "type": "set",
-            "value": "風暴 盾牌"
+            "value": "風暴盾牌"
           }
         ],
         "profiles": [
           {
-            "name": "風暴 盾牌",
+            "name": "風暴盾牌",
             "id": "71e1-9a9b-58e8-3849",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -15494,7 +15494,7 @@
               },
               {
                 "name": "關鍵詞",
-                "$text": "針對步兵 4+, 毀滅傷害, 速射 1",
+                "$text": "針對步兵 4+、毀滅傷害、速射 1",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ]
@@ -15637,7 +15637,7 @@
             "value": 0
           },
           {
-            "name": "黑石 碎片",
+            "name": "黑石碎片",
             "typeId": "ac6b-ced3-9b5e-9a6e",
             "value": 0
           },
@@ -15657,7 +15657,7 @@
             "value": 0
           },
           {
-            "name": "聖物 碎片",
+            "name": "聖物碎片",
             "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
@@ -15954,7 +15954,7 @@
         ],
         "profiles": [
           {
-            "name": "利爪突擊 教條",
+            "name": "利爪突擊教條",
             "id": "088e-3c36-f4e3-6140",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -15977,7 +15977,7 @@
             "sortIndex": 3,
             "selectionEntries": [
               {
-                "name": "戰鬥小隊 中士 配備 跳躍背包",
+                "name": "戰鬥小隊中士（配備跳躍背包）",
                 "id": "68d2-9aaa-f6cb-f4dc",
                 "hidden": false,
                 "import": true,
@@ -16005,7 +16005,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "終結者 榮譽 升級",
+                    "name": "終結者榮譽升級",
                     "id": "d415-eed5-01ad-f552",
                     "hidden": false,
                     "import": true,
@@ -16015,7 +16015,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "戰鬥小隊 中士 配備 跳躍背包",
+                    "name": "戰鬥小隊中士（配備跳躍背包）",
                     "id": "88c1-4908-1f18-b1bc",
                     "hidden": false,
                     "typeId": "c547-1836-d8a-ff4f",
@@ -16066,7 +16066,7 @@
                 ],
                 "selectionEntryGroups": [
                   {
-                    "name": "手槍 選項",
+                    "name": "手槍選項",
                     "id": "8df2-74a3-ec98-8df6",
                     "defaultSelectionEntryId": "b5d8-2f4e-9266-2c18",
                     "hidden": false,
@@ -16148,7 +16148,7 @@
                     ]
                   },
                   {
-                    "name": "近戰 選項",
+                    "name": "近戰選項",
                     "id": "4c4f-3851-2888-5bd7",
                     "defaultSelectionEntryId": "0433-b01b-4de7-f132",
                     "hidden": false,
@@ -16234,7 +16234,7 @@
             ],
             "selectionEntryGroups": [
               {
-                "name": "4 重型 戰鬥修士 配備 跳躍背包",
+                "name": "4 名重型戰鬥修士（配備跳躍背包）",
                 "id": "4a9a-c715-b0a6-c7b4",
                 "defaultSelectionEntryId": "d773-5ee0-d647-efaa",
                 "hidden": false,
@@ -16261,7 +16261,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "重型 戰鬥修士 配備 突擊 爆彈槍",
+                    "name": "重型戰鬥修士（配備突擊爆彈槍）",
                     "id": "d773-5ee0-d647-efaa",
                     "hidden": false,
                     "import": true,
@@ -16326,7 +16326,7 @@
                         "repeats": [
                           {
                             "childId": "5d95-06fe-8f10-5dd9",
-                            "childName": "重型 戰鬥修士 配備 電漿 殲滅槍",
+                            "childName": "重型戰鬥修士（配備電漿殲滅槍）",
                             "field": "selections",
                             "repeats": 1,
                             "roundUp": false,
@@ -16343,7 +16343,7 @@
                         "repeats": [
                           {
                             "childId": "5d95-06fe-8f10-5dd9",
-                            "childName": "重型 戰鬥修士 配備 電漿 殲滅槍",
+                            "childName": "重型戰鬥修士（配備電漿殲滅槍）",
                             "field": "selections",
                             "repeats": 1,
                             "roundUp": false,
@@ -16356,7 +16356,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "戰鬥小隊 重型 戰鬥修士 配備 跳躍背包",
+                        "name": "戰鬥小隊重型戰鬥修士（配備跳躍背包）",
                         "id": "32f2-fdf1-ee27-8c68",
                         "hidden": false,
                         "typeId": "c547-1836-d8a-ff4f",
@@ -16504,7 +16504,7 @@
                               },
                               {
                                 "name": "關鍵詞",
-                                "$text": "突擊, 近距離, 連擊 2, 雙聯",
+                                "$text": "突擊、近距離、連擊 2、雙聯",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -16514,7 +16514,7 @@
                     ]
                   },
                   {
-                    "name": "重型 戰鬥修士 配備 電漿 殲滅槍",
+                    "name": "重型戰鬥修士（配備電漿殲滅槍）",
                     "id": "5d95-06fe-8f10-5dd9",
                     "hidden": false,
                     "import": true,
@@ -16562,7 +16562,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "戰鬥小隊 重型 戰鬥修士 配備 跳躍背包",
+                        "name": "戰鬥小隊重型戰鬥修士（配備跳躍背包）",
                         "id": "fae1-c25e-e642-6724",
                         "hidden": false,
                         "typeId": "c547-1836-d8a-ff4f",
@@ -16613,7 +16613,7 @@
                     ],
                     "selectionEntries": [
                       {
-                        "name": "電漿 殲滅槍",
+                        "name": "電漿殲滅槍",
                         "id": "af8e-9b8b-a106-2f1b",
                         "collective": true,
                         "hidden": false,
@@ -16671,7 +16671,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "➤ 電漿 殲滅槍－標準",
+                            "name": "➤ 電漿殲滅槍－標準",
                             "id": "169d-4868-32b9-da04",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
@@ -16709,13 +16709,13 @@
                               },
                               {
                                 "name": "關鍵詞",
-                                "$text": "突擊, 近距離, 雙聯",
+                                "$text": "突擊、近距離、雙聯",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
                           },
                           {
-                            "name": "➤ 電漿 殲滅槍－超載",
+                            "name": "➤ 電漿殲滅槍－超載",
                             "id": "8a99-68d4-cfb7-b72e",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
@@ -16753,7 +16753,7 @@
                               },
                               {
                                 "name": "關鍵詞",
-                                "$text": "突擊, 近距離, 危險, 雙聯",
+                                "$text": "突擊、近距離、危險、雙聯",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -16792,7 +16792,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "戰鬥修士 配備 重型 爆彈 手槍 與 跳躍背包",
+                    "name": "戰鬥修士（配備重型爆彈手槍與跳躍背包）",
                     "id": "13c9-7b74-3736-15b4",
                     "hidden": false,
                     "import": true,
@@ -16885,7 +16885,7 @@
                         "repeats": [
                           {
                             "childId": "cd78-e267-5f72-a2a2",
-                            "childName": "戰鬥修士 配備 電漿 手槍 與 跳躍背包",
+                            "childName": "戰鬥修士（配備電漿手槍與跳躍背包）",
                             "field": "selections",
                             "repeats": 1,
                             "roundUp": false,
@@ -16902,7 +16902,7 @@
                         "repeats": [
                           {
                             "childId": "cd78-e267-5f72-a2a2",
-                            "childName": "戰鬥修士 配備 電漿 手槍 與 跳躍背包",
+                            "childName": "戰鬥修士（配備電漿手槍與跳躍背包）",
                             "field": "selections",
                             "repeats": 1,
                             "roundUp": false,
@@ -16915,7 +16915,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "戰鬥小隊 戰鬥修士 配備 跳躍背包",
+                        "name": "戰鬥小隊戰鬥修士（配備跳躍背包）",
                         "id": "c58a-b496-ac64-9781",
                         "hidden": false,
                         "typeId": "c547-1836-d8a-ff4f",
@@ -16966,7 +16966,7 @@
                     ]
                   },
                   {
-                    "name": "戰鬥修士 配備 電漿 手槍 與 跳躍背包",
+                    "name": "戰鬥修士（配備電漿手槍與跳躍背包）",
                     "id": "cd78-e267-5f72-a2a2",
                     "hidden": false,
                     "import": true,
@@ -17042,7 +17042,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "戰鬥小隊 戰鬥修士 配備 跳躍背包",
+                        "name": "戰鬥小隊戰鬥修士（配備跳躍背包）",
                         "id": "fd99-3eb6-0aa2-3864",
                         "hidden": false,
                         "typeId": "c547-1836-d8a-ff4f",
@@ -17099,7 +17099,7 @@
         ]
       },
       {
-        "name": "死亡守望 爆彈 步槍",
+        "name": "死亡守望爆彈步槍",
         "id": "ad6a-c679-52ea-6059",
         "collective": true,
         "hidden": false,
@@ -17140,7 +17140,7 @@
         ],
         "profiles": [
           {
-            "name": "死亡守望 爆彈 步槍",
+            "name": "死亡守望爆彈步槍",
             "id": "1e8c-da24-6662-a2e3",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -17178,7 +17178,7 @@
               },
               {
                 "name": "關鍵詞",
-                "$text": "突擊, 重型, 致命一擊",
+                "$text": "突擊、重型、致命一擊",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ]
@@ -17320,7 +17320,7 @@
             "value": 0
           },
           {
-            "name": "黑石 碎片",
+            "name": "黑石碎片",
             "typeId": "ac6b-ced3-9b5e-9a6e",
             "value": 0
           },
@@ -17340,7 +17340,7 @@
             "value": 0
           },
           {
-            "name": "聖物 碎片",
+            "name": "聖物碎片",
             "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
@@ -17672,7 +17672,7 @@
                     "value": 0
                   },
                   {
-                    "name": "黑石 碎片",
+                    "name": "黑石碎片",
                     "typeId": "ac6b-ced3-9b5e-9a6e",
                     "value": 0
                   },
@@ -17682,14 +17682,14 @@
                     "value": 0
                   },
                   {
-                    "name": "聖物 碎片",
+                    "name": "聖物碎片",
                     "typeId": "0ece-6541-4662-ece2",
                     "value": 0
                   }
                 ],
                 "entryLinks": [
                   {
-                    "name": "戰鬥小隊 中士",
+                    "name": "戰鬥小隊中士",
                     "id": "f2f8-f603-f340-0b4d",
                     "hidden": false,
                     "import": true,
@@ -17698,7 +17698,7 @@
                     "type": "selectionEntry"
                   },
                   {
-                    "name": "死亡守望 老兵 配備 潛獵者 爆彈 步槍",
+                    "name": "死亡守望老兵（配備潛獵者爆彈步槍）",
                     "id": "f253-3812-3f51-926c",
                     "hidden": false,
                     "import": true,
@@ -17727,7 +17727,7 @@
                     ]
                   },
                   {
-                    "name": "死亡守望 老兵 配備 重型 雷霆 錘",
+                    "name": "死亡守望老兵（配備重型雷霆錘）",
                     "id": "a535-f3f8-3ca3-c97b",
                     "hidden": false,
                     "import": true,
@@ -17756,7 +17756,7 @@
                     ]
                   },
                   {
-                    "name": "死亡守望 老兵 配備 卡賓槍",
+                    "name": "死亡守望老兵（配備卡賓槍）",
                     "id": "c89b-62a3-682a-c7dc",
                     "hidden": false,
                     "import": true,
@@ -17785,7 +17785,7 @@
                     ]
                   },
                   {
-                    "name": "格拉維斯 老兵 配備 地獄火 重型 爆彈槍",
+                    "name": "格拉維斯老兵（配備地獄火重型爆彈槍）",
                     "id": "49b8-f2b6-a45c-be63",
                     "hidden": false,
                     "import": true,
@@ -17848,7 +17848,7 @@
                     "value": 0
                   },
                   {
-                    "name": "黑石 碎片",
+                    "name": "黑石碎片",
                     "typeId": "ac6b-ced3-9b5e-9a6e",
                     "value": 0
                   },
@@ -17858,14 +17858,14 @@
                     "value": 0
                   },
                   {
-                    "name": "聖物 碎片",
+                    "name": "聖物碎片",
                     "typeId": "0ece-6541-4662-ece2",
                     "value": 0
                   }
                 ],
                 "entryLinks": [
                   {
-                    "name": "戰鬥小隊 中士",
+                    "name": "戰鬥小隊中士",
                     "id": "4d2d-a64b-71d4-c791",
                     "hidden": false,
                     "import": true,
@@ -17874,7 +17874,7 @@
                     "type": "selectionEntry"
                   },
                   {
-                    "name": "死亡守望 老兵 配備 潛獵者 爆彈 步槍",
+                    "name": "死亡守望老兵（配備潛獵者爆彈步槍）",
                     "id": "7d75-fc7c-85a5-6c4d",
                     "hidden": false,
                     "import": true,
@@ -17903,7 +17903,7 @@
                     ]
                   },
                   {
-                    "name": "死亡守望 老兵 配備 重型 雷霆 錘",
+                    "name": "死亡守望老兵（配備重型雷霆錘）",
                     "id": "b53a-6c65-04c8-e6be",
                     "hidden": false,
                     "import": true,
@@ -17932,7 +17932,7 @@
                     ]
                   },
                   {
-                    "name": "死亡守望 老兵 配備 卡賓槍",
+                    "name": "死亡守望老兵（配備卡賓槍）",
                     "id": "4246-dbc5-0c51-5cea",
                     "hidden": false,
                     "import": true,
@@ -17961,7 +17961,7 @@
                     ]
                   },
                   {
-                    "name": "格拉維斯 老兵 配備 地獄火 重型 爆彈槍",
+                    "name": "格拉維斯老兵（配備地獄火重型爆彈槍）",
                     "id": "738d-ec99-12e9-5c38",
                     "hidden": false,
                     "import": true,
@@ -18030,7 +18030,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "特製 爆彈 手槍",
+                        "name": "特製爆彈手槍",
                         "id": "0171-67ff-8b71-cbc2",
                         "hidden": false,
                         "import": true,
@@ -18139,7 +18139,7 @@
         ]
       },
       {
-        "name": "戰鬥小隊 中士",
+        "name": "戰鬥小隊中士",
         "id": "ab41-fdc1-8d0f-bb74",
         "comment": "德西穆斯戰鬥小隊",
         "hidden": false,
@@ -18234,7 +18234,7 @@
         ],
         "profiles": [
           {
-            "name": "戰鬥小隊 中士",
+            "name": "戰鬥小隊中士",
             "id": "44a3-4b4f-adbd-383e",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
@@ -18285,7 +18285,7 @@
         ]
       },
       {
-        "name": "死亡守望 老兵 配備 潛獵者 爆彈 步槍",
+        "name": "死亡守望老兵（配備潛獵者爆彈步槍）",
         "id": "9ae9-4f7e-a148-cbfa",
         "comment": "德西穆斯戰鬥小隊",
         "hidden": false,
@@ -18371,7 +18371,7 @@
           {
             "field": "name",
             "type": "set",
-            "value": "死亡守望 老兵 配備 電漿 焚化槍",
+            "value": "死亡守望老兵（配備電漿焚化槍）",
             "conditions": [
               {
                 "childId": "386c-b933-68ce-5e31",
@@ -18386,7 +18386,7 @@
         ],
         "selectionEntryGroups": [
           {
-            "name": "替換 步槍",
+            "name": "替換步槍",
             "id": "b439-6122-b494-52d7",
             "defaultSelectionEntryId": "4b89-bd85-ed45-0ce4",
             "hidden": false,
@@ -18412,7 +18412,7 @@
             ],
             "entryLinks": [
               {
-                "name": "電漿 焚化槍",
+                "name": "電漿焚化槍",
                 "id": "90d2-e9fa-5d17-cf52",
                 "hidden": false,
                 "import": true,
@@ -18422,7 +18422,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "潛獵者 爆彈 步槍",
+                "name": "潛獵者爆彈步槍",
                 "id": "4b89-bd85-ed45-0ce4",
                 "hidden": false,
                 "import": true,
@@ -18452,7 +18452,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "潛獵者 爆彈 步槍",
+                    "name": "潛獵者爆彈步槍",
                     "id": "3af1-cf3a-2bff-56d0",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -18490,7 +18490,7 @@
                       },
                       {
                         "name": "關鍵詞",
-                        "$text": "重型, 致命一擊, 精準",
+                        "$text": "重型、致命一擊、精準",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ]
@@ -18502,7 +18502,7 @@
         ]
       },
       {
-        "name": "死亡守望 老兵 配備 重型 雷霆 錘",
+        "name": "死亡守望老兵（配備重型雷霆錘）",
         "id": "2537-956c-98c0-bffb",
         "comment": "德西穆斯戰鬥小隊",
         "hidden": false,
@@ -18560,7 +18560,7 @@
           {
             "field": "name",
             "type": "set",
-            "value": "死亡守望 老兵 配備 動力 武器 與 盾牌",
+            "value": "死亡守望老兵（配備動力武器與盾牌）",
             "conditions": [
               {
                 "childId": "d289-4aa1-775c-f349",
@@ -18576,7 +18576,7 @@
         ],
         "selectionEntryGroups": [
           {
-            "name": "替換 錘",
+            "name": "替換錘",
             "id": "d23a-cc50-b438-ff2b",
             "defaultSelectionEntryId": "f1d9-6336-7a0c-64cf",
             "hidden": false,
@@ -18602,7 +18602,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "動力 武器 與 阿斯塔特 盾牌",
+                "name": "動力武器與阿斯塔特盾牌",
                 "id": "d289-4aa1-775c-f349",
                 "hidden": false,
                 "import": true,
@@ -18619,7 +18619,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "阿斯塔特 盾牌",
+                    "name": "阿斯塔特盾牌",
                     "id": "bd9d-77fe-bb7a-5432",
                     "hidden": false,
                     "import": true,
@@ -18646,7 +18646,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "阿斯塔特 盾牌",
+                        "name": "阿斯塔特盾牌",
                         "id": "bd58-e1dc-7a65-ac86",
                         "hidden": false,
                         "typeId": "9cc3-6d83-4dd3-9b64",
@@ -18664,7 +18664,7 @@
                 ]
               },
               {
-                "name": "重型 雷霆 錘",
+                "name": "重型雷霆錘",
                 "id": "f1d9-6336-7a0c-64cf",
                 "hidden": false,
                 "import": true,
@@ -18680,7 +18680,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "重型 雷霆 錘",
+                    "name": "重型雷霆錘",
                     "id": "b97e-2834-009d-d0b7",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
@@ -18732,7 +18732,7 @@
       {
         "name": "動力武器",
         "id": "2174-53aa-f028-b509",
-        "comment": "德西穆斯 戰鬥小隊 限定",
+        "comment": "德西穆斯戰鬥小隊限定",
         "hidden": false,
         "import": true,
         "type": "upgrade",
@@ -18813,7 +18813,7 @@
         ]
       },
       {
-        "name": "死亡守望 老兵 配備 卡賓槍",
+        "name": "死亡守望老兵（配備卡賓槍）",
         "id": "8778-e3cb-2c6f-b23d",
         "comment": "德西穆斯戰鬥小隊",
         "hidden": false,
@@ -18858,7 +18858,7 @@
             ]
           },
           {
-            "name": "特製 爆彈 手槍",
+            "name": "特製爆彈手槍",
             "id": "e58d-035c-fd4e-5b50",
             "hidden": false,
             "import": true,
@@ -18894,7 +18894,7 @@
         ],
         "selectionEntryGroups": [
           {
-            "name": "替換 卡賓槍",
+            "name": "替換卡賓槍",
             "id": "8667-6300-4cc0-671a",
             "defaultSelectionEntryId": "2fde-1e35-34a9-0b37",
             "hidden": false,
@@ -18920,7 +18920,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "死亡守望 神射手 爆彈 卡賓槍",
+                "name": "死亡守望神射手爆彈卡賓槍",
                 "id": "2fde-1e35-34a9-0b37",
                 "hidden": false,
                 "import": true,
@@ -18943,7 +18943,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "死亡守望 神射手 爆彈 卡賓槍",
+                    "name": "死亡守望神射手爆彈卡賓槍",
                     "id": "a87d-8d8f-1f70-fe13",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -18981,7 +18981,7 @@
                       },
                       {
                         "name": "關鍵詞",
-                        "$text": "重型, 致命一擊",
+                        "$text": "重型、致命一擊",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ]
@@ -19055,7 +19055,7 @@
         ]
       },
       {
-        "name": "特製 爆彈 手槍",
+        "name": "特製爆彈手槍",
         "id": "bd52-0d98-f3a0-e291",
         "comment": "德西穆斯戰鬥小隊",
         "hidden": false,
@@ -19106,7 +19106,7 @@
         ],
         "profiles": [
           {
-            "name": "特製 爆彈 手槍",
+            "name": "特製爆彈手槍",
             "id": "22e9-d6ae-0929-7455",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -19144,7 +19144,7 @@
               },
               {
                 "name": "關鍵詞",
-                "$text": "手槍, 精準, 致命一擊",
+                "$text": "手槍、精準、致命一擊",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ]
@@ -19152,7 +19152,7 @@
         ]
       },
       {
-        "name": "格拉維斯 老兵 配備 地獄火 重型 爆彈槍",
+        "name": "格拉維斯老兵（配備地獄火重型爆彈槍）",
         "id": "550a-f5c4-d6a9-a09e",
         "comment": "德西穆斯戰鬥小隊",
         "hidden": false,
@@ -19229,7 +19229,7 @@
           {
             "field": "name",
             "type": "set",
-            "value": "格拉維斯 老兵 配備 碎片 炮",
+            "value": "格拉維斯老兵（配備碎片炮）",
             "conditions": [
               {
                 "childId": "efbd-2915-b637-83f8",
@@ -19244,7 +19244,7 @@
           {
             "field": "name",
             "type": "set",
-            "value": "格拉維斯 老兵 配備 地獄風暴 爆彈 步槍",
+            "value": "格拉維斯老兵（配備地獄風暴爆彈步槍）",
             "conditions": [
               {
                 "childId": "e2b3-c14f-5a6a-b660",
@@ -19259,7 +19259,7 @@
         ],
         "profiles": [
           {
-            "name": "格拉維斯 老兵",
+            "name": "格拉維斯老兵",
             "id": "8040-aa17-8e5e-0cb8",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
@@ -19336,14 +19336,14 @@
             ],
             "entryLinks": [
               {
-                "name": "碎片 炮",
+                "name": "碎片炮",
                 "id": "ca2c-e43d-614d-4db4",
                 "hidden": false,
                 "targetId": "efbd-2915-b637-83f8",
                 "type": "selectionEntry"
               },
               {
-                "name": "地獄火 重型 爆彈槍",
+                "name": "地獄火重型爆彈槍",
                 "id": "eb92-7d50-f15b-4ad5",
                 "hidden": false,
                 "import": true,
@@ -19353,14 +19353,14 @@
             ],
             "selectionEntries": [
               {
-                "name": "地獄風暴 爆彈 步槍 與 榴彈 發射器",
+                "name": "地獄風暴爆彈步槍與榴彈發射器",
                 "id": "e2b3-c14f-5a6a-b660",
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
                 "entryLinks": [
                   {
-                    "name": "榴彈 發射器",
+                    "name": "榴彈發射器",
                     "id": "153f-89b9-58f4-12a8",
                     "hidden": false,
                     "import": true,
@@ -19390,7 +19390,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "地獄風暴 爆彈 步槍",
+                    "name": "地獄風暴爆彈步槍",
                     "id": "7c66-f2f6-a3fc-0867",
                     "hidden": false,
                     "import": true,
@@ -19440,7 +19440,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "地獄風暴 爆彈 步槍",
+                        "name": "地獄風暴爆彈步槍",
                         "id": "cfc4-f2e1-4f31-d0a2",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -19478,7 +19478,7 @@
                           },
                           {
                             "name": "關鍵詞",
-                            "$text": "突擊, 重型, 致命一擊",
+                            "$text": "突擊、重型、致命一擊",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ]
@@ -19492,7 +19492,7 @@
         ]
       },
       {
-        "name": "特製 爆彈 手槍",
+        "name": "特製爆彈手槍",
         "id": "2bf6-dfb9-fea9-7a94",
         "collective": true,
         "hidden": false,
@@ -19546,7 +19546,7 @@
         ],
         "profiles": [
           {
-            "name": "特製 爆彈 手槍",
+            "name": "特製爆彈手槍",
             "id": "e1ab-6cb7-25ff-3ae9",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -19584,7 +19584,7 @@
               },
               {
                 "name": "關鍵詞",
-                "$text": "近距離, 精準",
+                "$text": "近距離、精準",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ]
@@ -19656,7 +19656,7 @@
         ]
       },
       {
-        "name": "碎片 炮",
+        "name": "碎片炮",
         "id": "efbd-2915-b637-83f8",
         "collective": true,
         "hidden": false,
@@ -19704,7 +19704,7 @@
         ],
         "profiles": [
           {
-            "name": "碎片 炮",
+            "name": "碎片炮",
             "id": "67b7-65e7-6a7a-d4d8",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -19742,7 +19742,7 @@
               },
               {
                 "name": "關鍵詞",
-                "$text": "爆炸 1, 重型, 致命一擊, 速射 1",
+                "$text": "爆炸 1、重型、致命一擊、速射 1",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ]
@@ -19752,7 +19752,7 @@
     ],
     "sharedSelectionEntryGroups": [
       {
-        "name": "終結者 重型 武器",
+        "name": "終結者重型武器",
         "id": "77ef-f5b6-e6bc-7618",
         "defaultSelectionEntryId": "8259-a28d-949-b4fa",
         "hidden": false,
@@ -19776,7 +19776,7 @@
         ],
         "selectionEntries": [
           {
-            "name": "突擊 炮 & 動力拳套",
+            "name": "突擊炮與動力拳套",
             "id": "8259-a28d-949-b4fa",
             "hidden": false,
             "import": true,
@@ -19795,7 +19795,7 @@
             ],
             "entryLinks": [
               {
-                "name": "突擊 炮",
+                "name": "突擊炮",
                 "id": "6917-5c80-b528-5940",
                 "hidden": false,
                 "import": true,
@@ -19849,7 +19849,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "動力 拳套",
+                    "name": "動力拳套",
                     "id": "9f13-78a2-64de-99c1",
                     "hidden": false,
                     "import": true,
@@ -19877,7 +19877,7 @@
                     ]
                   },
                   {
-                    "name": "動力 武器",
+                    "name": "動力武器",
                     "id": "a953-7c53-ac6e-d67b",
                     "hidden": false,
                     "import": true,
@@ -19900,7 +19900,7 @@
             ]
           },
           {
-            "name": "重型火焰噴射器 & 動力拳套",
+            "name": "重型火焰噴射器與動力拳套",
             "id": "8fef-ad24-3222-a2b8",
             "hidden": false,
             "import": true,
@@ -19971,7 +19971,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "動力 拳套",
+                    "name": "動力拳套",
                     "id": "6781-f4c9-dddf-f65b",
                     "hidden": false,
                     "import": true,
@@ -19999,7 +19999,7 @@
                     ]
                   },
                   {
-                    "name": "動力 武器",
+                    "name": "動力武器",
                     "id": "7c98-3f8a-25a2-1563",
                     "hidden": false,
                     "import": true,
@@ -20022,7 +20022,7 @@
             ]
           },
           {
-            "name": "電漿 炮 & 動力拳套",
+            "name": "電漿炮與動力拳套",
             "id": "8d7-b5ed-f870-e86e",
             "hidden": false,
             "import": true,
@@ -20039,10 +20039,10 @@
             ],
             "selectionEntries": [
               {
-                "name": "電漿 炮",
+                "name": "電漿炮",
                 "id": "7efe-d1b8-35d1-f9c1",
                 "collective": false,
-                "comment": "BS3+",
+                "comment": "射擊技巧 3+",
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
@@ -20100,7 +20100,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "➤ 電漿 炮－標準",
+                    "name": "➤ 電漿炮－標準",
                     "id": "8184-16b0-2aed-3ac9",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -20144,7 +20144,7 @@
                     ]
                   },
                   {
-                    "name": "➤ 電漿 炮－超載",
+                    "name": "➤ 電漿炮－超載",
                     "id": "7b46-473b-f810-b925",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -20182,7 +20182,7 @@
                       },
                       {
                         "name": "關鍵詞",
-                        "$text": "爆炸 1, 危險",
+                        "$text": "爆炸 1、危險",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ]
@@ -20246,7 +20246,7 @@
                     ]
                   },
                   {
-                    "name": "動力 武器",
+                    "name": "動力武器",
                     "id": "110e-403f-f832-4afc",
                     "hidden": false,
                     "import": true,
@@ -20269,14 +20269,14 @@
             ]
           },
           {
-            "name": "旋風 飛彈 發射器, 風暴 爆彈槍 及／或 近戰 武器",
+            "name": "旋風飛彈發射器、風暴爆彈槍及／或近戰武器",
             "id": "5aba-f512-d3a5-b7b9",
             "hidden": false,
             "import": true,
             "type": "upgrade",
             "entryLinks": [
               {
-                "name": "旋風 飛彈 發射器",
+                "name": "旋風飛彈發射器",
                 "id": "f393-cfb0-eb04-dfa7",
                 "hidden": false,
                 "import": true,
@@ -20309,7 +20309,7 @@
                 ]
               },
               {
-                "name": "終結者 武器",
+                "name": "終結者武器",
                 "id": "094b-ecdd-1664-84ec",
                 "hidden": false,
                 "import": true,
@@ -20321,7 +20321,7 @@
         ]
       },
       {
-        "name": "終結者 武器",
+        "name": "終結者武器",
         "id": "52a3-786b-962d-44c3",
         "defaultSelectionEntryId": "3a4f-9d8a-d055-f0b7",
         "hidden": false,
@@ -20345,7 +20345,7 @@
         ],
         "selectionEntries": [
           {
-            "name": "風暴 爆彈槍 & 動力武器",
+            "name": "風暴爆彈槍與動力武器",
             "id": "3b41-ef3b-efd7-6784",
             "collective": false,
             "hidden": false,
@@ -20363,7 +20363,7 @@
             ],
             "entryLinks": [
               {
-                "name": "風暴 爆彈槍",
+                "name": "風暴爆彈槍",
                 "id": "475d-1834-93f0-1c28",
                 "hidden": false,
                 "import": true,
@@ -20401,7 +20401,7 @@
                 ]
               },
               {
-                "name": "動力 武器",
+                "name": "動力武器",
                 "id": "96df-ee7c-2665-c860",
                 "hidden": false,
                 "import": true,
@@ -20437,7 +20437,7 @@
                     "type": "selectionEntryGroup"
                   },
                   {
-                    "name": "動力 武器",
+                    "name": "動力武器",
                     "id": "6e0f-b32c-2a8d-afda",
                     "hidden": false,
                     "import": true,
@@ -20479,7 +20479,7 @@
             ]
           },
           {
-            "name": "雷霆 錘 與 風暴 盾牌",
+            "name": "雷霆錘與風暴盾牌",
             "id": "f831-6dfb-6b1b-8112",
             "collective": false,
             "hidden": false,
@@ -20542,7 +20542,7 @@
                     "value": 0
                   },
                   {
-                    "name": "黑石 碎片",
+                    "name": "黑石碎片",
                     "typeId": "ac6b-ced3-9b5e-9a6e",
                     "value": 0
                   },
@@ -20562,7 +20562,7 @@
                     "value": 0
                   },
                   {
-                    "name": "聖物 碎片",
+                    "name": "聖物碎片",
                     "typeId": "0ece-6541-4662-ece2",
                     "value": 0
                   }
@@ -20634,7 +20634,7 @@
                 ]
               },
               {
-                "name": "風暴 盾牌",
+                "name": "風暴盾牌",
                 "id": "8ad7-4a78-859d-2305",
                 "hidden": false,
                 "import": true,
@@ -20684,7 +20684,7 @@
                     "value": 0
                   },
                   {
-                    "name": "黑石 碎片",
+                    "name": "黑石碎片",
                     "typeId": "ac6b-ced3-9b5e-9a6e",
                     "value": 0
                   },
@@ -20704,7 +20704,7 @@
                     "value": 0
                   },
                   {
-                    "name": "聖物 碎片",
+                    "name": "聖物碎片",
                     "typeId": "0ece-6541-4662-ece2",
                     "value": 0
                   }
@@ -20722,12 +20722,12 @@
                     "field": "annotation",
                     "scope": "model",
                     "type": "set",
-                    "value": "風暴 盾牌"
+                    "value": "風暴盾牌"
                   }
                 ],
                 "profiles": [
                   {
-                    "name": "風暴 盾牌",
+                    "name": "風暴盾牌",
                     "id": "bc91-0a58-f624-c158",
                     "hidden": false,
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -20745,7 +20745,7 @@
             ]
           },
           {
-            "name": "風暴 爆彈槍 & 鏈鋸拳套",
+            "name": "風暴爆彈槍與鏈鋸拳套",
             "id": "7adb-f0b7-a934-18ad",
             "hidden": false,
             "import": true,
@@ -20762,7 +20762,7 @@
             ],
             "entryLinks": [
               {
-                "name": "風暴 爆彈槍",
+                "name": "風暴爆彈槍",
                 "id": "1788-c658-8277-62c4",
                 "hidden": false,
                 "import": true,
@@ -20840,7 +20840,7 @@
             ]
           },
           {
-            "name": "動力拳套 & 風暴 爆彈槍",
+            "name": "動力拳套與風暴爆彈槍",
             "id": "3a4f-9d8a-d055-f0b7",
             "hidden": false,
             "import": true,
@@ -20859,7 +20859,7 @@
             ],
             "entryLinks": [
               {
-                "name": "動力 拳套",
+                "name": "動力拳套",
                 "id": "d332-cdc0-dbff-4455",
                 "hidden": false,
                 "import": true,
@@ -20897,7 +20897,7 @@
                 ]
               },
               {
-                "name": "風暴 爆彈槍",
+                "name": "風暴爆彈槍",
                 "id": "9e5d-f7a0-1d27-884c",
                 "hidden": false,
                 "import": true,
@@ -20937,7 +20937,7 @@
             ]
           },
           {
-            "name": "雙聯 閃電爪",
+            "name": "雙聯閃電爪",
             "id": "746d-29c3-444c-590d",
             "hidden": false,
             "import": true,
@@ -20963,7 +20963,7 @@
             ],
             "profiles": [
               {
-                "name": "雙聯 閃電爪",
+                "name": "雙聯閃電爪",
                 "id": "7f1a-9741-2ce8-dd5e",
                 "hidden": false,
                 "typeId": "8a40-4aaa-c780-9046",
