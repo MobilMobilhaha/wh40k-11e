@@ -308,7 +308,7 @@
             "childId": "unit",
             "childName": "單位",
             "includeChildSelections": true,
-            "label": "Led by",
+            "label": "領導者",
             "max": 1,
             "min": 0,
             "scope": "force",
@@ -422,7 +422,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 120
           },
@@ -498,7 +498,7 @@
             ]
           },
           {
-            "name": "戰鬥準則",
+            "name": "戰鬥條令",
             "id": "e9b8-af5a-bd54-c141",
             "hidden": false,
             "targetId": "3b76-4053-ece9-6e7d",
@@ -529,7 +529,7 @@
             "characteristics": [
               {
                 "name": "說明",
-                "$text": "在你的指揮階段開始時，若此單位包含一個或更多修士侍從模型，從「聖殿聖物」章節選擇至多一項能力。直到你的下一個指揮階段開始，此模型擁有該能力。\n\n\n帝皇凱旋旗\n此單位的突進擲骰與衝鋒擲骰 +1。\n\n\n大祭壇石柱\n此單位的耐力 +1。\n\n\n澄明聖杯之水\n此單位的近戰攻擊護甲穿透 +1。",
+                "$text": "在你的指揮階段開始時，若此單位包含一個或更多修士侍從模型，從「聖殿聖物」章節選擇至多一項能力。直到你的下一個指揮階段開始，此模型擁有該能力。\n\n\n帝皇凱旋旗\n此單位的突進擲骰與衝鋒擲骰 +1。\n\n\n大祭壇石柱\n此單位的韌性 +1。\n\n\n澄明聖杯之水\n此單位的近戰攻擊護甲穿透 +1。",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -1052,7 +1052,7 @@
             "childId": "unit",
             "childName": "單位",
             "includeChildSelections": true,
-            "label": "Led by",
+            "label": "領導者",
             "max": 1,
             "min": 0,
             "scope": "force",
@@ -1205,7 +1205,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 125
           },
@@ -1281,7 +1281,7 @@
         ],
         "infoLinks": [
           {
-            "name": "戰鬥準則",
+            "name": "戰鬥條令",
             "id": "9b7-7f23-d635-d7f2",
             "hidden": false,
             "targetId": "3b76-4053-ece9-6e7d",
@@ -1760,7 +1760,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 160
           },
@@ -1832,7 +1832,7 @@
         ],
         "infoLinks": [
           {
-            "name": "戰鬥準則",
+            "name": "戰鬥條令",
             "id": "4384-59f0-9cec-b2b1",
             "hidden": false,
             "targetId": "3b76-4053-ece9-6e7d",
@@ -3380,7 +3380,7 @@
         ],
         "infoLinks": [
           {
-            "name": "無視掩體",
+            "name": "無視掩護",
             "id": "94ff-18a4-c291-3ab0",
             "hidden": false,
             "targetId": "4640-43e7-30b-215a",
@@ -3441,7 +3441,7 @@
               },
               {
                 "name": "關鍵詞",
-                "$text": "無視掩體，手槍，洪流",
+                "$text": "無視掩護，手槍，洪流",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ]
@@ -3571,7 +3571,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 115
           },
@@ -3643,7 +3643,7 @@
         ],
         "infoLinks": [
           {
-            "name": "戰鬥準則",
+            "name": "戰鬥條令",
             "id": "1371-cfd0-4de9-fa94",
             "hidden": false,
             "targetId": "3b76-4053-ece9-6e7d",
@@ -4741,7 +4741,7 @@
             "childId": "unit",
             "childName": "單位",
             "includeChildSelections": true,
-            "label": "Led by",
+            "label": "領導者",
             "max": 1,
             "min": 0,
             "scope": "force",
@@ -4895,7 +4895,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 100
           },
@@ -4977,7 +4977,7 @@
         ],
         "infoLinks": [
           {
-            "name": "戰鬥準則",
+            "name": "戰鬥條令",
             "id": "adcf-a7f-a2f5-9867",
             "hidden": false,
             "targetId": "3b76-4053-ece9-6e7d",
@@ -5618,7 +5618,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 165
           },
@@ -5704,7 +5704,7 @@
             ]
           },
           {
-            "name": "戰鬥準則",
+            "name": "戰鬥條令",
             "id": "f500-8414-5756-1f8c",
             "hidden": false,
             "targetId": "3b76-4053-ece9-6e7d",
@@ -6113,7 +6113,7 @@
                 ],
                 "costs": [
                   {
-                    "name": "pts",
+                    "name": "分",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 10
                   }
@@ -6343,7 +6343,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 165
           },
@@ -6429,7 +6429,7 @@
             ]
           },
           {
-            "name": "戰鬥準則",
+            "name": "戰鬥條令",
             "id": "4c11-22a8-7285-e82d",
             "hidden": false,
             "targetId": "3b76-4053-ece9-6e7d",
@@ -6838,7 +6838,7 @@
                 ],
                 "costs": [
                   {
-                    "name": "pts",
+                    "name": "分",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 10
                   }
@@ -7146,7 +7146,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 145
           },
@@ -7246,7 +7246,7 @@
             ]
           },
           {
-            "name": "戰鬥準則",
+            "name": "戰鬥條令",
             "id": "6139-de4a-5716-0faa",
             "hidden": false,
             "targetId": "3b76-4053-ece9-6e7d",
@@ -7650,7 +7650,7 @@
                 ],
                 "costs": [
                   {
-                    "name": "pts",
+                    "name": "分",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 10
                   }
@@ -7951,7 +7951,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 70
           },
@@ -8051,7 +8051,7 @@
             ]
           },
           {
-            "name": "戰鬥準則",
+            "name": "戰鬥條令",
             "id": "e1e2-1581-bf5f-8951",
             "hidden": false,
             "targetId": "3b76-4053-ece9-6e7d",
@@ -8486,7 +8486,7 @@
                     "type": "upgrade",
                     "costs": [
                       {
-                        "name": "pts",
+                        "name": "分",
                         "typeId": "51b2-306e-1021-d207",
                         "value": 10
                       },
@@ -8638,7 +8638,7 @@
                     "type": "selectionEntry",
                     "costs": [
                       {
-                        "name": "pts",
+                        "name": "分",
                         "typeId": "51b2-306e-1021-d207",
                         "value": 10
                       }
@@ -8926,7 +8926,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 190
           },
@@ -9026,7 +9026,7 @@
             ]
           },
           {
-            "name": "戰鬥準則",
+            "name": "戰鬥條令",
             "id": "a526-b252-aea9-129e",
             "hidden": false,
             "targetId": "3b76-4053-ece9-6e7d",
@@ -9435,7 +9435,7 @@
                 ],
                 "costs": [
                   {
-                    "name": "pts",
+                    "name": "分",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 10
                   }
@@ -9739,7 +9739,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 265
           },
@@ -9846,7 +9846,7 @@
             ]
           },
           {
-            "name": "戰鬥準則",
+            "name": "戰鬥條令",
             "id": "c83b-125c-1c62-92bd",
             "hidden": false,
             "targetId": "3b76-4053-ece9-6e7d",
@@ -10327,7 +10327,7 @@
                 ],
                 "costs": [
                   {
-                    "name": "pts",
+                    "name": "分",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 10
                   }
@@ -10480,7 +10480,7 @@
                     "type": "upgrade",
                     "costs": [
                       {
-                        "name": "pts",
+                        "name": "分",
                         "typeId": "51b2-306e-1021-d207",
                         "value": 0
                       },
@@ -10624,7 +10624,7 @@
             "childName": "單位",
             "defaultSelectionEntryId": "none",
             "includeChildSelections": true,
-            "label": "Supported by",
+            "label": "支援者",
             "max": 1,
             "min": 1,
             "scope": "force",
@@ -10820,7 +10820,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 75
           },
@@ -10921,7 +10921,7 @@
             "type": "rule"
           },
           {
-            "name": "戰鬥準則",
+            "name": "戰鬥條令",
             "id": "2a8e-354b-864-5f3e",
             "hidden": false,
             "targetId": "3b76-4053-ece9-6e7d",
@@ -11480,7 +11480,7 @@
             "childId": "unit",
             "childName": "單位",
             "includeChildSelections": true,
-            "label": "Led by",
+            "label": "領導者",
             "max": 1,
             "min": 0,
             "scope": "force",
@@ -11666,7 +11666,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 80
           },
@@ -11747,7 +11747,7 @@
             "type": "rule"
           },
           {
-            "name": "戰鬥準則",
+            "name": "戰鬥條令",
             "id": "8378-3a43-2e0f-c7e1",
             "hidden": false,
             "targetId": "3b76-4053-ece9-6e7d",
@@ -12591,7 +12591,7 @@
             "childId": "unit",
             "childName": "單位",
             "includeChildSelections": true,
-            "label": "Led by",
+            "label": "領導者",
             "max": 1,
             "min": 0,
             "scope": "force",
@@ -12724,7 +12724,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 65
           },
@@ -13366,7 +13366,7 @@
             "childName": "單位",
             "defaultSelectionEntryId": "none",
             "includeChildSelections": true,
-            "label": "Supported by",
+            "label": "支援者",
             "max": 1,
             "min": 1,
             "scope": "force",
@@ -13500,7 +13500,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 45
           },
@@ -13602,7 +13602,7 @@
             "type": "rule"
           },
           {
-            "name": "戰鬥準則",
+            "name": "戰鬥條令",
             "id": "2ac9-d910-9f92-f601",
             "hidden": false,
             "targetId": "3b76-4053-ece9-6e7d",
@@ -14067,7 +14067,7 @@
             "childId": "unit",
             "childName": "單位",
             "includeChildSelections": true,
-            "label": "Led by",
+            "label": "領導者",
             "max": 1,
             "min": 0,
             "scope": "force",
@@ -14221,7 +14221,7 @@
         ],
         "costs": [
           {
-            "name": "pts",
+            "name": "分",
             "typeId": "51b2-306e-1021-d207",
             "value": 100
           },
@@ -14291,7 +14291,7 @@
             "type": "rule"
           },
           {
-            "name": "戰鬥準則",
+            "name": "戰鬥條令",
             "id": "ff73-65ea-b4df-b6a6",
             "hidden": false,
             "targetId": "3b76-4053-ece9-6e7d",
