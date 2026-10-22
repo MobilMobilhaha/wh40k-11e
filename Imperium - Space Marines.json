@@ -142,7 +142,7 @@
         "hidden": false
       },
       {
-        "name": "科技戰士",
+        "name": "科技軍士",
         "id": "b957-d9cd-ee81-560",
         "hidden": false
       },
@@ -2024,7 +2024,7 @@
         "type": "selectionEntry"
       },
       {
-        "name": "科技戰士",
+        "name": "科技軍士",
         "id": "c7ef-84b1-fdf5-c5a8",
         "hidden": false,
         "import": true,
@@ -69477,7 +69477,7 @@
         ],
         "selectionEntries": [
           {
-            "name": "科技戰士砲手",
+            "name": "科技軍士砲手",
             "id": "c297-624e-2231-f8f6",
             "hidden": false,
             "import": true,
@@ -69514,7 +69514,7 @@
             ],
             "profiles": [
               {
-                "name": "科技戰士砲手",
+                "name": "科技軍士砲手",
                 "id": "952a-deb1-c7a0-7a91",
                 "hidden": false,
                 "typeId": "c547-1836-d8a-ff4f",
@@ -99796,7 +99796,7 @@
         ]
       },
       {
-        "name": "科技戰士",
+        "name": "科技軍士",
         "id": "e671-cd3a-2b03-3954",
         "hidden": false,
         "import": true,
@@ -100009,7 +100009,7 @@
             "targetId": "6e7-40c-58d9-e402"
           },
           {
-            "name": "科技戰士",
+            "name": "科技軍士",
             "id": "a524-e56-5537-95f2",
             "primary": false,
             "targetId": "b957-d9cd-ee81-560"
@@ -100354,7 +100354,7 @@
         ],
         "profiles": [
           {
-            "name": "科技戰士",
+            "name": "科技軍士",
             "id": "3eb3-b6eb-4967-a6b2",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
@@ -100403,7 +100403,7 @@
             ]
           },
           {
-            "name": "科技戰士",
+            "name": "科技軍士",
             "id": "40d5-dc4a-5c0a-fe2e",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -128543,7 +128543,7 @@
             "targetId": "aff3-d6a3-2a95-9dc"
           },
           {
-            "name": "科技戰士",
+            "name": "科技軍士",
             "id": "e8f-f958-34a1-d971",
             "primary": false,
             "targetId": "b957-d9cd-ee81-560"
@@ -128944,7 +128944,7 @@
             ]
           },
           {
-            "name": "科技戰士",
+            "name": "科技軍士",
             "id": "4a65-f686-e774-6019",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -186664,7 +186664,7 @@
                     "conditions": [
                       {
                         "childId": "b957-d9cd-ee81-560",
-                        "childName": "科技戰士",
+                        "childName": "科技軍士",
                         "field": "selections",
                         "includeChildSelections": false,
                         "scope": "ancestor",
@@ -186855,7 +186855,7 @@
                     "conditions": [
                       {
                         "childId": "b957-d9cd-ee81-560",
-                        "childName": "科技戰士",
+                        "childName": "科技軍士",
                         "field": "selections",
                         "includeChildSelections": false,
                         "scope": "ancestor",
