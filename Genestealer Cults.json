@@ -8,7 +8,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 3,
+    "revision": 4,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -5725,6 +5725,11 @@
             "name": "無敵豁免",
             "$text": "",
             "typeId": "55a7-5b54-c60d-11dc"
+          },
+          {
+            "name": "底座",
+            "$text": "32mm",
+            "typeId": "nr-base-size"
           }
         ]
       },
@@ -5769,6 +5774,11 @@
             "name": "無敵豁免",
             "$text": "",
             "typeId": "55a7-5b54-c60d-11dc"
+          },
+          {
+            "name": "底座",
+            "$text": "32mm",
+            "typeId": "nr-base-size"
           }
         ]
       }
@@ -5777,7 +5787,7 @@
       {
         "name": "教派伏兵",
         "id": "8f27-1d49-40ef-b041",
-        "description": "如果你的軍隊陣營為 **基因竊取者教派**，則你在戰鬥開始時擁有一定數量的復活點數，其數值取決於戰鬥規模，如下所示。\n\n- 入侵：6 點復活點數\n- 突擊：10 點復活點數\n- 猛攻：14 點復活點數\n\n每當你軍隊中的一個單位被摧毀時，若該單位中的每個模型（不含 **角色** 模型）都擁有此能力，你可以依據該單位的起始兵力（不含附屬的 **角色** 模型），花費下列相應數量的復活點數。\n\n**---畸變體---**\n5 個模型＝4 點復活點數\n10 個模型＝8 點復活點數\n\n**---裝備自動手槍的混血信徒、裝備噴火手槍的混血信徒、混血變異獸---**\n5 個模型＝2 點復活點數\n10 個模型＝4 點復活點數\n\n**---阿塔蘭豺狼摩托手---**\n5 個模型＝2 點復活點數\n10 個模型＝6 點復活點數\n\n**---混血新信徒---**\n10 個模型＝3 點復活點數\n20 個模型＝6 點復活點數\n\n**---純種基因竊取者---**\n5 個模型＝2 點復活點數\n10 個模型＝6 點復活點數\n\n若你如此做：\n- 將一個與被摧毀單位（不含 **角色** 模型）完全相同的新單位加入你的軍隊，並以起始兵力、完整耐傷放入教派伏兵；該單位模型裝備的任何 **［單發］** 武器均視為尚未射擊。\n- 在戰場上任何水平距離所有敵方單位超過 8\" 的位置放置一個教派伏兵標記（見下文）；若沒有合適的位置，則不放置標記。\n\n**教派伏兵中的單位**\n教派伏兵是一種戰略預備隊。教派伏兵中的單位不能成為「迅速入場」計謀的目標，但可以如下所述使用教派伏兵標記部署至戰場，或在後續回合依照戰略預備隊規則部署。教派伏兵中的單位不會在第三戰鬥輪次結束時被自動摧毀。\n\n**教派伏兵標記**\n教派伏兵標記使用直徑 32mm 的圓形標記。若一個敵方模型（不含 **飛行器**）在你放置的教派伏兵標記 8\" 內結束任何類型的移動，將該教派伏兵標記移出戰場。在你對手下一個移動階段結束時，你可以為每個仍在戰場上的教派伏兵標記，選擇你軍隊中一個位於教派伏兵的單位進行一次 **入場移動**。進行該次 **入場移動** 時，將該單位設置為至少一個模型與該教派伏兵標記底座接觸，其他所有模型均完全位於該標記 3\" 內（然後將該教派伏兵標記移出戰場）。教派伏兵中的單位可以使用此規則在第一戰鬥輪次進行 **入場移動**。",
+        "description": "如果你的軍隊陣營為 **基因竊取者教派**，則你在戰鬥開始時擁有一定數量的復活點數，其數值取決於戰鬥規模，如下所示。\n\n- 入侵：6 點復活點數\n- 突擊：10 點復活點數\n- 猛攻：14 點復活點數\n\n每當你軍隊中的一個單位被摧毀時，若該單位中的每個模型（不含 **角色** 模型）都擁有此能力，你可以依據該單位的起始兵力（不含附屬的 **角色** 模型），花費下列相應數量的復活點數。\n\n**---畸變體---**\n5 個模型＝4 點復活點數\n10 個模型＝8 點復活點數\n\n**---裝備自動手槍的混血信徒、裝備噴火手槍的混血信徒、混血變異獸---**\n5 個模型＝2 點復活點數\n10 個模型＝4 點復活點數\n\n**---阿塔蘭豺狼摩托手---**\n5 個模型＝2 點復活點數\n10 個模型＝6 點復活點數\n\n**---混血新信徒---**\n10 個模型＝3 點復活點數\n20 個模型＝6 點復活點數\n\n**---純種基因竊取者---**\n5 個模型＝2 點復活點數\n10 個模型＝6 點復活點數\n\n若你如此做：\n- 將一個與被摧毀單位完全相同（不含 **角色** 模型）的新單位加入你的軍隊，並將其以起始兵力置入教派伏兵，且所有模型均保持完整耐傷；該單位模型裝備的任何 **［單發］** 武器均視為尚未射擊。\n- 在戰場上任何水平距離所有敵方單位超過 8\" 的位置放置一個教派伏兵標記（見下文）；若沒有合適的位置，則不放置標記。\n\n**教派伏兵中的單位**\n教派伏兵是一種戰略預備隊。教派伏兵中的單位不能成為「迅速入場」計謀的目標，但可以如下所述使用教派伏兵標記部署至戰場，或在後續回合依照戰略預備隊規則部署。教派伏兵中的單位不會在第三戰鬥輪次結束時被自動摧毀。\n\n**教派伏兵標記**\n教派伏兵標記使用直徑 32mm 的圓形標記。若一個敵方模型（不含 **飛行器**）在你放置的教派伏兵標記 8\" 內結束任何類型的移動，將該教派伏兵標記移出戰場。在你對手下一個移動階段結束時，你可以為每個仍在戰場上的教派伏兵標記，選擇你軍隊中一個位於教派伏兵的單位進行一次 **入場移動**。進行該次 **入場移動** 時，部署該單位後，至少一個模型的底座須與該教派伏兵標記接觸，其餘所有模型則須完全位於該標記 3\" 內（然後移除該教派伏兵標記）。教派伏兵中的單位可以使用此規則在第一戰鬥輪次進行 **入場移動**。",
         "hidden": false,
         "modifiers": [
           {
@@ -6391,72 +6401,6 @@
                 ]
               }
             ]
-          },
-          {
-            "comment": "登艦行動修正",
-            "type": "and",
-            "modifiers": [
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditionGroups": [
-                  {
-                    "type": "and",
-                    "conditions": [
-                      {
-                        "childId": "1d6e-2579-8e7f-1ed4",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "force",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      },
-                      {
-                        "childId": "be7f-de0b-6659-198a",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "force",
-                        "shared": true,
-                        "type": "lessThan",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "field": "c53a-2ac5-c542-4bcd",
-                "type": "set",
-                "value": 2,
-                "conditionGroups": [
-                  {
-                    "type": "and",
-                    "conditions": [
-                      {
-                        "childId": "1d6e-2579-8e7f-1ed4",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "force",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      },
-                      {
-                        "childId": "be7f-de0b-6659-198a",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "force",
-                        "shared": true,
-                        "type": "atLeast",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "modifiers": [
@@ -6531,6 +6475,43 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
+              }
+            ]
+          },
+          {
+            "comment": "遠征內容",
+            "field": "error",
+            "type": "add",
+            "value": "受「在上位者的陰影中」戰鬥傷痕限制，最多只能附屬 1 個角色模型。",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "b425-2b44-54ef-7bc9",
+                    "childName": "在上位者的陰影中",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "9cfd-1c32-585f-7d5c",
+                    "childName": "角色",
+                    "field": "associations",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": false,
+                    "type": "greaterThan",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -6714,6 +6695,11 @@
                         "name": "無敵豁免",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "底座",
+                        "$text": "32mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -6823,6 +6809,11 @@
                         "name": "無敵豁免",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "底座",
+                        "$text": "32mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -7550,6 +7541,11 @@
                 "name": "無敵豁免",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "底座",
+                "$text": "40mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -8385,6 +8381,11 @@
                         "name": "無敵豁免",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "底座",
+                        "$text": "120x92mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -9754,6 +9755,43 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
+              }
+            ]
+          },
+          {
+            "comment": "遠征內容",
+            "field": "error",
+            "type": "add",
+            "value": "受「在上位者的陰影中」戰鬥傷痕限制，最多只能附屬 1 個角色模型。",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "b425-2b44-54ef-7bc9",
+                    "childName": "在上位者的陰影中",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "9cfd-1c32-585f-7d5c",
+                    "childName": "角色",
+                    "field": "associations",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": false,
+                    "type": "greaterThan",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -11294,6 +11332,11 @@
                 "name": "無敵豁免",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "底座",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -12106,6 +12149,43 @@
                 ]
               }
             ]
+          },
+          {
+            "comment": "遠征內容",
+            "field": "error",
+            "type": "add",
+            "value": "受「在上位者的陰影中」戰鬥傷痕限制，最多只能附屬 1 個角色模型。",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "b425-2b44-54ef-7bc9",
+                    "childName": "在上位者的陰影中",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "9cfd-1c32-585f-7d5c",
+                    "childName": "角色",
+                    "field": "associations",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": false,
+                    "type": "greaterThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
           }
         ],
         "profiles": [
@@ -12401,6 +12481,11 @@
                         "name": "無敵豁免",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "底座",
+                        "$text": "60x35.5mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -12622,6 +12707,11 @@
                         "name": "無敵豁免",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "底座",
+                        "$text": "60x35.5mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -12860,6 +12950,11 @@
                         "name": "無敵豁免",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "底座",
+                        "$text": "60x35.5mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -13127,6 +13222,11 @@
                         "name": "無敵豁免",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "底座",
+                        "$text": "60x35.5mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -13374,6 +13474,11 @@
                         "name": "無敵豁免",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "底座",
+                        "$text": "60mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -14494,6 +14599,11 @@
                 "name": "無敵豁免",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "底座",
+                "$text": "25mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -15424,6 +15534,11 @@
                 "name": "無敵豁免",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "底座",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -15626,7 +15741,52 @@
           {
             "name": "點",
             "typeId": "51b2-306e-1021-d207",
-            "value": 120
+            "value": 110
+          },
+          {
+            "name": "遠征點數",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "遠征：戰鬥榮譽",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "遠征：經驗",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "遠征：武器改造",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "黑石碎片",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "分遣隊點數",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "強化",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "後勤點數",
+            "typeId": "04b1-67f7-48cb-4f1f",
+            "value": 0
+          },
+          {
+            "name": "嘉獎點數",
+            "typeId": "e969-59de-fdb7-7c4e",
+            "value": 0
           }
         ],
         "entryLinks": [
@@ -16077,6 +16237,11 @@
                 "name": "無敵豁免",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "底座",
+                "$text": "Hull",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -17306,6 +17471,11 @@
                 "name": "無敵豁免",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "底座",
+                "$text": "Hull",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -18429,6 +18599,43 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "comment": "遠征內容",
+            "field": "error",
+            "type": "add",
+            "value": "受「在上位者的陰影中」戰鬥傷痕限制，最多只能附屬 1 個角色模型。",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "b425-2b44-54ef-7bc9",
+                    "childName": "在上位者的陰影中",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "9cfd-1c32-585f-7d5c",
+                    "childName": "角色",
+                    "field": "associations",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": false,
+                    "type": "greaterThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
           }
         ],
         "profiles": [
@@ -18789,6 +18996,11 @@
                         "name": "無敵豁免",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "底座",
+                        "$text": "32mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -19612,6 +19824,11 @@
                 "name": "無敵豁免",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "底座",
+                "$text": "60x35.5mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -20503,6 +20720,11 @@
                 "name": "無敵豁免",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "底座",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           }
@@ -21426,6 +21648,11 @@
                 "name": "無敵豁免",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "底座",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -22296,6 +22523,11 @@
                 "name": "無敵豁免",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "底座",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -23037,6 +23269,43 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "comment": "遠征內容",
+            "field": "error",
+            "type": "add",
+            "value": "受「在上位者的陰影中」戰鬥傷痕限制，最多只能附屬 1 個角色模型。",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "b425-2b44-54ef-7bc9",
+                    "childName": "在上位者的陰影中",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "9cfd-1c32-585f-7d5c",
+                    "childName": "角色",
+                    "field": "associations",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": false,
+                    "type": "greaterThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
           }
         ],
         "profiles": [
@@ -23305,6 +23574,11 @@
                         "name": "無敵豁免",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "底座",
+                        "$text": "25mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -23448,6 +23722,11 @@
                         "name": "無敵豁免",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "底座",
+                        "$text": "25mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -23660,6 +23939,11 @@
                         "name": "無敵豁免",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "底座",
+                        "$text": "25mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -24102,6 +24386,11 @@
                         "name": "無敵豁免",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "底座",
+                        "$text": "25mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -24320,6 +24609,11 @@
                         "name": "無敵豁免",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "底座",
+                        "$text": "25mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -25271,7 +25565,52 @@
           {
             "name": "點",
             "typeId": "51b2-306e-1021-d207",
-            "value": 60
+            "value": 50
+          },
+          {
+            "name": "遠征點數",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "遠征：戰鬥榮譽",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "遠征：經驗",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "遠征：武器改造",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "黑石碎片",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "分遣隊點數",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "強化",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "後勤點數",
+            "typeId": "04b1-67f7-48cb-4f1f",
+            "value": 0
+          },
+          {
+            "name": "嘉獎點數",
+            "typeId": "e969-59de-fdb7-7c4e",
+            "value": 0
           }
         ],
         "entryLinks": [
@@ -25668,6 +26007,11 @@
                 "name": "無敵豁免",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "底座",
+                "$text": "40mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -26444,6 +26788,11 @@
                 "name": "無敵豁免",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "底座",
+                "$text": "50mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -26737,7 +27086,7 @@
           {
             "name": "點",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 60
           },
           {
             "name": "遠征點數",
@@ -26762,6 +27111,16 @@
           {
             "name": "黑石碎片",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "分遣隊點數",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "強化",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           },
           {
@@ -27301,6 +27660,11 @@
                 "name": "無敵豁免",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "底座",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -28109,6 +28473,43 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "comment": "遠征內容",
+            "field": "error",
+            "type": "add",
+            "value": "受「在上位者的陰影中」戰鬥傷痕限制，最多只能附屬 1 個角色模型。",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "b425-2b44-54ef-7bc9",
+                    "childName": "在上位者的陰影中",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "9cfd-1c32-585f-7d5c",
+                    "childName": "角色",
+                    "field": "associations",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": false,
+                    "type": "greaterThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
           }
         ],
         "profiles": [
@@ -28276,6 +28677,11 @@
                         "name": "無敵豁免",
                         "$text": "5+",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "底座",
+                        "$text": "32mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -28885,6 +29291,11 @@
                 "name": "無敵豁免",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "底座",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -29239,7 +29650,7 @@
           {
             "name": "點",
             "typeId": "51b2-306e-1021-d207",
-            "value": 65
+            "value": 60
           },
           {
             "name": "遠征點數",
@@ -29858,6 +30269,11 @@
                 "name": "無敵豁免",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "底座",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -31533,6 +31949,11 @@
                 "name": "無敵豁免",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "底座",
+                "$text": "Hull",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -32492,6 +32913,11 @@
                 "name": "無敵豁免",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "底座",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -32755,7 +33181,7 @@
           {
             "name": "點",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 65
           },
           {
             "name": "遠征點數",
@@ -33238,7 +33664,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 130,
+            "value": 120,
             "conditions": [
               {
                 "childId": "model",
@@ -33266,6 +33692,43 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
+              }
+            ]
+          },
+          {
+            "comment": "遠征內容",
+            "field": "error",
+            "type": "add",
+            "value": "受「在上位者的陰影中」戰鬥傷痕限制，最多只能附屬 1 個角色模型。",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "b425-2b44-54ef-7bc9",
+                    "childName": "在上位者的陰影中",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "9cfd-1c32-585f-7d5c",
+                    "childName": "角色",
+                    "field": "associations",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": false,
+                    "type": "greaterThan",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -34716,6 +35179,11 @@
                 "name": "無敵豁免",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "底座",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -35513,6 +35981,11 @@
                 "name": "無敵豁免",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "底座",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -36318,6 +36791,11 @@
                 "name": "無敵豁免",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "底座",
+                "$text": "~50mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -37334,13 +37812,6 @@
             "hidden": false,
             "primary": false,
             "targetId": "ccdd-3987-11ed-90cd"
-          },
-          {
-            "name": "額外攻擊武器",
-            "id": "f02d-e5d7-dc49-48c1",
-            "hidden": false,
-            "primary": false,
-            "targetId": "84c4-6d1e-e724-bd6e"
           },
           {
             "name": "傷害骰值武器",
