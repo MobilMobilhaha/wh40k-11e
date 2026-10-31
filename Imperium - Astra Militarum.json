@@ -1,2951 +1,2961 @@
 {
   "catalogue": {
+    "name": "帝國 - 星界軍",
+    "id": "b0ae-12a5-c84-ea45",
+    "authorContact": "Dunamis55",
+    "authorName": "BSData Developers",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemRevision": 1,
+    "library": false,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "catalogueLinks": [
+      {
+        "name": "帝國 - 星界軍 - 資料庫",
+        "id": "e373-3c0a-1185-467a",
+        "importRootEntries": false,
+        "targetId": "5a44-f048-114b-e3ff",
+        "type": "catalogue"
+      },
+      {
+        "name": "帝國 - 帝國騎士 - 資料庫",
+        "id": "38dd-a3d5-684f-2dea",
+        "importRootEntries": true,
+        "targetId": "1b6d-dc06-5db9-c7d1",
+        "type": "catalogue"
+      },
+      {
+        "name": "帝國 - 帝國特工",
+        "id": "4e1e-d351-d01e-df32",
+        "importRootEntries": true,
+        "targetId": "b00-cd86-4b4c-97ba",
+        "type": "catalogue"
+      },
+      {
+        "name": "資料庫 - 巨物",
+        "id": "60ee-b4f-eafc-93d1",
+        "targetId": "7481-280e-b55e-7867",
+        "type": "catalogue"
+      },
+      {
+        "name": "非結盟勢力",
+        "id": "81c5-242b-44b9-7b1b",
+        "targetId": "581a-46b9-5b86-44b7",
+        "type": "catalogue"
+      }
+    ],
     "entryLinks": [
       {
-        "import": true,
         "name": "「鐵手」史崔肯［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "f38c-6b5-d8d3-32db",
-        "targetId": "913f-3cb6-fb80-7f6a"
+        "hidden": false,
+        "import": true,
+        "targetId": "913f-3cb6-fb80-7f6a",
+        "type": "selectionEntry"
       },
       {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
         "name": "神盾防線",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "2c5d-9f8f-b19d-53be",
-        "targetId": "cb99-456-f100-40ed"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "cb99-456-f100-40ed",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "裝甲哨兵",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "29aa-34ba-8b9f-b6a6",
-        "targetId": "7e34-20cf-1149-74a1"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "7e34-20cf-1149-74a1",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "阿提蘭粗騎兵",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "1c41-ff61-cecb-fce2",
-        "targetId": "2299-bed9-3e-2b60"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "2299-bed9-3e-2b60",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "毒刃",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "abb6-cf38-a3f1-7e95",
-        "targetId": "a6a1-1612-f982-31"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "a6a1-1612-f982-31",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "剋星鎚",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "4c9f-3441-edd3-c4e5",
-        "targetId": "d10-48db-3241-ec72"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "d10-48db-3241-ec72",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "剋星劍",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "4e46-82c5-d3b3-c27d",
-        "targetId": "30f5-d90a-9811-d763"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "30f5-d90a-9811-d763",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "石化蜥蜴",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "aa89-8d18-ab88-85ef",
-        "targetId": "bf53-4ab3-ff75-9aa0"
+        "hidden": false,
+        "import": true,
+        "targetId": "bf53-4ab3-ff75-9aa0",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
-        "import": true,
         "name": "牛頭人小隊",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "3ec3-1ac7-2064-9783",
-        "targetId": "37ad-63e5-1786-87cf"
+        "hidden": false,
+        "import": true,
+        "targetId": "37ad-63e5-1786-87cf",
+        "type": "selectionEntry"
       },
       {
-        "import": true,
         "name": "卡迪亞城主",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "c43b-26b5-4c4-521c",
-        "targetId": "2b49-4d03-aaf5-3532"
+        "hidden": false,
+        "import": true,
+        "targetId": "2b49-4d03-aaf5-3532",
+        "type": "selectionEntry"
       },
       {
-        "import": true,
         "name": "卡迪亞指揮班",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "775d-c8f4-8d6a-e768",
-        "targetId": "4d28-f2a7-67c1-eb2e"
+        "hidden": false,
+        "import": true,
+        "targetId": "4d28-f2a7-67c1-eb2e",
+        "type": "selectionEntry"
       },
       {
-        "import": true,
         "name": "卡迪亞突擊兵",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "7b5-9080-f871-aff9",
-        "targetId": "a2aa-7688-dcb1-4132"
+        "hidden": false,
+        "import": true,
+        "targetId": "a2aa-7688-dcb1-4132",
+        "type": "selectionEntry"
       },
       {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
         "name": "奇美拉",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "9357-7f3f-56be-3129",
-        "targetId": "cf23-58db-8ba4-9ec8"
+        "hidden": false,
+        "import": true,
+        "targetId": "cf23-58db-8ba4-9ec8",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
-        "import": true,
         "name": "政委",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "f86e-edef-7ce6-6ded",
-        "targetId": "a979-5b21-dc69-b949"
+        "hidden": false,
+        "import": true,
+        "targetId": "a979-5b21-dc69-b949",
+        "type": "selectionEntry"
       },
       {
-        "import": true,
         "name": "克里格死亡軍團",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "4fb3-5033-9135-e605",
-        "targetId": "ade0-fa44-d4cf-4fc8"
+        "hidden": false,
+        "import": true,
+        "targetId": "ade0-fa44-d4cf-4fc8",
+        "type": "selectionEntry"
       },
       {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
         "name": "死亡打擊",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "4425-da07-5180-9b30",
-        "targetId": "e19f-b9b8-75d5-8520"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "e19f-b9b8-75d5-8520",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "毀滅鎚",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "a4df-efb2-5bfa-cff6",
-        "targetId": "8342-57dd-69d3-e698"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "8342-57dd-69d3-e698",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "野戰軍械炮組",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "f790-9b08-1134-58b3",
-        "targetId": "64a9-4cb2-400e-efd1"
+        "hidden": false,
+        "import": true,
+        "targetId": "64a9-4cb2-400e-efd1",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
-        "import": true,
         "name": "蓋恩特幽靈",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "ffd3-a6da-a79e-bb34",
-        "targetId": "653d-80-d715-7d55"
+        "hidden": false,
+        "import": true,
+        "targetId": "653d-80-d715-7d55",
+        "type": "selectionEntry"
       },
       {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
         "name": "卡迪亞重武器班",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "30f1-5a2a-9f88-d26c",
-        "targetId": "91a9-15e-b5f0-700f"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "91a9-15e-b5f0-700f",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "地獄鎚",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "4b14-165e-b687-1078",
-        "targetId": "8277-6399-5d74-760d"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "8277-6399-5d74-760d",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "地獄犬",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "2684-7f5b-aa65-923e",
-        "targetId": "c28b-c3af-38b2-8865"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "c28b-c3af-38b2-8865",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "九頭蛇",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "287e-ac22-3dc3-fac0",
-        "targetId": "4967-19b6-1e2a-a300"
+        "hidden": false,
+        "import": true,
+        "targetId": "4967-19b6-1e2a-a300",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
-        "import": true,
         "name": "卡斯爾金",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "3628-3edf-659e-6405",
-        "targetId": "abe4-ca71-d5a7-3883"
+        "hidden": false,
+        "import": true,
+        "targetId": "abe4-ca71-d5a7-3883",
+        "type": "selectionEntry"
       },
       {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
         "name": "黎曼魯斯戰鬥坦克",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "4071-d276-4b66-b186",
-        "targetId": "c581-3ab5-49a0-9ec0"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "c581-3ab5-49a0-9ec0",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "黎曼魯斯殲滅者",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "369c-b9c1-931-60ee",
-        "targetId": "286e-8e39-b807-5981"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "286e-8e39-b807-5981",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "黎曼魯斯拆毀者",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "805a-7234-cf45-24fb",
-        "targetId": "cbcc-e0ad-4b9-2c76"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "cbcc-e0ad-4b9-2c76",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "黎曼魯斯驅滅者",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "3fa3-3764-1622-6b9d",
-        "targetId": "d8c8-ea02-21bf-de0b"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "d8c8-ea02-21bf-de0b",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "黎曼魯斯殲滅者",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "d9ac-54cb-cdb9-6d4c",
-        "targetId": "ddf2-228b-edd9-7e83"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "ddf2-228b-edd9-7e83",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "黎曼魯斯懲罰者",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "f9d6-8548-3291-8c60",
-        "targetId": "e529-5853-d7e2-17ad"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "e529-5853-d7e2-17ad",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "太陽領主李奧圖斯",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "d2de-6903-46a-f02c",
-        "targetId": "a9d-55c1-3d24-fa25"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "a9d-55c1-3d24-fa25",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "蠍尾獅",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "df92-e0be-df8f-73fc",
-        "targetId": "41be-48c9-5476-f47a"
+        "hidden": false,
+        "import": true,
+        "targetId": "41be-48c9-5476-f47a",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
-        "import": true,
         "name": "暴風軍指揮小隊",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "30ef-6edf-f9be-6b3b",
-        "targetId": "497-36ad-8ecb-f7c7"
+        "hidden": false,
+        "import": true,
+        "targetId": "497-36ad-8ecb-f7c7",
+        "type": "selectionEntry"
       },
       {
-        "import": true,
         "name": "諾克·戴德多格",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "3ea1-4365-6d97-1b59",
-        "targetId": "bcda-f4bb-e726-9bfe"
+        "hidden": false,
+        "import": true,
+        "targetId": "bcda-f4bb-e726-9bfe",
+        "type": "selectionEntry"
       },
       {
-        "import": true,
         "name": "歐格林護衛",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "2265-a0d2-432c-ca41",
-        "targetId": "a7c2-1534-93b0-c0eb"
+        "hidden": false,
+        "import": true,
+        "targetId": "a7c2-1534-93b0-c0eb",
+        "type": "selectionEntry"
       },
       {
-        "import": true,
         "name": "歐格林小隊",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "ae81-eb8-844-95e7",
-        "targetId": "c9eb-2007-af01-a853"
+        "hidden": false,
+        "import": true,
+        "targetId": "c9eb-2007-af01-a853",
+        "type": "selectionEntry"
       },
       {
-        "import": true,
         "name": "原鑄靈能者",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "f1f4-72d3-d4f4-97de",
-        "targetId": "4ad0-e988-a513-9530"
+        "hidden": false,
+        "import": true,
+        "targetId": "4ad0-e988-a513-9530",
+        "type": "selectionEntry"
       },
       {
-        "import": true,
         "name": "暫定整備［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "55e9-8263-501f-4eda",
-        "targetId": "f4d1-cea9-f487-4501"
+        "hidden": false,
+        "import": true,
+        "targetId": "f4d1-cea9-f487-4501",
+        "type": "selectionEntry"
       },
       {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
         "name": "軍團隨員［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "9f03-ced1-9af-3f2d",
-        "targetId": "5da1-9869-294e-8187"
+        "hidden": false,
+        "import": true,
+        "targetId": "5da1-9869-294e-8187",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
-        "import": true,
         "name": "科技祭司工程先知",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "77a1-a36b-5192-b450",
-        "targetId": "f556-a33d-dc90-d6fc"
+        "hidden": false,
+        "import": true,
+        "targetId": "f556-a33d-dc90-d6fc",
+        "type": "selectionEntry"
       },
       {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
         "name": "羅格多恩戰鬥坦克",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "c7e0-68a4-64af-88e4",
-        "targetId": "2127-efcc-1f62-7fab"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "2127-efcc-1f62-7fab",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "斥候哨兵",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "1ee4-62ac-f8e3-cf62",
-        "targetId": "4424-a6ec-6d9e-a936"
+        "hidden": false,
+        "import": true,
+        "targetId": "4424-a6ec-6d9e-a936",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
-        "import": true,
         "name": "哈克中士［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "a496-7c35-f648-d819",
-        "targetId": "a8d5-81f9-96a0-fd12"
+        "hidden": false,
+        "import": true,
+        "targetId": "a8d5-81f9-96a0-fd12",
+        "type": "selectionEntry"
       },
       {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
         "name": "陰影之劍",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "b5d3-ef49-da86-62ab",
-        "targetId": "1b48-2f2-8e9c-1308"
+        "hidden": false,
+        "import": true,
+        "targetId": "1b48-2f2-8e9c-1308",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
-        "import": true,
         "name": "狡狐馬博",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "8d22-6401-74fb-c577",
-        "targetId": "4d50-e535-616a-259c"
+        "hidden": false,
+        "import": true,
+        "targetId": "4d50-e535-616a-259c",
+        "type": "selectionEntry"
       },
       {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
         "name": "風暴領主",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "8621-8c62-2041-9bb5",
-        "targetId": "892b-678c-72e6-ee58"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "892b-678c-72e6-ee58",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "黎曼魯斯指揮官",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "3b7d-b60f-4c12-3ab0",
-        "targetId": "5430-18e-d7b0-1d54"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "5430-18e-d7b0-1d54",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "牛頭人運兵車",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "fd9d-7a51-43be-16d1",
-        "targetId": "11e5-d4ab-d140-ac38"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "11e5-d4ab-d140-ac38",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "牛頭人主型",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "f6f4-dd0a-a388-a9fe",
-        "targetId": "4b67-f814-358e-f776"
+        "hidden": false,
+        "import": true,
+        "targetId": "4b67-f814-358e-f776",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
-        "import": true,
         "name": "暴風軍菁英",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "fe4d-4c95-5b84-2670",
-        "targetId": "679b-f37f-2388-748"
+        "hidden": false,
+        "import": true,
+        "targetId": "679b-f37f-2388-748",
+        "type": "selectionEntry"
       },
       {
-        "import": true,
         "name": "烏爾蘇拉·克里德",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "b455-c6f1-b37e-c3b7",
-        "targetId": "b6b2-9971-ec0c-349e"
+        "hidden": false,
+        "import": true,
+        "targetId": "b6b2-9971-ec0c-349e",
+        "type": "selectionEntry"
       },
       {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
         "name": "女武神",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "792-4a0b-303c-bf6c",
-        "targetId": "9665-3160-8a04-d2bc"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "9665-3160-8a04-d2bc",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "雙足飛龍",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "f9a6-cebc-48db-8236",
-        "targetId": "d11b-c49d-41bf-1f36"
+        "hidden": false,
+        "import": true,
+        "targetId": "d11b-c49d-41bf-1f36",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
-        "import": true,
         "name": "分遣隊",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "cd5f-2fc8-7d6f-9dee",
-        "targetId": "406d-8707-c597-abd6"
+        "hidden": false,
+        "import": true,
+        "targetId": "406d-8707-c597-abd6",
+        "type": "selectionEntry"
       },
       {
-        "import": true,
         "name": "卡塔昌叢林戰士",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "34a6-be21-d115-fe06",
-        "targetId": "fe5a-764e-37ed-7cef"
+        "hidden": false,
+        "import": true,
+        "targetId": "fe5a-764e-37ed-7cef",
+        "type": "selectionEntry"
       },
       {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
         "name": "軍務部機僕［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "312a-7de8-16f7-1b1",
-        "targetId": "5c5f-8f23-7f13-2af6"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "5c5f-8f23-7f13-2af6",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "風暴劍",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "d3fe-e9f2-d76b-a67",
-        "targetId": "67bc-a760-7ed5-9952"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "67bc-a760-7ed5-9952",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "死亡騎兵",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "d30b-7a78-62e8-3ba5",
-        "targetId": "f1a-7c78-ffdc-bf5b"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "f1a-7c78-ffdc-bf5b",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "地獄殘兵［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "ff83-3a46-581b-5372",
-        "targetId": "2408-cf76-fe11-c6da"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "2408-cf76-fe11-c6da",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "卡諾登［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "a573-d275-227d-d26e",
-        "targetId": "173e-ddd1-354c-583b"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "173e-ddd1-354c-583b",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "獨眼巨人爆破載具",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "9ad5-50be-135c-abbf",
-        "targetId": "95b4-68d6-26cf-188e"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "95b4-68d6-26cf-188e",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "馬卡多 ［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "8041-c072-2179-b50",
-        "targetId": "f706-c35a-a325-38bf"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "f706-c35a-a325-38bf",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "馬卡多殲滅者 ［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "ba5e-da5f-c28a-e649",
-        "targetId": "bc69-45ff-789c-90bb"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "bc69-45ff-789c-90bb",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "馬卡多防禦者 ［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "7ac3-d9ed-f091-4a28",
-        "targetId": "a185-ae7a-4503-8ceb"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "a185-ae7a-4503-8ceb",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "馬卡多地獄火 ［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "9445-8040-98c9-6400",
-        "targetId": "5e59-657b-5c85-1d92"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "5e59-657b-5c85-1d92",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "風暴刃 ［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "8f3d-8b4b-eac0-f1e1",
-        "targetId": "a93c-9d4b-8fd9-15b4"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "a93c-9d4b-8fd9-15b4",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "馬卡里烏斯 ［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "d15e-ed71-a47f-87c",
-        "targetId": "d7a-7abb-831b-1c67"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "d7a-7abb-831b-1c67",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "馬卡里烏斯殲滅者 ［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "366-4207-f5fe-a98d",
-        "targetId": "731f-e022-6394-3690"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "731f-e022-6394-3690",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "馬卡里烏斯伏爾甘 ［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "5460-7bbe-b13a-a403",
-        "targetId": "e951-f9f2-3dd4-d5b8"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "e951-f9f2-3dd4-d5b8",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "禁衛 ［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "eb5c-2b78-d795-d078",
-        "targetId": "247-2938-79b6-ff4b"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "247-2938-79b6-ff4b",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "克拉蘇斯 ［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "58b4-e505-ee90-87f0",
-        "targetId": "c7cc-ad05-15f6-a4f3"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "c7cc-ad05-15f6-a4f3",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "巨像 ［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "cfdd-bee8-69e6-33f9",
-        "targetId": "1653-dc47-25b-c71f"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "1653-dc47-25b-c71f",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "瓦爾多 ［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "b03b-7117-bbc3-dcbc",
-        "targetId": "3936-a532-dc5e-8498"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "3936-a532-dc5e-8498",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "復仇者攻擊戰機",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "2da7-241c-8df1-8a08",
-        "targetId": "532c-2c97-357a-fa1e"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "532c-2c97-357a-fa1e",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "沃斯型閃電戰機［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "9866-16e8-9085-4b18",
-        "targetId": "ed3d-fa87-4f0d-d10c"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "ed3d-fa87-4f0d-d10c",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "禿鷹砲艇［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "7a3e-319d-faa3-e341",
-        "targetId": "739e-cb18-c050-fca1"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "739e-cb18-c050-fca1",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "掠奪者轟炸機［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "505f-957b-6b38-abb3",
-        "targetId": "7f1f-38c8-1bdc-55d7"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "7f1f-38c8-1bdc-55d7",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "掠奪者毀滅機［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "5699-9996-d84e-77ab",
-        "targetId": "18f9-56ec-7334-69a7"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "18f9-56ec-7334-69a7",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "狼蛛炮組［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "73f3-843d-674f-7f77",
-        "targetId": "1502-bae3-93b4-c89a"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "1502-bae3-93b4-c89a",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "刺劍雷射殲滅者炮組［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "e659-f4ce-f63-e8ca",
-        "targetId": "31ec-a804-92ad-97"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "31ec-a804-92ad-97",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "哈迪斯破障鑽機［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "d8bb-bc8d-b3c8-a33b",
-        "targetId": "ed8d-9053-9d33-61da"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "ed8d-9053-9d33-61da",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "特洛伊支援載具［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "aea6-e9e8-178f-7ec3",
-        "targetId": "fbaf-15f6-37d8-c5b"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "fbaf-15f6-37d8-c5b",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "黎曼魯斯處決者",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "77bd-ada2-f0c9-5aaf",
-        "targetId": "c8fc-b9fa-d126-a296"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "c8fc-b9fa-d126-a296",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "美杜莎炮架炮組 ［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "5fe4-d1c1-1d88-9328",
-        "targetId": "60c8-fd76-c98b-304a"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "60c8-fd76-c98b-304a",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "震地者炮架炮組 ［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "ce09-1a61-819d-2cf6",
-        "targetId": "efc7-ac4c-1fcd-5b39"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "efc7-ac4c-1fcd-5b39",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "女武神天爪［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "8634-48cc-9feb-c7af",
-        "targetId": "f8cc-73b7-6caa-f741"
-      },
-      {
+        "hidden": false,
+        "import": true,
+        "targetId": "f8cc-73b7-6caa-f741",
+        "type": "selectionEntry",
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
+            "field": "hidden",
             "type": "set",
             "value": true,
-            "field": "hidden"
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
-        ],
-        "import": true,
+        ]
+      },
+      {
         "name": "天鷹登陸艇［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "4da1-42fd-ba30-5808",
-        "targetId": "b44d-ecac-2542-e584"
+        "hidden": false,
+        "import": true,
+        "targetId": "b44d-ecac-2542-e584",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
-        "entryLinks": [
-          {
-            "import": true,
-            "name": "顯示帝國騎士",
-            "hidden": false,
-            "type": "selectionEntry",
-            "id": "f8d5-8d30-ef1d-9fc3",
-            "targetId": "e82c-6f8c-2b97-a287"
-          },
-          {
-            "import": true,
-            "name": "顯示帝國特勤",
-            "hidden": false,
-            "type": "selectionEntry",
-            "id": "7593-597b-26b7-2717",
-            "targetId": "e08b-2448-5606-fefb"
-          },
-          {
-            "import": true,
-            "name": "顯示泰坦",
-            "hidden": false,
-            "type": "selectionEntry",
-            "id": "1494-4bb1-b7e6-d879",
-            "targetId": "f26b-79db-80e0-3a3b"
-          }
-        ],
-        "import": true,
         "name": "顯示／隱藏選項",
-        "hidden": false,
-        "type": "selectionEntry",
         "id": "6f5b-b62-37d0-4f6c",
-        "targetId": "e8ef-836a-a9d1-901d"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "多米努斯裝甲攻城臼炮［傳奇］",
         "hidden": false,
-        "type": "selectionEntry",
-        "id": "8b44-2197-db9f-2af4",
-        "targetId": "fc41-a899-8d5a-dc01"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
         "import": true,
-        "name": "重型迫擊炮小隊 ［傳奇］",
-        "hidden": false,
+        "targetId": "e8ef-836a-a9d1-901d",
         "type": "selectionEntry",
-        "id": "9239-111e-4ef4-b40f",
-        "targetId": "e184-bfe9-ea12-a5e3"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "重型四聯發射器小隊［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "19cc-ae92-3df3-2530",
-        "targetId": "5762-f71e-7693-49a6"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "死亡騎兵政委［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "886b-df8b-1e8b-e17b",
-        "targetId": "d58c-e97f-5062-d9e1"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "阿庫里安風暴鎚［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "8fb2-80a9-b1ae-29db",
-        "targetId": "59c4-e4de-fe70-b221"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "戈爾貢重型運輸 ［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "2f30-49cf-84dc-4b84",
-        "targetId": "5d8e-2b2a-6ed1-8309"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "克里格死亡軍團擲彈兵班［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "f798-9d17-25ab-65af",
-        "targetId": "8a25-2a0c-87d2-3ea6"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "阿特拉斯回收載具［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "7f70-8a46-23f7-226",
-        "targetId": "9673-7eaa-8ed9-bc7c"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "艾里西亞空降哨兵［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "d3b9-1474-30d5-dfc1",
-        "targetId": "badd-6133-a469-613c"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "震地者平台 ［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "2152-f3be-348-180e",
-        "targetId": "cb82-5250-6959-d2c3"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "穆卡利騎兵［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "6ea3-4899-60a0-3f65",
-        "targetId": "421a-6683-9e78-fb7"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "火蜥蜴斥候載具 ［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "2974-41f7-e1cf-2483",
-        "targetId": "73b2-edbf-eec3-563d"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "陶洛斯突擊載具 ［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "82b2-5ba2-1f8e-2ed3",
-        "targetId": "6800-f1ce-7deb-d9eb"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "陶洛斯狩獵者［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "6fc2-9ba5-cf7a-6afc",
-        "targetId": "a95f-9dd6-de66-fa59"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "火蜥蜴指揮載具 ［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "dc2d-a349-be04-8647",
-        "targetId": "9fb1-876b-ac2d-6c9b"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "風暴奇美拉［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "4df1-2aa5-8f96-50d3",
-        "targetId": "b6a7-4d64-1155-70c1"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "半人馬輕型運載車 ［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "52e0-b396-70fa-e952",
-        "targetId": "81d4-2ed9-b0a4-6bdd"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "冥府殲滅者坦克獵手［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "de34-bdb3-28fa-532a",
-        "targetId": "28d1-70b2-70be-c998"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "馬卡里烏斯歐米茄 ［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "dd89-8c13-78ce-c058",
-        "targetId": "4b76-f049-77b1-38bf"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "萊因與勞斯［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "f23c-da85-28c7-1776",
-        "targetId": "7d5b-1aae-55-2f5b"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "軍需官幹部班［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "d1dd-44e7-b654-7bc3",
-        "targetId": "1d02-5302-f162-65d6"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "軍刀武器炮組［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "c46d-1057-94aa-9df8",
-        "targetId": "3597-3243-6870-70a1"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "艾里西亞狙擊手班［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "7300-2798-b3a1-cc45",
-        "targetId": "d4da-78a0-ef0-1e7e"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "亞米吉多頓型美杜莎［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "f78-481-9450-b631",
-        "targetId": "a96a-83e1-9200-c88b"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "阿爾武斯輕型運輸機［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "e27e-ffc-cb61-740",
-        "targetId": "8b13-7c06-de12-4227"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "獅鷲迫擊炮運載車［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "3eb-afd2-e2a5-fa07",
-        "targetId": "7be8-bfe0-6416-8ed7"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "彌諾陶洛斯 ［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "10d-3ef0-803-a47a",
-        "targetId": "92a9-a820-b7f-7dc2"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "蠍尾獅平台［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "348-4a28-2b9-aca",
-        "targetId": "adbb-4624-738f-61ec"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "九頭蛇平台 ［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "7832-9d18-8dd-757b",
-        "targetId": "f46c-76ef-3d9c-98ea"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "哨兵動力舉重機［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "5039-6bdc-7bf3-b658",
-        "targetId": "8cc1-8512-710f-f15f"
-      },
-      {
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "1d6e-2579-8e7f-1ed4",
-                "shared": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
-        "import": true,
-        "name": "仇殺砲艇［傳奇］",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "ef71-b4d8-a9e-6e18",
-        "targetId": "4946-40d2-ee8b-a71c"
-      },
-      {
-        "import": true,
-        "name": "暴風軍天鷹兵",
-        "hidden": false,
-        "id": "8c31-ea58-28e3-d4dd",
-        "type": "selectionEntry",
-        "targetId": "aa9f-f137-1638-0369"
-      },
-      {
-        "import": true,
-        "name": "鼠人",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "75d6-a5e8-b8f8-9091",
-        "targetId": "8293-a070-2c87-de30"
-      },
-      {
-        "import": true,
-        "name": "元帥領主德萊爾",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "ee25-9289-f244-059b",
-        "targetId": "9033-d07c-3e1c-f6f0"
-      },
-      {
-        "import": true,
-        "name": "克里格指揮班",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "7109-8a5b-463b-43af",
-        "targetId": "fbcd-274b-0196-b4f6"
-      },
-      {
-        "import": true,
-        "name": "卡塔昌指揮班",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "35fd-6169-2183-5edf",
-        "targetId": "7d22-9fb6-a7e0-c21b"
-      },
-      {
-        "import": true,
-        "name": "火砲小隊",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "c446-72c9-4147-8fcb",
-        "targetId": "0595-6d6c-a783-12ab"
-      },
-      {
-        "import": true,
-        "name": "羅格多恩指揮官",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "c447-a6f6-2245-f7da",
-        "targetId": "78b6-f280-bba9-0594"
-      },
-      {
-        "import": true,
-        "name": "國教牧師",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "1a39-2529-3722-60d3",
-        "targetId": "ba72-7b05-33c9-a1c0"
-      },
-      {
-        "import": true,
-        "name": "克里格戰鬥工兵",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "6fd0-a0ae-a673-1b14",
-        "targetId": "3e90-9359-2aaa-205e"
-      },
-      {
-        "import": true,
-        "name": "克里格重型武器班",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "4bde-dc8a-4a53-6924",
-        "targetId": "1669-d311-eff9-243b"
-      },
-      {
-        "import": true,
-        "name": "卡塔昌重武器班",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "5727-4dd2-5ff4-abd0",
-        "targetId": "dfcb-7854-1d6d-cd02"
-      },
-      {
         "entryLinks": [
           {
-            "import": true,
-            "name": "軍旅巡迴",
+            "name": "顯示帝國騎士",
+            "id": "f8d5-8d30-ef1d-9fc3",
             "hidden": false,
-            "id": "bfbf-60b3-1e89-658c",
-            "type": "selectionEntryGroup",
-            "targetId": "b30e-426f-b315-62aa",
-            "collapsible": false
+            "import": true,
+            "targetId": "e82c-6f8c-2b97-a287",
+            "type": "selectionEntry"
           },
           {
-            "import": true,
-            "name": "暗影行動",
+            "name": "顯示帝國特勤",
+            "id": "7593-597b-26b7-2717",
             "hidden": false,
-            "id": "406a-d472-ffad-66e1",
-            "type": "selectionEntryGroup",
-            "targetId": "68a2-ada5-3cd4-c5a3"
+            "import": true,
+            "targetId": "e08b-2448-5606-fefb",
+            "type": "selectionEntry"
           },
           {
-            "import": true,
-            "name": "騎士任務",
+            "name": "顯示泰坦",
+            "id": "1494-4bb1-b7e6-d879",
             "hidden": false,
-            "id": "f6d2-44a6-7edf-6494",
-            "type": "selectionEntryGroup",
-            "targetId": "12f3-7f5b-747e-41ca"
+            "import": true,
+            "targetId": "f26b-79db-80e0-3a3b",
+            "type": "selectionEntry"
           }
-        ],
+        ]
+      },
+      {
+        "name": "多米努斯裝甲攻城臼炮［傳奇］",
+        "id": "8b44-2197-db9f-2af4",
+        "hidden": false,
         "import": true,
+        "targetId": "fc41-a899-8d5a-dc01",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "重型迫擊炮小隊 ［傳奇］",
+        "id": "9239-111e-4ef4-b40f",
+        "hidden": false,
+        "import": true,
+        "targetId": "e184-bfe9-ea12-a5e3",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "重型四聯發射器小隊［傳奇］",
+        "id": "19cc-ae92-3df3-2530",
+        "hidden": false,
+        "import": true,
+        "targetId": "5762-f71e-7693-49a6",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "死亡騎兵政委［傳奇］",
+        "id": "886b-df8b-1e8b-e17b",
+        "hidden": false,
+        "import": true,
+        "targetId": "d58c-e97f-5062-d9e1",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "阿庫里安風暴鎚［傳奇］",
+        "id": "8fb2-80a9-b1ae-29db",
+        "hidden": false,
+        "import": true,
+        "targetId": "59c4-e4de-fe70-b221",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "戈爾貢重型運輸 ［傳奇］",
+        "id": "2f30-49cf-84dc-4b84",
+        "hidden": false,
+        "import": true,
+        "targetId": "5d8e-2b2a-6ed1-8309",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "克里格死亡軍團擲彈兵班［傳奇］",
+        "id": "f798-9d17-25ab-65af",
+        "hidden": false,
+        "import": true,
+        "targetId": "8a25-2a0c-87d2-3ea6",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "阿特拉斯回收載具［傳奇］",
+        "id": "7f70-8a46-23f7-226",
+        "hidden": false,
+        "import": true,
+        "targetId": "9673-7eaa-8ed9-bc7c",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "艾里西亞空降哨兵［傳奇］",
+        "id": "d3b9-1474-30d5-dfc1",
+        "hidden": false,
+        "import": true,
+        "targetId": "badd-6133-a469-613c",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "震地者平台 ［傳奇］",
+        "id": "2152-f3be-348-180e",
+        "hidden": false,
+        "import": true,
+        "targetId": "cb82-5250-6959-d2c3",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "穆卡利騎兵［傳奇］",
+        "id": "6ea3-4899-60a0-3f65",
+        "hidden": false,
+        "import": true,
+        "targetId": "421a-6683-9e78-fb7",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "火蜥蜴斥候載具 ［傳奇］",
+        "id": "2974-41f7-e1cf-2483",
+        "hidden": false,
+        "import": true,
+        "targetId": "73b2-edbf-eec3-563d",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "陶洛斯突擊載具 ［傳奇］",
+        "id": "82b2-5ba2-1f8e-2ed3",
+        "hidden": false,
+        "import": true,
+        "targetId": "6800-f1ce-7deb-d9eb",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "陶洛斯狩獵者［傳奇］",
+        "id": "6fc2-9ba5-cf7a-6afc",
+        "hidden": false,
+        "import": true,
+        "targetId": "a95f-9dd6-de66-fa59",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "火蜥蜴指揮載具 ［傳奇］",
+        "id": "dc2d-a349-be04-8647",
+        "hidden": false,
+        "import": true,
+        "targetId": "9fb1-876b-ac2d-6c9b",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "風暴奇美拉［傳奇］",
+        "id": "4df1-2aa5-8f96-50d3",
+        "hidden": false,
+        "import": true,
+        "targetId": "b6a7-4d64-1155-70c1",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "半人馬輕型運載車 ［傳奇］",
+        "id": "52e0-b396-70fa-e952",
+        "hidden": false,
+        "import": true,
+        "targetId": "81d4-2ed9-b0a4-6bdd",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "冥府殲滅者坦克獵手［傳奇］",
+        "id": "de34-bdb3-28fa-532a",
+        "hidden": false,
+        "import": true,
+        "targetId": "28d1-70b2-70be-c998",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "馬卡里烏斯歐米茄 ［傳奇］",
+        "id": "dd89-8c13-78ce-c058",
+        "hidden": false,
+        "import": true,
+        "targetId": "4b76-f049-77b1-38bf",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "萊因與勞斯［傳奇］",
+        "id": "f23c-da85-28c7-1776",
+        "hidden": false,
+        "import": true,
+        "targetId": "7d5b-1aae-55-2f5b",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "軍需官幹部班［傳奇］",
+        "id": "d1dd-44e7-b654-7bc3",
+        "hidden": false,
+        "import": true,
+        "targetId": "1d02-5302-f162-65d6",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "軍刀武器炮組［傳奇］",
+        "id": "c46d-1057-94aa-9df8",
+        "hidden": false,
+        "import": true,
+        "targetId": "3597-3243-6870-70a1",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "艾里西亞狙擊手班［傳奇］",
+        "id": "7300-2798-b3a1-cc45",
+        "hidden": false,
+        "import": true,
+        "targetId": "d4da-78a0-ef0-1e7e",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "亞米吉多頓型美杜莎［傳奇］",
+        "id": "f78-481-9450-b631",
+        "hidden": false,
+        "import": true,
+        "targetId": "a96a-83e1-9200-c88b",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "阿爾武斯輕型運輸機［傳奇］",
+        "id": "e27e-ffc-cb61-740",
+        "hidden": false,
+        "import": true,
+        "targetId": "8b13-7c06-de12-4227",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "獅鷲迫擊炮運載車［傳奇］",
+        "id": "3eb-afd2-e2a5-fa07",
+        "hidden": false,
+        "import": true,
+        "targetId": "7be8-bfe0-6416-8ed7",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "彌諾陶洛斯 ［傳奇］",
+        "id": "10d-3ef0-803-a47a",
+        "hidden": false,
+        "import": true,
+        "targetId": "92a9-a820-b7f-7dc2",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "蠍尾獅平台［傳奇］",
+        "id": "348-4a28-2b9-aca",
+        "hidden": false,
+        "import": true,
+        "targetId": "adbb-4624-738f-61ec",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "九頭蛇平台 ［傳奇］",
+        "id": "7832-9d18-8dd-757b",
+        "hidden": false,
+        "import": true,
+        "targetId": "f46c-76ef-3d9c-98ea",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "哨兵動力舉重機［傳奇］",
+        "id": "5039-6bdc-7bf3-b658",
+        "hidden": false,
+        "import": true,
+        "targetId": "8cc1-8512-710f-f15f",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "仇殺砲艇［傳奇］",
+        "id": "ef71-b4d8-a9e-6e18",
+        "hidden": false,
+        "import": true,
+        "targetId": "4946-40d2-ee8b-a71c",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "暴風軍天鷹兵",
+        "id": "8c31-ea58-28e3-d4dd",
+        "hidden": false,
+        "import": true,
+        "targetId": "aa9f-f137-1638-0369",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "鼠人",
+        "id": "75d6-a5e8-b8f8-9091",
+        "hidden": false,
+        "import": true,
+        "targetId": "8293-a070-2c87-de30",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "元帥領主德萊爾",
+        "id": "ee25-9289-f244-059b",
+        "hidden": false,
+        "import": true,
+        "targetId": "9033-d07c-3e1c-f6f0",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "克里格指揮班",
+        "id": "7109-8a5b-463b-43af",
+        "hidden": false,
+        "import": true,
+        "targetId": "fbcd-274b-0196-b4f6",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "卡塔昌指揮班",
+        "id": "35fd-6169-2183-5edf",
+        "hidden": false,
+        "import": true,
+        "targetId": "7d22-9fb6-a7e0-c21b",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "火砲小隊",
+        "id": "c446-72c9-4147-8fcb",
+        "hidden": false,
+        "import": true,
+        "targetId": "0595-6d6c-a783-12ab",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "羅格多恩指揮官",
+        "id": "c447-a6f6-2245-f7da",
+        "hidden": false,
+        "import": true,
+        "targetId": "78b6-f280-bba9-0594",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "國教牧師",
+        "id": "1a39-2529-3722-60d3",
+        "hidden": false,
+        "import": true,
+        "targetId": "ba72-7b05-33c9-a1c0",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "克里格戰鬥工兵",
+        "id": "6fd0-a0ae-a673-1b14",
+        "hidden": false,
+        "import": true,
+        "targetId": "3e90-9359-2aaa-205e",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "克里格重型武器班",
+        "id": "4bde-dc8a-4a53-6924",
+        "hidden": false,
+        "import": true,
+        "targetId": "1669-d311-eff9-243b",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "卡塔昌重武器班",
+        "id": "5727-4dd2-5ff4-abd0",
+        "hidden": false,
+        "import": true,
+        "targetId": "dfcb-7854-1d6d-cd02",
+        "type": "selectionEntry"
+      },
+      {
         "name": "戰鬥序列",
-        "hidden": false,
         "id": "d539-debc-87ba-ddb8",
+        "hidden": false,
+        "import": true,
+        "targetId": "eda7-8b4b-3719-af36",
         "type": "selectionEntry",
-        "targetId": "eda7-8b4b-3719-af36"
+        "entryLinks": [
+          {
+            "name": "軍旅巡迴",
+            "id": "bfbf-60b3-1e89-658c",
+            "collapsible": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b30e-426f-b315-62aa",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "暗影行動",
+            "id": "406a-d472-ffad-66e1",
+            "hidden": false,
+            "import": true,
+            "targetId": "68a2-ada5-3cd4-c5a3",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "騎士任務",
+            "id": "f6d2-44a6-7edf-6494",
+            "hidden": false,
+            "import": true,
+            "targetId": "12f3-7f5b-747e-41ca",
+            "type": "selectionEntryGroup"
+          }
+        ]
       },
       {
-        "import": true,
         "name": "前線指揮官［試煉熔爐］",
-        "hidden": false,
         "id": "c90d-57dd-0316-ce67",
-        "type": "selectionEntry",
-        "targetId": "4fc5-184d-b305-3551"
+        "hidden": false,
+        "import": true,
+        "targetId": "4fc5-184d-b305-3551",
+        "type": "selectionEntry"
       },
       {
-        "import": true,
         "name": "哨兵指揮官［試煉熔爐］",
-        "hidden": false,
         "id": "36ac-880c-7435-e5ed",
-        "type": "selectionEntry",
-        "targetId": "a040-9715-5d3a-52af"
+        "hidden": false,
+        "import": true,
+        "targetId": "a040-9715-5d3a-52af",
+        "type": "selectionEntry"
       },
       {
-        "import": true,
         "name": "強化骨腦［試煉熔爐］",
-        "hidden": false,
         "id": "f090-7a8a-8552-3b4d",
-        "type": "selectionEntry",
-        "targetId": "7280-8daf-312a-b01d"
+        "hidden": false,
+        "import": true,
+        "targetId": "7280-8daf-312a-b01d",
+        "type": "selectionEntry"
       },
       {
-        "import": true,
         "name": "政委格雷夫斯",
-        "hidden": false,
         "id": "29df-3b97-03bf-0275",
+        "hidden": false,
+        "import": true,
         "targetId": "50b8-1f13-9807-0069",
         "type": "selectionEntry"
       },
       {
-        "import": true,
         "name": "步行的政委格雷夫斯",
-        "hidden": false,
         "id": "b6f0-9fc2-ce6c-debb",
+        "hidden": false,
+        "import": true,
         "targetId": "d624-2be1-87a3-41ca",
         "type": "selectionEntry"
       },
       {
-        "import": true,
         "name": "雅瑞克政委",
-        "hidden": false,
         "id": "1f33-61d2-bb9b-86a7",
+        "hidden": false,
+        "import": true,
         "targetId": "3962-1fa9-7088-aedd",
         "type": "selectionEntry"
       },
       {
-        "import": true,
         "name": "鷹馬裝甲戰鬥車",
-        "hidden": false,
         "id": "7a39-89ff-6e36-f03c",
+        "hidden": false,
+        "import": true,
         "targetId": "b566-8903-3a36-62f1",
         "type": "selectionEntry"
       },
       {
-        "import": true,
         "name": "半人馬偵察車",
-        "hidden": false,
         "id": "3a44-9eb0-d51d-6b46",
+        "hidden": false,
+        "import": true,
         "targetId": "c871-4769-71ed-c4b3",
         "type": "selectionEntry"
       },
       {
-        "import": true,
         "name": "卡迪亞偵察班",
-        "hidden": false,
         "id": "39a7-1ea5-9552-d4ba",
+        "hidden": false,
+        "import": true,
         "targetId": "05de-5701-33a0-b23d",
         "type": "selectionEntry"
+      },
+      {
+        "name": "凱法斯·凱恩［傳奇］",
+        "id": "ad2e-a4f4-6664-945e",
+        "hidden": false,
+        "import": true,
+        "targetId": "4aa7-5845-84ad-2d7d",
+        "type": "selectionEntry"
       }
-    ],
-    "catalogueLinks": [
-      {
-        "id": "e373-3c0a-1185-467a",
-        "name": "帝國 - 星界軍 - 資料庫",
-        "targetId": "5a44-f048-114b-e3ff",
-        "type": "catalogue",
-        "importRootEntries": false
-      },
-      {
-        "type": "catalogue",
-        "name": "帝國 - 帝國騎士 - 資料庫",
-        "id": "38dd-a3d5-684f-2dea",
-        "targetId": "1b6d-dc06-5db9-c7d1",
-        "importRootEntries": true
-      },
-      {
-        "type": "catalogue",
-        "name": "帝國 - 帝國特工",
-        "id": "4e1e-d351-d01e-df32",
-        "targetId": "b00-cd86-4b4c-97ba",
-        "importRootEntries": true
-      },
-      {
-        "type": "catalogue",
-        "name": "資料庫 - 巨物",
-        "id": "60ee-b4f-eafc-93d1",
-        "targetId": "7481-280e-b55e-7867"
-      },
-      {
-        "type": "catalogue",
-        "name": "非結盟勢力",
-        "id": "81c5-242b-44b9-7b1b",
-        "targetId": "581a-46b9-5b86-44b7"
-      }
-    ],
-    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
-    "library": false,
-    "id": "b0ae-12a5-c84-ea45",
-    "name": "帝國 - 星界軍",
-    "gameSystemId": "sys-352e-adc2-7639-d610",
-    "gameSystemRevision": 1,
-    "revision": 1,
-    "battleScribeVersion": 2.03,
-    "type": "catalogue"
+    ]
   }
 }
