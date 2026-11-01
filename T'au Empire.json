@@ -362,12 +362,12 @@
         "hidden": true
       },
       {
-        "name": "融合爆能槍武器",
+        "name": "融合砲武器",
         "id": "c366-a7c4-45e2-5b6e",
         "hidden": true
       },
       {
-        "name": "電漿步槍武器",
+        "name": "等離子步槍武器",
         "id": "630e-f998-7bab-7116",
         "hidden": true
       },
@@ -377,7 +377,7 @@
         "hidden": true
       },
       {
-        "name": "鈦帝國火焰噴射器武器",
+        "name": "鈦族噴火器武器",
         "id": "41b7-324d-21d3-af5e",
         "hidden": true
       },
@@ -2233,7 +2233,7 @@
             ]
           },
           {
-            "name": "高能融合爆能槍",
+            "name": "高能融合砲",
             "id": "891-9245-4641-6e5a",
             "hidden": false,
             "import": true,
@@ -2267,7 +2267,7 @@
             ],
             "profiles": [
               {
-                "name": "高能融合爆能槍",
+                "name": "高能融合砲",
                 "id": "2374-c078-8d4e-cbbd",
                 "hidden": false,
                 "typeId": "f77d-b953-8fa4-b762",
@@ -2933,7 +2933,7 @@
         ],
         "selectionEntries": [
           {
-            "name": "高強度電漿步槍",
+            "name": "高強度等離子步槍",
             "id": "9ef3-4c11-53ae-2ebc",
             "hidden": false,
             "import": true,
@@ -2958,7 +2958,7 @@
             ],
             "profiles": [
               {
-                "name": "高強度電漿步槍",
+                "name": "高強度等離子步槍",
                 "id": "89e3-e519-ede-f116",
                 "hidden": false,
                 "typeId": "f77d-b953-8fa4-b762",
@@ -3139,7 +3139,7 @@
         ]
       },
       {
-        "name": "鈦帝國火焰噴射器",
+        "name": "鈦族噴火器",
         "id": "6e8-cf2e-cedd-9028",
         "collective": false,
         "hidden": false,
@@ -3161,7 +3161,7 @@
             "targetId": "e993-e086-6de1-12af"
           },
           {
-            "name": "鈦帝國火焰噴射器武器",
+            "name": "鈦族噴火器武器",
             "id": "d2d7-9fa4-279b-c818",
             "hidden": false,
             "primary": false,
@@ -3186,7 +3186,7 @@
         ],
         "profiles": [
           {
-            "name": "鈦帝國火焰噴射器",
+            "name": "鈦族噴火器",
             "id": "4f5a-58b-5a49-1c96",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -4028,7 +4028,7 @@
                     ]
                   },
                   {
-                    "name": "爆裂加農砲",
+                    "name": "速射砲",
                     "id": "f12e-ee4d-4ca1-3477",
                     "hidden": false,
                     "import": true,
@@ -4139,7 +4139,7 @@
                     ]
                   },
                   {
-                    "name": "鈦帝國火焰噴射器",
+                    "name": "鈦族噴火器",
                     "id": "ef8a-1a12-d664-f69f",
                     "hidden": false,
                     "import": true,
@@ -4194,7 +4194,7 @@
                     ]
                   },
                   {
-                    "name": "融合爆能槍",
+                    "name": "融合砲",
                     "id": "c29e-1f09-bcd6-c83e",
                     "hidden": false,
                     "import": true,
@@ -4222,7 +4222,7 @@
                     ]
                   },
                   {
-                    "name": "電漿步槍",
+                    "name": "等離子步槍",
                     "id": "d73b-0f77-90e7-3918",
                     "hidden": false,
                     "import": true,
@@ -5135,7 +5135,7 @@
                     ]
                   },
                   {
-                    "name": "爆裂加農砲",
+                    "name": "速射砲",
                     "id": "ed07-fd69-fdef-2482",
                     "hidden": false,
                     "import": true,
@@ -5246,7 +5246,7 @@
                     ]
                   },
                   {
-                    "name": "鈦帝國火焰噴射器",
+                    "name": "鈦族噴火器",
                     "id": "d850-2def-4a37-717a",
                     "hidden": false,
                     "import": true,
@@ -5301,7 +5301,7 @@
                     ]
                   },
                   {
-                    "name": "融合爆能槍",
+                    "name": "融合砲",
                     "id": "2e46-a7fd-185c-8f94",
                     "hidden": false,
                     "import": true,
@@ -5329,7 +5329,7 @@
                     ]
                   },
                   {
-                    "name": "電漿步槍",
+                    "name": "等離子步槍",
                     "id": "e1e7-ffd5-f7c3-9e85",
                     "hidden": false,
                     "import": true,
@@ -6116,7 +6116,7 @@
                     ]
                   },
                   {
-                    "name": "爆裂加農砲",
+                    "name": "速射砲",
                     "id": "cad2-eea2-9f64-a2af",
                     "hidden": false,
                     "import": true,
@@ -6227,7 +6227,7 @@
                     ]
                   },
                   {
-                    "name": "鈦帝國火焰噴射器",
+                    "name": "鈦族噴火器",
                     "id": "3e0a-6736-edf4-2654",
                     "hidden": false,
                     "import": true,
@@ -6282,7 +6282,7 @@
                     ]
                   },
                   {
-                    "name": "融合爆能槍",
+                    "name": "融合砲",
                     "id": "ca22-7e8c-cbac-025a",
                     "hidden": false,
                     "import": true,
@@ -6310,7 +6310,7 @@
                     ]
                   },
                   {
-                    "name": "電漿步槍",
+                    "name": "等離子步槍",
                     "id": "fddd-9b4b-c121-8e96",
                     "hidden": false,
                     "import": true,
@@ -6367,7 +6367,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "高輸出爆裂加農砲",
+                    "name": "高輸出速射砲",
                     "id": "9341-a5b8-1f4a-6c9f",
                     "hidden": false,
                     "import": true,
@@ -6403,7 +6403,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "高輸出爆裂加農砲",
+                        "name": "高輸出速射砲",
                         "id": "27cc-b6a6-632a-6fb5",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -10098,14 +10098,14 @@
             ],
             "selectionEntries": [
               {
-                "name": "2 門加速爆裂加農砲",
+                "name": "2 門加速型速射砲",
                 "id": "7beb-936e-dd45-2919",
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
                 "entryLinks": [
                   {
-                    "name": "加速爆裂加農砲",
+                    "name": "加速型速射砲",
                     "id": "f2db-7bc6-25e0-a1c7",
                     "hidden": false,
                     "import": true,
@@ -15876,7 +15876,7 @@
                         ]
                       },
                       {
-                        "name": "鈦帝國火焰噴射器",
+                        "name": "鈦族噴火器",
                         "id": "2409-6432-e6c5-df12",
                         "hidden": false,
                         "import": true,
@@ -15913,7 +15913,7 @@
                         ]
                       },
                       {
-                        "name": "爆裂加農砲",
+                        "name": "速射砲",
                         "id": "be08-5d29-991b-8c91",
                         "hidden": false,
                         "import": true,
@@ -15949,7 +15949,7 @@
                         ]
                       },
                       {
-                        "name": "電漿步槍",
+                        "name": "等離子步槍",
                         "id": "3589-8f7d-f0f8-7630",
                         "hidden": false,
                         "import": true,
@@ -16003,7 +16003,7 @@
                         ]
                       },
                       {
-                        "name": "融合爆能槍",
+                        "name": "融合砲",
                         "id": "0969-8369-9d23-d0eb",
                         "hidden": false,
                         "import": true,
@@ -16332,7 +16332,7 @@
                             ]
                           },
                           {
-                            "name": "爆裂加農砲",
+                            "name": "速射砲",
                             "id": "e017-d7b4-fe40-0837",
                             "hidden": false,
                             "import": true,
@@ -16416,7 +16416,7 @@
                             ]
                           },
                           {
-                            "name": "鈦帝國火焰噴射器",
+                            "name": "鈦族噴火器",
                             "id": "e1c8-4c94-7d2a-e964",
                             "hidden": false,
                             "import": true,
@@ -16444,7 +16444,7 @@
                             ]
                           },
                           {
-                            "name": "融合爆能槍",
+                            "name": "融合砲",
                             "id": "4525-9065-aa81-8d1d",
                             "hidden": false,
                             "import": true,
@@ -16472,7 +16472,7 @@
                             ]
                           },
                           {
-                            "name": "電漿步槍",
+                            "name": "等離子步槍",
                             "id": "d8c2-b29e-060b-13bd",
                             "hidden": false,
                             "import": true,
@@ -16552,7 +16552,7 @@
         ]
       },
       {
-        "name": "爆裂加農砲",
+        "name": "速射砲",
         "id": "1790-25b7-8264-f6ba",
         "collective": false,
         "comment": "BS4+",
@@ -16570,7 +16570,7 @@
         ],
         "profiles": [
           {
-            "name": "爆裂加農砲",
+            "name": "速射砲",
             "id": "7626-73ed-7cf1-8d3b",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -16616,7 +16616,7 @@
         ]
       },
       {
-        "name": "電漿步槍",
+        "name": "等離子步槍",
         "id": "a9c5-8f1f-cbad-f1d3",
         "comment": "BS4+",
         "hidden": false,
@@ -16624,7 +16624,7 @@
         "type": "upgrade",
         "categoryLinks": [
           {
-            "name": "電漿步槍武器",
+            "name": "等離子步槍武器",
             "id": "56ba-3c3e-bb33-5f0d",
             "hidden": false,
             "primary": false,
@@ -16640,7 +16640,7 @@
         ],
         "profiles": [
           {
-            "name": "電漿步槍",
+            "name": "等離子步槍",
             "id": "9167-b3e7-ff4a-dd38",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -17505,7 +17505,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "裝備爆裂加農砲的隱形戰鬥服沙斯烏伊",
+                "name": "裝備速射砲的隱形戰鬥服沙斯烏伊",
                 "id": "40a5-647f-cdd8-9cf6",
                 "defaultAmount": "1,1",
                 "hidden": false,
@@ -17559,7 +17559,7 @@
                     ]
                   },
                   {
-                    "name": "爆裂加農砲",
+                    "name": "速射砲",
                     "id": "8917-7370-2d88-cfc4",
                     "collective": true,
                     "hidden": false,
@@ -17715,7 +17715,7 @@
                 ]
               },
               {
-                "name": "裝備融合爆能槍的隱形戰鬥服沙斯烏伊",
+                "name": "裝備融合砲的隱形戰鬥服沙斯烏伊",
                 "id": "5429-90b5-398b-9e2d",
                 "hidden": false,
                 "import": true,
@@ -17759,7 +17759,7 @@
                     ]
                   },
                   {
-                    "name": "融合爆能槍",
+                    "name": "融合砲",
                     "id": "d9a1-c3a3-67a4-e650",
                     "hidden": false,
                     "import": true,
@@ -18019,7 +18019,7 @@
                     ],
                     "selectionEntryGroups": [
                       {
-                        "name": "爆裂加農砲",
+                        "name": "速射砲",
                         "id": "64ed-7a58-bc2f-e280",
                         "defaultSelectionEntryId": "d9b7-3749-909f-a357",
                         "hidden": false,
@@ -18043,7 +18043,7 @@
                         ],
                         "entryLinks": [
                           {
-                            "name": "爆裂加農砲",
+                            "name": "速射砲",
                             "id": "d9b7-3749-909f-a357",
                             "hidden": false,
                             "import": true,
@@ -18061,7 +18061,7 @@
                             ]
                           },
                           {
-                            "name": "融合爆能槍",
+                            "name": "融合砲",
                             "id": "9c83-dc2b-dcfe-3660",
                             "hidden": false,
                             "import": true,
@@ -18951,7 +18951,7 @@
             ],
             "selectionEntryGroups": [
               {
-                "name": "雙聯鈦帝國火焰噴射器",
+                "name": "雙聯鈦族噴火器",
                 "id": "a5ca-2dc6-27b-c040",
                 "defaultSelectionEntryId": "41f6-4347-9b33-a099",
                 "hidden": false,
@@ -18975,7 +18975,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "雙聯鈦帝國火焰噴射器",
+                    "name": "雙聯鈦族噴火器",
                     "id": "41f6-4347-9b33-a099",
                     "hidden": false,
                     "import": true,
@@ -18993,7 +18993,7 @@
                     ]
                   },
                   {
-                    "name": "雙聯融合爆能槍",
+                    "name": "雙聯融合砲",
                     "id": "ed83-603d-844e-f9c4",
                     "hidden": false,
                     "import": true,
@@ -19013,7 +19013,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "雙聯爆裂加農砲",
+                    "name": "雙聯速射砲",
                     "id": "61d9-d495-5173-30fe",
                     "hidden": false,
                     "import": true,
@@ -19039,7 +19039,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "雙聯爆裂加農砲",
+                        "name": "雙聯速射砲",
                         "id": "4d67-3828-11d4-b8f1",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -22064,7 +22064,7 @@
                                 "characteristics": [
                                   {
                                     "name": "說明",
-                                    "$text": "持有者裝備 1 門無人機爆裂加農砲，且持有者所屬單位獲得滲透部署能力。",
+                                    "$text": "持有者裝備 1 門無人機速射砲，且持有者所屬單位獲得滲透部署能力。",
                                     "typeId": "9b8f-694b-e5e-b573"
                                   }
                                 ]
@@ -22072,7 +22072,7 @@
                             ],
                             "selectionEntries": [
                               {
-                                "name": "無人機爆裂加農砲",
+                                "name": "無人機速射砲",
                                 "id": "08ce-9f6c-003e-167a",
                                 "hidden": false,
                                 "import": true,
@@ -22107,7 +22107,7 @@
                                 ],
                                 "profiles": [
                                   {
-                                    "name": "無人機爆裂加農砲",
+                                    "name": "無人機速射砲",
                                     "id": "a2c7-b3a1-dd13-916d",
                                     "hidden": false,
                                     "typeId": "f77d-b953-8fa4-b762",
@@ -23136,7 +23136,7 @@
                 ],
                 "selectionEntryGroups": [
                   {
-                    "name": "食人魚爆裂加農砲",
+                    "name": "食人魚速射砲",
                     "id": "35f-3416-5978-472c",
                     "defaultSelectionEntryId": "af16-2b3c-31c7-a7b8",
                     "hidden": false,
@@ -23160,7 +23160,7 @@
                     ],
                     "selectionEntries": [
                       {
-                        "name": "食人魚爆裂加農砲",
+                        "name": "食人魚速射砲",
                         "id": "af16-2b3c-31c7-a7b8",
                         "hidden": false,
                         "import": true,
@@ -23178,7 +23178,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "食人魚爆裂加農砲",
+                            "name": "食人魚速射砲",
                             "id": "5907-8e6e-e23c-f975",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
@@ -23224,7 +23224,7 @@
                         ]
                       },
                       {
-                        "name": "食人魚融合爆能槍",
+                        "name": "食人魚融合砲",
                         "id": "fe73-7631-4dca-96d7",
                         "hidden": false,
                         "import": true,
@@ -23260,7 +23260,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "食人魚融合爆能槍",
+                            "name": "食人魚融合砲",
                             "id": "13bb-2136-6885-d9cf",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
@@ -24028,7 +24028,7 @@
                     "hidden": false,
                     "entryLinks": [
                       {
-                        "name": "胡蜂尖翼利爪",
+                        "name": "尖翼利爪",
                         "id": "c5f6-4ea4-a577-323c",
                         "hidden": false,
                         "import": true,
@@ -24303,7 +24303,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "胡蜂尖翼利爪",
+                    "name": "尖翼利爪",
                     "id": "35e7-d0f7-87c8-ceb6",
                     "hidden": false,
                     "import": true,
@@ -24375,7 +24375,7 @@
                 ]
               },
               {
-                "name": "裝備鈦帝國火焰噴射器的胡蜂尖翼戰士",
+                "name": "裝備鈦族噴火器的胡蜂尖翼戰士",
                 "id": "27c5-aeb2-dfed-057c",
                 "hidden": false,
                 "import": true,
@@ -24393,7 +24393,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "鈦帝國火焰噴射器",
+                    "name": "鈦族噴火器",
                     "id": "9e48-2e89-8d15-1538",
                     "hidden": false,
                     "import": true,
@@ -24419,7 +24419,7 @@
                     ]
                   },
                   {
-                    "name": "胡蜂尖翼利爪",
+                    "name": "尖翼利爪",
                     "id": "6bf9-7e47-39af-637d",
                     "hidden": false,
                     "import": true,
@@ -24529,7 +24529,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "胡蜂尖翼利爪",
+                    "name": "尖翼利爪",
                     "id": "606b-8960-ec6d-98b5",
                     "hidden": false,
                     "import": true,
@@ -24711,7 +24711,7 @@
                 ]
               },
               {
-                "name": "裝備中子磁軌步槍的胡蜂尖翼戰士",
+                "name": "裝備中子軌道步槍的胡蜂尖翼戰士",
                 "id": "7ccb-f2af-a5e7-cb66",
                 "hidden": false,
                 "import": true,
@@ -24729,7 +24729,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "胡蜂尖翼利爪",
+                    "name": "尖翼利爪",
                     "id": "58e4-19fd-0af7-289e",
                     "hidden": false,
                     "import": true,
@@ -24821,7 +24821,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "中子磁軌步槍",
+                    "name": "中子軌道步槍",
                     "id": "6712-fa98-e753-a70e",
                     "collective": true,
                     "hidden": false,
@@ -24856,7 +24856,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "中子磁軌步槍",
+                        "name": "中子軌道步槍",
                         "id": "03d7-2a0c-641c-13de",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -26504,7 +26504,7 @@
                         ],
                         "entryLinks": [
                           {
-                            "name": "雙聯電漿步槍",
+                            "name": "雙聯等離子步槍",
                             "id": "7bdf-c969-6780-cb3a",
                             "hidden": false,
                             "import": true,
@@ -26820,7 +26820,7 @@
                             ],
                             "entryLinks": [
                               {
-                                "name": "雙聯電漿步槍",
+                                "name": "雙聯等離子步槍",
                                 "id": "a15a-ef0c-7d43-6e7e",
                                 "hidden": false,
                                 "import": true,
@@ -27606,7 +27606,7 @@
             ],
             "selectionEntryGroups": [
               {
-                "name": "重型爆裂加農砲",
+                "name": "重型速射砲",
                 "id": "6008-c771-7432-c6b0",
                 "defaultSelectionEntryId": "d731-8997-c962-5bba",
                 "hidden": false,
@@ -27630,7 +27630,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "重型爆裂加農砲",
+                    "name": "重型速射砲",
                     "id": "d731-8997-c962-5bba",
                     "hidden": false,
                     "import": true,
@@ -27647,7 +27647,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "重型爆裂加農砲",
+                        "name": "重型速射砲",
                         "id": "143d-9a72-8e82-cc52",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -27898,7 +27898,7 @@
                 ]
               },
               {
-                "name": "雙聯電漿步槍",
+                "name": "雙聯等離子步槍",
                 "id": "7a35-60cb-6bae-5e0d",
                 "defaultSelectionEntryId": "c1f6-01e4-8fce-62f2",
                 "hidden": false,
@@ -27922,7 +27922,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "雙聯融合爆能槍",
+                    "name": "雙聯融合砲",
                     "id": "df5e-0201-5fa4-75a1",
                     "hidden": false,
                     "import": true,
@@ -27940,7 +27940,7 @@
                     ]
                   },
                   {
-                    "name": "雙聯電漿步槍",
+                    "name": "雙聯等離子步槍",
                     "id": "c1f6-01e4-8fce-62f2",
                     "hidden": false,
                     "import": true,
@@ -29019,14 +29019,14 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "2 門加速爆裂加農砲",
+                    "name": "2 門加速型速射砲",
                     "id": "731d-5afd-9039-d4f5",
                     "hidden": false,
                     "import": true,
                     "type": "upgrade",
                     "entryLinks": [
                       {
-                        "name": "加速爆裂加農砲",
+                        "name": "加速型速射砲",
                         "id": "8896-986b-b935-3480",
                         "hidden": false,
                         "import": true,
@@ -29975,14 +29975,14 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "2 門加速爆裂加農砲",
+                    "name": "2 門加速型速射砲",
                     "id": "0e94-3f4c-9564-beff",
                     "hidden": false,
                     "import": true,
                     "type": "upgrade",
                     "entryLinks": [
                       {
-                        "name": "加速爆裂加農砲",
+                        "name": "加速型速射砲",
                         "id": "5460-d70a-9f4b-7f06",
                         "hidden": false,
                         "import": true,
@@ -30656,7 +30656,7 @@
             "sortIndex": 2,
             "entryLinks": [
               {
-                "name": "加速爆裂加農砲",
+                "name": "加速型速射砲",
                 "id": "38d1-28b2-e43f-08da",
                 "hidden": false,
                 "import": true,
@@ -31702,7 +31702,7 @@
             ],
             "selectionEntryGroups": [
               {
-                "name": "加速爆裂加農砲",
+                "name": "加速型速射砲",
                 "id": "9200-9eb-cbf7-b177",
                 "defaultSelectionEntryId": "2ec6-6c16-6e7b-7e00",
                 "hidden": false,
@@ -31744,7 +31744,7 @@
                     ]
                   },
                   {
-                    "name": "加速爆裂加農砲",
+                    "name": "加速型速射砲",
                     "id": "2ec6-6c16-6e7b-7e00",
                     "hidden": false,
                     "import": true,
@@ -34896,7 +34896,7 @@
                 ]
               },
               {
-                "name": "雙聯鈦帝國火焰噴射器",
+                "name": "雙聯鈦族噴火器",
                 "id": "5976-1d9c-cdce-30dd",
                 "defaultSelectionEntryId": "2721-8821-88f8-7aad",
                 "hidden": false,
@@ -34920,7 +34920,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "雙聯鈦帝國火焰噴射器",
+                    "name": "雙聯鈦族噴火器",
                     "id": "2721-8821-88f8-7aad",
                     "hidden": false,
                     "import": true,
@@ -35042,7 +35042,7 @@
                     ]
                   },
                   {
-                    "name": "雙聯爆裂加農砲",
+                    "name": "雙聯速射砲",
                     "id": "2526-2545-30a1-7685",
                     "comment": "風暴浪湧重型",
                     "hidden": false,
@@ -35076,7 +35076,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "雙聯爆裂加農砲",
+                        "name": "雙聯速射砲",
                         "id": "112e-45c5-61fb-9cb0",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -36893,14 +36893,14 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "裝備德沃吉特剝皮器的克魯特遠獵者",
+                    "name": "裝備德沃吉特剝皮砲的克魯特遠獵者",
                     "id": "795b-e4b5-252-145d",
                     "hidden": false,
                     "import": true,
                     "type": "model",
                     "entryLinks": [
                       {
-                        "name": "德沃吉特剝皮器",
+                        "name": "德沃吉特剝皮砲",
                         "id": "717f-256d-13bf-5202",
                         "collective": true,
                         "hidden": false,
@@ -37164,13 +37164,13 @@
             ]
           },
           {
-            "name": "克魯特殺手掮客",
+            "name": "克魯特殺手頭領",
             "id": "1b87-6b85-cc8d-f8fc",
             "hidden": false,
             "sortIndex": 3,
             "selectionEntries": [
               {
-                "name": "克魯特殺手掮客",
+                "name": "克魯特殺手頭領",
                 "id": "a89d-6ef9-4600-bf5d",
                 "hidden": false,
                 "import": true,
@@ -37235,7 +37235,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "克魯特殺手掮客",
+                    "name": "克魯特殺手頭領",
                     "id": "nr-base-a89d-6ef9-4600-bf5d",
                     "hidden": false,
                     "targetId": "1e7b-dbbd-43ca-62d0",
@@ -37584,7 +37584,7 @@
         ]
       },
       {
-        "name": "融合爆能槍",
+        "name": "融合砲",
         "id": "f836-d31-4688-d623",
         "collective": true,
         "comment": "BS4+",
@@ -37611,7 +37611,7 @@
         ],
         "profiles": [
           {
-            "name": "融合爆能槍",
+            "name": "融合砲",
             "id": "4bc9-74b7-1e9c-8619",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -39313,7 +39313,7 @@
                 ]
               },
               {
-                "name": "相位電漿火焰噴射器",
+                "name": "相位等離子火焰噴射器",
                 "id": "ce72-8459-7e37-4b86",
                 "hidden": false,
                 "import": true,
@@ -39365,7 +39365,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "相位電漿火焰噴射器",
+                    "name": "相位等離子火焰噴射器",
                     "id": "7efb-ecb-ae7a-ef0f",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -40769,7 +40769,7 @@
                     ]
                   },
                   {
-                    "name": "雙聯長管爆裂加農砲",
+                    "name": "雙聯長管速射砲",
                     "id": "75c5-58a5-ced5-6105",
                     "collective": true,
                     "hidden": false,
@@ -40814,7 +40814,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "雙聯長管爆裂加農砲",
+                        "name": "雙聯長管速射砲",
                         "id": "b631-f3dc-d877-fd99",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -41367,7 +41367,7 @@
             "sortIndex": 2,
             "entryLinks": [
               {
-                "name": "爆裂加農砲",
+                "name": "速射砲",
                 "id": "434b-8cdc-a43d-b927",
                 "hidden": false,
                 "import": true,
@@ -41682,7 +41682,7 @@
                     ]
                   },
                   {
-                    "name": "融合歼灭者",
+                    "name": "融合殲滅者",
                     "id": "989a-c4d7-9753-a99b",
                     "defaultAmount": 1,
                     "hidden": false,
@@ -41728,7 +41728,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "融合歼灭者",
+                        "name": "融合殲滅者",
                         "id": "cead-eef7-db3a-4e49",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -42826,7 +42826,7 @@
             ],
             "selectionEntryGroups": [
               {
-                "name": "迅捷打擊爆裂加農砲",
+                "name": "迅捷打擊速射砲",
                 "id": "9bb0-1090-bfee-7ecd",
                 "defaultSelectionEntryId": "3542-2950-5fa0-d109",
                 "hidden": false,
@@ -42871,7 +42871,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "迅捷打擊爆裂加農砲",
+                    "name": "迅捷打擊速射砲",
                     "id": "3542-2950-5fa0-d109",
                     "hidden": false,
                     "import": true,
@@ -42889,7 +42889,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "迅捷打擊爆裂加農砲",
+                        "name": "迅捷打擊速射砲",
                         "id": "db32-d0ab-a5f-cbb3",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -43061,7 +43061,7 @@
                 ]
               },
               {
-                "name": "長管爆裂加農砲",
+                "name": "長管速射砲",
                 "id": "3af6-4ffa-fcc1-872b",
                 "defaultSelectionEntryId": "3793-76b5-1a5-4988",
                 "hidden": false,
@@ -43085,14 +43085,14 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "2 門長管爆裂加農砲",
+                    "name": "2 門長管速射砲",
                     "id": "3793-76b5-1a5-4988",
                     "hidden": false,
                     "import": true,
                     "type": "upgrade",
                     "selectionEntries": [
                       {
-                        "name": "長管爆裂加農砲",
+                        "name": "長管速射砲",
                         "id": "5d4f-54d1-c5b5-6be4",
                         "collective": true,
                         "comment": "梭魚型",
@@ -43130,7 +43130,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "長管爆裂加農砲",
+                            "name": "長管速射砲",
                             "id": "1d9a-7c4f-3f9d-45a8",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
@@ -43978,7 +43978,7 @@
             ],
             "selectionEntryGroups": [
               {
-                "name": "爆裂加農砲",
+                "name": "速射砲",
                 "id": "4160-b045-7340-5973",
                 "defaultSelectionEntryId": "4ee6-3e8-4a53-a102",
                 "hidden": false,
@@ -44051,14 +44051,14 @@
                     ]
                   },
                   {
-                    "name": "2 門爆裂加農砲",
+                    "name": "2 門速射砲",
                     "id": "4ee6-3e8-4a53-a102",
                     "hidden": false,
                     "import": true,
                     "type": "upgrade",
                     "entryLinks": [
                       {
-                        "name": "爆裂加農砲",
+                        "name": "速射砲",
                         "id": "c3b3-32c2-f6e8-be45",
                         "hidden": false,
                         "import": true,
@@ -44275,14 +44275,14 @@
                     ]
                   },
                   {
-                    "name": "2 門迅捷打擊爆裂加農砲",
+                    "name": "2 門迅捷打擊速射砲",
                     "id": "6d35-9c23-5e6e-ff1",
                     "hidden": false,
                     "import": true,
                     "type": "upgrade",
                     "selectionEntries": [
                       {
-                        "name": "迅捷打擊爆裂加農砲",
+                        "name": "迅捷打擊速射砲",
                         "id": "ce5b-bb3b-b361-c013",
                         "hidden": false,
                         "import": true,
@@ -44318,7 +44318,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "迅捷打擊爆裂加農砲",
+                            "name": "迅捷打擊速射砲",
                             "id": "6ca2-685e-3c0-bb12",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
@@ -45390,7 +45390,7 @@
             ],
             "selectionEntryGroups": [
               {
-                "name": "爆裂加農砲",
+                "name": "速射砲",
                 "id": "c468-7140-2a88-0286",
                 "defaultSelectionEntryId": "efc7-7546-a4eb-d2e4",
                 "hidden": false,
@@ -45414,14 +45414,14 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "2 門爆裂加農砲",
+                    "name": "2 門速射砲",
                     "id": "efc7-7546-a4eb-d2e4",
                     "hidden": false,
                     "import": true,
                     "type": "upgrade",
                     "entryLinks": [
                       {
-                        "name": "爆裂加農砲",
+                        "name": "速射砲",
                         "id": "c37a-62fd-b5c3-1405",
                         "hidden": false,
                         "import": true,
@@ -46325,7 +46325,7 @@
                 ]
               },
               {
-                "name": "長管爆裂加農砲陣列",
+                "name": "長管速射砲陣列",
                 "id": "150d-3afa-7676-a225",
                 "hidden": false,
                 "import": true,
@@ -46360,7 +46360,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "長管爆裂加農砲陣列",
+                    "name": "長管速射砲陣列",
                     "id": "ef84-79d-e39-7047",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -47272,7 +47272,7 @@
                 ]
               },
               {
-                "name": "長管爆裂加農砲",
+                "name": "長管速射砲",
                 "id": "221c-5838-2b54-b36c",
                 "comment": "逆戟鯨型",
                 "hidden": false,
@@ -47309,7 +47309,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "長管爆裂加農砲",
+                    "name": "長管速射砲",
                     "id": "6188-36d-b521-fd9a",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -47742,7 +47742,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "裝備爆裂加農砲與標記光的重型火力無人機",
+                "name": "裝備速射砲與標記光的重型火力無人機",
                 "id": "f9ab-8176-da08-de83",
                 "defaultAmount": 2,
                 "hidden": false,
@@ -47836,7 +47836,7 @@
                     "sortIndex": 2,
                     "entryLinks": [
                       {
-                        "name": "爆裂加農砲",
+                        "name": "速射砲",
                         "id": "ca7d-d2d0-8fd2-2298",
                         "hidden": false,
                         "import": true,
@@ -47912,7 +47912,7 @@
                 ]
               },
               {
-                "name": "裝備雙聯爆裂加農砲的重型火力無人機",
+                "name": "裝備雙聯速射砲的重型火力無人機",
                 "id": "a618-c044-84ce-645a",
                 "hidden": false,
                 "import": true,
@@ -48033,7 +48033,7 @@
                         ]
                       },
                       {
-                        "name": "雙聯爆裂加農砲",
+                        "name": "雙聯速射砲",
                         "id": "9276-c118-48e9-0aa6",
                         "collective": true,
                         "hidden": false,
@@ -49589,7 +49589,7 @@
             ],
             "selectionEntryGroups": [
               {
-                "name": "電漿步槍",
+                "name": "等離子步槍",
                 "id": "ca17-2ff0-a035-d1dd",
                 "defaultSelectionEntryId": "e681-5e-2bab-9b2c",
                 "hidden": false,
@@ -49613,7 +49613,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "2 把電漿步槍",
+                    "name": "2 把等離子步槍",
                     "id": "e681-5e-2bab-9b2c",
                     "defaultAmount": 1,
                     "hidden": false,
@@ -49621,7 +49621,7 @@
                     "type": "upgrade",
                     "entryLinks": [
                       {
-                        "name": "電漿步槍",
+                        "name": "等離子步槍",
                         "id": "0594-cb60-c83b-3f29",
                         "hidden": false,
                         "import": true,
@@ -49659,7 +49659,7 @@
                     ]
                   },
                   {
-                    "name": "2 把融合爆能槍",
+                    "name": "2 把融合砲",
                     "id": "b99d-2c6c-bb1-3671",
                     "defaultAmount": 1,
                     "hidden": false,
@@ -49667,7 +49667,7 @@
                     "type": "upgrade",
                     "entryLinks": [
                       {
-                        "name": "融合爆能槍",
+                        "name": "融合砲",
                         "id": "a935-c986-ad91-158e",
                         "hidden": false,
                         "import": true,
@@ -52226,7 +52226,7 @@
                         ]
                       },
                       {
-                        "name": "雙聯危險型爆裂加農砲",
+                        "name": "雙聯危險型速射砲",
                         "id": "beba-3e9e-5385-f0ab",
                         "defaultAmount": 1,
                         "hidden": false,
@@ -52264,7 +52264,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "雙聯危險型爆裂加農砲",
+                            "name": "雙聯危險型速射砲",
                             "id": "6fc2-972a-101c-4f71",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
@@ -52720,7 +52720,7 @@
         ],
         "selectionEntryGroups": [
           {
-            "name": "雙聯電漿步槍",
+            "name": "雙聯等離子步槍",
             "id": "aba1-60b5-5638-213f",
             "comment": "無人機型",
             "defaultSelectionEntryId": "af01-9e8a-2fb8-d05d",
@@ -52745,7 +52745,7 @@
             ],
             "entryLinks": [
               {
-                "name": "雙聯爆裂加農砲",
+                "name": "雙聯速射砲",
                 "id": "5010-b4c5-83a1-5e6f",
                 "hidden": false,
                 "import": true,
@@ -52755,7 +52755,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "雙聯電漿步槍",
+                "name": "雙聯等離子步槍",
                 "id": "af01-9e8a-2fb8-d05d",
                 "hidden": false,
                 "import": true,
@@ -52771,7 +52771,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "雙聯電漿步槍",
+                    "name": "雙聯等離子步槍",
                     "id": "119d-1bb9-fd2b-fe76",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -52817,7 +52817,7 @@
                 ]
               },
               {
-                "name": "雙聯融合爆能槍",
+                "name": "雙聯融合砲",
                 "id": "b336-4ace-9e7a-5aa8",
                 "comment": "無人機型",
                 "hidden": false,
@@ -52841,7 +52841,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "雙聯融合爆能槍",
+                    "name": "雙聯融合砲",
                     "id": "1bf-bc0b-bcd8-cb66",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -53754,7 +53754,7 @@
                     ]
                   },
                   {
-                    "name": "融合爆能槍",
+                    "name": "融合砲",
                     "id": "abfe-83b-188b-bc12",
                     "hidden": false,
                     "import": true,
@@ -53854,7 +53854,7 @@
                     "sortIndex": 2,
                     "entryLinks": [
                       {
-                        "name": "融合爆能槍",
+                        "name": "融合砲",
                         "id": "6ec9-ed7a-9a16-96cb",
                         "hidden": false,
                         "import": true,
@@ -54772,7 +54772,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "電漿步槍",
+                        "name": "等離子步槍",
                         "id": "3b76-4791-cbc3-2534",
                         "defaultAmount": 1,
                         "hidden": false,
@@ -55038,7 +55038,7 @@
                             ]
                           },
                           {
-                            "name": "電漿步槍",
+                            "name": "等離子步槍",
                             "id": "5442-d1a8-bd84-861b",
                             "defaultAmount": 1,
                             "hidden": false,
@@ -55903,7 +55903,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "爆裂加農砲",
+                        "name": "速射砲",
                         "id": "e0ad-d61c-64db-98f5",
                         "defaultAmount": 1,
                         "hidden": false,
@@ -55939,7 +55939,7 @@
                         ]
                       },
                       {
-                        "name": "鈦帝國火焰噴射器",
+                        "name": "鈦族噴火器",
                         "id": "aec0-6731-a113-a8c5",
                         "defaultAmount": 1,
                         "hidden": false,
@@ -56165,7 +56165,7 @@
                         ],
                         "entryLinks": [
                           {
-                            "name": "爆裂加農砲",
+                            "name": "速射砲",
                             "id": "2b4b-6b4e-001a-4c3c",
                             "defaultAmount": 1,
                             "hidden": false,
@@ -56194,7 +56194,7 @@
                             ]
                           },
                           {
-                            "name": "鈦帝國火焰噴射器",
+                            "name": "鈦族噴火器",
                             "id": "7988-2344-a087-e5a0",
                             "defaultAmount": 1,
                             "hidden": false,
@@ -58704,7 +58704,7 @@
                 ]
               },
               {
-                "name": "克魯特散彈槍",
+                "name": "克魯特碎片槍",
                 "id": "34c5-4382-aa9d-fe74",
                 "hidden": false,
                 "targetId": "7ff0-339a-6785-810d",
@@ -60442,7 +60442,7 @@
         ]
       },
       {
-        "name": "爆裂加農砲",
+        "name": "速射砲",
         "id": "3a5c-c8e4-823f-c18c",
         "collective": false,
         "comment": "BS3+",
@@ -60460,7 +60460,7 @@
         ],
         "profiles": [
           {
-            "name": "爆裂加農砲",
+            "name": "速射砲",
             "id": "4a62-f987-469f-e15a",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -60915,7 +60915,7 @@
         ]
       },
       {
-        "name": "雙聯鈦帝國火焰噴射器",
+        "name": "雙聯鈦族噴火器",
         "id": "01e5-d685-1b0e-27d6",
         "hidden": false,
         "import": true,
@@ -60961,7 +60961,7 @@
         ],
         "profiles": [
           {
-            "name": "雙聯鈦帝國火焰噴射器",
+            "name": "雙聯鈦族噴火器",
             "id": "e5cc-4d2d-324f-6da0",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -61007,14 +61007,14 @@
         ]
       },
       {
-        "name": "加速爆裂加農砲",
+        "name": "加速型速射砲",
         "id": "e5b9-7fe9-4792-3e31",
         "hidden": false,
         "import": true,
         "type": "upgrade",
         "profiles": [
           {
-            "name": "加速爆裂加農砲",
+            "name": "加速型速射砲",
             "id": "d2d4-6c29-133d-548b",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -61060,7 +61060,7 @@
         ]
       },
       {
-        "name": "雙聯爆裂加農砲",
+        "name": "雙聯速射砲",
         "id": "a542-256c-cd86-bf9e",
         "comment": "BS5+",
         "hidden": false,
@@ -61077,7 +61077,7 @@
         ],
         "profiles": [
           {
-            "name": "雙聯爆裂加農砲",
+            "name": "雙聯速射砲",
             "id": "7fd9-c324-5a2a-d2e3",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -61123,7 +61123,7 @@
         ]
       },
       {
-        "name": "融合爆能槍",
+        "name": "融合砲",
         "id": "a384-146f-1171-f49f",
         "comment": "BS3+",
         "hidden": false,
@@ -61145,7 +61145,7 @@
             "targetId": "4986-bf86-beb4-13ac"
           },
           {
-            "name": "融合爆能槍武器",
+            "name": "融合砲武器",
             "id": "d03a-b1c8-a0f1-f653",
             "hidden": false,
             "primary": false,
@@ -61163,7 +61163,7 @@
         ],
         "profiles": [
           {
-            "name": "融合爆能槍",
+            "name": "融合砲",
             "id": "fec0-d86e-fd85-42a1",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -61209,7 +61209,7 @@
         ]
       },
       {
-        "name": "雙聯融合爆能槍",
+        "name": "雙聯融合砲",
         "id": "c166-1c3f-6109-269f",
         "hidden": false,
         "import": true,
@@ -61241,7 +61241,7 @@
         ],
         "profiles": [
           {
-            "name": "雙聯融合爆能槍",
+            "name": "雙聯融合砲",
             "id": "d33c-8505-a08f-6160",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -61940,7 +61940,7 @@
         ]
       },
       {
-        "name": "雙聯電漿步槍",
+        "name": "雙聯等離子步槍",
         "id": "8e14-cb42-28a4-0948",
         "hidden": false,
         "import": true,
@@ -61956,7 +61956,7 @@
         ],
         "profiles": [
           {
-            "name": "雙聯電漿步槍",
+            "name": "雙聯等離子步槍",
             "id": "e18f-f00f-7d58-1ddd",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -62002,7 +62002,7 @@
         ]
       },
       {
-        "name": "電漿步槍",
+        "name": "等離子步槍",
         "id": "e87a-3ab1-2834-bb10",
         "comment": "BS3+",
         "hidden": false,
@@ -62017,7 +62017,7 @@
             "targetId": "eeda-8544-a2f3-3fab"
           },
           {
-            "name": "電漿步槍武器",
+            "name": "等離子步槍武器",
             "id": "7485-7d84-059e-cbce",
             "hidden": false,
             "primary": false,
@@ -62026,7 +62026,7 @@
         ],
         "profiles": [
           {
-            "name": "電漿步槍",
+            "name": "等離子步槍",
             "id": "526e-7c08-b2d3-bc44",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -62800,7 +62800,7 @@
         ]
       },
       {
-        "name": "胡蜂尖翼利爪",
+        "name": "尖翼利爪",
         "id": "2661-85fc-2974-c157",
         "collective": true,
         "hidden": false,
@@ -62808,7 +62808,7 @@
         "type": "upgrade",
         "profiles": [
           {
-            "name": "胡蜂尖翼利爪",
+            "name": "尖翼利爪",
             "id": "dee4-e704-c9f4-af63",
             "hidden": false,
             "typeId": "8a40-4aaa-c780-9046",
@@ -64145,7 +64145,7 @@
         ]
       },
       {
-        "name": "德沃吉特剝皮器",
+        "name": "德沃吉特剝皮砲",
         "id": "705c-da9b-4fe1-fd47",
         "hidden": false,
         "import": true,
@@ -64184,7 +64184,7 @@
         ],
         "profiles": [
           {
-            "name": "德沃吉特剝皮器",
+            "name": "德沃吉特剝皮砲",
             "id": "a49e-69cc-7f9f-49cb",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -64441,7 +64441,7 @@
         ]
       },
       {
-        "name": "克魯特散彈槍",
+        "name": "克魯特碎片槍",
         "id": "7ff0-339a-6785-810d",
         "hidden": false,
         "import": true,
@@ -64466,7 +64466,7 @@
         ],
         "profiles": [
           {
-            "name": "克魯特散彈槍",
+            "name": "克魯特碎片槍",
             "id": "2dc9-2d09-171d-600d",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -67252,7 +67252,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "融合歼滅者",
+                "name": "融合殲滅者",
                 "id": "ac40-7c6d-2fb1-2568",
                 "hidden": false,
                 "import": true,
@@ -67293,7 +67293,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "融合歼滅者",
+                    "name": "融合殲滅者",
                     "id": "6566-3cbb-4340-5b4c",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -67337,7 +67337,7 @@
                     ]
                   },
                   {
-                    "name": "融合歼滅者",
+                    "name": "融合殲滅者",
                     "id": "9e14-4fd5-8e08-d4d3",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
@@ -70298,7 +70298,7 @@
                     "characteristics": [
                       {
                         "name": "說明",
-                        "$text": "僅限克魯特巡徑塑形者模型。持有者率領單位時，該單位模型的移動屬性 +3 吋，且其裝備的遠程武器獲得[突擊]能力。",
+                        "$text": "僅限克魯特蹤跡塑形者模型。持有者率領單位時，該單位模型的移動屬性 +3 吋，且其裝備的遠程武器獲得[突擊]能力。",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ]
@@ -71433,7 +71433,7 @@
                 ]
               },
               {
-                "name": "加速電漿步槍",
+                "name": "加速等離子步槍",
                 "id": "bc44-f33b-73bc-5ae5",
                 "hidden": false,
                 "import": true,
@@ -71554,7 +71554,7 @@
                   {
                     "field": "warning",
                     "type": "add",
-                    "value": "必須選擇「加速電漿步槍」強化。",
+                    "value": "必須選擇「加速等離子步槍」強化。",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -71586,7 +71586,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "加速電漿步槍",
+                    "name": "加速等離子步槍",
                     "id": "b141-8e24-fab3-30d7",
                     "hidden": false,
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -79948,7 +79948,7 @@
         "hidden": false,
         "selectionEntries": [
           {
-            "name": "加速電漿步槍強化",
+            "name": "加速等離子步槍強化",
             "id": "e396-458e-e066-fdbb",
             "collective": false,
             "hidden": false,
@@ -79984,7 +79984,7 @@
                     "join": ", ",
                     "scope": "upgrade",
                     "type": "append",
-                    "value": "加速電漿步槍"
+                    "value": "加速等離子步槍"
                   },
                   {
                     "affects": "self.entries.profiles.Ranged Weapons",
@@ -85201,7 +85201,7 @@
                 ]
               },
               {
-                "name": "融合爆能槍",
+                "name": "融合砲",
                 "id": "b361-753f-4cfb-e12b",
                 "hidden": false,
                 "import": true,
@@ -85262,7 +85262,7 @@
                 ]
               },
               {
-                "name": "爆裂加農砲",
+                "name": "速射砲",
                 "id": "56f6-89b6-9221-e473",
                 "hidden": false,
                 "import": true,
@@ -85461,7 +85461,7 @@
                 ]
               },
               {
-                "name": "克魯特散彈槍",
+                "name": "克魯特碎片槍",
                 "id": "d9bb-404d-a728-5cb8",
                 "hidden": false,
                 "import": true,
@@ -85601,7 +85601,7 @@
                 ]
               },
               {
-                "name": "德沃吉特剝皮器",
+                "name": "德沃吉特剝皮砲",
                 "id": "483f-f104-0a89-15e9",
                 "hidden": false,
                 "import": true,
@@ -86589,7 +86589,7 @@
                 ]
               },
               {
-                "name": "雙聯電漿步槍",
+                "name": "雙聯等離子步槍",
                 "id": "d944-3ecd-e863-f3fc",
                 "comment": "熔爐型",
                 "hidden": false,
@@ -86654,7 +86654,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "雙聯電漿步槍",
+                    "name": "雙聯等離子步槍",
                     "id": "4cf2-7056-c149-9a84",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
