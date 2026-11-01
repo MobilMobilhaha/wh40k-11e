@@ -279,7 +279,7 @@
     "Plasma pistol - supercharge": "等離子手槍－過載",
     "Special-issue bolt pistol": "特製爆矢手槍",
     "Stalker bolt rifle": "追獵者爆矢步槍",
-    "Close combat weapon": "近戰武器",
+    "Close combat weapon": "格鬥武器",
     "Combat knife": "戰鬥刀",
     "Heavy thunder hammer": "重型雷霆鎚",
     "Power weapon": "動力武器",
@@ -763,7 +763,7 @@
     "Reductus Saboteur": "隱蔽破壞者",
     "Sanctus": "聖裁者",
     "Grenade launcher": "榴彈發射器",
-    "Close combat weapon": "近戰武器",
+    "Close combat weapon": "格鬥武器",
     "Heavy improvised weapon": "重型臨時武器",
     "Autopistol": "自動手槍",
     "Hand flamer": "噴火手槍",
@@ -962,6 +962,6 @@
     "帝國特務：本次同步中文化錯誤提示與可見的遠征階級／注記（Battle-ready＝戰備、Blooded＝浴血、Battle-hardened＝身經百戰、Heroic＝英雄、Legendary＝傳奇、Extreme Methods＝極端手段、Bridgehead Specialists＝橋頭堡專家、Deck Gunners＝甲板砲手、Duellist＝決鬥者）。其中遠征標籤未見於所提供的官方繁中陣營 PDF；暫依專案既有譯法與英文語意處理。",
     "本輪依官方帝國特務與第11版核心規則 PDF 統一用語：統帥、速射、熱熔、等離子、爆矢、重型雷霆鎚、異形相位刃、兇獸；沿用既有專案的遠征詞彙，未更動規則 ID／數值。",
     "核心規則術語統一：Sustained Hits＝連擊（依本專案既有官方中文核心規則對照）；帝國特務名稱與武器詞彙依官方陣營 PDF：統帥、速射、熱熔、等離子、爆矢、重型雷霆鎚、異形相位刃、機械獒犬。遠征專屬名稱未見於官方 PDF 的部分採暫定譯名。",
-    "鈦帝國本次官方詞彙補充：指揮官影陽、指揮官遠見、舷炮戰鬥服、危機炎刃／星鎌／陽鑄戰鬥服、魔鬼魚運輸艇、胡蜂尖翼戰士等名稱，參照官方中文軍務部野戰手冊及鈦帝國陣營包；第 11 版規則術語依核心規則。依 2026/7/22 鈦帝國官方繁中／英文陣營包與遠獵者族團 Kill Team 對照，Burst cannon＝速射砲、Fusion blaster＝融合砲、Fusion eliminator＝融合殲滅者、Kroot scattergun＝克魯特碎片槍、Dvorgite skinner＝德沃吉特剝皮砲、Kroot Carnivores＝克魯特捕食者、Kroot Shaper＝克魯特塑形者、Kroot Kill-broker＝克魯特殺手頭領。鈦帝國中文 PDF 為簡體版，已轉為繁體字形；中文鈦帝國 PDF 為 7/22 版、英文為 8/26 版，僅以兩版共同可對照內容確認詞彙。2026/10/28 胡蜂尖翼戰士 Kill Team 新中英文 PDF 對共同詞條採最新官方譯法：Neutron rail rifle＝中子軌道步槍、T'au flamer＝鈦族噴火器；胡蜂特工與專屬武器名稱亦已記錄，與 40K 專屬名稱分開保留。全檔複核新增統一：Plasma＝等離子（依第11版核心規則）、Close combat weapon＝近戰武器、Stingwing claws＝尖翼利爪（依鈦帝國官方中文陣營包）、Kroot Kill-broker＝克魯特殺手頭領（依遠獵者族團官方 Kill Team 中文 PDF）；Fusion eradicator 統一為融合殲滅者並修正簡體字形。"
+    "鈦帝國本次官方詞彙補充：指揮官影陽、指揮官遠見、舷炮戰鬥服、危機炎刃／星鎌／陽鑄戰鬥服、魔鬼魚運輸艇、胡蜂尖翼戰士等名稱，參照官方中文軍務部野戰手冊及鈦帝國陣營包；第 11 版規則術語依核心規則。依 2026/7/22 鈦帝國官方繁中／英文陣營包與遠獵者族團 Kill Team 對照，Burst cannon＝速射砲、Fusion blaster＝融合砲、Fusion eliminator＝融合殲滅者、Kroot scattergun＝克魯特碎片槍、Dvorgite skinner＝德沃吉特剝皮砲、Kroot Carnivores＝克魯特捕食者、Kroot Shaper＝克魯特塑形者、Kroot Kill-broker＝克魯特殺手頭領。鈦帝國中文 PDF 為簡體版，已轉為繁體字形；中文鈦帝國 PDF 為 7/22 版、英文為 8/26 版，僅以兩版共同可對照內容確認詞彙。2026/10/28 胡蜂尖翼戰士 Kill Team 新中英文 PDF 對共同詞條採最新官方譯法：Neutron rail rifle＝中子軌道步槍、T'au flamer＝鈦族噴火器；胡蜂特工與專屬武器名稱亦已記錄，與 40K 專屬名稱分開保留。全檔複核新增統一：Plasma＝等離子（依第11版核心規則）、Close combat weapon 固定譯為「格鬥武器」，不得改作「近戰武器」、Fight phase＝近戰階段、Stingwing claws＝尖翼利爪（依鈦帝國官方中文陣營包）、Kroot Kill-broker＝克魯特殺手頭領（依遠獵者族團官方 Kill Team 中文 PDF）；Fusion eradicator 統一為融合殲滅者並修正簡體字形。"
   ]
 }
