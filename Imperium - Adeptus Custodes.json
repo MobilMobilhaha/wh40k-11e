@@ -134,7 +134,7 @@
         "hidden": false
       },
       {
-        "name": "維納塔里禁軍",
+        "name": "裝備動能毀滅槍的維納塔里禁軍",
         "id": "0174-0ab8-d1c4-2cbd",
         "hidden": false
       },
@@ -497,7 +497,7 @@
         "type": "selectionEntry"
       },
       {
-        "name": "裝備阿德拉斯長矛或熱熔長矛的禁軍衛隊",
+        "name": "裝備阿德拉斯長矛的禁軍衛士（傳奇）",
         "id": "dee1-2f23-d810-23dd",
         "collective": false,
         "hidden": false,
@@ -524,7 +524,7 @@
         "type": "selectionEntry"
       },
       {
-        "name": "維納塔里禁軍",
+        "name": "裝備動能毀滅槍的維納塔里禁軍",
         "id": "15e2-1903-8d94-f574",
         "collective": false,
         "hidden": false,
@@ -1399,7 +1399,7 @@
             "type": "rule"
           },
           {
-            "name": "不覺疼痛",
+            "name": "不覺疼痛 5+",
             "id": "9754-4381-7750-9e36",
             "hidden": false,
             "targetId": "5e10-6d62-2624-80a8",
@@ -2440,7 +2440,7 @@
             "targetId": "aff3-d6a3-2a95-9dc"
           },
           {
-            "name": "外殼",
+            "name": "車體",
             "id": "7e8b-6d55-eb60-874a",
             "hidden": false,
             "primary": false,
@@ -2556,7 +2556,7 @@
         ],
         "infoLinks": [
           {
-            "name": "深淵之女",
+            "name": "蔓延恐懼（光環）",
             "id": "cb4b-c594-4858-3b9f",
             "hidden": false,
             "targetId": "6e51-21f7-1753-cc65",
@@ -2905,7 +2905,7 @@
             ]
           },
           {
-            "name": "運輸工具",
+            "name": "巫咒犀牛戰車",
             "id": "2fbe-f261-89e5-2de3",
             "hidden": false,
             "typeId": "74f8-5443-9d6d-1f1e",
@@ -2976,7 +2976,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "a56e-ddb9-d003-1b4e",
                     "flatten": false,
                     "hidden": false,
@@ -3077,7 +3077,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "一次性",
+                    "name": "單發",
                     "id": "5260-4bce-dccd-b762",
                     "hidden": false,
                     "targetId": "cd26-1611-860a-91e4",
@@ -3797,7 +3797,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "➤ 寶庫之劍－巨獸式",
+                    "name": "➤ 寶庫之劍－勝利式",
                     "id": "7953-e1ea-8b27-b564",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
@@ -3885,7 +3885,7 @@
                     ]
                   },
                   {
-                    "name": "➤ 寶庫之劍－勝利式",
+                    "name": "➤ 寶庫之劍－巨獸式",
                     "id": "7ffc-b8d9-10a7-7e4e",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
@@ -3937,7 +3937,7 @@
                     "hidden": false,
                     "entryLinks": [
                       {
-                        "name": "武器改造",
+                        "name": "武器改裝",
                         "id": "40b0-decc-f966-5faa",
                         "hidden": false,
                         "import": true,
@@ -4930,7 +4930,7 @@
             "type": "rule"
           },
           {
-            "name": "不覺疼痛",
+            "name": "不覺疼痛 5+*",
             "id": "d20c-53ed-92b7-2b1d",
             "hidden": false,
             "targetId": "faec-8b1b-5a21-0087",
@@ -5663,7 +5663,7 @@
         ],
         "infoLinks": [
           {
-            "name": "深淵之女",
+            "name": "蔓延恐懼（光環）",
             "id": "d307-1efa-e885-3b5c",
             "hidden": false,
             "targetId": "6e51-21f7-1753-cc65",
@@ -6155,7 +6155,7 @@
                     "hidden": false,
                     "entryLinks": [
                       {
-                        "name": "武器改造",
+                        "name": "武器改裝",
                         "id": "7154-b661-f8ae-67ee",
                         "hidden": false,
                         "import": true,
@@ -6175,7 +6175,7 @@
                 ]
               },
               {
-                "name": "尋巫修女火焰噴射器與近戰武器",
+                "name": "精工火焰噴射器",
                 "id": "93a9-93c6-8eaa-ada4",
                 "collective": false,
                 "hidden": false,
@@ -6247,7 +6247,7 @@
                         "type": "rule"
                       },
                       {
-                        "name": "反制",
+                        "name": "針對",
                         "id": "a633-d6da-7ef2-c8c5",
                         "hidden": false,
                         "targetId": "4111-82e3-9444-e942",
@@ -6318,7 +6318,7 @@
                 ]
               },
               {
-                "name": "精工爆矢槍與近戰武器",
+                "name": "精工爆矢槍",
                 "id": "94e9-239c-e46b-34c2",
                 "collective": false,
                 "hidden": false,
@@ -6355,7 +6355,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "精工爆彈槍",
+                    "name": "精工爆矢槍",
                     "id": "ed18-ec64-550a-1e1f",
                     "hidden": false,
                     "import": true,
@@ -6382,7 +6382,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "速射",
+                        "name": "突擊",
                         "id": "72b3-bc40-aa7c-97ef",
                         "hidden": false,
                         "targetId": "fc8a-8c24-bae9-cc1c",
@@ -6396,7 +6396,7 @@
                         "type": "rule"
                       },
                       {
-                        "name": "反制",
+                        "name": "針對",
                         "id": "de6b-519f-b2fe-4bd2",
                         "hidden": false,
                         "targetId": "4111-82e3-9444-e942",
@@ -6405,7 +6405,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "精工爆彈槍",
+                        "name": "精工爆矢槍",
                         "id": "6a76-ad7d-8c55-0d9e",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -6457,7 +6457,7 @@
                         "hidden": false,
                         "entryLinks": [
                           {
-                            "name": "武器改造",
+                            "name": "武器改裝",
                             "id": "2465-66c0-1796-3cb1",
                             "hidden": false,
                             "import": true,
@@ -6646,7 +6646,7 @@
         ],
         "infoLinks": [
           {
-            "name": "深淵之女",
+            "name": "蔓延恐懼（光環）",
             "id": "7e39-1630-6b58-14de",
             "hidden": false,
             "targetId": "6e51-21f7-1753-cc65",
@@ -7150,14 +7150,14 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "速射",
+                        "name": "突擊",
                         "id": "573d-a69c-a11e-f6ac",
                         "hidden": false,
                         "targetId": "fc8a-8c24-bae9-cc1c",
                         "type": "rule"
                       },
                       {
-                        "name": "反制",
+                        "name": "針對",
                         "id": "1089-2903-5fbe-5178",
                         "hidden": false,
                         "targetId": "4111-82e3-9444-e942",
@@ -8067,7 +8067,7 @@
                     "hidden": false,
                     "entryLinks": [
                       {
-                        "name": "武器改造",
+                        "name": "武器改裝",
                         "id": "934c-94de-f7cd-ba40",
                         "hidden": false,
                         "import": true,
@@ -8280,7 +8280,7 @@
                     "hidden": false,
                     "entryLinks": [
                       {
-                        "name": "武器改造",
+                        "name": "武器改裝",
                         "id": "d2c5-c86d-eec6-3c1e",
                         "hidden": false,
                         "import": true,
@@ -8304,7 +8304,7 @@
         ]
       },
       {
-        "name": "阿拉魯斯終結者盾衛連長",
+        "name": "阿拉魯斯終結者護甲盾衛連長",
         "id": "6319-eeba-b717-bd86",
         "collective": false,
         "hidden": false,
@@ -8824,7 +8824,7 @@
         ],
         "profiles": [
           {
-            "name": "阿拉魯斯終結者盾衛連長",
+            "name": "阿拉魯斯終結者護甲盾衛連長",
             "id": "6024-501b-e93c-32a5",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
@@ -9683,7 +9683,7 @@
                     "hidden": false,
                     "entryLinks": [
                       {
-                        "name": "武器改造",
+                        "name": "武器改裝",
                         "id": "722f-1ee7-caaf-eed6",
                         "hidden": false,
                         "import": true,
@@ -10061,7 +10061,7 @@
             "type": "rule"
           },
           {
-            "name": "不覺疼痛",
+            "name": "不覺疼痛 5+*",
             "id": "60f7-f7b1-bc48-4666",
             "hidden": false,
             "targetId": "faec-8b1b-5a21-0087",
@@ -11489,7 +11489,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "5dd0-15f4-655e-6816",
                     "flatten": false,
                     "hidden": false,
@@ -11580,7 +11580,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "050c-8483-7bef-3ea5",
                     "flatten": false,
                     "hidden": false,
@@ -11696,7 +11696,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "武器改造",
+                        "name": "武器改裝",
                         "id": "7e23-1bd7-d8a1-f002",
                         "flatten": false,
                         "hidden": false,
@@ -11778,7 +11778,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "武器改造",
+                        "name": "武器改裝",
                         "id": "97b1-5eb7-271d-9020",
                         "flatten": false,
                         "hidden": false,
@@ -11789,7 +11789,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "毀滅傷害",
+                        "name": "連擊",
                         "id": "fd98-db38-b44f-ea8f",
                         "hidden": false,
                         "targetId": "1897-c22c-9597-12b1",
@@ -11900,7 +11900,7 @@
             "targetId": "eea5-aeaf-bbf0-d5ee"
           },
           {
-            "name": "外殼",
+            "name": "車體",
             "id": "a062-fb1c-cf5f-45fe",
             "hidden": false,
             "primary": false,
@@ -12387,7 +12387,7 @@
             ]
           },
           {
-            "name": "運輸工具",
+            "name": "神聖蘭德掠襲者戰車",
             "id": "f402-e37c-947f-10e7",
             "hidden": false,
             "typeId": "74f8-5443-9d6d-1f1e",
@@ -12430,7 +12430,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "3e8e-563c-60e8-ecac",
                     "flatten": false,
                     "hidden": false,
@@ -12468,7 +12468,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "1e49-5a7a-f087-21a3",
                     "flatten": false,
                     "hidden": false,
@@ -12549,7 +12549,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "4b1b-1ed6-2196-1fef",
                     "flatten": false,
                     "hidden": false,
@@ -12634,7 +12634,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "7dea-6508-f0d0-cfca",
                     "flatten": false,
                     "hidden": false,
@@ -12725,7 +12725,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "8332-1b56-a323-b1b0",
                     "flatten": false,
                     "hidden": false,
@@ -13778,7 +13778,7 @@
         ],
         "infoLinks": [
           {
-            "name": "深淵之女",
+            "name": "蔓延恐懼（光環）",
             "id": "afff-35e7-f063-e392",
             "hidden": false,
             "targetId": "6e51-21f7-1753-cc65",
@@ -14506,7 +14506,7 @@
         ],
         "infoLinks": [
           {
-            "name": "深淵之女",
+            "name": "蔓延恐懼（光環）",
             "id": "c895-250c-6f93-f67e",
             "hidden": false,
             "targetId": "6e51-21f7-1753-cc65",
@@ -14998,7 +14998,7 @@
         ]
       },
       {
-        "name": "裝備阿德拉斯長矛與熱熔長矛的禁軍衛士",
+        "name": "裝備阿德拉斯長矛的禁軍衛士（傳奇）",
         "id": "af0f-5212-907e-7125",
         "collective": false,
         "hidden": false,
@@ -16250,7 +16250,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "1478-4942-5a02-3840",
                     "flatten": false,
                     "hidden": false,
@@ -16342,7 +16342,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "65c7-8f1f-417d-4f0a",
                     "flatten": false,
                     "hidden": false,
@@ -17381,7 +17381,7 @@
         ]
       },
       {
-        "name": "維納塔里禁軍",
+        "name": "裝備動能毀滅槍的維納塔里禁軍",
         "id": "201e-e502-a8d1-3974",
         "collective": false,
         "hidden": false,
@@ -17417,7 +17417,7 @@
             "targetId": "dda2-bb0a-215e-ad9c"
           },
           {
-            "name": "維納塔里禁軍",
+            "name": "裝備動能毀滅槍的維納塔里禁軍",
             "id": "478f-b6ec-48b4-0c8f",
             "hidden": false,
             "primary": false,
@@ -18680,7 +18680,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "399a-8807-bda0-e37c",
                     "flatten": false,
                     "hidden": false,
@@ -18691,7 +18691,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "無視掩體",
+                    "name": "爆炸",
                     "id": "fc04-6e34-4652-7c53",
                     "hidden": false,
                     "targetId": "6c1f-1cf7-ff25-c99e",
@@ -19378,7 +19378,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "cb1f-240e-53b3-2e16",
                     "flatten": false,
                     "hidden": false,
@@ -19560,7 +19560,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "武器改造",
+                        "name": "武器改裝",
                         "id": "39a9-0f24-855c-3c58",
                         "flatten": false,
                         "hidden": false,
@@ -19571,7 +19571,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "無視掩體",
+                        "name": "雙聯",
                         "id": "436e-44a3-22fd-9330",
                         "hidden": false,
                         "targetId": "cf93-ad4d-2f08-a79d",
@@ -19669,7 +19669,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "武器改造",
+                        "name": "武器改裝",
                         "id": "9698-329f-4c47-628f",
                         "flatten": false,
                         "hidden": false,
@@ -19764,7 +19764,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "武器改造",
+                        "name": "武器改裝",
                         "id": "53ca-1bd6-0210-4a02",
                         "flatten": false,
                         "hidden": false,
@@ -19870,7 +19870,7 @@
             "targetId": "aff3-d6a3-2a95-9dc"
           },
           {
-            "name": "外殼",
+            "name": "車體",
             "id": "62db-b0ef-45cf-b915",
             "hidden": false,
             "primary": false,
@@ -20556,7 +20556,7 @@
             "targetId": "eea5-aeaf-bbf0-d5ee"
           },
           {
-            "name": "外殼",
+            "name": "車體",
             "id": "8a7b-6cc9-6dbb-4d94",
             "hidden": false,
             "primary": false,
@@ -21866,7 +21866,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "0781-fb4c-d7a7-00e9",
                     "flatten": false,
                     "hidden": false,
@@ -22590,7 +22590,7 @@
             "targetId": "eea5-aeaf-bbf0-d5ee"
           },
           {
-            "name": "外殼",
+            "name": "車體",
             "id": "c489-5c72-3e63-1682",
             "hidden": false,
             "primary": false,
@@ -23101,7 +23101,7 @@
             ]
           },
           {
-            "name": "火力輔助",
+            "name": "突擊載具",
             "id": "a331-3792-d689-fd1b",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -23758,7 +23758,7 @@
             ]
           },
           {
-            "name": "運輸工具",
+            "name": "獵戶座突擊運輸艇",
             "id": "4415-cc2a-b07b-8a9f",
             "hidden": false,
             "typeId": "74f8-5443-9d6d-1f1e",
@@ -23805,7 +23805,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "539a-1ec9-4b4f-dbf2",
                     "flatten": false,
                     "hidden": false,
@@ -23887,7 +23887,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "fd54-424e-8fa4-d89b",
                     "flatten": false,
                     "hidden": false,
@@ -23968,7 +23968,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "8f38-052d-0bc0-31c4",
                     "flatten": false,
                     "hidden": false,
@@ -24059,7 +24059,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "ee19-f966-a610-5c37",
                     "flatten": false,
                     "hidden": false,
@@ -24640,7 +24640,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "a42b-589d-dfb4-233d",
                     "flatten": false,
                     "hidden": false,
@@ -24722,7 +24722,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "ab56-e3ce-3d98-d662",
                     "flatten": false,
                     "hidden": false,
@@ -24803,7 +24803,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "937b-69d7-b746-d156",
                     "flatten": false,
                     "hidden": false,
@@ -25077,7 +25077,7 @@
                 ],
                 "rules": [
                   {
-                    "name": "蔓延恐懼（光環）",
+                    "name": "寂靜修女會",
                     "id": "bda3-9533-2380-a4e1",
                     "description": "- 集結軍隊時，你可以選擇一個友方^^**巫咒修女角色**^^模型作為你的^^**統帥**^^。\n- 友方^^**審判修女**^^單位具有^^**戰線**^^關鍵詞。\n- 友方^^**巫咒修女**^^單位具有「蔓延恐懼」能力。",
                     "hidden": false
@@ -25233,7 +25233,7 @@
                 ],
                 "rules": [
                   {
-                    "name": "以寡敵眾",
+                    "name": "乘鎏金之翼",
                     "id": "ddd9-c874-560d-1edf",
                     "description": "在對手的近戰階段結束時，若一個友方^^**帝皇禁軍終結者**^^單位未處於交戰範圍內，你可以將該單位置入**戰略預備隊**。",
                     "hidden": false
@@ -25750,7 +25750,7 @@
                       {
                         "name": "帝皇之怒的樂器",
                         "id": "7a55-6e33-3670-9c81",
-                        "description": "友方^^**帝皇禁軍**^^單位可以重擲**衝鋒擲骰**。\n\n**偏好武藝**：達卡塔萊\n額外效果：與該單位交戰的敵方單位進行**包抄／整隊移動**時，該次移動距離-2吋。",
+                        "description": "友方^^**帝皇禁軍**^^單位可以重擲**衝鋒擲骰**。\n\n**偏好武藝**：達卡塔萊\n額外效果：與該單位交戰的敵方單位進行**跟進／重整移動**時，該次移動距離-2吋。",
                         "hidden": false
                       }
                     ]
@@ -26447,7 +26447,7 @@
         ],
         "infoLinks": [
           {
-            "name": "無視掩體",
+            "name": "針對",
             "id": "8da8-c8d1-7f57-7104",
             "hidden": false,
             "targetId": "4111-82e3-9444-e942",
@@ -30006,7 +30006,7 @@
         ],
         "profiles": [
           {
-            "name": "堡主之斧",
+            "name": "堡主斧",
             "id": "1fde-760c-17e2-4fd1",
             "hidden": false,
             "typeId": "8a40-4aaa-c780-9046",
@@ -30050,7 +30050,7 @@
             ]
           },
           {
-            "name": "堡主之斧",
+            "name": "堡主斧",
             "id": "76c0-ea97-5a33-2b52",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -34379,7 +34379,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "熔融",
+                    "name": "熱熔",
                     "id": "966f-e35b-ed35-f849",
                     "hidden": false,
                     "targetId": "7cdb-fb99-44a9-8849",
@@ -35796,7 +35796,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "反制",
+                    "name": "針對",
                     "id": "e649-a42c-74c6-f324",
                     "hidden": false,
                     "targetId": "4111-82e3-9444-e942",
@@ -36179,7 +36179,7 @@
                     "characteristics": [
                       {
                         "name": "說明",
-                        "$text": "當此單位被選擇進行**包抄／整隊移動**時：\n- 此單位可以移動至多4吋。\n- 你可以為該次**整隊移動**選擇任一**整隊模式**，不受該模式「移動前」限制。",
+                        "$text": "當此單位被選擇進行**跟進／重整移動**時：\n- 此單位可以移動至多4吋。\n- 你可以為該次**整隊移動**選擇任一**重整模式**，不受該模式「移動前」限制。",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ]
@@ -38502,7 +38502,7 @@
             ]
           },
           {
-            "name": "迅捷哨衛",
+            "name": "迅捷哨兵",
             "id": "4da6-0cda-7ba7-17bb",
             "hidden": false,
             "import": true,
@@ -38611,7 +38611,7 @@
             ],
             "profiles": [
               {
-                "name": "迅捷哨衛",
+                "name": "迅捷哨兵",
                 "id": "5ef3-94db-35cc-c776",
                 "hidden": false,
                 "typeId": "9cc3-6d83-4dd3-9b64",
@@ -40864,12 +40864,12 @@
             ],
             "selectionEntryGroups": [
               {
-                "name": "武器改造",
+                "name": "武器改裝",
                 "id": "e104-b653-c292-beb5",
                 "hidden": false,
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "ea03-548d-7905-7f27",
                     "hidden": false,
                     "import": true,
@@ -42519,7 +42519,7 @@
             ]
           },
           {
-            "name": "阿雷－伯勞鳥",
+            "name": "阿雷伯勞鳥",
             "id": "0f71-32f6-5766-fe07",
             "hidden": false,
             "import": true,
@@ -42564,7 +42564,7 @@
             ],
             "profiles": [
               {
-                "name": "阿雷－伯勞鳥",
+                "name": "阿雷伯勞鳥",
                 "id": "12e6-bed4-8a6f-3eb3",
                 "hidden": false,
                 "typeId": "9cc3-6d83-4dd3-9b64",
@@ -42634,7 +42634,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "71d5-ca3f-30a6-0a9f",
                     "hidden": false,
                     "import": true,
@@ -42885,7 +42885,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "701d-b9b1-8764-c889",
                     "hidden": false,
                     "import": true,
@@ -42966,7 +42966,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "eab5-56bc-5612-7809",
                     "hidden": false,
                     "import": true,
@@ -43068,7 +43068,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "797e-e340-1816-57b1",
                     "hidden": false,
                     "import": true,
@@ -43151,7 +43151,7 @@
                 ]
               },
               {
-                "name": "精工爆彈槍",
+                "name": "精工爆矢槍",
                 "id": "ec9c-1777-885f-9551",
                 "hidden": false,
                 "import": true,
@@ -43170,7 +43170,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "9b97-e98a-9810-0b67",
                     "hidden": false,
                     "import": true,
@@ -43207,7 +43207,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "精工爆彈槍",
+                    "name": "精工爆矢槍",
                     "id": "27ee-b2d1-3231-6a5e",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -43281,7 +43281,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "94b4-e762-3327-59fe",
                     "hidden": false,
                     "import": true,
@@ -43399,7 +43399,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "d9d7-6497-0471-4d65",
                     "hidden": false,
                     "import": true,
@@ -43519,7 +43519,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "ccdf-0443-a832-7eb0",
                     "hidden": false,
                     "import": true,
@@ -43656,7 +43656,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "8f68-39da-b30d-1747",
                     "hidden": false,
                     "import": true,
@@ -43747,7 +43747,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "ce73-4860-2cc0-da95",
                     "hidden": false,
                     "import": true,
@@ -43838,7 +43838,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "acfd-e0d4-c780-9218",
                     "hidden": false,
                     "import": true,
@@ -43946,7 +43946,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "827a-7d84-e7a1-7bbc",
                     "hidden": false,
                     "import": true,
@@ -44037,7 +44037,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "f285-ffc6-f439-f26f",
                     "hidden": false,
                     "import": true,
@@ -44138,7 +44138,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "60cf-e757-d09b-e7a8",
                     "hidden": false,
                     "import": true,
@@ -44229,7 +44229,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "ae6a-0afc-bb40-0e1d",
                     "hidden": false,
                     "import": true,
@@ -44330,7 +44330,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "9b71-0c2d-d4b3-ba43",
                     "hidden": false,
                     "import": true,
@@ -44610,7 +44610,7 @@
                     "hidden": false,
                     "entryLinks": [
                       {
-                        "name": "武器改造",
+                        "name": "武器改裝",
                         "id": "b46c-ea06-a9e7-84c6",
                         "hidden": false,
                         "import": true,
@@ -44670,7 +44670,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "2f7d-34c0-2a40-df98",
                     "hidden": false,
                     "import": true,
@@ -44751,7 +44751,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "9d2c-4515-526b-459f",
                     "hidden": false,
                     "import": true,
@@ -44853,7 +44853,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "c2db-1e80-a379-32b3",
                     "hidden": false,
                     "import": true,
@@ -44964,7 +44964,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "武器改造",
+                    "name": "武器改裝",
                     "id": "af1f-a454-08bf-e77b",
                     "hidden": false,
                     "import": true,
@@ -45084,7 +45084,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "武器改造",
+                        "name": "武器改裝",
                         "id": "195c-9c6e-2a61-8488",
                         "hidden": false,
                         "import": true,
@@ -45201,7 +45201,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "武器改造",
+                        "name": "武器改裝",
                         "id": "baf3-1b8a-f133-e64b",
                         "hidden": false,
                         "import": true,
