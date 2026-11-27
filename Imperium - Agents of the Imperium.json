@@ -3444,7 +3444,7 @@
         ]
       },
       {
-        "name": "聖化者",
+        "name": "淨化者",
         "id": "b5c8-8283-a1da-d5a1",
         "hidden": false,
         "import": true,
@@ -4445,7 +4445,7 @@
       {
         "name": "殺戮小隊",
         "id": "adc1-e09a-fcd4-8d77",
-        "description": "每當一次攻擊指定此單位為目標時，若此單位包含具有不同韌性屬性的模型，則直到攻擊單位完成其攻擊前，判定該攻擊成功造傷所需擲骰時，使用此單位中多數模型的韌性屬性。若兩個或更多韌性屬性並列為多數，則使用其中最高者。",
+        "description": "每當一次攻擊指定此單位為目標時，若此單位包含韌性屬性不同的模型，直到攻擊單位完成其攻擊前，判定該次攻擊成功致傷所需的擲骰結果時，使用此單位中佔多數模型的韌性屬性。若有兩種或以上韌性屬性並列為最多，則使用其中最高值。\n\n判定此單位中的哪些模型可以登上運輸載具時，殺戮小隊終結者模型、殺戮小隊突擊騎兵模型、殺戮小隊機車模型，以及裝備跳躍背包的模型，各佔用兩個模型的運載空間；但除此之外，只要其所屬單位可以登上某運輸載具，這些模型也可以登上該載具，即使其他單位中的同類模型具有終結者、騎乘或跳躍背包關鍵詞。\n\n就與地形特徵互動而言，具有此能力的單位中所有模型均視為步兵模型，即使其他單位中的同類模型具有騎乘或跳躍背包關鍵詞。\n\n**設計師註記**：*上述規則採用的抽象處理雖會使部分模型的行為與其他單位中的同類模型不同，但其設計目的是盡量簡化移動、運輸與掩護增益規則。*",
         "hidden": false
       }
     ],
@@ -4650,7 +4650,7 @@
             ]
           },
           {
-            "name": "破盾彈",
+            "name": "碎盾者子彈",
             "id": "d610-cc24-7aba-b494",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -4658,7 +4658,7 @@
             "characteristics": [
               {
                 "name": "描述",
-                "$text": "每場戰鬥一次，當為此模型的處決者步槍選擇目標時，它可以發射一發破盾彈。若如此做，直到該階段結束，每次此模型使用該武器攻擊時，致傷擲骰加 1，且任何成功的致傷擲骰都視為暴擊致傷。",
+                "$text": "每場戰鬥一次，當為此模型的處決者步槍選擇目標時，它可以發射一發碎盾者子彈。若如此做，直到該階段結束，每次此模型使用該武器攻擊時，致傷擲骰加 1，且任何成功的致傷擲骰都視為暴擊致傷。",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -4712,7 +4712,7 @@
                 "type": "rule"
               },
               {
-                "name": "無視掩護",
+                "name": "無視掩體",
                 "id": "4155-6297-c006-d032",
                 "hidden": false,
                 "targetId": "4640-43e7-30b-215a",
@@ -4813,7 +4813,7 @@
                 "type": "rule"
               },
               {
-                "name": "無視掩護",
+                "name": "無視掩體",
                 "id": "509b-6e77-c6cd-bd03",
                 "hidden": false,
                 "targetId": "4640-43e7-30b-215a",
@@ -4925,7 +4925,7 @@
             ]
           },
           {
-            "name": "微型熱熔彈",
+            "name": "微型熱熔彈藥",
             "id": "bcba-352d-f7f2-84ba",
             "hidden": true,
             "import": true,
@@ -5022,7 +5022,7 @@
             ],
             "profiles": [
               {
-                "name": "微型熱熔彈",
+                "name": "微型熱熔彈藥",
                 "id": "2992-78d6-3deb-f5b7",
                 "hidden": false,
                 "typeId": "9cc3-6d83-4dd3-9b64",
@@ -5116,7 +5116,7 @@
             "sortIndex": 1,
             "entryLinks": [
               {
-                "name": "強大冠軍",
+                "name": "勇猛鬥士",
                 "id": "5a33-0a7e-1b5a-3b8e",
                 "hidden": false,
                 "import": true,
@@ -5202,7 +5202,7 @@
             "targetId": "4f3a-f0f7-6647-348d"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "8b7a-53ad-d507-82a9",
             "primary": false,
             "targetId": "5a61-81ac-eb7c-a87e"
@@ -5277,7 +5277,7 @@
             "type": "rule"
           },
           {
-            "name": "深度打擊",
+            "name": "深入打擊",
             "id": "8251-6cc0-fd79-a9bf",
             "hidden": false,
             "targetId": "7cb5-dd6b-dd87-ad3b",
@@ -5615,7 +5615,7 @@
             ]
           },
           {
-            "name": "秘學炸藥",
+            "name": "特殊炸藥",
             "id": "cb38-27d5-6d94-baca",
             "hidden": true,
             "import": true,
@@ -5712,7 +5712,7 @@
             ],
             "profiles": [
               {
-                "name": "秘學炸藥",
+                "name": "特殊炸藥",
                 "id": "3228-4b06-ece1-3172",
                 "hidden": false,
                 "typeId": "9cc3-6d83-4dd3-9b64",
@@ -5736,7 +5736,7 @@
             "sortIndex": 1,
             "entryLinks": [
               {
-                "name": "強大冠軍",
+                "name": "勇猛鬥士",
                 "id": "f7c0-0954-cc89-e002",
                 "hidden": false,
                 "import": true,
@@ -5779,7 +5779,7 @@
             "targetId": "4f3a-f0f7-6647-348d"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "2d07-a29-b6b5-ea4",
             "primary": false,
             "targetId": "5a61-81ac-eb7c-a87e"
@@ -6343,7 +6343,7 @@
             "sortIndex": 1,
             "entryLinks": [
               {
-                "name": "強大冠軍",
+                "name": "勇猛鬥士",
                 "id": "263c-7c25-38b3-29df",
                 "hidden": false,
                 "import": true,
@@ -6421,7 +6421,7 @@
             "type": "rule"
           },
           {
-            "name": "深度打擊",
+            "name": "深入打擊",
             "id": "c7b6-1da2-946c-cf66",
             "hidden": false,
             "targetId": "7cb5-dd6b-dd87-ad3b",
@@ -6872,7 +6872,7 @@
             "sortIndex": 1,
             "entryLinks": [
               {
-                "name": "強大冠軍",
+                "name": "勇猛鬥士",
                 "id": "8e6e-d032-72d5-8e12",
                 "hidden": false,
                 "import": true,
@@ -6891,7 +6891,7 @@
         "type": "unit",
         "associations": [
           {
-            "name": "領導",
+            "name": "領導中",
             "id": "6331-93d1-3538-bf82",
             "action": "group",
             "childId": "unit",
@@ -6948,7 +6948,7 @@
             "targetId": "9cfd-1c32-585f-7d5c"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "24cd-9f2a-fedc-25e2",
             "primary": false,
             "targetId": "5a61-81ac-eb7c-a87e"
@@ -8012,7 +8012,7 @@
             ],
             "entryLinks": [
               {
-                "name": "近戰武器",
+                "name": "格鬥武器",
                 "id": "903f-3ffe-5d07-4e1d",
                 "hidden": false,
                 "import": true,
@@ -8198,7 +8198,7 @@
             ],
             "entryLinks": [
               {
-                "name": "近戰武器",
+                "name": "格鬥武器",
                 "id": "4753-fac7-8593-a1cb",
                 "hidden": false,
                 "import": true,
@@ -8322,7 +8322,7 @@
         ]
       },
       {
-        "name": "近戰武器",
+        "name": "格鬥武器",
         "id": "cb73-3a77-d189-75d2",
         "collective": true,
         "comment": "1A",
@@ -8341,7 +8341,7 @@
         ],
         "profiles": [
           {
-            "name": "近戰武器",
+            "name": "格鬥武器",
             "id": "9522-b10f-5943-435d",
             "hidden": false,
             "typeId": "8a40-4aaa-c780-9046",
@@ -8405,7 +8405,7 @@
             "targetId": "cf47-a0d7-7207-29dc"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "a1f5-d565-a042-5554",
             "primary": false,
             "targetId": "5a61-81ac-eb7c-a87e"
@@ -8936,7 +8936,7 @@
                 ]
               },
               {
-                "name": "近戰武器",
+                "name": "格鬥武器",
                 "id": "9e05-f2e6-8d5a-4fea",
                 "hidden": false,
                 "import": true,
@@ -9195,7 +9195,7 @@
                 "type": "selectionEntry"
               },
               {
-                "name": "近戰武器",
+                "name": "格鬥武器",
                 "id": "ba1d-9efb-9aef-24ee",
                 "hidden": false,
                 "import": true,
@@ -9326,7 +9326,7 @@
             ],
             "entryLinks": [
               {
-                "name": "近戰武器",
+                "name": "格鬥武器",
                 "id": "61ac-6b4e-ae74-ef7d",
                 "hidden": false,
                 "import": true,
@@ -9617,7 +9617,7 @@
         ]
       },
       {
-        "name": "近戰武器",
+        "name": "格鬥武器",
         "id": "5966-8ea2-54a-1edb",
         "collective": true,
         "comment": "戰鬥修女（AP -1）",
@@ -9636,7 +9636,7 @@
         ],
         "profiles": [
           {
-            "name": "近戰武器",
+            "name": "格鬥武器",
             "id": "1edd-350a-e0b3-5236",
             "hidden": false,
             "typeId": "8a40-4aaa-c780-9046",
@@ -9694,7 +9694,7 @@
             "targetId": "cf47-a0d7-7207-29dc"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "d3d0-7e7e-9731-4164",
             "primary": false,
             "targetId": "5a61-81ac-eb7c-a87e"
@@ -10151,7 +10151,7 @@
             ],
             "entryLinks": [
               {
-                "name": "近戰武器",
+                "name": "格鬥武器",
                 "id": "11e-eb63-1d1d-a578",
                 "hidden": false,
                 "import": true,
@@ -10675,7 +10675,7 @@
                 "type": "rule"
               },
               {
-                "name": "一次性",
+                "name": "單發",
                 "id": "af38-3ff-111c-4f",
                 "hidden": false,
                 "targetId": "cd26-1611-860a-91e4",
@@ -10783,7 +10783,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "9b72-e361-bf54-4e3f",
                     "hidden": false,
                     "import": true,
@@ -10973,7 +10973,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "2a35-83ae-f1ff-a4c6",
                     "hidden": false,
                     "import": true,
@@ -11223,7 +11223,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "3cd3-a613-a22-5e5c",
                     "hidden": false,
                     "import": true,
@@ -11430,7 +11430,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "862b-6cc0-555c-fdc8",
                     "hidden": false,
                     "import": true,
@@ -11514,7 +11514,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "29c5-450f-1338-ae07",
                     "hidden": false,
                     "import": true,
@@ -11728,7 +11728,7 @@
             "targetId": "cf47-a0d7-7207-29dc"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "a273-6f6-13ad-6d6b",
             "primary": false,
             "targetId": "5a61-81ac-eb7c-a87e"
@@ -12586,7 +12586,7 @@
             "targetId": "cf47-a0d7-7207-29dc"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "b423-f48a-fa7b-7476",
             "primary": false,
             "targetId": "5a61-81ac-eb7c-a87e"
@@ -13098,7 +13098,7 @@
             ],
             "entryLinks": [
               {
-                "name": "近戰武器",
+                "name": "格鬥武器",
                 "id": "bdc-6783-9d76-120a",
                 "hidden": false,
                 "import": true,
@@ -13214,7 +13214,7 @@
                     "type": "selectionEntry"
                   },
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "37d2-1366-ea5c-bc51",
                     "hidden": false,
                     "import": true,
@@ -13309,7 +13309,7 @@
                     "type": "selectionEntry"
                   },
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "a682-897a-c066-f8c7",
                     "hidden": false,
                     "import": true,
@@ -13424,7 +13424,7 @@
                     "type": "selectionEntry"
                   },
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "1ab-6dc-d6c3-7a80",
                     "hidden": false,
                     "import": true,
@@ -13537,7 +13537,7 @@
                     "type": "selectionEntry"
                   },
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "8300-7a2e-9c27-b5dd",
                     "hidden": false,
                     "import": true,
@@ -13589,7 +13589,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "近戰武器",
+                        "name": "格鬥武器",
                         "id": "2aa2-a9a7-6d29-e60",
                         "hidden": false,
                         "import": true,
@@ -13787,7 +13787,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "近戰武器",
+                        "name": "格鬥武器",
                         "id": "2aa6-dfc0-41af-8041",
                         "hidden": false,
                         "import": true,
@@ -13831,7 +13831,7 @@
                         ],
                         "infoLinks": [
                           {
-                            "name": "無視掩護",
+                            "name": "無視掩體",
                             "id": "7ea-cc4e-a4a5-a7f6",
                             "hidden": false,
                             "targetId": "4640-43e7-30b-215a",
@@ -13912,7 +13912,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "近戰武器",
+                        "name": "格鬥武器",
                         "id": "2c73-2a6b-f92e-5d91",
                         "hidden": false,
                         "import": true,
@@ -14029,7 +14029,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "近戰武器",
+                        "name": "格鬥武器",
                         "id": "86d3-c026-fc8-939d",
                         "hidden": false,
                         "import": true,
@@ -14347,7 +14347,7 @@
         ]
       },
       {
-        "name": "近戰武器",
+        "name": "格鬥武器",
         "id": "b56e-3b3a-25d-2fea",
         "collective": true,
         "comment": "2A",
@@ -14374,7 +14374,7 @@
         ],
         "profiles": [
           {
-            "name": "近戰武器",
+            "name": "格鬥武器",
             "id": "b366-d3c5-ebc-8cf9",
             "hidden": false,
             "typeId": "8a40-4aaa-c780-9046",
@@ -14444,7 +14444,7 @@
             "targetId": "e338-111e-d0c6-b687"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "d8d6-fec7-3dcf-2c7f",
             "primary": false,
             "targetId": "5a61-81ac-eb7c-a87e"
@@ -14939,7 +14939,7 @@
             ],
             "entryLinks": [
               {
-                "name": "近戰武器",
+                "name": "格鬥武器",
                 "id": "4836-1bde-1710-e7f8",
                 "hidden": false,
                 "import": true,
@@ -15063,7 +15063,7 @@
                     "type": "selectionEntry"
                   },
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "222c-9239-7620-f57",
                     "hidden": false,
                     "import": true,
@@ -15115,7 +15115,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "近戰武器",
+                        "name": "格鬥武器",
                         "id": "2b5e-742f-dd0c-7987",
                         "hidden": false,
                         "import": true,
@@ -15313,7 +15313,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "近戰武器",
+                        "name": "格鬥武器",
                         "id": "6b8c-b7c6-276c-359",
                         "hidden": false,
                         "import": true,
@@ -15356,7 +15356,7 @@
                         ],
                         "infoLinks": [
                           {
-                            "name": "無視掩護",
+                            "name": "無視掩體",
                             "id": "2ea3-5839-1bbf-be7",
                             "hidden": false,
                             "targetId": "4640-43e7-30b-215a",
@@ -15437,7 +15437,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "近戰武器",
+                        "name": "格鬥武器",
                         "id": "c255-fbbf-84b3-f035",
                         "hidden": false,
                         "import": true,
@@ -15554,7 +15554,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "近戰武器",
+                        "name": "格鬥武器",
                         "id": "9aef-a808-ec79-e035",
                         "hidden": false,
                         "import": true,
@@ -15690,7 +15690,7 @@
         "type": "model",
         "associations": [
           {
-            "name": "領導",
+            "name": "領導中",
             "id": "ad6e-af38-7720-efe0",
             "action": "group",
             "childId": "unit",
@@ -15829,7 +15829,7 @@
             "targetId": "13bf-2bee-3ae0-b414"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "b194-24ae-fa3f-54b9",
             "primary": false,
             "targetId": "5a61-81ac-eb7c-a87e"
@@ -16329,7 +16329,7 @@
             "sortIndex": 1,
             "entryLinks": [
               {
-                "name": "強大冠軍",
+                "name": "勇猛鬥士",
                 "id": "b004-3bfd-c6b8-0dcc",
                 "hidden": false,
                 "import": true,
@@ -16348,7 +16348,7 @@
         "type": "model",
         "associations": [
           {
-            "name": "領導",
+            "name": "領導中",
             "id": "2896-817f-cb62-b5bb",
             "action": "group",
             "childId": "unit",
@@ -17034,7 +17034,7 @@
             "sortIndex": 1,
             "entryLinks": [
               {
-                "name": "強大冠軍",
+                "name": "勇猛鬥士",
                 "id": "0b62-c7fe-d7f1-2602",
                 "hidden": false,
                 "import": true,
@@ -17053,7 +17053,7 @@
         "type": "model",
         "associations": [
           {
-            "name": "領導",
+            "name": "領導中",
             "id": "fcdf-33e1-36f6-8d8f",
             "action": "group",
             "childId": "unit",
@@ -17201,7 +17201,7 @@
             "targetId": "13bf-2bee-3ae0-b414"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "a0bb-bf11-5df0-2d07",
             "primary": false,
             "targetId": "5a61-81ac-eb7c-a87e"
@@ -17725,7 +17725,7 @@
             "sortIndex": 1,
             "entryLinks": [
               {
-                "name": "強大冠軍",
+                "name": "勇猛鬥士",
                 "id": "0dc9-e4dd-59ee-b101",
                 "hidden": false,
                 "import": true,
@@ -18169,7 +18169,7 @@
             "sortIndex": 1,
             "entryLinks": [
               {
-                "name": "強大冠軍",
+                "name": "勇猛鬥士",
                 "id": "3103-f273-fb58-29e8",
                 "hidden": false,
                 "import": true,
@@ -18188,7 +18188,7 @@
         "type": "model",
         "associations": [
           {
-            "name": "領導",
+            "name": "領導中",
             "id": "c723-1a7a-de66-a4a6",
             "action": "group",
             "childId": "unit",
@@ -18336,7 +18336,7 @@
             "targetId": "9cfd-1c32-585f-7d5c"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "2388-22aa-8a7f-6e63",
             "primary": false,
             "targetId": "5a61-81ac-eb7c-a87e"
@@ -19563,7 +19563,7 @@
         "type": "model",
         "associations": [
           {
-            "name": "領導",
+            "name": "領導中",
             "id": "0bf1-426c-ee6e-6180",
             "action": "group",
             "childId": "unit",
@@ -19722,7 +19722,7 @@
             "targetId": "13bf-2bee-3ae0-b414"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "13f8-9007-69cb-ec0b",
             "primary": false,
             "targetId": "5a61-81ac-eb7c-a87e"
@@ -20239,7 +20239,7 @@
             "sortIndex": 1,
             "entryLinks": [
               {
-                "name": "強大冠軍",
+                "name": "勇猛鬥士",
                 "id": "4171-98b2-f898-25a1",
                 "hidden": false,
                 "import": true,
@@ -20768,7 +20768,7 @@
             "sortIndex": 1,
             "entryLinks": [
               {
-                "name": "強大冠軍",
+                "name": "勇猛鬥士",
                 "id": "fe1f-1a0d-7fe0-1dd7",
                 "hidden": false,
                 "import": true,
@@ -20787,7 +20787,7 @@
         "type": "model",
         "associations": [
           {
-            "name": "領導",
+            "name": "領導中",
             "id": "1f96-0982-7ab0-311e",
             "action": "group",
             "childId": "unit",
@@ -20850,7 +20850,7 @@
             "targetId": "4f3a-f0f7-6647-348d"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "c093-9f08-e74f-d22a",
             "primary": false,
             "targetId": "5a61-81ac-eb7c-a87e"
@@ -21169,7 +21169,7 @@
             ]
           },
           {
-            "name": "近戰武器",
+            "name": "格鬥武器",
             "id": "e7b-4a11-f985-13de",
             "hidden": false,
             "import": true,
@@ -21194,7 +21194,7 @@
             ],
             "profiles": [
               {
-                "name": "近戰武器",
+                "name": "格鬥武器",
                 "id": "8770-3646-9fe7-380e",
                 "hidden": false,
                 "typeId": "8a40-4aaa-c780-9046",
@@ -21247,7 +21247,7 @@
             "sortIndex": 1,
             "entryLinks": [
               {
-                "name": "強大冠軍",
+                "name": "勇猛鬥士",
                 "id": "f34e-ea05-5567-e931",
                 "hidden": false,
                 "import": true,
@@ -21266,7 +21266,7 @@
         "type": "model",
         "associations": [
           {
-            "name": "領導",
+            "name": "領導中",
             "id": "e4a2-98a7-23e6-13d8",
             "action": "group",
             "childId": "unit",
@@ -21329,7 +21329,7 @@
             "targetId": "4f3a-f0f7-6647-348d"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "fb12-f919-b675-e1da",
             "primary": false,
             "targetId": "5a61-81ac-eb7c-a87e"
@@ -21743,7 +21743,7 @@
             "sortIndex": 1,
             "entryLinks": [
               {
-                "name": "強大冠軍",
+                "name": "勇猛鬥士",
                 "id": "365f-5dde-c4c9-1583",
                 "hidden": false,
                 "import": true,
@@ -21774,7 +21774,7 @@
             "targetId": "cf47-a0d7-7207-29dc"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "de29-24b6-7e67-2079",
             "primary": false,
             "targetId": "5a61-81ac-eb7c-a87e"
@@ -21863,7 +21863,7 @@
             "type": "rule"
           },
           {
-            "name": "深度打擊",
+            "name": "深入打擊",
             "id": "26c8-473d-f0c6-f98d",
             "hidden": false,
             "targetId": "7cb5-dd6b-dd87-ad3b",
@@ -22244,7 +22244,7 @@
             ],
             "entryLinks": [
               {
-                "name": "近戰武器",
+                "name": "格鬥武器",
                 "id": "dc21-cee5-a986-a906",
                 "hidden": false,
                 "import": true,
@@ -22367,7 +22367,7 @@
                             "type": "profile"
                           },
                           {
-                            "name": "無視掩護",
+                            "name": "無視掩體",
                             "id": "5e1e-3582-8389-0587",
                             "hidden": false,
                             "targetId": "4640-43e7-30b-215a",
@@ -22604,7 +22604,7 @@
                             "type": "profile"
                           },
                           {
-                            "name": "無視掩護",
+                            "name": "無視掩體",
                             "id": "1e02-13b3-dd6e-ea51",
                             "hidden": false,
                             "targetId": "4640-43e7-30b-215a",
@@ -22846,7 +22846,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "efed-bd09-86e6-480d",
                     "hidden": false,
                     "import": true,
@@ -22881,7 +22881,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "f181-dd3f-b715-3a05",
                     "hidden": false,
                     "import": true,
@@ -22951,7 +22951,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "4d47-4ac0-924d-753",
                     "hidden": false,
                     "import": true,
@@ -23123,7 +23123,7 @@
                         ],
                         "infoLinks": [
                           {
-                            "name": "無視掩護",
+                            "name": "無視掩體",
                             "id": "29b9-b9de-97f2-4d04",
                             "hidden": false,
                             "targetId": "4640-43e7-30b-215a",
@@ -23193,7 +23193,7 @@
         ]
       },
       {
-        "name": "近戰武器",
+        "name": "格鬥武器",
         "id": "e4a8-6ca4-df44-fc52",
         "collective": true,
         "comment": "軍團兵",
@@ -23220,7 +23220,7 @@
         ],
         "profiles": [
           {
-            "name": "近戰武器",
+            "name": "格鬥武器",
             "id": "b09e-5ce1-714e-4b59",
             "hidden": false,
             "typeId": "8a40-4aaa-c780-9046",
@@ -23298,7 +23298,7 @@
             "type": "rule"
           },
           {
-            "name": "無視掩護",
+            "name": "無視掩體",
             "id": "f41f-5589-d522-0e83",
             "hidden": false,
             "targetId": "4640-43e7-30b-215a",
@@ -23396,7 +23396,7 @@
         "type": "model",
         "associations": [
           {
-            "name": "領導",
+            "name": "領導中",
             "id": "0a12-7ecd-bfdf-567a",
             "action": "group",
             "childId": "unit",
@@ -23543,7 +23543,7 @@
             "targetId": "9cfd-1c32-585f-7d5c"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "c794-809f-7d48-f299",
             "primary": false,
             "targetId": "5a61-81ac-eb7c-a87e"
@@ -23678,7 +23678,7 @@
             "type": "profile"
           },
           {
-            "name": "深度打擊",
+            "name": "深入打擊",
             "id": "dd72-cc69-55e7-c25c",
             "hidden": false,
             "targetId": "7cb5-dd6b-dd87-ad3b",
@@ -25074,7 +25074,7 @@
                 "type": "upgrade",
                 "categoryLinks": [
                   {
-                    "name": "淨化敵軍",
+                    "name": "殲滅敵軍",
                     "id": "a713-7378-23c7-28a9",
                     "hidden": false,
                     "primary": false,
@@ -25138,7 +25138,7 @@
                   {
                     "name": "死亡守望任務戰術",
                     "id": "e9d9-5b1a-3377-bf4f",
-                    "description": "在你的指揮階段開始時，你可以選擇下列一項任務戰術。直到你的下一個指揮階段開始前，該任務戰術為啟用狀態，其效果適用於你軍隊中的所有 ^^死亡守望^^ 單位。每項任務戰術每場戰鬥只能被選擇一次。\n\n**狂怒戰術**\n當此任務戰術啟用時，你軍隊中 ^^死亡守望^^ 單位所裝備的武器具有［連擊 1］能力。\n\n**鎚魔戰術**\n當此任務戰術啟用時，你軍隊中 ^^死亡守望^^ 單位所裝備的武器具有［致命一擊］能力。\n\n**滌罪戰術**\n當此任務戰術啟用時，每當你軍隊中一個 ^^死亡守望^^ 模型進行攻擊時，若該攻擊造成致命創傷，該攻擊具有［精準］能力。",
+                    "description": "在你的指揮階段開始時，你可以選擇下列一項任務戰術。直到你的下一個指揮階段開始前，該任務戰術為啟用狀態，其效果適用於你軍隊中的所有 ^^死亡守望^^ 單位。每項任務戰術每場戰鬥只能被選擇一次。\n\n**狂怒戰術**\n當此任務戰術啟用時，你軍隊中 ^^死亡守望^^ 單位所裝備的武器具有［連擊 1］能力。\n\n**鎚魔戰術**\n當此任務戰術啟用時，你軍隊中 ^^死亡守望^^ 單位所裝備的武器具有［致命一擊］能力。\n\n**滌罪戰術**\n當此任務戰術啟用時，每當你軍隊中的 ^^死亡守望^^ 模型進行攻擊並造成**暴擊致傷**時，該次攻擊具有［精準］能力。",
                     "hidden": false
                   }
                 ]
@@ -25151,7 +25151,7 @@
                 "type": "upgrade",
                 "categoryLinks": [
                   {
-                    "name": "奪取並堅守",
+                    "name": "奪取並固守",
                     "id": "7746-94ca-8966-6c05",
                     "hidden": false,
                     "primary": false,
@@ -25215,7 +25215,7 @@
                   {
                     "name": "根除異端",
                     "id": "9e60-00d6-ecf7-929f",
-                    "description": "你軍隊中 ^^帝國仲裁庭、審判官、審判庭特務^^ 與 ^^獵巫修會^^ 模型所裝備的遠程武器具有［無視掩護］能力。\n\n每當你軍隊中一個 ^^帝國仲裁庭、審判官、審判庭特務^^ 或 ^^獵巫修會^^ 模型進行攻擊，且該攻擊指定一個含有 5 個或更多模型的 ^^混沌^^ 單位為目標時，該攻擊具有［連擊 1］能力。",
+                    "description": "你軍隊中 ^^帝國仲裁庭、審判官、審判庭特務^^ 與 ^^獵巫修會^^ 模型所裝備的遠程武器具有［無視掩體］能力。\n\n每當你軍隊中一個 ^^帝國仲裁庭、審判官、審判庭特務^^ 或 ^^獵巫修會^^ 模型進行攻擊，且該攻擊指定一個含有 5 個或更多模型的 ^^混沌^^ 單位為目標時，該攻擊具有［連擊 1］能力。",
                     "hidden": false
                   }
                 ]
@@ -25375,14 +25375,14 @@
                 ]
               },
               {
-                "name": "隱刃殲滅部隊",
+                "name": "隱藏利刃殲滅部隊",
                 "id": "e203-73dc-18d9-f390",
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
                 "categoryLinks": [
                   {
-                    "name": "干擾",
+                    "name": "擾亂",
                     "id": "c534-df92-9bef-76d6",
                     "hidden": false,
                     "primary": false,
@@ -25444,9 +25444,9 @@
                 ],
                 "rules": [
                   {
-                    "name": "極端制裁",
+                    "name": "極端許可",
                     "id": "1da6-2e09-b9c2-9504",
-                    "description": "你軍隊中的 ^^刺客庭^^ 單位每場戰鬥可以使用「過度殺戮」、「無魂恐懼」與「破盾彈」能力兩次，而非一次；但同一能力在同一戰鬥輪中不能使用超過一次。\n\n編組你的軍隊時，你軍隊中的每個 ^^刺客庭^^ 單位都具有對應的極限制裁能力，且你必須依照所示數值提高那些單位各自的分數花費。若這會使你的軍隊超過該場戰鬥的分數上限，則你不能在軍隊中包含該單位。",
+                    "description": "你軍隊中的 ^^刺客庭^^ 單位每場戰鬥可以使用「過度殺戮」、「無魂恐懼」與「碎盾者子彈」能力兩次，而非一次；但同一能力在同一戰鬥輪中不能使用超過一次。\n\n編組你的軍隊時，你軍隊中的每個 ^^刺客庭^^ 單位都具有對應的極端技能，且你必須依照所示數值提高那些單位各自的分數花費。若這會使你的軍隊超過該場戰鬥的分數上限，則你不能在軍隊中包含該單位。",
                     "hidden": false
                   }
                 ]
@@ -25463,7 +25463,7 @@
         "type": "model",
         "associations": [
           {
-            "name": "領導",
+            "name": "領導中",
             "id": "7267-f587-6461-aeb4",
             "action": "group",
             "childId": "unit",
@@ -26992,7 +26992,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "無視掩護",
+                    "name": "無視掩體",
                     "id": "3d7c-6650-6dda-4276",
                     "hidden": false,
                     "targetId": "4640-43e7-30b-215a",
@@ -27160,7 +27160,7 @@
             "targetId": "cf47-a0d7-7207-29dc"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "9a8d-5b68-152f-5cfd",
             "hidden": false,
             "primary": false,
@@ -29118,7 +29118,7 @@
             "targetId": "740a-892c-8958-defa"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "b36d-3852-585c-0154",
             "hidden": false,
             "primary": false,
@@ -29279,7 +29279,7 @@
         ],
         "infoLinks": [
           {
-            "name": "深度打擊",
+            "name": "深入打擊",
             "id": "5141-cd61-758f-f746",
             "hidden": false,
             "targetId": "7cb5-dd6b-dd87-ad3b",
@@ -29938,7 +29938,7 @@
                         ],
                         "infoLinks": [
                           {
-                            "name": "無視掩護",
+                            "name": "無視掩體",
                             "id": "b56d-b73a-7334-daaf",
                             "hidden": false,
                             "targetId": "4640-43e7-30b-215a",
@@ -30593,7 +30593,7 @@
             "targetId": "5128-90b-e4a5-dcbd"
           },
           {
-            "name": "框架",
+            "name": "車體",
             "id": "80a5-18de-2eee-d651",
             "hidden": false,
             "primary": false,
@@ -31710,7 +31710,7 @@
         ],
         "infoLinks": [
           {
-            "name": "無視掩護",
+            "name": "無視掩體",
             "id": "7e2e-e32f-b100-42f3",
             "hidden": false,
             "targetId": "4640-43e7-30b-215a",
@@ -31900,7 +31900,7 @@
             "targetId": "c779-37d6-af9a-db1a"
           },
           {
-            "name": "框架",
+            "name": "車體",
             "id": "00ab-2df4-e1e8-db39",
             "hidden": false,
             "primary": false,
@@ -32556,7 +32556,7 @@
             "targetId": "cf47-a0d7-7207-29dc"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "0ce5-41fe-b217-3917",
             "hidden": false,
             "primary": false,
@@ -33084,7 +33084,7 @@
                 ]
               },
               {
-                "name": "近戰武器",
+                "name": "格鬥武器",
                 "id": "c879-e390-adeb-5d9f",
                 "hidden": false,
                 "import": true,
@@ -33488,7 +33488,7 @@
                     ]
                   },
                   {
-                    "name": "教會重火焰噴射器",
+                    "name": "教廷噴火手槍",
                     "id": "795b-1935-c6c9-7fbc",
                     "hidden": false,
                     "import": true,
@@ -33514,7 +33514,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "無視掩護",
+                        "name": "無視掩體",
                         "id": "99bb-8425-0061-9dd6",
                         "hidden": false,
                         "targetId": "4640-43e7-30b-215a",
@@ -33537,7 +33537,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "教會重火焰噴射器",
+                        "name": "教廷噴火手槍",
                         "id": "7fda-fe83-ce04-262e",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -33979,7 +33979,7 @@
                     ]
                   },
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "fc45-5ad7-e9c4-eebb",
                     "hidden": false,
                     "import": true,
@@ -34077,7 +34077,7 @@
                     ]
                   },
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "a7b5-d236-f17b-a819",
                     "hidden": false,
                     "import": true,
@@ -34186,7 +34186,7 @@
                     ]
                   },
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "b49d-b309-b263-d3d5",
                     "hidden": false,
                     "import": true,
@@ -34257,7 +34257,7 @@
                         "type": "selectionEntry"
                       },
                       {
-                        "name": "教會火焰噴射器",
+                        "name": "教廷火焰噴射器",
                         "id": "55d6-9c8b-5ac0-d85d",
                         "hidden": false,
                         "import": true,
@@ -34301,7 +34301,7 @@
                         ],
                         "infoLinks": [
                           {
-                            "name": "無視掩護",
+                            "name": "無視掩體",
                             "id": "f8d0-ffaf-d968-7a94",
                             "hidden": false,
                             "targetId": "4640-43e7-30b-215a",
@@ -34490,7 +34490,7 @@
                     ]
                   },
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "531d-2f27-4744-7a8c",
                     "hidden": false,
                     "import": true,
@@ -34579,7 +34579,7 @@
                         ]
                       },
                       {
-                        "name": "教會火焰噴射器",
+                        "name": "教廷火焰噴射器",
                         "id": "514d-da0b-26e4-9557",
                         "hidden": false,
                         "import": true,
@@ -34680,7 +34680,7 @@
         ]
       },
       {
-        "name": "教會火焰噴射器",
+        "name": "教廷火焰噴射器",
         "id": "375e-b143-c7b6-d71e",
         "hidden": false,
         "import": true,
@@ -34696,7 +34696,7 @@
         ],
         "infoLinks": [
           {
-            "name": "無視掩護",
+            "name": "無視掩體",
             "id": "0c3f-40cd-1d5e-989e",
             "hidden": false,
             "targetId": "4640-43e7-30b-215a",
@@ -34712,7 +34712,7 @@
         ],
         "profiles": [
           {
-            "name": "教會火焰噴射器",
+            "name": "教廷火焰噴射器",
             "id": "45a6-2c98-63c6-9009",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -34956,7 +34956,7 @@
             "targetId": "a860-cde8-a263-dfa0"
           },
           {
-            "name": "框架",
+            "name": "車體",
             "id": "ac76-1ae9-9ae9-5de7",
             "hidden": false,
             "primary": false,
@@ -35622,7 +35622,7 @@
                         "type": "rule"
                       },
                       {
-                        "name": "無視掩護",
+                        "name": "無視掩體",
                         "id": "45f0-4b5d-0c5c-f44a",
                         "hidden": false,
                         "targetId": "4640-43e7-30b-215a",
@@ -35711,7 +35711,7 @@
                         "type": "rule"
                       },
                       {
-                        "name": "連裝",
+                        "name": "雙聯",
                         "id": "53fb-32f0-2ff2-ebd2",
                         "hidden": false,
                         "targetId": "cf93-ad4d-2f08-a79d",
@@ -35851,7 +35851,7 @@
                         "type": "rule"
                       },
                       {
-                        "name": "連裝",
+                        "name": "雙聯",
                         "id": "c1ea-d2ff-639a-fad7",
                         "hidden": false,
                         "targetId": "cf93-ad4d-2f08-a79d",
@@ -35939,7 +35939,7 @@
         ],
         "infoLinks": [
           {
-            "name": "一次性",
+            "name": "單發",
             "id": "5244-6cca-e6c6-6a3d",
             "hidden": false,
             "targetId": "cd26-1611-860a-91e4",
@@ -36865,7 +36865,7 @@
         "type": "model",
         "associations": [
           {
-            "name": "領導",
+            "name": "領導中",
             "id": "5efa-5e97-f909-d384",
             "action": "group",
             "childId": "unit",
@@ -37393,7 +37393,7 @@
             "sortIndex": 3,
             "selectionEntries": [
               {
-                "name": "近戰武器",
+                "name": "格鬥武器",
                 "id": "39a0-bdfb-05bd-b50d",
                 "hidden": false,
                 "import": true,
@@ -37429,7 +37429,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "906e-a0ca-f5da-3b0a",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
@@ -38138,7 +38138,7 @@
             ]
           },
           {
-            "name": "受損：剩餘 1-5 點生命值",
+            "name": "受損：剩餘 1-5 點耐傷",
             "id": "b96c-8339-3322-a92e",
             "hidden": false,
             "page": 19,
@@ -38298,7 +38298,7 @@
                     "type": "rule"
                   },
                   {
-                    "name": "連裝",
+                    "name": "雙聯",
                     "id": "340f-085b-0f02-047c",
                     "hidden": false,
                     "targetId": "cf93-ad4d-2f08-a79d",
@@ -38392,7 +38392,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "無視掩護",
+                    "name": "無視掩體",
                     "id": "661d-002a-4d35-4749",
                     "hidden": false,
                     "targetId": "4640-43e7-30b-215a",
@@ -38491,7 +38491,7 @@
                         "type": "rule"
                       },
                       {
-                        "name": "連裝",
+                        "name": "雙聯",
                         "id": "6ad4-cbaf-3092-9d20",
                         "hidden": false,
                         "targetId": "cf93-ad4d-2f08-a79d",
@@ -38577,7 +38577,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "連裝",
+                        "name": "雙聯",
                         "id": "2e09-3cf7-25dc-077a",
                         "hidden": false,
                         "targetId": "cf93-ad4d-2f08-a79d",
@@ -40815,7 +40815,7 @@
         ],
         "infoLinks": [
           {
-            "name": "深度打擊",
+            "name": "深入打擊",
             "id": "1157-7a88-c42c-df79",
             "hidden": false,
             "targetId": "7cb5-dd6b-dd87-ad3b",
@@ -41115,7 +41115,7 @@
             "characteristics": [
               {
                 "name": "描述",
-                "$text": "在戰鬥開始時，你可以為此單位在戰場上設置一個傳送信標指示物；該指示物可設置於任何不在你對手部署區內的位置。若如此做，每場戰鬥一次，你可以以 0 指揮點將此單位作為快速突入計謀的目標；但在結算該計謀時，你必須將此單位設置於該指示物 3\" 內，且不位於任何敵方模型 9\" 內。然後移除該指示物。",
+                "$text": "在戰鬥開始時，你可以為此單位在戰場上設置一個傳送信標指示物；該指示物可設置於任何不在你對手部署區內的位置。若如此做，每場戰鬥一次，你可以以 0 指揮點將此單位作為迅速入場計謀的目標；但在結算該計謀時，你必須將此單位設置於該指示物 3\" 內，且不位於任何敵方模型 9\" 內。然後移除該指示物。",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -41386,7 +41386,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "連裝",
+                        "name": "雙聯",
                         "id": "fa4a-ecc5-7e93-9560",
                         "hidden": false,
                         "targetId": "cf93-ad4d-2f08-a79d",
@@ -41800,7 +41800,7 @@
             "targetId": "cf47-a0d7-7207-29dc"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "c3b5-bd00-cced-7cf2",
             "hidden": false,
             "primary": false,
@@ -42349,7 +42349,7 @@
                         ]
                       },
                       {
-                        "name": "近戰武器",
+                        "name": "格鬥武器",
                         "id": "c782-b45c-51d2-2787",
                         "collective": false,
                         "hidden": false,
@@ -42560,7 +42560,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "近戰武器",
+                        "name": "格鬥武器",
                         "id": "5cb1-c32c-8836-778d",
                         "collective": true,
                         "hidden": false,
@@ -42835,7 +42835,7 @@
                             ],
                             "infoLinks": [
                               {
-                                "name": "無視掩護",
+                                "name": "無視掩體",
                                 "id": "baa2-73cd-7562-245f",
                                 "hidden": false,
                                 "targetId": "4640-43e7-30b-215a",
@@ -43234,7 +43234,7 @@
                         ],
                         "entryLinks": [
                           {
-                            "name": "近戰武器",
+                            "name": "格鬥武器",
                             "id": "0cb4-f20b-0f80-5da5",
                             "collective": true,
                             "hidden": false,
@@ -43360,7 +43360,7 @@
                         ]
                       },
                       {
-                        "name": "近戰武器",
+                        "name": "格鬥武器",
                         "id": "75ab-722f-4712-dd1e",
                         "collective": false,
                         "hidden": false,
@@ -43884,7 +43884,7 @@
                         ],
                         "infoLinks": [
                           {
-                            "name": "連裝",
+                            "name": "雙聯",
                             "id": "bdb8-51a2-e9b7-aa7a",
                             "hidden": false,
                             "targetId": "cf93-ad4d-2f08-a79d",
@@ -44071,7 +44071,7 @@
                         ],
                         "entryLinks": [
                           {
-                            "name": "近戰武器",
+                            "name": "格鬥武器",
                             "id": "236e-8121-2bcb-7eb5",
                             "collective": false,
                             "hidden": false,
@@ -44271,7 +44271,7 @@
                         ],
                         "entryLinks": [
                           {
-                            "name": "近戰武器",
+                            "name": "格鬥武器",
                             "id": "f847-55ce-3050-fcca",
                             "collective": false,
                             "hidden": false,
@@ -44473,7 +44473,7 @@
             "targetId": "cf47-a0d7-7207-29dc"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "ccd8-6676-c1e3-ec9c",
             "hidden": false,
             "primary": false,
@@ -45025,7 +45025,7 @@
                         ]
                       },
                       {
-                        "name": "近戰武器",
+                        "name": "格鬥武器",
                         "id": "7347-15ae-d2a6-9d7e",
                         "hidden": false,
                         "import": true,
@@ -45270,7 +45270,7 @@
                         ]
                       },
                       {
-                        "name": "近戰武器",
+                        "name": "格鬥武器",
                         "id": "4374-1670-d67d-7837",
                         "hidden": false,
                         "import": true,
@@ -45641,7 +45641,7 @@
                         ],
                         "infoLinks": [
                           {
-                            "name": "無視掩護",
+                            "name": "無視掩體",
                             "id": "fbfa-334d-d303-403f",
                             "hidden": false,
                             "targetId": "4640-43e7-30b-215a",
@@ -45655,7 +45655,7 @@
                             "type": "rule"
                           },
                           {
-                            "name": "連裝",
+                            "name": "雙聯",
                             "id": "d877-3fab-3eba-7e4a",
                             "hidden": false,
                             "targetId": "cf93-ad4d-2f08-a79d",
@@ -45749,7 +45749,7 @@
                         ],
                         "infoLinks": [
                           {
-                            "name": "連裝",
+                            "name": "雙聯",
                             "id": "f0d8-4654-bd01-6b97",
                             "hidden": false,
                             "targetId": "cf93-ad4d-2f08-a79d",
@@ -45941,7 +45941,7 @@
                         ],
                         "infoLinks": [
                           {
-                            "name": "連裝",
+                            "name": "雙聯",
                             "id": "fe69-311f-0543-5830",
                             "hidden": false,
                             "targetId": "cf93-ad4d-2f08-a79d",
@@ -46033,7 +46033,7 @@
                         ],
                         "infoLinks": [
                           {
-                            "name": "連裝",
+                            "name": "雙聯",
                             "id": "c0f2-0793-936c-6abc",
                             "hidden": false,
                             "targetId": "cf93-ad4d-2f08-a79d",
@@ -46237,7 +46237,7 @@
                         ]
                       },
                       {
-                        "name": "近戰武器",
+                        "name": "格鬥武器",
                         "id": "dd50-aff6-adc2-2eab",
                         "hidden": false,
                         "import": true,
@@ -46509,7 +46509,7 @@
                         ]
                       },
                       {
-                        "name": "近戰武器",
+                        "name": "格鬥武器",
                         "id": "a772-7b35-0f05-86ed",
                         "hidden": false,
                         "import": true,
@@ -46680,7 +46680,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "近戰武器",
+                        "name": "格鬥武器",
                         "id": "2d51-68f2-b93e-e270",
                         "hidden": false,
                         "import": true,
@@ -46860,7 +46860,7 @@
                             "type": "rule"
                           },
                           {
-                            "name": "連裝",
+                            "name": "雙聯",
                             "id": "d4b3-c328-a708-b98a",
                             "hidden": false,
                             "targetId": "cf93-ad4d-2f08-a79d",
@@ -46945,7 +46945,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "近戰武器",
+                        "name": "格鬥武器",
                         "id": "b383-d24e-28ce-7c22",
                         "hidden": false,
                         "import": true,
@@ -47118,7 +47118,7 @@
                             "type": "rule"
                           },
                           {
-                            "name": "連裝",
+                            "name": "雙聯",
                             "id": "f82d-106b-c00d-92d5",
                             "hidden": false,
                             "targetId": "cf93-ad4d-2f08-a79d",
@@ -47250,7 +47250,7 @@
             "targetId": "cf47-a0d7-7207-29dc"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "2fa6-b8cb-daa4-2df1",
             "hidden": false,
             "primary": false,
@@ -47338,7 +47338,7 @@
         ],
         "infoLinks": [
           {
-            "name": "深度打擊",
+            "name": "深入打擊",
             "id": "3a8f-c5e6-f17f-d695",
             "hidden": false,
             "targetId": "7cb5-dd6b-dd87-ad3b",
@@ -47773,7 +47773,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "近戰武器",
+                "name": "格鬥武器",
                 "id": "4a7f-71bc-1939-e2f3",
                 "hidden": false,
                 "import": true,
@@ -47800,7 +47800,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "8633-b8da-f4f6-ec7c",
                     "hidden": false,
                     "page": 11,
@@ -48087,7 +48087,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "近戰武器",
+                "name": "格鬥武器",
                 "id": "f814-6d4e-cedf-36bb",
                 "hidden": false,
                 "import": true,
@@ -48114,7 +48114,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "2b2d-dff9-af1f-1d45",
                     "hidden": false,
                     "page": 11,
@@ -48530,7 +48530,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "連裝",
+                    "name": "雙聯",
                     "id": "1592-0a13-0029-6151",
                     "hidden": false,
                     "targetId": "cf93-ad4d-2f08-a79d",
@@ -49332,7 +49332,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "近戰武器",
+                "name": "格鬥武器",
                 "id": "0935-a68e-6a5b-c2df",
                 "hidden": false,
                 "import": true,
@@ -49359,7 +49359,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "c3d3-8619-48b2-cb5f",
                     "hidden": false,
                     "page": 11,
@@ -49596,7 +49596,7 @@
             "sortIndex": 1,
             "entryLinks": [
               {
-                "name": "強大冠軍",
+                "name": "勇猛鬥士",
                 "id": "ffd5-29ea-5b98-1c04",
                 "hidden": false,
                 "import": true,
@@ -49622,7 +49622,7 @@
             "targetId": "cf47-a0d7-7207-29dc"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "78ee-fdf9-d6e4-5bbd",
             "hidden": false,
             "primary": false,
@@ -50104,7 +50104,7 @@
                     ],
                     "entryLinks": [
                       {
-                        "name": "近戰武器",
+                        "name": "格鬥武器",
                         "id": "844e-04d7-f984-7266",
                         "hidden": false,
                         "import": true,
@@ -50577,7 +50577,7 @@
                             ],
                             "infoLinks": [
                               {
-                                "name": "連裝",
+                                "name": "雙聯",
                                 "id": "5bb4-5c9d-70c0-f3b2",
                                 "hidden": false,
                                 "targetId": "cf93-ad4d-2f08-a79d",
@@ -52110,7 +52110,7 @@
                         ]
                       },
                       {
-                        "name": "近戰武器",
+                        "name": "格鬥武器",
                         "id": "339a-f825-b1c4-b1f2",
                         "hidden": false,
                         "import": true,
@@ -52426,7 +52426,7 @@
                             ]
                           },
                           {
-                            "name": "長誓守望遠程武器與近戰武器",
+                            "name": "長誓守望遠程武器與格鬥武器",
                             "id": "6110-6fec-a82c-6d18",
                             "hidden": false,
                             "import": true,
@@ -52479,7 +52479,7 @@
                                 ]
                               },
                               {
-                                "name": "近戰武器",
+                                "name": "格鬥武器",
                                 "id": "ea94-6fe1-6d9e-36f8",
                                 "hidden": false,
                                 "import": true,
@@ -52517,7 +52517,7 @@
                             ]
                           },
                           {
-                            "name": "阿斯塔特盾牌，爆矢槍與近戰武器",
+                            "name": "阿斯塔特盾牌，爆矢槍與格鬥武器",
                             "id": "b966-bb3a-819a-8b0a",
                             "hidden": false,
                             "import": true,
@@ -52570,7 +52570,7 @@
                                 ]
                               },
                               {
-                                "name": "近戰武器",
+                                "name": "格鬥武器",
                                 "id": "f135-8381-2a4b-e994",
                                 "hidden": false,
                                 "import": true,
@@ -53023,7 +53023,7 @@
                         ],
                         "selectionEntries": [
                           {
-                            "name": "破片砲與近戰武器",
+                            "name": "破片砲與格鬥武器",
                             "id": "fb69-f9eb-baa9-dd81",
                             "hidden": false,
                             "import": true,
@@ -53040,7 +53040,7 @@
                             ],
                             "entryLinks": [
                               {
-                                "name": "近戰武器",
+                                "name": "格鬥武器",
                                 "id": "edfc-ad61-877a-c383",
                                 "hidden": false,
                                 "import": true,
@@ -53186,7 +53186,7 @@
                             ]
                           },
                           {
-                            "name": "地獄火重型爆矢槍與近戰武器",
+                            "name": "地獄火重型爆矢槍與格鬥武器",
                             "id": "e61d-07e0-bc1e-f495",
                             "hidden": false,
                             "import": true,
@@ -53205,7 +53205,7 @@
                             ],
                             "entryLinks": [
                               {
-                                "name": "近戰武器",
+                                "name": "格鬥武器",
                                 "id": "ab1e-869e-9abd-100d",
                                 "hidden": false,
                                 "import": true,
@@ -53285,7 +53285,7 @@
                                     "type": "rule"
                                   },
                                   {
-                                    "name": "無視掩護",
+                                    "name": "無視掩體",
                                     "id": "1736-f9a3-92d6-3873",
                                     "hidden": false,
                                     "targetId": "4640-43e7-30b-215a",
@@ -53490,7 +53490,7 @@
             "targetId": "cf47-a0d7-7207-29dc"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "8808-d824-d627-ac84",
             "hidden": false,
             "primary": false,
@@ -54056,7 +54056,7 @@
                     ]
                   },
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "ffbc-4402-1e46-e08e",
                     "hidden": false,
                     "import": true,
@@ -54400,7 +54400,7 @@
                     ]
                   },
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "9bb3-5610-b3cb-6595",
                     "hidden": false,
                     "import": true,
@@ -54744,7 +54744,7 @@
                         "type": "rule"
                       },
                       {
-                        "name": "無視掩護",
+                        "name": "無視掩體",
                         "id": "7cf5-82b5-d475-fc70",
                         "hidden": false,
                         "targetId": "4640-43e7-30b-215a",
@@ -55285,7 +55285,7 @@
                             ]
                           },
                           {
-                            "name": "近戰武器",
+                            "name": "格鬥武器",
                             "id": "07c8-2144-b5e8-0db6",
                             "hidden": false,
                             "import": true,
@@ -55322,7 +55322,7 @@
                             ],
                             "profiles": [
                               {
-                                "name": "近戰武器",
+                                "name": "格鬥武器",
                                 "id": "5ee2-7ab6-8e83-32f9",
                                 "hidden": false,
                                 "typeId": "8a40-4aaa-c780-9046",
@@ -55429,7 +55429,7 @@
                     ]
                   },
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "9390-ecf6-63cd-58a3",
                     "hidden": false,
                     "import": true,
@@ -55852,7 +55852,7 @@
             "targetId": "14a0-40c9-2748-ae6e"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "a3cc-55a0-c4a3-576b",
             "hidden": false,
             "primary": false,
@@ -56303,7 +56303,7 @@
                 ]
               },
               {
-                "name": "近戰武器",
+                "name": "格鬥武器",
                 "id": "5f6a-1f9b-ffc5-ac6a",
                 "hidden": false,
                 "import": true,
@@ -56525,7 +56525,7 @@
                     ]
                   },
                   {
-                    "name": "阿斯塔特盾牌",
+                    "name": "阿斯塔特護盾",
                     "id": "10e9-87e5-c87e-35c1",
                     "hidden": false,
                     "import": true,
@@ -56544,7 +56544,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "阿斯塔特盾牌",
+                        "name": "阿斯塔特護盾",
                         "id": "8ae2-0f9c-05f1-da94",
                         "hidden": false,
                         "page": 17,
@@ -56621,7 +56621,7 @@
                 ]
               },
               {
-                "name": "近戰武器",
+                "name": "格鬥武器",
                 "id": "29cb-1986-12fa-4c90",
                 "collective": false,
                 "hidden": false,
@@ -56742,7 +56742,7 @@
         "type": "model",
         "associations": [
           {
-            "name": "領導",
+            "name": "領導中",
             "id": "df7f-03fe-76de-8187",
             "action": "group",
             "childId": "unit",
@@ -56847,7 +56847,7 @@
             "targetId": "cf47-a0d7-7207-29dc"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "754e-5838-017e-a3f1",
             "hidden": false,
             "primary": false,
@@ -57136,7 +57136,7 @@
                 "type": "rule"
               },
               {
-                "name": "無視掩護",
+                "name": "無視掩體",
                 "id": "df61-1dfe-2943-501b",
                 "hidden": false,
                 "targetId": "4640-43e7-30b-215a",
@@ -57283,7 +57283,7 @@
             "sortIndex": 1,
             "entryLinks": [
               {
-                "name": "強大冠軍",
+                "name": "勇猛鬥士",
                 "id": "10d7-08db-a311-6173",
                 "hidden": false,
                 "import": true,
@@ -57304,7 +57304,7 @@
         "type": "model",
         "associations": [
           {
-            "name": "領導",
+            "name": "領導中",
             "id": "3ed3-a50b-9d3e-869f",
             "action": "group",
             "childId": "unit",
@@ -58387,7 +58387,7 @@
         ]
       },
       {
-        "name": "近戰武器",
+        "name": "格鬥武器",
         "id": "d831-660c-e45b-6b30",
         "collective": true,
         "comment": "死亡守望",
@@ -58396,7 +58396,7 @@
         "type": "upgrade",
         "profiles": [
           {
-            "name": "近戰武器",
+            "name": "格鬥武器",
             "id": "4486-4257-7ea5-487d",
             "hidden": false,
             "typeId": "8a40-4aaa-c780-9046",
@@ -59137,7 +59137,7 @@
         ],
         "infoLinks": [
           {
-            "name": "連裝",
+            "name": "雙聯",
             "id": "ad6d-2582-98c4-4732",
             "hidden": false,
             "targetId": "cf93-ad4d-2f08-a79d",
@@ -59771,7 +59771,7 @@
         ]
       },
       {
-        "name": "聖化者",
+        "name": "淨化者",
         "id": "4e74-3710-7a66-9d6c",
         "hidden": false,
         "import": true,
@@ -59792,7 +59792,7 @@
             "targetId": "cf47-a0d7-7207-29dc"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "9f47-feaf-f1d8-2867",
             "hidden": false,
             "primary": false,
@@ -59806,7 +59806,7 @@
             "targetId": "aff3-d6a3-2a95-9dc"
           },
           {
-            "name": "聖化者",
+            "name": "淨化者",
             "id": "d987-a487-6c5f-cb9c",
             "hidden": false,
             "primary": false,
@@ -60203,7 +60203,7 @@
         ],
         "profiles": [
           {
-            "name": "聖化者",
+            "name": "淨化者",
             "id": "3655-8279-6fb4-d3d2",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
@@ -60252,7 +60252,7 @@
             ]
           },
           {
-            "name": "國教部佈道",
+            "name": "教廷布道",
             "id": "076f-bb1f-48be-9b3d",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -60361,14 +60361,14 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "無視掩護",
+                    "name": "無視掩體",
                     "id": "1f8f-710b-94a5-2ceb",
                     "hidden": false,
                     "targetId": "4640-43e7-30b-215a",
                     "type": "rule"
                   },
                   {
-                    "name": "一次性",
+                    "name": "單發",
                     "id": "8643-35fd-10a8-eefc",
                     "hidden": false,
                     "targetId": "cd26-1611-860a-91e4",
@@ -60595,7 +60595,7 @@
                 ]
               },
               {
-                "name": "近戰武器",
+                "name": "格鬥武器",
                 "id": "cf7f-823a-84d1-af1f",
                 "collective": false,
                 "hidden": false,
@@ -60631,7 +60631,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "a592-6eb9-16bb-1e16",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
@@ -60706,7 +60706,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "死亡教派刀刃",
+                "name": "死亡教派利刃",
                 "id": "05a0-b6ef-1ab3-10af",
                 "hidden": false,
                 "import": true,
@@ -60752,7 +60752,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "死亡教派刀刃",
+                    "name": "死亡教派利刃",
                     "id": "3555-4708-9abf-28c8",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
@@ -60828,7 +60828,7 @@
             ],
             "entryLinks": [
               {
-                "name": "聖化者近戰武器",
+                "name": "淨化者近戰武器",
                 "id": "91c9-9792-e185-a841",
                 "hidden": false,
                 "import": true,
@@ -60894,7 +60894,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "無視掩護",
+                    "name": "無視掩體",
                     "id": "a41a-dca1-5d81-0403",
                     "hidden": false,
                     "targetId": "4640-43e7-30b-215a",
@@ -60908,7 +60908,7 @@
                     "type": "rule"
                   },
                   {
-                    "name": "一次性",
+                    "name": "單發",
                     "id": "1540-eb1e-981a-b2d4",
                     "hidden": false,
                     "targetId": "cd26-1611-860a-91e4",
@@ -61191,7 +61191,7 @@
             ],
             "entryLinks": [
               {
-                "name": "聖化者近戰武器",
+                "name": "淨化者近戰武器",
                 "id": "2bed-4dca-a8c8-da3d",
                 "hidden": false,
                 "import": true,
@@ -61209,7 +61209,7 @@
                 ]
               },
               {
-                "name": "教會火焰噴射器",
+                "name": "教廷火焰噴射器",
                 "id": "72af-a96f-d69a-7271",
                 "hidden": false,
                 "import": true,
@@ -61279,7 +61279,7 @@
             ],
             "entryLinks": [
               {
-                "name": "聖化者近戰武器",
+                "name": "淨化者近戰武器",
                 "id": "c1c3-475c-5b00-e169",
                 "hidden": false,
                 "import": true,
@@ -61297,7 +61297,7 @@
                 ]
               },
               {
-                "name": "教會重火焰噴射器",
+                "name": "教廷噴火手槍",
                 "id": "8869-ae60-8ae6-c518",
                 "hidden": false,
                 "import": true,
@@ -61413,7 +61413,7 @@
             ],
             "entryLinks": [
               {
-                "name": "教會重火焰噴射器",
+                "name": "教廷噴火手槍",
                 "id": "da46-5cbc-13b2-f86b",
                 "hidden": false,
                 "import": true,
@@ -61453,7 +61453,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "近戰武器",
+                "name": "格鬥武器",
                 "id": "1212-3a92-d112-1ab0",
                 "collective": false,
                 "hidden": false,
@@ -61489,7 +61489,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "af7a-22d3-26e8-91c2",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
@@ -61556,7 +61556,7 @@
             ],
             "entryLinks": [
               {
-                "name": "教會重火焰噴射器",
+                "name": "教廷噴火手槍",
                 "id": "056a-fe95-a0b8-abed",
                 "hidden": false,
                 "import": true,
@@ -61596,7 +61596,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "近戰武器",
+                "name": "格鬥武器",
                 "id": "4390-8330-50de-be62",
                 "collective": false,
                 "hidden": false,
@@ -61632,7 +61632,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "2d62-ee29-d08c-97ed",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
@@ -61746,7 +61746,7 @@
         ]
       },
       {
-        "name": "聖化者近戰武器",
+        "name": "淨化者近戰武器",
         "id": "e56f-68cb-9b0c-0e28",
         "hidden": false,
         "import": true,
@@ -61773,7 +61773,7 @@
         ],
         "profiles": [
           {
-            "name": "聖化者近戰武器",
+            "name": "淨化者近戰武器",
             "id": "3277-cc48-f00b-db01",
             "hidden": false,
             "typeId": "8a40-4aaa-c780-9046",
@@ -61818,7 +61818,7 @@
         ]
       },
       {
-        "name": "教會重火焰噴射器",
+        "name": "教廷噴火手槍",
         "id": "3035-91a8-7c70-8f9c",
         "hidden": false,
         "import": true,
@@ -61834,7 +61834,7 @@
         ],
         "infoLinks": [
           {
-            "name": "無視掩護",
+            "name": "無視掩體",
             "id": "f040-c3b7-9ceb-a513",
             "hidden": false,
             "targetId": "4640-43e7-30b-215a",
@@ -61857,7 +61857,7 @@
         ],
         "profiles": [
           {
-            "name": "教會重火焰噴射器",
+            "name": "教廷噴火手槍",
             "id": "b009-2692-d776-46c4",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -61921,7 +61921,7 @@
         ],
         "infoLinks": [
           {
-            "name": "連裝",
+            "name": "雙聯",
             "id": "a2cc-46ec-cb01-eb72",
             "hidden": false,
             "targetId": "cf93-ad4d-2f08-a79d",
@@ -62428,7 +62428,7 @@
         "type": "unit",
         "associations": [
           {
-            "name": "領導",
+            "name": "領導中",
             "id": "e0be-943f-e7f3-74d8",
             "action": "group",
             "childId": "unit",
@@ -62524,7 +62524,7 @@
             "targetId": "aff3-d6a3-2a95-9dc"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "f9bc-add0-37ef-2580",
             "hidden": false,
             "primary": false,
@@ -63209,7 +63209,7 @@
             "sortIndex": 1,
             "entryLinks": [
               {
-                "name": "強大冠軍",
+                "name": "勇猛鬥士",
                 "id": "a647-21fe-ce29-7633",
                 "hidden": false,
                 "import": true,
@@ -66128,7 +66128,7 @@
         "type": "model",
         "associations": [
           {
-            "name": "領導",
+            "name": "領導中",
             "id": "5f46-b26b-57a4-f279",
             "action": "group",
             "childId": "unit",
@@ -66382,7 +66382,7 @@
             "targetId": "9cfd-1c32-585f-7d5c"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "e4f7-dc45-c4a3-088b",
             "hidden": false,
             "primary": false,
@@ -66945,7 +66945,7 @@
         "type": "model",
         "associations": [
           {
-            "name": "領導",
+            "name": "領導中",
             "id": "a3be-9f35-1423-843c",
             "action": "group",
             "childId": "unit",
@@ -67046,7 +67046,7 @@
             "targetId": "9cfd-1c32-585f-7d5c"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "f9d8-2bba-a107-f684",
             "hidden": false,
             "primary": false,
@@ -68276,7 +68276,7 @@
             "targetId": "aff3-d6a3-2a95-9dc"
           },
           {
-            "name": "榴彈",
+            "name": "手雷",
             "id": "a9bc-0f34-cdac-d563",
             "hidden": false,
             "primary": false,
@@ -68535,7 +68535,7 @@
             "sortIndex": 1,
             "entryLinks": [
               {
-                "name": "強大冠軍",
+                "name": "勇猛鬥士",
                 "id": "4e4f-c064-6915-1609",
                 "hidden": false,
                 "import": true,
@@ -68648,7 +68648,7 @@
                 ]
               },
               {
-                "name": "短管卡賓槍",
+                "name": "短筒卡賓槍",
                 "id": "73bf-b36b-d09a-f166",
                 "hidden": false,
                 "import": true,
@@ -68685,7 +68685,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "短管卡賓槍",
+                    "name": "短筒卡賓槍",
                     "id": "a1d4-f389-1912-983e",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -68731,7 +68731,7 @@
                 ]
               },
               {
-                "name": "屠夫刀刃",
+                "name": "屠夫之刃",
                 "id": "75e6-175a-f129-33a1",
                 "hidden": false,
                 "import": true,
@@ -68759,7 +68759,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "屠夫刀刃",
+                    "name": "屠夫之刃",
                     "id": "ec37-8df0-f71d-a530",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
@@ -68804,7 +68804,7 @@
                 ]
               },
               {
-                "name": "格拉利斯克的爪與牙",
+                "name": "利爪巨蜥的尖牙利爪",
                 "id": "58a8-b639-ba4c-8096",
                 "hidden": false,
                 "import": true,
@@ -68841,7 +68841,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "格拉利斯克的爪與牙",
+                    "name": "利爪巨蜥的尖牙利爪",
                     "id": "6b45-7d44-0935-5db8",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
@@ -69437,7 +69437,7 @@
                 "characteristics": [
                   {
                     "name": "描述",
-                    "$text": "持有者所在單位中的模型具有深度打擊能力。此外，你可以以 0 指揮點將持有者所在單位作為快速突入計謀的目標。",
+                    "$text": "持有者所在單位中的模型具有深度打擊能力。此外，你可以以 0 指揮點將持有者所在單位作為迅速入場計謀的目標。",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ]
@@ -70453,7 +70453,7 @@
                 "characteristics": [
                   {
                     "name": "描述",
-                    "$text": "每場戰鬥一次，若持有者在戰場上，你可以以 0CP 使用「快速介入」計謀。這麼做時，你必須指定你軍隊中的一個灰騎士終結者小隊單位為目標；使用該計謀時，該單位可以設置於戰場上任何距離所有敵方單位超過 6\" 的位置。",
+                    "$text": "每場戰鬥一次，若持有者在戰場上，你可以以 0CP 使用「迅速入場」計謀。這麼做時，你必須指定你軍隊中的一個灰騎士終結者小隊單位為目標；使用該計謀時，該單位可以設置於戰場上任何距離所有敵方單位超過 6\" 的位置。",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ]
@@ -71822,7 +71822,7 @@
             ],
             "infoLinks": [
               {
-                "name": "連裝",
+                "name": "雙聯",
                 "id": "2608-592f-a225-678d",
                 "hidden": false,
                 "targetId": "cf93-ad4d-2f08-a79d",
@@ -72802,7 +72802,7 @@
                 ]
               },
               {
-                "name": "深度打擊",
+                "name": "深入打擊",
                 "id": "e308-0d42-a7fc-ca8a",
                 "hidden": false,
                 "targetId": "7cb5-dd6b-dd87-ad3b",
@@ -73882,7 +73882,7 @@
             ]
           },
           {
-            "name": "決鬥家",
+            "name": "決鬥者",
             "id": "3238-43bc-70a5-b132",
             "hidden": false,
             "import": true,
@@ -74101,7 +74101,7 @@
             ],
             "profiles": [
               {
-                "name": "決鬥家",
+                "name": "決鬥者",
                 "id": "75d7-ced9-0114-84fc",
                 "hidden": false,
                 "typeId": "9cc3-6d83-4dd3-9b64",
@@ -76951,7 +76951,7 @@
             ],
             "infoLinks": [
               {
-                "name": "深度打擊",
+                "name": "深入打擊",
                 "id": "a195-a12b-39f8-2305",
                 "hidden": false,
                 "targetId": "7cb5-dd6b-dd87-ad3b",
@@ -78673,7 +78673,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "無視掩護",
+                    "name": "無視掩體",
                     "id": "81b9-4f38-d500-c6e2",
                     "hidden": false,
                     "targetId": "4640-43e7-30b-215a",
@@ -79196,7 +79196,7 @@
                 ]
               },
               {
-                "name": "教會火焰噴射器",
+                "name": "教廷火焰噴射器",
                 "id": "0d62-6e72-250f-0157",
                 "hidden": false,
                 "import": true,
@@ -79233,7 +79233,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "無視掩護",
+                    "name": "無視掩體",
                     "id": "461c-e23f-dd98-fc2b",
                     "hidden": false,
                     "targetId": "4640-43e7-30b-215a",
@@ -79267,7 +79267,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "教會火焰噴射器",
+                    "name": "教廷火焰噴射器",
                     "id": "409d-186d-33ff-161d",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -79350,7 +79350,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "無視掩護",
+                    "name": "無視掩體",
                     "id": "1fb8-ee18-6697-444d",
                     "hidden": false,
                     "targetId": "4640-43e7-30b-215a",
@@ -80702,7 +80702,7 @@
                 ]
               },
               {
-                "name": "教會重火焰噴射器",
+                "name": "教廷噴火手槍",
                 "id": "cd99-bdd4-a247-c3f1",
                 "hidden": false,
                 "import": true,
@@ -80739,7 +80739,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "無視掩護",
+                    "name": "無視掩體",
                     "id": "f38b-c4fb-cf55-93b2",
                     "hidden": false,
                     "targetId": "4640-43e7-30b-215a",
@@ -80762,7 +80762,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "教會重火焰噴射器",
+                    "name": "教廷噴火手槍",
                     "id": "100f-b1c6-61a1-243a",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -81133,7 +81133,7 @@
                 ]
               },
               {
-                "name": "近戰武器",
+                "name": "格鬥武器",
                 "id": "dc8f-fccb-7793-9330",
                 "hidden": false,
                 "import": true,
@@ -81161,7 +81161,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "近戰武器",
+                    "name": "格鬥武器",
                     "id": "4e6f-2d4b-6ebd-a1f4",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
